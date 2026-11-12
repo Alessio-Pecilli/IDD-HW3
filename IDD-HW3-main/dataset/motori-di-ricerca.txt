@@ -1,0 +1,1 @@
+Un motore di ricerca costruisce un indice invertito dei documenti. Per ogni termine l'indice memorizza la lista dei documenti che lo contengono. Il ranking ordina i risultati per rilevanza.

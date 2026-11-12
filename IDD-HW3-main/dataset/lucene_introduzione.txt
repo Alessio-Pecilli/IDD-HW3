@@ -1,0 +1,1 @@
+Apache Lucene è una libreria Java per il recupero dell'informazione. Lucene usa gli analyzer per trasformare il testo in token e supporta phrase query, query booleane e ranking BM25.
