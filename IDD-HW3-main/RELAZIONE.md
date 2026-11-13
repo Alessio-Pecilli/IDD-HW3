@@ -2,7 +2,7 @@
 
 Alessio Pecilli · matricola 589232 · ale.pecilli@stud.uniroma3.it
 
-Relazione completa: [`Relazione_HW3_Pecilli_589232.pdf`](Relazione_HW3_Pecilli_589232.pdf) (sorgente in `relazione/`).
+Relazione completa (versione finale consegnata): [`Relazione_HW3_Pecilli_589232.pdf`](Relazione_HW3_Pecilli_589232.pdf) (sorgente in `relazione/`).
 
 ## Struttura
 
