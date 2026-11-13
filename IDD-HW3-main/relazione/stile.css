@@ -45,3 +45,7 @@ figure img { width: 100%; }
 figcaption { font-size: 8pt; color: var(--tenue); margin-top: 1mm; }
 .formula { font-family: "DejaVu Serif", serif; font-style: italic; }
 .salto { break-before: page; }
+table.appendice { font-size: 7pt; }
+table.appendice td, table.appendice th { padding: .7mm 1.1mm; }
+table.appendice code { font-size: 6.8pt; background: none; padding: 0; }
+table.appendice th { white-space: nowrap; }
