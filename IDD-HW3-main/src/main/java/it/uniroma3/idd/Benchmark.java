@@ -19,7 +19,7 @@ import org.apache.lucene.search.Query;
 import org.apache.lucene.store.FSDirectory;
 
 // Misura i tempi di indicizzazione al crescere del numero di documenti e il tempo medio delle query.
-// Per ogni dimensione: 1 esecuzione di riscaldamento della JVM (scartata) + RIPETIZIONI esecuzioni, si riporta la mediana.
+// 1 esecuzione iniziale di riscaldamento della JVM (scartata), poi per ogni dimensione RIPETIZIONI esecuzioni, si riporta la mediana.
 public class Benchmark {
 
     static final int RIPETIZIONI = 5;
