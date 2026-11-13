@@ -4,3 +4,4 @@ index/
 dataset-wiki/.cache.jsonl
 dataset-wiki/.pagine.json
 __pycache__/
+*Elasticsearch*.pdf
