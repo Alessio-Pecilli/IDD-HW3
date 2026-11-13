@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Relazione HW3</title>
+<link rel="stylesheet" href="stile.css">
+</head>
+<body>
+
+<div class="corso">Ingegneria dei dati · 2026/2027</div>
+<h1>Homework 3 — Indicizzazione e ricerca di file .txt con Lucene</h1>
+<div class="sottotitolo">Relazione: analyzer, costruzione del dataset, tempi di indicizzazione e valutazione con metriche</div>
+<div class="anagrafica">
+  <div><b>Studente</b>Alessio Pecilli</div>
+  <div><b>Matricola</b>589232</div>
+  <div><b>Email</b>ale.pecilli@stud.uniroma3.it</div>
+  <div><b>Tecnologie</b>Java 21 · Maven · Lucene 10.1.0</div>
+</div>
+<p class="nota">Repository: https://github.com/Alessio-Pecilli/IDD-HW3</p>
+
+<div class="box">
+<p><b>Novità rispetto alla prima versione.</b> Il sistema è stato provato su una collezione di <b>1980 voci di Wikipedia</b> (12 MB di testo), non più solo su 12 file brevi. Sono stati misurati i tempi di indicizzazione al crescere della collezione (§4). Il sistema è stato valutato con <b>50 query giudicate</b> e metriche standard (Precision@10, Recall, R-Precision, MAP, MRR, nDCG@10, §6). La relazione spiega come sono stati costruiti entrambi i dataset (§2) e i test automatici sono passati da 11 a 52 (§7).</p>
+</div>
+
+<h2>1 Struttura del progetto</h2>
+<div class="griglia">
+  <div class="card"><b>Indexer.java</b><br>Crea un <code>Document</code> per ogni file <code>.txt</code> (campi <code>nome</code>, <code>contenuto</code>, <code>path</code>) e lo aggiunge con un <code>IndexWriter</code>. Cartella dei documenti e dell'indice da riga di comando.</div>
+  <div class="card"><b>Searcher.java</b><br>Legge le query da console (<code>nome …</code> / <code>contenuto …</code>), le passa al <code>QueryParser</code> e stampa score, path e tempo di risposta dei primi 10 risultati.</div>
+  <div class="card"><b>Valutazione.java · Metriche.java</b><br>Eseguono le query giudicate su tutta la collezione e calcolano le metriche; confrontano tre analyzer per il campo <code>contenuto</code>.</div>
+  <div class="card"><b>Benchmark.java</b><br>Misura il tempo di indicizzazione su sottoinsiemi crescenti della collezione e il tempo medio di risposta delle query.</div>
+  <div class="card"><b>scripts/build_dataset.py</b><br>Scarica le voci di Wikipedia e scrive i file <code>.txt</code> e il manifest con la ground truth (§2.2).</div>
+  <div class="card"><b>src/test, scripts/test_*.py</b><br>52 test automatici (JUnit + unittest), descritti in §7.</div>
+</div>
+
+<pre>python3 scripts/build_dataset.py --max-voci 2300   # dataset-wiki/ + eval/manifest.tsv
+mvn compile exec:java -Dexec.mainClass=it.uniroma3.idd.Indexer -Dexec.args="dataset-wiki index"
+mvn exec:java -Dexec.mainClass=it.uniroma3.idd.Searcher -Dexec.args="index"
+mvn exec:java -Dexec.mainClass=it.uniroma3.idd.Benchmark     # -> eval/benchmark.md
+mvn exec:java -Dexec.mainClass=it.uniroma3.idd.Valutazione   # -> eval/risultati.md, eval/top10.tsv
+mvn test &amp;&amp; python3 -m unittest discover -s scripts       # test automatici</pre>
+
+<h2>2 Costruzione dei dataset</h2>
+<p>Si usano due collezioni con scopi diversi: una piccola, scritta a mano, per verificare il comportamento di ogni funzionalità con risultati prevedibili, e una grande, presa da Wikipedia, per misurare i tempi e valutare l'efficacia con le metriche.</p>
+
+<h3>2.1 Dataset piccolo (<code>dataset/</code>, 12 file)</h3>
+<p>I 12 file sono stati scritti a mano: 2–3 frasi ciascuno (circa 190 caratteri) su argomenti diversi (Roma antica, cucina, astronomia, motori di ricerca, Lucene…). Ogni file è stato costruito per mettere alla prova un aspetto preciso:</p>
+<ul>
+  <li><b>nomi con separatori diversi</b>: <code>storia_di_roma</code> (underscore), <code>motori-di-ricerca</code> (trattino), <code>Ricetta Carbonara</code> (spazio e maiuscola), per l'analyzer del campo <code>nome</code>;</li>
+  <li><b>forme flesse</b> (<i>pianeta</i>/<i>pianeti</i>, <i>romano</i>/<i>romana</i>/<i>romane</i>) ed <b>elisioni</b> (<i>l'impero</i>, <i>dell'informazione</i>), per lo stemming e l'<code>ElisionFilter</code>;</li>
+  <li><b>frasi note</b> (<i>selva oscura</i>, <i>indice invertito</i>), per le phrase query;</li>
+  <li><b>ambiguità volute</b>: la carbonara contiene <i>pecorino romano</i> e il calcio contiene <i>Roma</i>, così una query su <i>impero romano</i> restituisce anche documenti non pertinenti, utili per controllare il ranking.</li>
+</ul>
+<p>Con 12 documenti i risultati di ogni query si conoscono in anticipo, quindi questa collezione è usata dai test JUnit (§7). Per la stessa ragione però non basta a valutare tempi e recall.</p>
+
+<h3>2.2 Dataset grande (<code>dataset-wiki/</code>, 1980 voci di Wikipedia)</h3>
+<p>Per avere una collezione realistica e, allo stesso tempo, sapere quali documenti sono rilevanti per una query, il dataset è stato costruito dall'API di <i>it.wikipedia.org</i> con lo script <code>scripts/build_dataset.py</code> in tre passi:</p>
+<ol>
+  <li><b>Voci tematiche.</b> Per 16 categorie di Wikipedia scelte su argomenti diversi tra loro (tabella sotto) si scaricano tutte le voci che appartengono <i>direttamente</i> alla categoria (<code>list=categorymembers</code>, namespace 0, senza sottocategorie). L'appartenenza alla categoria è decisa dagli autori di Wikipedia, non da me: è quindi una <b>ground truth indipendente</b> dal sistema da valutare.</li>
+  <li><b>Voci casuali.</b> Si aggiungono 3000 voci estratte a caso (<code>list=random</code>), che fanno da "rumore": allargano la collezione e contengono documenti che condividono termini con le query senza essere pertinenti (es. un calciatore di <i>Roma</i>, un film intitolato <i>Inferno</i>).</li>
+  <li><b>Testo.</b> Il testo di ogni voce è scaricato come wikitext, a blocchi di 50 voci per richiesta per rispettare i limiti dell'API, e convertito in testo in chiaro: vengono tolti template, tabelle, note, immagini e markup, e la voce è troncata alle sezioni finali (<i>Note</i>, <i>Bibliografia</i>, <i>Collegamenti esterni</i>…), che contengono quasi solo link. Le voci con meno di 300 caratteri (abbozzi, redirect) sono scartate. Ogni voce diventa un file <code>&lt;titolo&gt;.txt</code>: il campo <code>nome</code> contiene quindi il titolo della voce, spesso con un disambiguatore tra parentesi, ad esempio <code>Io (astronomia)</code>.</li>
+</ol>
+<p>Lo script scrive anche <code>eval/manifest.tsv</code>, che per ogni file riporta <code>pageid</code>, <code>revid</code> (la revisione esatta scaricata), lunghezza e codici delle categorie di appartenenza. Il manifest è nel repository, i 12 MB di testo no (<code>.gitignore</code>): si rigenerano con lo script.</p>
+
+<p><b>Dimensione finale.</b> Le liste delle categorie e delle voci casuali contengono 4229 voci. Per limitare il numero di richieste all'API (che rispondeva spesso <i>HTTP 429 Too Many Requests</i>) sono state scaricate le prime 2300 in ordine di <code>pageid</code>. Tolte quelle sotto i 300 caratteri restano <b>1980 documenti</b>: 923 tematici e 1057 casuali, per 12,1 MB di testo. Lunghezza: minimo 300, mediana 2429, media 6126, massimo 160 481 caratteri. Per questo di alcune categorie è presente solo una parte delle voci (colonna "Nel dataset"). La ground truth è calcolata solo sui documenti presenti, quindi resta coerente.</p>
+<table class="piccola" style="width:80%;break-inside:avoid">
+<tr><th>Codice</th><th>Categoria Wikipedia</th><th class="n">Voci nella categoria</th><th class="n">Nel dataset</th></tr>
+<tr><td><code>IMP</code></td><td>Imperatori romani</td><td class="n">103</td><td class="n">102</td></tr><tr><td><code>GIO</code></td><td>Satelliti di Giove</td><td class="n">92</td><td class="n">72</td></tr><tr><td><code>SAT</code></td><td>Satelliti di Saturno</td><td class="n">77</td><td class="n">61</td></tr><tr><td><code>INF</code></td><td>Canti dell'Inferno</td><td class="n">34</td><td class="n">34</td></tr><tr><td><code>PUR</code></td><td>Canti del Purgatorio</td><td class="n">33</td><td class="n">33</td></tr><tr><td><code>PAR</code></td><td>Canti del Paradiso</td><td class="n">33</td><td class="n">33</td></tr><tr><td><code>MOT</code></td><td>Motori di ricerca</td><td class="n">111</td><td class="n">73</td></tr><tr><td><code>LIN</code></td><td>Linguaggi di programmazione</td><td class="n">144</td><td class="n">105</td></tr><tr><td><code>ALG</code></td><td>Algoritmi di ordinamento</td><td class="n">30</td><td class="n">27</td></tr><tr><td><code>DB</code></td><td>Basi di dati</td><td class="n">59</td><td class="n">28</td></tr><tr><td><code>DOG</code></td><td>Dogi della Repubblica di Venezia</td><td class="n">129</td><td class="n">127</td></tr><tr><td><code>PIT</code></td><td>Pittori italiani del Rinascimento</td><td class="n">239</td><td class="n">133</td></tr><tr><td><code>PUN</code></td><td>Battaglie della seconda guerra punica</td><td class="n">55</td><td class="n">27</td></tr><tr><td><code>ELE</code></td><td>Elementi chimici</td><td class="n">57</td><td class="n">53</td></tr><tr><td><code>FOR</code></td><td>Formaggi italiani</td><td class="n">22</td><td class="n">6</td></tr><tr><td><code>PAS</code></td><td>Tipi di pasta</td><td class="n">16</td><td class="n">9</td></tr>
+<tr class="media"><td></td><td>Totale tematiche + 1057 casuali</td><td class="n">1134</td><td class="n">923 + 1057 = 1980</td></tr>
+</table>
+<p class="nota">Due voci (CiteSeer, XBase) appartengono a due categorie (MOT e DB): il manifest ammette più codici per documento.</p>
+
+<h2>3 Analyzer</h2>
+<p>Gli analyzer sono definiti per campo con un <code>PerFieldAnalyzerWrapper</code>, restituito da <code>Indexer.analyzer()</code> e usato sia in indicizzazione sia dal <code>QueryParser</code>. In questo modo query e documenti producono termini compatibili.</p>
+<div class="griglia">
+<div class="card"><b>Campo nome</b> — <code>CustomAnalyzer</code><br>
+<code>WhitespaceTokenizer</code> → <code>LowerCaseFilter</code> → <code>WordDelimiterGraphFilter</code>
+<ul class="piccola">
+  <li><code>storia_di_roma</code> → <i>storia, di, roma</i>; <code>Io (astronomia)</code> → <i>io, astronomia</i>: il filtro spezza su <code>_ - . ( )</code> e cambi maiuscolo/minuscolo;</li>
+  <li>niente stopword né stemming: il nome è breve, ogni parola conta e deve funzionare la frase <code>"motori di ricerca"</code>;</li>
+  <li>l'estensione <code>.txt</code> finale viene tolta prima dell'indicizzazione.</li>
+</ul></div>
+<div class="card"><b>Campo contenuto</b> — <code>ItalianAnalyzer</code><br>
+<code>StandardTokenizer</code> → elisione → minuscolo → stopword → stemming leggero
+<ul class="piccola">
+  <li><i>L'Impero Romano</i> → <i>imper, roman</i>; <i>il pianeta e i pianeti</i> → <i>pianet, pianet</i>;</li>
+  <li>la scelta è verificata sperimentalmente in §6.3, confrontandola con <code>StandardAnalyzer</code> e con lo stesso analyzer italiano senza stemming.</li>
+</ul></div>
+</div>
+
+<h2>4 Indicizzazione e tempi</h2>
+<p style="break-before:avoid">Il tempo è misurato da <code>Benchmark.java</code> su sottoinsiemi casuali (seed fisso) della collezione Wikipedia. Comprende apertura della <code>Directory</code>, creazione dell'<code>IndexWriter</code>, lettura dei file, analisi, <code>addDocument</code> e <code>commit()</code>. Per ogni dimensione si fa prima un'esecuzione di riscaldamento della JVM, che viene scartata, poi si riporta la mediana di 5 esecuzioni (Java 25, 8 core).</p>
+<table style="break-inside:avoid">
+<tr><th class="n">Documenti</th><th class="n">Testo (MB)</th><th class="n">Tempo (ms)</th><th class="n">Documenti/s</th><th class="n">MB/s</th><th class="n">Indice su disco (MB)</th></tr>
+<tr><td class="n">12 (dataset piccolo)</td><td class="n">0,002</td><td class="n">~450*</td><td class="n">–</td><td class="n">–</td><td class="n">&lt; 0,01</td></tr>
+<tr><td class="n">100</td><td class="n">0,5</td><td class="n">70</td><td class="n">1423</td><td class="n">7,6</td><td class="n">0,2</td></tr>
+<tr><td class="n">250</td><td class="n">1,3</td><td class="n">143</td><td class="n">1754</td><td class="n">9,2</td><td class="n">0,5</td></tr>
+<tr><td class="n">500</td><td class="n">2,9</td><td class="n">224</td><td class="n">2228</td><td class="n">12,9</td><td class="n">1,1</td></tr>
+<tr><td class="n">1000</td><td class="n">5,9</td><td class="n">389</td><td class="n">2573</td><td class="n">15,2</td><td class="n">2,0</td></tr>
+<tr><td class="n">1500</td><td class="n">9,4</td><td class="n">606</td><td class="n">2477</td><td class="n">15,6</td><td class="n">3,0</td></tr>
+<tr class="scelto"><td class="n">1980 (tutto)</td><td class="n">12,2</td><td class="n">788</td><td class="n">2513</td><td class="n">15,5</td><td class="n">3,8</td></tr>
+</table>
+<p class="nota">* Misura della prima versione, con un'unica esecuzione a JVM "fredda": è dominata dall'avvio di Lucene e non dai documenti.</p>
+<figure><img src="tempi.png"><figcaption>Tempo di indicizzazione e throughput al crescere della collezione.</figcaption></figure>
+<ul>
+  <li><b>Andamento lineare.</b> Da 1000 documenti in su il tempo cresce in modo proporzionale ai documenti e il throughput si stabilizza a circa 2500 documenti/s (15 MB/s di testo). Sotto i 500 documenti pesano i costi fissi (apertura dell'indice, <code>commit()</code>, creazione dei segmenti), per questo il throughput è più basso. Con i soli 12 file della prima versione si misuravano solo questi costi fissi.</li>
+  <li><b>Dimensione dell'indice.</b> L'indice occupa circa il 31% del testo (3,8 MB su 12,2 MB). Il contenuto infatti non è memorizzato (<code>Field.Store.NO</code>): l'indice contiene solo dizionario e posting list, oltre a nome e path memorizzati.</li>
+  <li><b>Tempo di risposta.</b> Sull'indice completo le 50 query di valutazione (primi 10 risultati, 50 ripetizioni ciascuna) richiedono in media <b>0,18 ms</b> (mediana 0,15 ms).</li>
+</ul>
+
+<h2>5 Sintassi delle query e query di test funzionali</h2>
+<p>La prima parola indica il campo (<code>nome</code> o <code>contenuto</code>), il resto è passato al <code>QueryParser</code>: termini in OR, <code>+termine</code> obbligatorio, <code>-termine</code> escluso, <code>AND</code>/<code>OR</code>/<code>NOT</code>, <code>"…"</code> per le phrase query. Il ranking è BM25 (default di Lucene). Le query seguenti, eseguite sul dataset piccolo, hanno risultati noti in anticipo e sono verificate automaticamente da <code>SearcherTest</code>:</p>
+<table class="piccola">
+<tr><th>#</th><th>Query</th><th>Query Lucene</th><th>Risultati</th><th>Cosa verifica</th></tr>
+<tr><td>1</td><td><code>nome roma</code></td><td><code>nome:roma</code></td><td>storia_di_roma</td><td>split su <code>_</code></td></tr>
+<tr><td>2</td><td><code>nome carbonara</code></td><td><code>nome:carbonara</code></td><td>Ricetta Carbonara</td><td>maiuscole e spazio</td></tr>
+<tr><td>3</td><td><code>nome "motori di ricerca"</code></td><td><code>nome:"motori di ricerca"</code></td><td>motori-di-ricerca</td><td>phrase query sul nome</td></tr>
+<tr><td>4</td><td><code>nome "ricerca motori"</code></td><td><code>nome:"ricerca motori"</code></td><td>nessuno</td><td>nella frase l'ordine conta</td></tr>
+<tr><td>5</td><td><code>nome pizze</code></td><td><code>nome:pizze</code></td><td>nessuno</td><td>sul nome niente stemming</td></tr>
+<tr><td>6</td><td><code>contenuto pianeti</code></td><td><code>contenuto:pianet</code></td><td>sistema_solare</td><td>stemming (= <code>pianeta</code>)</td></tr>
+<tr><td>7</td><td><code>contenuto "selva oscura"</code></td><td><code>contenuto:"selva oscur"</code></td><td>divina_commedia</td><td>phrase query</td></tr>
+<tr><td>8</td><td><code>contenuto +guanciale +pecorino</code></td><td><code>+contenuto:guancial +contenuto:pecorin</code></td><td>Ricetta Carbonara</td><td>termini obbligatori</td></tr>
+<tr><td>9</td><td><code>contenuto romano -pecorino</code></td><td><code>contenuto:roman -contenuto:pecorin</code></td><td>impero-romano, storia_di_roma</td><td>esclusione</td></tr>
+<tr><td>10</td><td><code>contenuto impero romano</code></td><td><code>contenuto:imper contenuto:roman</code></td><td>impero-romano &gt; storia_di_roma &gt; Ricetta Carbonara</td><td>ranking BM25</td></tr>
+<tr><td>11</td><td><code>contenuto il di la</code></td><td>(vuota)</td><td>nessuno</td><td>solo stopword</td></tr>
+<tr><td>12</td><td><code>titolo roma</code> · <code>contenuto "frase</code></td><td>–</td><td>errore</td><td>campo non valido · sintassi errata</td></tr>
+</table>
+
+<h2>6 Valutazione dell'efficacia</h2>
+<h3>6.1 Metodologia</h3>
+<p><b>Query e giudizi di rilevanza.</b> In <code>eval/queries.tsv</code> ci sono 50 query, ciascuna associata a uno o più argomenti (codici della tabella §2.2). Un documento è <b>rilevante</b> per la query se nel manifest appartiene a uno di quegli argomenti. Per ogni argomento ci sono più formulazioni: parole chiave sciolte, frase esatta, termini obbligatori/esclusi e query sul campo <code>nome</code>. In questo modo si vede anche l'effetto della formulazione. Le query sono state scritte prima di guardare i risultati e non sono state modificate per migliorarli.</p>
+<p><b>Esecuzione.</b> Ogni query è eseguita sull'intera collezione e si considera <i>tutto</i> il ranking, non solo i primi 10 risultati: altrimenti la recall non si potrebbe calcolare. La rilevanza è binaria.</p>
+<p><b>Metriche</b> (implementate in <code>Metriche.java</code>, verificate con esempi calcolati a mano in <code>MetricheTest</code>). <i>R</i> è l'insieme dei rilevanti, <i>rel(i)</i> vale 1 se il documento in posizione <i>i</i> è rilevante:</p>
+<table class="piccola">
+<tr><th>Metrica</th><th>Definizione</th><th>Cosa misura</th></tr>
+<tr><td>P@10</td><td class="formula">|rilevanti tra i primi 10| / 10</td><td>qualità della prima pagina, quella che l'utente guarda</td></tr>
+<tr><td>R@100</td><td class="formula">|rilevanti tra i primi 100| / |R|</td><td>quanti rilevanti si trovano scorrendo 100 risultati</td></tr>
+<tr><td>Recall</td><td class="formula">|rilevanti restituiti| / |R|</td><td>copertura dell'intero insieme restituito (tutti i documenti con almeno un termine)</td></tr>
+<tr><td>R-Precision</td><td class="formula">P@|R|</td><td>precision nel punto in cui precision = recall</td></tr>
+<tr><td>AP / MAP</td><td class="formula">(1/|R|) Σ<sub>i: rel(i)=1</sub> P@i</td><td>qualità di tutto il ranking; i rilevanti non trovati contano 0. MAP = media su tutte le query</td></tr>
+<tr><td>RR / MRR</td><td class="formula">1 / posizione del primo rilevante</td><td>quanto presto compare il primo risultato utile</td></tr>
+<tr><td>nDCG@10</td><td class="formula">Σ<sub>i≤10</sub> rel(i)/log<sub>2</sub>(i+1) / IDCG@10</td><td>come P@10, ma pesa di più le prime posizioni</td></tr>
+</table>
+
+<h3>6.2 Risultati</h3>
+<p>Medie sulle 50 query (dettaglio completo per query in <code>eval/risultati.md</code>). La riga evidenziata è la configurazione scelta. Le query sul campo <code>nome</code> sono identiche nelle tre configurazioni, perché cambia solo l'analyzer del contenuto.</p>
+<table>
+<tr><th>Analyzer contenuto</th><th class="n">MAP</th><th class="n">P@10</th><th class="n">R@100</th><th class="n">Recall</th><th class="n">R-Prec</th><th class="n">MRR</th><th class="n">nDCG@10</th></tr>
+<tr><td>StandardAnalyzer</td><td class="n">0,687</td><td class="n">0,862</td><td class="n">0,717</td><td class="n">0,762</td><td class="n">0,667</td><td class="n">0,940</td><td class="n">0,881</td></tr>
+<tr><td>Italiano senza stemming</td><td class="n">0,707</td><td class="n">0,862</td><td class="n">0,729</td><td class="n">0,780</td><td class="n">0,689</td><td class="n">0,953</td><td class="n">0,886</td></tr>
+<tr class="scelto"><td>ItalianAnalyzer (scelto)</td><td class="n">0,720</td><td class="n">0,878</td><td class="n">0,741</td><td class="n">0,792</td><td class="n">0,699</td><td class="n">0,943</td><td class="n">0,897</td></tr>
+</table>
+<figure><img src="metriche.png"><figcaption>Confronto delle tre configurazioni per il campo contenuto.</figcaption></figure>
+
+<p>Una selezione di query (<code>ItalianAnalyzer</code>) mostra come la formulazione cambia il rapporto tra precision e recall:</p>
+<table class="piccola">
+<tr><th>Id</th><th>Query</th><th class="n">|R|</th><th class="n">Restituiti</th><th class="n">P@10</th><th class="n">Recall</th><th class="n">AP</th><th class="n">nDCG@10</th></tr>
+<tr><td>q01</td><td><code>contenuto imperatore romano</code></td><td class="n">102</td><td class="n">390</td><td class="n">1,000</td><td class="n">0,990</td><td class="n">0,923</td><td class="n">1,000</td></tr>
+<tr><td>q18</td><td><code>contenuto "imperatore romano"</code></td><td class="n">102</td><td class="n">37</td><td class="n">0,800</td><td class="n">0,324</td><td class="n">0,276</td><td class="n">0,842</td></tr>
+<tr><td>q22</td><td><code>contenuto +imperatore +impero +augusto</code></td><td class="n">102</td><td class="n">71</td><td class="n">1,000</td><td class="n">0,627</td><td class="n">0,621</td><td class="n">1,000</td></tr>
+<tr><td>q12</td><td><code>contenuto doge Venezia</code></td><td class="n">127</td><td class="n">235</td><td class="n">1,000</td><td class="n">0,976</td><td class="n">0,960</td><td class="n">1,000</td></tr>
+<tr><td>q41</td><td><code>contenuto "doge di Venezia"</code></td><td class="n">127</td><td class="n">8</td><td class="n">0,700</td><td class="n">0,055</td><td class="n">0,055</td><td class="n">0,801</td></tr>
+<tr><td>q21</td><td><code>nome doge</code></td><td class="n">127</td><td class="n">11</td><td class="n">0,900</td><td class="n">0,079</td><td class="n">0,078</td><td class="n">0,936</td></tr>
+<tr><td>q19</td><td><code>nome inferno</code></td><td class="n">34</td><td class="n">34</td><td class="n">1,000</td><td class="n">1,000</td><td class="n">1,000</td><td class="n">1,000</td></tr>
+<tr><td>q05</td><td><code>contenuto canto Inferno Dante</code></td><td class="n">34</td><td class="n">178</td><td class="n">0,600</td><td class="n">1,000</td><td class="n">0,647</td><td class="n">0,691</td></tr>
+<tr><td>q11</td><td><code>contenuto database</code></td><td class="n">28</td><td class="n">62</td><td class="n">0,700</td><td class="n">0,750</td><td class="n">0,395</td><td class="n">0,556</td></tr>
+<tr><td>q17</td><td><code>contenuto pasta</code></td><td class="n">9</td><td class="n">15</td><td class="n">0,600</td><td class="n">0,889</td><td class="n">0,811</td><td class="n">0,777</td></tr>
+<tr><td>q48</td><td><code>contenuto "formaggio a pasta"</code></td><td class="n">6</td><td class="n">0</td><td class="n">0,000</td><td class="n">0,000</td><td class="n">0,000</td><td class="n">0,000</td></tr>
+</table>
+
+<h3>6.3 Discussione</h3>
+<ul>
+  <li><b>Effetto dello stemming.</b> L'<code>ItalianAnalyzer</code> migliora tutte le metriche medie rispetto a <code>StandardAnalyzer</code> (MAP +0,033, Recall +0,030). Il guadagno è grande sulle query restrittive, dove una forma flessa diversa basta a escludere un documento: <code>+imperatore +impero +augusto</code> passa da AP 0,235 a 0,621 (<i>imperatore</i>/<i>imperatori</i> → <i>imperator</i>), <code>canto Inferno Dante</code> da 0,400 a 0,647 (<i>canto</i>/<i>canti</i>), la frase <code>"imperatore romano"</code> da 0,134 a 0,276. Sulle query OR molto ampie (<code>indice ricerca informazioni documenti</code>) lo stemming restituisce più documenti e perde invece qualche centesimo di AP. Le stopword e l'elisione da sole (riga intermedia) danno già circa il 60% del miglioramento della MAP.</li>
+  <li><b>Precision contro recall.</b> Le query OR di 2–4 parole hanno recall vicina a 1 e P@10 alta grazie al ranking BM25. Le phrase query hanno precision alta ma recall molto bassa: <code>"doge di Venezia"</code> trova 8 dogi su 127, perché quasi tutte le voci scrivono <i>doge della Repubblica di Venezia</i>. Il campo <code>nome</code> funziona bene solo quando il titolo segue una convenzione: con <code>nome inferno</code> (titoli <i>Inferno - Canto …</i>) tutte le metriche valgono 1, mentre <code>nome doge</code> trova solo gli 11 titoli con il disambiguatore <i>(doge)</i>.</li>
+  <li><b>Errori tipici.</b> Per <code>canto Inferno Dante</code> i falsi positivi sono canti del Purgatorio e del Paradiso, che citano Dante e l'Inferno: sono vicini al tema ma non rispondono al bisogno informativo. <code>pasta</code> restituisce formaggi (<i>a pasta semicotta</i>, <i>pasta filata</i>): l'ambiguità è nella lingua, non nell'analyzer. <code>"formaggio a pasta"</code> non trova nulla perché i 6 formaggi presenti non contengono quella frase.</li>
+</ul>
+
+<h3>6.4 Il problema della recall: giudizi incompleti</h3>
+<p>Per calcolare la recall bisogna conoscere <i>tutti</i> i documenti rilevanti. Con 1980 documenti e 50 query ci sarebbero 99 000 coppie da giudicare a mano, cosa impraticabile. Per questo si è usata l'appartenenza alle categorie di Wikipedia, che però è una ground truth <b>incompleta</b>: un documento pertinente che non sta nella categoria conta come errore. Per stimare l'effetto si è usata l'idea del <i>pooling</i> delle campagne TREC: si sono giudicati a mano i documenti tra i primi 10 di ogni query che il manifest considera non rilevanti (<code>eval/giudizi_manuali.tsv</code>).</p>
+<ul>
+  <li>Sono <b>44</b> documenti in tutto. <b>6</b> sono in realtà pertinenti e si concentrano sulle query sui database: <i>Data Language One</i>, <i>Clipper</i>, <i>MUMPS</i>, <i>PL/SQL</i>, <i>PowerBuilder</i>, <i>ISI Web of Knowledge</i>. Wikipedia li classifica in <i>Linguaggi di programmazione</i> e non in <i>Basi di dati</i>. Con questi giudizi la P@10 di q11 passa da 0,7 a 1,0, q39 da 0,8 a 0,9, q40 da 0,6 a 0,8, e la <b>P@10 media da 0,878 a 0,890</b>.</li>
+  <li>Gli altri 38 sono errori veri del sistema (canti di un'altra cantica, il doge <i>di Genova</i> Antoniotto Adorno per <code>nome doge</code>, formaggi per <code>pasta</code>…).</li>
+  <li>Esistono anche rilevanti non giudicati <i>fuori</i> dai primi 10. Per esempio <i>Temi (astronomia)</i>, un satellite di Saturno (poi rivelatosi inesistente), sta in un'altra categoria. Per questo la recall misurata è una <b>stima</b>: corretta come confronto tra configurazioni, perché tutte sono giudicate con la stessa ground truth, ma non in valore assoluto. Anche la P@10 va letta come limite inferiore.</li>
+</ul>
+
+<h2>7 Test automatici</h2>
+<p>Il numero di test è passato da 11 a <b>52</b>, tutti superati (<code>mvn test</code>: 40 · <code>python3 -m unittest discover -s scripts</code>: 12).</p>
+<table class="piccola">
+<tr><th>Classe</th><th class="n">Test</th><th>Cosa verifica</th></tr>
+<tr><td><code>SearcherTest</code></td><td class="n">20</td><td>Le query di §5 sul dataset piccolo: termine singolo, OR, phrase, ordine della frase, maiuscole, assenza di stemming sul nome, stemming ed elisione sul contenuto, <code>+</code>/<code>-</code>/<code>AND</code>, ordinamento BM25, stopword, termine assente, campo non valido, termini mancanti, sintassi errata, spazi multipli.</td></tr>
+<tr><td><code>IndexerTest</code></td><td class="n">7</td><td>Token prodotti dai due analyzer (separatori, parentesi dei titoli Wikipedia, stopword, elisione, stemming); file non <code>.txt</code> e cartelle ignorati; reindicizzare non duplica i documenti; rimozione solo del <code>.txt</code> finale.</td></tr>
+<tr><td><code>MetricheTest</code></td><td class="n">9</td><td>Ogni metrica su un ranking di esempio con valori calcolati a mano; ranking perfetto (tutte = 1); casi limite (ranking vuoto, nessun rilevante: niente divisioni per zero).</td></tr>
+<tr><td><code>ValutazioneTest</code></td><td class="n">4</td><td>Lettura di manifest e query; ground truth come unione di più argomenti; valutazione end-to-end sul dataset piccolo con giudizi scritti a mano (es. <code>contenuto ricerca</code>: precision 1 ma recall 1/5); calcolo della MAP.</td></tr>
+<tr><td><code>test_build_dataset.py</code></td><td class="n">12</td><td>Conversione wikitext → testo: link, grassetto, template annidati, note, tabelle, immagini e categorie, titoli ed elenchi, sezioni finali, link esterni, redirect, commenti; nomi di file validi.</td></tr>
+</table>
+
+<h2>8 Conclusioni e limiti</h2>
+<ul>
+  <li>Su 1980 documenti reali l'indicizzazione scala linearmente (circa 2500 documenti/s) e le query rispondono in meno di un millisecondo.</li>
+  <li>Le metriche confermano la scelta dell'<code>ItalianAnalyzer</code> per il contenuto (MAP 0,720 contro 0,687) e mostrano il compromesso tra query OR (alta recall) e phrase query o query sul nome (alta precision, bassa recall).</li>
+  <li><b>Limiti.</b> La ground truth deriva dalle categorie ed è incompleta (§6.4). Le query le ho scritte io, conoscendo gli argomenti, quindi possono essere più "facili" di quelle di un utente reale. Il convertitore wikitext è semplificato: alcuni template che producono testo vengono eliminati: in qualche voce restano parole attaccate (<i>dellInstitute</i>) o frasi incomplete. Infine la collezione è limitata a 1980 voci per i limiti di richieste dell'API; lo script può scaricarne di più (<code>--max-voci</code>).</li>
+</ul>
+
+</body>
+</html>

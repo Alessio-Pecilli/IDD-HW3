@@ -1,3 +1,5 @@
 target/
 index/
 .claude/
+dataset-wiki/
+__pycache__/

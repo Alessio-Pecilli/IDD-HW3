@@ -3,20 +3,18 @@ package it.uniroma3.idd;
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.nio.file.Path;
-import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.lucene.index.DirectoryReader;
+import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.search.IndexSearcher;
-import org.apache.lucene.search.ScoreDoc;
-import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.FSDirectory;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
 
-// controllo che le query della relazione diano i risultati giusti
+// controllo che le query della relazione diano i risultati giusti sul dataset piccolo (12 file scritti a mano)
 class SearcherTest {
 
     @TempDir
@@ -39,13 +37,10 @@ class SearcherTest {
 
     // restituisce i nomi dei file trovati dalla query
     private List<String> nomi(String query) throws Exception {
-        TopDocs risultati = searcher.search(query, 20);
-        List<String> nomi = new ArrayList<>();
-        for (ScoreDoc sd : risultati.scoreDocs) {
-            nomi.add(reader.storedFields().document(sd.doc).get(Indexer.NOME));
-        }
-        return nomi;
+        return searcher.ranking(query, 20);
     }
+
+    // ---- campo nome ----
 
     @Test
     void nomeSingoloTermine() throws Exception {
@@ -60,6 +55,7 @@ class SearcherTest {
     @Test
     void nomeMaiuscoleESpazi() throws Exception {
         assertEquals(List.of("Ricetta Carbonara"), nomi("nome carbonara"));
+        assertEquals(List.of("Ricetta Carbonara"), nomi("nome CARBONARA"));
     }
 
     @Test
@@ -73,8 +69,29 @@ class SearcherTest {
     }
 
     @Test
+    void nomePiuTerminiInOr() throws Exception {
+        // storia_di_roma e sistema_solare non hanno termini in comune: l'OR li trova entrambi
+        assertEquals(List.of("sistema_solare", "storia_di_roma").stream().sorted().toList(),
+                nomi("nome roma solare").stream().sorted().toList());
+    }
+
+    @Test
+    void nomeNonFaStemming() throws Exception {
+        // sul nome non c'è stemming: "pizze" non trova pizza_napoletana
+        assertTrue(nomi("nome pizze").isEmpty());
+    }
+
+    @Test
+    void campoNonDistingueMaiuscole() throws Exception {
+        assertEquals(nomi("nome roma"), nomi("NOME roma"));
+    }
+
+    // ---- campo contenuto ----
+
+    @Test
     void contenutoStemming() throws Exception {
         assertTrue(nomi("contenuto pianeti").contains("sistema_solare"));
+        assertEquals(nomi("contenuto pianeti"), nomi("contenuto pianeta"));
     }
 
     @Test
@@ -90,6 +107,25 @@ class SearcherTest {
     @Test
     void contenutoBooleana() throws Exception {
         assertEquals(List.of("Ricetta Carbonara"), nomi("contenuto +guanciale +pecorino"));
+        assertEquals(List.of("lucene_introduzione"), nomi("contenuto lucene AND java"));
+    }
+
+    @Test
+    void contenutoEsclusione() throws Exception {
+        // "roman" compare in impero-romano, storia_di_roma e nella carbonara (pecorino romano)
+        List<String> conRomano = nomi("contenuto romano");
+        List<String> senzaPecorino = nomi("contenuto romano -pecorino");
+        assertTrue(conRomano.contains("Ricetta Carbonara"));
+        assertFalse(senzaPecorino.contains("Ricetta Carbonara"));
+        assertEquals(conRomano.size() - 1, senzaPecorino.size());
+    }
+
+    @Test
+    void contenutoRankingBM25() throws Exception {
+        // impero-romano contiene entrambi i termini e deve stare sopra la carbonara, che ne ha uno solo
+        List<String> r = nomi("contenuto impero romano");
+        assertEquals("impero-romano", r.get(0));
+        assertTrue(r.indexOf("impero-romano") < r.indexOf("Ricetta Carbonara"));
     }
 
     @Test
@@ -98,7 +134,30 @@ class SearcherTest {
     }
 
     @Test
+    void contenutoTermineAssente() throws Exception {
+        assertTrue(nomi("contenuto xyzzy").isEmpty());
+    }
+
+    // ---- errori ----
+
+    @Test
     void campoNonValido() {
         assertThrows(IllegalArgumentException.class, () -> Searcher.parse("titolo roma"));
+    }
+
+    @Test
+    void mancanoITermini() {
+        assertThrows(IllegalArgumentException.class, () -> Searcher.parse("contenuto"));
+        assertThrows(IllegalArgumentException.class, () -> Searcher.parse("contenuto   "));
+    }
+
+    @Test
+    void sintassiNonValida() {
+        assertThrows(ParseException.class, () -> Searcher.parse("contenuto \"frase non chiusa"));
+    }
+
+    @Test
+    void spaziMultipliTraCampoETermini() throws Exception {
+        assertEquals(nomi("nome roma"), nomi("nome    roma"));
     }
 }

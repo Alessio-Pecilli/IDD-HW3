@@ -1,0 +1,56 @@
+# Query di valutazione. Formato: id <TAB> argomenti rilevanti (codici del manifest, separati da virgola) <TAB> query
+# Un documento e' rilevante per la query se nel manifest ha almeno uno degli argomenti indicati.
+# Codici: IMP imperatori romani, GIO/SAT satelliti di Giove/Saturno, INF/PUR/PAR canti di Inferno/Purgatorio/Paradiso,
+# MOT motori di ricerca, LIN linguaggi di programmazione, ALG algoritmi di ordinamento, DB basi di dati,
+# DOG dogi di Venezia, PIT pittori italiani del Rinascimento, PUN battaglie della seconda guerra punica,
+# ELE elementi chimici, FOR formaggi italiani, PAS tipi di pasta
+q01	IMP	contenuto imperatore romano
+q02	GIO	contenuto satellite Giove
+q03	SAT	contenuto satellite Saturno
+q04	GIO,SAT	contenuto satellite naturale pianeta gigante
+q05	INF	contenuto canto Inferno Dante
+q06	INF,PUR,PAR	contenuto canto "Divina Commedia"
+q07	PAR	contenuto +canto +Paradiso
+q08	MOT	contenuto motore di ricerca web
+q09	LIN	contenuto linguaggio di programmazione
+q10	ALG	contenuto algoritmo di ordinamento
+q11	DB	contenuto database
+q12	DOG	contenuto doge Venezia
+q13	PIT	contenuto pittore Rinascimento
+q14	PUN	contenuto battaglia Annibale Cartagine
+q15	ELE	contenuto elemento chimico tavola periodica
+q16	FOR	contenuto formaggio latte stagionatura
+q17	PAS	contenuto pasta
+q18	IMP	contenuto "imperatore romano"
+q19	INF	nome inferno
+q20	GIO,SAT	nome astronomia
+q21	DOG	nome doge
+q22	IMP	contenuto +imperatore +impero +augusto
+q23	IMP	contenuto cesare augusto senato legioni
+q24	GIO	contenuto "satellite di Giove"
+q25	GIO	contenuto luna gioviana orbita
+q26	SAT	contenuto "satellite naturale di Saturno"
+q27	SAT	contenuto Cassini Saturno anelli
+q28	INF	contenuto +canto +Inferno -Purgatorio -Paradiso
+q29	PUR	contenuto canto Purgatorio
+q30	PUR	contenuto anime espiazione monte Purgatorio
+q31	PAR	contenuto canto Paradiso Beatrice
+q32	INF,PUR,PAR	contenuto Dante Virgilio
+q33	MOT	contenuto "motore di ricerca"
+q34	MOT	contenuto indicizzazione pagine web ricerca
+q35	LIN	contenuto "linguaggio di programmazione"
+q36	LIN	contenuto compilatore sintassi programma
+q37	ALG	contenuto ordinamento array confronto
+q38	ALG	contenuto "algoritmo di ordinamento"
+q39	DB	contenuto "base di dati"
+q40	DB	contenuto DBMS SQL tabelle query
+q41	DOG	contenuto "doge di Venezia"
+q42	DOG	contenuto doge Serenissima dogado
+q43	PIT	contenuto pittore affreschi pala d'altare Quattrocento
+q44	PIT	contenuto "pittore italiano"
+q45	PUN	contenuto "seconda guerra punica"
+q46	PUN	contenuto Annibale Scipione assedio
+q47	ELE	contenuto isotopi numero atomico elementi
+q48	FOR	contenuto "formaggio a pasta"
+q49	PAS	contenuto pasta grano duro sugo
+q50	MOT,DB	contenuto indice ricerca informazioni documenti

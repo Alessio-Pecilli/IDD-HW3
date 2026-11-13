@@ -1,0 +1,47 @@
+@page {
+  size: A4;
+  margin: 18mm 17mm 20mm 17mm;
+  @bottom-left { content: "Alessio Pecilli · 589232 · ale.pecilli@stud.uniroma3.it · Homework 3"; font: 8pt "Liberation Sans", sans-serif; color: #777; }
+  @bottom-right { content: counter(page) "/" counter(pages); font: 8pt "Liberation Sans", sans-serif; color: #777; }
+}
+@page :first { @bottom-left { content: none; } }
+
+:root { --acc: #1f5f8b; --chiaro: #eef4f8; --bordo: #cfdde8; --testo: #1d1d1f; --tenue: #5b6670; }
+html { font: 9.6pt/1.45 "Noto Sans", "Liberation Sans", sans-serif; color: var(--testo); }
+body { margin: 0; }
+h1 { font-size: 19pt; line-height: 1.2; margin: 4mm 0 1mm; color: var(--acc); }
+h2 { font-size: 13pt; color: var(--acc); margin: 7mm 0 2mm; padding-bottom: 1mm; border-bottom: 1.5px solid var(--bordo); break-after: avoid; }
+h3 { font-size: 10.5pt; margin: 4mm 0 1.5mm; break-after: avoid; }
+p { margin: 0 0 2mm; text-align: justify; }
+ul { margin: 0 0 2mm; padding-left: 5mm; }
+li { margin-bottom: .6mm; }
+code { font: 8.6pt "DejaVu Sans Mono", monospace; background: #f1f3f5; padding: 0 2px; border-radius: 2px; }
+pre { font: 8.4pt/1.4 "DejaVu Sans Mono", monospace; background: #f6f8fa; border: 1px solid #e3e7eb; padding: 2mm 3mm; margin: 0 0 2mm; white-space: pre-wrap; }
+.corso { font-size: 8pt; letter-spacing: .25em; color: var(--tenue); text-transform: uppercase; }
+.sottotitolo { color: var(--tenue); margin-bottom: 4mm; }
+.anagrafica { display: flex; gap: 8mm; border-top: 1px solid var(--bordo); border-bottom: 1px solid var(--bordo); padding: 2mm 0; margin-bottom: 2mm; }
+.anagrafica div { font-size: 9pt; }
+.anagrafica b { display: block; font-size: 7pt; letter-spacing: .15em; color: var(--tenue); font-weight: normal; text-transform: uppercase; }
+.box { background: var(--chiaro); border-left: 3px solid var(--acc); padding: 2mm 3mm; margin: 2mm 0 3mm; break-inside: avoid; }
+.box p:last-child, .box ul:last-child { margin-bottom: 0; }
+.griglia { display: flex; flex-wrap: wrap; gap: 3mm; margin: 2mm 0 3mm; }
+.card { flex: 1 1 45%; border: 1px solid var(--bordo); border-radius: 2mm; padding: 2mm 3mm; break-inside: avoid; }
+.card b { color: var(--acc); }
+.numeri { display: flex; gap: 3mm; margin: 2mm 0 3mm; }
+.numeri div { flex: 1; border: 1px solid var(--bordo); border-radius: 2mm; padding: 2mm 3mm; font-size: 8pt; color: var(--tenue); }
+.numeri div b { display: block; font-size: 15pt; color: var(--acc); }
+table { width: 100%; border-collapse: collapse; margin: 1mm 0 3mm; font-size: 8.4pt; break-inside: auto; }
+th { background: var(--acc); color: #fff; font-weight: 600; text-align: left; padding: 1.2mm 1.6mm; }
+td { padding: 1mm 1.6mm; border-bottom: 1px solid #e3e7eb; vertical-align: top; }
+tr { break-inside: avoid; }
+tr:nth-child(even) td { background: #f8fafb; }
+td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+tr.media td { font-weight: 700; border-top: 1.5px solid var(--acc); background: var(--chiaro); }
+tr.scelto td { font-weight: 700; background: var(--chiaro); }
+.piccola { font-size: 7.8pt; }
+.nota { font-size: 8pt; color: var(--tenue); }
+figure { margin: 2mm 0 3mm; text-align: center; break-inside: avoid; }
+figure img { width: 100%; }
+figcaption { font-size: 8pt; color: var(--tenue); margin-top: 1mm; }
+.formula { font-family: "DejaVu Serif", serif; font-style: italic; }
+.salto { break-before: page; }

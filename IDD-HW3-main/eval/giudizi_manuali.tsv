@@ -1,0 +1,45 @@
+query	rank	documento	giudizio_manuale	motivo
+q05	3	Purgatorio - Canto primo	0	canto di un'altra cantica (cita Inferno/Paradiso)
+q05	8	Paradiso - Canto sesto	0	canto di un'altra cantica
+q05	9	Purgatorio - Canto trentatreesimo	0	canto di un'altra cantica (cita Inferno/Paradiso)
+q05	10	Purgatorio - Canto sedicesimo	0	canto di un'altra cantica (cita Inferno/Paradiso)
+q07	2	Purgatorio - Canto trentaduesimo	0	canto di un'altra cantica (cita Inferno/Paradiso)
+q07	3	Purgatorio - Canto ventottesimo	0	canto di un'altra cantica (cita Inferno/Paradiso)
+q07	6	Purgatorio - Canto trentesimo	0	canto di un'altra cantica (cita Inferno/Paradiso)
+q07	7	Purgatorio - Canto ventisettesimo	0	canto di un'altra cantica (cita Inferno/Paradiso)
+q07	8	Purgatorio - Canto ventiseiesimo	0	canto di un'altra cantica (cita Inferno/Paradiso)
+q07	10	Purgatorio - Canto trentatreesimo	0	canto di un'altra cantica (cita Inferno/Paradiso)
+q11	1	Data Language One	1	linguaggio di accesso ai database IBM IMS
+q11	2	MUMPS	1	linguaggio con database integrato
+q11	5	Clipper (linguaggio)	1	linguaggio per database dBase
+q16	4	Cucina piacentina	0	non pertinente al bisogno informativo
+q16	8	Sissizi	0	non pertinente al bisogno informativo
+q16	9	Dr. Jerrill e Mr. Mouse	0	non pertinente al bisogno informativo
+q16	10	Estelí	0	non pertinente al bisogno informativo
+q17	7	Cucina piacentina	0	non pertinente al bisogno informativo
+q17	8	Ricotta secca	0	non pertinente al bisogno informativo
+q17	9	Provola	0	non pertinente al bisogno informativo
+q17	10	Pecorino sardo	0	non pertinente al bisogno informativo
+q18	4	Florentino	0	non pertinente al bisogno informativo
+q18	10	Co-Dux	0	non pertinente al bisogno informativo
+q21	10	Antoniotto Adorno (doge 1340)	0	non pertinente al bisogno informativo
+q24	4	Cratere Hár	0	non pertinente al bisogno informativo
+q30	9	Paradiso - Canto ventesimo	0	canto di un'altra cantica
+q31	2	Purgatorio - Canto trentesimo	0	canto di un'altra cantica (cita Inferno/Paradiso)
+q31	3	Purgatorio - Canto trentatreesimo	0	canto di un'altra cantica (cita Inferno/Paradiso)
+q31	4	Purgatorio - Canto trentaduesimo	0	canto di un'altra cantica (cita Inferno/Paradiso)
+q31	5	Purgatorio - Canto trentunesimo	0	canto di un'altra cantica (cita Inferno/Paradiso)
+q31	10	Purgatorio - Canto ventottesimo	0	canto di un'altra cantica (cita Inferno/Paradiso)
+q39	9	ISI Web of Knowledge	1	portale di database bibliografici
+q39	10	Temi (astronomia)	0	non pertinente al bisogno informativo
+q40	1	PL_SQL	1	estensione procedurale di SQL
+q40	4	PowerBuilder	1	ambiente di sviluppo per applicazioni su database
+q40	5	Dialetto (informatica)	0	non pertinente al bisogno informativo
+q40	9	Indicizzazione (motori di ricerca)	0	non pertinente al bisogno informativo
+q41	8	Repubbliche marinare	0	non pertinente al bisogno informativo
+q44	1	Moretto	0	non pertinente al bisogno informativo
+q44	2	Giovannetti	0	non pertinente al bisogno informativo
+q45	6	Signifer	0	non pertinente al bisogno informativo
+q49	4	Cucina piacentina	0	non pertinente al bisogno informativo
+q49	8	Pecorino sardo	0	non pertinente al bisogno informativo
+q49	10	Battaglia di Erdonia (210 a.C.)	0	non pertinente al bisogno informativo
