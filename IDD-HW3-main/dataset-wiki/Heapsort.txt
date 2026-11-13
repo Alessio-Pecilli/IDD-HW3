@@ -1,0 +1,43 @@
+Lo heapsort è un algoritmo di ordinamento iterativo ed in-place proposto da Williams nel 1964, che si basa su strutture dati ausiliarie.
+
+Per eseguire l'ordinamento utilizza una struttura chiamata heap, rappresentabile con un albero binario in cui tutti i nodi seguono una data proprietà, detta priorità. Esso è completo almeno fino al penultimo livello dell'albero (con le foglie sull'ultimo livello compattate a sinistra) e ad ogni nodo corrisponde uno ed un solo elemento.
+
+In uno heap decrescente (utilizzato per ordinare ad esempio un array in senso crescente) ogni nodo padre contiene un valore maggiore o uguale a quello dei suoi due figli diretti, di conseguenza risulterà maggiore anche di tutti i nodi che si trovano nel sottoalbero di cui esso è la radice; questo non implica affatto che nodi a profondità maggiore contengano valori minori di quelli a profondità minore.
+
+Quindi in ogni istante, in uno heap decrescente, la radice contiene il valore maggiore.
+
+Questa struttura è molto usata, in particolare, per l'ordinamento di array.
+
+Per comprendere meglio il funzionamento dell'algoritmo è bene capire che gli elementi che si trovano nella seconda metà dell'array rappresenteranno foglie dello heap e quindi esse saranno già al loro posto giusto; non vi è infatti alcun elemento dopo di esse.
+
+Operazioni sugli heap
+Lo heap può essere rappresentato graficamente da un array. Dato ciò può essere utile conoscere come operare sullo heap in modo da conoscere il padre e i figli di un determinato elemento di indice i.
+
+La funzione per calcolare l'elemento padre di i è .
+
+Per il calcolo del figlio sinistro è e per il destro è .
+
+Un MaxHeap è uno heap binario se ogni elemento soddisfa la proprietà per cui ogni elemento è minore o uguale al nodo padre.
+
+Ovvero, dato un array A, un indice i e la lunghezza n del vettore, dove i rappresenta l'indice di ogni elemento:
+
+per ogni
+
+Un MinHeap, al contrario, deve soddisfare la seguente proprietà:
+
+per ogni
+
+Determinare il massimo o il minimo elemento da una di queste due strutture è immediato, infatti il primo elemento è sempre il massimo o il minimo dello heap, a seconda della proprietà che si è utilizzata.
+
+Descrizione dell'algoritmo
+Concettualmente, l'algoritmo funziona nel seguente modo:
+
+Si costruisce un array contenente elementi da ordinare
+Si verifica che per e si effettua uno scambio di elementi; altrimenti si continua per
+Il massimo viene scambiato con l'elemento in posizione , per
+Si ripete il precedente passo per
+
+Si può dimostrare che la complessità asintotica massima dello heap sort è . Tuttavia, in generale (e soprattutto per array quasi ordinati) altri algoritmi con la medesima complessità asintotica, per esempio quick sort o merge sort, ottengono migliori prestazioni. Per array di piccole dimensioni è addirittura più veloce l'insertion sort nonostante abbia una complessità, nel caso peggiore, di .
+
+Variante di Floyd
+Nella costruzione della struttura heap mediante l'algoritmo heapsort, si confrontano il massimo dei figli portandoli alla radice: così si ha un risparmio sul numero di confronti da eseguire.

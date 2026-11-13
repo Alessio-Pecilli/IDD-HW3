@@ -1,0 +1,44 @@
+Lordine lessicografico è un criterio di ordinamento di stringhe costituite da una sequenza di simboli per cui è già presente un ordine interno. La regola di ordinamento corrisponde a quella utilizzata nei dizionari, da cui deriva il nome, anche se è estesa ad un qualunque insieme di simboli.
+
+Definizione
+
+Un alfabeto finito totalmente ordinato di simboli è un insieme , dotato di un ordine totale .
+
+Date due sequenze di simboli
+
+,
+
+si dice che se esiste un numero per cui e vale una delle seguenti relazioni:
+
+.
+
+Algoritmo di confronto
+
+La regola data sopra è equivalente al seguente algoritmo di confronto:
+
+si pone
+si confrontano i simboli nella posizione n-esima della stringa:
+se una delle due stringhe non possiede l'elemento n-esimo, allora è minore dell'altra e l'algoritmo termina
+se entrambe le stringhe non possiedono l'elemento n-esimo, allora sono uguali e l'algoritmo termina
+se i simboli sono uguali, si passa alla posizione successiva della stringa ()
+se questi sono diversi, il loro ordine è l'ordine delle stringhe
+
+L'ordine lessicografico sull'insieme prodotto
+
+Data una famiglia di insiemi , con i rispettivi ordini totali , l'ordine lessicografico dell'insieme prodotto
+
+è dato da
+
+.
+
+Con questa regola ogni posizione della stringa può corrispondere a simboli e criteri di ordinamento diversi; per , con lo stesso ordine totale, si ottiene la definizione precedentemente data.
+
+Proprietà
+
+La relazione tra stringhe definita dall'insieme lessicografico è di ordine parziale stretto e gode pertanto della proprietà transitiva e asimmetrica.
+
+Monomi
+
+In algebra, e particolarmente in algebra computazionale è fondamentale avere un ordinamento sui termini di un polinomio, ovvero un ordine monomiale; questo problema può essere risolto con una variante dell'ordine lessicografico. In pratica, dato un alfabeto ordinato di variabili si possono ordinare tutti i monomi considerando dapprima l'esponente di , quindi l'esponente di e così via, finché non si trova una differenza tra gli esponenti. A questo punto si considera minore il monomio per cui l'esponente è minore.
+
+In simboli, se e , con , sono due monomi, e è il minimo valore per cui , allora , e .

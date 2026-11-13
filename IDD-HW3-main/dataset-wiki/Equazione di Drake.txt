@@ -1,0 +1,252 @@
+Lequazione di Drake (nota anche come equazione o formula di Green Bank) è una formula matematica utilizzata nell'esobiologia per stimare il numero di civiltà extraterrestri esistenti in grado di comunicare nella nostra galassia.
+
+Venne formulata nel 1961 dall'astronomo e astrofisico statunitense Frank Drake, non effettivamente per quantificare il numero di civiltà, ma come un modo per stimolare il dialogo scientifico al primo incontro scientifico sulla ricerca di intelligenza extraterrestre (Search for Extra-Terrestrial Intelligence, SETI).
+
+Storia
+Nel 1960, Frank Drake condusse la prima ricerca di segnali radio provenienti da civiltà extraterrestri presso il National Radio Astronomy Observatory di Green Bank, in Virginia Occidentale. Poco più tardi l'Accademia nazionale delle scienze statunitense invitò Drake a partecipare ad un incontro sul tema della rilevazione di possibili intelligenze extraterrestri. L'incontro si tenne a Green Bank nel 1961, e l'equazione che porta il nome di Drake nacque dalla fase preparatoria dell'incontro stesso. Drake scrisse:
+
+Quell'incontro conferì dignità scientifica alla ricerca di intelligenze extraterrestri (SETI). La dozzina di partecipanti – astronomi, fisici, biologi, industriali e studiosi di scienze sociali – divennero noti come l'"Ordine del Delfino". L'incontro di Green Bank è commemorato sul posto da una targa. Carl Sagan, un grande sostenitore dei progetti SETI, ha citato molto spesso la formula, tanto che essa a volte è chiamata erroneamente "equazione di Sagan".
+
+Equazione
+Equazione
+L'equazione di Drake è la seguente:
+
+dove:
+è il numero di civiltà extraterrestri presenti oggi nella nostra Galassia con le quali si può pensare di stabilire una comunicazione;
+è il tasso medio annuo con cui si formano nuove stelle nella Via Lattea;
+è la frazione di stelle che possiedono pianeti;
+è il numero medio di pianeti per sistema planetario in condizione di ospitare forme di vita;
+è la frazione dei pianeti su cui si è effettivamente sviluppata la vita;
+è la frazione dei pianeti su cui si sono evoluti esseri intelligenti;
+è la frazione di civiltà extraterrestri in grado di comunicare;
+è la stima della durata di queste civiltà evolute.
+
+Può non risultare immediatamente chiaro perché nell'equazione compaia il fattore R*, cioè perché il numero di civiltà intelligenti esistenti in un dato momento nella galassia debba essere direttamente proporzionale al tasso con cui si formano nuove stelle: in effetti, il prodotto dei primi sei fattori (escluso cioè L) dà il numero di civiltà extraterrestri che nascono ogni anno; moltiplicando poi per la loro durata si ottiene il numero di tali civiltà esistenti in un momento qualsiasi (ad esempio, se si formano in media 0,01 civiltà all'anno e ciascuna dura in media 500 anni, allora in ogni momento ne esisteranno in media 5).
+
+La formula originale di Drake può essere riscritta più realisticamente sostituendo al tasso di formazione stellare odierno un parametro corrispondente al tasso con cui le stelle si formavano diversi miliardi di anni fa, cioè nell'epoca in cui si suppone che si siano sviluppate le stelle intorno alle quali oggi potrebbe esistere la vita (se il Sole fosse un esempio tipico, questo significherebbe circa 5 miliardi di anni fa).
+
+Stime storiche dei parametri
+Naturalmente il problema più impegnativo per la ricerca è quello di determinare il valore dei fattori che figurano nell'equazione; esistono considerevoli divergenze sul valore da attribuire a ciascun parametro, le quali si traducono in un profondo disaccordo sul valore finale di N.
+
+In questa sezione sono riportati i valori usati da Drake e dai suoi colleghi nel 1961.
+
+R* – tasso di formazione stellare nella Via Lattea
+Il valore di R* si ricava da dati sperimentali astronomici noti con ragionevole precisione, ed è il termine dell'equazione meno discusso. Drake e i suoi colleghi scelsero un valore R* di 10 stelle nuove all'anno (come media sull'arco di vita della nostra galassia).
+
+fp – la frazione di tali stelle che possiede pianeti
+Il termine fp è meno sicuro, ma è comunque molto meno dubbio dei parametri seguenti. Si decise di inserire fp = 0,5 (ipotizzando cioè che metà delle stelle possieda pianeti).
+
+ne – il numero medio di pianeti (o satelliti) per sistema planetario che presentano condizioni potenzialmente compatibili con la vita
+Il valore di ne venne basato sulle caratteristiche del nostro sistema solare, dato che negli anni sessanta era quasi impossibile rilevare pianeti terrestri extrasolari, a causa delle loro ridotte dimensioni. Venne usato ne = 2 (ogni stella con un sistema planetario possiede due pianeti capaci di supportare la vita).
+
+fl – la frazione di essi che effettivamente sviluppa la vita
+Per fl Drake usò il valore 1 (il che significherebbe che tutti i pianeti in grado di farlo sviluppano la vita); ma questa scelta risulta problematica, sempre in relazione al nostro sistema solare, perché è in contraddizione con il valore di ne (a meno di non scoprire che anche Marte ospita o ha ospitato vita intelligente).
+
+fi – la frazione di essi che effettivamente sviluppa vita intelligente e fc – la frazione di essi che è in grado e decide di comunicare
+Difficoltà legate al principio antropico si pongono anche nella stima di fi e fc quando si considera la Terra come modello. Un'intelligenza capace di comunicare si è sviluppata su questo pianeta solo una volta in 4 miliardi di anni di storia della vita sulla Terra: se generalizzata, questa considerazione implica che solo pianeti piuttosto vecchi possono supportare vita intelligente in grado di tentare comunicazioni interplanetarie. D'altronde, per quanto riguarda l'uomo, la capacità di intraprendere tentativi di comunicazione extraterrestre si è sviluppata piuttosto in fretta, appena 100&nbsp;000 anni dopo la nascita della specie Homo sapiens, e appena 100 anni dopo lo sviluppo delle capacità tecnologiche necessarie. Si scelse di valutare entrambi i fattori come 0,01 (il che significa che su un centesimo dei pianeti in cui si sviluppa la vita tale vita è intelligente, e che un centesimo delle forme di vita intelligenti sviluppa la capacità di comunicare su distanze interplanetarie).
+
+L – la durata media della fase comunicativa di ognuna di queste civiltà
+Anche il fattore L è estremamente difficile da valutare, ma infine si decise che 10&nbsp;000 anni poteva essere un valore verosimile. Carl Sagan ha sostenuto che è proprio l'estensione della vita di una civiltà il fattore più importante che determina quanto grande sia il numero di civiltà nella galassia: egli cioè ha posto con forza l'accento sull'importanza e sulla difficoltà per le specie tecnologicamente avanzate di evitare l'autodistruzione. Nel caso di Sagan, l'equazione di Drake è stata un importante fattore motivante per il suo interesse nei problemi ambientali e per i suoi sforzi di sensibilizzazione contro la proliferazione nucleare.
+
+I valori di Drake producono un valore N = 10 × 0,5 × 2 × 1 × 0,01 × 0,01 × 10&nbsp;000 = 10.
+
+Ogni variazione dei parametri, anche rimanendo nei limiti della verosimiglianza scientifica, causa notevoli variazioni nel risultato N, portando ad aspre contrapposizioni tra "ottimisti" e "pessimisti". I valori di N tipicamente proposti dagli "ottimisti" si aggirano intorno a 600&nbsp;000, mentre quelli proposti dai "pessimisti" sono nell'ordine di 0,0000001.
+
+Stime correnti dei parametri
+In questa sezione si tenta di fornire una lista delle stime più attendibili dei parametri che compaiono nell'equazione di Drake.
+
+R* – tasso di formazione stellare nella Via Lattea
+Calcoli della NASA e dell'ESA del 2006 indicano che il tasso di formazione stellare attuale nella nostra galassia è di 7 stelle all'anno. Tuttavia calcoli del 2010 indicano che il tasso di formazione stellare nella Via Lattea è di sole all'anno, che diviso per la funzione di massa iniziale equivale a una massa media della nuova stella di 0,5 masse solari, che porta a un risultato di circa 1,5-3 nuove stelle all'anno.
+
+fp – la frazione di tali stelle che possiede pianeti
+Da recenti ricerche di pianeti extrasolari risulta che il 40% di stelle simili al Sole possiedono pianeti, e la frazione reale potrebbe essere molto maggiore, poiché solo pianeti considerevolmente più massivi della Terra possono essere rilevati con la tecnologia attuale. Osservazioni all'infrarosso dei dischi di polvere intorno a stelle giovani suggeriscono che il 20-60% delle stelle paragonabili al Sole debbano possedere pianeti terrestri. Osservazioni di fenomeni di microlenti gravitazionali, abbastanza sensibili da rilevare pianeti piuttosto lontani dalle loro stelle, vedono pianeti in circa un terzo dei sistemi esaminati (valore approssimato per difetto, visto che questo sistema è in grado di rilevare solo una parte dei pianeti). La missione Kepler, dai dati iniziali, stima che circa il 34% dei sistemi ospiti almeno un pianeta.
+
+ne – il numero medio di pianeti (o satelliti) per sistema stellare che presentano condizioni potenzialmente compatibili con la vita
+La maggior parte dei pianeti osservati ha orbite molto eccentriche, o troppo vicine al sole per garantire temperature adatte alla vita. Comunque sono noti diversi sistemi planetari che assomigliano maggiormente a quello solare, come HD 70642, HD 154345, Gliese 849 e Gliese 581. Nelle zone abitabili intorno a queste stelle potrebbero anche esserci altri pianeti paragonabili alla Terra ancora da scoprire. Inoltre, la varietà di sistemi stellari che possono presentare zone di abitabilità non è limitata esclusivamente alle stelle simili al Sole e ai pianeti simili alla Terra; attualmente si ritiene che anche pianeti vincolati a nane rosse in modo da rivolgere alla stella sempre la stessa faccia potrebbero avere zone abitabili, e alcuni dei grandi pianeti già scoperti potrebbe, potenzialmente, supportare la vita.
+
+Nel novembre 2013, secondo uno studio di Petigura et al. basato sui dati del telescopio spaziale Kepler, viene annunciato che potrebbero esserci fino a 40 miliardi di pianeti delle dimensioni della Terra in orbita nelle zone abitabili di stelle simili al sole e stelle nane rosse all'interno della Via Lattea, e di questi, 8,8 miliardi potrebbero essere in orbita attorno a stelle simili al Sole. Se si considera che ci sono circa 100 miliardi di stelle nella Galassia, il fpne sarebbe di circa 0,4. Secondo uno studio più recente pubblicato nel maggio 2020 sull'Astronomical Journal e basato sempre sui pianeti scoperti da Kepler, considerando in 400 miliardi il numero di stelle della Via Lattea, sarebbero 6 miliardi i pianeti simili alla Terra nelle zone abitabili di stelle simili al Sole.
+
+fl – la frazione di essi che effettivamente sviluppa la vita
+Nel 2002, Charles H. Lineweaver e Tamara M. Davis (dell'Università del Nuovo Galles del Sud e dell'Australian Centre for Astrobiology) hanno usato un ragionamento statistico basato sul tempo impiegato per svilupparsi dalla vita terrestre per stimare fl, ottenendo che esso deve essere maggiore di 0,13 sui pianeti più vecchi di un miliardo di anni.
+
+Prove geologiche ricavate dallo studio della Terra suggeriscono che fl potrebbe essere molto alto; la vita sulla Terra sembra essere iniziata quasi nello stesso periodo in cui si sono presentate le condizioni favorevoli, suggerendo che l'abiogenesi potrebbe essere relativamente comune laddove le condizioni la rendono possibile. La stessa idea sembra essere supportata anche dai risultati di esperimenti come quello di Miller-Urey, che dimostrano che in condizioni adeguate le molecole organiche possono formarsi spontaneamente a partire da elementi semplici. Tuttavia queste prove si basano esclusivamente su dati relativi alla Terra, cosicché la base statistica è estremamente ridotta; e inoltre sono influenzate dal principio antropico, nel senso che la Terra può non essere un campione perfettamente tipico, visto che siamo obbligati a sceglierla come modello perché su di essa la vita si è effettivamente sviluppata. Gli scienziati hanno cercato una prova per questa teoria, cercando batteri che non sono correlati ad altre forme di vita sulla Terra, ma nessuno è stato ancora trovato.
+
+Un'altra ipotesi suggerita nel 1960 da Francis Crick e Leslie Orgel è quella della panspermia guidata, secondo la quale la vita sulla Terra ha avuto inizio con" microrganismi inviati deliberatamente sulla Terra da una civiltà avanzata di un altro pianeta, per mezzo di una speciale astronave senza equipaggio in viaggi a lungo raggio.
+
+Nel 2020, un gruppo di studiosi dell'Università di Nottingham hanno proposto un principio "astrobiologico-copernicano", basato sul principio di mediocrità, ipotizzando che "la vita intelligente si sarebbe formata su altri pianeti [simili alla Terra] come ha fatto sulla Terra stessa, quindi entro pochi miliardi di anni la vita si formerebbe automaticamente come parte naturale dell'evoluzione. Nel quadro degli autori, fl, fi e fc sono tutti impostati su una probabilità di 1 (certezza). Il loro calcolo risultante conclude che ci sono più di trenta civiltà tecnologiche attualmente nella nostra galassia.
+
+fi – la frazione di essi che effettivamente sviluppa vita intelligente
+Questo valore rimane particolarmente controverso. Coloro che si esprimono in favore di un valore basso, come il biologo Ernst Mayr, evidenziano che dei miliardi di specie che sono esistite sulla Terra solo una è diventata intelligente. Coloro che sono in favore di valori più alti sottolineano invece che la complessità degli esseri viventi tende ad aumentare lungo il corso dell'evoluzione, e ne concludono che l'apparizione di vita intelligente, prima o poi, sia quasi inevitabile.
+
+Sono diverse le critiche su questo valore, soprattutto da parte dei sostenitori dell'ipotesi della rarità della Terra. Alcuni scenari come la Terra a palla di neve o gli eventi che hanno portato a estinzioni di massa hanno evidenziato la possibilità che la vita sulla Terra sia relativamente fragile. La ricerca su una qualsiasi vita passata su Marte è rilevante, poiché la scoperta che la vita si è formata sul pianeta rosso ma ha cessato di esistere aumenta la stima di fi ma indicherebbe anche che nella metà dei casi conosciuti, la vita intelligente non si è mai sviluppata.
+
+Lo scienziato Pascal Lee del SETI Institute suggerische che questa frazione sia molto bassa (0,0002). Ha basato questa stima sul tempo impiegato dalla Terra per sviluppare la vita intelligente (1 milione di anni da quando l'Homo erectus si è evoluto, rispetto a 4,6 miliardi di anni dalla formazione della Terra).
+
+fc – la frazione di essi che è in grado e decide di comunicare
+Anche se si sono fatte molte speculazioni, su questo parametro non sono disponibili dati concreti. Dalla Terra non si effettuano tante esplicite comunicazioni alla ricerca di civiltà aliene e anche un'altra civiltà potrebbe scegliere di non farlo. Le comunicazioni terrestri potrebbero essere intercettate da civiltà non troppo più avanzate di quella umana, tuttavia un altro quesito è quanto sia vicina una civiltà aliena per ricevere messaggi, supponendo che essa lo invii. Ad esempio, i radiotelescopi terrestri esistenti potrebbero rilevare le trasmissioni radio della Terra solo a circa un anno luce di distanza.
+
+L – la durata media della fase comunicativa di ognuna di queste civiltà
+In un articolo comparso su Scientific American, lo scrittore scientifico Michael Shermer ha proposto per L il valore di 420 anni, basando la sua stima sulla durata media di sessanta civiltà storiche. Utilizzando ventotto civiltà più recenti (successive all'Impero romano) il valore sarebbe, per le "civiltà moderne", 304 anni. Va però notato che ai fini dell'equazione di Drake questi valori non sono del tutto soddisfacenti, perché nella storia dell'umanità in generale si è avuto un progresso tecnologico abbastanza lineare – cioè ogni civiltà subentrata a una precedente ha conservato e migliorato le realizzazioni già ottenute. Perciò il valore in anni deve tener conto non di una singola civiltà nel senso storico e culturale del termine, ma di una specie nella prospettiva del suo livello di sviluppo tecnologico globale. Nella versione ampliata dell'equazione che tiene conto dei fattori di ricomparsa, questa mancanza di specificità nella definizione di "civiltà" non influenza il risultato finale, poiché il succedersi di diverse culture può essere descritto come un aumento del fattore di ricomparsa anziché come un aumento di L: una civiltà si conserva come una successione di culture.
+
+Altri, come l'astrobiologo David Grinspoon, hanno suggerito che una volta che una civiltà si è sviluppata essa potrebbe superare tutte le minacce poste alla sua sopravvivenza, e poi sopravvivere per un periodo indefinito, portando L all'ordine dei miliardi di anni.
+
+Valori basati sulle stime citate,
+
+R* = 7/anno, fp = 0,5, ne = 2, fl = 0,33, fi = 0,01, fc = 0,1, e L = 10&nbsp;000 anni
+danno come risultato
+N = 7 × 0,5 × 2 × 0,33 × 0,01 × 0,1 × 10&nbsp;000 = 23,1 civiltà extraterrestri esistenti in grado di comunicare nella nostra galassia.
+
+Elaborazioni
+Come molti esperti hanno evidenziato, l'equazione di Drake è un modello molto semplice, che non tiene conto di alcuni parametri potenzialmente rilevanti. Lo scienziato e autore di fantascienza statunitense David Brin ha affermato:
+
+Poiché è proprio la possibilità di un contatto che interessa la comunità dei progetti SETI, sono stati proposti molti fattori e modifiche addizionali della formula originaria. Tra di essi, per esempio, parametri come il numero di sistemi planetari che una specie intelligente potrebbe colonizzare, sviluppando così nuove civiltà, o il numero di volte che una civiltà potrebbe ricomparire sullo stesso pianeta, eccetera.
+
+Colonizzazioni
+
+Brin stesso in particolare ha proposto una generalizzazione dell'equazione di Drake che includa gli effetti aggiuntivi della colonizzazione di altri pianeti da parte di civiltà aliene. Se ogni sito originale si espande con una velocità v, e stabilisce nuovi siti che hanno una durata L, allora il risultato in termini di comunicabilità con la specie umana viene espresso con un più complesso sistema di tre equazioni.
+
+Fattori di ricomparsa
+
+Ai fattori dell'equazione di Drake potrebbe poi essere aggiunto un parametro che moltiplica per il numero di volte che una civiltà intelligente potrebbe riproporsi sullo stesso pianeta. Infatti, anche se una civiltà dovesse giungere alla fine della sua esistenza dopo, ad esempio, 10&nbsp;000 anni, la vita potrebbe continuare a esistere sul pianeta per altri miliardi di anni, consentendo a un'altra civiltà di evolversi. In altre parole diverse civiltà, ma anche diverse specie intelligenti, potrebbero succedersi su un pianeta nell'arco della sua esistenza.
+
+Se nr è il numero di volte che una nuova civiltà ricompare sullo stesso pianeta sul quale una civiltà precedente si è sviluppata ed è finita, allora il numero totale di civiltà su quel pianeta corrisponde a (1+nr), che è il vero "fattore di ricomparsa" da aggiungere all'equazione.
+
+Tale fattore, che indirettamente quantifica il lasso di tempo che trascorre tra la fine di una civiltà e la comparsa di quella seguente (nonché la somiglianza biologica tra le due), dipende dal tipo di cause che hanno portato alla fine della civiltà precedente e dalla misura dei danni subiti dalla vita sul pianeta in questione. In generale, se l'estinzione fosse dovuta a condizioni di inabitabilità temporanea, ad esempio un inverno nucleare, allora nr potrebbe essere relativamente alto. Se, invece, essa fosse dovuta a un'inabitabilità permanente o molto prolungata, causata ad esempio dall'evoluzione stellare del sole del sistema, allora nr sarebbe praticamente zero.
+
+Nel caso di una estinzione totale della vita potrebbe essere preso in considerazione un fattore simile, nl, corrispondente al numero di volte che la vita stessa può comparire su un pianeta sul quale si era già sviluppata una volta. (Tuttavia, tenendo conto del fatto che sulla Terra la vita intelligente ha richiesto circa quattro miliardi di anni per evolversi, e che un sistema planetario come quello del Sole dura circa dieci miliardi di anni, risulta difficile che quest'ultimo fattore possa scostarsi molto dall'unità).
+
+Fattore METI
+
+Il radioastronomo russo Alexander Zaitsev ha sottolineato che essere in una fase comunicativa non è la stessa cosa che emettere messaggi finalizzati a un contatto alieno. Gli umani ad esempio, pur essendo in una fase comunicativa, non sono una civiltà comunicativa in senso interplanetario: noi non trasmettiamo regolarmente e di proposito messaggi destinati ad altri sistemi stellari. Per questo motivo ha suggerito di includere nell'equazione classica un "fattore METI" (dove METI sta per Messaging to Extra-Terrestrial Intelligence, "Invio di messaggi a intelligenze extraterrestri"). Tale fattore è definito come "la frazione di civiltà in grado di comunicare con una consapevolezza planetaria chiara e non paranoica", cioè che si impegnano deliberatamente e attivamente in trasmissioni interstellari.
+
+Critiche
+Le critiche all'equazione di Drake seguono per la maggior parte dall'osservazione che molti termini della formula sono in gran parte completamente congetturali. Perciò l'equazione non può portare a nessun tipo di conclusione. T.J. Nelson sostiene:
+
+Questa critica, e quelle di questo tipo, non sono in realtà rivolte contro la validità dell'equazione in sé; piuttosto evidenziano che i valori da inserire nella formula ci sono noti in gran parte con un margine di incertezza inaccettabile. Il valore teorico dell'equazione di Drake comunque rimane indiscusso; inoltre, tenendo presente che Drake la formulò come indicazione di massima in vista di future discussioni su civiltà extraterrestri solo in seguito si pone il problema di come procedere sperimentalmente.
+
+Un'altra limitazione dell'equazione, che pone le basi di tutt'altro tipo di critiche, consiste nel fatto che i parametri che compaiono nella formula fanno riferimento alla vita intesa in termini strettamente terrestri, cioè a un tipo di esseri approssimativamente umanoidi. Ad esempio il modo in cui generalmente si calcola il valore di ne (se non la stessa presenza nella formula di un termine di questo tipo) sembra dare per scontato che la vita possa esistere solo in forme sostanzialmente simili a quelle a cui siamo abituati sulla Terra; mentre in linea di principio non è possibile escludere completamente che forme di vita intelligente radicalmente diverse dagli umani possano svilupparsi, ad esempio, su pianeti di tipo gioviano. Evitando, come molti ritengono opportuno fare, le posizioni antropocentriche o carbonio-scioviniste, il numero di specie intelligenti nella galassia in teoria potrebbe aumentare sensibilmente.
+
+Campi magnetici planetari e revisione della formula di Drake
+L’uguaglianza o formula di Drake (anche nota come “equazione”) è la formalizzazione di un tipico problema di metrologia computazionale: data una grandezza fisica misurabile, quali sono i fattori che ne determinano la quantità? In particolare, in accordo con questa definizione, Drake formalizza il problema metrologico della valutazione del numero N di pianeti civilizzati presenti nella Via Lattea attraverso i sette fattori R, fp, ne, fl, fi, fc, L legati da moltiplicazione secondo la citata:
+
+Fermo restando che per conoscere il numero N di pianeti civilizzati presenti nella Via Lattea è necessario contarli o contare (ovvero misurare) il valore di tutti i fattori richiamati in formula, osserviamo l’uguaglianza di Drake ed, in particolare, il suo parametro ne.
+
+Per definizione ne indica il numero medio di pianeti, per sistema planetario, in grado di sostenere la vita. ne dice che un pianeta per sostenere la vita (nella forma in cui ci è nota) deve orbitare ad una distanza media r dalla sua stella tale da garantire una temperatura superficiale che permetta la presenza, sulla sua superficie, di acqua liquida e di eventuali molecole organiche pre-biologiche. Durante la sua rivoluzione, il pianeta deve rimanere all’interno della zona detta “dei riccioli d’oro”. Questa definizione è di tipo esclusivamente geometrico (basata su raggio medio ed eccentricità dell’orbita) ed è condizione necessaria per soddisfare quanto a ne ma non è condizione sufficiente. Affinché il pianeta sia in grado di sostenere la vita è anche necessario che esso possieda un campo magnetico di intensità paragonabile a quello terrestre. Infatti alla distanza r oltre che dalla luce il pianeta è investito da un flusso di particelle sub-atomiche ionizzate detto vento solare composto per circa il 95% di nuclei di idrogeno (H+) e dal suo campo magnetico concatenato (IMF Interplanetary Magnetic Field) di intensità
+
+e di caratteristiche [con 1) grado di attività solare Q day (quiet day = giorno di bassa attività solare) e 2) distanza dal Sole r = 1[AU)]:
+
+, , ,
+
+dove:
+
+d = densità dei protoni (H+)
+Dd = densità di flusso del vento solare
+v = velocità media delle particelle costituenti il vento solare
+T = temperatura dei protoni (H+)
+
+(i valori segnalati aumentano nei giorni di accresciuta attività solare - ndt)
+
+Se questo flusso plasmatico (anche per le condizioni di Q day) arrivasse sulla superficie del pianeta romperebbe la struttura delle molecole d’acqua e, soprattutto, di quelle organiche pre-biologiche, escludendo alla radice ogni possibilità di vita. Allora, nella formalizzazione di ne, il problema evolve da quanti pianeti ruotano attorno alle proprie stelle nella zona dei riccioli d’oro a quello di quanti di questi pianeti dispongono di campo magnetico tipo terrestre (probabilità composta).
+
+La vita, quindi, è nata e si è evoluta sul pianeta Terra, oltre per la nota condizione dei riccioli d’oro, perché il forte campo magnetico terrestre ha fatto scudo al vento solare, scaricando gli ioni suoi componenti verso lo spazio profondo in direzione radiale esterna della direttrice Sole-Terra evitando, quindi, che detti ioni interagissero elettricamente con la superficie del pianeta e con le fragili molecole pre-biologiche eventualmente presenti su detta superficie.
+
+Con l’apertura di questa osservazione la definizione di pianeta in grado di sostenere la vita cessa di essere esclusivamente geometrica ed evolve in geometrica e fisica. In ultima analisi è necessario aggiungere alla formula di Drake un fattore che tenga conto della frequenza della presenza di campi magnetici tipo terrestre nei pianeti rocciosi.
+
+Il campo magnetico del pianeta Terra (cmt)
+
+Il cmt è variabile in intensità e forma ed è dipolare solo se mediato su lunghi periodi, su ampie porzioni di superficie terrestre e, soprattutto, se osservato in prossimità della superficie stessa del pianeta. In quota le linee di forza del cmt appaiono schiacciate verso la superficie della Terra nell’emisfero rivolto verso il Sole e allungate verso lo spazio esterno in quello opposto. In questa direzione si forma la cosiddetta magneto-tail (coda del cmt). Le linee di forza della magneto-tail rappresentano la via di scarico esterno degli ioni ingaggiati dal cmt nella sua porzione rivolta verso il Sole. L’intensità F del cmt misurata alla superficie del pianeta varia da circa 20000 [nT] all’equatore a quasi 70000 [nT] ai poli:
+
+L’origine del cmt è interna al pianeta. Dal punto di vista magnetico l’interno della Terra è diviso in tre parti: il guscio esterno (crosta) con attività magnetica moderata, una parte a profondità intermedia (mantello) ad attività magnetica circa nulla ed una porzione profonda, metallica, (nucleo, a sua volta diviso in nucleo esterno ed interno) ad alta attività magnetica. Il nucleo produce oltre l’80% dell’intensità di campo del cmt. La produzione del campo magnetico nucleare terrestre non è di tipo ferromagnetico in quanto la temperatura del nucleo terrestre è superiore al limite Tc (temperatura di Curie) oltre il quale le sostanze magnetiche perdono questa caratteristica. Il generatore terrestre è di tipo elettromagnetico modellabile con una dinamo ad autoinduzione modificato dal modello della doppia dinamo ad autoinduzione capace di descrivere anche le periodiche inversioni di polarità del cmt. Il fenomeno della produzione di campo elettrico nucleare (ed associato campo magnetico) avviene per sfregamento della superficie di contatto del nucleo interno solido (a causa della elevata pressione P) con il nucleo esterno liquido. Detto sfregamento è dovuto alle velocità di rotazione differenti fra la componente nucleare interna e quella nucleare esterna. Il generatore magnetico terrestre (nucleo) appare quindi una struttura elettromeccanica complessa ed anche, su scala planetaria, particolarmente massiva. Il problema finale della definizione di ne, dal punto di vista magnetico è duplice: 1) quanto può essere diffuso questo tipo di struttura nei pianeti rocciosi? e 2) che effetto ha l’inserimento del parametro cmt nella formula di Drake? E’ comunque fattuale che un pianeta extrasolare può definirsi di tipo Terra se e solo se, oltre alle note somiglianze di tipo ambientale, possiede un campo magnetico di tipo cmt.
+
+Revisione metrologica della formula di Drake
+
+Sull’ipotesi di diffusione del modello nucleare terrestre nei pianeti rocciosi.
+
+La diffusione della struttura nucleare tipo terrestre nei pianeti rocciosi extrasolari è connessa alla genesi del nostro pianeta e, più in generale, a quella del sistema Terra-Luna. Le teorie geofisiche in merito sono diverse ma attualmente la più accreditata è la teoria della catastrofe cosmica. Secondo questa teoria, circa 4,5 miliardi di anni fa, circa 50 milioni di anni dopo la formazione del Sistema Solare, il pianeta Theja, grande circa un decimo della Terra, collise con il nostro pianeta con una direzione di impatto di circa 45° rispetto alla direzione orbitale della Terra stessa. In realtà, dal punto di vista della destrutturazione dei due corpi celesti, potremmo definire l’impatto come quasi catastrofico perché non distrusse completamente i due pianeti ma li rimodellò nel sistema Terra-Luna che conosciamo. La maggior parte dei materiali nucleari (pesanti) si sarebbe fusa aumentando notevolmente la massa del nucleo della proto-Terra mentre parte dei materiali crostali (leggeri) si sarebbe dispersa nello spazio circumterrestre andando poi a formare, per aggregazione gravitazionale, la Luna. Nella nostra ottica l’urto fu meccanicamente “perfetto”: avvenuto 1) in direzione non baricentrica ma angolata di 45° preservando così i due corpi celesti dalla probabile destrutturazione totale e 2) fra con un pianeta sufficientemente grande (Theja) da apportare la quantità di materiale nucleare sufficiente ad innescare il sistema dinamico infranucleare della Terra. I termini dell’evento (urto fra due pianeti di masse “giuste”, avvenuto in una orbita “giusta” (quella dei riccioli d’oro), nella direzione “giusta” e al momento “giusto” - ndt) appare stocastico e quindi ad occorrenza casuale (probabilità di accadimento estremamente bassa). Si evince quindi che la formazione di pianeti tipo Terra è effettivamente molto bassa. Quanto bassa? Ogni risposta quantitativa al quesito appare congetturale e quindi, ancora:
+
+per conoscere il numero dei pianeti tipo Terra (quindi con cmt sufficientemente intenso) che si trovino ad orbitare nella zona dei riccioli d’oro è necessario contarli.
+
+Però rimane un fatto fondamentale: escludendo il fattore campo magnetico la formula di Drake sovrastima N. Di quanto? Forse di molto, forse di moltissimo.
+
+Formalizzazione del contributo del cmt nella valutazione di N.
+
+Come detto, ad oggi, assegnare un valore quantitativo ai fattori di Drake è fatto puramente congetturale e quindi il calcolo di N è fatto speculativo. Ognuno può assegnare il valore numerico che crede entro limiti discrezionali da ampi ad ampissimi e quindi ottenere il valore di N che preferisce. Le sole affermazioni quantitative ammissibili sono:
+
+e
+
+con ℕ numero naturale (intero)
+
+Per osservare gli effetti del parametro cmt calcoliamo, secondo l’ipotesi di Drake, da prima, il valore di N secondo la formulazione originale poi inseriamo in detta formulazione un opportuno parametro rappresentativo il cmt e confrontiamo quindi i risultati.
+
+Assegniamo (assunzione soggettiva) ai parametri R, fp, ne, fl, fi, fc, L valori numerici scelti fra i più diffusi in letteratura:
+
+R = 7 [1/y]
+fp = 0,5
+ne = 0,5
+fl = 0,33
+fi = 0,01
+fc = 0,1
+L = 10000 [y]
+
+da cui:
+
+Nella Via Lattea, secondo questo calcolo, dovrebbero esistere circa 6 civiltà tecnicamente evolute (valore congetturale perché i valori dei parametri di Drake non sono noti ma supposti - ndt).
+
+Per implementare l’efficacia della formula di Drake (nel rispetto della sopracitata nota) introduciamo il parametro nm definendolo:
+
+nm = percentuale statistica di occorrenza, nel gruppo dei pianeti ne, di pianeti dotati di campo magnetico tipo Terra.
+
+con
+
+da cui la revisione della formula di Drake attraverso nm:
+
+Formalizziamo l’appartenenza di nm a ne denominando, per comodità, il gruppo dei pianeti potenzialmente in grado di sostenere la vita ridefinito dall’inserimento del sottogruppo nm come gruppo (parametro) w e ricordiamo che questa appartenenza compone le probabilità rappresentate da ne e nm:
+
+w = ne x nm
+
+da cui (formula di Drake-Faggioni)
+
+che in notazione metrologica di più diretta interpretazione:
+
+cioè
+
+“”
+
+Reazione quantitativa della formula di Drake al parametro w
+
+Tentiamo ora di definire la risposta quantitativa della formula di Drake all’inserimento di w (quindi del sottogruppo nm). A tal fine, per non aggiungere una ulteriore congettura, consideriamo dati misurati del Sistema Solare.
+
+(condizione imposta: assumiamo il Sole quale stella standard e il Sistema Solare quale sistema planetario standard di stella standard – ndt).
+
+Calcoliamo l’evoluzione di N per la Drake-Faggioni rispetto alla Drake originale con riferimento all’osservazionei del Sistema Solare chiedendoci:
+
+quanto è diffusa la presenza di campi magnetici tipo Terra fra i quattro pianeti interni del sistema solare? Ovvero quanti pianeti rocciosi hanno questo tipo di campo magnetico?
+
+Uno, la Terra.
+
+Allora, nel caso del Sistema Solare, nm vale:
+
+da cui:
+
+da cui ancora:
+
+meno di 3 civiltà intelligenti ogni 2 galassie.
+
+Anche questo risultato è privo di valore metrologico in quanto proveniente da fattori stabiliti congetturalmente (anche noi abbiamo congetturato circa le assunzioni di standardizzazione per il calcolo di nm e quindi di w). Di più, va chiarito che, nella famosa riunione tecnica di Green Bank il prof. Drake non propose un metodo di calcolo di N ma formalizzò e collegò matematicamente i fattori astrofisici e biologici da cui detto N dipende. Il suo approccio è pienamente valido mentre, ad oggi, è errato usarlo per calcolare N perché sono ignoti i valori dei parametri richiamati dalla formula.
+
+Il risultato numerico assoluto offerto dalla formula Drake-Faggioni è quindi aleatorio quanto quello offerto dalla formula di Drake originale mentre è invece rilevante il risultato numerico relativo: a parità del valore numerico assegnato agli altri fattori, il solo inserimento di “nm solare” (attraverso w) riduce il valore di N a circa 1/6 dell’originale quindi si afferma con certezza che:
+
+la notazione originale della formula di Drake, anche nell’ipotesi di piena conoscenza metrologica di tutti i fattori richiamati in formula, sovrastimerebbe N in quanto detta notazione non prevede il fattore nm.
+
+Equazione di Drake e paradosso di Fermi
+Il fisico italiano Enrico Fermi propose nel 1950 un paradosso, che oggi dal suo nome è comunemente noto come paradosso di Fermi, che può essere formulato così: se nell'universo esiste un gran numero di civiltà aliene, perché la loro presenza non si è mai manifestata?
+
+Dal momento che nel 1950 l'equazione di Drake non era ancora stata formulata, Fermi dovette inferire l'esistenza di un gran numero di civiltà extraterrestri dal principio copernicano e dai problemi di stima complessi che egli era abituato a porsi e a risolvere (problema di Fermi), di cui l'esempio più noto è il problema degli accordatori di pianoforte. In questo senso, Fermi fu un precursore di Drake nello stimare delle probabilità complesse come quella di un contatto con intelligenze aliene.
+
+Sono state proposte numerose spiegazioni per spiegare questa mancanza di contatto; un libro di Stephen Webb pubblicato nel 2015 ha elaborato 75 diverse spiegazioni, che possono essere suddivise in tre classi:
+
+Si sviluppano poche civiltà intelligenti e soprattutto il valore di fi è basso.
+Esistono civiltà intelligenti ma non vediamo le prove, il che significa che il valore di fc è molto basso. I motivi possono essere diversi: le civiltà evolute sono troppo distanti, è troppo costoso diffondersi in tutta la galassia, le civiltà trasmettono segnali solo per un breve periodo di tempo, la comunicazione è pericolosa e molti altri.
+La vita di civiltà intelligenti e comunicative è di breve durata, il che significa che il valore di L è piccolo. Drake ha suggerito che si sarebbe formato un gran numero di civiltà extraterrestri e ha inoltre ipotizzato che la mancanza di prove di tali civiltà potrebbe essere dovuta al fatto che le civiltà tecnologiche tendono a scomparire piuttosto rapidamente per diversi motivi: è nella natura della vita intelligente distruggere se stessa e gli altri, oppure tendono a essere distrutti da eventi naturali.
+
+Questi ragionamenti sono conformi all'ipotesi del Grande filtro, che afferma che poiché non ci sono civiltà extraterrestri osservate nonostante il vasto numero di stelle, almeno una fase del processo deve fungere da filtro per ridurre il valore finale. Secondo questo punto di vista, o è molto difficile che sorga la vita intelligente, o la vita di civiltà tecnologicamente avanzate, o il periodo di tempo in cui rivelano la loro esistenza deve essere relativamente breve.

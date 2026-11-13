@@ -1,0 +1,10 @@
+Seekport era il motore di ricerca di Seekport Internet Technologies Italy S.r.l., divisione italiana con sede a Milano dell'azienda tedesca Seekport Internet Technologies GmbH. Seekport Internet Technologies era nata dalla società tra la Arexera Information Technologies, con sede nella cittadina di Martinsried, e la xperience-at-work, con sede ad Amburgo.
+
+La tecnologia del motore di ricerca era stata sviluppata in Germania, dove Seekport esiste dal gennaio 2004. Oltre alla tecnologia di Seekport, la Seekport Internet Technologies ha sviluppato sistemi di ricerca degli archivi di alcuni dei maggiori quotidiani tedeschi, quali Die Welt, lo Hamburger Abendblatt, ed il Berliner Morgenpost. Ad un anno dalla sua fondazione, avvenuta nel dicembre 2003, l'impresa gestiva il 4% delle ricerche avviate da utenti tedeschi.
+
+Seekport era il primo motore di ricerca paneuropeo, il cui obiettivo principale era rispondere al meglio alle esigenze di ricerca degli utenti Internet dei paesi europei in cui esso era presente: (Germania, Francia, Gran Bretagna, Italia e Spagna). Gradualmente, il motore doveva diventare disponibile anche in altre lingue europee. Seekport era in grado di effettuare ricerche anche per termini troncati.
+
+La versione italiana dell'indice era apparsa sul web nel giugno 2005. Al febbraio 2008 Seekport Italia offriva servizi di ricerca di pagine web, di notizie, su blog e per risorse tematiche, oltre alle funzioni Trendseek e Liveseek. La funzione Trendseek elaborava un ranking delle notizie più importante diffuse dai mass media durante gli ultimi tre giorni, ed un ranking degli argomenti più rilevanti delle discussioni su blog. La funzione Liveseek consente di monitorare in tempo reale le ricerche effettuate da altri utenti.
+
+Fallimento
+Il 10 aprile 2008 la ditta ha dichiarato bancarotta e pochi mesi dopo andò offline. Alcuni servizi furono ripresi dalla società AllSearch GmbH, che pure fallì il 10 gennaio 2009. Nel 2014 la Sistrix GmbH ne acquistò il dominio seekport.de con un set ridotto di funzionalità. Il crawler di Seekport ignora le direttive presenti nel file robots.txt. di La Sistrix non fornisce ulteriori dettagli.

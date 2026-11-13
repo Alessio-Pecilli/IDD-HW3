@@ -1,0 +1,13 @@
+Un dialetto, in informatica, è una variante di un linguaggio di programmazione standard creata per aggiungergli funzioni o per adattarlo ad un uso particolare.
+
+Caratteristiche
+Tipicamente un dialetto coincide con una implementazione non del tutto conforme allo standard di un linguaggio, o con una implementazione che soddisfa completamente i requisiti dello standard ma presenta caratteristiche aggiuntive proprietarie. Non si parla invece di dialetto quando un linguaggio è derivato da un altro linguaggio da cui però differisce in modo significativo, eventualmente fino al punto di corrispondere a un diverso paradigma di programmazione.
+
+Per esempio, il C++ non è considerato un dialetto del C, pur comprendendo quasi completamente le caratteristiche del C standard, perché le sue caratteristiche aggiuntive lo fanno classificare come linguaggio orientato agli oggetti mentre il C è un linguaggio procedurale. Altro caso è quello di Java, che pur essendo in parte derivato dal C++ ne differisce per molti aspetti ed è caratterizzato da una struttura del runtime completamente diversa.
+
+Esempi
+Ecco alcuni famosi esempi di dialetti:
+C++ Builder è un ambiente di sviluppo software che usa un dialetto del C++.
+MySQL, PostgreSQL, SQL Server e Oracle sono quattro DBMS che usano i rispettivi dialetti dell'SQL standard.
+C shell e bash sono interpreti di comandi, che interpretano linguaggi di comandi che sono dialetti di quello interpretato dalla Bourne shell.
+J++ è un dialetto di Java.

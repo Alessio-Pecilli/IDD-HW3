@@ -1,0 +1,11 @@
+Il processo di van Arkel-de Boer, sviluppato nel 1925 dai chimici olandesi Anton Eduard van Arkel e Jan Hendrik de Boer è stato il primo processo industriale per la produzione commerciale di zirconio. Viene utilizzato ancora oggi per la produzione di piccoli quantitativi di titanio, zirconio, afnio, vanadio, torio e protoattinio ad alta purezza, mentre per produzioni di interesse commerciale viene sostituito dal processo Kroll.
+
+Principio di funzionamento
+
+Il processo si basa essenzialmente sulla formazione reversibile di ioduri che si ridecompongono in metallo puro. Nel caso del titanio la reazione di dissociazione è la seguente:
+
+Descrizione del processo
+
+Il titanio grezzo o i rottami di titanio da purificare vengono scaldati sottovuoto fino a 800 °C (50-250 °C per lo zirconio) in presenza di iodio. Si formano dunque tetraioduro di titanio (TiI4) o tetraioduro di zirconio (ZrI4) che, essendo volatili, separano il metallo dalle impurezze rimaste allo stato solido. Infatti a pressione atmosferica lo ioduro di titanio fonde a 150 °C e bolle a 377 °C e lo ioduro di zirconio fonde a 499 °C e bolle a 600 °C, e la temperatura di ebollizione diminuisce ulteriormente col diminuire della pressione. Il tetraioduro gassoso viene estratto per convezione e decomposto a contatto di un filamento di tungsteno riscaldato fino a 1400 °C, su cui si deposita il metallo purificato. Il tungsteno viene mantenuto a tale temperatura attraverso il passaggio di corrente elettrica, sfruttando la sua relativamente bassa conduttività. Tuttavia il deposito di titanio aumenta sensibilmente la conduttività, richiedendo quindi un continuo aumento della corrente attraverso il filamento per garantirne una temperatura costante.
+
+Galleria d'immagini

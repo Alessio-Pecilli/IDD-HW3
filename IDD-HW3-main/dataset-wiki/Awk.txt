@@ -1,0 +1,47 @@
+AWK (dalle iniziali dei cognomi dei suoi autori, Alfred Aho, Peter Weinberger e Brian Kernighan) è un linguaggio di programmazione interpretato orientato alla manipolazione di dati di tipo testuale, sia in forma di file che di flusso di dati provenienti dallo standard input.
+
+Tipi di variabile
+AWK è un linguaggio debolmente tipizzato, e qualunque variabile può essere considerata alla stregua di una stringa (può essere concatenata, è possibile contarne il numero di caratteri, eccetera), anche se le variabili numeriche vengono convertite a numeri interi o a virgola mobile quando necessario, ad esempio nelle operazioni aritmetiche. È assente il tipo booleano (ovvero variabili dal valore true o false), ma è possibile usare qualunque variabile come valore booleano: il valore 0, la stringa vuota ("") o una variabile non inizializzata sono considerati false, mentre qualunque altro valore è true.
+
+Oltre alle variabili scalari, AWK supporta anche gli array associativi, cioè array indicizzati tramite stringhe chiave. Poiché in AWK qualunque scalare può essere considerato una stringa, è anche possibile definire array le cui chiavi sono numeri interi sequenziali, ma tipicamente, a differenza di molti altri linguaggi di programmazione, questo non porta alcun vantaggio in termini di prestazioni di accesso, perché AWK non fa distinzione tra array sequenziali e array associativi.
+
+Ad esempio, è possibile definire i due array:
+
+L'accesso agli array avviene solitamente tramite la parola chiave in, che cicla sulle chiavi dell'array specificato, con ordine indefinito:
+
+Nel caso di un array sequenziale è possibile usare la sintassi in stile C per ottenere l'accesso sequenziale ai valori:
+Infine, AWK supporta le espressioni regolari. Un'espressione regolare è definita tra due barre, e viene usato l'operatore tilde per verificare se una variabile soddisfa una data espressione regolare:
+
+Struttura di un programma
+Un programma in AWK è strutturato secondo una sequenza di direttive del tipo:
+condizioni { azioni }
+Se allo script viene fornito uno o più file, oppure in generale uno stream di dati (ad esempio attraverso lo standard input), questo stream verrà letto riga per riga da AWK; per ogni riga, le istruzioni contenute nello script vengono eseguite sequenzialmente. Per ogni istruzione, se la relativa condizione è verificata per la riga corrente, vengono eseguite le azioni corrispondenti a tale condizione.
+
+Ad esempio, se a un programma AWK siffatto:
+
+viene fornito l'input:
+
+123
+pippo
+pluto2
+
+verrà eseguita l'azione print $0 (che stampa l'intera riga a schermo) esclusivamente per la seconda riga, mentre le altre due verranno ignorate.
+
+Se viene specificata una condizione senza una relativa azione, l'azione predefinita è proprio "stampa l'intera riga", per cui nell'esempio di sopra il seguente codice sarebbe equivalente:
+
+Se al contrario viene specificata un'azione senza una relativa condizione, quell'azione verrà eseguita per tutte le righe in input.
+
+Condizioni speciali
+Esistono due condizioni speciali: BEGIN e END. Un'azione con condizione BEGIN viene eseguita sempre prima che un qualunque input venga processato, mentre una con condizione END viene sempre eseguita dopo che tutto l'input è stato processato.
+
+Utilizzi
+AWK può essere usato come filtro, è stato uno dei primi strumenti a fare la sua comparsa dalla versione 7 di Unix ed ottenne la giusta fama di essere un modo per aggiungere capacità computazionali ad una pipeline Unix. L'AWK è ormai presente fra le applicazioni standard di ogni versione recente di sistema operativo Unix disponibile oggi. Implementazioni di AWK esistono comunque per quasi tutti gli altri sistemi operativi.
+
+Solitamente AWK è un linguaggio interpretato, cioè esiste un file eseguibile chiamato awk che legge o da riga di comando o da un file il programma vero e proprio scritto in linguaggio awk e lo applica ad uno o più file di ingresso per produrre un risultato.
+
+Esempi
+
+Hello, world!
+
+Conteggio delle parole
+Conta le parole in input e stampa il numero di righe, parole e caratteri (analogamente al comando wc):

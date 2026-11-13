@@ -1,0 +1,27 @@
+Il gruppo di Ananke è formato da un insieme di satelliti naturali di Giove che condividono orbite simili a quella di Ananke e che si ritiene abbiano avuto una origine comune.
+
+La distanza media da Giove, è data dai loro semiassi maggiori che vanno da 19,3 a 22,7 milioni di chilometri, le loro inclinazioni da 145,7° a 154,8°, e le loro eccentricità da 0,02 a 0,28. Si muovono tutti in moto retrogrado rispetto a Giove.
+
+L'Unione Astronomica Internazionale (IAU) riserva i nomi terminanti in -e per tutti i satelliti retrogradi, compresi quelli di questo gruppo. Nella nomenclatura in italiano, questa regola non viene sempre rispettata.
+
+Componenti
+Non c'è un accordo definitivo sul numero dei membri che compongono il gruppo di Ananke. Secondo alcuni autori, la lista più affidabile dovrebbe comprendere i seguenti satelliti elencati in ordine di diametro decrescente (il segno meno davanti al periodo indica che l'orbita è retrograda):
+
+Altri membri potenziali sono:
+Euporia (Euporie)
+Mneme
+Ortosia (Orthosie)
+Telsinoe
+Ermippe
+Elice
+Filofrosine
+S/2003 J 16
+S/2003 J 18
+S/2010 J 2
+
+Origine
+Secondo alcuni autori il gruppo di Ananke si sarebbe formato in seguito alla cattura e successiva frammentazione collisionale di un asteroide da parte di Giove. L'ipotesi è basata sul fatto che la dispersione dei parametri orbitali dei componenti è molto ridotta e può essere collegata a un basso impulso di velocità (15 < δV < 80&nbsp;m/s), compatibile con una singola collisione e conseguente frammentazione.
+
+Sulla base delle dimensioni dei satelliti esistenti, l'asteroide progenitore dovrebbe aver avuto un diametro di circa 28&nbsp;km. Questo valore corrisponde quasi al diametro di Ananke, indicando quindi che il corpo dell'asteroide non fu pesantemente frammentato.
+
+Gli studi fotometrici non sembrano però confermare questa ipotesi e tendono a suggerire che una risonanza secolare abbia mescolato i gruppi di Ananke e di Pasifae. Tre satelliti del primo gruppo (Arpalice, Prassidice e Giocasta) mostrano una colorazione grigia simile (indice di colore: B−V = 0.77 and V−R = 0.42), mentre Ananke mostra una colorazione tra il grigio e il rosso chiaro.

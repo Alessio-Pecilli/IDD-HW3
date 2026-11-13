@@ -1,0 +1,23 @@
+La Alexa Internet, Inc. è stata un'azienda statunitense, controllata da Amazon.com, specializzata nella raccolta e nell'analisi di statistiche sul traffico di Internet. L'azienda gestiva il servizio Alexa, noto soprattutto per le classifiche dei siti web basate sulla popolarità e sul traffico, oltre a un motore di ricerca e a una web directory.
+
+Fondata nel 1996, Alexa Internet è stata acquisita da Amazon nel 1999. Nel 2014 Amazon ha riutilizzato il marchio Alexa per il proprio assistente virtuale Amazon Alexa, senza alcun collegamento con il precedente servizio di analisi del traffico web.
+
+Alexa raccoglieva dati sul traffico web da numerose fonti, offrendo classifiche globali e nazionali dei siti web, informazioni demografiche sui visitatori e strumenti di analisi destinati a webmaster, inserzionisti e professionisti del marketing.
+
+Nel dicembre 2021 Amazon ha annunciato la chiusura del servizio Alexa Internet, cessato definitivamente il 1º maggio 2022.
+
+Storia
+Alexa Internet era stata fondata nel 1996 da Brewster Kahle e da Bruce Gilliat. Inizialmente offriva una barra di navigazione che guidava gli utenti di Internet in base alle strutture del traffico della maggior parte degli utenti; in seguito ha fornito informazioni riguardanti i contenuti di ciascuno dei siti visitati: il proprietario, il numero di pagine componenti il sito, il numero di collegamenti che puntavano al sito e la frequenza degli aggiornamenti. Inoltre forniva web crawl ad Internet Archive. In collaborazione con Internet Archive, gli ingegneri informatici di Alexa hanno ideato l'Internet Archive's Wayback Machine.
+
+Nel 1999 l'azienda è stata acquistata per 250 milioni di dollari da Amazon. Nella primavera del 2002 Alexa ha stretto degli accordi con Google, ed in seguito con Open Directory Project nel 2003. Nel maggio 2006 Live Search ha sostituito Google come piattaforma per la fornitura di risultati di ricerche internet. A settembre dello stesso anno tuttavia Alexa ha iniziato ad utilizzare la propria piattaforma di ricerca. A dicembre 2006 Alexa ha realizzato Alexa Image Search, la prima applicazione progettata autonomamente, ed installata sulla piattaforma web. Alexa era anche un motore di ricerca che forniva informazioni sui siti internet a motori di ricerca quali A9.com, ed una web directory basata su Open Directory. Il marchio Alexa è stato successivamente riutilizzato da Amazon nel 2014 per il lancio dell'assistente virtuale Amazon Alexa, un prodotto distinto da Alexa Internet.
+
+Nel dicembre 2005 Alexa ha utilizzato una serie di servizi web e di API per aprire il suo indice di ricerca ed i suoi strumenti di web-crawling a programmi di terzi. Questi potevano essere usati per la costruzione di motori di ricerca verticale, che girassero sui server di Alexa o su altri server. La Web Search Platform consentiva agli sviluppatori di accedere ai dati grezzi raccolti dai webcrawl.
+
+Nel maggio 2007 Alexa ha sostituito il proprio API, limitando così la comparazione dei dati a tre soli siti, e riducendo le dimensioni dei grafici inseriti nelle proprie pagine usando Flash, e gli annunci di BritePic.
+
+I traffic ranking di Alexa e la barra degli strumenti di Alexa
+Alexa classificava i siti basandosi sulle visite effettuate dagli utenti della Alexa Toolbar, per Internet Explorer, e dalle barre degli strumenti integrate in Mozilla e Netscape. Oltre alle estensioni della barra di stato, esistevano svariate estensioni fornite da terze parti per Mozilla Firefox.
+
+La questione se la base di utenti di Alexa fosse rappresentativa del comportamento degli utenti di internet era dibattuta. Se la base di utenti di Alexa era un campione statistico rappresentativo della popolazione degli utenti internet (un campione random di sufficiente ampiezza), il ranking di Alexa poteva essere ritenuto accurato. In realtà, poco si conosceva riguardo alle caratteristiche del campione e le possibili distorsioni. Svariati esempi erano stati forniti da Alexa stessa. Una fonte di distorsione dei dati era data dal fatto che l'installazione del software per il monitoraggio del traffico aveva luogo a discrezione degli utenti di Alexa. L'incidenza di queste scelte sulla modalità di elaborazione del ranking di Alexa non era conosciuta.
+
+Una seconda preoccupazione riguardava la possibilità di manipolare il ranking di Alexa. Alcuni webmaster sostenevano di poter migliorare in maniera significativa il ranking piuttosto basso di alcuni siti impostandoli come pagina iniziale, scambiando traffico web con altri webmaster, e richiedendo ai propri utenti di installare la barra degli strumenti di Alexa. Tali asserzioni erano basate su aneddoti e non era possibile verificarle mediante dati statistici o altre prove concrete.

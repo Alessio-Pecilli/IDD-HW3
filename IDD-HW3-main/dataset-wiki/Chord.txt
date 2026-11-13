@@ -1,0 +1,4 @@
+Chord – software per la trascrizione di musica
+Chord – pseudonimo di Andrés Bucci, musicista elettronico e DJ cileno
+Chord (protocollo peer-to-peer) – progetto per lo sviluppo di sistemi distribuiti scalabili e robusti sfruttando le idee del peer-to-peer
+Andrew Chord – personaggio dei fumetti Marvel Comics

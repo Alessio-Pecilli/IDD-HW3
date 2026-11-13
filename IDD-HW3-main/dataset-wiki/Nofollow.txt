@@ -1,0 +1,20 @@
+Nofollow è un valore assegnabile all'attributo rel dell'elemento HTML a per indicare formalmente ai motori di ricerca che un collegamento ipertestuale non dovrebbe essere seguito e indicizzato. A seconda dei casi questo attributo può essere scelto ad esempio per evidenziare pagine non inerenti al proprio sito web.
+
+Il metodo migliore per evitare formalmente l'accesso ai contenuti da parte degli spider dei motori di ricerca è ricorrere al protocollo di esclusione robot (robots.txt).
+Esso impedisce l'analisi dei meta tag.
+
+Esempio di nofollow
+
+Esempio di NoFollow
+
+Introduzione e supporto
+Google annunciò nel 2005 che i collegamenti ipertestuali aventi il tag rel="nofollow" non avrebbero influenzato il Page Rank: ma questo è palesemente diverso dal considerare la totalità di elementi che condizionano la posizione di un sito nei risultati di ricerca, e di cui il PageRank (del 1997) è una versione basilare di algoritmo, che è stata certamente corretta, modificata ed integrata, negli anni. Per questa ragione
+
+Il 15 giugno 2009 Matt Cutts, ingegnere di Google, annunciò che da allora i collegamenti nofollow non sarebbero stati più considerati normalmente dal Googlebot per evitare che i webmaster utilizzassero il nofollow per il PageRank Sculpting, o – in altri termini – (il che è diverso dall'adottare una qualsiasi strategia SEO che sia sensata).
+
+Interpretazione dai diversi motori di ricerca
+
+Utilizzo nei siti web
+Il software MediaWiki, che fornisce Wikipedia, venne equipaggiato dei link nofollow subito dopo l'annuncio del 2005. L'opzione fu abilitata nella maggior parte delle sezioni Wikipedia. Fu esclusa solo Wikipedia in inglese.
+
+Siti web come Slashdot, ad alta partecipazione dagli utenti, adottarono il tag rel="nofollow" per evitare potenziali spammer. Tra i principali siti di bookmarking e sharing che hanno adottato il nofollow vi sono YouTube e Digg (non tutte le pagine); altri siti come Netscape.com oppure Technorati non hanno invece adottato il tag rel="nofollow".

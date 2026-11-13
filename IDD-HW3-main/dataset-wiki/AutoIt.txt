@@ -1,0 +1,85 @@
+AutoIt (pronunciato auto-it) è un linguaggio di scripting e di automazione freeware per Microsoft Windows. Inizialmente, AutoIt fu creato principalmente per creare script di automazione per i programmi funzionanti su Microsoft Windows. Visto il suo grande successo, però, i creatori hanno deciso di renderlo un linguaggio più versatile e potente implementando funzioni avanzate.
+
+Con la distribuzione della versione 3, la sintassi di AutoIt è stata rinnovata per renderla simile a quella del BASIC. È un linguaggio di programmazione di terza generazione che utilizza un modello di dati classico e una variante del tipo di dati che consente la memorizzazione di diversi tipi di dati, inclusi gli array. È compatibile con Windows 95, 98, ME, NT4, 2000, XP, 2003, Vista, 7 e 8 (Il supporto per i sistemi operativi precedenti a Windows 2000 è cessato dalla v3.3.0).
+
+Uno script creato con AutoIt può essere compilato in un eseguibile stand-alone compresso, in modo da consentirne il funzionamento anche sui computer che non hanno AutoIt installato. È disponibile anche un'ampia gamma di librerie chiamate UDF, o "User Defined Functions" (Funzioni Definite dall'Utente) incluse o aggiuntive che aggiungono funzioni particolari. Nel pacchetto sono inclusi il compilatore e una guida esaustiva utili a tutti i programmatori che utilizzano AutoIt.
+
+Gli sviluppatori di AutoIt distribuirono il suo codice sorgente con la licenza GPL ma, in seguito alla proliferazione di molti programmi "clone" di AutoIt, la distribuzione fu sospesa all'inizio dello sviluppo della versione 3.2.0 (Agosto 2006) per poi riprendere successivamente.
+Caratteristiche e funzioni principali
+
+Linguaggio di scripting per Windows con sintassi simile al BASIC.
+Librerie aggiuntive e moduli per specifiche applicazioni.
+Supporto tramite un forum per utenti e sviluppatori.
+Supporta i protocolli TCP e UDP.
+Supporta gli oggetti COM.
+È in grado di richiamare funzioni nelle librerie DLL di Win32.
+Gli script possono essere compilati in eseguibili o in applicazioni console.
+Utilizza proprie interfacce per interagire, crea messaggi e finestre di input.
+Simula movimenti e clic del mouse.
+Manipola finestre di Windows e i suoi processi.
+Automatizza l'input dell'utente e i tasti premuti nelle varie applicazioni.
+È in grado di gestire l'audio.
+Supporta Unicode dalla versione 3.2.4.0.
+Supporta il codice a 64 bit dalla versione 3.2.10.0.
+Si possono utilizzare espressioni regolari.
+Funziona con l'UAC di Windows Vista.
+È distribuito con un IDE basato sull'editor gratuito SciTE.
+
+Limiti
+AutoIt non ha, o ha solo supporto limitato su:
+Namespace
+Programmazione orientata agli oggetti
+Tipo di dato astratto
+Classi
+Funzioni grafiche avanzate
+
+Uso
+
+Operazioni comuni come il controllo di siti Internet, computer di rete, deframmentazione e backup possono essere automatizzati nei vari passaggi e combinati in una applicazione.
+Un altro possibile utilizzo è nei giochi online, evitando all'utente operazioni ripetitive. L'utilizzo in questo ambito è solitamente vietato dai giochi stessi e sconsigliato dalla comunità di AutoIt; nonostante questo alcuni script possono ancora essere reperiti nel forum ufficiale.
+
+Esempi
+
+Hello World - Stampa a monitor della scritta "Hello World"
+
+InputBox - creare un input box
+
+Per creare un inputbox basta usare il seguente codice
+
+For - Stampa nella console i numeri da 0 a 10
+
+Riga di comando e parametri
+
+Possiamo usare una variabile predefinita per ottenere gli argomenti passati attraverso la riga di comando.
+
+Eliminare un file
+
+Eliminare una chiave di registro
+
+Una delle funzioni più utilizzate è la funzione Send(), che ha il compito di simulare la pressione dei tasti della tastiera:
+
+GUI (Grafic User Interface)
+
+In AutoIt si possono anche creare delle interfacce grafiche in modo da cambiare l'aspetto delle schede windows normale.
+Per prima cosa bisogna includere dei file, ma solo se si utilizzano particolari:
+
+Questo è il file principale da includere dopo si prosegue creando form, inputbox...
+Questi sono alcuni semplici esempi:
+
+Con questa funzione si decide il colore dello sfondo...(in questo caso è rosso)
+
+Con questo si crea un form stabilendo il suo titolo e le sue misure
+
+Questo invece crea un inputbox, ovvero uno spazio in cui l'utente può inserire dei dati(password, testo...). Sì può far comparire dati già all'interno della inputbox in questo caso verrà scritto TESTO, i numeri che seguono sono sempre le misure...Nel caso fosse l'inputbox di una password e volete far vedere i pallini al posto dei caratteri basta fare così:
+
+basta aggiungere 0x00020
+
+Così creiamo un bottone su cui l'utente potrà cliccare.
+In questo caso all'interno del bottone viene scritto OK...in seguito vedremo come legare il bottone a una funzione ovvero decidere cosa succede quando l'utente clicca sul bottone.
+
+Facciamo comparire una scritta all'interno del form in questo caso verrà scritto Benvenuto e quelle che seguono sono le coordinate.
+
+nota:senza un Ciclo While la gui verrà eseguita ma scomparirà in un brevissimo tempo.
+Per permettere alla GUI di rimanere visibile è necessario, come detto prima, utilizzare un ciclo while,vediamone un esempio:
+
+Da notare che la variabile $GUI_EVENT_CLOSE corrisponde al tasto con la X in alto a destra.

@@ -1,0 +1,20 @@
+DOAJ, acronimo di Directory of Open Access Journals, è un repertorio on line di riviste di alta qualità ad accesso aperto e sottoposte a peer review.
+
+Nel febbraio 2016 includeva 11.250 periodici (pubblicati in quasi 200 paesi), che sono scesi a circa 9.000 nel maggio 2016, a seguito della rimozione di tutte le riviste che nell'ambito di un progetto volto a migliorare la qualità delle riviste indicizzate, imponeva a tutti gli editori di fare nuovamente domanda di inclusione. Quasi 7.000 delle riviste indicizzate sono ricercabili a livello di articolo; complessivamente il servizio, in continua crescita, permetteva di raggiungere oltre due milioni di articoli. I periodici sono ricercabili per titolo e per categorie.
+
+Storia
+L'Open Society Institute ha finanziato vari progetti collegati all'accesso aperto, dopo la Budapest Open Access Initiative; DOAJ fu uno di questi.
+
+Il progetto di DOAJ nacque dalle discussioni sviluppate nella prima Nordic Conference on Scholarly Communication del 2002, durante la quale l'Università di Lund fu incaricata di creare e manutenere la base di dati. Tale assetto si è mantenuto fino al 2014 quando è subentrata nella gestione la Infrastructure Services for Open Access (IS4OA).
+
+A marzo del 2014, DOAJ iniziò una revisione completa dell'archivio, che si concluse il 31 marzo 2016 con la pubblicazione della lista degli editori autorizzati ad alimentare la base di conoscenza con le proprie riviste. Se furono indicati i motivi di esclusione dal sito, non furono notificati in modo altrettanto trasparente il luogo, le modalità e i responsabili della verifica.
+
+Quando il 15 gennaio 2017 Jeffrey Beall cessò di aggiornare la lista delle riviste e degli editori predatori, nacquero in alternativa la blacklist di Cabell's International e la whitelist di DOAJ. Al 2017, 367 delle 12.595 riviste open access classificate come predatorie da Beall (pari ad una quota del 3%) risultavano indicizzate anche da DOAJ. Quest'ultimo sito decise di eliminare 157 di quei titoli ulteriori 157 titoli individuati da Beall, ignorando sostanzialmente il 45% della sua lista.
+
+Accessibilità
+Mentre una parte dei contenuti è liberamente consultabile da chiunque, al 2020 la sottoscrizione di un accesso completo a pagamento per una o più aree disciplinari è riservato esclusivamente alle biblioteche e alle istituzioni accademiche, e, in casi specifici, a gruppi di studenti, docenti e ricercatori.
+
+Nelle biblioteche
+Il CONSER Open Access Journal Project è l'iniziativa della Biblioteca del Congresso che prevede di associare un codice CONSER ad ogni rivista elettronica censita da DOAJ. A partire dal 2004, è stata oggetto di discussione la possibilità di integrare gli OpenURL e gli identificativi DOI direttamente fra i campi visualizzabili nei record bibliografici CONSER.
+
+Da prima del 2009, DOAJ ha adottato una politica per la quale tutte le riviste devono essere solo con codice ISSN. I record bibliografici CONSER, insieme a quelli dell'ISSN, sono utilizzati dai bibliotecari e dai loro sistemi di gestione per creare archivi locali di collezioni di riviste accademiche e periodici. Pertanto, nelle biblioteche che hanno importato tali record è possibile trovare accesso diretto sia agli abstract degli articoli che, dove previsto dai detentori dei diritti, al loro testo integrale.

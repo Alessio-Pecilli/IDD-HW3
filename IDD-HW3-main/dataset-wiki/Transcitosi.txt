@@ -1,0 +1,14 @@
+La transcitosi è un processo cellulare attraverso il quale diverse macromolecole vengono trasportate da un lato all'altro della cellula attraverso il citoplasma della cellula stessa. Le macromolecole vengono incluse in vescicole a livello della membrana cellulare mediante un processo di endocitosi, internalizzate nella cellula, e quindi rilasciate attraverso la membrana cellulare in un compartimento diverso da quello di origine, attraverso un processo di esocitosi. Nel corpo umano, macromolecole che possono essere trasportate in questo modo sono le IgA, la transferrina e l'insulina.
+
+Nonostante la transcitosi sia più comunemente osservata a livello degli epiteli, questo processo è presente anche altrove, come a livello dell'endotelio dei capillari, nei neuroni, negli osteoclasti e nelle cellule M dell'intestino.
+
+Regolazione
+La regolazione della transcitosi varia enormemente a seconda del tessuto in cui il processo avviene, e sono stati identificati numerosi meccanismi tessuto-specifici. La brefeldina A, un inibitore del trasporto endocellulare dall'apparato di Golgi al reticolo endoplasmatico, è stato osservato inibire anche la transcitosi a livello del rene del cane. Sempre nel tessuto renale canino, a livello della membrana apicale, un ruolo inibitorio è stato osservato nelle proteine Rab17, Rab11a e Rab25. Un ruolo inibitorio è stato osservato nella trasduzione del segnale mediante fosforilazione del recettore del fattore di crescita dell'epidermide (EGFR) da parte dell'enzima Yes1 conseguente all'attivazione di Rab11FIP5 da parte di MAPK1.
+
+Nel coniglio l'azione combinata di progesterone ed estradiolo, prodotti in seguito a stimolazione dovuta alla prolattina, si è dimostrata inibire la transcitosi nelle cellule della ghiandola mammaria durante la gravidanza.
+
+Nella tiroide, la transcitosi attraverso le cellule follicolari è regolata positivamente dall'ormone tireostimolante (TSH). Nei vasi polmonari, la fosforilazione della caveolina 1 indotta dal perossido di idrogeno si è dimostrata fondamentale nell'attivazione della transcitosi
+
+Ruolo patogenetico
+Per via della funzione della transcitosi come meccanismo di trasporto attraverso la cellula, questa può essere un meccanismo conveniente per l'invasione tissutale da parte di agenti patogeni. Tale meccanismo si è rivelato fondamentale per permettere il passaggio dell'epitelio intestinale e della barriera emato-encefalica da parte del batterio Cronobacter sakazakii. È stato dimostrato che la
+Listeria monocytogenes attraversa la barriera intestinale mediante transcitosi nelle cellule caliciformi mucipare. Inoltre la tossina di Shiga prodotta dallEscherichia coli enteroemorragico è stata osservata passare nel lume intestinale mediante transcitosi.

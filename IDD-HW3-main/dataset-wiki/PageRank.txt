@@ -1,0 +1,31 @@
+Il PageRank è un algoritmo di analisi che assegna un peso numerico ad ogni elemento di un insieme di documenti connessi per mezzo di collegamenti ipertestuali, ad esempio l'insieme delle pagine nel World Wide Web, con lo scopo di quantificare l'importanza relativa all'interno dell'insieme stesso.
+
+L'algoritmo può essere applicato a tutti gli insiemi di oggetti connessi da citazioni e riferimenti reciproci. Il peso numerico assegnato ad un dato elemento E è chiamato anche "il PageRank di E", siglato in PR (E). L'algoritmo di PageRank è stato brevettato dalla Stanford University; è inoltre un termine ormai entrato di fatto nel lessico dei fruitori dei servizi offerti dai motori di ricerca. Il nome PageRank è un marchio di Google ed il suo nome si deve a Larry Page, uno dei due fondatori dell'azienda.
+
+Nel 2008, il vicepresidente di Google, Udi Manber, scriveva che il PageRank è "la parte più importante dell'algoritmo di posizionamento di Google". [...] "Il PageRank continua ad essere utilizzato (nelle valutazioni per il posizionamento dei siti web), ma è diventato parte di un sistema molto più avanzato". Attualmente non è l'unico algoritmo utilizzato da Google per ordinare i risultati di ricerca, ma è il primo e principale utilizzato dall'azienda ed è il più noto. A partire dal 24 settembre 2019, tutti i brevetti associati a PageRank sono scaduti.
+
+L'algoritmo definisce il valore relativo di una pagina in correlazione ad altre, ma non determina e attribuisce un valore assoluto. Infatti secondo il modello causale "correlazione non implica causalità".
+
+Elementi generali
+Letteralmente traducibile come rango di una pagina web (ma anche un gioco di parole collegato al nome di uno dei suoi inventori, Larry Page), il PageRank è facilmente riconducibile al concetto di popolarità tipico delle relazioni sociali umane, ed indica, o si ripromette di indicare, le pagine o i siti di maggiore rilevanza in relazione ai termini ricercati. Gli algoritmi che rendono possibile l'indicizzazione del materiale presente in rete utilizzano anche il grado di popolarità di una pagina web per definirne la posizione nei risultati di ricerca.
+
+Questo metodo può esser descritto come analogo ad una elezione nella quale ha diritto al voto chi può pubblicare una pagina web, e il voto viene espresso attraverso i collegamenti in essa presenti. I voti non hanno tutti lo stesso peso: le pagine web più popolari esprimeranno, coi propri link, voti di valore maggiore.
+
+L'interpretazione e la definizione della popolarità di un sito non sono però legate soltanto a queste votazioni, ma tengono conto anche della pertinenza del contenuto di una pagina, nonché delle pagine correlate, con i termini ed i criteri della ricerca effettuata. Altro importante elemento che lega un sito alla sua popolarità è relativo alla diffusione e alla popolarità dell'argomento trattato in esso. Per argomenti poco richiesti, i siti raggiungono facilmente le prime posizioni nelle ricerche, ma altrettanto verosimilmente posseggono e mantengono un rango che potrebbe essere bassissimo. Tutto questo permette, o perlomeno ha lo scopo, di attuare un controllo incrociato che garantisca la validità dei risultati di ricerca.
+
+Visualizzazione del grado di popolarità di un sito
+Per ottenere informazioni riguardo, ad esempio, alla notorietà di una pagina web su Google, era possibile installare la Google Toolbar nel browser di navigazione, progetto dismesso nel 2021. Oggi si possono utilizzare servizi proposti da terze parti in grado di determinare tale informazione ed implementabili su siti internet. Per aumentare il page rank si possono sfruttare dei piccoli accorgimenti. Uno dei più usati è cercare di attrarre l'attenzione di utenti che si interessino ad argomenti correlati al proprio sito o blog.
+
+Lo scopo è conquistare gli utenti veramente interessati a seguire i post. Tale accorgimento serve per confermare una delle regole di Google: i link che possono puntare a un sito devono essere "organici", ovvero non richiesti o generati da scambio di link o a pagamento. Se Google si accorge che un sito fa richieste che non rispettano le regole del motore di ricerca, lo penalizza immediatamente, arrivando anche a bannare il proprietario che vada contro le regole di condotta sottoscritte al momento dell'iscrizione al servizio del motore di ricerca. Per cercare di ottenere link organici è necessario proporre argomenti sempre aggiornati, non copiati, con approfondimenti interessanti per i fruitori del servizio web.
+
+Formula semplificata
+L'algoritmo completo per il calcolo del PageRank fa ricorso all'uso della teoria dei processi Markov ed è classificato nella vera categoria degli algoritmi di Link Analysis Ranking. Dalla formula inizialmente sviluppata dai fondatori di Google, Sergey Brin e Larry Page, è possibile comprendere come il PageRank viene distribuito tra le pagine:
+
+Dove:
+è il valore di PageRank della pagina A che vogliamo calcolare.
+è il numero totale di pagine note.
+è il numero di pagine che contengono almeno un link verso A. Pk rappresenta ognuna di tali pagine.
+sono i valori di PageRank di ogni pagina Pk.
+sono il numero complessivo di link contenuti nella pagina che offre il link.
+(damping factor) è un fattore deciso da Google e che nella documentazione originale assume valore 0,85. Può essere aggiustato da Google per decidere la percentuale di PageRank che deve transitare da una pagina all'altra e il valore di PageRank minimo attribuito ad ogni pagina in archivio.
+Dalla formula si nota quindi che all'aumentare del numero di link complessivi dei siti che puntano ad A il PageRank aumenta.

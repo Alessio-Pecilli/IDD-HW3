@@ -1,0 +1,71 @@
+LInsertion sort, in italiano ordinamento a inserimento, è un algoritmo relativamente semplice per ordinare un array. Non è molto diverso dal modo in cui un essere umano, spesso, ordina un mazzo di carte. Esso è un algoritmo in place, cioè ordina l'array senza doverne creare una copia, risparmiando memoria. Pur essendo molto meno efficiente di algoritmi più avanzati, può avere alcuni vantaggi: ad esempio, è semplice da implementare ed è efficiente per insiemi di partenza che sono quasi ordinati.
+
+Descrizione dell'algoritmo
+L'algoritmo solitamente ordina la sequenza sul posto. Si assume che la sequenza da ordinare sia partizionata in una sottosequenza già ordinata, all'inizio composta da un solo elemento, e una ancora da ordinare. Alla -esima iterazione, la sequenza già ordinata contiene elementi. In ogni iterazione, viene rimosso un elemento dalla sottosequenza non ordinata (scelto, in generale, arbitrariamente) e inserito (da cui il nome dell'algoritmo) nella posizione corretta della sottosequenza ordinata, estendendola così di un elemento.
+
+Per fare questo, un'implementazione tipica dell'algoritmo utilizza due indici: uno punta all'elemento da ordinare e l'altro all'elemento immediatamente precedente. Se l'elemento puntato dal secondo indice è maggiore di quello a cui punta il primo indice, i due elementi vengono scambiati di posto; altrimenti il primo indice avanza. Il procedimento è ripetuto finché si trova nel punto in cui il valore del primo indice deve essere inserito.
+Il primo indice punta inizialmente al secondo elemento dell'array, il secondo inizia dal primo. L'algoritmo così tende a spostare man mano gli elementi maggiori verso destra.
+
+Pseudocodice
+Seguono gli pseudocodici per diversi algoritmi dell'insertion sort. Si assume che la numerazione degli elementi negli array inizi da 0.
+
+Algoritmo iterativo
+
+function insertionSortIterativo(array A)
+for i ← 1 to length[A] do
+value ← A[i]
+j ← i-1
+while j >= 0 and A[j] > value do
+A[j + 1] ← A[j]
+j ← j-1
+A[j+1] ← value;
+
+Algoritmo ricorsivo
+Per ordinare un array di dimensione n, A[0..n-1], si ordina prima il sotto-array A[0..n-2] e poi si inserisce ln-1-esimo elemento.
+Il sotto-array di un elemento (n==1) è già ordinato.
+
+function insertionSortRicorsivo(array A, int n)
+if n>1
+insertionSortRicorsivo(A,n-1)
+value ← A[n-1]
+j ← n-2
+while j >= 0 and A[j] > value
+do A[j + 1] ← A[j]
+j ← j-1
+A[j+1] ← value
+
+Algoritmo per linguaggi funzionali
+
+insert :: Ord a => a -> [a] -> [a]
+insert item [] = [item]
+insert item (h:t) | item [a] -> [a]
+insertsort [] = []
+insertsort (h:t) = insert h (insertsort t)
+
+Esempio di funzionamento
+
+Di seguito sono mostrati i passi compiuti dall'algoritmo per ordinare la sequenza [3, 7, 4, 9, 5, 2, 6, 1]. In ogni passo, l'elemento sottolineato è quello considerato, mentre quello in grassetto è l'elemento spostato nel passo precedente.
+
+3 7 4 9 5 2 6 1
+
+3 7 4 9 5 2 6 1
+
+3 7 4 9 5 2 6 1
+
+3 4 7 9 5 2 6 1
+
+3 4 7 9 5 2 6 1
+
+3 4 5 7 9 2 6 1
+
+2 3 4 5 7 9 6 1
+
+2 3 4 5 6 7 9 1
+
+1 2 3 4 5 6 7 9
+
+Analisi delle prestazioni
+Il caso ottimo per l'algoritmo è quello in cui la sequenza di partenza sia già ordinata. In questo caso, l'algoritmo ha tempo di esecuzione lineare, ossia . Infatti, in questo caso, in ogni iterazione il primo elemento della sottosequenza non ordinata viene confrontato solo con l'ultimo della sottosequenza ordinata.
+Il caso pessimo è invece quello in cui la sequenza di partenza sia ordinata al contrario. In questo caso, ogni iterazione dovrà scorrere e spostare ogni elemento della sottosequenza ordinata prima di poter inserire il primo elemento della sottosequenza non ordinata. Pertanto, in questo caso l'algoritmo di insertion sort ha complessità temporale quadratica, ossia .
+Anche il caso medio ha complessità quadratica, il che lo rende impraticabile per ordinare sequenze grandi.
+Pur avendo complessità elevata, tuttavia, risulta essere l'algoritmo di ordinamento più veloce per array piccoli. Un algoritmo simile all'Insertion Sort ma dalla complessità minore è lo Shell sort. Anche lo shell sort non è in grado di competere con la combinazione dell'insertion sort con un algoritmo di tipo divide et impera, quale il quick sort o il merge sort, ossia all'uso dell'algoritmo divide et impera per ridurre il problema all'ordinamento di sequenze di dimensione inferiore a una certa soglia, che verranno trattate con l'insertion sort.

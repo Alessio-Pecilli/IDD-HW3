@@ -1,0 +1,30 @@
+Base di dati multimediale o database multimediale (in sigla MMDBMS) è una base di dati che raccoglie oggetti di tipo testo, immagine, oggetti 3D, audio, video e una combinazione di questi e fornisce strumenti per la loro memorizzazione, accesso, ricerca e controllo.
+Attualmente il DBMS Oracle fornisce funzioni tipiche delle basi di dati multimediali.
+
+Tipi di dato multimediale
+
+Funzioni
+
+Una Base di dati multimediale fornisce:
+
+integrazione
+indipendenza dei dati
+controllo della concorrenza
+persistenza
+riservatezza
+controllo di integrità
+recupero
+supporto alle interrogazioni
+controllo della versione
+
+Problematiche relative
+
+modellazione dei dati multimediali
+memorizzazione degli oggetti multimediali
+integrazione e presentazione dei dati multimediali, e Qos
+indicizzazione, recupero e ricerca di dati multimediali
+supporto all'interrogazione multimediale
+
+Applicazioni
+
+Le basi di dati multimediali trovano applicazione in tutti i campi in cui si gestiscono oggetti multimediali: librerie digitali, insegnamento a distanza, telemedicina, gestione dell'informazione medica, intrattenimento come televisione interattiva, video su domanda e basi di dati musicali, informazione, pubblicità trasmissioni televisive e nella produzione, ma anche in campo finanziario, commercio elettronico e sistemi informativi geografici (GIS).

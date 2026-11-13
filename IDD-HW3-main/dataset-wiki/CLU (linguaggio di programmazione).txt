@@ -1,0 +1,37 @@
+Il CLU è un linguaggio di programmazione creato al MIT da Barbara Liskov e dai suoi studenti tra il 1974 ed il 1975. È noto per l'uso di costruttori di tipi di dati astratti che includevano il codice che operava su di essi, un passo chiave in direzione della programmazione orientata agli oggetti (OOP). Purtroppo molte delle altre caratteristiche dell'OOP erano mancanti od incomplete, come l'ereditarietà, ed il linguaggio era anche appesantito da una sintassi alle volte frustrante.
+
+I Cluster
+La sintassi del CLU era basata sull'ALGOL, allora considerato il punto di partenza per lo sviluppo di molti nuovi linguaggi. Il punto chiave era il concetto di cluster, un sistema di estensione dei tipi e radice del nome del linguaggio (CLUster). I cluster corrispondono generalmente al concetto di un "oggetto" in un linguaggio orientato agli oggetti ed hanno circa la stessa sintassi. Ecco la sintassi in CLU di un cluster che implementa i numeri complessi:
+
+complex_number = cluster is add, subtract, multiply, ...
+rep = record [ real_part: real, imag_part: real ]
+add = proc ... end add;
+subtract = proc ... end subtract;
+multiply = proc ... end multiply;
+...
+end complex_number;
+
+Mentre i cluster offrivano per l'epoca un sistema avanzato per la strutturazione dei programmi, il CLU non offriva però nessun tipo di struttura per gli stessi cluster. I nomi dei cluster erano globali, e nessun meccanismo di spazio dei nomi era stato previsto per raggruppare i cluster o permettergli di essere creati "localmente" all'interno di altri cluster. Questo problema non è limitato al CLU: è sorprendente notare come così tanti linguaggi hanno manifestato l'assenza di questa caratteristica - data l'importanza nell'ALGOL di dare uno scopo alle variabili, sembrava che dare uno scopo ai nomi dei cluster/oggetti dovesse essere una cosa ovvia.
+
+Il CLU non permette le conversioni implicite dei tipi. In un cluster le conversioni esplicite de tipi "up" (su) e "down" (giù) cambiano tra il tipo astratto e la sua rappresentazione. Esiste un tipo universale "any" (qualunque) ed una procedura force[] per controllare che l'oggetto sia di un certo tipo. Gli oggetti possono essere mutabili od immutabili: di quest'ultimo tipo sono i "tipi base" come gli interi.
+
+Altre caratteristiche
+Un'altra caratteristica importante del sistema dei tipi del CLU erano gli iteratori, che restituivano oggetti da una collezione uno ad uno. Gli iteratori erano "scatole nere" che offrivano la medesima API per qualunque tipo di dati dovessero trattare. Perciò l'iteratore per una collezione di numeri complessi era identico a quello per una matrice di interi. Gli iteratori sono oggi una caratteristica comune di molti linguaggi moderni.
+
+Il CLU includeva anche la gestione delle eccezioni, basata su quella presente in altri linguaggi; le eccezioni erano sollevate utilizzando signal e gestite tramite except. Stranamente, vista l'importanza nel linguaggio dei tipi, il CLU non offriva i tipi enumerati né nessun modo semplice per poterli creare.
+
+L'ultima delle caratteristiche degne di nota del CLU era l'assegnazione multipla, dove una o più variabili potevano apparire a sinistra di un operatore di assegnamento. Ad esempio, scrivere x,y = y,x scambiava i valori di x ed y; similmente, le funzioni potevano restituire diversi valori, come ad esempio x,y,z = f(t).
+
+Tutti gli oggetti di un programma CLU vivevano nell'heap e la gestione della memoria era automatica.
+
+Curiosità
+
+Clu era il nome dell'alter-ego digitale di Kevin Flynn nel film di fantascienza Tron.
+
+Influenze su altri linguaggi di programmazione
+Il Python ed il Ruby hanno ripreso diversi concetti dal CLU (come ad esempio gli assegnamenti multipli o l'istruzione yield)
+Il CLU e l'Ada sono stati tra i maggiori ispiratori dei template del C++
+I meccanismi di gestione delle eccezioni del CLU hanno influenzato alcuni linguaggi recenti come il Java ed il C++
+Come nel CLU, anche in Java tutti gli oggetti vivono nell'heap e la gestione della memoria è automatica
+Il Python ed il C# includono il concetto di "generatori" (iteratori nel C#), che per primo apparve nel CLU come iteratori
+Il Lua ha ripreso gli assegnamenti multipli e le restituzioni multiple dalle chiamate delle funzioni del CLU

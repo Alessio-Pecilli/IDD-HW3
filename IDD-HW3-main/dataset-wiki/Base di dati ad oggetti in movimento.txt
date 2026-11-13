@@ -1,0 +1,21 @@
+Una base di dati ad oggetti in movimento o database ad oggetti in movimento (in inglese: moving object database) è una base di dati che rappresenta entità in movimento e compie interrogazioni su di esse.
+La differenza con una base di dati spaziotemporale sta nel fatto che i cambiamenti temporali vengono considerati discreti mentre nelle "Basi di dati" ad oggetti in movimento sono cambiamenti continui.
+
+Due approcci: gestione del luogo e dati spaziotemporali
+Dietro all'idea di base di dati ad oggetti in movimento vi sono due approcci: la gestione del luogo e i dati spaziotemporali.
+Il primo considera il problema della gestione delle posizioni di una serie di entità in una base di dati. Si identifica l'entità con una chiave e le coordinate x e y come attributi per registrarne la posizione. Quando l'entità è in movimento la base di dati va aggiornata frequentemente per diminuire il più possibile la possibilità d'errore. Con un gran numero di entità questo approccio non è fattibile.
+Questo portò a considerare di non memorizzare la posizione ma un vettore di movimento che includa la posizione in un istante di tempo e la sua velocità, così facendo si diminuisce la frequenza d'aggiornamento della base di dati.
+questo approccio si differenzia dalle basi di dati temporali poiché non vi archiviata alcuna storia sui movimenti delle entità ma soltanto le istantanee sull'attuale posizione.
+La prospettiva spaziotemporale, invece, prevede la memorizzazione non solo dell'attuale stato delle entità ma anche la loro storia trascorsa.
+
+Struttura dati
+Punti in movimento (moving point): possono rappresentare persone e animali in movimento, le traiettorie di aerei e rotte navali
+Regioni in movimento (moving region): l'evoluzione territoriale di uno stato, i cambiamenti di una foresta, di un lago, diffusione di malattie, fuoriuscite di petrolio
+
+Modello dei vincoli
+
+Indicizzazione
+Famiglia di alberi R per l'indicizzazione di spazi multidimensionali
+Alberi TPR
+B-Alberi cinetici
+indicizzazione delle traiettorie

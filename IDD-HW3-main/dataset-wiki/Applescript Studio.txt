@@ -1,0 +1,20 @@
+Applescript Studio è l'evoluzione dell'Applescript, linguaggio di programmazione sviluppato da Apple. La sua caratteristica principale è, come il suo predecessore, la possibilità di dare comandi direttamente in Inglese al Framework XCode, che poi traduce tutto in linguaggio macchina.
+
+Applescript e Applescript Studio
+Il linguaggio Applescript possiede già di suo caratteristiche molto potenti, ma è limitato per quanto riguarda l'interfaccia, infatti interagisce con l'utente usando solamente dialoghi. Con l'arrivo di macOS, Applescript Studio ha permesso agli sviluppatori alle prime armi di creare potenti applicazioni, corredate di interfaccia grafica, semplicemente parlando al computer.
+
+XCode e Interface Builder
+Per fare programmi compatibili con Mac OS X (in Cocoa, Carbon, o qualunque altro linguaggio) è necessario scaricare gratuitamente e installare gli strumenti di sviluppo forniti da Apple: gli XCode Tools.
+Questi programmi forniscono varie utilità per sviluppare in Applescript Studio, anche se solo i principali (XCode e Interface Builder) sono compatibili con questo linguaggio.
+
+Principi fondamentali
+Applescript Studio si basa principalmente su un evento: qualcosa accade durante le operazioni (un click del mouse, un tasto premuto sulla tastiera, un movimento della finestra) e il computer deve eseguire una certa serie di comandi. Questi eventi si chiamano Handlers e si formano principalmente così:
+
+Questo esempio in particolare mostra l'Handler che permette di "intercettare" il momento in cui il computer è completamente libero, cioè non sta eseguendo operazioni di alcun genere (sono esclusi i processi in background).
+Insieme all'evento vengono passate alcune variabili, che semplificano la costruzione dei comandi, come mostrato in questo esempio:
+
+"TheObject" rappresenta il nome dell'oggetto su cui si è fatto il click, ma a seconda dell'Handler selezionato il contenuto della variabile cambia.
+
+Interfaccia Grafica
+Come già detto, Applescript Studio introduce la possibilità di avere un'interfaccia grafica allegata al proprio codice, con finestre, pannelli, avvisi ecc…
+Costruire l'interfaccia non è difficile: Interface Builder mette a disposizione una sezione per i comandi Applescript, da cui possono essere definiti gli Handler da inviare e quelli da ignorare. Inoltre tutti gli elementi dell'interfaccia programmati da Apple supportano la programmazione via Applescript Studio, anche se sono predisposti per il Cocoa.

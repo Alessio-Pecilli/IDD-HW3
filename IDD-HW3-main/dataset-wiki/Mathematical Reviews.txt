@@ -1,0 +1,32 @@
+La Mathematical Reviews è una pubblicazione a stampa e una base dati in linea pubblicata dalla American Mathematical Society (AMS) che contiene brevi sommari (e talvolta valutazioni) di buona parte degli articoli che trattano di matematica, statistica e informatica teorica. Inoltre la AMS pubblica volumi di sommari e recensioni selezionati; per questi testi usa il termine "featured reviews".
+
+Recensioni
+La rivista è stata fondata da Otto Neugebauer nel 1940 come alternativa alla pubblicazione tedesca Zentralblatt für Mathematik. Lo scopo era quello di fornire informazioni sulla maggior parte delle pubblicazioni di ricerche matematiche. Al novembre 2007, la base dati di Mathematical Reviews conteneva indicazioni su oltre 2,2 milioni di articoli. Gli autori delle recensioni sono volontari che di solito sono scelti dai redattori (editors) sulla base delle loro competenze nelle aree toccate dall'articolo. Nel Zentralblatt für Mathematik le risorse umane utilizzate per le recensioni sono solo di questo genere. (La sezione relativa alle matematiche del Referativnyj Žurnal è disponibile solo in lingua russa, ha una portata ridotta e di difficile accesso.)
+
+Spesso le recensioni forniscono sommari dettagliati dei contenuti dell'articolo e talora si aggiungono commenti critici del recensore e riferimenti a lavori correlati. Tuttavia la critica agli articoli non è incoraggiata, in quanto gli autori non hanno la possibilità di replicare. Il sommario dell'autore può essere citato quando non risulta possibile o agevole dare una recensione indipendente o quando il sommario viene giudicato adeguato dal reviewer o dagli editors. Può essere data solo la segnalazione bibliografica nei casi di lavori scritti in lingue poco usate, quando si tratta di brevi scritti in volumi di rendiconti di conferenze o di articoli che sono al di fuori dei campi considerati primari per Mathematical Reviews. Inizialmente le recensioni erano scritte in diverse lingue, ma successivamente è stato adottato il criterio "English only".
+
+Base dati in linea
+Nel 1980 tutti i contenuti di Mathematical Reviews a partire dal 1940 furono inseriti in una base dati elettronica con possibilità di ricerca. Con il tempo divennero parte di MathSciNet che, insieme alle recensioni, dispone anche di informazioni sulle citazioni (anche se limitate ad altri articoli in MathSciNet). Mathematical Reviews e MathSciNet sono divenute uno strumento essenziale per i ricercatori nel campo delle scienze matematiche.
+
+A differenza della maggior parte delle basi di dati di abstract, MathSciNet è attenta nell'identificare propriamente gli autori. La funzione di ricerca per autore permette all'utilizzatore di trovare le pubblicazioni associate a uno specifico autore, anche se ne esistono molteplici con lo stesso nome. Può accadere che il personale di Math Reviews contatti gli autori per assicurare che la base dati attribuisca correttamente i lavori. D'altro canto, la funzione di ricerca generale controlla in tutti i campi, incluso quello dell'autore. Questa modalità di funzionamento è dovuta per permettere alla base dati di accedere a dati che risalgono a prima del 1940 che non sono stati completamente integrati e così non possono essere trovati ricercando primariamente per autore.
+
+MathSciNet fornisce le informazioni BibTex con tutte le recensioni, e le sue abbreviazioni dei titoli delle pubblicazioni sono diventate uno standard di fatto nell'ambito delle pubblicazioni matematiche. Sia Mathematical Reviews sia Zentralblatt für Mathematik fanno uso dello schema di classificazione denominato "Classificazione delle ricerche matematiche" per organizzare le recensioni.
+
+Copertura
+MathSciNet contiene informazioni su circa 2 milioni di articoli da 18 000 pubblicazioni di matematica, molti delle quali coperte in maniera completa. Oltre a recensioni o informazioni bibliografiche su specifici articoli, sono incluse molte pubblicazioni di ingegneria, informatica e matematica applicata presenti in MathSciNet. La selezione è effettuata dai redattori; sono aperti a suggerimenti per includere altre pubblicazioni, ma non riconsiderano esclusioni di articoli.
+
+Mathematical Citation Quotient
+Mathematical Reviews elabora per ogni rivista una metrica chiamata quoziente delle citazioni matematiche (Mathematical citation quotient, MCQ). Come il fattore di impatto, si tratta di una statistica numerica che misura la frequenza delle citazioni di una rivista. L'MCQ viene calcolato contando il numero totale di citazioni della rivista che sono state indicizzate da Mathematical Reviews in un orizzonte temporale di riferimento di cinque anni e dividendo questo totale per il numero totale di articoli pubblicati dalla rivista nello stesso periodo.
+
+Per il periodo 2012-2014, le prime cinque riviste in Mathematical Reviews in base all'MCQ sono state:
+
+Acta Numerica: MCQ 8.14
+Publications Mathématiques de l'IHÉS: MCQ 5.06
+Journal of the American Mathematical Society: MCQ 4.79
+Annals of Mathematics: MCQ 4.60
+Forum of Mathematics, Pi: MCQ 4.54.
+
+L'indice All Journal MCQ viene calcolato considerando tutte le riviste indicizzate da Mathematical Reviews come un unico meta-giornale, il che consente di determinare se una particolare rivista ha un MCQ superiore o inferiore alla media. L'indice All Journal MCQ per il 2018 è stato pari a 0,41.
+
+Current Mathematical Publications
+Current Mathematical Publications è stato un indice tematico in formato cartaceo, che pubblicava la letteratura matematica più recente e di prossima pubblicazione, selezionata e indicizzata dai redattori di Mathematical Reviews. È stato operativo dal 1965 al 2012, quando è stato dismesso.

@@ -1,0 +1,18 @@
+In chimica analitica la pirolisi, abbreviata negli acronimi come Py (dall'inglese pyrolysis), è una tecnica impiegata per analizzare in fase gas campioni non volatili.
+
+La pirolisi (o piroscissione) è il processo termico di decomposizione di materiali in atmosfera inerte o sotto vuoto.
+Tale fenomeno può anche essere utilizzato a fini analitici.
+
+Nella pirolisi, il campione viene messo a diretto contatto con un filamento in platino o posto in un tubo in quarzo e rapidamente scaldato a 600 – 1000 °C o più.
+
+Esistono tre differenti tecniche di riscaldamento nei pirolizzatori moderni:
+riscaldamento isotermico
+riscaldamento a induzione o a punto di Curie (vedi: punto di Curie)
+riscaldamento a resistenza (usato con il filamento in platino).
+
+Le grandi molecole si decompongono in molecole più piccole e più volatili.
+
+Questi possono essere analizzati in gascromatografia-spettrometria di massa (Py-GC-MS) o con gascromatografi accoppiati a rivelatori diversi (ad esempio IR) oppure direttamente in spettrometria di massa (Py-MS).
+Da un'analisi con pirolisi si può ottenere l'impronta chimica di un materiale.
+
+Per incrementare la volatilità dei frammenti che si andranno a formare possono essere aggiunti al campione diversi composti, come il BSTFA o l'HMDS.

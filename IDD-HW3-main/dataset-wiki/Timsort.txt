@@ -1,0 +1,25 @@
+Timsort è un algoritmo di ordinamento ibrido che combina le caratteristiche del merge sort e dell'insertion sort, traendo vantaggio dai punti di forza di entrambi.
+
+L'algoritmo si basa sul concetto di run: una sequenza di elementi consecutivi dell'array già parzialmente ordinati (in senso crescente o decrescente). TimSort scansiona l'input alla ricerca di questi run naturali; se un run risulta troppo corto rispetto a una soglia minima chiamata minrun (tipicamente compresa tra 32 e 64 elementi), viene esteso e ordinato tramite insertion sort, che su sequenze brevi risulta più efficiente di algoritmi con maggiore overhead.
+
+I run così ottenuti vengono successivamente fusi tramite merge sort, garantendo una complessità nel caso peggiore di O(n log n).
+
+Complessità
+
+La complessità O(n) nel caso migliore si verifica quando l'array è già ordinato o quasi ordinato: in questo caso TimSort individua un unico run e non esegue alcuna fusione.
+
+Algoritmo di merge
+Il merge utilizzato da TimSort non è il classico merge a due vie, ma una versione ottimizzata che introduce due tecniche aggiuntive: la merge memory e la galloping mode.
+
+Merge memory
+TimSort mantiene uno stack dei run individuati ma non ancora fusi. Prima di aggiungere un nuovo run allo stack, verifica che siano rispettate le seguenti invarianti, dove A, B e C sono le dimensioni degli ultimi tre run in cima allo stack:
+
+|A| > |B| + |C|
+|B| > |C|
+
+Se una delle due condizioni viene violata, il run più piccolo tra A e C viene fuso con B. Questo meccanismo garantisce che i run fusi abbiano dimensioni bilanciate, evitando merge fortemente asimmetrici che degraderebbero le prestazioni.
+
+Galloping mode
+Durante la fusione di due run, TimSort tiene traccia di quanti elementi consecutivi provengono dallo stesso run. Se questo contatore supera una soglia (MIN_GALLOP, inizialmente pari a 7), l'algoritmo entra in galloping mode: invece di confrontare elemento per elemento, esegue una ricerca binaria per trovare in blocco la posizione di inserimento. Questo accelera significativamente la fusione quando uno dei due run contiene valori sistematicamente minori dell'altro, caso comune nei dati reali.
+
+La soglia MIN_GALLOP viene adattata dinamicamente durante l'esecuzione: se il galloping si rivela vantaggioso viene abbassata (favorendo ingressi più frequenti in modalità gallop), altrimenti viene alzata.

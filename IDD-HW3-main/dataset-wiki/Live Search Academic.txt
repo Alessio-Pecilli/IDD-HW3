@@ -1,0 +1,11 @@
+Live Search Academic è stato, nel periodo 2006/2008, un motore di ricerca accademico, facente parte di Windows Live Search.
+
+Era molto simile come funzionamento a Google Scholar, ma, invece di effettuare una scansione di Internet per reperire il contenuto accademico, cercava direttamente da fonti sicure, come ad esempio gli editori di riviste accademiche.
+
+Era conosciuto precedentemente come Windows Live Academic quando venne lanciata ufficialmente la beta l'11 aprile 2006; cambiò nome in Live Search Academic il 6 dicembre 2006. Il 23 maggio 2008, Microsoft annunciò la chiusura sia di Live Search Books, che di Live Search Academic.
+
+Caratteristiche
+Live Search Academic indicizzava articoli di giornale specialistici, libri e tesi. In aggiunta alle normali ricerche di un motore di ricerca con Live Search Academic era possibile:
+ordinare per rilevanza, data, autore, giornale e conferenza;
+modificare il livello di dettaglio dei risultati della ricerca;
+esportare documenti nei formati BibTeX, RefWorks e EndNote.

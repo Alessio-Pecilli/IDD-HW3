@@ -1,0 +1,112 @@
+IJVM è un linguaggio assembly creato (a scopo didattico) da Andrew Stuart Tanenbaum implementato sulla microarchitettura MIC-1 (anch'essa ideata da quest'ultimo). Tale linguaggio è adottato per l'insegnamento base nel suo libro 'Architettura dei calcolatori'.
+
+IJVM è una semplificazione del linguaggio JVM (Integer JVM) usato nella Java platform. Il linguaggio è semplificato a tal punto da rendere molto difficile la scrittura di programmi molto complessi (per esempio, non sono previste operazioni di shift o in virgola mobile).
+
+Organizzazione della memoria in IJVM
+
+La memoria in IJVM viene concepita come un array di 4.294.967.296 byte o 1.073.741.824 parole da 4 byte l'una. Tale memoria viene gestita ed indicizzata tramite dei puntatori appositi,cioè dei registri della microarchitettura MIC-1, che delimitano 4 aree di memoria diverse:
+
+Porzione costante di memoria (Constant Pool)
+
+Quest'area non permette la scrittura da parte del programma IJVM. I dati qui caricati (costanti, puntatori e stringhe), possono essere scritti solamente quando il programma è portato in memoria. L'indirizzo alla prima parola di questa porzione di memoria è contenuto nel registro CPP (Constant Pool Pointer).
+
+Blocco delle variabili locali (Local Variable Frame)
+
+In questo blocco di memoria risiedono le variabili locali dei metodi richiamati, oltre ai parametri con i quali sono stati invocati. L'indirizzo della prima locazione di memoria di quest'area è registrato nel registro implicito LV (Local Variable).
+
+Stack degli operandi (Operand Stack)
+
+Implementato immediatamente sopra il Variable Frame, troviamo un blocco di memoria (che non può superare una certa dimensione) che contiene gli operandi delle varie operazioni eseguite all'interno di un metodo. Sebbene lo Stack degli operandi sia diviso dal Variable Frame, i due blocchi vengono pensati come un'unica pila. L'indirizzo della parola in cima a questo stack è puntato dal registro SP (Stack Pointer) che tiene quindi conto degli operandi inseriti o rimossi.
+
+Area dei metodi (Method Area)
+
+In questa area risiede il programma IJVM da eseguire. L'indirizzo della seguente istruzione da prelevare (fetch) è contenuto nel registro PC (Program Counter). Quest'area, invece di essere trattata come un array di parole come le altre aree di memoria, è pensata come un array di byte.
+
+Data la struttura a parole della Constant Pool, del Variable Frame e dello Stack degli operandi, e quella a byte della Method Area, occorre puntualizzare che gli offset indicati dai registri CPP,LV e SP si riferiscono a numeri di parole, mentre quelli indicati da PC si riferiscono a numeri di byte.
+Ad esempio, con la notazione 'LV + 3' si indica la terza parola del Variable Frame, mentre 'PC + 4' indica il 4 byte a partire dal byte puntato da PC.
+
+Istruzioni IJVM
+
+Le istruzioni IJVM sono composte da un codice operativo e in alcuni casi un operando, che può essere una costante o uno spiazzamento.
+
+La prima colonna rappresenta il nome mnemonico in linguaggio assembly, la seconda gli operandi e la terza una breve descrizione dell'istruzione.
+
+Descrizione operandi
+byte: Un numero in ottale, decimale o esadecimale.
+nome etichetta: Una stringa univoca.
+nome variabile: Una stringa univoca.
+nome costante: Una stringa univoca.
+nome metodo: Una stringa univoca.
+N/A: Istruzione senza operandi.
+
+Alcune tra queste istruzioni consentono di inserire nello stack una parola proveniente da diverse fonti, come ad esempio il blocco delle variabili locali(ILOAD),la constant pool(LDC_W) e l'istruzione stessa(BIPUSH).
+
+Una qualsiasi variabile può essere estratta dalla cima dello stack e memorizzata nel blocco delle variabili locali(ISTORE).
+È consentito anche eseguire, utilizzando come operandi le due parole che si trovano alla cima dello stack, operazioni logiche cioè booleane(IAND,IOR) e operazioni aritmetiche(IADD,ISUB).In tutte le operazioni logiche e aritmetiche sono estratte, quindi cancellate, dalla cima dello stack due parole e sostituite con il loro risultato.
+
+Esistono anche quattro istruzioni per i salti,una incondizionata(GOTO) e tre condizionate(IFEQ,IFLT,IF_ICMPEQ).Tutte queste istruzioni,se accettate, cambiano il valore del PC in base alla grandezza del loro spiazzamento.
+
+Infine c'è l'istruzione INVOKEVIRTUAL per invocare un nuovo metodo e l'istruzione IRETURN per terminare il metodo e restituire il controllo a quello che l'aveva invocato.
+
+Esempio di istruzione: INVOKEVIRTUAL
+
+Il procedimento per l'invocazione dei metodi è il seguente: innanzitutto il metodo chiamante immette sullo stack un puntatore chiamato OBJREF che si riferisce all'oggetto da chiamare, in seguito inserisce sullo stack i parametri del metodo ed infine è eseguita l'istruzione INVOKEVIRTUAL. Questa istruzione include uno spiazzamento che rappresenta una locazione di memoria all'interno della Constant Pool contenente l'indirizzo dell'area dei metodi in cui inizia il metodo che si sta invocando.
+
+I primi 4 byte nell'area dei metodi contengono dati speciali che sono così composti:
+
+I primi 2 byte sono interpretati come un numero intero a 16 bit indicante il numero dei parametri del metodo(OBJREF è considerato il parametro 0). Questo intero a 16 bit fornisce insieme al valore di SP la locazione di OBJREF.
+
+I successivi 2 byte sono sempre interpretati come un intero a 16 bit che però indica la dimensione del blocco delle variabili locali del metodo invocato. Questo valore è basilare dato che verrà creato un nuovo stack per il metodo immediatamente sopra il blocco delle variabili locali.
+
+infine il quinto byte contiene il primo OPCODE da eseguire.
+
+La reale sequenza di operazioni che avvengono quando viene eseguita l'istruzione INVOKEVIRTUAL è la seguente.
+
+I 2 byte senza segno che seguono L'OPCODE sono utilizzati per costruire un indice riguardante la Constant Pool. L'istruzione calcola l'indirizzo base del nuovo blocco delle variabili sottraendo al puntatore dello stack il numero dei parametri e impostando il registro LV in modo che punti a OBJREF.
+Viene sovrascritto OBJREF con l'indirizzo di memoria del vecchio PC. Questo indirizzo è calcolato sommando l'indirizzo contenuto in LV con la dimensione del blocco delle variabili locali(variabili locali+parametri).
+Subito sopra l'indirizzo in cui memorizzare il vecchio PC c'è l'indirizzo in cui deve essere memorizzato il vecchio LV.
+Ancora sopra questo indirizzo inizia lo stack per il metodo che è stato chiamato.SP è impostato in modo da puntare al vecchio LV che contiene l'indirizzo immediatamente sotto la prima locazione vuota dello stack. Da ricordare che SP punta sempre alla parola in cima allo stack, se lo stack è vuoto allora punta alla prima locazione sotto la fine dello stack.
+L'ultima operazione è impostare PC in modo che punti al quinto byte nell'area del codice del metodo, quindi terminare l'esecuzione di INVOKEVIRTUAL.
+
+L'istruzione IRETURN inverte la sequenza delle operazioni effettuate da INVOKEVIRTUAL,dealloca lo spazio utilizzato dal metodo chiamato con INVOKEVIRTUAL riportando lo stack al suo stato precedente tranne per il fatto che:
+OBJREF e tutti i parametri sono stati estratti dallo stack
+Il valore restituito dal metodo è inserito in cima allo stack, nella locazione occupata in precedenza da OBJREF
+Affinché l'istruzione IRETURN memorizzi il vecchio stato, deve essere in grado di riportare ai loro precedenti valori i registri PC e LV. Essa accede al puntatore di collegamento(Link pointer),cioè alla parola puntata dal registro LV attuale. Questa parola e quella immediatamente superiore vengono recuperate e usate per restituire i loro vecchi valori ai registri PC e LV.
+SP viene reimpostato in modo da puntare alla cima dello stack in cui si trova il valore restituito dal metodo.
+Il controllo è restituito all'istruzione successiva rispetto a INVOKEVIRTUAL.
+
+Implementazione di IJVM su Mic-1
+
+La tabella sottostante mostra il microprogramma in Mic-1 che permette di interpretare IJVM.
+Si può facilmente notare quanto esso sia breve, dato che conta in totale solo 112 istruzioni. Ciascuna delle istruzioni riportate in tabella è divisa in 3 colonne, che ne descrivono l'etichetta, l'effettivo codice da usare e un breve commento.
+
+I registri CPP, LV e SP vengono utilizzati per memorizzare, rispettivamente, i puntatori alla porzione costante di memoria, al blocco delle variabili locali e alla cima dello stack.
+
+PC mantiene l'indirizzo del successivo byte da prelevare dal flusso dell'istruzione.
+
+MBR è un registro a 1 byte che mantiene in modo sequenziale i byte dello stream dell'istruzione proveniente dalla memoria per poterli interpretare.
+
+TOS contiene il valore puntato da SP, ovvero la parola che si trova in cima allo stack.
+
+OPC è un indirizzo temporaneo, di solito viene usato per salvare il vecchio PC (Old Program Counter).
+
+Ognuno di questi registri contiene sempre un particolare valore. Ad esempio, all'inizio e alla fine di ogni istruzione, TOS contiene il valore puntato in SP, ovvero la parola che si trova in cima allo stack. In realtà questa parola può essere letta in qualsiasi momento dalla memoria, ma avendola a disposizione in un registro permette di risparmiare un riferimento alla memoria. Per poche istruzioni mantenere TOS implica un impiego maggiore di operazioni di memoria, come ad esempio l'istruzione POP, che deve leggere dalla memoria la nuova parola in cima allo stack prima di poterla copiare all'interno di TOS.
+
+Come tutti gli interpreti, anche questo microprogramma ha un suo ciclo principale che preleva, decodifica ed esegue le istruzioni del programma da interpretare, che in questo particolare caso sono le istruzioni di IJVM. Il suo ciclo inizia con la linea etichettata Main1. Perché il ciclo abbia inizio, deve essere verificata la condizione che il registro PC sia già stato caricato con un indirizzo di locazione di memoria che contenga del codice operativo, il quale a sua volta deve già essere stato memorizzato in MBR.
+
+All'inizio di ogni istruzione viene eseguita la stessa sequenza di operazioni, ed è importante che la lunghezza di questa sequenza sia più breve possibile. Dopo numerosi studi, si è arrivati alla conclusione che il ciclo principale può essere ridotto ad una singola istruzione. Ogni volta che questa istruzione viene eseguita il codice operativo IJVM da eseguire si trova già all'interno di MBR.
+
+A questo punto, è necessario fare un salto nel microcodice per eseguire l'istruzione IJVM, oltre a iniziare il prelievo del byte che segue il codice operativo.
+
+Bisogna però ricordare che le istruzioni non vengono eseguite in maniera sequenziale, ma ciascuna di loro è obbligata a indicare in modo esplicito il proprio successore. Tutti gli indirizzi della memoria corrispondenti ai codici operativi devono essere riservati per la prima parola della corrispondente istruzione dell'interprete, quindi ad esempio il codice che interpreta POP inizia a 0x57, mentre quello di DUP inizia a 0x59. Il codice di POP, però, è lungo 3 microistruzioni, e quindi, se fosse memorizzato in parole consecutive, interferirebbe con l'inizio di DUP. All'interno di ciascuna sequenza le microistruzioni che seguono quella iniziale devono essere memorizzate nelle locazioni di memoria ancora libere, non riservate per i codici operativi. Per questo è necessario effettuare molti salti da una locazione di memoria all'altra.
+
+Per vedere come funziona l'interprete, assumiamo che MBR contenga il valore 0x60, ovvero il codice operativo di IADD. Nel ciclo principale compaiono 3 azioni:
+
+Incrementiamo PC, in modo che contenga l'indirizzo del primo byte dopo il codice operativo.
+
+Preleviamo il byte successivo da portare all'interno di MBR.
+
+All'inizio di Main1 effettuiamo una diramazione verso l'indirizzo contenuto in MBR.
+
+Il prelievo del byte successivo inizia in questo punto in modo che sia disponibile all'inizio della terza microistruzione. Se il byte contenuto in MBR è formato da soli 0, allora identifica il codice operativo dell'istruzione NOP. In questo caso l'istruzione non esegue nulla, ma effettua un salto all'inizio del ciclo principale, dove viene ripetuta la sequenza utilizzando il nuovo codice memorizzato in MBR.
+Ricordiamo infine che le microistruzioni in tabella non sono memorizzate consecutivamente nella memoria, quindi Main1 non si trova nell'indirizzo 0 della memoria. È compito del microassemblatore posizionare le microistruzioni negli indirizzi adatti e collegarli in brevi sequenze usando il campo NEXT_ADDRESS.

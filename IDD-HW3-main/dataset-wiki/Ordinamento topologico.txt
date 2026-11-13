@@ -1,0 +1,49 @@
+In teoria dei grafi un ordinamento topologico (in inglese topological sort) è un ordinamento lineare di tutti i vertici di un grafo diretto. I nodi di un grafo si definiscono ordinati topologicamente se i nodi sono disposti in modo tale che ogni nodo viene prima di tutti i nodi collegati ai suoi archi uscenti.
+L'ordinamento topologico non è un ordinamento totale, poiché la soluzione può non essere unica. Nel caso peggiore infatti si possono avere ordinamenti topologici diversi che corrispondono a tutte le possibili permutazioni degli nodi.
+È possibile ordinare topologicamente un grafo se e solo se non contiene cicli (cioè solo se è un grafo aciclico diretto), e sono noti algoritmi per determinare un ordinamento topologico in tempo lineare.
+
+Esempi
+L'applicazione canonica dell'ordinamento topologico risiede nel problema di pianificare l'esecuzione di una sequenza di attività in base alle loro dipendenze. Le attività sono rappresentate dai nodi di un grafo: vi è un arco tra e se l'attività deve essere completata prima che possa iniziare l'esecuzione dell'attività . Un ordinamento topologico del grafo così ottenuto fornisce un ordine in cui eseguire le attività.
+
+Algoritmi
+Uno degli algoritmi classici per ordinare topologicamente un grafo è basato sul concetto di visita in profondità (ricerca depth-first). L'algoritmo di ordinamento topologico effettua una visita in profondità del grafo (a partire da ognuno dei nodi senza archi entranti) e, terminata la visita di ogni vertice, lo inserisce in testa ad una lista concatenata L. Al termine dell'esecuzione, questa lista conterrà i nodi ordinati. In pseudocodice:
+
+L ← Lista vuota (conterrà i nodi ordinati)
+S ← Insieme di tutti i nodi senza archi entranti
+for each nodo n in S do
+visit(n)
+return L
+
+dove la procedura visit è definita come
+
+function visit(nodo n)
+if n non è ancora stato visitato then
+marca n come visitato
+for each nodo m con un arco da n a m do
+visit(m)
+aggiungi n a L
+
+Si noti che l'algoritmo di cui è fornito lo pseudocodice non è in grado di determinare il caso (di errore) in cui nel grafo sono presenti cicli, ma può farlo con semplici modifiche.
+
+L'algoritmo harvtxt, descritto da Kahn (1962), sceglie i vertici rispettando l'ordinamento topologico. Inizialmente, costruisce un insieme di vertici che non hanno archi entranti (grado entrante=0); dato che il grafo è aciclico esiste almeno uno di questi nodi. Poi:
+
+L ← lista vuota che conterrà gli elementi ordinati
+S ← insieme di nodi senza archi entranti
+while S non è vuoto do
+rimuovi un vertice u da S
+inserisci u in L
+for each vertice v con un arco e da u a v do
+rimuovi arco e dal grafo
+if v non ha altri archi entranti then
+inserisci v in S
+if il grafo ha ancora archi then
+ritorna un errore (il grafo ha almeno un ciclo)
+else
+ritorna L (l'ordinamento topologico)
+
+Se il grafo è un DAG, la soluzione è contenuta nella lista L (non necessariamente unica). Altrimenti, il grafo ha almeno un ciclo ed è impossibile ottenere un ordinamento topologico.
+
+L'insieme S può essere un set, una coda o una pila dato che non importa in quale ordine vengono estratti i vertici. Differenti soluzioni sono dovute all'ordine in cui i nodi vengono estratti da S.
+
+Complessità
+Per un grafo G(V,E) dove V è l'insieme dei nodi e E l'insieme degli archi, entrambi gli algoritmi presentano una complessità lineare O(|V|+|E|), mentre l'inserimento di ciascuno dei |V| vertici in testa alla lista concatenata richiede tempo costante. Complessivamente, quindi, gli algoritmi impiegano tempo O(|V|+|E|).

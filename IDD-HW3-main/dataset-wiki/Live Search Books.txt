@@ -1,0 +1,20 @@
+Live Search Books era un motore di ricerca per libri, uno dei tanti servizi di Microsoft Live Search.
+
+L'azienda Microsoft Corporation ha lavorato a questo progetto inserendo varie opere letterarie (di cui alcune della British Library) per digitalizzarne il contenuto e permetterne la consultazione.
+
+Microsoft stava sostenendo il progetto Live Search Books Publisher Program (precedentemente denominato Windows Live Publisher) per incoraggiare gli editori a inviare i loro libri per digitalizzarli e indicizzarli.
+
+Nel maggio 2008, la Microsoft ha chiuso i servizi Live Search Books e Live Search Academic. I contenuti acquisiti sono stati trasferiti nel servizio di base Live Search oppure restituiti ai loro proprietari. Erano stati scansionati circa 750.000 libri e indicizzati in oltre 80 milioni di articoli.
+
+Caratteristiche
+Live Search Books ha pubblicato opere letterarie protette da copyright attingendo dalle seguenti fonti:
+Diversi partner tra cui Academic Publishing Resources Corporation, Amherst Media, Editoria Bearport, Università di Cambridge, Editoria Edward Elgar, Editorie della Harrison House, Harvard University, Editoria e servizi per l'istruzione Hazelden, Istituto per l'economia internazionale, Editoria di John Wiley & Figli, Editoria Lerner, Editoria MBI, aziende McGraw-Hill, Microsoft Corporation, MIT, OCSE, Editoria Osprey, Università di Oxford, Pearson Education, Editoria PREP, Rodale, Rutgers University, Simon & Schuster, Springer, SUNY, Taylor & Francis, Il Gruppo Perseo Libri, la Banca Mondiale, Università del Massachusetts, Wheatmark, Wilderness, Organizzazione Mondiale della Sanità, World Scientific Publishing Company, la Sapienza del Mondo e Yale University.
+Contenuti caricati usando Live Search Books Publisher
+
+Oltre alle normali funzionalità di ricerca, Live Search Books offriva anche:
+Un filtro in percentuale dei contenuti consultabili
+Una finestra di anteprima che mostrava: il titolo, l'autore, la copertina, il sommario, i contenuti, l'argomento, l'editore, l'anno di pubblicazione, e il codice ISBN
+Una pagina dove effettuare l'accesso con il proprio Windows Live ID per visualizzare i libri con contenuti limitati dalla casa editrice
+Una sezione che permetteva agli utenti di consultare le pagine sfogliando il libro pagina dopo pagina, con un link al sommario
+La sezione "Cerca per parole chiave all'interno del libro"
+La possibilità di scaricare il libro completo nel formato PDF

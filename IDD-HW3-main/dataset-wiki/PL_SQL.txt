@@ -1,0 +1,96 @@
+In informatica il PL/SQL (Procedural Language/Structured Query Language) è un linguaggio di programmazione proprietario (per database di Oracle Corporation), procedurale, server-based, estensione dell'SQL. Linguaggi simili al PL/SQL sono inclusi in altri database management system SQL. La sintassi è fortemente simile a quella del linguaggio di programmazione Ada.
+
+Funzionalità
+
+Il PL/SQL supporta le variabili, condizioni, e gestisce le eccezioni. Le implementazioni dalla versione 8 di Oracle RDBMS hanno messo enfasi su l'object-orientation.
+
+Le funzioni SQL sottostanti sono come programmi dichiarativi. Il linguaggio SQL standard - diversamente da alcuni linguaggi di programmazione funzionali - non richiede implementazioni per convertire le chiamate ricorsive in salti.cSQL non fornisce prontamente i puntatori alla "prima riga" e al "resto della tabella", e non può eseguire facilmente costrutti come cicli.
+
+Il PL/SQL invece, come un linguaggio procedurale Turing-complete, permette agli sviluppatori dei database Oracle di interfacciarsi con il sottostante database in maniera imperativa. Gli statements SQL possono effettuare chiamate inline in modo esplicito alle funzioni PL/SQL, o possono lanciare triggers PL/SQL in caso di predefiniti eventi Data Manipulation Language (DML).
+
+Il PL/SQL ha diversi packages predefiniti, i più importanti sono:
+DBMS_OUTPUT- per le operazioni di output
+DBMS_JOBS- per far lanciare specifiche procedure o funzioni ad un particolare tempo, ad esempio lo scheduling
+DBMS_XPLAN- per formattare un output "Explain Plan"
+DBMS_SESSION
+DBMS_METADATA
+
+In ogni release di Oracle RDBMS, la Oracle Corporation aggiunge packages contenenti nuove funzionalità.
+
+Struttura base del codice
+
+I programmi PL/SQL sono strutturati a blocchi. I blocchi hanno questa forma generale:
+
+La sezioneDECLAREspecifica i tipi di dato delle variabili, delle costanti, delle collezioni e i tipi definiti dall'utente.
+
+Il blocco tra BEGIN ed END specifica il codice da eseguire.
+
+Le eccezioni possono essere di due tipi:
+eccezioni predefinite
+eccezioni definite dall'utente.
+
+I programmatori possono lanciare le eccezioni definite dall'utente in modo esplicito con il commando RAISE:
+
+L'Oracle Corporation ha predefinito numerose eccezioni, ad esempio NO_DATA_FOUND, TOO_MANY_ROWS, ecc.
+Ogni eccezione ha un SQL Error Number e un SQL Error Message associato. I programmatori possono accedere a questi dati con le funzioni SQLCODE e SQLERRM.
+
+Variabili
+
+La sezione DECLARE definisce le variabili, ed eventualmente le inizializza. Se non inizializzate avranno il loro valore di default, ad esempio null o zero.
+
+Per esempio:
+
+Il simbolo := funziona come un operatore di assegnamento, per memorizzare un valore in una variabile.
+
+I tipi di dato più usati sono NUMBER, INTEGER, VARCHAR2, DATE, TIMESTAMP ecc.
+
+Variabili numeriche
+
+Per definire una variabile numerica il programmatore può usare il tipo NUMBER.
+In questo caso è anche possibile definire la precisione (P) e la scala (S). La precisione indica quante cifre saranno utilizzate per rappresentare il numero. La scala indica quante di quelle cifre sono decimali. Per esempio, 3,1416 è composto da una precisione 5 e una scala 4.
+
+Altri tipi numerici abbastanza comuni sono
+dec, decimal, double precision, integer, int, numeric, real, smallint, binary_integer, pls_integer
+
+Variabili testuali
+
+Per definire una variabile di tipo testuale, si può usare il tipo VARCHAR2, con eventualmente tra parentesi il numero massimo di caratteri.
+
+Altri tipi di variabile testuale includono:
+varchar, char, long, raw, long raw, nchar, nchar2
+
+Variabili booleane
+
+Le variabili booleane possono avere i seguenti valori TRUE, FALSE o NULL.
+
+Variabili temporali
+
+I programmatori possono definire una variabile di tipo data usando il tipo DATE.
+
+Il DBMS Oracle fornisce la funzione to_date per convertire le stringhe in date.
+Ad esempio:
+
+Per convertire le date in testo si può usare la funzione to_char ( date, format_string ).
+
+Tipi di dati per specifiche colonne
+
+Questa sintassi definisce una variabile dello stesso tipo della colonna a cui si riferisce nella dichiarazione.
+
+Tipi dato definiti dall'utente
+
+I programmatori possono definire tipi di dato con la seguente sintassi:
+
+Per esempio:
+
+Questo semplice programma definisce il proprio tipo di dato, t_indirizzo, il quale contiene dei campi nome, via, numero_civico e codice_postale.
+
+Usando questi tipi di dato il programmatore ha definito una variabile chiamata v_indirizzo ed ha prelevato il suo valore dalla tabella INDIRIZZI.
+
+I programmatori possono richiamare i singoli attributi, come in una struct, attraverso la dot-notation, ad esempio:
+
+Il PL/SQL permette anche di definire classi e instanziarle come oggetti, questo lo rende simile ai linguaggi di programmazione orientati agli oggetti. In PL/SQL una classe è chiamata Advance Data Type (ADT), è definita come un tipo SQL Oracle, diversamente dai tipi definiti dall'utente, permettendo di usarli sia in SQL che in PL/SQL. Il costruttore e i metodi sono scritti in PL/SQL. L'oggetto può essere salvato in una colonna di database Oracle.
+
+Linguaggi simili
+Anche altri DBMS hanno dei linguaggi associati. Sybase e il suo derivato Microsoft SQL Server hanno Transact-SQL, PostgreSQL ha PL/pgSQL (che cerca di emulare PL/SQL), DB2 include SQL Procedural Language e MySQL ha una versione di SQL molto simile a PL/SQL.
+
+PL/SQL assomiglia da vicino al Pascal. La struttura a packages alla struttura base del Pascal, o alle unità Delphi.

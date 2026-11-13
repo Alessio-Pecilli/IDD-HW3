@@ -1,0 +1,30 @@
+Quello della compattazione di una o più dimensioni extra, chiamate dimensioni compattate, è un modello usato in fisica teorica nella teoria delle stringhe: una dimensione compattata è una dimensione rannicchiata in sé stessa ad una dimensione inferiore alla lunghezza di Planck.
+
+Tutto ciò che si muove lungo questa dimensione compattata è costretto a tornare al punto di partenza quasi istantaneamente. Il fatto che le misure di una dimensione compattata siano più piccole della più piccola particella significa che essa non può essere osservata con mezzi convenzionalmente noti e conosciuti in fisica.
+
+Dimensione extra
+
+In fisica, per dimensione extra si intende una dimensione - indifferentemente spaziale o temporale - aggiuntiva alle quattro di cui abbiamo continuamente esperienza (larghezza, altezza, lunghezza e tempo).
+
+Attualmente, vi sono molte teorie fisiche, principalmente nell'ambito della ricerca di una Teoria del tutto, che ipotizzano l'esistenza di una o più dimensioni extra - la più famosa delle quali è la teoria delle stringhe, che ipotizza fino a 22 dimensioni extra. Tali dimensioni sarebbero inaccessibili all'esperienza quotidiana in quanto i loro effetti (quelli che servirebbero per provare la loro esistenza) sono confinati a scale ultramicroscopiche, vicine o addirittura inferiori a quella della lunghezza di Planck.
+La varietà differenziabile di Calabi-Yau è un modello a 6 dimensioni.
+
+Tipicamente, la geometria spaziale prodotta da queste dimensioni è sempre più complessa all'aumentare delle dimensioni in quanto gli ipervolumi che si creano in questi spazi hanno molte più geodetiche, cioè cammini che identificano punti lontani in detto spazio. Questo aumento di complessità determina un allontanamento dalla geometria euclidea.
+
+Dimensioni extra in teoria delle stringhe
+
+Una caratteristica interessante della teoria delle stringhe è che essa predice il numero di dimensioni che l'Universo dovrebbe avere. Né la teoria dell'elettromagnetismo di Maxwell né la teoria della relatività di Einstein dicono nulla sull'argomento: entrambe le teorie richiedono che i fisici inseriscano "a mano" il numero delle dimensioni.
+
+Invece, la teoria delle stringhe consente di calcolare il numero di dimensioni dello spazio-tempo dai suoi principi base. Tecnicamente, questo accade perché il principio di invarianza di Lorentz può essere soddisfatto solo in un certo numero di dimensioni. Più o meno questo equivale a dire che se misuriamo la distanza fra due punti e poi ruotiamo il nostro osservatore di un certo angolo e misuriamo di nuovo, la distanza osservata rimane la stessa solo se l'universo ha un ben preciso numero di dimensioni.
+
+Il solo problema è che quando si esegue questo calcolo, il numero di dimensioni dell'universo non è quattro, come ci si potrebbe attendere (tre assi spaziali e uno temporale), bensì ventisei. Più precisamente, le teorie bosoniche implicano 26 dimensioni, mentre le superstringhe e le teorie-M risultano richiedere 10 o 11 dimensioni. Nelle teorie di stringa bosonica, le 26 dimensioni risultano dall'equazione di Polyakov
+
+Comunque, questi modelli sembrano in contraddizione con i fenomeni osservati. I fisici di solito risolvono questo problema in uno di due modi. Il primo consiste nel compattare le dimensioni extra; cioè, si suppone che le 6 o 7 dimensioni extra producano effetti fisici su un raggio così piccolo da non poter essere rilevate nelle nostre osservazioni. Senza aggiungere i flussi, riusciamo ad ottenere la risoluzione del modello a 6 dimensioni con gli spazi di Calabi-Yau. In 7 dimensioni, essi sono chiamati varietà G2 e in 8 varietà Spin(7). In sostanza, queste dimensioni extra sono matematicamente compattate facendole ripiegare su sé stesse.
+
+Una analogia molto usata è di considerare lo spazio multidimensionale come un tubo di gomma. Se lo guardiamo da una certa distanza sembra avere una sola dimensione, la lunghezza. Questo corrisponde alle quattro dimensioni macroscopiche cui siamo abituati normalmente. Se però ci avviciniamo, scopriamo che ha anche una seconda dimensione, la circonferenza. Questa dimensione, visibile solo da vicino, è come le dimensioni extra degli spazi di Calabi-Yau, visibili solo a distanze estremamente piccole, quindi non facilmente.
+
+(Ovviamente, un normale tubo per il giardino esiste nelle tre dimensioni spaziali, ma per consentire l'analogia si trascura il suo spessore e si considera solo il moto sulla superficie del tubo. Un punto sulla superficie del tubo può essere individuato con due numeri, la distanza da una delle estremità e una distanza sulla circonferenza, proprio come un punto sulla superficie terrestre può essere individuato univocamente dalla latitudine e dalla longitudine. In entrambi i casi, diciamo che l'oggetto ha due dimensioni spaziali. I tubi da giardino hanno un interno, una regione che richiede una dimensione extra; però, a differenza dei tubi, uno spazio di Calabi-Yau non ha un interno).
+
+Un'altra possibilità è che noi siamo bloccati in un sottospazio a "3+1" dimensioni dell'intero universo, ove il 3+1 ci ricorda che il tempo è una dimensione di tipo diverso dallo spazio. Siccome questa idea implica oggetti matematici chiamati D-brane, essa è nota come teoria mondo-brana.
+
+In entrambi i casi la gravità, agendo nelle dimensioni nascoste, produce altre forze non gravitazionali, come l'elettromagnetismo. In linea di principio, quindi, è possibile dedurre la natura di queste dimensioni extra imponendo la congruenza con il modello standard, ma questa non è ancora una possibilità pratica.

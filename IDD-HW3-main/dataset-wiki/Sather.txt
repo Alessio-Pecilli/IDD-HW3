@@ -1,0 +1,26 @@
+Sather è un linguaggio di programmazione orientato agli oggetti. Nacque all'incirca nel 1990 all'International Computer Science Institute dell'Università della California, sviluppato da un gruppo internazionale guidato da Steve Omohundro.
+Supporta la garbage collection e la programmazione generica dei sottotipi.
+In origine si basava su Eiffel ma ora include anche caratteristiche di programmazione funzionale.
+
+Hello World
+
+class HELLO_WORLD is
+main is
+OUT+"Hello World\n";
+end;
+end;
+Alcuni commenti sul codice:
+
+I nomi delle classi usano solo caratteri maiuscoli. Non è soltanto una convenzione; l'uso di caratteri minuscoli nel nome di una classe è considerato un errore dal compilatore del linguaggio.
+Il metodo chiamato main è il punto principale di esecuzione per un programma. Può appartenere a qualunque classe, ma se questa non è MAIN, il nome della classe deve essere specificato con una opzione del compilatore.
+# è il simbolo del costruttore della classe. Chiama il metodo create della classe il cui nome è indicato subito dopo l'operatore. In questo esempio, è usato per creare ed inizializzare un oggetto della classe OUT, la classe per scrivere sullo standard output.
+L'operatore + è ridefinito dalla classe per appendere la stringa passata come argomento allo stream.
+Operatori come + sono syntactic sugar per chiamate di metodi. a + b è l'equivalente di a.plus(b). Gli usuali ordini di precedenza degli operatori aritmetici sono usati per risolvere l'ordine di chiamata dei metodi in formule complesse.
+
+Esempio di iteratori
+
+Questo programma stampa i numeri da 1 a 10.
+
+loop ... end è il costrutto preferito per cicli, anche se while e repeat-until sono disponibili. Nel costrutto possono essere usati uno o più iteratori, i cui nomi finiscono sempre con un punto esclamativo. (Questa convenzione è controllata dal compilatore del linguaggio.) upto! è un metodo della classe INT che accetta un argomento once, un argomento il cui valore non cambierà all'interno dell'iteratore. upto! potrebbe essere implementato col seguente codice.
+
+L'informazione sul tipo di una variabile è indicata usando la sintassi post-fissa variable:CLASS. Il tipo della variabile può essere spesso dedotto ed è quindi una informazione opzionale, come in anInteger::=1. SAME è una pseudo-classe che si riferisce alla classe attuale.

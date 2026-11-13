@@ -1,0 +1,12 @@
+Metone (dal greco Μεθωνη) è un piccolo satellite naturale di Saturno, la cui orbita è compresa fra quelle di Mimante ed Encelado.
+
+Storia
+Metone è stata scoperta da Sébastien Charnoz nel 2004, grazie all'analisi delle immagini scattate dalla sonda Cassini. Il satellite, inizialmente designato attraverso la denominazione provvisoria S/2004 S 1, ha in seguito ricevuto dall'Unione Astronomica Internazionale il nome di Metone, una delle sette ninfe figlie del gigante Alcioneo secondo la mitologia greca.
+
+Parametri orbitali
+L'orbita di Metone è significativamente alterata da una risonanza orbitale con Mimas, decisamente più grande. A causa di questo fenomeno, l'orbita oscilla in ampiezza di circa 20&nbsp;km nel semiasse maggiore e 5° in longitudine del nodo ascendente con un periodo di circa 450 giorni. Anche l'eccentricità orbitale varia, con un diverso periodo, tra 0,0011 e 0,0037, e l'inclinazione tra circa 0,003° e 0,020°.
+
+Caratteristiche fisiche
+La sonda Cassini ha fotografato Metone nel maggio 2012, rivelandone la forma ovale, una superficie notevolmente liscia e priva di crateri e delle ampie regioni di diversa luminosità (albedo).
+
+L'inusuale liscezza della superficie è probabilmente da attribuirsi alla fluidità del materiale di cui è composta la luna. Infatti, se si attribuisce la forma del satellite a un bilancio tra la propria gravità e le forze di marea di Saturno, è possibile stimarne la densità in circa 0,31&nbsp;g/cm³: una struttura così leggera sarebbe in grado di appianare eventuali crateri in modo più rapido rispetto ad oggetti più densi.

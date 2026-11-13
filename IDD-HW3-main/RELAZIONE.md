@@ -22,7 +22,7 @@ Relazione completa: [`Relazione_HW3_Pecilli_589232.pdf`](Relazione_HW3_Pecilli_5
 ## Dataset
 
 - **Piccolo** (`dataset/`): 12 file di 2–3 frasi scritti a mano, ciascuno pensato per una funzionalità (separatori nei nomi, stemming, elisione, phrase query, ambiguità come *pecorino romano*).
-- **Wikipedia** (`dataset-wiki/`, non nel repo): 1980 voci di it.wikipedia (12 MB). Sono 923 voci tematiche di 16 categorie (imperatori romani, satelliti di Giove/Saturno, canti della Commedia, motori di ricerca, linguaggi di programmazione, dogi, pittori del Rinascimento…) più 1057 voci casuali come rumore. Un documento è rilevante per una query se appartiene a una delle sue categorie.
+- **Wikipedia** (`dataset-wiki/`): 1980 voci di it.wikipedia (12 MB di testo, file `.txt` inclusi nel repository). Sono 923 voci tematiche di 16 categorie (imperatori romani, satelliti di Giove/Saturno, canti della Commedia, motori di ricerca, linguaggi di programmazione, dogi, pittori del Rinascimento…) più 1057 voci casuali come rumore. Un documento è rilevante per una query se appartiene a una delle sue categorie.
 
 ```bash
 python3 scripts/build_dataset.py --max-voci 2300   # rigenera dataset-wiki/ e eval/manifest.tsv

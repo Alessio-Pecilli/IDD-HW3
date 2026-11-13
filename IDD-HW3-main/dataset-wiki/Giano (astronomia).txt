@@ -1,0 +1,20 @@
+Giano è un satellite naturale di Saturno, conosciuto come Saturno X, è stato chiamato in onore alla divinità romana Giano.
+
+Scoperta e orbita
+Giano occupa essenzialmente la stessa orbita del satellite Epimeteo. Questa caratteristica ha provocato una certa confusione tra gli astronomi, che pensavano fosse presente un solo corpo in quella orbita. Infine si capì che i problemi provenivano dal tentativo di riconciliare le osservazioni di due corpi distinti, interpretandoli come un singolo oggetto.
+
+La scoperta di Giano è attribuita al suo primo osservatore: Audouin Dollfus il 15 dicembre 1966. All'epoca, l'oggetto appena scoperto fu chiamato temporaneamente S/1966 S 2. Precedentemente era stato fotografato il 29 ottobre 1966 da Jean Texereau senza saperlo. Vennero effettuate osservazioni simili da Richard Walker, a cui è stata attribuita la scoperta di Epimeteo.
+
+Giano fu osservato in momenti diversi e gli vennero assegnati diversi nomi provvisori. Venne osservato dalla sonda Pioneer 11 mentre passava vicino a Saturno il 1º settembre 1979 quando la sua ombra venne rivelata da tre rilevatori di particelle energetiche (S/1979 S 2 Tom Gehrels e James A. van Allen). Venne successivamente osservato da Dan Pascu il 19 febbraio 1980 (S/1980 S 1) e in seguito, il 23 febbraio, da John W. Fountain, Stephen M. Larson, Harold J. Reitsema e Bradford A. Smith (S/1980 S 2). La sua esistenza venne infine confermata dalla sonda Voyager 1 il 1º marzo 1980. Quindi tutte queste persone condividono il merito della scoperta di Giano.
+
+Nome
+Il nome proviene dalla divinità romana a due facce Giano, che gli venne attribuito ufficialmente nel 1983, anche se venne proposto in modo informale poco dopo la sua scoperta iniziale nel 1966. Nello stesso periodo venne attribuito anche il nome al satellite Epimeteo.
+
+Relazione tra le orbite di Epimeteo e Giano
+Giano ed Epimeteo sono "co-orbitali": il raggio orbitale di Giano è attualmente solo di 50&nbsp;km inferiore a quello di Epimeteo. Tali orbite, essendo molto vicine, hanno velocità maggiori e i due satelliti inevitabilmente si avvicinano e a prima vista sembrerebbe inevitabile una collisione. Tuttavia quando il satellite interno raggiunge il satellite esterno la loro mutua attrazione gravitazionale aumenta la quantità di moto della luna interna e aumenta la sua orbita, che causa un rallentamento. Nello stesso momento, il satellite esterno perde una quantità di moto uguale e scende in un'orbita inferiore, accelerando. Quindi i satelliti si "scambiano" le orbite e si separano nuovamente, senza sorpassarsi e senza neppure avvicinarsi eccessivamente dato che la loro distanza non è mai inferiore a 10000&nbsp;km. Lo scambio avviene ogni quattro anni. In base alle attuali conoscenze, questa disposizione è unica nel sistema solare.
+
+Questa relazione tra le orbite può essere compresa come una applicazione del problema dei tre corpi, dove il terzo corpo è costituito da Saturno e le due lune hanno approssimativamente la stessa dimensione.
+Gli asteroidi troiani e l'orbita a ferro di cavallo di 3753 Cruithne rispetto alla Terra costituiscono altri esempi di questo problema, oltre a dozzine di altri oggetti.
+
+Caratteristiche fisiche
+Giano ha molti crateri, alcuni dei quali più grandi di 30&nbsp;km di diametro, ma poche strutture lineari. La superficie sembra più antica rispetto a quella di Prometeo ma più giovane di quella di Pandora. Dalla sua densità molto bassa e dalla sua relativamente alta albedo si pensa che Giano sia un corpo ghiacciato e poroso, tuttavia questi dati non sono certi, e devono essere confermati.

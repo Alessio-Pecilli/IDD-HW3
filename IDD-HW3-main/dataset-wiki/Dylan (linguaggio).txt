@@ -1,0 +1,153 @@
+Il linguaggio di programmazione Dylan, (, come il cognome di Bob Dylan), è funzionale, object-oriented, riflessivo e dinamico. Fu inventato nei primi anni novanta da un gruppo della Apple Computer.
+
+Dylan è principalmente una versione pulita e semplificata di CLOS, un sistema di programmazione object-oriented (orientato agli oggetti) basato su Common Lisp. In Dylan, praticamente tutte le entità (inclusi i tipi di dato primitivi, i metodi e le classi) sono oggetti di prima classe. I programmi possono essere scritti con una gamma che va dall'uso di soli tipi di dato dinamici a soli tipi di dato statici, permettendo una progettazione rapida, ma lasciando spazio per future ottimizzazioni. Dylan supporta eredità multiple, polimorfismo, dispatch multipli, argomenti con parole chiave, introspezione degli oggetti, macro e molte altre funzionalità avanzate.
+
+Lo scopo principale di Dylan è di essere un linguaggio dinamico adatto allo sviluppo di programmi commerciali. Dylan cerca di risolvere i problemi di prestazioni con l'introduzione di limiti "naturali" alla piena flessibilità dei sistemi Lisp, così da permettere al compilatore di riconoscere chiaramente le unità compilabili (come le librerie). Le prime versioni di Dylan erano molto simili ai sistemi CLOS esistenti, ma nel 1993 il linguaggio tornò in sviluppo, a causa dei feedback degli sviluppatori, per uscirne con una sintassi più chiara.
+
+Storia
+Dylan fu inventato nei primi anni '90 da un gruppo di lavoro della Apple Computer. Fu pensato, durante il suo sviluppo, di usarlo nei computer Apple Newton, ma l'implementazione di Dylan non raggiunse in tempo una maturità sufficiente e Newton usò una combinazione di C e di NewtonScript sviluppato da Walter Smith. Apple smise lo sviluppo della loro implementazione di Dylan nel 1995, anno in cui commercializzarono una "technology release" ("Apple Dylan TR1") che includeva un IDE avanzato.
+
+Altri due gruppi hanno contribuito alla definizione del linguaggio ed allo sviluppo di implementazioni: Harlequin ha prodotto un IDE commerciale per Microsoft Windows e la Carnegie Mellon University ha prodotto un compilatore open source per i sistemi operativi Unix. Entrambe le implementazioni sono oggi open source e sostenute da un gruppo di volontari, i Gwydion Maintainers.
+
+Il linguaggio Dylan aveva il nome in codice Ralph. James Joaquin scelse il nome Dylan da "DYnamic LANguage." (linguaggio dinamico).
+
+Sintassi
+All'inizio, Dylan usava la sintassi Lisp, che è basata sulle s-expression:
+
+(bind ((radius 5)
+(circumference (* 2 $pi radius)))
+(if (> circumference 42)
+(format-out "Hello big circle! c is %=" circumference)
+(format-out "Hello circle! c is %=" circumference)))
+
+Il linguaggio fu poi cambiato verso l'uso di una sintassi in stile ALGOL, progettata da Mike Kahl. Questa avrebbe dovuto essere più familiare ai programmatori C:
+
+begin
+let radius = 5;
+let circumference = 2 * $pi * radius;
+if (circumference > 42)
+format-out("Hello, big circle! c = %=", circumference);
+else
+format-out("Hello, circle! c is %=", circumference);
+end if
+end
+
+Come altri linguaggi di programmazione funzionali, l'ultimo passo di una funzione è il valore di ritorno. Questo significa che il codice seguente è una funzione valida che ritorna uno dei due possibili valori alla funzione chiamante:
+
+define method a_number(isTen :: )
+if (isTen = "10")
+10;
+else
+11;
+end if;
+end method;
+
+Confronto tra moduli e namespace
+Nella maggior parte dei linguaggi orientati agli oggetti, la classe è il sistema di incapsulazione primario; il linguaggio è generalmente inteso come "un modo per costruire classi". I linguaggi moderni orientati agli oggetti di solito includono anche un costrutto di alto livello conosciuto come namespace, necessario a raccogliere insieme le classi simili. In aggiunta, il sistema namespace/classe in molti linguaggi definisce una singola unità che deve essere usata interamente: ad esempio, se si volesse usare la funzione String.concat, si dovrebbe importarla e compilarla su tutte le stringhe, o sul namespace che le include.
+
+In Dylan i concetti di unità di compilazione e di importazione sono separati, e le classi non hanno niente in comune con loro. Un modulo definisce oggetti che dovrebbero essere compilati e maneggiati insieme, mentre una "interfaccia" definisce il namespace.
+Le classi possono essere messe assieme ai moduli, oppure in opposizione a questi, secondo le preferenze del programmatore. Di solito la definizione completa di una classe non è inclusa in un modulo singolo, ma è distribuita su più moduli che possono essere raggruppati. Programmi differenti possono avere differenti definizioni della stessa classe, includendo solo quello di cui hanno bisogno.
+
+Qual è la differenza? Consideriamo una libreria per il supporto delle espressioni regolari sulle stringhe. Nei linguaggi tradizionali, per includere la funzionalità nelle stringhe, questa deve essere aggiunta allo namespace String. Appena si esegue questa operazione, la classe String diventa più pesante e le persone a cui le espressioni regolari non servono vengono penalizzate da questo aumento. Per questa ragione queste aggiunte sono di solito messe nello namespace e negli oggetti personali. Il rovescio della medaglia di questo approccio è che la nuova funzionalità non è più parte di String; invece, è isolata nel suo set di funzioni che devono essere chiamate separatamente. Al posto del chiaro myString.parseWith(myPattern), sintassi che segue i concetti classici della programmazione ad oggetti, si è obbligati ad usare qualcosa di simile: myPattern.parseString(myString) che ribalta effettivamente l'ordine naturale.
+
+In aggiunta, in Dylan si possono definire più interfacce per lo stesso codice. Ad esempio, String.concat potrebbe essere messa sia sull'interfaccia String che sull'interfaccia "concat" che riunisce tutte le funzioni di concatenazione delle varie classi. Questa funzionalità è usata spesso nelle librerie matematiche, dove le funzioni vanno spesso applicate a tipi di oggetto molto differenti.
+
+Un uso più pratico delle interfacce è di costruire una versione pubblica ed una privata di un modulo, qualcosa che altri linguaggi includono come funzionalità "bolt on" che inevitabilmente causa problemi ed aggiunge sintassi. In Dylan il programmatore può semplicemente inserire ogni funzione nell'interfaccia "Private" o "Development", ed inserire le funzioni che vuole siano accessibili pubblicamente in "Public". In Java od in C++ la visibilità di un oggetto è definita nel codice, nel senso che per fare un simile cambiamento il programmatore sarebbe obbligato a riscrivere le definizioni completamente e non potrebbe avere due versioni disponibili contemporaneamente.
+
+Classi
+Le classi in Dylan descrivono categorie (slot: membri dei dati, campi, ivars, etc.) di oggetti in un modo simile alla maggior parte dei linguaggi OO. Tutti gli accessi alle categorie sono eseguiti attraverso i metodi (una funzionalità della maggior parte dei linguaggi dinamici). I metodi standard per prelevare od impostare dati sono generati automaticamente in base al nome della categoria. Al contrario di molti altri linguaggi OO, gli altri metodi usabili sulla classe sono spesso definiti fuori da questa. Anzi, spesso le definizioni di classe in Dylan includono solo la definizione di immagazzinamento dati. Per esempio:
+
+define class ()
+slot title :: = "untitled", init-keyword: title:;
+slot position :: , required-init-keyword: position:;
+end class;
+
+In questo esempio viene costruita la classe "&lt;window&gt;". La sintassi del &lt;nome della classe&gt; è solo una convenzione utile per renderlo visibile: le parentesi ad angolo sono, infatti, parte del nome della classe. Come in altri linguaggi è consuetudine iniziare il nome della classe con una lettera maiuscola, oppure con una "c" od una "T" (ad esempio), così in Dylan si racchiude il nome tra parentesi ad angolo. &lt;window&gt; deriva da una singola classe: &lt;view&gt;, e contiene due slot: title, che contiene una stringa per il nome della finestra, e position, che contiene le distanze cartesiane dall'angolo in alto a sinistra della finestra. In questo esempio specifico il titolo ha il nome di default, mentre la posizione non ha nulla. Il codice opzionale "init-keyword" permette al programmatore di specificare il valore iniziale dello slot quando creerà istanze della classe.
+
+In linguaggi come C++ o Java, la classe dovrebbe anche definire la sua interfaccia. In questo caso il codice non ha istruzioni al riguardo, quindi in questi linguaggi l'accesso a slot e metodi avverrebbe in modalità protect, nel senso che questi possono essere usati solo dalle sottoclassi. Per permettere a codice esterno di usare istanze di , si dovrebbe dichiarare la classe come public.
+
+In Dylan queste regole di visibilità non solo considerate parte del codice in sé, ma del sistema modulo/interfaccia. Questo porta ad una notevole flessibilità: ad esempio, una interfaccia usata nelle prime fasi di sviluppo potrebbe dichiarare qualsiasi cosa come pubblica, mentre più tardi questa potrebbe passare a protetta. Con C++ o Java questi cambiamenti richiederebbero modifiche al codice, mentre in Dylan è un concetto completamente separato.
+
+Benché questo esempio non la usi, Dylan supporta anche l'eredità multipla.
+
+Metodi e funzioni generiche
+In Dylan, i metodi non sono strettamente associati ad una classe particolare, ma possono essere pensati come se esistessero al di fuori di esse. Come CLOS, Dylan si basa sui multimetodi, dove il metodo da chiamare specifico è scelto considerando i tipi di tutti i suoi argomenti. Il metodo non deve necessariamente essere conosciuto al momento della compilazione, la conoscenza riguarda che la funzionalità richiesta sia o no disponibile, in base alle preferenze dell'utente.
+
+In Java gli stessi metodi verrebbero isolati in una classe particolare. Per poter usare questa funzionalità il programmatore dovrebbe importare questa classe e riferirsi ad essa in modo esplicito per chiamare il metodo. Se questa classe non è disponibile, od è sconosciuta al momento della compilazione, il programma non si compilerà.
+
+In Dylan, il codice è isolato dalle "funzioni". Molte classi hanno metodi che chiamano le proprie funzioni, e sembrano come la maggior parte degli altri linguaggi OO. Comunque, il codice può anche essere contenuto in funzioni generiche, nel senso che non sono legate ad una classe particolare, e possono essere chiamate nativamente da chiunque. Il collegamento di una funzione generica ad un metodo in una classe è eseguito nel modo seguente:
+
+define method turn-blue (w :: )
+w.color := $blue;
+end method;
+
+Questa definizione è simile alle rispettive di altri linguaggi, e potrebbe essere inserita nella classe &lt;window&gt;. Si può notare la chiamata:= la quale è syntactic sugar per color-setter($blue, w).
+
+L'utilità di metodi generici diventa evidente quando si considerano esempi più generali. Per esempio, una funzione comune in molti linguaggi è to-string, la quale restituisce qualcosa di umanamente leggibile dall'oggetto. Con questa, una finestra potrebbe restituire il suo titolo e la sua posizione tra parentesi, mentre una stringa ritornerebbe se stessa. In Dylan questi metodi potrebbero essere tutti riuniti in un modulo singolo chiamato "to-string", rimuovendo così questo codice dalla definizione stessa di classe. Se un particolare oggetto non poteva essere analizzato da to-string, potrebbe, invece, essere aggiunto nel modulo to-string.
+
+Estensibilità
+Questa parte potrà sembrare molto strana ad alcuni lettori. Il codice per gestire to-string per una finestra non è definito in &lt;window&gt;? Questo potrebbe non avere senso se non si considera come Dylan gestisce la chiamata to-string. Nella maggior parte dei linguaggi quando il programma viene compilato, viene ricercata to-string per &lt;window&gt; e viene rimpiazzata con un puntatore (più o meno) ad un metodo. In Dylan questo avviene quando si esegue per la prima volta il programma: in questa occasione, il runtime costruisce una tabella di nomi-metodo/parametri e cerca i metodi dinamicamente attraverso questa tabella. Questo significa che una funzione per un metodo particolare può essere dislocata ovunque, non solo nella unità compile-time. Per concludere, il programmatore ha la possibilità di inserire il codice quasi dove preferisce, inserendolo tra le righe di una classe quando lo ritiene appropriato e nelle righe funzionali quando ritiene che non lo sia.
+
+Questo significa che un programmatore può aggiungere funzionalità ad una classe esistente con la costruzione di funzioni in un file separato. Per esempio, si potrebbe voler aggiungere il controllo grammaticale a tutte le &lt;string&gt; che, in molti linguaggi, richiederebbe l'accesso al codice sorgente della classe string—, ma queste classi base a volte non lo hanno disponibile. In Dylan (ed in altri "linguaggi estensibili") il metodo per il controllo grammaticale può essere aggiunto nel modulo spell-check con la definizione di tutte le classi a cui può essere applicato, attraverso il costrutto define method. In questo modo la funzionalità effettiva può essere definita in una singola istruzione generica, la quale prende una stringa e ritorna gli errori. Quando il modulo spell-check viene compilato in un programma, tutte le stringhe (ed altri oggetti) avranno la funzionalità aggiunta.
+
+Questo potrebbe ancora non sembrare così ovvio, ma nella realtà è un problema comune a quasi tutti i linguaggi OO; in un costrutto classe non ci sta tutto: alcuni problemi si applicano a "tutti" gli oggetti del sistema, ma non c'è un modo naturale per gestire questa situazione.
+
+Apple Dylan
+Apple Dylan aveva il nome in codice "Leibniz", in onore all'inventore del calcolo. In origine fu sviluppato come toolbox e linguaggio per applicazioni per la macchina Apple Newton.
+
+Ambiente di sviluppo
+La parte relativa all'interfaccia utente dell'ambiente di sviluppo di Apple Dylan (ossia trascurando il compilatore, il linker e le librerie di esecuzione) aveva il nome in codice "Hula". Era un ambiente di sviluppo cross-platform ispirato a Smalltalk, Macintosh Common Lisp e Think C. Esso contiene:
+"Binder": uno strumento per configurare i componenti dell'IDE
+un database sorgente
+un database delle definizioni
+un compilatore incrementale
+un debugger cross-platform del codice sorgente
+strumenti di profiling
+uno strumento per costruire interfacce
+
+La finestra principale in Hula è Binder. Una finestra Binder è composta da pannelli interconnessi. Ogni pannello può avere un input, un aspetto ed uno stile proprio. Un input di un pannello è un pannello a parte; un pannello mostra informazioni relative agli oggetti selezionati. L'aspetto è una proprietà dell'ingresso, come il codice sorgente, i contenuti, le chiamate, le letture, le scritture, i riferimenti o gli avvisi di compilazione. Questa informazione può essere rappresentata come uno schema od un grafico. Gli input, gli aspetti e gli stili possono essere usati per costruire repliche del navigatore di sorgenti di Smalltalk, o grafici statici, o display specifici come quello necessario per mostrare le chiamate di lettura delle variabili scritte da una funzione. Tutte le viste sono live: ad esempio, la ricompilazione di una funzione provoca l'aggiornamento di tutti i display che contengono informazioni su di essa.
+
+La vista dello schema include una serie di indicatori che avvisano se il sorgente è stato salvato, compilato o ha dato avvisi.
+
+Framework per il disegno di interfacce utente
+Apple Dylan contiene un framework per la costruzione di interfacce utente scritto in Dylan da Mike Lockwood. Il framework è strettamente integrato con un costruttore di interfacce WYSIWYG chiamato Meccano, scritto da Robin Mair. Collegando il costruttore di interfacce ad un programma, si può passare tra i modi Edit e Run mentre l'applicazione è in esecuzione. Gli oggetti che controllano allineamenti e decorazioni dei bordi erano rappresentati come oggetti grafici che possono essere trascinate in un oggetto "interfaccia utente" per modificare il suo comportamento od il suo aspetto.
+
+Implementazione
+Apple Dylan è stato implementato in Macintosh Common Lisp (MCL). La sede Apple Cambridge nacque con l'acquisizione di Coral Software, i sviluppatori di Macintosh Common Lisp.
+
+Quando Dylan fu spostato da ARM a desktop, il back end fu modificato per l'uso con APPLEX, un assembler portabile costruito dal gruppo di Wayne Loufborrow alla Apple Cupertino.
+
+Sviluppatori
+Compilatore e Runtime:
+David Moon
+Kim Barrett
+Bob Cassels
+Gail Zacharias
+Glen Burke
+John Hotchkiss
+Kálmán Réti
+Mark Preece
+Jeff Piazza
+Steve Strassmann
+Derek White
+Robert Stockton
+
+Definizione del linguaggio:
+Andrew Shalit
+Orca Starbuck
+
+Hula:
+Oliver Steele
+Paige Parsons
+Bill St. Clair
+Jeremy Jones
+John Hotchkiss
+Neil Mayle
+Steve Strassmann
+
+MCL:
+Alice Hartley
+Bill St. Clair
+Gary Byers
+
+(Queste liste sono incomplete)

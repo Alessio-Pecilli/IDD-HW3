@@ -1,0 +1,30 @@
+Epimeteo (), o Saturno XI, è un satellite naturale di Saturno. Deve il suo nome al titano Epimeteo della mitologia greca, figlio di Giapeto e di Climene.
+
+Scoperta
+Epimeteo occupa essenzialmente la stessa orbita di Giano. Gli astronomi ritenevano inizialmente che ci fosse un solo corpo celeste in quell'orbita e incontravano difficoltà nel determinare le caratteristiche orbitali, tentando di conciliare le osservazioni di due corpi distinti considerandole come un oggetto singolo.
+
+È stato osservato da Audouin Dollfus il 15 dicembre 1966, che propose il nome "Giano" (Janus). Il 18 dicembre Richard Walker effettuò un'osservazione simile e per questo oggi viene riconosciuto come scopritore. Tuttavia all'epoca si pensava che ci fosse un solo satellite, conosciuto ufficiosamente come "Giano", che occupava quell'orbita.
+
+Dodici anni dopo, nell'Ottobre 1978, Stephen M. Larson e John W. Fountain capirono che le osservazioni del 1966 potevano essere spiegate dalla presenza di due oggetti distinti (Giano ed Epimeteo) che condividevano orbite molto simili. Questa ipotesi venne confermata nel 1980 dalla sonda Voyager 1, quindi Walker, Larson e Fountain vengono ufficialmente considerati come co-scopritori di Epimeteo.
+
+La scoperta della sonda Voyager era stata chiamata temporaneamente S/1980&nbsp;S&nbsp;3, e venne chiamata ufficialmente "Epimeteo" nel 1983, Il nome Giano fu approvato dalla IAU nello stesso anno, anche se il nome era stato usato ufficiosamente fin dalla proposta di Dollfus dal 1966.
+
+Relazioni tra le orbite di Epimeteo e Giano
+
+Giano ed Epimeteo sono "co-orbitali", cioè condividono la stessa orbita; il raggio orbitale di Giano è attualmente solo di 50&nbsp;km inferiore a quello di Epimeteo, un valore inferiore alle dimensioni del satellite stesso. In base alle leggi di Keplero, l'orbita più corta viene completata in un tempo più breve, ma la differenza è di soli 30 secondi. Tuttavia il satellite più interno si allontana da Saturno ogni giorno di ¼°.
+
+Tuttavia quando il satellite interno si avvicina al satellite esterno la loro mutua attrazione gravitazionale aumenta la quantità di moto della luna interna e indebolisce quella esterna. A questo punto il satellite esterno perde una quantità di moto uguale e scende in un'orbita inferiore, accelerando. Quindi i satelliti si "scambiano" le orbite e si separano nuovamente, senza sorpassarsi e senza neppure avvicinarsi eccessivamente dato che la loro distanza non è mai inferiore a 10.000&nbsp;km. Lo scambio avviene una volta ogni circa quattro anni, le ultime si sono verificate nel gennaio 2006, 2010, 2014, 2018 e 2022. Date le differenze di massa, l'orbita Giano è aumentata di circa 20&nbsp;km e quella di Epimeteo diminuita di circa 80&nbsp;km. In base alle attuali conoscenze, questa disposizione è unica nel sistema solare.
+
+Questa relazione tra le orbite può essere compresa come un'applicazione del problema dei tre corpi, dove il terzo corpo è costituito da Saturno e le due lune hanno approssimativamente la stessa dimensione.
+Gli asteroidi troiani e l'orbita a ferro di cavallo di 3753 Cruithne rispetto alla Terra costituiscono altri esempi di questo problema, oltre a dozzine di altri oggetti.
+
+Caratteristiche fisiche
+
+Su Epimeteo sono presenti diversi crateri con diametri maggiori di 30&nbsp;km, assieme a piccole e grandi creste e solchi. L'estesa craterizzazione indica che Epimeteo dovrebbe essere piuttosto antico. Potrebbe derivare, assieme a Giano, da un singolo corpo successivamente disgregatosi in due oggetti distinti; in questo caso la disgregazione deve essere avvenuta nella fase iniziale della formazione del sistema satellitare. Dalla sua densità molto bassa e dalla sua relativamente alta albedo, si pensa che si tratti di un corpo ghiacciato e poroso, tuttavia questi dati non sono certi, e devono essere confermati.
+
+Il polo sud mostra quelli che sembrano i resti di un grande cratere da impatto che copriva gran parte della superficie del satellite e che potrebbe spiegare la forma un po' appiattita della parte meridionale di Epimeteo.
+
+Sembra che ci siano due tipi di terreno: il primo scuro e liscio, il secondo più brillante, un po' più giallastro e fratturato. È possibile che il materiale più scuro sia scivolato lungo i pendii e che abbia un contenuto di ghiaccio inferiore al materiale più chiaro. Entrambi potrebbero comunque contenere ghiaccio d'acqua.
+
+Anello di polveri
+Nella regione di spazio occupata da Epimeteo e Giano è presente un tenue anello di polveri, come è stato rivelato dalle immagini in luce diffusa diretta riprese dalla sonda Cassini nel 2006. Questo anello ha un diametro di circa 5.000&nbsp;km. L'anello è formato dalle polveri emesse dalla superficie del satellite in seguito ad impatti meteoritici, polveri che vanno a formare un anello diffuso attorno al percorso orbitale.

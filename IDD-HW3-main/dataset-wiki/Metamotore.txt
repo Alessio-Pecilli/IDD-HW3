@@ -1,0 +1,30 @@
+Un metamotore è un'interfaccia informatica che svolge la sua interrogazione su più motori di ricerca contemporaneamente.
+
+L'utente digita il testo da cercare nel metamotore che lancia la ricerca, collegandosi al sito di Google, Yahoo e altri, i quali inviano una risposta che può essere direttamente presentata all'utente, oppure filtrata secondo alcuni criteri, in primis l'eliminazione delle ripetizioni.
+
+I metamotori usano visualizzare i risultati senza processarli, oppure operano un'analisi e forniscono un'interpretazione personale dei listati forniti dai vari motori, creandone una lista unificata. Il metamotore filtra i risultati forniti da più di un motore di ricerca, per eliminare eventuali ripetizioni.
+
+Una ricerca su un metamotore può coinvolgere più database insieme, tanti quanti sono i database dei motori coinvolti. Questo è il principale vantaggio di questo tipo di motori: raggiungere una quota maggiore di siti della rete, rispetto all'interrogazione di un solo motore.
+
+Come svantaggio bisogna evidenziare la mancanza di strumenti per la ricerca avanzata, di cui sono invece dotati i singoli motori.
+
+I metamotori (ad esempio Copernic Agent) possono funzionare anche come "Desktop Search". In assenza di collegamento a Internet operano una ricerca all'interno del computer, che viene lanciata tramite Google Desktop, Yahoo Desktop e altri Desktop Search eventualmente installati in locale.
+
+Vantaggi
+Inviando più query a diversi altri motori di ricerca, ciò estende i dati di copertura dell'argomento e consente di trovare maggiori informazioni. Usano gli indici costruiti da altri motori di ricerca, aggregando e spesso elaborando i risultati in modi unici. Un motore di metaricerca ha un vantaggio rispetto a un singolo motore di ricerca perché è possibile recuperare più risultati con la stessa quantità di sforzo. Riduce anche il lavoro degli utenti dal dover digitare individualmente ricerche da diversi motori per cercare risorse.
+
+Svantaggi
+I motori di metaricerca non sono in grado di analizzare i moduli di query o di tradurre completamente la sintassi delle query. Il numero di collegamenti ipertestuali generati dai motori di metaricerca è limitato e quindi non fornisce all'utente i risultati completi di una query.
+
+La maggior parte dei motori di metaricerca non fornisce più di dieci file collegati da un singolo motore di ricerca e generalmente non interagisce con motori di ricerca più grandi per i risultati. I link pay per click hanno la priorità e vengono normalmente visualizzati per primi.
+
+La metaricerca dà anche l'illusione che ci sia una maggiore copertura dell'argomento interrogato, in particolare se l'utente sta cercando informazioni popolari o comuni. È comune terminare con più risultati identici dai motori interrogati. È anche più difficile per gli utenti cercare con la sintassi di ricerca avanzata da inviare con la query, quindi i risultati potrebbero non essere precisi come quando un utente utilizza un'interfaccia di ricerca avanzata su un motore specifico. Ciò si traduce in molti motori di metaricerca che utilizzano la ricerca semplice.
+
+Principali metamotori
+I metamotori più conosciuti sono i seguenti:
+
+MetaCrawler, è uno dei primi (nato nel 1995) e forse il più conosciuto ancora oggi;
+BigSearcher
+Ixquick
+Vivìsimo
+Kayak

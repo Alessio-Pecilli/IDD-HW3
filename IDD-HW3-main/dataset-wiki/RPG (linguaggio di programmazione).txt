@@ -1,0 +1,139 @@
+RPG oppure RPG IV è un linguaggio di programmazione nativo per piattaforma IBM della serie POWER Systems (in passato denominata iSeries e, più comunemente, AS/400).
+
+L'RPG è uno dei linguaggi di programmazione più longevi, essendo stato sviluppato da IBM nel 1959 con il nome di Report Program Generator - un tool che replicava l'elaborazione di schede perforate sugli elaboratori IBM 1401. In seguito si è evoluto come RPG II sui System/3 negli ultimi anni '60, per poi trasformarsi in un linguaggio ad alto livello al pari di COBOL e PL/I.
+
+La sua versione più recente, nota come RPG IV o ILE RPG, fornisce un ambiente di sviluppo moderno, che comprende l'uso di prototipi di funzioni e procedure, binding statico e dinamico dei dati, utilizzo di istruzioni SQL incorporate, accesso a librerie di routine scritte in C, uso di funzioni contenute in DLL compilate a partire da altri linguaggi, supporto a parser esterni per qualsiasi tipo di file.
+
+Aspetti generali
+
+Tradizionalmente, ogni riga di codice RPG veniva chiamata "specifica", termine oggi obsoleto, ma ancora comunemente utilizzato.
+
+Un programma RPG inizia tipicamente con le File Specification, contenente la lista di tutti i file da scrivere, leggere o modificare, seguita dalle Input Specification, con le strutture dei dati (data Structures), e dichiarazioni di campi e matrici (schiere). Seguono le Calculation Specification che racchiudono la logica eseguibile del programma, ed infine le Output Specification, usate, fra l'altro, per impostare l'aspetto dei report stampati. Tipico dell'RPG è l'uso degli "indicatori", un set di variabili logiche numerate da 01 a 99 (più alcuni indicatori speciali), che possono assumere solo i valori on e off.
+
+Una delle modalità di funzionamento più caratteristiche del linguaggio è il cosiddetto ciclo (The Cycle): ogni programma RPG gira all'interno di un loop (letteralmente anello, cioè gruppo di istruzioni eseguite ciclicamente), che può essere usato, ad esempio, per esaminare uno alla volta tutti i record di un file. In alternativa il ciclo può ripetersi per un numero indefinito di volte, finché non viene interrotto dal verificarsi di un evento, oppure a seguito di un esplicito comando dell'utente.
+
+Altra caratteristica delle versioni meno recenti dell'RPG è che, molto più del COBOL e del FORTRAN, il modo in cui il codice è scritto è strettamente dipendente da come il testo è incolonnato. In altre parole anche gli spazi vuoti all'interno del codice devono avere un'esatta dimensione, e le parole chiave devono trovarsi in posizioni definite. Tutto questo era valido fino a qualche anno fa; ultimamente il linguaggio si è notevolmente evoluto e permette anche la scrittura in formato libero. La grande retrocompatibilità dell'RPG fa sì che all'interno di uno stesso sorgente possano coesistere porzioni scritte sia in formato fisso (l'unico consentito fino al 1998), che in formato libero.
+
+Storia
+
+L'RPG è uno dei pochi linguaggi creati al tempo dei primi calcolatori a schede perforate che sono ancora oggi in uso, la sua sintassi è infatti nata per emulare la configurazione dei pannelli di programmazione a spinotti dei primi calcolatori. È stato originariamente sviluppato dall'IBM nel 1959 per il popolare calcolatore IBM 1401. All'inizio RPG era l'acronimo di "Report Program Generator", descrizione che spiegava bene lo scopo per cui era stato progettato: produrre report a partire da file di dati, compresa la funzione di ricerca di record e di calcolo di totali parziali. A quel tempo i linguaggi alternativi disponibili erano il COBOL ed il BASIC, il primo particolarmente ridondante, il secondo poco potente, così che l'RPG assunse una posizione dominante in ambito IBM. In seguito l'RPG fu perfezionato, sempre da IBM, per equipaggiare la propria serie di mainframe, in particolare il modello S390, prendendo il nome di RPG II.
+
+Evoluzione del linguaggio
+LRPG II è stato introdotto con la serie di elaboratori System/3. È stato utilizzato in seguito anche sui modelli System 3, System 32, System 34, e System 36, e anche su sistemi mainframe più potenti come il System/370.
+
+LRPG III è stato sviluppato per il System/38 ed il suo successore, l'AS/400. L'RPG III si distingueva notevolmente dal linguaggio originario, comprendendo costrutti strutturati di tipo più moderno, come blocchi IF-ENDIF, loop inizializzati dal DO, e possibilità di scrivere subroutine. Anche l'RPG III era disponibile per i mainframe System/370 dotati di sistema operativo OS/VS1. Il suo editor è semplicemente basato sulla modifica delle linee di programma, con la presentazione immediata di template corrispondenti ai vari tipi di istruzioni da inserire.
+
+LRPG/400 era in pratica RPG III per i midrange della serie AS/400. IBM ha denominato il linguaggio "RPG/400" ma al momento della sua introduzione si trattava esattamente dello stesso linguaggio supportato dai System/38. Le due versioni hanno cominciato a differenziarsi solo con lo sviluppo da parte di IBM di nuovi codici operativi come SCAN, CAT e XLATE, diversi anni dopo l'introduzione dell'AS/400. Questi miglioramenti all'RPG non erano disponibili nelle versioni dell'RPG III per i System/38.
+
+RPG IV
+Nel 1994, con la release V3R2 del sistema operativo OS/400, è stato distribuito l'RPG IV, conosciuto anche come RPGLE oppure RPG/ILE. Notare come il nome del linguaggio ha perso il significato iniziale, come dichiarato ufficialmente dalla stessa IBM. Questa versione offre ai programmatori la possibilità di scrivere codice in formato più libero, cioè non vincolato da un rigido incolonnamento delle parole chiave, ed un set di istruzioni molto più ricco, definito Extended Calculation Specification.
+
+Nel 2001, con la release V5R1, l'RPG ha visto l'introduzione del "formato libero", una specifica (/FREE) grazie alla quale non era più richiesto di disporre i codici operativi in una particolare colonna. Questo ha iniziato a rendere l'RPG molto più simile agli altri linguaggi di programmazione più comunemente utilizzati su altre piattaforme. Fino al novembre 2013, il formato libero si poteva applicare solo alle specifiche di calcolo. Dall'aggiornamento V7R1 TR7, le specifiche "/FREE" e "/END-FREE" non sono più necessarie, rompendo definitivamente gli ultimi legami con le schede perforate.
+
+L'RPG IV è oggi un solido linguaggio di programmazione. Anche se l'editing può ancora avvenire tramite l'interfaccia nativa a schermate a caratteri nero-verdi del SEU, esistono diversi tool moderni per l'editing. Attualmente, lo strumento principale è Rational Developer for i di IBM, un IDE basato su Eclipse. Il linguaggio è in continua evoluzione, ed IBM aggiunge sempre nuove funzionalità, solitamente sotto forma di funzioni incorporate (BIF). Pur con le evoluzioni, il livello di retrocompatibilità è altissimo, e programmi RPG scritti 37 anni fa possono funzionare tuttora senza alcuna modifica o con ritocchi marginali.
+
+Esempio di codice
+
+Il programma seguente riceve come parametro di input il numero di codice di un cliente e ne restituisce il nome e l'indirizzo nei parametri di output:
+
+Tradizionalmente l'RPG richiede di rispettare l'incolonnamento; solo in alcuni casi
+è permesso formattare il codice liberamente.
+L'azione eseguita dalle varie istruzioni è codificata da una lettera
+nella colonna 6.
+Un asterisco (*) nella colonna 7 indica che la riga contiene solo un commento.
+
+"F" (file) è usato per definire files o altri dispositivi di I/O
+FARMstF1 UF E K Disk Rename(ARMST:RARMST)
+
+"D" è usato per definire le variabili
+D pCusNo S 6p 0
+D pName S 30a
+D pAddr1 S 30a
+D pAddr2 S 30a
+D pAddr3 S Like(pAddr2)
+D pCity S 25a
+D pState S 2a
+D pZip S 10a
+
+"C" (calculation) è usato per indicare le righe che contengono i comandi.
+I parametri sono denominati usando gli identificatori "plist" e "parm"
+C *entry plist
+C parm pCusNo
+C parm pName
+C parm pAddr1
+C parm pAddr2
+C parm pCity
+C parm pState
+C parm pZip
+
+Il comando "chain" è usato per accedere in modo random ad un file indicizzato.
+C pCusNo chain ARMstF1
+
+Se il record è trovato, il contenuto dei suoi campi viene trasferito all'output.
+C if %found
+C eval pName = ARNm01
+C eval pAddr1 = ARAd01
+C eval pAddr2 = ARAd02
+C eval pCity = ARCy01
+C eval pState = ARSt01
+C eval pZip = ARZp15
+C endif
+
+l'RPG utilizza gli "indicators" ("indicatori" in italiano), che possono assumere
+lo stato di ON/OFF.
+Quelli normalmente usati dal programmatore sono identificati con un numero (da 01 a 99).
+Ne esistono altri, definiti "speciali" che servono per :
+.comunicare con l'esterno ("indicatori esterni" - da U1 a U8)
+.segnalare errori (in modo primitivo - da H1 a H9)
+.segnalare il cambio del contenuto ("rotture") di campi definiti "di livello"
+(automaticamente, da parte dell'RPG - da L1 a L9) (*@)
+.segnalare la corrispondenza ("matching") di campi definiti "di confronto"
+(automaticamente, da parte dell'RPG - da M1 a M9 + MR) (*@)
+.segnalare l'emissione della prima pagina (comunemente usato anche come segnalazione
+di inizio programma - 1P) (*@)
+.segnalare il raggiungimento della riga di overflow (fine foglio - da OA a OG + OV) (*@)
+.segnalare il termine del programma (automaticamente da parte dell'RPG, quando viene
+rilevata la fine di un flusso quando letto in modalità sequenziale - "Last Record", LR) (*@)
+.etc
+
+(*@) Vengono gestiti direttamente dall'RPG (sono conseguenza dell'automazione messa a
+disposizione dell' RPG stesso) ma possono venir attivati anche dal programmatore.
+
+L'esecuzione è terminata.
+C eval *InLR = *On
+
+Quello che segue è lo stesso listato in formato FREE;
+
+dcl-pr;
+pCusno like(pCusno);
+pName like(pName);
+pAddr1 like(pAddr1);
+pAddr2 like(pAddr2);
+pAddr3 like(pAddr3);
+pCity like(pCity);
+pState like(pState);
+end-pr
+
+dcl-pi;
+pCusNo packed(7);
+pName char(30);
+pAddr1 char(30);
+pAddr2 char(30);
+pAddr3 like(pAddr2);
+pCity char(25);
+pState char(2);
+pZip char(10);
+end-pi
+
+chain (pCusno) ARMstF1;
+if %found
+pName = ARNm01;
+pAddr1 = ARAd01;
+pAddr2 = ARAd02;
+pCity = ARCy01;
+pState = ARSt01;
+pZip = ARZp15;
+endIf;
+
+inlr = *n;
+return;

@@ -1,0 +1,37 @@
+Con il termine posizionamento s'intende l'acquisizione di visibilità tra i risultati dei motori di ricerca. Più specificamente, è l'operazione attraverso la quale il sito viene ottimizzato per comparire nei risultati in una posizione il più possibile favorevole e rilevante. I risultati più evidenti, o all'interno di specifici snippet come l'AI Overview o il risultato zero-click, rappresentano la risposta più accurata per una determinata query. I complessi algoritmi di ricerca e l'eventuale validazione da parte dei quality rater, garantiscono un elevato livello di scientificità. La SEO è la scienza informatica che permette di incrementare la qualità del contenuto, applicare i correttivi di codice al sito e monitorare la fluttuazione delle SERP di ricerca, con il fine di migliorare il posizionamento.
+
+Il posizionamento può essere di due tipi:
+Posizionamento naturale (dall'inglese organic placement), che si ottiene mediante azioni di ottimizzazione del sito e, se ben fatto, offre un ottimo ritorno sull'investimento. L'ottimizzazione viene eseguita considerando l'alberatura del sito, la pulizia del codice, i testi, i meta tag, i link e altre indicazioni che il codice sorgente della pagina fornisce ai motori di ricerca.
+Link sponsorizzati (noti anche col termine "pay per click" o "sponsored links"), inserzioni a pagamento per le quali l'inserzionista acquista le parole per le quali vuole comparire, crea il messaggio da abbinare (il cosiddetto "testo del link") e seleziona una pagina di destinazione (landing page). L'ordine degli inserzionisti nella pagina di risultati è determinato da una serie di criteri definiti dal network pubblicitario; il più rilevante di questi criteri è il "costo per click", quanto cioè l'inserzionista è disposto a spendere per ogni visita che riceve dall'inserzione abbinata a una certa parola chiave.
+
+Descrizione
+Il posizionamento prima di Google
+
+Alla fine degli anni novanta, i primi motori di ricerca facevano riferimento alle parole chiave inserite dagli stessi creatori di siti web all'interno delle loro pagine, attraverso i tag META. In un mondo ideale questo approccio sarebbe stato abbastanza funzionale, ma ben presto i webmaster più furbi cominciarono ad inserire nelle loro pagine decine di parole chiave, rendendo di fatto nulla l'utilità di questo strumento (prevista, peraltro, nelle stesse specifiche di HTML).
+
+Contemporaneamente, i motori di ricerca più diffusi (uno dei più utilizzati al tempo era AltaVista) iniziarono a vendere le posizioni alte dei loro risultati di ricerca, mischiando, nella presentazione dei risultati, sia i siti "meritevoli", cioè rispondenti ai criteri di ricerca dell'utente, sia siti clienti che avevano pagato il motore di ricerca per farsi trovare dagli utenti nelle prime pagine di risposta.
+
+Questa situazione non certo limpida preparò il terreno per l'avvento di Google.
+
+Ottimizzazione del sito
+
+L'ottimizzazione del sito prevede un lavoro costante di miglioramento della struttura e delle informazioni contenute nelle pagine. Un sito realizzato seguendo criteri di usabilità e di ottimizzazione per i motori deve poi contenere informazioni testuali. I motori di ricerca privilegiano infatti testo in chiaro (selezionabile). Anche se hanno altre potenzialità, come quella di leggere i documenti in formato PDF o di capire di cosa tratta un'immagine.
+
+È importante che, una volta ottimizzata il più possibile la struttura del sito, ci si concentri sui testi. Scrivere testi originali, mai copiati, esaustivi, con informazioni chiarificatrici è una delle operazioni di base per la valorizzazione di un sito, fondamentale affinché risulti interessante agli occhi dei lettori - e dei motori di ricerca.
+
+I professionisti e le aziende che si occupano di ottimizzazione per i motori di ricerca possono usare diverse tecniche. Le due più conosciute sono:
+Black hat SEO: è un insieme di tecniche che non derivano dallo spontaneo interesse degli utenti. Si tratta di tecniche che mirano ad aumentare in maniera artificiosa i valori di un sito internet (numero di persone interessate, numero di backlink, ecc.);
+White hat SEO: si tratta di tutte quelle ottimizzazioni eseguite sul sito e all'esterno che hanno come obiettivo il genuino miglioramento della struttura, per migliorare l'esperienza di navigazione degli utenti e dei motori di ricerca. Queste tecniche difficilmente portano alla penalizzazione di un sito internet, perché vengono eseguite per creare valore.
+
+Marketing sui motori di ricerca
+
+Il Search engine marketing (SEM) è un insieme di metodologie volte all'utilizzo del canale motori di ricerca per il raggiungimento di obiettivi di marketing, come ad esempio il miglioramento del posizionamento di un sito all'interno delle pagine dei motori di ricerca per facilitarne la reperibilità attraverso le ricerche online.
+
+Il search engine marketing si riferisce anche alla professione svolta dai consulenti che conducono progetti di ottimizzazione per i motori di ricerca sui siti dei propri clienti o pianificano campagne di keyword advertising (pubblicità calibrata sulle parole chiave).
+
+Le attività svolte nel posizionamento sui motori di ricerca sono molteplici ed è possibile elencare le più note:
+Analisi del sito e dei concorrenti. Vengono analizzati i termini più utilizzati sui motori di ricerca in relazione alle attività descritte dal sito da posizionare, viene fatta un'analisi on line dei concorrenti e delle principali parole chiave utilizzate da loro, infine è utile stilare una lista di parole idonee al posizionamento del sito.
+Ottimizzazione delle pagine web. In seguito all'analisi preliminare viene definita la struttura del sito che dovrà risultare idonea ad ottenere dei buoni posizionamenti e sulla base di questa struttura vengono realizzate le pagine web da ottimizzare in conformità alle linee guida espresse dai principali motori di ricerca.
+link popularity. Per ottenere dei buoni posizionamenti nelle SERP è indispensabile ottenere dei link da siti esterni. Si può raggiungere l'obiettivo attraverso una strategia di costruzione e reperimento di link che comprenda diversi canali: emissione di rassegne e comunicati stampa attraverso siti dedicati; invio di URL del sito a siti correlati all'argomento; invio di documenti ben scritti a siti e blog rilevanti La caratteristica saliente per una link popularity efficace non dipende dagli strumenti adottati: per poter ispirare le persone a mettere un link bisogna avere dei contenuti interessanti. I migliori link sono comunque quelli reperiti in maniera spontanea. Google ha ribadito in varie occasioni che vuole che i link siano naturali e non artificiali. In pratica, per aumentare la nostra link popularity si crea una rete di link che collegano altri siti web al nostro sito sfruttando il concetto di link juice, ovvero l'autorithy che viene propagata da una pagina all'altra attraverso i link. Più la pagina da cui arriva il link è autorevole, maggiore sarà l'autorità che passerà al nostro sito web.
+
+Le evoluzioni degli algoritmi dei grandi motori di ricerca spingono i webmaster a studiare nuove metodologie per il posizionamento nei motori di ricerca, quali ad esempio strategie d'immagine e infografiche, ampliando e focalizzando sempre più l'aspetto pratico del posizionamento sui contenuti rispetto alla diffusione globale di un singolo contenuto come si usava in precedenza.

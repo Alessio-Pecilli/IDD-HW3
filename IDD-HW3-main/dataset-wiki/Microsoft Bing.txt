@@ -1,0 +1,107 @@
+Microsoft Bing è un motore di ricerca di proprietà di Microsoft, nato dalle ceneri di Live Search nel giugno 2009, con la prima versione entrata in servizio il 1º giugno 2009.
+
+Ad ottobre 2020 ha una diffusione globale del 12,50% su computer e laptop e del 7,88% considerando tutti i dispositivi, in entrambi i casi al terzo posto dopo Google e Baidu.
+
+Origine del nome
+La parola "Bing" è un'onomatopea che imita un suono di una lampadina che si accende, rappresentativo "del momento in cui si fa una scoperta o una scelta". Il nome ha anche una similitudine con la parola "bingo", spesso usata quando si individua qualcosa, come nel gioco omonimo.
+
+È stato ipotizzato che il nome possa essere interpretato come acronimo di "But it's not Google", o anche ricorsivamente "Bing is not Google", come se contenesse un paragone negativo con Google, ma tale supposizione non è mai stata confermata dalla compagnia.
+
+Descrizione
+Una particolarità di Microsoft Bing è che presenta un'immagine di sfondo che cambia ogni giorno. Nella home page sono stati inseriti i tasti con delle freccette, destra e sinistra, che servono per visualizzare le immagini di sfondo precedenti, fino ad un massimo di 9. Microsoft Bing è inoltre il primo motore di ricerca a introdurre la infinite page nella sua ricerca immagini. La versione definitiva di Microsoft Bing permette di trovare anche i video.
+
+La ricerca Mappe consente di calcolare un itinerario di viaggio, visualizzare le mappe in 3D, in vista satellitare o aerea.
+
+Come Google, che usa lo strumento Google Search Console, anche Bing ha lo strumento Bing Webmaster Tools, per poter, ad esempio, verificare lo stato di indicizzazione del proprio sito e avere informazioni sulle performance (clic, visualizzazioni, ecc.) nella rete di Bing.
+
+Nel 2005 Microsoft lanciò Ranknet, un'intelligenza artificiale ad apprendimento automatico per migliorare la qualità delle risposte alle query che poi fu incorporato a Bing. Nel 2018 è stato annunciato il supporto alle pagine AMP, progetto per aumentare la velocità di caricamento delle pagine da mobile.
+
+Il 3 aprile 2020 è stato presentato il nuovo logo del sito web, ma il 1º agosto il nome è stato cambiato in Microsoft Bing. Anche se c'è stato il rebranding, il logo precedente viene ancora utilizzato.
+
+Translate.com è un servizio basato su Microsoft Translator, che ne estende il supporto ad oltre 100 lingue.
+Bing AI
+Il 7 febbraio 2023 Microsoft ha annunciato il lancio di un piccolo rollout di anteprima del nuovo Bing potenziato dall’intelligenza artificiale. Il nuovo Bing integra ChatGPT, un modello di linguaggio sviluppato da OpenAI, per fornire risultati di ricerca migliori e una vera e propria chat per risposte più approfondite.
+
+Da luglio 2024 il motore di ricerca genera una sintesi automatica delle informazioni cercate, corredata da note e link diretto alla fonte selezionata.
+
+Servizi
+Nella versione italiana i servizi erano molto limitati rispetto a quella inglese, poiché fino al rinnovamento di Bing del 2013 in Italia era ancora in fase beta.
+
+Nel febbraio 2023 è stata lanciata una nuova versione di Bing che integra l'intelligenza artificiale anche per informazioni aggiornate e mostra le fonti su cui si basano i risultati. Microsoft Edge integra una chat interattiva che permette di porre quesiti in linguaggio naturale e di affinare progressivamente la ricerca. Nel febbraio 2023 è stato rilasciato il riconoscimento vocale e la sintesi vocale per effettuare ricerche e ricevere risposte a voce.
+
+La versione 4.0 di ChatGPT, lanciata nel marzo 2023, oltre a velocizzare drasticamente i tempi di risposta introduce per la prima volta il supporto a immagini, audio e video creati dall'intelligenza artificiale o dati input al programma. A un mese dall'integrazione con ChatGPT, il sito ha raggiunto i 100 milioni di utenti attivi ogni giorno. Almeno un terzo riguarda gli utenti di Bing Chat.
+
+Bing Image Creator è il servizio gratuito per creare immagini con l'intelligenza artificiale di DALL-E a partire da un'indicazione testuale. Al marzo 2023 è disponibile solo in lingua inglese e non è ancora integrato all'interno di Bing Chat, mentre lo è all'interno di Microsoft Bing e di Microsoft Edge.
+
+Il 4 maggio 2023 è stato aperto a tutti l'accesso al chatbot di Microsoft Bing GPT-4. Il servizio non offre soltanto risposte testuali, ma anche immagini e video reperiti dal web. La chat di Bing permette l'installazione di plugin di terze parti.
+
+Servizi su Bing Italia
+Cerca nel web
+Mappe
+Immagini
+Notizie
+xRank (Fino ad Ottobre 2010) - permette di scoprire cosa viene cercato dagli altri utenti
+Translator - traduttore basato sulla API gratuita Microsoft Translator
+Video - aggiunto nella versione definitiva
+Mobile
+Rewards - consultando il motore di ricerca si accumulano punti per riscattare i premi da un catalogo.
+
+Servizi su Bing.com
+Web
+Images - Immagini
+Videos - Video
+Shopping
+News
+Maps - Mappe
+xRank (fino a ottobre 2010) - permette di scoprire cosa viene cercato dagli altri utenti
+Local - cerca imprese
+Travel - confronta le offerte per gli alberghi e voli per destinazioni in tutto il mondo
+Visual search - ricerca dalle immagini
+Mobile
+Reference - articoli tratti da Wikipedia
+Twitter - trova informazioni su twitter
+Tour Bing - informazioni sul modo in cui Bing ti permette di effettuare una ricerca
+Help
+History
+Translator - traduttore
+Bing Webmaster Tools - strumenti per i webmaster, piattaforma di web analytics
+Community - blog e forum
+Advertising - pubblicità
+Developer center - centro sviluppatori
+Rewards
+
+Loghi
+
+Diffusione
+A gennaio 2018 Microsoft Bing è presente nei seguenti Paesi:
+
+Arabia Saudita
+Argentina
+Australia
+Austria
+Belgio - Francese e Olandese
+Brasile
+Canada - Francese e Inglese
+Cina
+Corea del Sud
+Francia
+Germania
+Giappone
+Hong Kong
+India
+Indonesia
+Italia
+Malaysia
+Messico
+Norvegia
+Paesi Bassi
+Polonia
+Regno Unito
+Russia
+Spagna
+Stati Uniti d'America - Inglese e Spagnolo
+Sudafrica
+Svezia
+Svizzera - Francese e Tedesco
+Taiwan
+Turchia

@@ -1,0 +1,63 @@
+Labbondanza di un elemento chimico è la massa di quella specie, presente nell'unità di massa del materiale considerato; essa misura quanto l'elemento considerato è relativamente comune o la quantità dell'elemento in confronto con tutti gli altri elementi. L'abbondanza, che è un parametro utile solo nel caso di miscele di più sostanze, può essere misurata in vari modi:
+per frazione di massa
+per frazione molare (frazione di atomi, o talvolta di molecole, nel caso dei gas)
+per frazione di volume.
+In tutti e tre i casi si fa il rapporto tra la presenza (massa, numero di atomi/molecole) della specie in considerazione e la presenza totale di elementi.
+
+La misura per frazione volumetrica è un metodo comune di misura dell'abbondanza per i miscugli gassosi come le atmosfere ed è prossimo al valore ottenuto valutando la frazione molare per miscugli di gas ideali (cioè miscugli di gas a basse densità e pressioni).
+
+Per esempio la frazione di massa dell'ossigeno in acqua è l'89%, perché questa è la frazione di acqua che è composta da ossigeno, ma l'abbondanza per moli è solo il 33% perché solo un atomo su tre è di ossigeno.
+Nell'universo e nei grandi pianeti gassosi come Giove, le frazioni di massa dell'idrogeno e dell'elio sono circa il 74% e 23-25% rispettivamente, mentre la frazione per moli (atomiche) di questi elementi è circa il 92% e l'8%. Siccome nell'atmosfera di Giove l'idrogeno è diatomico al contrario dell'elio (gas nobile) le frazioni molari sono circa l'86% e il 14%.
+
+Storia
+
+Abbondanza degli elementi nell'universo
+
+Gli elementi – (barionici) formati da protone, neutrone e elettrone – sono solo una piccola parte delle componenti dell'universo. Le osservazioni cosmologiche suggeriscono che circa il 73% dell'universo sia costituito da energia oscura, il 23% da materia oscura e solo il 4% da materia barionica che costituisce le stelle, i pianeti ecc. La materia oscura non è stata ancora decifrata da un rilevatore di particelle fisiche e la natura della materia oscura non è stata ancora compresa.
+
+La maggior parte della materia barionica si trova sotto forma di atomi, anche se ci sono altre rare forme di materia, prevalentemente plasma. Altre forme di materia barionica includono la nana bianca, la stella di neutroni ed il buco nero. La materia standard esiste anche sotto forma di fotoni (soprattutto nella radioattività cosmica di fondo) e dei neutroni.
+
+L'idrogeno è l'elemento conosciuto più abbondante dell'universo; l'elio è il secondo. Tuttavia, dopo questi, la graduatoria dell'abbondanza non continua a corrispondere al numero atomico; l'ossigeno, ad esempio, occupa la terza posizione, pur avendo numero atomico 8. Tutti gli altri elementi hanno abbondanza minore in ordine di grandezza. L'abbondanza degli elementi più leggeri è prevista con accuratezza dal modello cosmologico standard, dal momento che sono stati prodotti per lo più poco dopo il Big Bang, in un processo noto come nucleosintesi primordiale. Elementi più pesanti sono stati prodotti in seguito all'interno delle stelle.
+
+L'3He è raro sulla terra ma ricercato per studi sulla fusione nucleare; una quantità maggiore di 3He è presente sulla Luna. Un'ulteriore quantità di elio viene prodotta per fusione nucleare dell'idrogeno nei nuclei delle stelle in diversi processi, fra i quali la catena protone-protone ed il ciclo CNO.
+
+Si stima che idrogeno ed elio rappresentino rispettivamente circa il 74% e 24% della materia barionica nell'universo. Nonostante rappresentino solamente una piccola frazione dell'universo, i rimanenti "elementi pesanti" possono notevolmente influenzare i fenomeni astronomici. Solamente il 2% circa del disco della Via Lattea è composta da elementi pesanti.
+
+Anche questi elementi vengono generati da processi all'interno delle stelle; in astronomia qualsiasi elemento che non sia idrogeno o elio è un "metallo". Questa distinzione è significativa perché solamente idrogeno ed elio (con piccole tracce di litio) si trovano naturalmente senza l'intervento di fusione nucleare all'interno delle stelle; dunque la metallicità di una galassia o di un altro oggetto è indice di un'attività stellare precedente.
+
+Questi sono i dieci elementi più comuni nella Via Lattea misurati in parti per milione e ordinati secondo la massa.
+
+Abbondanza degli elementi sulla Terra
+La terra si è formata dalla stessa nuvola di materia dalla quale si è formato il Sole, ma i pianeti hanno acquisito differenti composizioni durante la formazione e l'evoluzione del sistema solare; la storia della Terra ha portato il pianeta ad avere differenti concentrazioni degli elementi.
+
+Crosta terrestre
+(vedere l'articolo principale Abbondanza di elementi nella crosta terrestre)
+
+Gli elementi che costituiscono la crosta terrestre vengono classificati (con elementi appartenenti a più di una categoria):
+elementi che formano le rocce
+terre rare (lantanidi lantanio-lutezio, e ittrio)
+metalli di interesse industriale (produzione globale >~3×107 kg/anno)
+i nove "metalli" più rari ; i sei elementi del gruppo del platino più oro, renio e tellurio (un metalloide).
+
+Ci sono salti nella percentuale di diffusione degli elementi chimici in prossimità di elementi instabili quali il tecnezio (numero atomico: 43) ed il promezio (numero atomico: 61). Sono molto rari sulla terra, essendo prodotti solo tramite fissione nucleare di atomi più pesanti quali uranio e torio. Tramite spettroscopia sono stati ritrovati entrambi nell'atmosfera di alcune stelle, dove vengono prodotti tramite processi di nucleosintesi. Non compaiono nemmeno i gas nobili, dal momento che la loro presenza è dovuta al decadimento di elementi radioattivi; i sei elementi più rari, altamente radioattivi (polonio, astato, francio, radio, attinio e protoattinio) non sono stati misurati accuratamente data la loro presenza percentuale troppo piccola.
+
+Ossigeno, silicio e alluminio sono i tre elementi più comuni nella crosta terrestre, e formano numerosi minerali silicati.
+
+Diffusione delle terre rare
+La definizione "terre rare" è fuorviante: le terre rare più diffuse sono presenti in percentuali paragonabili ad elementi sfruttati a livello industriale come cromo, nichel, rame, zinco, molibdeno, tungsteno, stagno o piombo. Anche le terre rare meno frequenti (tulio e lutezio) sono presenti in quantità duecento volte superiori all'oro. Tuttavia le terre rare non tendono, diversamente dai metalli più o meno preziosi, a depositarsi in concentrazioni utili per essere sfruttati. Di conseguenza, la maggior parte delle riserve mondiali di terre rare provengono da pochi giacimenti.
+
+Le differenze nell'abbondanza relativa delle terre rare nella crosta terrestre superiore è causata dalla sovrapposizione di due effetti, uno nucleare ed uno geofisico.
+
+L'effetto nucleare mostra come le terre rare con numero atomico pari (58Ce, 60Nd, ...) hanno abbondanza cosmica e terrestre maggiore delle terre rare adiacenti con numeri atomici dispari (57La, 59Pr, ...). In secondo luogo, le terre rare più leggere, avendo raggio ionico maggiore, sono più fortemente concentrati nella crosta continentale rispetto alle terre rare più pesanti. Nella maggior parte dei depositi di terre rare, i primi quattro elementi - La, Ce, Pr, e Nd - costituiscono dall'80 al 99% del totale.
+
+Oceano
+
+Si veda anche acqua marina per l'abbondanza degli elementi negli oceani, ma si consideri che questa lista è per massa – una lista per molarità (frazione molare) apparirebbe diversa per i primi quattro elementi: l'idrogeno rappresenterebbe i due terzi del numero totale di atomi perché l'idrogeno è presente con due atomi in ogni molecola d'acqua.
+
+Atmosfera
+L'ordine degli elementi per frazione di volume (che è anche approssimativamente la frazione molare) nell'atmosfera terrestre è azoto (78.1%), ossigeno (20.9%), argon (0.96%), seguiti da carbonio ed idrogeno in quantità variabili. Questi ultimi sono in massima parte contenuti rispettivamente nel vapore acqueo e nell'anidride carbonica. Zolfo, fosforo e tutti gli altri elementi sono presenti in proporzioni decisamente inferiori.
+
+L'argon, pur presente in quantità rilevante nell'atmosfera, non compare nella crosta terrestre essendo un gas nobile.
+
+Corpo umano
+Le cellule sono composte per il 65-90% del loro peso da acqua (H2O); un'altra parte significativa del peso è dato da molecole organiche contenenti carbonio. L'ossigeno contribuisce così per la maggior parte alla composizione delle cellule umane, seguito dal carbonio. Il 99% della massa corporea umana è costituita da sei elementi: ossigeno, carbonio, idrogeno, azoto, calcio e fosforo.

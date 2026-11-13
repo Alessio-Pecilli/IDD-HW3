@@ -1,0 +1,99 @@
+Con il termine spamdexing si definiscono azioni il cui fine è l'acquisizione di visibilità nei motori di ricerca utilizzando metodologie e/o tecniche ritenute illecite o comunque apertamente in contrasto con i termini d'uso dei motori di ricerca.
+
+Esempi di spamdexing sono l'uso di testo nascosto, lo sviluppo di pagine web il cui unico obiettivo è l'acquisizione di visibilità (dette doorway pages), e comunque lo sviluppo di contenuti che non sono destinati agli utenti ma solo ai motori di ricerca: in pratica se una pagina non è presentabile ad un utente, è da ritenersi spam e quindi un'azione di spamdexing che può portare all'estromissione dagli indici dei motori di ricerca.
+
+Le tecniche comuni di spamdexing possono essere classificate in due grandi classi: content spam (o term spam) e link spam.
+
+Content spam
+
+Keyword stuffing e meta tag stuffing
+
+Si tratta di una tecnica che prevede la scrittura della pagina web pregna di parole chiave per altri ambiti, non correlati al tema stesso della pagina (per esempio, con meta tag a sfondo sessuale) e contenuti nascosti sempre non attinenti al tema della pagina web che, ricevendo molte visite anche grazie all'indicizzazione su diversi temi nei motori di ricerca, scala molte posizioni nelle SERP.
+
+Contenuti nascosti o invisibili
+Contenuti inseriti fuori dalla visuale della pagina oppure sotto altri contenuti attraverso il codice CSS.
+
+Metodi penalizzati da Google:
+
+Modifica del colore del carattere del testo in modo simile al colore di sfondo della pagina.
+Aggiunta del testo dietro le immagini o altri file multimediali.
+Individuazione del testo al di fuori della schermata utente utilizzando z-index, classe di posizione assoluta o proprietà margin.
+Utilizzo di CSS (Cascading Style Sheets) per nascondere la visibilità del testo.
+Modifica la dimensione del carattere del testo a zero.
+Nascondere il testo all'interno del linguaggio di scripting lato server (come PHP, ASP.NET, JSP, Perl, Node.JS).
+Alterando l'opacità del testo e portando il livello di trasparenza a zero (%).
+
+Pagine doorway o gateway
+Non hanno un vero contenuto, ma sono create per essere indicizzate dai motori e “spingere” altre pagine interne del sito stesso o di un altro sito.
+
+Web scraping
+
+Il web scraping è una tecnica che permette l'estrazione di informazioni dai siti web; spesso include la trasformazione di dati non strutturati di pagine web in database per l'analisi o il riutilizzo del contenuto.
+
+Article spinning
+Larticle spinning comporta la riscrittura di articoli esistenti, anziché la semplice rimozione di contenuti da altri siti, per evitare sanzioni imposte dai motori di ricerca per contenuti duplicati. Questo processo viene intrapreso da scrittori assunti o in modo automatizzato utilizzando un database di thesaurus.
+
+Traduzione automatica
+
+Analogamente allarticle spinning, alcuni siti utilizzano la traduzione automatica per pubblicare i loro contenuti in diverse lingue, senza modifiche umane, creando testi incomprensibili che tuttavia continuano ad essere indicizzati dai motori di ricerca, attirando così traffico.
+
+Link spam
+
+Link farms
+Le link farm sono reti fitte di siti Web che si collegano tra loro al solo scopo di giocare con gli algoritmi di ranking dei motori di ricerca. Queste sono anche note scherzosamente come società di mutua ammirazione. L'utilizzo di link farm è stato notevolmente ridotto dopo che Google ha lanciato il primo Panda Update nel febbraio 2011, che ha introdotto miglioramenti significativi nel suo algoritmo di rilevamento dello spam.
+
+Reti di blog private
+Le reti di blog (PBN) sono un gruppo di siti Web autorevoli utilizzati come fonte di collegamenti contestuali che puntano al sito Web principale del proprietario per ottenere un posizionamento sui motori di ricerca più elevato. I proprietari di siti Web PBN utilizzano domini scaduti o domini di aste con backlink da siti Web di alta autorità. Google ha preso di mira e penalizzato gli utenti PBN in diverse occasioni con diverse massicce campagne di de-indicizzazione dal 2014.
+
+Attacco di Sybil
+Lattacco di Sybil è un attacco informatico dove i sistemi di reputazione sono sovvertiti falsificando le identità di una persona in una rete p2p.
+
+Blog di tipo spam
+I blog di tipo spam sono blog creati esclusivamente per la promozione commerciale e il passaggio dell'autorità di collegamento ai siti di destinazione. Spesso questi "splog" sono progettati in modo fuorviante che darà l'effetto di un sito Web legittimo, ma un'attenta ispezione rivela che spesso è scritto utilizzando software automatico o avrà un contenuto scritto in modo molto scadente e appena leggibile.
+
+Invece lo "spam nei blog" è l'inserimento o la richiesta di collegamenti in modo casuale su altri siti, inserendo una parola chiave desiderata nel testo del collegamento ipertestuale del collegamento in entrata. I guest book, i forum, i blog e qualsiasi sito che accetti i commenti dei visitatori sono gli obiettivi di questo metodo e sono spesso vittime di spamming drive-by in cui il software automatizzato crea post senza senso con collegamenti che di solito sono irrilevanti e indesiderati.
+
+Guest blog spam
+Il processo di inserimento dei guest post sui blog al solo scopo di ottenere un collegamento a un altro sito Web. Sfortunatamente questi vengono spesso confusi con forme legittime di guest blogging. Questa tecnica è stata resa famosa da Matt Cutts, che ha pubblicamente dichiarato "guerra" a questa forma di link spam.
+
+Acquisto di domini scaduti
+Alcuni spammer di link utilizzano software crawler di domini scaduti o monitorano i record DNS per i domini che scadranno a breve, quindi li acquistano quando scadono e sostituiscono le pagine con link alle loro pagine. Tuttavia, è possibile, ma non confermato, che Google reimposti i dati del collegamento sui domini scaduti.
+
+Cookie stuffing
+Il cookie stuffing implica l'inserimento di un cookie di tracciamento affiliato sul computer di un visitatore del sito web a sua insaputa, che genererà quindi entrate per la persona che esegue il cookie stuffing. Questo non solo genera vendite fraudolente di affiliazione, ma ha anche il potenziale per sovrascrivere i cookie di altri affiliati, essenzialmente rubando le loro commissioni legittimamente guadagnate.
+
+Utilizzo di pagine scrivibili in tutto il mondo
+I siti Web che possono essere modificati dagli utenti possono essere utilizzati dagli spamdexer per inserire collegamenti a siti di spam se non vengono prese le misure anti-spam appropriate.
+
+Gli spambot automatici possono rendere rapidamente inutilizzabile la parte modificabile dall'utente di un sito. I programmatori hanno sviluppato una serie di tecniche automatiche di prevenzione dello spam per bloccare o almeno rallentare gli spambot.
+
+Comment spam
+Lo spam nei commenti è una forma di link spam che si è verificato nelle pagine Web che consentono la modifica dinamica degli utenti come wiki, blog e guestbook. Può essere problematico perché è possibile scrivere agenti che selezionano automaticamente in modo casuale una pagina Web modificata dall'utente, ad esempio un articolo di Wikipedia, e aggiungono collegamenti di spamming.
+
+Wiki spam
+Lo spam Wiki è una forma di link spam nelle pagine wiki. Lo spammer utilizza la modificabilità aperta dei sistemi wiki per inserire collegamenti dal sito wiki al sito di spam.
+
+Referrer log spamming
+Si verifica quando un autore di spam o un "facilitatore" accede a una pagina web (larbitro o referee), seguendo un collegamento da un'altra pagina web (il referer), in modo che l'arbitro riceva l'indirizzo del referrer dal browser Internet della persona.
+
+Altri tipi
+
+Siti web speculari (mirror)
+Un sito mirror è l'hosting di più siti Web con contenuti concettualmente simili ma che utilizzano URL diversi. Alcuni motori di ricerca assegnano un posizionamento più elevato ai risultati in cui la parola chiave cercata appare nell'URL.
+
+Reindirizzamento dell'URL
+Il reindirizzamento dell'URL (URL redirect) è il reindirizzamento dell'utente a un'altra pagina senza il suo intervento, ad esempio utilizzando tag di aggiornamento META, Adobe Flash (obsoleto dal 31 dicembre 2020), JavaScript, Java o reindirizzamenti lato server. Tuttavia, il reindirizzamento 301, o reindirizzamento permanente, non è considerato un comportamento dannoso.
+
+Cloaking
+Il cloaking è una tecnica informatica mediante la quale, grazie a particolari script, è possibile mostrare ai motori di ricerca un contenuto differente da quello che realmente il sito internet propone agli utenti, consentendo così al sito stesso di ottenere migliori posizionamenti all'interno delle SERP.
+
+Contromisure
+
+Dal manutentore del motore di ricerca
+Le pagine con spamdexing vengono talvolta eliminate dai risultati del motore di ricerca.
+
+Dall'utente del motore di ricerca
+Gli utenti possono utilizzare operatori di ricerca per il filtraggio. Per Google una parola chiave preceduta da "-" (meno) ometterà i siti che contengono la parola chiave nelle loro pagine o nell'URL delle pagine dai risultati di ricerca. Ad esempio, la ricerca "" eliminerà i siti che contengono la parola "" nelle loro pagine e le pagine il cui URL contiene "".
+
+Estensione di Google Chrome
+La stessa Google ha lanciato l'estensione di Google Chrome "Personal Blocklist (by Google)" nel 2011 come parte delle contromisure contro l'agricoltura dei contenuti. A partire dal 2018, l'estensione funziona solo con la versione PC di Google Chrome.

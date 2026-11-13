@@ -1,0 +1,12 @@
+In business intelligence, nell'ambito del data warehouse, un data mart è un raccoglitore di dati, specializzato in un particolare soggetto, che contiene un'immagine dei dati stessi, permettendo di formulare strategie sulla base dell'analisi degli andamenti passati.
+
+Caratteristiche
+
+Normalmente si colloca a valle di un data warehouse più globale venendo alimentato a partire da esso, di cui costituisce, in pratica, un estratto: detto in termini più tecnici, un data mart è dunque un sottoinsieme logico o fisico di un data warehouse di maggiori dimensioni.
+
+La differenza fondamentale consiste nel fatto che la creazione del data warehouse avviene in maniera generalizzata a partire da database operazionali aziendali per poi venire incontro a specifiche esigenze, mentre il data mart viene generalmente creato per venire incontro ad un'esigenza specifica e già determinata.
+
+La necessità di creare un sistema separato per il data mart rispetto al data warehouse può riassumersi nelle seguenti motivazioni:
+la necessità di utilizzare un diverso schema;
+migliorare le performance separando l'hardware dedicato;
+garantire una maggiore sicurezza dovendo autorizzare l'accesso ad un insieme minore di dati.

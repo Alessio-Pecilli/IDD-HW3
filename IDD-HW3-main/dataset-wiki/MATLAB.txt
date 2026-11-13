@@ -1,0 +1,361 @@
+MATLAB (abbreviazione di Matrix Laboratory) è un ambiente per il calcolo numerico e l'analisi statistica scritto in C, che comprende anche l'omonimo linguaggio di programmazione creato dalla MathWorks. MATLAB consente di manipolare matrici, visualizzare funzioni e dati, implementare algoritmi, creare interfacce utente e interfacciarsi con altri programmi.
+Nonostante sia specializzato nel calcolo numerico, uno strumentario opzionale interfaccia MATLAB con il motore di calcolo simbolico di Maple.
+
+MATLAB è usato da milioni di persone nell'industria e nelle università per via dei suoi numerosi strumenti a supporto dei più disparati campi di studio applicati e funziona su diversi sistemi operativi, tra cui Windows, Mac OS, GNU/Linux e Unix.
+
+Storia
+
+Abbreviazione di "MATH LABoratory", MATLAB fu creato alla fine degli anni settanta da Cleve Moler, presidente del dipartimento di scienze informatiche dell'Università del Nuovo Messico. Creò MATLAB per dare ai propri studenti accesso a LINPACK e a EISPACK senza che dovessero necessariamente conoscere Fortran. Presto il software si diffuse nelle altre università e trovò un grande pubblico tra la comunità dei matematici applicati. L'ingegnere Jack Little conobbe il programma durante una visita a Moler all'Università di Stanford nel 1983. Riconoscendo il suo potenziale commerciale si unì con Moler e Steve Bangert: assieme riscrissero MATLAB in linguaggio C e fondarono The MathWorks nel 1984 per continuarne lo sviluppo.
+
+Nel 2020, a seguito delle sanzioni degli Stati Uniti d'America nei confronti della Cina, MATLAB è stato ritirato da due università cinesi, che hanno risposto promuovendo alternative open source e sviluppandone altre in casa.
+
+Interfaccia
+L'interfaccia principale di MATLAB è composta da diverse finestre che è possibile affiancare, spostare, ridurre a icona, ridimensionare e così via. Le finestre principali, più usate, sono quattro:
+
+Command window
+Workspace
+Current directory
+Command history
+
+Prompt dei comandi (command window)
+La command window è una finestra dell'interfaccia principale di MATLAB, nella quale è possibile digitare comandi supportati e visualizzare a schermo in tempo reale i risultati. Ad esempio è possibile utilizzare MATLAB come una potente calcolatrice:
+2+3
+ans=5
+La variabile ans è una variabile standard. In essa viene caricato l'ultimo risultato generato.
+Con il comando quit, si esce dal programma:
+quit
+È presente anche un help off-line sintetico richiamabile tramite il comando:
+help
+Dove indica l'istruzione sulla quale si necessita di aiuto.
+Esempio
+help sqrt
+help det
+Le operazioni standard sono:
++ (somma)
+- (sottrazione)
+(moltiplicazione)
+/ (divisione)
+^ (elevamento a potenza)
+Se si scrivono più comandi su una stessa linea, è necessario separarli con una virgola ‘,' . Se un comando è terminato con un punto e virgola (;), i risultati ottenuti non verranno visualizzati immediatamente in Command Window, ma verranno solo salvati in workspace (cfr paragrafo successivo).
+Con la freccia in su, tasto ↑, si visualizzano i comandi eseguiti precedentemente ed è possibile eseguirli di nuovo. Si possono utilizzare le parentesi () per modificare la priorità tra le varie operazioni.
+
+Workspace
+Lo workspace è lo spazio di lavoro (o spazio di memoria) contenente le variabili dichiarate. Per visualizzare tutte le variabili utilizzate si utilizza il comando who, mentre con il comando whos si visualizzano tutte le variabili utilizzate, ma in forma estesa, cioè ci viene data la loro descrizione con nome, dimensione, memoria occupata, classe e attributi.
+
+La finestra workspace elenca tutte le variabili allocate in workspace in questo momento, e dà la possibilità di allocare nuove variabili o di importare dall'esterno un elenco di variabili (ad esempio da un file di testo). È inoltre possibile stampare l'elenco delle variabili attuali od eliminarne una direttamente dalla finestra (senza scrivere nessun comando).
+
+Per visualizzare nella command window il valore di una variabile memorizzata nello workspace è sufficiente scrivere il nome della variabile stessa.
+
+Current directory
+La finestra current directory permette, come si può intuire, di esplorare il contenuto delle cartelle sul proprio supporto di memoria. Da questa finestra è possibile aprire direttamente file compatibili con MATLAB con un semplice doppio click. Inoltre è possibile esplorare cartelle utilizzando, nella command window, comandi tipici dei moderni sistemi operativi basati su tecnologia UNIX (come Linux e macOS) come "cd nomecartella", "cd. .", "cd /indirizzocartella", e così via.
+
+Command history
+Nella finestra Command History sono elencati tutti i comandi digitati di recente, divisi per ora e data. È possibile rilanciare direttamente dalla command history un comando digitato nella command window in precedenza semplicemente con un doppio click.
+
+Programmare in MATLAB
+Variabili
+Variabili predefinite
+In MATLAB ci sono delle variabili il cui valore è predefinito (ma può comunque essere modificato dall'utente). Esse sono:
+i, j: unità immaginaria in un numero complesso
+pi: approssimazione di pi greco, π
+eps: precisione di macchina del computer che si sta utilizzando
+realmax: è il massimo numero reale positivo rappresentabile
+realmin: è il minimo numero reale positivo rappresentabile
+inf: è un numero maggiore di realmax, ∞, infinito
+-inf: è un numero minore di realmin, -∞, meno infinito
+version: il numero della versione di MATLAB utilizzata
+computer: una sigla che indica il tipo di computer utilizzato. Esempio: PCWIN
+ans: ultimo risultato dell'ultima operazione eseguita
+NaN: "Not a number" , indica il risultato di una forma matematica indeterminata o non definita (es. ∞/∞ oppure 0/0)
+
+Dichiarazione variabili
+Contrariamente a numerosi altri linguaggi, che, all'atto della dichiarazione di una variabile, necessitano di un'indicazione esplicita del "tipo" di cui essa deve essere, per dichiarare una variabile in MATLAB è sufficiente scrivere il nome della variabile seguito dall'operatore "=" e dal valore numerico o alfabetico che si vuole assegnare alla variabile. Nel caso in cui si tratti di testo è necessario inserirlo tra gli apici:
+var1=1
+var2='abc'
+Se non si vuole visualizzare il valore della variabile appena dopo averla dichiarata (come normalmente avviene) si deve terminare l'assegnamento con un punto e virgola:
+var3=1234;
+var4='abcdef';
+Quando si assegna una variabile numerica, sia essa una costante, un vettore, o una matrice, MATLAB la interpreta sempre e comunque come una matrice; ad esempio una costante è una matrice 1x1, un vettore è una matrice 1xl, cioè una riga di l elementi.
+
+È importante notare che MATLAB è case sensitive, per esempio:
+v=1
+V=1
+risultano due variabili distinte.
+
+Per definire un numero complesso, esso va dichiarato scrivendolo in forma algebrica:
+c=4+9*i
+Per resettare, cancellare, il contenuto di una variabile si utilizza il comando
+clear (nome_variabile)
+per le variabili predefinite questo comando ripristina il valore di default, altrimenti se sono altre variabili esse vengono eliminate dalla workspace. Omettendo il nome dalla variabile,
+clear
+viene effettuata la pulizia di tutta la workspace.
+
+N.B.: di default le variabili numeriche dichiarate sono tutte di tipo double (floating point in doppia precisione).
+
+Vettori (con calcolo vettoriale delle grandezze fisiche e matematica delle matrici)
+
+Definizione vettori
+I vettori possono essere di due tipi:
+Vettori riga
+Vettori colonna
+Il vettore riga è una matrice del tipo (1xn), dove n .
+Esempio:
+vr=[2 8 10 7]
+Il vettore colonna invece è una matrice del tipo (mx1), dove&nbsp;m .
+Esempio:
+vc=[3; 1; 6; 8]
+Spesso è utile definire i vettori con intervalli, ad esempio un vettore che contiene i primi dieci numeri interi.
+In generale:
+v=[inizio:incremento:fine]|[inizio:fine]
+Esempi:
+v1=[1:10]
+v2=[-1:0.2:1]
+che generano:
+v1=[1 2 3 4 5 6 7 8 9 10]
+v2=[-1 -0.8 -0.6 -0.4 -0.2 0 0.2 0.4 0.6 0.8 1]
+Se non si scrive l'incremento, per default esso viene posto uguale a 1.
+
+Bisogna stare attenti a non assegnare all'incremento e alla destinazione numeri relativi discordi, fatto che produrrà il seguente risultato in fase di esecuzione:
+vet=10:1:-10
+
+vet =
+
+Empty matrix: 1-by-0
+
+Indicizzazione di vettori
+Per selezionare un elemento del vettore, sia riga sia colonna, si utilizza la seguente istruzione:
+v(posizione_indice)
+v(k), dove k , seleziona l'elemento in posizione k-esima
+Importante: a differenza di quanto avviene in molti altri linguaggi, gli indici di vettori e matrici si contano a partire da 1.
+Esempio di indicizzazione:
+v=[7 3 0 5 2 6]
+k=1
+v(k)=7
+
+Matrici
+Definizione matrici
+Per creare una matrice si procede in modo simile alle variabili per quanto riguarda l'assegnamento, racchiudendo la matrice tra parentesi quadre, separando gli elementi di una stessa riga con una virgola e le righe con un punto e virgola.
+M1=[1 2 3 4;5 6 7 8;9 10 11 12]
+M2=[13,14,15;16,17,18]
+M3=['a',19,'b';20,'c',21]
+
+In alternativa a virgole e punti e virgole si possono usare, rispettivamente, spazi e a-capo. In questo modo la rappresentazione di una matrice assomiglia a quella tradizionale dell'algebra:
+M4=[ 1 2 3
+4 5 6
+7 8 9 ];
+Nel creare una matrice si possono anche utilizzare variabili dichiarate in precedenza
+M4=[var1 var2;var3 var4]
+ed è inoltre possibile definire le matrici per parti, ad esempio in una matrice M 3 x 3, i comandi
+M(1,1:3)=[a1 b1 c1];
+M(2,1:3)=[a2 b2 c2];
+M(3,1:3)=[a3 b3 c3];
+consentono di assegnare alla prima riga i valori, precedentemente definiti, a1, b1 e c1, alla seconda a2, b2 e c2 e così via.
+
+Un altro modo per una dichiarazione veloce di matrici è l'uso dell'operatore di sequenza:
+Sintassi: M= inizio:incremento:fine | inizio:fine
+anche in questo caso, se si omette l'incremento, per default è 1. Esempio:
+M=[1:2:7;4:2:10;7:2:13]
+
+M= 1 3 5 7
+4 6 8 10
+7 9 11 13
+
+Indicizzazione di matrici
+Per selezionare un elemento di una matrice, utilizziamo la seguente istruzione:
+M(indice_riga, indice_colonna)
+M(l,k) dove l,k selezionano l'elemento che si trova in riga l-esima e colonna k-esima
+È possibile estrarre anche intere colonne o righe. Supponiamo di avere una matrice M con m x n elementi, in generale:
+M(l,:) , estrae l'intera riga l-esima in un vettore riga con m elementi
+M(:,k) , estrae l'intera colonna k-esima in un vettore colonna con n elementi
+M(:) , estrae l'intera matrice
+Per eliminare la colonna di una matrice M:
+M(:,k)=[] ,elimina la colonna k-esima, la matrice M diventa nx(m-1)
+
+Operazioni con le matrici
+Si elenca ora una serie di operazioni molto utili per lavorare con le matrici in ambiente MATLAB.
+
+Sia A una generica matrice m x n, con il comando
+size(A)
+si ottiene un vettore composto dal numero di righe e dal numero di colonne della matrice A (questo è estendibile anche a matrici con più di due dimensioni).
+
+Con l'operatore ' (apostrofo), si ottiene la matrice trasposta di A:
+A'
+questo comando è utile per trasformare un vettore riga in un vettore colonna e viceversa.
+
+Con il comando
+sum(A)
+si ottiene un vettore riga composto dalla somma di ogni colonna di A.
+
+Con il comando
+det(A)
+si ottiene il determinante della matrice A.
+
+Con il comando
+poly(A)
+si ottiene un vettore contenente i coefficienti del polinomio caratteristico di A.
+
+Se A è una matrice quadrata, con il comando:
+eig(A)
+si ottiene un vettore colonna composto dagli autovalori di A.
+
+Con il comando:
+diag(A)
+si ottiene un vettore colonna composto da tutti gli elementi della diagonale principale di A. Se A fosse un vettore, si otterrebbe invece una matrice diagonale con gli elementi di tale vettore.
+
+Con il comando
+trace(A)
+si ottiene la traccia di A, cioè la somma degli elementi della diagonale principale.
+
+Con il comando
+fliplr(A)
+si ottiene una nuova matrice, ma con l'ordine delle colonne invertito.
+
+Con il comando
+inv(A)
+si ottiene la matrice inversa di A.
+
+Realizzazione di grafici 2D
+Uno strumento molto potente che l'ambiente MATLAB offre per rappresentare dati numerici è la possibilità di realizzare il grafico di una funzione. In particolare, dati due vettori x e y con uguale numero di elementi, è possibile tracciare il grafico di y in funzione di x con il comando
+plot(x,y)
+Si fa notare che il comando plot non solo disegna y in funzione di x ma crea automaticamente anche un'interpolazione lineare dei valori assunti dalla funzione (dato che nessuna funzione memorizzata in un calcolatore è continua).
+
+È possibile includere opzioni aggiuntive come il colore o il tipo di linea seguendo la seguente sintassi:
+plot(x,y,'marcatore stile colore')
+dove il marcatore indica in che modo i punti dei due vettori saranno rappresentati (ad esempio: +, *, o, x), lo stile è lo stile della linea (è possibile scegliere tra linea continua, tratteggiata, tratto punto e altri ancora: -, - -, :, -.) che unirà i punti e il colore è quello del grafico, contrassegnato con l'iniziale in inglese del colore scelto (ad esempio per avere un grafico verde si dovrà digitare g, iniziale di green). È da notare che se si assegna un marcatore al comando plot, questo non effettuerà più l'interpolazione lineare automatica tra i punti della funzione, ma si limiterà a rappresentare i singoli punti.
+
+Allo stesso modo, con il comando plot, è possibile disegnare una matrice quadrata:
+plot(A)
+Per disegnare grafici multipli nello stesso quadro è possibile seguire la seguente sintassi:
+plot(x1,y1,'msc',x2,y2,'msc',...)
+dove y1=f(x1), y2=f(x2), e così via, rappresentano le funzioni da rappresentare, oppure utilizzare il comando
+hold on
+che fa sì che, se c'è un grafico attivo, questo non venga chiuso e il successivo plot vi si sovrapponga.
+
+Con il comando:
+title('testo')
+è possibile assegnare un titolo al grafico, mentre con i comandi
+xlabel('testo')
+ylabel('testo')
+è possibile invece assegnare un nome ai valori dell'asse delle ascisse e delle ordinate.
+
+Il comando
+grid
+aggiunge una griglia al grafico corrente.
+
+È possibile in modo molto semplice disegnare diversi grafici nella stessa finestra. Per fare ciò si usa il comando
+subplot(m,n,p)
+Con tale comando si disegnano in una finestra m x n grafici. Il comando subplot va inserito subito prima del comando plot, e la variabile p rappresenta il numero del grafico da disegnare, contando lungo le righe da sinistra a destra. Ad esempio se si sta lavorando su una finestra con 3 righe e 4 colonne di grafici e si vuole disegnare il secondo grafico della seconda riga, si scrive:
+subplot(3,4,6)
+
+Con il comando
+axis([xi xf yi yf])
+è possibile impostare la porzione di grafico da visualizzare, indicando con xi l'ascissa iniziale, xf l'ascissa finale, yi l'ordinata iniziale e yf l'ordinata finale. Si fa notare che vanno inseriti fra parentesi quadre perché la funzione axis richiede un vettore in ingresso, quindi è possibile dichiarare all'esterno tale vettore e fornirlo come argomento:
+axis(V)
+
+Analisi e simulazione di sistemi dinamici con MATLAB
+MATLAB è un potentissimo strumento per l'analisi numerica di sistemi dinamici, anche con molti ingressi e uscite. MATLAB permette di dichiarare facilmente degli oggetti sistema, grazie ad alcuni comandi che si possono utilizzare installando un apposito componente aggiuntivo, il Control System Toolbox. Dato un sistema dinamico è possibile quindi dichiararlo come sistema in forma esplicita (comando ss, cioè state-space)
+sys=ss(A,B,C,D,t0)
+dove A, B, C, D sono le matrici dei coefficienti, mentre t0 è il periodo di campionamento se si considera un sistema a tempo discreto, mentre se t0 viene omesso si dichiara un sistema a tempo continuo.
+
+Il sistema può essere dichiarato anche in forma zeri-poli-guadagno (comando zpk, zero-pole-gain)
+sys=zpk([z1 z2 ··· zm],[p1 p2 ··· pn],K)
+È da notare che K non è il guadagno statico del sistema, ma è semplicemente la costante fuori dalla funzione di trasferimento quando è nella forma K*Π(s-z_i)/Π(s-p_i).
+
+Per definire una funzione di trasferimento si impiega il comando tf:
+sys=tf(NUM,DEN)
+dove num e den sono vettori riga contenenti i coefficienti dei polinomi al numeratore e al denominatore della funzione di trasferimento desiderata, ordinati dal grado maggiore a quello minore. Ad esempio per indicare il polinomio s^3 - 4s^2 + 0.23s - 1.9 si deve inserire il vettore riga:
+[1 -4 +.23 -1.9]
+
+Con il comando
+lsim(sys,u,t,x0)
+si ottiene l'andamento del sistema sys forzato dall'ingresso u durante il tempo t con stato iniziale x0. u deve essere, in pratica, un segnale campionato in tutti gli istanti contenuti nel vettore t. È evidente quindi che u e t devono avere la stessa dimensione, cioè lo stesso numero di elementi.
+
+Un semplice esempio di simulazione
+
+si vuole calcolare la risposta a un gradino unitario del seguente sistema:
+
+con condizioni iniziali nulle.
+
+In realtà esiste un comando specifico per calcolare la risposta al gradino, come mostreremo in seguito, ma ci serviamo di questo semplice caso per mostrare l'utilizzo di lsim. Cominciamo subito definendo il sistema con il comando ss:
+sys=ss([-1 pi;-pi -1],[0;1],[pi 1],0)
+ci verrà restituito il seguente testo:
+a =
+x1 x2
+x1 -1 3.142
+x2 -3.142 -1
+
+b =
+u1
+x1 0
+x2 1
+
+c =
+x1 x2
+y1 3.142 1
+
+d =
+u1
+y1 0
+
+Continuous-time model.
+e nella workspace vedremo apparire il nostro oggetto sys. Supponiamo di voler calcolare l'andamento del sistema da quando parte, con condizioni iniziali nulle, fino a che non si esaurisce completamente il transitorio. Per questo semplice sistema si ricava facilmente che ciò avviene a circa 5-6 secondi. Quindi possiamo passare a definire il tempo di esecuzione:
+t=0:.01:7;
+a questo punto possiamo definire il nostro segnale d'ingresso (il gradino), in questo modo:
+u=1
+for i=.01:.01:7 u=[u 1]; end
+in parole semplici, si è impostato un ciclo for di durata pari alla dimensione di t, aggiungendo a ogni ciclo un 1 in coda a u, ottenendo così un vettore u composto da tutti 1 delle stesse dimensioni di t. Abbiamo ora tutti gli elementi per far partire la simulazione:
+lsim(sys,u,t,[0 0]')
+
+lo stesso risultato si poteva ottenere con il comando step, che traccia direttamente il grafico della risposta al segnale di ingresso a scalino:
+step(sys)
+il tempo in questo caso è calcolato automaticamente, ma può anche essere specificato:
+step(sys,tfinal);
+
+Esempio di linguaggio MATLAB
+Questo codice, preso dalla function magic.m, crea un quadrato magico M per valori dispari di n.
+
+[J,I] = meshgrid(1:n);
+A = mod(I+J-(n+3)/2,n);
+B = mod(I+2*J-2,n);
+M = n*A + B + 1;
+
+ad esempio, per n=3 si ottiene:
+
+M =
+8 1 6
+3 5 7
+4 9 2
+
+Alternative
+Sono disponibili diverse alternative a MATLAB, tra cui:
+
+Maple
+Interactive Data Language
+Mathematica
+
+Ce ne sono anche di disponibili come open source o software libero:
+
+GNU Octave
+Scilab
+FreeMat
+Julia
+Sage
+
+Sono relativamente compatibili con il linguaggio MATLAB. Tra queste, GNU Octave è unico perché vuole essere un drop-in compatibile con MATLAB a livello di sintassi.
+
+Tra gli altri linguaggi che trattano gli array come tipi di dato basilari sono presenti:
+
+APL
+Fortran (dal 90 in poi)
+S-Lang, insieme ai linguaggi statistici R e S
+
+Esistono anche alcune librerie che aggiungono funzionalità simili ai linguaggi esistenti, come:
+
+ILNumerics per .NET
+IT++ per C++
+Numeric.js per JavaScript
+SciLua e Torch per Lua
+
+Perl Data Language per Perl
+NumPy, SciPy e Matplotlib per Python
+SciRuby per Ruby

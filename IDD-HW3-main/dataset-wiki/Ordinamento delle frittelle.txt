@@ -1,0 +1,26 @@
+Lordinamento delle frittelle (nella letteratura in lingua inglese, Pancake sorting oppure prefix reversal) è una variante degli algoritmi di ordinamento in cui l'unica operazione ammessa è invertire gli elementi di una parte iniziale (un prefisso) della successione. A differenza di un algoritmo di ordinamento tradizionale, che cerca di ordinare gli elementi della successione nel minor numero di confronti possibile, l'obiettivo in questo caso è di ordinare gli elementi nel numero minore possibile di inversioni. Questa operazione può essere visualizzata pensando a una pila di frittelle (da cui il nome), in cui è possibile prendere le k frittelle più in alto e rovesciarle.
+
+Si sa che l'algoritmo più veloce per ordinare n valori ha bisogno di un numero di operazioni compreso tra (17/16)n e (5/3)n, ma non si conosce il valore esatto.
+
+Un semplice, ma niente affatto ottimale, algoritmo di ordinamento delle frittelle richiede al più 2n−3 inversioni. L'algoritmo consiste nell'usare un'inversione per portare in cima alla pila la frittella più grande non ancora ordinata, usarne un'altra per metterla al suo posto corretto, e proseguire fino all'ordinamento completo. Non sono noti algoritmi precisi per calcolare esattamente il numero di inversioni richieste: i limiti indicati più sopra risalgono al 1975, e hanno anche un interesse al di fuori della matematica, visto che uno degli autori dell'articolo che li ha dimostrati è il fondatore di Microsoft, Bill Gates, insieme al proprio professore Christos Papadimitriou. Solo nel settembre 2008, un gruppo di ricercatori dell'University of Texas di Dallas ha annunciato di aver trovato un algoritmo più efficiente.
+
+Nel 2008, un gruppo di studenti ha costruito un computer batterico che può risolvere un semplice esempio di ordinamento delle frittelle abbrustolite, programmando dei batteri E. coli in modo che invertano segmenti di DNA.
+
+Oltre che per le sue applicazioni didattiche, il problema di ordinamento delle frittelle appare anche nelle applicazioni delle reti parallele di processori, perché fornisce un algoritmo ottimale di routing tra i vari processori.
+
+Esiste anche un problema correlato, lOrdinamento delle frittelle abbrustolite (Burnt Pancake Problem), in cui occorre che alla fine dell'ordinamento il lato abbrustolito delle frittelle rimanga in basso.
+
+Numero di inversioni necessarie
+Nell'elenco seguente si possono vedere il numero di inversioni necessarie per pile da 1 a 12 elementi. Il primo termine di ogni riga indica il numero di elementi nella pila, i successivi il numero di permutazioni degli elementi che richiedono 0, 1, 2, . . . inversioni per ottenere l'ordine corretto.
+1 - 1
+2 - 1 1
+3 - 1 2 2 1
+4 - 1 3 6 11 3
+5 - 1 4 12 35 48 20
+6 - 1 5 20 79 199 281 133 2
+7 - 1 6 30 149 543 1357 1903 1016 35
+8 - 1 7 42 251 1191 4281 10561 15011 8520 455
+9 - 1 8 56 391 2278 10666 38015 93585 132697 79379 5804
+10 - 1 9 72 575 3963 22825 106461 377863 919365 1309756 814678 73232
+11 - 1 10 90 809 6429 43891 252737 1174766 4126515 9981073 14250471 9123648 956354 6
+12 - 1 11 110 1099 9883 77937 533397 3064788 14141929 49337252 118420043 169332213 111050066 13032704 167

@@ -1,0 +1,12 @@
+Una banca dati terminologica è una banca dati in cui gestire una raccolta terminologica. Le applicazioni possono variare da semplici dizionari e glossari a thesauri strutturati.
+
+Le banche dati terminologiche agevolano sia il lavoro redazionale (con l'aiuto di CMS) sia la traduzione assistita utilizzando sistemi di memoria di traduzione. Aiutano a utilizzare la terminologia specifica e aziendale che sia uniforme, univoca e consolidata e a evitare l'uso di termini non appropriati (per esempio le denominazioni dei prodotti di altri produttori). In genere, nel processo traduttivo le banche dati terminologiche servono anche a proporre traduzioni di termini.
+
+I dati di solito, oltre a informazioni linguistiche (per es. categoria grammaticale, genere, numero), contengono anche informazioni specifiche (per es. il dominio), meta-informazioni (per es. le fonti) ed esempi contestuali. È essenziale che i dati siano ben strutturati e possano essere elaborati in modo automatico.
+
+Oggi molti formati di scambio dati per le banche dati terminologiche si basano sul linguaggio XML. I più diffusi sono TermBase eXchange e Translation Memory eXchange.
+
+Esempi di banche dati terminologia sono:
+
+Terminologia interattiva per l'Europa dell'Unione europea
+International Electrotechnical Vocabulary (IEV), della Commissione Elettrotecnica Internazionale (IEC)

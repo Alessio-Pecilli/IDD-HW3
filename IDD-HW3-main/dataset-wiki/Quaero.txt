@@ -1,0 +1,40 @@
+Quaero (in latino domando, cerco) era un progetto franco-tedesco per la costruzione di un motore di ricerca per Internet.
+
+Storia
+Quaero nacque da un'idea presentata dall'ex Presidente della Repubblica Francese Jacques Chirac durante il consiglio dei ministri franco-tedesco nell'aprile 2005.
+
+Il progetto doveva porsi, nell'intendimento dei suoi ideatori, in diretta concorrenza con i due giganti americani Google e Yahoo!.
+
+Similmente ai concorrenti, Quaero non doveva essere un semplice indicizzatore di pagine web, ma un potente strumento per la ricerca di contenuti multimediali.
+
+Il progetto di un motore di ricerca europeo è stato poi ripreso nel 2013 dal francese Qwant, finanziato in parte dalla stessa Banca europea degli investimenti.
+
+Soggetti coinvolti
+Il progetto coinvolgeva numerosi soggetti francesi e tedeschi attivi nel panorama dell'Information Communication Technology e nella ricerca in particolare:
+
+Aziende
+France Télécom
+Deutsche Telekom
+Thomson
+Exalead
+Bertin Technologies
+Vecsys
+Vocapia Research
+Jouve
+LTU Technologies
+Synapse Développement
+Grass Valley GmbH
+Siemens AG
+
+I tedeschi, alla fine del 2006, hanno abbandonato i francesi ipotizzando di proseguire successivamente su un'altra strada (il progetto in esame si chiama Theseus).
+
+Istituti di ricerca
+Institut national de la recherche agronomique (INRA)
+Centre National de la Recherche Scientifique (CNRS)
+Oséo
+Università di Karlsruhe
+RWTH Aachen
+Institut national de recherche en informatique et en automatique (INRIA)
+Institut de Recherche et Coordination Acoustique/Musique (IRCAM)
+Institut national de l'audiovisuel (INA)
+Biblioteca nazionale di Francia

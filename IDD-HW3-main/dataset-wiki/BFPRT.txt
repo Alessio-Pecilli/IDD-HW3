@@ -1,0 +1,7 @@
+In informatica, BFPRT (Blum, Floyd, Pratt, Rivest, Tarján) è un algoritmo in quattro passi, utile alla selezione dell'ennesimo elemento più piccolo di un array disordinato.
+
+Algoritmo
+Raccogli gli elementi dell'array in gruppi di 5. Se il numero di elementi dell'array non è un multiplo di 5, crea un ulteriore gruppo (che conterrà al massimo 4 elementi).
+Trova il mediano di ciascun gruppo.
+Tramite una chiamata ricorsiva, trova il mediano dei mediani.
+Usa il mediano dei mediani M come perno e richiama l'algoritmo ricorsivamente sull'array opportuno, esattamente come nell'algoritmo quickselect.

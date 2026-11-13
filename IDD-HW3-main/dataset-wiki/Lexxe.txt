@@ -1,0 +1,11 @@
+Lexxe è un progetto di motore di ricerca fondato nel 2005 a Sydney dal linguista computazionale Hong Liang Qiao. Nel tempo ha sperimentato diverse tecnologie di ricerca semantica, fino a concentrarsi sull’analisi del sentiment applicata alle notizie con il progetto News & Moods.
+
+Storia e tecnologia
+Nel 2005 Lexxe presentò una versione alpha con funzionalità di question answering basate su elaborazione del linguaggio naturale.
+
+Nel 2011 avviò una beta con la tecnologia Semantic Key, che consentiva interrogazioni tramite parole‑concetto (es. «color: ferrari»). La stampa tecnologica segnalò ~500 semantic keys disponibili alla partenza.
+
+Dal 2017 il team ha lanciato News & Moods, piattaforma di ricerca notizie con punteggi di sentiment e funzioni di monitoraggio per parole chiave.
+
+Stato del progetto
+Il sito ufficiale annuncia il focus sulla ricerca con sentiment e rimanda a News & Moods; non risulta attiva una versione general purpose del motore web.

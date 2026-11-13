@@ -1,0 +1,18 @@
+Lo Stupid Sort è un algoritmo di ordinamento particolarmente inefficiente, come si può intuire dal nome. Trasportandolo sull'ordinamento di un mazzo di carte, esso consisterebbe nel mischiare il mazzo a caso per poi controllare se è ben ordinato e, se non lo è, ricominciare da capo. Altri nomi con i quali è conosciuto questo algoritmo sono: bogosort, blort sort, bort sort, monkey sort, random sort, stochastic sort, goni sort e drunk man sort.
+
+Non è un algoritmo stabile.
+
+Pseudocodice
+function stupid_sort(array)
+while not is_sorted(array)
+array = random_permutation(array)
+
+Tempo di esecuzione
+Questo algoritmo di ordinamento è per natura probabilistico. Se tutti gli elementi da ordinare sono diversi, la complessità è: O(n × n!). Il tempo di esecuzione preciso dipende da quanti valori diversi vi sono e da quanto spesso ogni valore appaia; ma per casi non banali il tempo di esecuzione sarà esponenziale o superesponenziale a n. La ragione per cui l'algoritmo arriva quasi sicuramente a una conclusione è spiegato dal teorema della scimmia instancabile: ad ogni tentativo c'è una probabilità di ottenere l'ordinamento giusto, quindi dato un numero illimitato di tentativi, infine dovrebbe avere successo. Quasi sicuramente, qui, è un termine matematico preciso.
+
+Si noti che nel mondo reale i computer utilizzano numeri pseudo-casuali; cioè esiste un numero limitato di valori possibili e il numero non è effettivamente casuale. Pertanto, dati alcuni array in input, l'algoritmo potrebbe non arrivare mai a una conclusione.
+
+Se i numeri pseudocasuali sono generati con lo stesso seme, è possibile che l'algoritmo si esegua in tempi sorprendentemente rapidi. Non bisogna però aspettarsi buoni risultati utilizzando semi differenti, o numeri realmente casuali.
+
+Bozo Sort
+Il Bozo Sort è una variante ancora meno efficiente della Stupid Sort. Consiste nel controllare se l'array è ordinato e, se non lo è, prendere due elementi casualmente e scambiarli (indipendentemente dal fatto che lo scambio aiuti l'ordinamento o meno).

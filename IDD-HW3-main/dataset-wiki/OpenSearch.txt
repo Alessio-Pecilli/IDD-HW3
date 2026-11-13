@@ -1,0 +1,13 @@
+OpenSearch è un formato utilizzato per la ricerca dei contenuti basato su XML. È un modo per i siti web ed i motori di ricerca di pubblicare le SERP in un formato standard ed accessibile.
+
+OpenSearch è stato sviluppato dal motore di ricerca A9.com e la prima versione, OpenSearch 1.0, venne svelata da Jeff Bezos durante l'evento O'Reilly Emerging Technology Conference nel marzo 2005.
+Le bozze per la versione 1.1 dell'OpenSearch vennero rilasciate tra settembre e dicembre 2005.
+La specifica per l'OpenSearch è stata rilasciata da A9 sotto licenza Creative Commons Attribution-ShareAlike 2.5.
+
+Motori di ricerca e software che supportano OpenSearch
+DuckDuckGo
+GNOME Do
+Google Chrome
+Internet Explorer 7 e successivi, per integrare i servizi di ricerca web nella barra dell'indirizzo
+Mozilla Firefox 2 e successivi implementano OpenSearch, così come un suo sottoinsieme chiamato MozSearch. MozSearch è utilizzato solo per Firefox. Tra le aggiunte specifiche di MozSearch esistono anche i suggerimenti.
+Wikipedia suggerisce articoli in base alla stringa digitata con una ricerca incrementale.

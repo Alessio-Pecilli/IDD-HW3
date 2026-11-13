@@ -1,0 +1,37 @@
+La relazione (o rapporto, o report) è un testo che riferisce in modo dettagliato e oggettivo su un'attività di studio (o su un avvenimento di cui si è fatta diretta esperienza), oppure espone un argomento su cui si è raccolta un'apposita documentazione. Questa fonte di dati e notizie è dunque più complessa e preziosa di una comunicazione o testimonianza verbale.
+
+In ambito informatico e aziendale il termine rapporto informativo (o report informativo) indica più specificamente un documento generalmente costituito da visualizzazioni tabelari e grafiche esposte sinotticamente.
+
+Tipologie
+I contenuti di una relazione possono riguardare esperimenti scientifici, attività di studio, di lavoro, di ricerca o di indagine, prove tecniche, situazioni, problemi, eventi civili o bellici.
+
+Per quanto riguarda il mondo scolastico, si possono fare relazioni su lezioni svolte in classe, su esperimenti di fisica o di chimica, relazioni su lavori scolastici o domestici di costruzione di plastici, carte geografiche e geografico-storiche, di sussidi didattici.
+
+Una relazione può anche essere commerciale, nel caso in cui una ditta riceva le referenze da un incaricato sulle condizioni del mercato in un altro paese; amministrativa (o burocratica o d'ufficio) qualora un ispettore riferisca alle autorità i metodi, i profitti o i fatti irregolari che possono accadere in un pubblico ufficio; politica, quella effettuata da un politico, che riferisca e studi le istituzioni di un altro paese; di concorso, quella espressa dalla Commissione esaminatrice nei riguardi della graduatoria di un concorso, formulata con l'esposizione dei criteri di giudizio sui concorrenti; parlamentare, quella su un disegno di legge proposta al Parlamento da un relatore; agronomica, che descrive i terreni di un'azienda in misure catastali.
+
+Nelle scienze cliniche (mediche e psicologiche) una relazione documentale, sia essa redatta in forma scritta o trasmessa verbalmente, assume più propriamente il nome di referto o report.
+
+Una relazione deve essere chiara, breve, ordinata, imparziale e giovarsi assennatamente dell'indagine e della critica.
+
+Rapporto informativo in ambito aziendale e informatico
+Nei moderni Sistemi informativi un sottoambito particolarmente sfruttato è quello dei Sistemi di Reportistica, che hanno per obiettivo quello di fornire supporto alle decisioni strategiche di un'organizzazione.
+
+Generalmente un rapporto informativo è un documento particolarmente agile, centrato sui dati di interesse della figura aziendale cui è diretto. Il fenomeno trattato è - nei sistemi più complessi ed articolati - analizzato secondo più dimensioni di interesse. L'ipercubo informativo sottostante al report informativo viene disaggregato secondo le componenti di estrazione e visualizzato.
+
+In Informatica, ed in particolare nei software destinati alla gestione delle basi di dati (fogli di calcolo e soprattutto database), un report è il prodotto finale di una serie di immissioni di informazioni e dati opportunamente incanalati e di calcoli e/o estrapolazioni degli stessi.
+
+Tecniche di visualizzazione
+Al fine di evolvere verso documenti maggiormente informativi, gli strumenti informatici si sono dotati di alcune tecniche di visualizzazione per facilitare l'analisi dei dati.
+
+Tecniche note nella visualizzazione dei rapporti sono:
+approfondimenti successivi (drill-down, che in inglese significa letteralmente "perforare il terreno"): è la possibilità - una volta visualizzato il dato complessivo relativo ad una dimensione gerarchizzata di analisi - di esplorare tutta la gerarchia. Un classico esempio di dimensione gerarchizzabile è quella temporale: il dato annuale può essere esplorato per sotto-rapporti che visualizzano gli aggregati mensili e questi ultimi possono essere - a loro volta - disaggregati secondo i dati giornalieri;
+segmentazione omogenea (slice & dice, inteso come "dividere una torta"): è l'azione di frazionamento dei dati, effettuata secondo criteri di omogeneità. Consente di restringere l'analisi solo ad alcune delle necessità indagate e/o delle dimensioni proposte. È possibile, nell'esempio visto sopra, esplorare le vendite annuali solo di alcune regioni e, di queste regioni, solo di alcune città. I dati visualizzati si riferiranno unicamente alle occorrenze selezionate.
+
+Alcune relazioni
+Lo scienziato Patrick Brydone, studioso dell'elettricità, scrisse relazioni che furono pubblicate dalla Philosophical Transactions della Royal Society di Londra.
+Presso l'Istituto Storico della Resistenza in Toscana si trovano relazioni scritte da alcuni protagonisti della guerra di liberazione. Una di queste relazioni è scritta da Alessandro Pieri, un'altra, datata 8 giugno 1944, è conservata fra le carte della Brigata Lanciotto, nel fondo ANPI. Presso lo stesso Istituto si trovano le relazioni Comando divisione "Arno"- Relazione "A", Comando divisione "Arno" - Relazione "B" e Comando divisione "Arno" - Relazione "C" (8 agosto 1944).
+Achille Mazzi compilò la Relazione sull'attività clandestina ed operativa svolta dai patrioti toscani nel periodo 8 settembre 1943-7 settembre 1944; questa relazione fu controfirmata dal Comandante ten.col. Nello Niccoli e dal commissario politico Luigi Gaiani.
+Sulla vita della beata Maria Assunta Pallotta scrissero relazioni: il parroco di Force Luigi Martini (relazione sulla prima fanciullezza e gioventù della beata); la Madre Direttrice della Casa Madre delle Francescane Missionarie di Maria, Maria di San Lamberto; la Maestra delle Novizie, Madre Maria degli Arcangeli; la suora Maria di San Bonaventura; la Superiora della Casa del Santo Nome di Gesù di Firenze, Madre Maria Alessandra; la Madre Maria Sinforiana del Sacro Cuore, Superiora della Casa nello Shanxi; suor Maria Albertina dell'Eucaristia.
+Niccolò Machiavelli scrisse il Rapporto delle cose della Magna nel 1508, quando fu inviato come ambasciatore in Germania.
+Gli ambasciatori veneziani inviavano relazioni alla Repubblica di Venezia.
+Nel caso in cui una relazione sia molto estesa, essa diventa una vera e propria opera d'arte letteraria e storica, come la relazione Dell'unità della lingua e dei mezzi di diffonderla, scritta e inviata da Alessandro Manzoni al ministro Emilio Broglio nel febbraio del 1868.

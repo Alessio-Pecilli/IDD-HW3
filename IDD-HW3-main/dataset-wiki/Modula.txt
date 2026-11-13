@@ -1,0 +1,6 @@
+Modula è un linguaggio di programmazione discendente del linguaggio Pascal.
+
+Storia
+Fu sviluppato in Svizzera alla fine degli anni settanta da Niklaus Wirth, lo stesso che ideò il Pascal. La principale innovazione di Modula rispetto al Pascal è la presenza di un sistema modulare, utilizzato per raggruppare insiemi di dichiarazioni correlate in unità del programma, da cui il nome Modula. Le specifiche del linguaggio sono state scritte da Wirth in un documento del 1976 dal titolo Modula. A language for modular multiprogramming.
+
+Il linguaggio Modula non fu mai rilasciato e il suo sviluppo fu interrotto a seguito della sua pubblicazione. Niklaus Wirth concentrò quindi i suoi sforzi sui successori di Modula: Modula-2, Oberon, Modula-2+ e Modula-3.

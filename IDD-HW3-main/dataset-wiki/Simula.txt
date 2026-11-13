@@ -1,0 +1,178 @@
+Il Simula è stato il primo linguaggio di programmazione orientato agli oggetti (OOP). Da esso sono derivati lo Smalltalk e il C++; tuttavia il linguaggio di programmazione moderno ad oggetti che più si avvicina al Simula è il Java.
+
+È stato sviluppato a partire dagli anni sessanta al Norwegian Computing Center di Oslo, principalmente da Ole-Johan Dahl e Kristen Nygaard.
+
+Descrizione
+
+La prima versione del linguaggio, concepito come superinsieme dell'Algol 60, è del 1962. Non venne prodotto un compilatore specifico per il linguaggio, ma la Sperry Rand (o meglio la sua divisione UNIVAC) modificò il suo compilatore ALGOL per i sistemi UNIVAC 1100 affinché fosse in grado di compilare anche le estensioni Simula.
+
+Nel 1967 vide la luce il vero Simula, che prese il nome di Simula 67: un linguaggio a sé stante, che introduce molte delle caratteristiche di un moderno linguaggio orientato agli oggetti, come: oggetti, classi, sottoclassi, ereditarietà, metodi virtuali (che in Simula si chiamano però "procedure virtuali"), coroutine, eventi, e la gestione e il rilascio automatico della memoria per mezzo della garbage collection.
+
+In seguito il Simula 67 venne ribattezzato col nome del suo predecessore Simula, che a sua volta venne ribattezzato Simula I.
+
+"Il Simula è sempre stato un linguaggio di programmazione general purpose, essendo nato come superinsieme dell'Algol. Sfortunatamente il suo nome riduttivo è stata la fonte principale di incomprensione da parte degli utilizzatori potenziali". Anche se, proprio per questo motivo, è stato usato principalmente per simulazioni (ad esempio: VLSI, modellizzazione dei processi, protocolli, algoritmi, sistemi quasi-paralleli), il Simula ha trovato applicazione anche in altri campi, quali la composizione tipografica e la computer grafica. Non va inoltre dimenticato, a riprova del fatto che si tratta di un linguaggio d'uso generale, che i compilatori Simula sono scritti in Simula.
+
+Per le sue caratteristiche il Simula ha fornito il paradigma alla maggior parte dei linguaggi orientati agli oggetti di oggi e anche se le classi e gli oggetti come definiti dal Simula sono acquisiti da altri linguaggi come il C++, il C#, l'Eiffel e il Java, la sua influenza è tuttora spesso sottovalutata. Tuttavia Bjarne Stroustrup ha riconosciuto che il Simula è stato il linguaggio che più l'ha influenzato quando ha sviluppato il C++ con lo scopo di aggiungere alla velocità di calcolo offerta dai linguaggi di basso livello come il BCPL il miglioramento della produttività permesso dal Simula.
+
+Il Simula viene tuttora insegnato, anche se in modo limitato, in vari corsi universitari: ad esempio Jarek Sklenar insegna il Simula agli studenti presso l'Università di Malta. Oltre che in ambito accademico il Simula viene tuttora utilizzato presso il Simula Research Laboratory.
+
+Dal Simula è derivato il BETA, che però ha avuto una diffusione limitata.
+
+Storia
+
+Ciò che segue è basato su un saggio storico di Jan Rune Holmevik.
+
+Kristen Nygaard iniziò a scrivere programmi di simulazione per computer nel 1957. Sosteneva che occorresse trovare un modo migliore per descrivere l'eterogeneità e il funzionamento di un sistema. Si rese però conto che, per poter compiere un passo in avanti verso un linguaggio di programmazione formale in grado di descrivere un sistema, aveva bisogno di qualcuno più abile di lui nella programmazione. Nel gennaio del 1962 Ole-Johan Dahl si unì alla squadra e quasi subito i due decisero di appoggiare il nuovo linguaggio sull'Algol 60. Nel maggio del 1962 furono fissati i fondamenti del linguaggio di simulazione: era nato il Simula, un linguaggio di programmazione in grado di simulare eventi discreti.
+
+A fine maggio Kristen Nygaard fu invitato dall'UNIVAC in occasione della commercializzazione del nuovo calcolatore UNIVAC 1107. Durante
+la visita Kristen Nygaard parlò delle sue idee sul Simula a Robert Bemer, il direttore della programmazione di sistema dell'UNIVAC. Bemer era un fan dell'Algol e trovò il progetto Simula convincente. Bemer era anche chairman di una sessione alla seconda International Conference on Information Processing, ospitata dall'IFIP. Così invitò alla conferenza Nygaard, che presentò la memoria “SIMULA – Un'estensione dell'ALGOL per la descrizione di reti a eventi discreti” (“SIMULA - An Extension of ALGOL to the Description of Discrete-Event Networks").
+
+Nell'agosto del 1963 il Norwegian Computing Center acquistò, con un notevole sconto, un UNIVAC 1107, su cui Dahl sviluppò il SIMULA, appunto come estensione del compilatore dell'Algol 60, sotto contratto con l'UNIVAC. L'UNIVAC in realtà avrebbe voluto realizzare anche un compilatore Simula basato sul Fortran, ma il progetto fu abbandonato perché Dahl e Nygaard ritenevano essenziale la struttura a blocchi del nuovo linguaggio, che col Fortan sarebbe risultata incompatibile.
+
+Nel gennaio del 1965 il Simula è pienamente operativo. Nei due anni seguenti Dahl e Nygaard dedicano molto del loro tempo all'insegnamento di Simula. Il linguaggio si diffonde in molti paesi e vengono realizzati compilatori per altre macchine, come il Burroughs B5500 e il russo URAL-16.
+
+Nel 1966 Tony Hoare introduce la classe record, che Dahl e Nygaard estendono col concetto di prefisso e altre funzionalità.
+
+Nel maggio del 1967 Dahl e Nygaard presentano la loro memoria sulle classi e le sottoclassi alla “IFIP Working Conference on Simulation Languages” a Oslo. Questo scritto diventa la prima definizione formale del Simula 67. Nel giugno del 1967 si tenne una conferenza per standardizzare il linguaggio e dare il via a diverse implementazioni. Dahl propose di unificare i concetti di tipo e di classe. La proposta accese una discussione animata e fu rigettata. Il Simula 67 fu standardizzato formalmente durante il primo meeting del SIMULA Standards Group (SSG) nel febbraio del 1968.
+
+Il Simula ha influenzato lo sviluppo di Smalltalk e, in seguito, di altri linguaggi di programmazione orientati agli oggetti, come il C++, l'Eiffel e il Java. Ha inoltre ispirato il modello per il calcolo concorrente, anche se, in realtà supporta solo le coroutine e non la vera concorrenza.
+
+Alla fine degli anni sessanta e nei primi anni settanta i quattro principali compilatori furono realizzati su sistemi:
+UNIVAC 1100, da parte del Norvegian Computing Center (NCC)
+IBM System/360 e System/370, da parte dell'Istituto di Ricerche Svedese per la Difesa Nazionale (Swedish Research Institute for National Defence (FOA))
+CDC 3000, da parte dell'Università di Oslo
+TOPS-10 da parte dell'ENEA AB
+
+L'ultimo standard del Simula, il Simula 87, include i concetti di
+pubblico, protetto e privato mutuati dal sistema operativo TOPS-10. Il tre principali compilatori che aderiscono a questo standard sono:
+
+Simula AS
+Lund Simula
+GNU Cim
+
+Nel novembre del 2001 l'Institute of Electrical and Electronic Engineers (IEEE) assegnò a Dahl e Nygaard la IEEE John von Neumann Medal, con la motivazione: “Per l'introduzione dei concetti alla base della programmazione orientata agli oggetti mediante la progettazione e la realizzazione del Simula 67”.
+
+Nel febbraio del 2002 hanno ricevuto il Premio Turing 2001, considerato il Nobel del calcolo, dall'Association for Computing Machinery (ACM), con la motivazione: “Per le idee fondamentali per la nascita della programmazione orientata agli oggetti mediante la progettazione dei linguaggi di programmazione Simula I e Simula 67”. Purtroppo né Dahl, né Nygaard hanno potuto essere presenti allACM Touring Award Lecture, programmato per la conferenza OOPSLA del novembre 2002 a Seattle, in quanto entrambi erano già venuti a mancare, a due mesi di distanza l'uno dall'altro: a giugno (Dahl) e agosto (Nygaard) del 2002.
+
+Il Simula Research Laboratory è un istituto di ricerca che ha preso il nome dal Simula. Nygaard vi ha lavorato part-time fin dalla fondazione, avvenuta nel 2001. Tutt'oggi le attività di ricerca dell'istituto si svolgono in svariati ambiti, quali l'ingegneria del software, il calcolo scientifico, le reti e i sistemi distribuiti.
+
+Esempi di codice
+Programma minimo
+Il file vuoto è il minimo programma Simula, misurato in base alla dimensione del codice sorgente. Si compone di una sola cosa, un'istruzione fittizia.
+Tuttavia, il programma minimo è più convenientemente rappresentato da un blocco vuoto che dà inizio all'esecuzione e termina immediatamente.
+
+Begin
+End;
+
+Hello world
+Nota. Il Simula non è case-sensitive.
+
+Un esempio di hello world in Simula
+
+Begin
+OutText ("Hello World!");
+Outimage;
+End;
+
+Classi, sottoclassi, metodi e metodi virtuali
+Un più realistico esempio dell'uso di classi, sottoclassi, metodi e metodi virtuali.
+
+L'esempio mostra come alcune delle caratteristiche principali dell'OOP di oggi erano già presenti in Simula, come ad esempio la possibilità di creare metodi virtuali. Tali metodi vengono inizialmente dichiarati in una superclasse, senza necessariamente dar loro un'implementazione (viene scritta solo l'intestazione); in seguito, con la dichiarazione delle sottoclassi, questi metodi possono essere implementati in modo diverso a seconda della sottoclasse (è questa una delle caratteristiche del polimorfismo)
+
+Begin
+Class glifo;
+Virtual: Procedure print Is Procedure print;;
+Begin
+End;
+
+glifo Class carattere(c);
+Character c;
+Begin
+Procedure print;
+OutChar(c);
+End;
+
+glifo Class riga(elementi);
+Ref(glifo) Array elementi;
+Begin
+Procedure print;
+Begin
+Integer i;
+For i:= 1 Step 1 Until UpperBound(elementi,1) Do
+elementi(i).print;
+OutImage;
+End;
+End;
+
+!Programma principale;
+Ref(glifo) rg;
+Ref(glifo) Array rgs(1:4);
+rgs(1) :- New carattere('M');
+rgs(2) :- New carattere('i');
+rgs(3) :- New carattere('n');
+rgs(4) :- New carattere('a');
+rg :- New riga(rgs);
+OutText("La mia cantante preferita: ");
+rg.print;
+End;
+
+Nell'esempio sopra la superclasse glifo ha due sottoclassi: carattere e riga. L'esecuzione inizia col programma principale che, come si può notare, oltre a creare i vari oggetti, usa la procedura print definita nella sottoclasse riga (rg è infatti un oggetto della sottoclasse riga). Si noti che print è definita anche nella sottoclasse carattere, ma questa versione della procedura non viene usata.
+
+L'uscita del programma è:
+
+La mia cantante preferita: Mina
+
+In Simula non esistono classi astratte, in quanto anche le classi con metodi virtuali puri (non ancora implementati) possono essere istanziate. Ciò significa che nell'esempio qui sopra tutte le classi possono essere istanziate (compresa la glifo); in tal caso la chiamata di un metodo virtuale puro (quindi non ancora implementato) produce un errore di runtime.
+
+Passaggio dei parametri per nome
+In Simula il passaggio dei parametri avviene di regola per valore (nel caso di parametri semplici: integer, real, character, boolean, incluse le varianti short e long) o per riferimento (in tutti gli altri casi). È tuttavia possibile indicare al compilatore che il passaggio deve avvenire per nome, usando la parola chiave Name. Questo fa sì che un'espressione passata come parametro attuale a una procedura sia rivalutata ogni volta che è richiesto il valore del corrispondente parametro formale. Nell'esempio qui sotto la procedura sommatoria sfrutta questa caratteristica per calcolare la seguente sommatoria:
+
+Real Procedure sommatoria (i, inf, sup, elemento);
+Name i, elemento;
+Integer i, inf, sup;
+Real elemento;
+Begin
+Real somma;
+i:=inf;
+While i porta) per consentire l'accesso al camerino. Quando un cliente ha bisogno del camerino e questo è già occupato deve aspettare in questa coda (Wait(porta)). Quando un cliente esce dal camerino il primo cliente nella coda (se ce n'è almeno uno) viene attivato (Activate porta.first) ed esce dalla coda (porta.First.Out).
+
+La classe persona è una sottoclasse della classe Process (che è un attributo della classe Simulation) e pertanto può usare i metodi di Process: ad esempio hold per simulare sia il tempo che un cliente sta nel negozio, sia il tempo che sta nel camerino.
+
+Il programma principale crea i tre oggetti della classe persona (cioè Piero, Elda e Walter) e li inserisce nella coda degli eventi. Poi il tutto prosegue per 30 minuti di tempo simulato. Il risultato prodotto dal programma, compilato col compilatore PC-Simula per MS/DOS, è riportato qui sotto:
+
+10.67: Elda ha bisogno del camerino
+10.67: Elda entra nel camerino
+11.62: Piero ha bisogno del camerino
+14.08: Piero entra nel camerino
+14.08: Elda esce dal camerino
+14.41: Walter ha bisogno del camerino
+16.63: Walter entra nel camerino
+16.63: Piero esce dal camerino
+19.64: Walter esce dal camerino
+26.38: Elda ha bisogno del camerino
+26.38: Elda entra nel camerino
+28.60: Piero ha bisogno del camerino
+29.05: Piero entra nel camerino
+29.05: Elda esce dal camerino
+
+Lo stesso programma, compilato col compilatore Cim per MS/DOS, produce invece il seguente risultato:
+
+6.92: Piero ha bisogno del camerino
+6.92: Piero entra nel camerino
+7.11: Walter ha bisogno del camerino
+7.97: Elda ha bisogno del camerino
+9.78: Walter entra nel camerino
+9.78: Piero esce dal camerino
+12.37: Elda entra nel camerino
+12.37: Walter esce dal camerino
+15.25: Elda esce dal camerino
+21.48: Walter ha bisogno del camerino
+21.48: Walter entra nel camerino
+21.55: Piero ha bisogno del camerino
+25.13: Piero entra nel camerino
+25.13: Walter esce dal camerino
+27.83: Piero esce dal camerino
+28.30: Elda ha bisogno del camerino
+28.30: Elda entra nel camerino
+
+Il fatto che i due risultati siano diversi non deve stupire, poiché il programma fa uso della procedura intrinseca normal che, anche se inizializzata con lo stesso seme (nel caso in esame 4321), restituisce valori che variano da implementazione a implementazione. Come per tutte le procedure di tipo statistico, sono infatti le caratteristiche statistiche dei valori che restituisce quelle che importano; per questa procedura, in particolare, i valori di ritorno devono essere tali che, se la procedura è chiamata un grande numero di volte, la loro distribuzione sia di tipo normale, con una data media e una data deviazione standard.

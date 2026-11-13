@@ -1,0 +1,6 @@
+LEngineering Data Management (EDM) è un sistema di archiviazione digitale dei dati tecnici su un computer od un server.
+
+Descrizione
+All'interno dell'ufficio tecnico di un'azienda i documenti tecnici possono venire gestiti tramite un database con un'interfaccia grafica che permetta all'utente di eseguire alcune operazioni utili e spesso ripetitive. L'EDM o TDM serve proprio a questo: di solito si tratta di una applicazione software in grado di gestire un archivio comune a più utenti, od anche ad un solo utente che necessiti di particolari condizioni di ordine e gestione dei file, come quelli necessari al corretto utilizzo di CAD 3D.
+
+L'EDM vede archiviati al suo interno solitamente i soli documenti tecnici, disegni e modelli 3D, al massimo legati a documenti diversi con un collegamento di riferimento; l'EDM gestisce quindi gli accessi all'archivio, la ricerca e la riproduzione controllata di diverse quantità di documenti correlati (ed è spesso una versione "alleggerita" del Product Data Management (PDM).

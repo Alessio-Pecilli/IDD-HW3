@@ -1,0 +1,14 @@
+BC, acronimo di Basic Calculator, è un linguaggio di programmazione usato per calcoli a precisione arbitraria. Il linguaggio presenta con una sintassi simile al linguaggio C.
+
+Esistono attualmente due dialetti base: il POSIX bc rigorosamente definito, e il suo discendente diretto, il GNU bc molto esteso (inoltre, GNU bc è disponibile per un numero elevato di piattaforme, come ad esempio Microsoft Windows). Una più recente variante, Plan 9 bc, è un sovrainsieme del primo e un sottoinsieme del secondo.
+
+Tutte le varianti supportano sia l'esecuzione interattiva, ossia da riga di comando, sia l'esecuzione dall'interno di script.
+
+POSIX bc
+Il linguaggio standard POSIX bc è tradizionalmente scritto sotto forma di un programma in DC per fornire accesso alle funzioni del linguaggio DC senza usarne la sintassi scarna.
+
+In questa forma, bc consiste di nomi di variabili, array e funzioni composti di singole lettere, la maggior parte degli operatori aritmetici e costrutti di controllo di flusso standard. A differenza del C, tuttavia, lif non prevede lelse.
+
+Le funzioni sono definite per mezzo della parola chiave define e i valori di ritorno sono restituiti usando la parola chiave return con l'espressione d'uscita tra parentesi tonde. La parola chiave auto permette di dichiarare variabili locali alle funzioni.
+
+Tutti i numeri e le variabili sono numeri in virgola mobile a precisione fissa, determinata dalla variabile globale scale (espressa in posizioni decimali).

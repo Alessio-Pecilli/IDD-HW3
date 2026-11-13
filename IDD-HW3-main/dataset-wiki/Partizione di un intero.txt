@@ -1,0 +1,49 @@
+In matematica, una partizione di un intero positivo è una m-tupla di interi positivi
+
+ordinati in modo non crescente, ossia , tali che:
+
+In alcune fonti l'ordine è non decrescente. Informalmente, una partizione rappresenta uno dei possibili modi di ottenere come somma di un numero finito di interi positivi, considerando equivalenti le somme che differiscono soltanto per l'ordine degli addendi. Ciascun termine è detto parte. Il numero di parti costituisce la lunghezza della partizione, mentre la somma di tutte le parti è detta peso o modulo.
+
+In simboli, si scrive per indicare che è una partizione di . Solitamente si considera un intero positivo; tuttavia, in alcuni contesti, è utile considerare anche lo , per il quale si definisce come unica partizione la sequenza vuota.
+
+Esiste inoltre una notazione esponenziale per le partizioni, che permette di raggruppare le parti identiche. Dove l'esponente indica quante volte l'intero compare nella partizione .
+
+Le partizioni di interi possono essere visualizzate in diversi modi come i diagrammi di Ferrers e i diagrammi di Young.
+
+Le partizioni di interi compaiono in numerose branche della matematica e della fisica tra cui lo studio dei polinomi simmetrici, dei gruppi simmetrici e delle rappresentazioni di gruppi in generale.
+
+Esempi
+Le partizioni di sono le seguenti:
+
+Le partizioni di sono invece le seguenti:
+
+La funzione di partizione
+La funzione di partizione indica, per ogni intero positivo , il numero di partizioni esistenti per . Per esempio, per quanto mostrato negli esempi,
+
+mentre
+
+La funzione partizione non è né moltiplicativa né additiva e cresce più velocemente di qualsiasi polinomio in al crescere di (si vedano le formule asintotiche nel seguito). Viene solitamente indicata con . I primi valori di , partendo da , sono:
+
+Congruenze
+Ramanujan trovò le seguenti congruenze:
+
+Si nota che 4, 5, 6 sono numeri consecutivi e 5, 7 e 11 sono primi consecutivi. Allora si potrebbe pensare che
+
+Questo è falso. Infatti, si può dimostrare che non ci sono altre congruenze del tipo .
+
+Negli anni '60 A. O. L. Atkin dell'Università dell'Illinois a Chicago scoprì ulteriori congruenze, ad esempio:
+
+Storia
+Fino agli inizi del XX secolo si credeva che non fosse possibile trovare una formula per la funzione di partizione, ma nel 1918 Ramanujan e Hardy pubblicarono una formula asintotica per la funzione di partizione:
+
+J.V. Uspensky ritrovò la stessa formula, indipendentemente, nel 1920.
+
+Hardy e Ramanujan trovarono un'espansione asintotica con questa approssimazione come primo termine:
+
+Nel 1937, Hans Rademacher migliorò la formula di Hardy e Ramanujan, elaborando una serie convergente che tende a :
+
+dove, in entrambi i casi
+
+con la somma effettuata sui numeri naturali compresi tra e che sono coprimi con e con che indica la somma di Dedekind.
+
+Nel gennaio del 2011, il matematico statunitense Ken Ono, della Emory University di Atlanta, Georgia, insieme ai suoi collaboratori ha fatto grossi progressi nella comprensione del comportamento della funzione di partizione. Estendendo alcune formule di Ramanujan, è riuscito a mostrare che i numeri di partizione hanno un comportamento di tipo frattale: apparentemente essi sono disordinati, senza alcun legame logico o alcuna congruenza, ma se analizzati a fondo si scoprono schemi ordinati con un preciso ordine di ripetizione. Inoltre, Ken Ono, insieme ai suoi collaboratori, è riuscito a ottenere una formula esplicita che permette di calcolare le partizioni di qualsiasi numero intero attraverso una somma di un numero finito di termini.

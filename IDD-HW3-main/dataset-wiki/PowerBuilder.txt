@@ -1,0 +1,24 @@
+Powerbuilder è un linguaggio di programmazione RAD creato dalla Powersoft, che a metà degli anni novanta è stata acquisita dalla Sybase e dal 2010 è integrata nella multinazionale tedesca SAP AG.
+Dal 5 luglio del 2016, SAP e Appeon hanno siglato un accordo per cui Appeon diventerà responsabile per lo sviluppo, la vendita, e il supporto di PowerBuilder.
+
+Caratteristiche
+È simile in molte cose a Visual Basic, ma fin dalla sua origine si è sempre caratterizzato per la possibilità di effettuare una reale programmazione ad oggetti (ereditarietà, incapsulazione, polimorfismo).
+
+Se utilizzato per programmi client-server può generare un unico eseguibile, oppure un eseguibile e del codice binario in file .PBD, oppure un eseguibile e DLL. Attualmente per lo sviluppo web genera codice .NET ma tramite Appeon è in grado di generare codice Java. Con una adeguata progettazione è possibile ottenere dallo stesso codice sia un applicativo client-server tradizionale che una applicazione web. Fra i due utilizzi ci sono alcune distinzioni in certi metodi e nella ereditarietà di alcuni oggetti.
+
+In Powerbulder si possono dichiarare OLE, chiamare direttamente i loro metodi e modificarne gli attributi, analogamente si possono chiamare metodi di DLL di sistema o di altre DLL scritte in altri linguaggi. Va fatta attenzione sulla conversione dei tipi di dati.
+
+Il punto di forza di Powerbuilder è sempre stato nella gestione dei dati, mentre dal punto di vista elaborativo non ha mai raggiunto performance comparabili con quelli di più diffusi linguaggi.
+
+Nella gestione dei dati utilizza i "datawindows", una tecnologia brevettata sybase che effettua un "binding" (collegamento) fra i comandi SQL ed il layout visuale. La gestione disconnessa dei dati permette ottime performance anche in ambienti con molti utenti connessi. I "datawindows" permettono anche di utilizzare lo stesso programma su piattaforme DBMS diverse senza alcuna modifica al codice sorgente.
+
+Powerbuilder è generalmente utilizzato nel settore finanziario negli Stati Uniti d'America, in Canada e nel Regno Unito, mentre in Italia ha sempre avuto una diffusione molto limitata ad eccezione delle applicazioni in ambiente sanitario per i Pronto Soccorso e laboratori di analisi.
+
+Con la versione 10 Sybase ha introdotto la possibilità di utilizzare i "datawindow" all'interno del framework .NET, ma solo per applicazioni Windows-Form.
+Nel 2010 è stata distribuita la versione 12, che consente di realizzare applicazioni WPF programmando con lo stesso paradigma degli oggetti nativo di Powerbuilder e con il linguaggio Powerscript.
+
+Esempio di codice
+
+Qui sopra vediamo il codice di un evento per un oggetto di tipo datawindow. Le prime 4 righe sono dei commenti per la leggibilità del codice, subito dopo la dichiarazione di variabili locali di tipo diverso. La prima vera riga di codice legge, da un oggetto visuale di tipo maschera editabile em_1, il testo digitato dall'utente relativo ad uno sconto da applicare a tutte le righe. La seconda riga calcola il valore decimale dello sconto. Il metodo nativo dell'oggetto RowCount() restituisce il numero di righe dell'oggetto datawindow utilizzato nel ciclo FOR sottostante per calcolare ed applicare lo sconto.
+Le ultime due righe fissano tutte le variazioni scatenando eventuali eventi di validazione e controllo. Da notare che manca la chiamata alla COMMIT; necessaria per fissare definitivamente i dati nel Database.
+Powerbuilder accetta nel codice anche comandi SQL compresi cursori e chiamate a procedure. Questo sistema di programmazione mista va usato con molta parsimonia ed attenzione perché l'uso di dialetti SQL specifici può limitare una delle caratteristiche principali dell'ambiente che permette di cambiare agevolmente DBMS senza la necessità di grosse modifiche al codice. Se per vari motivi si necessita l'utilizzo di SQL incorporato è meglio usare un'architettura Model-View-Controller.

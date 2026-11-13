@@ -1,0 +1,40 @@
+In informatica ActionScript (AS) è stato il linguaggio di scripting di Adobe Flash, dichiarato obsoleto il 31 dicembre 2020, software che affondava le proprie radici nella grafica vettoriale, ma che, anche grazie alla diffusione del plugin, si era ritagliato un proprio spazio nella realizzazione di applicazioni dinamiche, oltre che nella realizzazione di siti web e animazioni.
+
+Si basava su ECMAScript e la sua sintassi, almeno fino alla versione 6 del Flash Player, era molto simile a JavaScript dal quale poi divergeva in molto di ciò che riguardava le feature di OOP (dal Flash Player 7 il linguaggio si basava su classi e non utilizzava la proprietà prototype per stabilire l'ereditarietà).
+
+Era un linguaggio di alto livello, che veniva interpretato come il JavaScript (o pseudocompilato). La sua esecuzione era infatti affidata al compilatore nativo di Flash Player, l'Actionscript Virtual Machine (AVM e AVM2).
+
+Storia
+
+ActionScript fece il suo debutto come linguaggio di scripting, con una sintassi diversa da quella attuale, nella versione 5 di Flash, che fu la prima versione di Flash con un ampio supporto per la programmazione. Questa versione di ActionScript venne denominata a posteriori ActionScript 1.0.
+
+La versione Flash 6 (o MX) aveva allargato notevolmente le funzionalità, aggiungendo un discreto numero di funzioni, che permettevano un migliore controllo degli elementi di un filmato.
+Flash 7 (MX 2004) aveva introdotto ActionScript 2.0, che come novità annovera molteplici elementi della programmazione ad oggetti: interfacce, creazione di classi, ereditarietà.
+
+Con Adobe Flash CS3 è stata distribuita l'ultima versione di ActionScript, la terza. ActionScript 3 era più simile a ECMAScript, completando il processo di avvicinamento già iniziato con la seconda versione.
+Con ActionScript, Adobe ha creato l'Open Source Media Framework, gratuito e open source per creare esperienze video sul web e sui computer.
+
+Sintassi
+
+ActionScript era un linguaggio orientato agli oggetti, supportante quindi la creazione di classi, e l'uso di quelle già esistenti.
+
+Le classi erano un'estensione del linguaggio base di ActionScript e potevano essere create e condivise dai programmatori. Classici esempi erano le classi sandy 3d e papervision 3d che permettevano di utilizzare un ambiente tridimensionale nativamente non incluso in Flash. Esse venivano scritte all'interno di un semplice file testuale che ha come estensione ".as". In più c'erano diverse classi già disponibili come MovieClip, che potevano essere usata per disegnare i vettori sullo schermo dinamicamente. Le classi facilitavano la creazione di nuovi progetti, esse potevano essere trasferite anche da un progetto all'altro, se necessario.
+
+Il codice ActionScript era il più delle volte scritto usando la suite di sviluppo di Flash che offriva documentazione, suggerimenti durante la stesura del codice, ed evidenziamento della sintassi, rendendola più leggibile. Spesso l'estensione dei sorgenti era ".fla". Il codice ActionScript e le animazioni dalla versione CS3 potevano anche essere importate da file di testo esterni, che potevano essere scritti attraverso l'editor incluso in Flash mediante una comoda interfaccia o attraverso Motion Twin ActionScript2 Compiler (MTASC).
+
+Esempio
+
+Cronologia
+
+Flash Player 2: Prima versione con supporto per lo scripting, comandi inclusi gotoAndPlay, gotoAndStop, nextFrame e nextScene per gestire inizio e termine dei filmati.
+Flash Player 3: Aumenta le funzionalità base del linguaggio aggiungendo la possibilità di caricare file esterni .swf (mediante il comando loadMovie).
+Flash Player 4: Aggiunge alcune caratteristiche. Questa è la versione del linguaggio su cui si basano le versioni di Flash Lite 1.0 e 1.1.
+Flash Player 5: Includeva la prima versione di ActionScript 1.0. Usava un prototipo del linguaggio ECMAScript, permetteva la programmazione orientata agli oggetti.
+Flash Player 6: Aggiunto un gestore di eventi, e introduzione di switch.
+Flash Player 7: Offriva alcune nuove funzioni come il supporto ai fogli di stile e un incremento delle prestazioni del player in termini di consumo di risorse. I compilatori Flash, della Macromedia, distribuiti insieme al Flash Player 7 supportano ActionScript 2.0 (e nuovi componenti, atti ad automatizzare molte operazioni, ad esempio l'inclusione di audio) più orientato agli oggetti della versione precedente, basato su ECMAScript. Era possibile compilare anche i sorgenti in maniera tale da renderli compatibili con le versioni precedenti di Flash (compilando attraverso il bytecode della versione 1.0).
+Flash Player 8: Nuove aggiunte ad ActionScript 2.0 con nuove librerie con API per gestire le immagini formato bitmap e l'upload dei file.
+Flash Player 9: Inizialmente chiamato Flash Player 8.5. Supportava ActionScript 3.0 e una nuova virtual machine, AVM2 (ActionScript Virtual Machine 2) che riduceva di molto il consumo di risorse permettendo lo sviluppo di giochi più complessi e l'accesso ad alcuni siti da parte di computer obsoleti. L'obiettivo di questa versione era un incremento delle prestazioni raggiunta attraverso un nuovo compilatore JIT. Questa è stata la prima versione di Flash chiamata Adobe Flash Player, in seguito all'acquisizione di Macromedia da parte di Adobe.
+Flash Player 10: Offriva il supporto alla creazione di interfacce con immagini 2D in un ambiente 3D, grazie alle API dedicate.
+Adobe aveva introdotto la tecnologia Pixel Bender, che consentiva di creare e condividere filtri, metodi di fusione e riempimenti in tempo reale. Flash Player 10 permetteva la lettura dei dati binari dei file musicali e l'accesso diretto al sound buffer; inoltre consentiva di creare nuovi tipi di applicazioni audio, quali mixer e sequencer di musica, file audio in real time per i videogiochi e visualizzatori audio. Per quanto riguarda i formati Video Flash Player 10 permetteva di gestire lo streaming in maniera dinamica e prevedeva il supporto a bitrate multipli.
+
+Flash Lite: Era una versione realizzata appositamente per i cellulari e le apparecchiature portatili

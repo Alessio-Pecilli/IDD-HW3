@@ -1,0 +1,132 @@
+NoSQL è un movimento che promuove sistemi software dove la persistenza dei dati è in generale caratterizzata dal fatto di non utilizzare il modello relazionale, di solito usato dalle basi di dati tradizionali (RDBMS). L'espressione fa infatti riferimento al linguaggio SQL, che è il più comune linguaggio di interrogazione dei dati nei database relazionali, qui preso a simbolo dell'intero paradigma relazionale.
+
+Questi archivi di dati il più delle volte non richiedono uno schema fisso (schemeless), evitano spesso le operazioni di giunzione (join) e puntano a scalare in modo orizzontale. Gli accademici e gli articoli si riferiscono a queste basi di dati come memorizzazione strutturata (structured storage).
+
+Etimologia del termine
+Il termine NoSQL fu usato per la prima volta nel 1998 per una base di dati relazionale open source che non usava un'interfaccia SQL.
+L'autore Carlo Strozzi, dichiarò che "come movimento, NoSQL diparte in modo radicale dal modello relazionale, e quindi andrebbe chiamato in modo più appropriato NoREL, o qualcosa di simile".
+
+All'opposto di quanto si potrebbe pensare, il movimento NOSQL non è contrario all'utilizzo di database relazionali. Il termine NOSQL infatti è acronimo di Not Only SQL, a significare che esistono diversi casi d'uso per i quali il modello relazionale rappresenta una forzatura, ma tanti altri per i quali tale modello è ancora la soluzione migliore.
+
+Il termine fu riutilizzato nel 2009 da un dipendente di Rackspace, Eric Evans, quando Johan Oskarsson di Last.fm volle organizzare un evento per discutere di basi di dati distribuite open source.
+Il nome era un tentativo per etichettare il crescente numero di data base non relazionali e distribuiti che spesso non forniscono le classiche caratteristiche ACID: atomicità, coerenza, isolamento, durabilità. Il motivo per il quale tali caratteristiche non venivano fornite è il cosiddetto teorema CAP.
+
+Implementazioni
+Implementazioni degne di nota sono Cloudant di IBM, BigTable di Google e Dynamo di Amazon.com, e le varianti open source come Apache Accumulo, HBase e Cassandra.
+
+Classificazione
+Le implementazioni di NoSQL possono essere categorizzate dal tipo di modello di dati adottato. Segue una descrizione delle categorie più diffuse.
+
+Basi di dati orientate al documento
+
+Una Base di dati orientata al documento è un programma per applicazioni orientate al documento. Questi sistemi potrebbero essere implementati come strato sopra un database relazionale o a oggetti.
+
+Le basi di dati orientate al documento non memorizzano i dati in tabelle con campi uniformi per ogni record come nei database relazionali, ma ogni record è memorizzato come un documento che possiede determinate caratteristiche. Qualsiasi numero di campi con qualsiasi lunghezza può essere aggiunto al documento. I campi possono anche contenere pezzi multipli di dati.
+
+Alcuni esempi di basi dati di questo tipo sono:
+
+Colayer
+Elasticsearch
+CouchDB
+CouchBase
+Apache Jackrabbit
+Lotus Notes
+MongoDB
+Apache Solr
+OrientDB
+Raven DB
+Base di dati XML
+MarkLogic Server
+eXist
+BaseX
+
+Base di dati a grafo
+
+Una base di dati a grafo usa nodi e archi per rappresentare e archiviare l'informazione.
+La rappresentazione dei dati mediante grafi offre un'alternativa al modello relazionale che fa uso di tabelle, alle basi di dati orientate al documento (che usano documenti), o altri, come i sistemi ad archivi strutturati (structured storage) basati su colonne o su cesti non interpretati di dati.
+
+I database a grafo sono spesso più veloci di quelli relazionali nell'associazione di set di dati, e mappano in maniera più diretta le strutture di applicazioni orientate agli oggetti.
+Scalano più facilmente a grandi quantità di dati e non richiedono le tipiche e onerose operazioni di unione (join).
+Dipendono meno da un rigido schema entità-relazione e sono molto più adeguati per gestire dati mutevoli con schemi evolutivi.
+Al contrario, i database relazionali sono tipicamente più veloci nell'eseguire le stesse operazioni su un grande numero di dati.
+
+Alcuni esempi di basi dati di questo tipo sono:
+
+AllegroGraph
+Core Data
+Neo4j
+OrientDB
+DEX/Sparksee
+Unisys DMS (Data Management System) creato dalla Burroughs Corporation nel 1972
+IBM DL1 (Data Language One). Il grafo ha una struttura gerarchica
+
+Chiave/valore archiviato su disco
+DensoDB
+Tuple space
+Memcachedb
+Redis
+SimpleDB
+Tokyo Cabinet
+BigTable
+Orient Key/Value Server
+Pincaster
+
+Chiave/valore cache in RAM
+memcached
+Velocity
+Redis
+
+Valore/chiave eventually‐coerente
+Dynamo
+Cassandra
+Project Voldemort
+
+Chiave-valore che conserva mediante l'implementazione di Paxos
+Keyspace
+
+Chiave-valore ordinato
+NMDB
+Memcachedb
+Berkeley DB
+
+Basi di dati multivalore
+OpenQM
+Rocket U2
+TigerLogic D3
+
+Basi di dati a oggetti
+
+Un modello di banca dati ad oggetti è un modello in cui l'informazione è rappresentata in forma di oggetti come nei linguaggi di programmazione ad oggetti.
+
+Le banche dati a oggetti sono situate in un mercato di nicchia rispetto al modello relazionale (RDBMS).
+Vennero prese in considerazione sin dagli anni ottanta e novanta, ma ebbero uno scarso impatto commerciale e vennero usate solo in campi specifici.
+
+I campi d'applicazione sono: ingegneria, banche dati spaziali, telecomunicazioni, e aree scientifiche come la fisica delle alte energie e la biologia molecolare.
+
+I database a oggetti detengono il record per la più grande base di dati al mondo (essendo il primo a contenere oltre 1000 TB allo Stanford Linear Accelerator Center) e il più alto tasso di assorbimento mai registrato per un database commerciale di oltre 1 TB per un'ora.
+
+Un altro gruppo di database a oggetti si focalizza sull'uso in sistemi real time.
+
+Alcuni esempi di basi dati di questo tipo sono:
+
+Db4o
+PostgreSQL
+GemStone/S
+InterSystems Caché
+Objectivity/DB
+ZODB
+OrientDB
+
+Tabulare
+BigTable
+Mnesia
+Hbase
+Hypertable
+
+Archiviazione in tuple
+Apache River
+
+Sconosciuto
+GT.M
+Moneta
+FluidDB

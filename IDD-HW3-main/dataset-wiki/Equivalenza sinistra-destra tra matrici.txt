@@ -1,0 +1,20 @@
+In matematica, e più precisamente in algebra lineare, due matrici e sono SD-equivalenti quando esistono due matrici invertibili e tali che:
+
+La sigla SD sta per equivalenza sinistra-destra.
+
+La SD-equivalenza è una relazione di equivalenza, e induce quindi una partizione dell'insieme di tutte le matrici a valori in un campo . Si tratta di una relazione di equivalenza più semplice della più usata similitudine: due matrici risultano essere SD-equivalenti se e solo se hanno lo stesso rango.
+
+Definizione
+Siano e due matrici , Queste sono SD-equivalenti se esistono due matrici invertibili e (la prima , la seconda ) tali che:
+
+Rango
+Il rango è un invariante completo per la SD-equivalenza: questo vuol dire che due matrici
+sono SD-equivalenti se e solo se hanno lo stesso rango.
+
+In particolare, ogni matrice è SD-equivalente ad una matrice del tipo:
+
+dove è il rango di , è la matrice identità e è la matrice nulla .
+
+Relazioni con le altre equivalenze
+Due matrici simili sono anche SD-equivalenti. L'opposto non è però vero in generale. Ad esempio, le matrici costanti di un dato ordine multiple dell'identità sono tutte SD-equivalenti, mentre ciascuna di esse da sola costituisce una classe di similitudine;
+ancora due matrici con lo stesso rango ma con diverso determinante (oppure con autovalori differenti) sono SD-equivalenti ma non simili; evidenti coppie di queste matrici hanno la forma con c .

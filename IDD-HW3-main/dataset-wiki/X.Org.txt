@@ -1,0 +1,32 @@
+X.Org, o più semplicemente XOrg è l'implementazione open source ufficiale del gestore grafico X Window System, il cui sviluppo è curato dalla fondazione X.Org Foundation.
+
+Viene fornito con la maggior parte delle distribuzioni Linux e con BSD (come FreeBSD); esistono anche dei port per Windows utilizzando Cygwin.
+
+Storia
+
+Nacque come prosecuzione di XFree86 poiché quest'ultimo, cambiando licenza e rendendosi incompatibile con la GPL, non poteva più essere incluso nelle distribuzioni Linux ed è stato necessario avviare un nuovo progetto, nel quale sono confluiti la maggior parte dei programmatori di XFree86.
+
+Nel dicembre del 2005 venne pubblicato XOrg X11R7.0, la prima grande pubblicazione del sistema X Window dopo dieci anni di sviluppo discontinuo. Parallelamente è stato pubblicato X11R6.9, contenente lo stesso codice della 7.0, ma in un unico blocco di circa 16 milioni di righe di codice. Proprio questa è una delle maggiori innovazioni rispetto al passato: XOrg 7.0 ha portato la modularizzazione del codice del server grafico, ponendo le basi per una maggior rapidità di sviluppo, ovvero permettendo una pubblicazione stabile ogni sei mesi. Fra le numerose note innovative, oltre ad aggiornati driver per hardware video, troviamo EXA, la nuova architettura di accelerazione.
+
+L'ultima release stabile è la 7.7 (X11R7.7), pubblicata il 6 giugno 2012. Nel 2025 è stato creato anche un fork indipendente denominato X11Libre, progetto creato da Eugenio Weigelt.
+
+La fondazione X.Org
+La fondazione "X.Org Foundation L.L.C." è una giovane azienda scientifica istituita per sviluppare strategie che forniscono gli standard mondiali per la tecnologia X Window System. Il gruppo è attualmente gestito da un consiglio di amministrazione che comprende:
+
+Stuart Anderson (Free Standards Group),
+Egbert Eich (SUSE),
+Jim Gettys (HP),
+Georg Greve (Free Software Foundation Europe)
+Stuart Kreitman (SUN Microsystems),
+Kevin Martin (Red Hat),
+Jim McQuillan (Progetto Linux Terminal Server),
+Leon Shiman (Shiman Associates)
+Jeremy White (Code Weavers)
+
+Cronologia delle versioni principali
+febbraio 2007, XOrg X11R7.2
+settembre 2007, XOrg X11R7.3
+settembre 2008, XOrg X11R7.4
+ottobre 2009, XOrg X11R7.5
+dicembre 2010, XOrg X11R7.6
+giugno 2012, XOrg X11R7.7

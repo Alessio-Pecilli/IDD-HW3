@@ -1,0 +1,87 @@
+Il merge sort è un algoritmo di ordinamento basato su confronti che utilizza un processo di risoluzione ricorsivo, sfruttando la tecnica del Divide et Impera, che consiste nella suddivisione del problema in sottoproblemi della stessa natura di dimensione via via più piccola. Fu inventato da John von Neumann nel 1945. Una descrizione dettagliata e un'analisi della versione bottom-up dell'algoritmo apparve in un articolo di Goldstine e Neumann già nel 1948.
+
+Descrizione dell'algoritmo
+Concettualmente, l'algoritmo funziona nel seguente modo:
+Se la sequenza da ordinare ha lunghezza 0 oppure 1, è già ordinata. Altrimenti:
+La sequenza viene divisa (divide) in due metà (se la sequenza contiene un numero dispari di elementi, viene divisa in due sottosequenze di cui la prima ha un elemento in più della seconda)
+Ognuna di queste sottosequenze viene ordinata, applicando ricorsivamente l'algoritmo (impera)
+Le due sottosequenze ordinate vengono fuse (combina). Per fare questo, si estrae ripetutamente il minimo delle due sottosequenze e lo si pone nella sequenza in uscita, che risulterà ordinata
+
+Esempio di funzionamento
+
+Supponendo di dover ordinare la sequenza [10 3 15 2 1 4 9 0], l'algoritmo procede ricorsivamente dividendola in metà successive, fino ad arrivare agli elementi
+
+[10] [3] [15] [2] [1] [4] [9] [0]
+
+A questo punto si fondono (merge) in maniera ordinata gli elementi, riunendoli in coppie:
+
+[3 10] [2 15] [1 4] [0 9]
+
+Al passo successivo, si fondono le coppie di array di due elementi:
+
+[2 3 10 15] [0 1 4 9]
+
+Infine, fondendo le due sequenze di quattro elementi, si ottiene la sequenza ordinata:
+
+[0 1 2 3 4 9 10 15]
+
+L'esecuzione ricorsiva all'interno del calcolatore non avviene nell'ordine descritto sopra. Tuttavia, si è formulato l'esempio in questo modo per renderlo più comprensibile.
+
+Implementazione
+
+L'algoritmo può essere implementato fondamentalmente tramite due tecniche:
+Top-Down, che è quella presentata in questa pagina. Opera da un insieme e lo divide in sotto insiemi fino ad arrivare all'insieme contenente un solo elemento, per poi riunire le parti scomposte;
+Bottom-Up, che consiste nel considerare l'insieme come composto da un vettore di sequenze. Ad ogni passo vengono fuse due sequenze.
+
+Una possibile implementazione dell'algoritmo in forma di pseudocodice tramite una tecnica top-down è la seguente:
+
+function mergesort (a[], left, right)
+if left < right then
+center ← (left + right) / 2
+mergesort(a, left, center)
+mergesort(a, center+1, right)
+merge(a, left, center, right)
+
+Una possibile implementazione della funzione merge (unione di due sottosequenze ordinate) è la seguente:
+
+function merge (a[], left, center, right)
+i ← left
+j ← center + 1
+k ← 0
+b ← array temp size= right-left+1
+
+while i ≤ center and j ≤ right do
+if a[i] ≤ a[j] then
+b[k] ← a[i]
+i ← i + 1
+k ← k + 1
+else
+b[k] ← a[j]
+j ← j + 1
+k ← k + 1
+end while
+
+while i ≤ center do
+b[k] ← a[i]
+i ← i + 1
+k ← k + 1
+end while
+
+while j ≤ right do
+b[k] ← a[j]
+j ← j + 1
+k ← k + 1
+end while
+
+for k ← left to right do
+a[k] ← b[k-left]
+
+Analisi
+L'algoritmo Merge Sort, per ordinare una sequenza di oggetti, ha complessità temporale sia nel caso medio che nel caso pessimo. Infatti:
+la funzione merge qui presentata ha complessità temporale
+mergesort richiama se stessa due volte, e ogni volta su (circa) metà della sequenza in input
+Da questo segue che il tempo di esecuzione dell'algoritmo è dato dalla ricorrenza:
+
+la cui soluzione in forma chiusa è , per il secondo caso del teorema principale.
+
+Esistono implementazioni più efficienti della procedura merge, che hanno nel caso migliore complessità . Infatti, se i due array da fondere sono già ordinati, è sufficiente confrontare l'ultimo elemento del primo array con il primo elemento del secondo array per sapere che si può fonderli senza effettuare ulteriori confronti. Per cui si può implementare l'algoritmo mergesort in modo che abbia complessità O(nlogn) nel caso peggiore, e O(n) nel caso migliore, cioè quando l'array è già ordinato.

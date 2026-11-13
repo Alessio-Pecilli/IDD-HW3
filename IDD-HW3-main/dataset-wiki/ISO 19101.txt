@@ -1,0 +1,6 @@
+Lo standard ISO19101 - Modello di riferimento fa parte degli standard prodotti da ISO/TC211 e definisce l'architettura per l'unificazione nel campo delle informazioni geografiche ed espone i principi di base sui quali definirla.
+L'architettura identifica i campi ed il contesto in cui avviare l'attività di normazione.
+L'architettura indica il metodo con cui determinare l'oggetto della normazione e descrive in quale modo sono collegati i contenuti delle norme.
+Lo standard è indipendente da qualsiasi metodo di sviluppo di applicazioni o approccio tecnologico per la realizzazione.
+
+La norma italiana UNI-EN-ISO19101 è la versione ufficiale in lingua inglese della norma europea EN ISO 19101 (edizione gennaio 2005).

@@ -1,0 +1,71 @@
+Ecosia è un motore di ricerca e browser, gestito dall'omonima azienda con sede a Berlino, di cui Christian Kroll è il fondatore e proprietario; l'azienda dichiara di essere senza scopo di lucro, dedicando il 100% dei profitti derivanti dalla pubblicità online ad azioni per il clima, di cui almeno l'80% a progetti di riforestazione in più di trenta Paesi nel mondo.
+
+Storia
+Il motore di ricerca Ecosia è stato creato da Christian Kroll a Wittenberg (Germania), ed è il successore dei motori di ricerca Xabbel, Forestle, Znout e Treely, da lui sempre ideati.
+
+Kroll, dopo aver studiato amministrazione aziendale a Norimberga (Germania), iniziò a viaggiare il mondo per trovare ispirazione su modelli di business a impatto sociale positivo. A seguito della visita in India e Thailandia, decise di stabilirsi in Nepal, dove creò "Xabbel.org", un motore di ricerca locale reso disponibile nel 2008, con lo scopo di finanziare, tramite i guadagni prodotti dalla pubblicità, progetti umanitari di ONG locali, tra cui donazioni a persone economicamente in difficoltà in Nepal e a un centro di educazione per donne in Etiopia; tuttavia, la scarsità di elettricità nel luogo ha comportato l'interruzione del progetto e la successiva dismissione del sito avvenuta nel 2010.
+
+In seguito, Kroll si stabilì in Argentina per qualche mese, dove venne a conoscenza dei progetti di riforestazione nella foresta pluviale atlantica tra l'Argentina e il Brasile e trovò ispirazione nel leggere il testo di Thomas Friedman Hot, Flat and Crowded; in questo contesto, Kroll maturò la volontà di contribuire alla preservazione delle foreste per mezzo di un motore di ricerca che potesse finanziare progetti di piantumazione e recupero delle stesse; così un nuovo motore di ricerca, "Forestle.org", venne reso disponibile nell'agosto 2008, in collaborazione con Google, che forniva i risultati delle ricerche e le inserzioni; tuttavia, dopo quattro giorni la collaborazione fu interrotta e la motivazione data è stata che gli utenti avrebbero potuto cliccare sulle inserzioni per supportare la causa di beneficenza, comportando spese aggiuntive per gli inserzionisti. Per questo motivo, Kroll nel novembre 2008 avviò una nuova partnership commerciale con Yahoo!. Con il crescere degli utenti in Germania, Austria e Svizzera, fu deciso di concentrare le attività sul neonato Ecosia. Complessivamente, grazie ai ricavi dal sito Forestle, sono stati dichiarati donati 95.000&nbsp;€ al programma "Adopt an Acre" di The Nature Conservancy per la riforestazione in Costa Rica.
+
+Sempre nel 2008 fu avviato "Znout.org" (nome derivante dalla contrazione di "zero negative output"), un motore di ricerca, basato su Google, carbonicamente neutrale grazie all'acquisto di certificati di energia rinnovabile, compensando le emissioni di anidride carbonica associate al suo funzionamento.
+
+Il sito "Ecosia.org" è stato reso disponibile su Internet il 7 dicembre 2009, in concomitanza della conferenza ONU sui cambiamenti climatici di Copenaghen, grazie al supporto tecnologico di Microsoft Bing e di Yahoo!, e la pubblicizzazione da parte del WWF.
+
+Ecosia dichiarò di donare almeno l'80% dei propri introiti generati dai clic degli utenti sulle inserzioni pubblicitarie al programma del WWF per la salvaguardia della foresta pluviale tropicale presso il fiume Juruena, nel comune brasiliano di Apuí; tale collaborazione è durata dal 2009 fino a settembre 2013, con una donazione complessiva di quasi 1,3 milioni di euro, e oltre alla preservazione della foresta del Parco nazionale del Juruena, la collaborazione si è incentrata anche sul parco nazionale di Tumucumaque, nel nord del Brasile, tramite un programma di formazione per professori finalizzato a promuovere la valorizzazione e la protezione del proprio patrimonio ambientale.
+
+Nel 2011 è stato aperto il motore di ricerca "Treely.org", che dichiarava di donare almeno il 75% dei ricavi dagli acquisti su siti convenzionati (tra cui Apple Store, Amazon ed eBay) al programma "Plant a Billion Trees" di The Nature Conservancy, impegnato a favore della riforestazione della foresta atlantica brasiliana.
+
+Nel 2011 è stato registrato il marchio "Ecosia" presso l'EUIPO e nel 2017 il logo.
+
+Nell'agosto 2013, i siti web Forestle, Znout e Treely hanno cessato l'attività e i loro URL sono stati reindirizzati al sito di Ecosia.
+
+Dal 2013 al 2018 Tim Schumacher è stato comproprietario di Ecosia.
+
+Dal 2015 la società Ecosia supporta diversi partner in Burkina Faso.
+
+Il 3 luglio 2020 è stata raggiunta la cifra stimata dal contatore presente sul sito di 100 milioni di alberi piantati.
+
+Il 22 aprile 2026 è stata raggiunta la cifra stimata di 250 milioni di alberi piantati.
+
+Funzionamento
+I risultati di ricerca vengono forniti dalla tecnologia di Microsoft Bing affiancata da algoritmi proprietari. I guadagni di Ecosia provengono dai clic degli utenti sulle inserzioni pubblicitarie presenti nei risultati di ricerca, identificate con la scritta "Annuncio" e gestite da Bing, che le assegna una parte dei ricavi, corrispondenti mediamente a qualche centesimo di euro per ogni clic, o a una percentuale della vendita di prodotti effettuata tramite i link di sponsorizzazione, denominati "Ecolinks". Il guadagno dipende dal valore degli annunci cliccati, associati alla particolare ricerca, e dal periodo in cui avviene la ricerca; in media è stato stimato pari a 0,50 euro per ricerca nel 2021, che corrisponde al finanziamento della piantumazione di un albero ogni quarantacinque ricerche, cioè un albero ogni secondo.
+
+Progetti ambientali
+Riforestazione
+Ecosia dichiara di utilizzare parte dei guadagni in progetti finalizzati a piantare alberi, i quali danno un contributo essenziale alla sostenibilità della vita sulla Terra:
+
+assorbendo l'anidride carbonica dall'atmosfera grazie al processo di fotosintesi, contrastano le emissioni antropiche di anidride carbonica e i correlati problemi ambientali, tra cui l'aumento dell'effetto serra e l'acidificazione degli oceani;
+rendono fertile il suolo;
+interagiscono con il ciclo dell'acqua, favorendo le precipitazioni;
+contrastano l'erosione da vento e da dilavamento del suolo.
+
+Il criterio che Ecosia dichiara di utilizzare per la scelta di dove attuare progetti di riforestazione coinvolge l'aspetto sociale, scegliendo principalmente le zone del pianeta povere, e l'aspetto ecologico, scegliendo gli hotspot di biodiversità.
+
+In Tanzania
+Ecosia lavora dal 2017 con organizzazioni per ripiantare alberi tramite iniziative di comunità in Tanzania, nei luoghi dove vi è deforestazione, che è causa della mancanza di acqua, della malnutrizione e della perdita di biodiversità. Le cause del disboscamento sono principalmente i carbonai e l'agricoltura non sostenibile.
+
+In Ghana
+
+A causa del diboscamento, del sovrapascolo e del clima incerto nel nord del Ghana, il fiume Daka, che è alla base delle attività di centinaia di villaggi che utilizzano le sue acque per bere, lavarsi, cucinare e per l'agricoltura, è rimasto prosciugato per mesi. Con la collaborazione di Tree Aid, Ecosia ha finanziato il rimboschimento delle sponde del fiume con alberi da frutto (baobab e caritè), per supportare un collettivo di donne commercianti e fornire sostentamento alle comunità locali, oltre che protezione dall'erosione fluviale.
+
+Nel nord-est del Ghana, in collaborazione con Eco Restore, Ecosia ha finanziato la piantumazione di alberi nativi per supportare l'agricoltura di sussistenza a mezzo milione di persone.
+
+Gli alberi che sono stati dichiarati piantati dal 2017 al 2020 sono 1,36 milioni, su una superficie di 760 ettari. Molte delle specie arboree piantate sono sia autoctone sia in pericolo di estinzione, e sono: Khaya senegalensis, Afzelia africana, Pterocarpus erinaceus, Ceiba pentandra, Parkia bilobosa, Borassus aethiopum.
+
+In Spagna
+La desertificazione in corso in Spagna ha spinto Ecosia a finanziare il rimboschimento di circa 138.000 alberi su una superficie di 240 ettari dal 2017 al 2020, nel comune di Vélez-Blanco. La principale causa della desertificazione si ritiene essere l'agricoltura intensiva, che ha deprivato il suolo degli elementi nutritivi necessari alle piante.
+
+L'approccio scelto da Ecosia, in collaborazione con l'Asociación Alvelal, è stato quello dell'agricoltura rigenerativa. Le specie autoctone piantate sono state il Pinus halepensis, il Juniperus phoenicea e oxycedrus, il Quercus ilex e coccifera e il Rhamnus lycioides.
+
+Neutralità carbonica
+Fino al 2017 la società Ecosia ha affermato di essere stata CO2 neutrale, cioè in grado di compensare il 100% delle emissioni di anidride carbonica causate dal server (sia proprio che per l'aliquota relativa ai partner Bing e Yahoo!), dall'infrastruttura informatica, dalle attività aziendali (riscaldamento, elettricità in ufficio e viaggi) e dai dispositivi degli utenti. Nel 2013 Ecosia ha stimato che, tenendo conto dei fattori precedentemente riportati, per ogni ricerca effettuata vengono mediamente emessi 0,7&nbsp;g di anidride carbonica, che moltiplicati per il numero medio di ricerche effettuate in un mese (20&nbsp;milioni), producono 14&nbsp;t di anidride carbonica ogni mese. La compensazione delle emissioni viene svolta attraverso l'organizzazione myclimate, finanziando un progetto per la produzione e distribuzione di forni solari e stufe a legna efficienti da donare a persone povere nel sud del Madagascar, che ha ottenuto il marchio di qualità "Gold Standard".
+
+Nel 2017 la società di Ecosia si è dotata di un impianto a pannelli fotovoltaici da 531&nbsp;kW, dichiarando in questo modo di riuscire complessivamente a rimuovere anidride carbonica dall'atmosfera più di quanto le proprie attività ne immettano, tenendo conto dell'anidride carbonica assorbita durante la vita degli alberi piantati dai propri progetti.
+
+Progetti umanitari
+Dal 2014 l'azienda Ecosia rientra tra le imprese sociali certificate come B-corporation da B-Labs.
+
+Progetti correlati
+Ecosia ha aperto un negozio online di merchandising a tema.
+
+Nell'ottobre 2020, la società di Ecosia ha lanciato il progetto TreeCard, cioè una carta di debito che devolve l'80% delle commissioni ai progetti di rimboschimento di Ecosia.

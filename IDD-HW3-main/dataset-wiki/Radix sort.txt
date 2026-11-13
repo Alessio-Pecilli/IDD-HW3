@@ -1,0 +1,35 @@
+Il radix sort è un algoritmo di ordinamento per valori numerici interi con complessità computazionale O(), dove è la lunghezza dell'array e è la media del numero di cifre degli numeri.
+
+Radix sort utilizza un procedimento controintuitivo per l'uomo, ma più facilmente implementabile. Esegue gli ordinamenti per posizione della cifra ma partendo dalla cifra meno significativa. Questo affinché l'algoritmo non si trovi a dovere operare ricorsivamente su sottoproblemi di dimensione non valutabili a priori.
+
+Considerazioni sull'algoritmo
+L'algoritmo radix sort ha complessità computazionale variabile in base al valore . Se risulta essere minore di , non si ha guadagno rispetto a counting sort che opera in tempo lineare.
+
+Se è invece maggiore di , l'algoritmo può risultare peggiore anche dei più classici algoritmi di ordinamento per confronto a tempo quasi lineare, come quicksort o mergesort.
+
+Usando come base dell'algoritmo un valore il tempo di ordinamento diviene
+
+La precedente definizione è dimostrabile ricordando che ci sono passate di Integer sort e ciascuna richiede tempo .
+
+Usando le regole per il cambiamento di base dei logaritmi, il tempo totale è dato da .
+
+A questa quantità va aggiunto per contemplare il caso in cui , dato che la sequenza va almeno letta.
+
+Pseudocodice
+Ogni elemento nell'array di elementi ha cifre, dove è la cifra di ordine più basso e quella di ordine più alto.
+
+Radix-sort (A, d)
+for i <- 1 to d
+do usa un ordinamento stabile per ordinare l'array A sulla cifra i
+
+Storia
+
+Origini
+L'idea fondamentale del radix sort fu originariamente applicata alle macchine di smistamento a schede perforate, sviluppate da Herman Hollerith alla fine del XIX secolo. Queste macchine furono impiegate per il censimento degli Stati Uniti del 1890, dimostrando un'efficienza notevole nella gestione e nell'ordinamento di grandi volumi di dati. Le schede perforate, tipicamente formate da 80 colonne, potevano essere perforate in una delle 12 posizioni disponibili per ciascuna colonna, consentendo la codifica di numeri, lettere e simboli.
+
+Il processo di ordinamento manuale o semi-meccanico sulle schede perforate seguiva la logica del radix sort: le schede venivano smistate ripetutamente in base a cifre successive, partendo da quella meno significativa (LSD, Least Significant Digit) fino ad arrivare a quella più significativa (MSD, Most Significant Digit). Per ogni passaggio, le schede venivano distribuite in scomparti corrispondenti al valore della cifra corrente e poi raccolte, mantenendo l'ordine relativo acquisito nei passaggi precedenti. Le aziende fondate da Hollerith, che in seguito confluirono in IBM, furono pioniere nell'utilizzo e nello sviluppo di queste tecniche.
+
+Sviluppi Informatici
+L'algoritmo del radix sort fu formalizzato e analizzato nel contesto dei calcolatori elettronici da Harold H. Seward nel 1954, attraverso il suo rapporto tecnico Information sorting in the A-2 computer del MIT. Il lavoro di Seward adattò i principi di ordinamento delle schede perforate all'architettura e alle capacità dei computer emergenti, dimostrando la possibilità di un ordinamento efficiente anche in questo nuovo contesto.
+
+Nonostante l'affermazione di altri algoritmi di ordinamento basati sui confronti (come Quicksort e Mergesort), il radix sort mantiene la sua rilevanza, specialmente per l'ordinamento di numeri interi o stringhe con un intervallo di valori limitato. La sua caratteristica di essere un algoritmo non-comparativo gli permette di raggiungere una complessità temporale di O(nk) nel caso peggiore, dove n è il numero di elementi e k è il numero di cifre (o passaggi), rendendolo potenzialmente più veloce per specifici tipi di dati rispetto agli algoritmi O(nlogn).

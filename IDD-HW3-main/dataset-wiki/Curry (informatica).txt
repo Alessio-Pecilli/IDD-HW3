@@ -1,0 +1,37 @@
+Curry è un linguaggio di programmazione logico-funzionale derivato da Haskell e tuttora in fase di standardizzazione. Il linguaggio fu chiamato così in onore del logico statunitense Haskell Curry.
+Esso eredita la sintassi e le caratteristiche funzionali del padre, integrando alcuni componenti logiche che ne aumentano le potenzialità espressive.
+
+Nel seguito si riportano solo le differenze rispetto ad Haskell.
+
+Non-determinismo
+Mentre nei linguaggi funzionali (o anche quelli imperativi) l'esecuzione di una funzione ritorna un solo preciso valore (si dice che la funzione è deterministica), in Curry una funzione può ritornare zero, uno o più valori (si dice che la funzione è non-deterministica).
+Il programma al termine restituisce non deterministicamente tutti i possibili risultati.
+
+Ad esempio, considerando il seguente frammento Haskell,
+
+l'esecuzione di listEmpty [] ritorna True in Haskell, in quanto essendo deterministico esegue la prima espressione capace di unificarsi con i parametri attuali. In Curry l'esecuzione ritorna entrambi i valori True e False.
+
+In pratica quando più espressioni possono essere unificate con i parametri attuali (si dice che sono in overlap) il Curry le esegue tutte. Questa è la caratteristica che potenzialmente rende i programmi scritti in Haskell incompatibili con Curry.
+
+In questo semplice esempio, per correggere il problema è necessario eliminare il non-determinismo rafforzando gli argomenti o aggiungendo delle guardie.
+Ad esempio,
+
+L'operatore ?
+
+Un altro modo per generare il non determinismo è mediante l'operatore ?.
+Si tratta di semplice zucchero sintattico, in quanto
+
+equivale a
+
+L'operatore è definito molto semplicemente con
+
+È possibile, ad esempio, ottenere non-deterministicamente tutti gli elementi di una lista nel modo seguente:
+
+Variabili logiche
+Il Curry introduce la parola chiave free, che permette di dichiarare una variabile come "libera". Il motore interno della macchina astratta si preoccuperà di istanziare opportunamente tale variabile ritornando tutte le possibili soluzioni.
+
+Ad esempio z && (y || not x) where x, y free restituisce tutte le possibilità:
+
+L'implementazione utilizza due approcci per la risoluzione delle variabili logiche: narrowing e residuation.
+
+Vincoli

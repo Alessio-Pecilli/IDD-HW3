@@ -1,0 +1,24 @@
+Il linguaggio L è un linguaggio di programmazione ideato da Albert R. Meyer e da Dennis Ritchie che calcola solamente funzioni ricorsive primitive. I programmi scritti in linguaggio L prendono il nome di "programmi Loop" (Loop programs).
+
+Istruzioni
+Il linguaggio L prevede cinque tipi di istruzioni:
+azzeramento: V = 0
+incremento: V = V + 1
+assegnazione: V = V'
+ciclo: LOOP V
+termine del ciclo: END
+
+Le istruzioni 4 e 5 si comportano come le parentesi.
+
+Un blocco di codice inserito tra un LOOP-END viene eseguito esattamente il numero di volte del valore assunto dalla variabile V all'inizio del ciclo, indipendentemente dal fatto che tale valore possa variare nel corso dell'iterazione. Questo assicura la terminazione dei programmi Loop.
+
+Profondità di nidificazione
+È possibile inserire cicli all'interno dei blocchi LOOP-END. Un programma che presenta n cicli annidati ha profondità n ed appartiene alla classe . Un programma che utilizza solo le istruzioni 1, 2 e 3 ha profondità 0 ed appartiene alla classe .
+
+Se è la classe delle funzioni calcolabili dai programmi appartenenti alla classe , è la classe delle funzioni calcolabili in L.
+
+Funzioni ricorsive primitive
+Il linguaggio L calcola tutte le funzioni ricorsive primitive essendo le funzioni base calcolabili utilizzando programmi di profondità 0 ed essendo la classe chiusa per composizione e ricorsione.
+
+Tempo di esecuzione
+Il tempo di esecuzione di un programma Loop è il numero d'istruzioni eseguite per calcolare la funzione. La funzione di un programma P appartiene a .

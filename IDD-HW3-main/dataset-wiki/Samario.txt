@@ -1,0 +1,81 @@
+Il samario è un elemento chimico, con simbolo Sm e numero atomico 62. È un metallo argenteo moderatamente duro che si ossida lentamente all'aria. Essendo un membro della serie dei lantanidi, il samario di solito ha lo stato di ossidazione +3. Sono noti anche composti del samario(II), in particolare il monossido SmO, i monocalcogeni SmS, SmSe e SmTe, oltre all'ioduro di samario(II) SmI2.
+
+Scoperto nel 1879 dal chimico francese Paul-Émile Lecoq de Boisbaudran, il samario fu chiamato così in onore del minerale samarskite da cui venne isolato. Il minerale stesso fu chiamato in onore di un ingegnere russo, il colonnello Vassili Samarsky-Bykhovets.
+
+Il samario si trova in concentrazioni fino al 2,8% in diversi minerali, tra cui cerite, gadolinite, samarskite, monazite e bastnaesite (gli ultimi due sono le fonti commerciali più comuni dell'elemento). Questi minerali si trovano principalmente in Cina, Stati Uniti, Brasile, India, Sri Lanka e Australia; la Cina è il leader mondiale nell'estrazione e nella produzione di samario.
+
+L'uso commerciale principale del samario è nei magneti al samario-cobalto, che hanno una magnetizzazione permanente seconda solo ai magneti al neodimio; tuttavia, i composti di samario possono sopportare temperature significativamente più elevate, superiori a 700 °C, senza perdere le loro proprietà magnetiche permanenti. Il radioisotopo samario-153 è il componente attivo del farmaco samario (^{153}Sm) lexidronam, che distrugge le cellule tumorali nel cancro ai polmoni, al carcinoma prostatico, al cancro al seno e all'osteosarcoma. Un altro isotopo,^{149}Sm, è un forte assorbitore di neutroni ed è quindi aggiunto alle barre di controllo dei reattori nucleari. Si forma anche come prodotto di decadimento durante il funzionamento del reattore ed è uno dei fattori importanti considerati nella progettazione e nel funzionamento dei reattori.
+
+Altri usi del samario includono la catalisi di reazioni chimiche, la datazione radioattiva e i laser a raggi X. In particolare, l'ioduro di samario(II) è un comune agente riducente nella sintesi chimica. Il samario non ha alcun ruolo biologico; alcuni sali di samario sono leggermente tossici.
+
+Caratteristiche Fisiche
+Il samario è un elemento delle terre rare, con durezza e densità simili allo zinco. Con un punto di ebollizione di 1.794 °C (3.261 °F), il samario è il terzo lantanoide più volatile dopo itterbio ed europio ed è comparabile a piombo e bario sotto questo aspetto; ciò facilita la separazione del samario dai suoi minerali. Quando è appena preparato, il samario ha uno splendore argentato e assume un aspetto più opaco quando ossidato nell'aria. Ha uno dei più grandi raggi atomici tra gli elementi; con un raggio di 238 pm, solo potassio, praseodimio, bario, rubidio e cesio sono più grandi.
+
+In condizioni ambientali, il samario ha una struttura romboedrica (forma α). Riscaldandolo a 731 °C (1.348 °F), la sua simmetria cristallina cambia in struttura a impacchettamento compatto esagonale (hcp); la temperatura effettiva di transizione dipende dalla purezza del metallo. Un ulteriore riscaldamento a 922 °C (1.692 °F) trasforma il metallo in una fase cubica a corpo centrato (bcc). Il riscaldamento a 300 °C (572 °F) combinato con una compressione a 40 kbar produce una struttura a doppio impacchettamento esagonale compatto (dhcp). Pressioni più elevate dell'ordine di centinaia o migliaia di kilobar inducono una serie di trasformazioni di fase, in particolare con la comparsa di una fase tetragonale intorno a 900 kbar. In uno studio, la fase dhcp poteva essere prodotta senza compressione, utilizzando un regime di ricottura non in equilibrio con un rapido cambiamento di temperatura tra circa 400 °C (752 °F) e 700 °C (1.292 °F), confermando il carattere transitorio di questa fase del samario. Sottili film di samario ottenuti mediante deposizione da vapore possono contenere le fasi hcp o dhcp a condizioni ambientali.
+
+Il samario e il suo sesquiossido sono paramagnetici a temperatura ambiente. I loro momenti magnetici effettivi corrispondenti, inferiori a 2 magnetoni di Bohr, sono i terzi più bassi tra i lantanidi (e le loro ossidi) dopo il lantanio e il lutezio. Il metallo si trasforma in uno stato antiferromagnetico raffreddandosi a 14,8 K. Singoli atomi di samario possono essere isolati incapsulandoli in molecole di fullerene.Possono anche essere intercalati nelle interstizi del C60 in blocco per formare una soluzione solida di composizione nominale Sm3C60, che è superconduttiva a una temperatura di 8 K. Il drogaggio con samario di superconduttori a base di ferro – una classe di superconduttori ad alta temperatura – aumenta la loro temperatura di transizione alla conduzione normale fino a 56 K, il valore più alto finora raggiunto in questa serie.
+
+Caratteristiche Chimiche
+All'aria, il samario si ossida lentamente a temperatura ambiente e si accende spontaneamente a 150 °C (302 °F). Anche se conservato sotto olio minerale, il samario si ossida gradualmente e sviluppa una polvere grigio-giallastra di miscela ossido-idrossido sulla superficie. L'aspetto metallico di un campione può essere preservato sigillandolo sotto un gas inerte come l'argon.
+
+Il samario è abbastanza elettropositivo e reagisce lentamente con acqua fredda e rapidamente con acqua calda formando idrossido di samario:
+
+{2Sm_{(s)}} + 6H2O_{(l)} -> {2Sm(OH)3_{(aq)}} + 3H2_{(g)}
+
+Il samario si dissolve facilmente in acido solforico diluito formando soluzioni contenenti ioni Sm(III) gialli o verde pallido, che esistono come complessi [Sm(OH2)9]^3+:
+
+{2Sm_{(s)}} + 3H2SO4_{(aq)} -> {2Sm^{3+}_{(aq)}} + 3SO4^2-_{(aq)} + 3H2 _{(g)}
+
+Il samario è uno dei pochi lantanoidi con uno stato di ossidazione +2 relativamente accessibile, insieme a Eu
+
+e Yb
+. Gli ioni Sm^2+ sono rosso sangue in soluzione acquosa.
+
+Applicazioni
+Tra gli usi del samario rientrano:
+
+la produzione di lampade ad arco per la cinematografia, insieme ad altri elementi delle terre rare
+il drogaggio dei cristalli di CaF2 per la realizzazione di laser e maser
+la realizzazione di assorbitori di neutroni nei reattori nucleari
+alcune leghe speciali
+la produzione di magneti permanenti a elevata resistenza alla smagnetizzazione, i magneti samario-cobalto SmCo5
+produzione di vetri capaci di assorbire la luce infrarossa mediante l'addizione di ossido di samario
+la disidratazione e la deidrogenazione dell'etanolo, reazioni per cui l'ossido di samario è un catalizzatore
+la medicina nucleare: l'isotopo 153 è utilizzato in medicina per la terapia delle metastasi ossee. Il samario 153 è sintetizzato a partire da altri isotopi dello stesso elemento esistenti in natura, la cui stabilità come per il 152Sm è stata oggetto di studio fin dagli anni '60, unitamente ad alcune affinità con altri elementi.
+
+Storia
+Il samario fu individuato per la prima volta nel 1853 per via spettroscopica dal chimico svizzero Jean Charles Galissard de Marignac, che ne ipotizzò la presenza nel didimio a partire da alcune righe spettrali. Fu poi il francese Paul Émile Lecoq de Boisbaudran a isolarlo nel 1879 dalla samarskite. Sia quest'ultimo minerale sia l'elemento prendono il nome dall'ingegnere russo Samarskij.
+
+Ruolo biologico
+Il samario non riveste alcun ruolo biologico noto.
+
+Disponibilità
+Il samario non si trova in natura allo stato nativo; come gli altri elementi delle terre rare è contenuto in diversi minerali, tra cui la monazite, la bastnasite e la samarskite. La monazite, che ne contiene fino a 2,8%, e la bastnasite sono le principali fonti industriali di questo elemento.
+
+Solo in tempi relativamente recenti è stato possibile isolare il samario in forma abbastanza pura attraverso tecniche di scambio ionico, estrazione in solvente e galvanostegia.
+
+Il samario metallico è spesso preparato per elettrolisi di una miscela di cloruro di samario e cloruro di sodio o cloruro di calcio fusi. Può essere preparato anche per riduzione dei suoi sali con il lantanio.
+
+Composti
+Tra i composti del samario si annoverano:
+
+fluoruri: SmF2; SmF3
+cloruri: SmCl2; SmCl3; SmOCl
+bromuri: SmBr2; SmBr3
+ioduri: SmI2; SmI3
+ossidi: Sm2O3
+solfuri: Sm2S3
+selenuri: Sm2Se3
+tellururi: Sm2Te3
+
+Isotopi
+Il samario in natura si compone dei 4 isotopi stabili 144Sm, 150Sm, 152Sm, 154Sm e dei 3 isotopi radioattivi 147Sm, 148Sm, 149Sm. Di questi 152Sm è l'isotopo più abbondante e rappresenta in 26,75% del totale.
+
+Gli isotopi radioattivi del samario sono 32, i più stabili sono 148Sm con emivita di , 149Sm con emivita di e 147Sm con emivita di .
+
+Gli altri hanno emivita inferiore a e la maggior parte di essi inferiore a 48 secondi. Questo elemento possiede anche 5 stati metastabili di cui i più stabili sono 141mSm (emivita: 22,6 minuti), 143m1Sm (66 secondi) e 139mSm (10,7 secondi).
+
+La principale modalità di decadimento degli isotopi più leggeri di 152Sm è la cattura elettronica con conseguente trasformazione in isotopi di promezio; quelli più pesanti subiscono invece solitamente il decadimento beta trasformandosi in isotopi dell'europio.
+
+Precauzioni
+Come per gli altri lantanidi, anche i composti del samario posseggono una tossicità medio-bassa, benché non ancora studiata in dettaglio.

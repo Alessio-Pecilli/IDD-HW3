@@ -1,0 +1,16 @@
+Introdotte nel linguaggio di programmazione Lisp, car e cdr (pronunciato o ) sono operazioni primitive che operano su liste concatenate composte da celle cons. Una cella cons è composta da due puntatori; l'operazione estrae il primo puntatore e l'operazione ne estrae il secondo.
+
+Così, l'espressione restituisce x e restituisce y.
+
+Quando le celle cons vengono usate per implementare liste singolarmente concatenate (piuttosto che alberi o altre strutture più complesse), l'operazione restituisce il primo elemento della lista mentre ne restituisce il resto. Per questo motivo queste operazioni vengono a volte chiamate (primo) e (resto) o (testa) e (coda).
+
+Origine dei nomi car e cdr
+In origine Lisp fu implementato su un computer IBM 704, nei tardi anni cinquanta. L'hardware del 704 aveva la possibilità di dividere le parole macchina di in quattro parti, una "parte indirizzo" (address part) e una "parte decremento" (decrement part) di ognuna e una "parte prefisso" (prefix part) e una "parte etichetta" (tag part) di tre bit ciascuna. Alcuni predecessori del Lisp inclusero funzioni chiamate (abbreviazione di Contents of the Address part of Register number), , e , ognuna delle quali prendeva come argomento un indirizzo macchina, ne caricava la corrispondente parola dalla memoria ed estraeva i bit appropriati. La macro assembly dell'IBM 704 per realizzare eraUna parola macchina poteva poi venire riassemblata dalla funzione , che prendeva quattro argomenti ( e ). Nelle prime fasi progettuali del Lisp, le parti prefisso ed etichetta vennero scartate, lasciando solo , e quindi una con soli due argomenti.
+
+I nomi e sono alternative moderne comuni a e per la loro maggiore chiarezza, ma, oltre che per motivi storici e di abitudine, e continuano a essere utilizzati anche perché offrono il vantaggio di poter esprimere loro corte composizioni attraverso funzioni equivalenti con nomi corti e più o meno pronunciabili. Per esempio, è equivalente a ; il suo valore è (il primo elemento del resto di ). In modo simile, è lo stesso di ; il suo valore è . La maggior parte delle implementazioni Lisp imposta un limite massimo al numero di forme composte che supportano; il Common LISP e lo Scheme, per esempio, forniscono forme con fino a quattro ripetizioni di e . Mentre non risulta chiaro se forme composte complesse come risultino per un occhio non allenato più semplici da leggere rispetto alla forma estesa , queste forme composte risultano però convenienti per certi usi idiomatici, come disassemblare liste che rappresentano codice. Per esempio, data un'espressione lambda come la seguente:
+
+(lambda (a b) (una-cosa) (una-altra-cosa))
+
+un programmatore Lisp esperto interpreterebbe
+
+come l'estrazione del primo e del secondo parametro ( e ) in e e l'estrazione della lista contenente il corpo dell'espressione lambda in . Questo genere di "destrutturizzazione di una lista" è piuttosto comune, specialmente quando si scrivono macro, e le implementazioni Lisp moderne, come il Common Lisp, forniscono agevolazioni per realizzarle in maniera diretta. In Common Lisp, quel codice verrebbe espresso utilizzando la macro come:

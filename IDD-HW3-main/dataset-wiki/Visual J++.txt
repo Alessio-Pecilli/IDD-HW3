@@ -1,0 +1,3 @@
+Visual J++ è l'implementazione di una IDE per il linguaggio di programmazione Java, creato per la piattaforma Windows della Microsoft. I programmi scritti in J++ possono essere eseguiti all'interno della Microsoft Virtual Machine for Java, la versione proprietaria di Microsoft di un interprete Java.
+
+La sintassi di J++ rispetta le convenzioni grammaticali del Java creato da Sun Microsystems. Visual J++ è stato rimpiazzato da J#, che permette di compilare codice Java/Java++ in linguaggio intermedio CIL (Common Intermediate Language) della piattaforma .NET.

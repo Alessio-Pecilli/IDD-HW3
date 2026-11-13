@@ -1,0 +1,21 @@
+In informatica VBScript (abbreviazione di Microsoft's Visual Basic Scripting Edition) è un sottoinsieme di Visual Basic utilizzato nelle Active Server Pages e in Windows Script Host come linguaggio di scripting general-purpose. È anche usato come sostituto, integrazione o appoggio per i file batch di MS-DOS o per meglio dire, della interfaccia da linea di comando di Windows.
+
+Ad ottobre 2023 Microsoft ha deprecato VBScript. Nelle versioni future di Windows, VBScript sarà disponibile come funzionalità su richiesta prima della sua rimozione dal sistema operativo.
+
+Descrizione
+
+VBScript è un linguaggio interpretato da uno script engine, che può trovarsi sia all'interno che all'esterno di un web server. Nel primo caso, il codice VBScript, inserito all'interno del codice HTML, viene interpretato ed eseguito quando la pagina corrispondente viene richiesta. Nel secondo caso, si possono creare degli script in VBScript che possono essere eseguiti dalla shell o dal desktop.
+
+La versione di VBScript presente all'interno di Internet Explorer offre praticamente le stesse funzionalità di JavaScript ma, data la sua incompatibilità con gli altri browser molti programmatori preferiscono utilizzare JavaScript.
+
+A partire da Internet Explorer 11, VBScript è considerato deprecato e non dovrebbe più essere usato come linguaggio di script web.
+
+Utilizzi ed estensioni di Visual Basic Scripting
+
+VBScript non è un semplice sostituto dei batch DOS: questa tecnologia permette di compiere operazioni ben più raffinate. Tramite apposite librerie è possibile effettuare ricerche su testo tramite espressioni regolari, scrivere e leggere file (FileSystemObject), controllare applicazioni esterne come Excel, Word o Access, effettuare delle query su database (tramite ODBC) o sul sistema operativo allo scopo di produrre report o modificarne i valori (tramite Windows Management Instrumentation).
+
+Visual Basic Scripting permette inoltre di effettuare task amministrativi anche su computer remoti. La sua versatilità ha anche dei lati negativi: Visual Basic Scripting è un linguaggio usato spesso per la produzione di virus informatici in ambiente Windows. A sua discolpa va detto che il problema risiede nei criteri di protezione delle vecchie versioni di Windows, e non tanto nel VBS in sé. Infatti, nei sistemi operativi con criteri di sicurezza più elevati, basati su diritti di accesso dei singoli utenti e programmi, non è possibile scrivere virus ad alta infettività nemmeno in altri linguaggi più potenti.
+
+Esempio Hello, world!
+
+Questi quattro esempi stamperanno nella schermata quattro finestre con la scritta "Hello, World!"; ciascuna con un'icona diversa dalle altre (variazione data dalla variabile che sussegue la prima virgola: 16, 32, 48 o 64).

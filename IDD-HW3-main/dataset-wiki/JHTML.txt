@@ -1,0 +1,278 @@
+JHTML è la sigla di Java HTML. Questo linguaggio (estensione dell'HTML) permette di inserire istruzioni dinamiche all'interno di pagine HTML, che avviene attraverso il tag , che vengono poi eseguite dal server.
+
+Questa tecnologia potrebbe essere usata per sostituire le limitazioni di performance dei programmi CGI. È molto efficiente perché, essendo Java, non dipende dalla piattaforma hardware, e può essere installato dovunque.
+
+Descrizione
+Il meccanismo di funzionamento di JHTML deriva dalla vecchia modalità di programmazione CGI che permette ad un'applicazione eseguita sul server web di generare dinamicamente del codice HTML. JHTML è una tecnologia proprietaria di ATG. Sun Microsystems ha acquisito parte di questa tecnologia e ha sviluppato JavaServer Pages partendo proprio dalla metodologia di compilazione delle pagine di ATG.
+
+Funzionamento
+Quando viene fatta una richiesta per la pagina, esempio, index.jhtml, il server HTTP trasferisce la chiamata all'applicazione Java che prima compila il file in un file della classe (.class), poi lo esegue. Il file della classe produce il codice html della pagina oltre alle istruzioni date tramite il tag .
+
+La classe Joomla's JHTML
+JHTML è anche una classe molto nota del framework Joomla!.
+
+Tecnologia successiva
+Sebbene molti siti continuino ad utilizzare JHTML, questa tecnologia è stata ampiamente superata da JavaServer Pages.
+
+Descrizione
+JHTML è uno standard JavaSoft per combinare Java con pagine HTML. In particolare, JHTML rende facile intercalare dati dinamici all'interno delle pagine HTML. JHTML consente di incorporare Java in una pagina web standard. L'implementazione di JHTML da parte di WebLogic è molto simile a quella utilizzata nel WebServer di JavaSoft.
+
+JHTML viene implementato utilizzando uno speciale servlet HTML fornito di serie con WebLogic Server, chiamato PageCompileServlet. Il PageCompileServlet è configurato per impostazione predefinita per gestire tutte le richieste HTTP per i file che terminano con ".jhtml".
+
+Il PageCompileServlet chiama il compilatore JHTML per compilare il file JHTML in un servlet HTTP Java standard ed esegue il nuovo servlet al volo. Il servlet HTTP risultante fornisce una pagina web in risposta al browser del client.
+
+Il file JHTML viene compilato solo quando viene visitato per la prima volta o quando il file JHTML è stato modificato dall'ultima volta che è stato compilato. Altrimenti, viene utilizzata la classe servlet JHTML compilata in precedenza, rendendo le risposte successive molto più rapide. È possibile utilizzare lo stand alone del compilatore JHTML.
+
+Prima di poter richiedere un file .jhtml, è necessario configurare WebLogic Server con le seguenti proprietà nel file weblogic.properties.
+
+Registrare il PageCompileServlet
+PageCompileServlet è un servlet HTTP standard incluso con WebLogic Server. È necessario registrarlo per gestire tutte le richieste HTTP per i file che terminano con il suffisso ".jhtml" utilizzando la riga:
+weblogic.httpd.register. *. jhtml = \
+weblogic.servlet.jhtmlc.PageCompileServlet
+È possibile aggiungere ulteriori registrazioni per istruire il PageCompileServlet a gestire altri suffissi di file (come "* .htm", "* .html" e "* .txt") utilizzando una sintassi simile a quella sopra. L'utilizzo di un'estensione ha la precedenza su qualsiasi registrazione servlet predefinita.
+
+Impostare gli argomenti di inizializzazione per PageCompileServlet utilizzando la proprietà initArgs del servlet standard come mostrato di seguito:
+weblogic.httpd.initArgs. *. jhtml = \
+compileCommand = percorso del compilatore , \
+workingDir = percorso della directory delle classi .jhtml compilate, \
+verbose = [true | false] , \
+pageCheckSeconds = intervallo WebLogic controlla la ricompilazione , \
+packagePrefix = nome del pacchetto dei file (predefinito: "jhtmlc")
+Dove i nomi degli argomenti sono definiti come:
+
+compileCommand
+(Obbligatorio) Specifica il compilatore Java che deve essere utilizzato da PageCompileServlet. Ad esempio, per utilizzare il compilatore Java Symantec:
+
+compileCommand = / VisualCafe / bin / sj.exe
+
+workingDir
+(Obbligatorio) Specifica il percorso assoluto di una directory locale in cui vengono inseriti i file ".class" e ".java" compilati dal compilatore JHTML. Per esempio:
+
+workingDir = / weblogic / myserver / jhtml_classes
+
+Questa directory conterrà i file ".java" e ".class" generati da tutte le pagine JHTML.
+verbose
+(Facoltativo) il valore predefinito è false. Se impostato su true, le informazioni di debug vengono stampate nella console e nel file di registro di WebLogic Server.
+keepgenerated
+(Facoltativo) il valore predefinito è false. Quando è impostato su true, i file di origine ".java" generati vengono memorizzati con i file di classe nella directory specificata dal parametro workingDir .
+pageCheckSeconds
+(Facoltativo) il valore predefinito è 0. Imposta l'intervallo in cui WebLogic verifica se i file JHTML sono stati modificati e devono essere ricompilati. Le dipendenze vengono verificate e ricaricate in modo ricorsivo se modificate. Se pageCheckSeconds è -1, le pagine non vengono controllate dopo essere state compilate.
+packagePrefix
+(Facoltativo) il valore predefinito è "jhtmlc". Imposta un nome di pacchetto per le pagine compilate automaticamente. Ciò dovrebbe evitare conflitti tra il nome della classe e gli altri servlet e applet, a condizione che non li compili anche in un pacchetto con lo stesso nome.
+
+Proprietà correlate
+Le seguenti sono proprietà correlate al file weblogic.properties. Queste proprietà vengono utilizzate da altri servizi di WebLogic Server. Quando si modificano le impostazioni, è necessario considerare l'impatto su altri servizi.
+
+Impostazione della radice del documento
+Questa è la directory in cui si possono pubblicare i file ".jhtml" su WebLogic Server. Lo si imposta usando la proprietà:
+weblogic.httpd.documentRoot = percorso
+dove path è un percorso di directory assoluto o un percorso di directory relativo dalla directory myserver / nell'installazione di WebLogic. Ad esempio, se si imposta la proprietà su:
+weblogic.httpd.documentRoot = jhtml
+Si pubblicano i file JHTML nella directory: $ WEBLOGICROOT / myserver / public_html / jhtml .
+
+Se non si imposta questa proprietà, verrà impostata automaticamente sulla directory $ WEBLOGICROOT / myserver / public_html . La radice del documento è la directory di livello superiore in cui WebLogic Server cerca tutte le pagine Web pubblicate. Questa proprietà viene utilizzata anche dal FileServlet, che viene registrato per impostazione predefinita per fornire tutti gli altri tipi di supporti HTTP.
+
+Configurazione del monitoraggio della sessione
+Per abilitare il monitoraggio della sessione, si imposta questa proprietà su "true":
+weblogic.httpd.session.enable = true
+Altre proprietà e dettagli relativi al monitoraggio della sessione sono disponibili nella guida per gli sviluppatori "Utilizzo dei servlet HTTP WebLogic" .
+
+Tag JHTML supportati in WebLogic
+Di seguito è riportato un elenco di riferimento rapido dei tag utilizzati in WebLogic JHTML. Tutti questi tag richiedono un tag finale . Tutti questi tag possono essere inclusi all'interno o combinati con i commenti java. Ad esempio, i tag:
+
+.
+.
+.
+
+può anche essere scritto come:
+
+.
+.
+.
+
+Parole riservate in JHTML
+JHTML si riserva l'uso di queste parole all'interno del codice Java incorporato. In questo caso, usi queste parole come oggetti nel codice Java.
+
+out
+out rappresenta il flusso di output della risposta HTTP, attraverso il quale il servlet JHTML invia la risposta al browser. Tecnicamente è una sottoclasse dell'oggetto java.io.OutputStream, una classe astratta che definisce come gestire i flussi di byte. L'oggetto out ha diversi metodi utilizzabili, incluso write (), che prende un valore String e lo stampa su una pagina, e flush () che permette di cancellare il flusso prima di stampare qualcosa di nuovo.
+request
+request è l'oggetto HttpServletRequest. Contiene informazioni sulla richiesta del browser e dispone di diversi metodi utili per ottenere cookie, intestazione e dati di sessione.
+response
+response rappresenta l'oggetto HttpServletResponse. L'oggetto risposta viene utilizzato per restituire l'output del servlet al browser web. Ha diversi metodi utili per impostare i cookie e ottenere un flusso di output.
+
+Esempio
+Ecco come apparirà la pagina risultante dopo che è stata compilata:
+
+Importazione di pacchetti
+È possibile avere solo un tag in un file JHTML, ma è possibile avere molte istruzioni di importazione all'interno di quel tag. Sebbene si possa inserire il tag di importazione ovunque nel file JHTML, è consigliabile inserirlo all'inizio del file, come per un normale file ".java".
+
+import java.io. *;
+import java.sql. *;
+
+Definizione del corpo del metodo di servizio
+Come descritto sopra, il JHTML viene prima compilato in un file Java servlet HTTP standard, quindi compilato utilizzando un compilatore java standard. L'ordine di HTML e Java nella pagina JHTML viene mantenuto quando tradotto in codice sorgente Java.
+
+Si può utilizzare qualsiasi costrutto Java nel JHTML, come loop o istruzioni condizionali. È possibile passare da Java a HTML per incorporare l'output HTML in un costrutto Java. Ad esempio:
+
+for (int i = 0; i
+Hello World!
+
+} // Fine del ciclo for
+
+Questo risulterà un "Hello World!" scritto 10 volte in una pagina HTML.
+
+Dichiarazione di oggetti con ambito di classe
+È possibile dichiarare oggetti con ambito di classe come variabili, metodi e classi interne tra i tag in un file JHTML. Si può utilizzare qualsiasi numero di questo tipo di tag java nel JHTML:
+
+String jdbcClass = "weblogic.jdbc.oci.Driver";
+String jdbcURL = "jdbc: weblogic: oracle: goldengate";
+String user = "scott";
+String password = "";
+
+Nella maggior parte delle situazioni è meglio utilizzare variabili con ambito del metodo a causa di problemi di threading servlet. Ciò significa dichiarare le variabili in altri metodi o direttamente nel corpo del metodo del servizio (cioè, solo all'interno dei semplici tag ).
+
+Incorporamento di un metodo Java in un file JHTML
+Questo esempio illustra come definire un metodo di classe nel file JHTML che viene chiamato dal blocco principale.
+
+Il metodo breve getCon () inizializza un oggetto di connessione JDBC che viene utilizzato altrove nel servlet.
+
+stringa finale statica jdbcClass =
+"weblogic.jdbc.oci.Driver";
+stringa finale statica jdbcURL =
+"jdbc: weblogic: oracle: goldengate";
+static final String user = "scott";
+stringa finale statica password = "tigre";
+
+connessione protetta getCon () {
+Connessione conn = null;
+prova {
+Class.forName (jdbcClass) .newInstance ();
+conn = DriverManager.getConnection (jdbcURL,
+utente, password);
+}
+catch (eccezione f) {
+}
+return conn;
+}
+
+Si può chiamare questo metodo da qualsiasi altro codice Java nel JHTML. Si noti che le altre variabili dichiarate in questo blocco sono nell'ambito della classe, quindi è anche possibile fare riferimento a qualsiasi blocco nel proprio JHTML.
+
+Utilizzando il backtick
+Per impostazione predefinita, WebLogic supporta l'uso del backtick nei tag Java. Si possono inserire backtick arbitrari ovunque nel'HTML. Un'istruzione Java all'interno di un backtick viene valutata, convertita in una stringa e inviata al flusso di output del servlet. I backtick sono essenziali per inserire contenuto dinamico all'interno di tag HTML, come un collegamento a un altro documento, in base a un valore variabile.
+
+Il backtick in WebLogic
+Sotto Java WebServer, è possibile incorporare un'espressione Java in qualsiasi tag HTML arbitrario racchiudendola tra apici inversi. Portiamo questa funzionalità un ulteriore passo avanti in WebLogic JHTML e i backtick sono validi all'interno e all'esterno dei tag java. Ciò è utile per incorporare piccoli pezzi di java nell'HTML per generare contenuto dinamico poiché mantiene l'HTML in un formato leggibile.
+
+Usare il backtick in questo modo significa che non si può più usare un carattere backtick direttamente nel codice HTML. La soluzione è stampare un backtick sul flusso di output all'interno dei tag . Poiché il backtick è usato raramente, la comodità di usare backtick-java-expression nell' HTML supera questo inconveniente.
+
+È possibile abilitare e disabilitare l'uso esteso dei backtick impostando la seguente proprietà nel file weblogic.properties:
+weblogic.httpd.initArgs. *. jhtml = backtick = true | false
+
+Utilizzo del monitoraggio della sessione
+Il server HTTP di WebLogic supporta anche il monitoraggio della sessione, che consente di tenere traccia delle informazioni su un utente mentre procede attraverso l'applicazione web. Ad esempio, un'asta online o un'applicazione di trading potrebbe utilizzare il monitoraggio della sessione per tenere il passo con ciò che un utente ha aggiunto a un carrello o con le offerte che un utente sta facendo su un articolo in vendita.
+
+Si accede a una sessione dalla parola chiave request , con il metodo getSession (), che restituisce un oggetto HttpSession. È possibile aggiungere o recuperare dati dall'oggetto HttpSession utilizzando coppie nome = valore arbitrarie. Il seguente esempio illustra come includere il contenuto di una sessione nella risposta HTML a una richiesta.
+
+Utilizzo del monitoraggio della sessione tutorial.servlets.jhtml
+
+Valori già nella sessione:
+
+HttpSession session = request.getSession (true);
+String [] valueNames = session.getValueNames ();
+for (int i = 0; i " + nome + " " +
+valore + "
+I dati vengono aggiunti a una sessione in modo simile, ma utilizzando il metodo putValue (). Questo esempio recupera tutte le coppie nome parametro = valore dai dati della query della richiesta e le archivia in una sessione.
+Valori da aggiungere alla sessione:
+
+Enumeration paramNames = request.getParameterNames ();
+while (paramNames.hasMoreElements ()) {
+String name = (String) paramNames.nextElement ();
+String [] values = request.getParameterValues (nome);
+session.putValue (name,
+(values! = null? values [0]: "null"));
+out.print (" " + nome + " " +
+valore + " ");
+}
+
+Recupero dei dati con JDBC
+Questo esempio mostra come accedere a un database da JHTML per includere contenuto dinamico nelle pagine web.
+
+prova {
+String jdbcClass = "weblogic.jdbc.oci.Driver";
+String jdbcURL = "jdbc: weblogic: oracle: goldengate";
+String user = "scott";
+String password = "";
+
+password = "tigre";
+Class.forName (jdbcClass) .newInstance ();
+Connessione conn =
+DriverManager.getConnection (jdbcURL, utente, password);
+out.print ("& lt; p & gt; Il primo" +
+"tentativo di accesso è riuscito per");
+out.print (utente + "/" + password);
+
+password = "tigger";
+Class.forName (jdbcClass) .newInstance ();
+Connessione conn2 =
+DriverManager.getConnection (jdbcURL, utente, parola d'ordine);
+out.print ("& lt; p & gt; Secondo tentativo di accesso" +
+"ha avuto successo per");
+out.print (utente + "/" + password);
+}
+
+catch (eccezione f) {
+out.print ("& lt; p & gt; Accesso non riuscito per" +
+utente + "/" + password);
+out.print ("& gt; p & gt;");
+f.printStackTrace (nuovo PrintStream (fuori));
+}
+
+infine {
+try {conn.close ();}
+catch (Exception g) {}
+try {conn2.close ();}
+catch (Exception h) {}
+}
+
+Compilatore JHTML di WebLogic
+Poiché PageCompileServlet chiama automaticamente il compilatore JHTML di WebLogic come richiesto, in genere non è necessario accedervi direttamente. Tuttavia, potrebbero esserci situazioni (come il debug) in cui l'accesso diretto al compilatore può essere utile. Questa sezione viene fornita come riferimento per il compilatore.
+
+Il compilatore JHTML di WebLogic analizza il file .jhtml prodotto in un file Java e quindi compila il file Java in un file di classe, il tutto in un unico passaggio.
+
+Sintassi
+Il compilatore JHTML funziona più o meno allo stesso modo in cui funzionano gli altri compilatori WebLogic (inclusi i compilatori RMI ed EJB):
+$ java weblogic.jhtmlc -options nomefile
+dove fileName è il nome del file .jhtml che si desidera compilare. Le opzioni possono essere prima o dopo il nome del file di destinazione. Ecco un esempio che compila "myFile" nella directory di destinazione (una delle opzioni) "weblogic / classes".
+$ java weblogic.jhtmlc -d / weblogic / classes-jdk110 \
+myFile.jhtml
+
+argomenti
+Le opzioni disponibili sono:
+
+-help
+Emette un elenco di tutti i flag disponibili.
+-backticks
+Analizza il testo ovunque nel file .jhtml come Java, piuttosto che esclusivamente all'interno dei tag. Ciò consente di incorporare elementi come nomi di tabelle e colonne nell'HTML. Vero per impostazione predefinita.
+-verbose
+Stampa le informazioni di debug nella finestra della shell quando il flag è presente. L'impostazione predefinita è disattivata.
+-classpath
+Aggiungere un elenco di directory delimitato da punto e virgola che compongono il CLASSPATH desiderato. Ad esempio (da inserire su una riga):
+
+$ java weblogic.jhtmlc \
+-classpath java / classes.zip; /weblogic/classes.zip \
+myFile.jhtml
+
+-d
+Destinazione dell'output compilato (il file di classe). Una scorciatoia per posizionare le classi compilate in una directory che è già nel CLASSPATH.
+-keepgenerated
+Conserva i file Java creati come passaggio intermedio nel processo di compilazione.
+-compiler
+Sostituisce un altro compilatore per javac per la compilazione da Java a classe.
+-nowarn
+Disattiva i messaggi di avviso dal compilatore Java.
+-nowrite
+Esegue il processo di compilazione senza produrre effettivamente un file .class. Se lo si combina con il flag keepgenerated, il compilatore creerà solo il file .java intermedio. Questo può essere utile per il debug.
+-deprecation
+Fa in modo che il compilatore Java stampi un avviso su qualsiasi classe o metodo deprecato chiamato o utilizzato dal file .jhtml.
+-J
+Aggiunge altre opzioni che il compilatore specifico analizzerà.

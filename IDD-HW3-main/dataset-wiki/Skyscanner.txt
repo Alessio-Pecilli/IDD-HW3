@@ -1,0 +1,29 @@
+Skyscanner è un motore di ricerca internazionale di voli, senza finalità di vendita, che permette agli utenti di navigare tra i prezzi e le destinazioni delle offerte di volo e di confrontare le diverse offerte disponibili.
+
+In aggiunta al motore di ricerca voli, attraverso Skyscanner è inoltre possibile confrontare i prezzi di hotel e ostelli, oltre ad auto a noleggio e trasferimenti aeroportuali.
+
+Caratteristiche
+Il sito è multilingue, offre la ricerca dei voli in 32 lingue, incluse cinese, russo, giapponese, portoghese, polacco, spagnolo e italiano.
+
+Skyscanner non vende voli direttamente giacché non è una OTA (Agenzia di Viaggio Online, dall'Inglese Online Travel Agency): il sito può essere utilizzato per trovare l'offerta più economica verso la rotta desiderata, dopo di che l'utente viene re-indirizzato automaticamente sul sito delle agenzie di viaggio o delle compagnie aeree per effettuare eventualmente e direttamente la prenotazione. Gli utenti possono anche cercare i voli senza dover inserire date o destinazioni specifiche, interagendo così con una piattaforma di ricerca dei voli molto flessibile. La tecnologia di indicizzazione di proprietà di Skyscanner consente di trovare i risultati della ricerca molto più rapidamente rispetto ai meta-search engine, in quanto non vi è alcuna necessità di consultare pagine di terzi o GDS (Global Distribution System) per ottenere informazioni, ogni volta che si effettua una ricerca. È questo un fattore che lo rende nettamente differente da molti altri portali di ricerca voli.
+
+La società ha base ad Edimburgo, in Scozia, ed ha inoltre uffici a Singapore, Glasgow, Londra, Shenzen, Tokyo, Miami e Barcellona.
+
+La storia
+La società è stata fondata nel 2001 da tre professionisti dell'IT, Gareth Williams, Barry Smith e Bonamy Grimes, dopo che Williams, un ottimo sciatore, si era stufato delle difficoltà nel trovare dei voli economici verso le stazioni sciistiche. La prima versione di Skyscanner è stata sviluppata e pubblicata nel 2002. Nel 2003, venne assunto il primo impiegato per l'assistenza allo sviluppo del sito. Nel 2004 venne aperto l'ufficio di Edimburgo ed oggi l'azienda ha uno staff di 90 persone.
+
+Il sito ha iniziato confrontando i prezzi soltanto delle principali compagnie aeree low cost in Europa, ma da allora ha ampliato il proprio indice di ricerca anche ai vettori europei più importanti, compresi Alitalia, easyJet, British Airways, KLM e Lufthansa. È stata inoltre ampliata la portata geografica per comprendere i vettori da e verso Stati Uniti, Canada ed altre parti del mondo.
+
+L'obiettivo finale dichiarato dall'azienda è quello di diventare un sito completamente globale in grado di offrire ogni singolo volo commerciale nel mondo e di compararne il prezzo con altri che effettuano la stessa rotta.
+
+Oltre alla sua tecnologia di ricerca di voli, Skyscanner produce anche pubblicazioni regolari di notizie del settore dei viaggi e del volo, nonché consigli di viaggio o legati al mondo del turismo potenzialmente utili per i consumatori. Esempi di queste notizie e dei dati statistici relativi alle tendenze di viaggio ed alle ricerche di voli fatte in Italia, si possono trovare su La Repubblica, Wired, Ansa, Quotidiano, ecc.
+
+Gli strumenti di Skyscanner
+Skyscanner offre una gamma di strumenti di ricerca online gratuiti, che consentono ad utenti e webmaster di scaricare ed integrare le informazioni di Skyscanner sui voli nel proprio sito web, pagina personale o desktop. Questi ‘Strumenti di ricerca rapida’ sono la ‘Mappa’ (una mappa interattiva in flash che mostra gli aeroporti su un planisfero), il servizio ‘Ovunque’ (per un suggerimento sulle destinazioni di viaggio più economiche), la ricerca per ‘Mese Intero’ (quando si è flessibili nelle date di viaggio) o per ‘Anno Intero’ (per monitorare l'andamento del prezzo dei voli su determinate rotte durante un anno solare).
+
+Mercato e diffusione
+Skyscanner conta attualmente 60 milioni di visitatori al mese. Secondo un articolo di Travolution.co.uk e Hitwise, una società che monitora il traffico internet e le tendenze online, Skyscanner occupa l'11.34% del mercato della ricerca di voli nel Regno Unito.
+
+Il portale è ben considerato dai media del Regno Unito; secondo un test effettuato dal quotidiano The Guardian, Skyscanner ha ottenuto il prezzo più basso battendo grandi operatori del settore come Expedia e Travelocity.
+
+Il sito è stato inoltre citato in un articolo dellIndependent tra i dieci migliori siti di viaggio e tra i primi 100 siti più utili. Skyscanner ha ottenuto diversi riconoscimenti incluso il Best Technology Site 2005 da TravelMole e nel 2010 è stato riconosciuto da Travolution come il migliore sito internet di comparazione di voli economici (Best Meta-search/Price Comparison) da Travolution nel 2010. Anche il Daily Telegraph, come riporta anche il Corriere della Sera, ha citato Skyscanner come uno dei migliori 9 siti di viaggio al mondo.

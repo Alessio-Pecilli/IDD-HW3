@@ -1,0 +1,5 @@
+LIndex Medicus (IM) è una pubblicazione della National Library of Medicine (NLM) che ha indicizzato le principali riviste di medicina e di scienze biomediche, inizialmente solo statunitensi, quindi di tutto il mondo.
+
+La pubblicazione, iniziata nel 1879, grazie all'opera di John Shaw Billings, direttore del Library of the Surgeon General's Office United States Army, è terminata nel 2004 con il volume numero 45, ed è stata sostituita dal database MEDLINE.
+
+Il suo contenuto è simile a Bibliographia medica, noto anche come Bibliographie Internationale des Science Medicales, un progetto che fu avviato nello stesso periodo all'Istituto bibliografico di Parigi.

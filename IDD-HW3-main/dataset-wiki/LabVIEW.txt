@@ -1,0 +1,55 @@
+LabVIEW (abbreviazione di Laboratory Virtual Instrumentation Engineering Workbench) è l'ambiente di sviluppo integrato per il linguaggio di programmazione visuale di National Instruments. Tale linguaggio grafico viene chiamato Linguaggio G.
+
+Realizzato originariamente per Apple Macintosh nel 1986, LabVIEW viene principalmente utilizzato per programmi di acquisizione e analisi dati, controllo di processi, generazione di rapporti, o più generalmente per tutto ciò che concerne l'automazione industriale, su diverse piattaforme come Windows, Linux, macOS e controllori National Instruments.
+
+Programmazione G
+Il linguaggio di programmazione usato in LabVIEW si distingue dai linguaggi tradizionali perché la sua sintassi non è scritta ma grafica, e per questa ragione viene chiamato G-Language (Graphic Language). Un programma o sottoprogramma G, denominato VI (Virtual Instrument), non esiste sotto forma di testo, ma può essere salvato solo come un file binario che può essere aperto e compilato solo da LabVIEW.
+
+La definizione di strutture dati ed algoritmi avviene con icone e altri oggetti grafici, ognuno dei quali incapsula funzioni diverse, uniti da linee di collegamento (wire), in modo da formare una sorta di diagramma di flusso. Questo tipo di linguaggio viene definito dataflow (flusso di dati) in quanto la sequenza di esecuzione è definita e rappresentata dal flusso dei dati stessi attraverso i fili monodirezionali che collegano i blocchi funzionali. Poiché i dati possono anche scorrere in parallelo attraverso blocchi e fili non consecutivi, il linguaggio può realizzare spontaneamente il multithreading senza bisogno di esplicita gestione da parte del programmatore.
+
+Collegamento con l'hardware
+Interessante è la modalità di realizzazione del software, che si limita spesso al semplice collegamento di blocchi già pronti, grazie alla vasta libreria di funzioni predefinite e driver per la gestione dell'hardware. LabVIEW è predisposto per la comunicazione con l'hardware di tipo IEEE 488, VXI, PXI, RS-232, RS-485 e dispositivi DAQ plug-in. I programmi LabVIEW sono compatibili con molti modelli di strumenti programmabili e schede di acquisizione.
+
+Dettagli dei VI
+
+Nell'ambiente di sviluppo, i VI sono composti da tre parti principali:
+il pannello frontale
+lo schema a blocchi
+il riquadro connettori
+
+Pannello frontale
+Il pannello frontale è l'interfaccia utente del VI. Si realizza con controlli e indicatori, che costituiscono i terminali interattivi d'ingresso e d'uscita, rispettivamente. Essi sono ben più numerosi e complessi dei widget normalmente forniti dal sistema operativo.
+I controlli sono matrici, manopole, potenziometri, pulsanti, quadranti e molti altri; simulano i dispositivi d'ingresso degli strumenti e forniscono dati allo schema a blocchi del VI.
+Gli indicatori sono grafici, tabelle, LED, termometri e molti altri; simulano i dispositivi d'uscita degli strumenti e visualizzano i dati che lo schema a blocchi acquisisce o genera.
+
+Schema a blocchi
+Lo schema a blocchi è il diagramma di flusso che rappresenta il codice sorgente, in formato grafico. Gli oggetti del pannello frontale appaiono come terminali di ingresso o uscita nello schema a blocchi. Gli oggetti dello schema a blocchi comprendono:
+terminali
+funzioni
+costanti
+strutture
+chiamate ad altri VI (subVI)
+fili di collegamento
+commenti testuali
+
+Le funzioni sono esse stesse dei VI, anche se non hanno un loro pannello frontale e un loro schema a blocchi. Possono avere un numero indefinito di ingressi e di uscite come ogni VI.
+
+Le strutture eseguono il controllo di flusso di base. Ad esempio il ciclo FOR è rappresentato da un rettangolo che ripete N volte la porzione di schema a blocchi che viene inserita al suo interno.
+
+I fili di collegamento possono trasportare teoricamente qualunque mole di dati di qualunque tipo, anche aggregati (bundle) definiti dal programmatore. I fili possono essere di diverso spessore e colore per permettere una facile identificazione dei dati che vi scorrono: ad esempio i numeri interi scorrono su fili blu, i numeri decimali su fili arancioni le stringhe su fili rosa.
+
+Lo schema a blocchi può essere reso visibile anche durante l'esecuzione, cosa molto utile in fase di debug, in quanto esiste la possibilità di visualizzare con un'animazione al rallentatore il movimento dei dati lungo i fili e il loro valore momentaneo.
+
+Riquadro connettori
+Ogni VI può essere a sua volta utilizzato come subVI (o sottoVI) e comparire all'interno dello schema a blocchi di altri VI come una qualsiasi funzione, e come tale può avere ingressi e uscite a cui collegare le linee di flusso.
+Il riquadro connettori serve appunto a definire qual è l'aspetto del VI quando appare come subVI in uno schema a blocchi di un VI più ampio: che facciata ha l'icona, ma soprattutto come e dove vanno collegate le linee per permettere il passaggio dei dati. In genere, con pochi click, ogni controllo può essere associato a un ingresso e ogni indicatore può essere associato a un'uscita.
+
+Eseguibili
+A partire dai VI si possono anche creare eseguibili a sé stanti e librerie condivise (DLL), perché LabVIEW è un vero compilatore a 32 bit. Per utilizzare tali eseguibili e DLL non occorre un'installazione di LabVIEW, ma è necessario che sul computer di destinazione sia installato almeno il run-time engine di LabVIEW, peraltro distribuito gratuitamente.
+
+Storia
+Il progetto LabVIEW nasce nel 1983 dalla necessità della National Instruments di disporre di un software di programmazione grafica, con il quale testare rapidamente gli apparati hardware prodotti da tale industria statunitense.
+
+Già nel 1986 è resa pubblica la versione 1 del software compatibile con i sistemi Macintosh. Nel gennaio del 1990 viene pubblicata la versione 2, le migliorie sul software rendono la velocità di esecuzione del VI paragonabile ai programmi compilati in Ansi C. Il mese successivo in virtù dell'innovatività dell'approccio grafico alla programmazione, viene pubblicato il brevetto dal US Patent Office. Infine nel settembre 1992 ne viene sviluppata una versione multipiattaforma, cioè per Microsoft Windows, Mac OS e SunOS. In seguito venne supportato anche Linux.
+
+La versione 8.0, pubblicata nel 2005, introduce per la prima volta anche il supporto per la programmazione a oggetti. Il 4 agosto 2009 è stata pubblicata la versione LabVIEW 2009, a 32 o 64-bit, che succede alla versione 8.6. L'ultima versione distribuita è LabVIEW 2020.

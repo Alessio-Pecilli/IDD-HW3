@@ -1,0 +1,46 @@
+Modula-2 è un linguaggio di programmazione general purpose creato e presentato nel 1978 da Niklaus Wirth. È un'evoluzione di Modula (1975), che era stato realizzato solo come prototipo. Il suo principale obiettivo era superare alcuni limiti del Pascal, anch'esso sviluppato da Wirth, specialmente in termini di modularità e gestione di programmi complessi.
+
+Tra le caratteristiche principali vi è il concetto di modulo, ossia di un'unità logica che incapsula al suo interno dati e procedure, limitandone la visibilità all'esterno. Questo permette una migliore organizzazione del programma (programmazione modulare).
+I moduli di Modula-2 sono compilabili individualmente e poi collegabili tra loro per formare un programma completo. Per l'epoca era una caratteristica notevole.
+
+Caratteristiche
+Essendo un linguaggio tipizzato fortemente, come il Pascal, non ammette conversioni implicite fra tipi di dati diversi.
+
+I tipi di moduli solitamente utilizzati sono "moduli programma", contenenti il corpo principale del programma da mandare in esecuzione, e "moduli libreria", punto di forza del linguaggio, che costituiscono librerie, ossia contengono e forniscono gruppi di funzionalità, generalmente relative a un certo argomento. I moduli libreria a loro volta sono costituiti da "modulo di definizione" e "modulo d'implementazione"; il primo elenca definizioni di funzioni, variabili e altri oggetti che la libreria rende disponibili, il secondo contiene il codice che li implementa, compresi eventuali altri elementi a uso interno, non resi disponibili agli altri moduli chiamanti.
+
+Il codice Modula-2 è sensibile alle maiuscole, con le parole chiave tutte in maiuscolo. Ogni modulo inizia con il comando MODULE seguito dal suo nome. Poi viene una parte dichiarativa che tipicamente comprende il comando FROM, che specifica quali oggetti importare da altri moduli per utilizzarli; il comando VAR, che definisce nuove variabili di questo modulo; il comando PROCEDURE, che definisce funzioni con eventuali dati di ingresso e uscita, precisamente tipizzati. Gli elementi qui definiti potranno essere o meno resi disponibili per l'uso da parte di altri moduli. Segue la parte esecutiva, contenente le operazioni strutturate da svolgere, delimitata dai comandi BEGIN e END. I commenti sono delimitati da (* *) e nidificabili..
+
+Oltre alla suddetta organizzazione in moduli, Modula-2 presenta altre caratteristiche avanzate:
+Tra i tipi di dati introduce i puntatori a procedura, simili ai puntatori a funzione, aumentando la flessibilità delle chiamate.
+Fornisce strumenti di gestione della programmazione concorrente, come processi e semafori. Ciò lo rende adatto anche allo sviluppo di sistemi operativi e applicazioni in tempo reale.
+Fornisce strumenti per una robusta gestione degli errori.
+
+Storia
+Modula-2 venne sviluppato da Niklaus Wirth al Politecnico federale di Zurigo (ETH). Nel 1977 Wirth passò un periodo sabbatico allo Xerox Palo Alto Research Center (PARC), dove conobbe il linguaggio Mesa, che aveva una funzionalità analoga ai moduli, ma l'autore ritenne che un discendente del Pascal avrebbe potuto funzionare meglio in tal senso. Al PARC Wirth conobbe anche lo Xerox Alto, che introduceva il rivoluzionario concetto di workstation. Con questa ispirazione, all'ETH nel 1978-1980 venne realizzata la workstation Lilith. Il principale incentivo alla progettazione di Modula-2 fu proprio la necessità di un linguaggio semplice e versatile con cui produrre tutto il software per Lilith; in quegli anni il computer e il linguaggio crebbero insieme.
+Lilith, dotata di display grafico e mouse, fu completamente sviluppata in Modula-2 e basata su di esso. Wirth la pensò come piattaforma di sviluppo software, ma poi fu anche commercializzata, sebbene con scarso successo.
+
+Negli anni ci sono state molte implementazioni del Modula-2 per molte piattaforme, da quelle commerciali come i compilatori della Logitech per MS-DOS e CP/M, a quelle open source come GNU Modula-2, facente parte del sistema GNU Compiler Collection.
+Nel 1986 il noto informatico Martin Odersky realizzò il compilatore Turbo Modula-2 per la Borland, ma rimase in versione alpha e non fu mai pubblicato ufficialmente. Una sua caratteristica notevole era la possibilità di compilare come eseguibile normale oppure come m-code, un codice interpretato da un interprete contenuto nell'eseguibile stesso.
+
+I principali dialetti di Modula-2 presero il nome di PIM, sigla del libro di Wirth Programming in Modula-2, con varianti da PIM2 a PIM4 corrispondenti alle edizioni. Questo è anche detto Modula-2 "classico" (classical Modula-2).
+Uno standard internazionale del linguaggio è nato solo molti anni dopo la sua introduzione, con lo standard ISO/IEC 10514-1:1996, che ha avuto due estensioni nel 1998, di cui una per la programmazione a oggetti.
+Un'altra variante notevole è la R10, pubblicata intorno al 2010.
+
+Modula-2 ha avuto influenza rilevante su diversi linguaggi successivi. Un esempio evidente è Ada, dotato di concetti di modularità e strutture dati simili.
+Il concetto di modulo ha avuto diretta influenza anche sul Turbo Pascal, una celebre implementazione del Pascal, che a partire dalla versione 4.x mette a disposizione le UNIT. Queste strutture analoghe ai moduli hanno esteso significativamente potenza e flessibilità del Turbo Pascal.
+
+Il successore diretto di Modula-2 è Modula-3 (1989), passando per una variante chiamata Modula-2+ (1984). Questi non vennero sviluppati da Wirth, che invece realizzò Oberon (1987) come evoluzione di Modula-2.
+
+Hello world
+Esempio di programma Hello world, che fa uso del modulo predefinito InOut per l'input/output testuale:
+
+MODULE Hello;
+FROM InOut IMPORT
+WriteString, WriteLn;
+
+BEGIN
+
+WriteString("Hello World!");
+WriteLn;
+
+END Hello.

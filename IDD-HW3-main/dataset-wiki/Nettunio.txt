@@ -1,0 +1,43 @@
+Il nettunio (inizialmente chiamato "ausonio" da Enrico Fermi) è un elemento chimico con numero atomico 93 e il suo simbolo è Np. È un elemento transuranico incluso nella serie degli attinoidi sulla tavola periodica. Possiede 19 isotopi, tutti instabili, e si presenta, allo stato solido, in 3 forme allotropiche. Il suo isotopo più stabile (237Np) è un sottoprodotto di reazione nei reattori nucleari e trova impiego nella costruzione di rilevatori di neutroni. È presente, in tracce, nei minerali di uranio.
+
+Storia
+Il nettunio appartiene alla serie degli attinoidi e fu il primo elemento transuranico ad essere sintetizzato in laboratorio. Dapprima scoperto nel 1934 da Enrico Fermi a Roma, fu battezzato ausonio (Ao). Fu poi riscoperto e ribattezzato nettunio (dal pianeta Nettuno, per analogia con l'uranio) da Edwin McMillan e Philip Hauge Abelson, nel 1940, all'interno del Radiation Laboratory (dal 1959, Lawrence Berkeley National Laboratory) dell'Università di Berkeley in California. I due fisici sintetizzarono l'isotopo 239Np (con un'emivita di 2,3 giorni) in un ciclotrone bombardando dell'uranio con neutroni lenti (ovvero con energia ).
+
+Prima di tale data, sono menzionati in letteratura almeno tre annunci della scoperta dell'elemento 93 – con il nome di ausonio (Enrico Fermi et alii), di boemio nel 1934 e di sequanio nel 1939 – tutti smentiti da successive verifiche.
+
+Caratteristiche
+Allo stato solido, il nettunio si presenta come un metallo di colore argenteo, discretamente reattivo ed esistente in tre forme allotropiche:
+α-nettunio: ortorombico con densità 20,25 g/cm³ (20&nbsp;250&nbsp;kg/m³).
+β-nettunio (oltre i 280&nbsp;°C), tetragonale con densità 19,36 g/cm³ (19&nbsp;360&nbsp;kg/m³) a 313&nbsp;°C.
+γ-nettunio (oltre 577&nbsp;°C), cubico con densità 18 g/cm³ (18&nbsp;000&nbsp;kg/m³) a 600&nbsp;°C.
+
+Disponibilità
+Tracce di nettunio sono presenti, in natura, nei minerali di uranio come prodotto di decadimento radioattivo del 237U. L'isotopo 237Np si può sintetizzare per riduzione di NpF3 con vapori di bario o litio a circa , ma prevalentemente si ottiene come sottoprodotto di reazione dal combustibile nucleare esausto e/o durante la produzione di plutonio. 237Np viene prodotto anche per decadimento alfa di 241Am.
+
+Con la cattura di un neutrone termico, un atomo di 235U passa allo stato eccitato di 236mU, un isomero metastabile con un'emivita di . Escludendo gli atomi che decadono nuovamente in 235U per reazioni di scattering elastico e anelastico, circa l'84% dei nuclei eccitati subisce la fissione, mentre il restante 16% decade allo stato fondamentale di 236U cedendo sotto forma di radiazioni gamma.
+
+Un'ulteriore cattura neutronica produce 237U che ha un'emivita di 7 giorni e decade rapidamente in 237Np.
+
+237U viene prodotto anche tramite una reazione (n,2n) con 238U (ma solo se i neutroni hanno alta energia).
+
+Isotopi
+Sono noti 19 radioisotopi del nettunio, i più stabili dei quali sono il 237Np con emivita di 2,14 milioni di anni, il 236Np con emivita di anni e 235Np con emivita di 396,1 giorni. Tutti gli altri isotopi radioattivi hanno emivite inferiori a 5 giorni e, per la maggior parte, inferiori ad 1 ora. Questo elemento ha anche 4 stati metastabili, di cui il più stabile è il 236mNp (t½ 22,5 ore).
+
+Gli isotopi di nettunio hanno un peso atomico variabile tra 225,034 u (225Np) e 244,068 u (244Np). Il principale modo di decadimento prima dell'isotopo più stabile (237Np) è la cattura elettronica (con un decadimento alfa significativo), mentre quello più comune dopo l'isotopo più stabile è il decadimento beta. I prodotti di decadimento prima di 237Np sono isotopi di uranio (mentre il decadimento alfa produce, invece, isotopi di protoattinio) e i prodotti principali dopo di esso sono isotopi di plutonio.
+
+Composti
+Possiede vari stati di ossidazione, i più alti dei quali sono quelli ottenuti in soluzione acquosa come Np3+ (di colore purpureo analogamente allo ione Pm3+) che produce, per ossidazione all'aria, Np4+ (verde-giallo) e, successivamente, NpO (rosa pallido). Un altro stato di ossidazione conosciuto è NpO (verde bluastro in soluzione acquosa) ottenuto per ossidazione di Np4+ con acido nitrico caldo.
+
+I principali composti del nettunio sono gli alogenuri NpF6 (arancione), NpF4 (verde), NpF3 (viola-nero), NpCl4 (rosso-marrone), NpCl3 (bianco), NpBr4 (rosso-marrone), NpBr3 (verde), NpI3 (marrone) e gli ossidi Np3O8 e NpO2.
+
+Inquinamento da 237Np nel lungo periodo
+Gli isotopi di nettunio più pesanti decadono rapidamente, mentre quelli più leggeri non possono essere prodotti per cattura neutronica; di conseguenza, la separazione chimica del nettunio dal combustibile nucleare esausto produce sostanzialmente il solo 237Np. Per tale motivo – e per la scarsa rilevanza come prodotto del decadimento naturale nei giacimenti di minerali uranili – questo radionuclide del nettunio si presta come indicatore dell'inquinamento di lungo periodo connesso con le attività nucleari umane.
+
+Come altri tre prodotti di fissione (99Tc, 129I e 234U) il radioisotopo 237Np possiede un'emivita molto lunga, è facilmente solubile in acqua e viene scarsamente assorbito dai minerali per cui, pur essendo un nuclide a bassa emissione radioattiva, potrebbe rappresentare, nel lungo periodo (> dallo stoccaggio) a causa del progressivo accumulo e dell'elevata mobilità, l'agente più significativo di inquinamento radioattivo per le falde acquifere e i bacini idrografici prossimali ai depositi di scorie se questi ultimi dovessero deteriorarsi.
+
+Applicazioni
+237Np trova impiego nella costruzione di dosimetri di neutroni veloci e ad alta energia, anche per uso personale, in campo ospedaliero e industriale. Lo stesso radioisotopo del nettunio è anche un prodotto di decadimento dell'americio presente nei rivelatori di fumo a ionizzazione.
+
+L'irradiazione neutronica di 237Np origina 238Pu che è una sorgente di particelle α per i generatori termoelettrici a radioisotopi (RTG) utilizzati, prevalentemente, nel campo dell'esplorazione spaziale. 237Np cattura un neutrone per formare 238Np che decade – per emissione beta dopo un paio di giorni – in 238Pu.
+
+Il nettunio è fissile e potrebbe teoricamente essere utilizzato come combustibile nei reattori a neutroni veloci o nelle armi nucleari. Nel 1992, il Dipartimento dell'energia degli Stati Uniti declassificò un documento che attestava la possibilità di impiego di 237Np nella costruzione di armi nucleari. Nel settembre 2002, alcuni ricercatori dell'Università della California hanno creato, presso il Los Alamos National Laboratory, la prima massa critica di nettunio utilizzando, per gli esperimenti, una sfera di 6&nbsp;kg di 237Np circondata da un guscio di uranio arricchito. I risultati degli esperimenti hanno mostrato che la massa critica è compresa attorno ai .

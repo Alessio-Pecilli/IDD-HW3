@@ -1,0 +1,88 @@
+Inform è un linguaggio di programmazione ed un sistema di sviluppo di avventure testuali, creato nel 1993 da Graham Nelson.
+
+Introduzione
+
+Il sistema Inform consiste di due componenti principali: il compilatore Inform che genera story file dal codice sorgente Inform,
+e la libreria Inform, una raccolta di software che gestisce le parti più difficili del parsing dell'input del giocatore e tiene traccia del modello del mondo del gioco. Il nome Inform si riferisce anche al linguaggio di programmazione Inform compreso dal compilatore.
+
+Il compilatore
+Il compilatore Inform genera file in codice per Z-machine da codice sorgente Inform. Questi file possono essere eseguiti da un interprete Z-code — cioè da un programma che emula la macchina virtuale Z. Poiché c'è almeno uno di tali interpreti per quasi tutte le piattaforme, questo significa che il file in Z-code può essere eseguito senza alterazioni su una gran varietà di computer diversi.
+
+Andrew Plotkin ha creato una versione non ufficiale di Inform capace di generare file per la macchina virtuale Glulx, che elimina molte delle limitazioni della Z-machine, però le macchine virtuali Glulx non sono ancora state portate su tante architetture. Inform 6.3, pubblicato il 29 febbraio 2004 include le modifiche di Plotkin e gestisce entrambe le macchine virtuali.
+
+Sebbene Inform e la Z-machine siano progettati per la fiction interattiva, con essi sono stati sviluppati un gran numero di altri programmi, compreso un interprete BASIC, un gioco di Tetris ed una versione del gioco del Serpentone.
+
+Il linguaggio di programmazione
+Inform è un linguaggio di programmazione orientato agli oggetti e procedurale. Gli oggetti sono memorizzati in strutture ad albero che tengono traccia delle relazioni genitore-figlio tra gli oggetti. Gli oggetti possono essere spostati nell'albero. Tipicamente, gli oggetti di primo livello rappresentano stanze o altri luoghi del gioco, che possono contenere altri oggetti rappresentanti il contenuto della stanza, siano essi oggetti fisici, personaggi o effetti di sfondo. Tutti gli oggetti possono contenere altri oggetti, quindi un oggetto salotto potrebbe contenere un oggetto assicuratore contenente una valigetta che contiene un contratto.
+
+Nelle prime versioni di Inform, la nozione degli oggetti era diversa da quella usata nella programmazione ad oggetti, non avendo il concetto di classe. Le versioni più recenti hanno integrato la possibilità di definire delle classi e di creare oggetti membri di tali classi. Gli oggetti e le classi possono ereditare da più classi. I giochi di fiction interattiva tipicamente contengono molti oggetti unici. Per questo motivo, la maggior parte degli oggetti usati non ereditano alcuna classe, a parte la "metaclasse" Object. Però spesso gli oggetti hanno attributi (proprietà booleane, come scenary o edible) riconosciute dalla libreria Inform. In altri linguaggi, questo comportamento verrebbe normalmente implementato attraverso l'uso dell'ereditarietà.
+
+Ecco un esempio di codice sorgente Inform.
+
+[ Main;
+print "Hello World^";
+];
+
+Lo stesso risultato si ottiene rimuovendo il carattere "^" (che indica il carattere di "a capo") ed usando print_ret invece di print. print_ret inoltre fa ritornare immediatamente dalla routine con il valore 1. Questa particolare istruzione di stampa è presente perché questa combinazione di azioni è molto comune nella preparazione di fiction interattiva usando Inform. In effetti può essere scritta senza alcuna parola chiave, visto che una stringa come istruzione è una sintassi specializzata per print_ret.
+
+La libreria
+
+Il sistema inform comprende anche la libreria Inform, che automatizza quasi tutti i compiti più difficili della programmazione della fiction interattiva; in particolare include un parser che interpreta l'input del giocatore ed un modello del mondo che tiene traccia degli oggetti (e delle loro proprietà) come le stanze, le porte, l'inventario del giocatore e così via.
+
+Ecco un esempio di codice sorgente Inform che usa la libreria:
+
+Constant Story "HELLO WIKIPEDIA";
+Constant Headline "^An Interactive Example^";
+
+Include "Parser";
+Include "VerbLib";
+
+[ Initialise;
+location = Living_Room;
+"Hello World";
+];
+
+Object Living_Room "Living Room"
+with
+description "A comfortably furnished living room.",
+n_to Kitchen,
+s_to Frontdoor,
+has light;
+
+Object -> Salesman "insurance salesman"
+with
+name 'insurance' 'salesman' 'man',
+description "An insurance salesman in a tacky polyester
+suit. He seems eager to speak to you.",
+before [;
+Listen:
+move Insurance_Paperwork to player;
+"The salesman bores you with a discussion
+of life insurance policies. From his
+briefcase he pulls some paperwork which he
+hands to you.";
+],
+has animate;
+
+Object -> -> Briefcase "briefcase"
+with
+name 'briefcase' 'case',
+description "A slightly worn, black briefcase.",
+has container;
+
+Object -> -> -> Insurance_Paperwork "insurance paperwork"
+with
+name 'paperwork' 'papers' 'insurance' 'documents' 'forms',
+description "Page after page of small legalese.";
+
+Include "Grammar";
+
+Il compilatore Inform non richiede l'uso della libreria Inform.
+Esiste almeno una libreria sostitutiva: Platypus.
+
+Giochi celebri sviluppati con Inform
+
+Curses, di Graham Nelson, è stato il primo importante gioco scritto in Inform, ed è considerato un classico nel suo genere.
+Galatea, di Emily Short è probabilmente l'implementazione più dettagliata ed efficace di un NPC del formato di gioco.
+a Photopia, di Adam Cadre, è riconosciuto il merito di essere la prima opera di fiction interattiva completamente senza rompicapo. La sua comparsa è stata un punto di svolta nella storia del genere.
+So Far, di Andrew Plotkin. È una pietra miliare per l'integrazione di storia, progettazione dei rompicapo ed attesa del giocatore nella fiction interattiva.

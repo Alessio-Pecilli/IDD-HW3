@@ -1,0 +1,142 @@
+Quicksort è un algoritmo di ordinamento ricorsivo in place non stabile. E come l'algoritmo di ordinamento Mergesort basa il suo funzionamento sul paradigma del "Divide et Impera"; ovvero sulla scomposizione del problema in più sottoproblemi di taglia minore.
+
+In generale la logica dell'algoritmo può essere riassunta in questo modo:
+
+Scelta del pivot:
+Seleziona un elemento dell'array chiamato pivot. Può essere scelto in vari modi (es: il primo elemento, l'ultimo, un elemento casuale, o la mediana).
+Partizionamento della lista:
+Si divide l'array in due parti:
+Elementi minori o uguali al pivot (solitamente a sinistra del pivot)
+Elementi maggiori del pivot (solitamente a destra del pivot)
+Alla fine di questa fase, il pivot sarà nella sua posizione corretta nella lista.
+Ricorsione sui sotto-array:
+Applicazione del Quicksort alla parte sinistra (elementi minori o uguali al pivot) e alla parte destra (elementi maggiori).
+Continua fino a che i sotto-array contengono un solo elemento o sono vuoti (caso base).
+
+Il Quicksort, termine che tradotto letteralmente in italiano significa "ordinamento rapido", è l'algoritmo di ordinamento che ha, nel caso medio, prestazioni migliori tra quelli basati su confronto. È stato ideato da Charles Antony Richard Hoare nel 1961.
+
+Storia
+L'algoritmo quicksort fu ideato nel 1959 da Tony Hoare durante un viaggio nell'URSS, durante una sua visita alla Moscow State University. In quel periodo, Hoare lavorava a un progetto di traduzione automatica per il National Physical Laboratory. Durante il processo di traduzione si rese necessario ordinare le parole russe prima di consultare il dizionario Russo-Inglese che era registrato su un nastro magnetico e ordinato alfabeticamente. Dopo aver capito che l'uso dell'insertion sort sarebbe stato troppo lento, concepì una nuova idea di algoritmo - il Quicksort. Scrisse il programma con Autocode relativa alla partizione ma non riuscì a gestire la parte relativa ai segmenti non ordinati. Tornato in Inghilterra, gli fu chiesto per lavoro di scrivere il codice di uno Shell sort - l'algoritmo di ordinamento più efficiente all'epoca. Hoare dichiarò al suo capo che conosceva un algoritmo più efficiente; il capo fece una scommessa, di sei pence, e perse. In seguito, Hoare venne a conoscenza del linguaggio ALGOL e della sua abilità di gestire la ricorsione; grazie ad esso, pubblicò il codice completo nella maggiore rivista scientifica di informatica del periodo, Communications of the Association for Computing Machinery.
+
+Algoritmo di base
+L'idea base può esprimersi agevolmente in termini ricorsivi. Ad ogni stadio si effettua un ordinamento parziale di una sequenza di oggetti da ordinare. Assunto un elemento come perno dello stadio, si confrontano con esso gli altri elementi e si posizionano alla sua sinistra i minori e a destra i maggiori, senza tener conto del loro ordine. Dopo questo stadio si ha che il perno è nella sua posizione definitiva.
+
+Successivamente si organizzano nuovi stadi simili nei quali si procede all'ordinamento parziale delle sottosequenze di elementi rimasti non ordinati, fino al loro esaurimento.
+
+Lo pseudocodice per il Quicksort è:
+
+O, in alternativa:
+Procedure Quicksort(A)
+Input A, vettore a1, a2, a3 .. an
+begin
+if n ≤ 1 then return A
+else
+begin
+scegli un elemento pivot ak
+calcola il vettore A1 dagli elementi ai di A tali che i ≠ k e ai ≤ ak
+calcola il vettore A2 dagli elementi aj di A tali che j ≠ k e aj &gt; ak
+A1 ← Quicksort(A1)
+A2 ← Quicksort(A2)
+return A1 · (ak) · A2;
+end
+
+Specifica dell'algoritmo
+
+Si vuole fornire una versione più dettagliata dell'algoritmo che specifichi la struttura dati utilizzata e il processo di partizione. L'obiettivo è quello di implementare la procedura mediante un procedimento che calcoli la sequenza ordinata attraverso scambi diretti tra i valori delle sue componenti, senza usare vettori aggiuntivi per mantenere risultati parziali della computazione. In questo modo lo spazio di memoria utilizzato è essenzialmente ridotto alle celle necessarie per mantenere il vettore di ingresso e per implementare la ricorsione.
+
+Si rappresenta la sequenza di input mediante il vettore componenti. Per ogni coppia di interi p,q tali che denotiamo . Il cuore dell'algoritmo è costituito dalla funzione che partiziona l'insieme, per comodità chiamiamo Partition(p,q). Questa procedura ripartisce gli elementi del vettore rispetto al valore della prima componente ; questa funzione modifica quindi il valore delle componenti di e restituisce un indice che gode delle seguenti proprietà:
+
+assume il valore
+contiene i valori minori o uguali ad originariamente contenuti in
+contiene i valori maggiori di originariamente contenuti in
+
+Rianalizzando l'algoritmo del quicksort prima esposto si comprende che la funzione Partition(A, p, q) è il fulcro delle operazioni. Nella versione qui presentata l'elemento pivot è fissato a ; questo non è limitativo poiché il chiamante può scegliere un pivot diverso e posizionarlo in prima di chiamare la funzione. Partition quindi effettua una scansione degli elementi dalla sinistra saltando quelli più piccoli del pivot e dalla destra saltando quelli più grandi; quindi scambia gli elementi che arrestano le scansioni e ricomincia. La scansione partita da destra si ferma su elementi minori o uguali al pivot (e quindi è bloccata dall'elemento pivot stesso), mentre quella partita da sinistra si interrompe quando arriva a un elemento maggiore del pivot. I puntatori utilizzati per la scansione quindi si possono incrociare, e quando l'incrocio è avvenuto la funzione ha completato il suo lavoro.
+
+Oltre al vettore , la funzione riceve i parametri e che rappresentano gli indici del sottovettore sul quale si opera la partizione (assumiamo sempre ). Le altre variabili che compaiono nella procedura sono locali.
+
+Function Partition(A, p, q)
+begin
+i ← p
+j ← q
+while i ≤ j do
+begin
+while A[j] &gt; A[p] do j ← j - 1
+while i ≤ j and A[i] ≤ A[p] do i ← i + 1
+if i Partition, per esempio:
+
+scegli a caso un intero k tra p e q
+Scambia (A[p], A[k])
+Partition (A, p, q)
+
+Chiavi duplicate
+
+Se nello stesso vettore esistono degli elementi ripetuti, è possibile sistemarli nella prima scansione che viene effettuata tramite la versione di Bentley - Mc Illroy del 1993.
+Questa versione prevede che, durante il processo di scansione (fase di partizionamento dell'algoritmo), gli elementi uguali al pivot vengano spostati immediatamente a fianco del pivot (a sinistra se provengono dalla parte sinistra, a destra se provengono dalla parte destra). In questo modo si avranno tre partizioni, una con gli elementi minori del pivot, una con gli elementi uguali e una con gli elementi maggiori del pivot.
+
+La complessità dell'algoritmo non viene modificata.
+
+Dimensione dello stack
+L'algoritmo utilizza la ricorsione, che in casi di anomalie potrebbe portare a problemi di stack overflow. È possibile operare un processo di rimozione della ricorsione senza alterare le prestazioni utilizzando uno stack esterno che memorizza il "lavoro da fare" in forma di file parziali da ordinare. Ogni qualvolta si richiede un sottofile da ordinare è sufficiente estrarlo dalla stack mentre in seguito a un partizionamento i due file parziali generati possono essere inseritivi. Nell'implementazione ricorsiva (quelle viste sopra), lo stack viene gestito dal sistema contiene le stesse informazioni che si salveranno in questo stack esterno. Per un file casuale la massima dimensione dello stack è proporzionale a anche se in casi degeneri lo stack può crescere proporzionalmente a N. Il caso peggiore è quello in cui il file risulta già ordinato. Questo problema è tanto sottile quanto reale: anche un programma ricorsivo utilizza (implicitamente) uno stack, per cui la degenerazione del quicksort per file di grandi dimensioni potrebbe causare una terminazione anomala del programma per mancanza di memoria disponibile. Ovviamente un comportamento del genere deve essere evitato soprattutto se si vuole inserire la routine in una libreria di programma. Non è facile dare garanzie che ciò non avvenga anche se non è difficile fare in modo che questi casi degeneri siano estremamente improbabili.
+
+Per effettuare lo studio della dimensione dello stack si effettua la valutazione dello spazio di memoria necessario alla procedura del quicksort. Oltre alle n celle necessarie per contenere il vettore dei valori di ingresso, occorre utilizzare una certa quantità di spazio per mantenere la pila che implementa la ricorsione. Nel caso peggiore Quicksort(1,n) utilizza uno spazio per mantenere la pila. Se infatti viene estratto l'elemento maggiore del campione, la pila deve conservare i parametri relativi a un massimo di chiamate ricorsive.
+
+Quicksort iterativo
+
+Il primo passaggio da fare per passare dalla strategia ricorsiva a quella iterativa è quello di inserire il più grande dei due sottofile da ordinare nello stack assicurando che ogni sottofile presente nello stack non sia più grande della metà di quello che gli sta sotto, quindi lo stack non dovrà contenere più di un numero logaritmico di oggetti. Questa dimensione massima dello stack si verifica quando il partizionamento è effettuato sempre al centro del file. Per file casuali l'occupazione di stack è verosimilmente piccola.
+
+La versione di base del quicksort potrà essere migliorata modificando appositamente le chiamate ricorsive. Più precisamente si può forzare la procedura ad eseguire sempre la prima chiamata relativa al sottovettore di lunghezza minore. Si ottiene un nuovo algoritmo con le seguenti istruzioni (la procedura viene scritta in pseudocodice):
+
+Procedure Quicksort(A, p, q)
+Input A vettore di elementi
+begin
+l ← Partition (A, p, q)
+if (l - p) &lt; (q - l) then
+begin
+if p &lt; (l - 1) then Quicksort(A, p, l - 1)
+if (l + 1) &lt; q then Quicksort(A, l + 1, q)
+end
+else
+begin
+if (l + 1) &lt; q then Quicksort(A, l + 1, q)
+if p &lt; (l - 1) then Quicksort(A, p, l - 1)
+end
+end
+
+A questo punto è possibile operare la trasformazione e passare nella versione iterativa. Si osserva innanzitutto che in questo caso il criterio di gestione della pila può essere semplificato sfruttando il fatto che le due chiamate ricorsive sono le ultime istruzioni della procedura. Si può quindi definire una versione iterativa nella quale la pila serve per mantenere l'elenco delle chiamate che devono ancora essere eseguite e non sono state neppure iniziate. In altre parole nell'esecuzione della procedura la prima chiamata ricorsiva viene attivata dopo aver accantonato in testa alla pila i parametri necessari per eseguire la seconda. Quest'ultima sarà attivata una volta completata la precedente, quando i suoi parametri si trovano di nuovo in testa alla pila. In particolare non si ha bisogno di mantenere nella pila il record di attivazione della procedura (che qualsiasi linguaggio di programmazione fa ogni qual volta viene chiamata una procedura).
+
+L'algoritmo così ottenuto è descritto dalla seguente procedura:
+
+Procedure Quicksort(A)
+Input: un vettore A con i dati da ordinare
+begin
+p ← 1
+q ← n
+S ← NULL
+repeat
+while (q - p) ≤ 1 do
+begin
+Partition(A, p, q)
+sia Ap1,q1 il vettore max(Ap,q)
+sia Ap2,q2 il vettore min(Ap,q)
+S ← Push(S, (p1,q1))
+p ← p2
+q ← q2
+end
+until (S = NULL) or (q - p) &lt; 1
+end
+
+Si può dimostrare che la procedura è corretta. Infatti al termine dell'esecuzione di ogni ciclo repeat-until le parti del vettore di ingresso non ancora ordinate sono contenute nella pila S oppure in . La verifica di questa proprietà è facile. Di conseguenza quando si esce dal ciclo la condizione (S ≠ NULL) e (q - p) garantisce che il vettore di ingresso sia ordinato.
+
+Valutazione altezza massima dello stack
+
+Si osserva innanzitutto che il vettore sul quale la macchina sta lavorando non è mai maggiore del vettore che si trova in testa alla pila S. Inoltre, ad ogni incremento di S la dimensione , viene ridotta almeno della metà. Quindi durante la computazione la pila può contenere al più elementi dove è la dimensione dell'input.
+
+Quicksort misto ricorsivo-iterativo
+
+Come descritto per il Quicksort iterativo, anche per questa strategia il primo passo è quello di modificare la procedura ricorsiva considerando il fatto che la seconda chiamata alla funzione Quicksort avviene alla fine della procedura, quando non c'è più quindi la necessità di mantenere nello stack le informazioni e lo stato della funzione chiamante. Si può allora trasformare la seconda chiamata ricorsiva in un loop interno alla funzione chiamante stessa, dopo averne opportunamente aggiornato i parametri d'ingresso. Se a questo primo passo aggiungiamo che la prima chiamata ricorsiva è sempre effettuata sulla parte di vettore da ordinare che risulta più corta (e quindi mai maggiore della metà del vettore di partenza), questa strategia contemporaneamente riduce il numero di chiamate ricorsive e può utilizzare lo stack di sistema (senza doverne creare uno ad hoc) dato che limita la profondità massima dello stack, anche nel caso pessimo, a elementi.
+
+Si riporta una efficiente implementazione in C della strategia descritta. Il codice può essere compilato per ordinare stringhe, numeri interi, etc.
+
+Stringhe e vettori
+
+Selezione

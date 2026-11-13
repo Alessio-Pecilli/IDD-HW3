@@ -1,0 +1,37 @@
+BPEL (sigla di Business Process Execution Language) è un linguaggio basato sull'XML costruito per descrivere formalmente i processi commerciali e industriali in modo da permettere una suddivisione dei compiti tra attori diversi.
+
+Un'applicazione BPEL viene invocata come Web service e interagisce con il mondo esterno esclusivamente invocando altri Web service. In questo senso, essa stessa rappresenta una forma di coordinazione di servizi Web, permettendo altresì di comporre questi ultimi in maniera ricorsiva. L'ambiente runtime all'interno del quale viene eseguito il generico processo è detto motore BPEL.
+
+Lo standard che definisce l'uso di BPEL nelle interazioni tra Web service è chiamato BPEL4WS o WS-BPEL. BPEL è nato come integrazione delle ricerche svolte da IBM e Microsoft su WSFL e XLANG, entrambi superati da BPEL. Nell'aprile del 2003 BPEL è stato sottoposto ad OASIS che lo ha standardizzato.
+
+Il linguaggio BPEL
+Il linguaggio BPEL permette di descrivere un processo di business mediante un insieme di attività, che possono essere semplici o strutturate. Le attività semplici esprimono una generica azione (ad es. invoca servizio, ricevi risposta, assegna valore ad una variabile, termina processo, ecc.), mentre quelle strutturate sono normalmente utilizzate per raggruppare attività semplici allo scopo di esprimere loop, operazioni condizionali, esecuzione sequenziale, esecuzione concorrente, ecc. L'intero processo è descritto mediante un'unica attività strutturata (top-level activity), generalmente di tipo sequenziale.
+
+Un tag "scope" racchiude l'insieme di attività che compone una transazione atomica, ovvero un processo che può terminare con un "commit" o un "abort", senza stati intermedi, nel quale l'arresto del processo su un'attività comporta l'interruzione del processo e la cancellazione delle modifiche in scrittura al database durante le attività precedenti ("undo" delle attività). Questo è necessario ad esempio in una transazione bancaria/finanziaria nella quale ad ogni addebito deve corrispondere un accredito di somme.
+
+Un diagramma di workflow contiene tipicamente operazioni, messaggi, attori (umani o applicativi), applicazioni che definiscono il web-service, condizioni logiche (IF), parallelismi, loop e task di sincronizzazione fra operazioni.
+
+BPEL è in particolare adatto a modellare workflow completamente automatizzati, per la composizione di Web service l'integrazione di servizi (e applicazioni che li eseguono) eterogenee per hardware che li esegue, architetture di rete e linguaggio del relativo codice.
+
+BPEL mette altresì a disposizione dei costrutti per esprimere le cosiddette transazioni di lungo periodo (long running transactions, LRT), che rappresentano un'estensione delle transazioni ACID al caso di processi di lunga durata mediante la nozione di compensazione delle attività eseguite. Ancora, il meccanismo della correlazione è utilizzato per tener traccia di una certa conversazione a livello business, identificando così una sorta di sessione tra più partecipanti ad una stessa istanza di processo.
+
+BPEL consente di descrivere un workflow esistente oppure un processo astratto non eseguibile, trasformando in codice di programmazione una modellazione grafica che contiene la semantica descrivibile con i costrutti di UML. Questo è particolarmente utile per far comunicare software proprietari per la modellazione dei processi, che utilizzano terminologie e icone differenti per rappresentare quanto può essere descritto con una notazione UML. BPEL permette di esportare e importare questi diagrammi in un file.bpel da un database proprietario all'altro senza perdere il contenuto della rappresentazione.
+
+La "receive" di un messaggio crea un'istanza del processo; istanze del processo differenti variano per il contenuto del messaggi scambiati. Perciò, un campo del messaggio identifica univocamente l'istanza di appartenenza in modo da inviare i corretti dati a ogni istanza di processo. I messaggi sono delle "Input/Output variable" per le quali BPEL crea in automatico il tipo appropriato (stringa, testo, numero), ossia ciò che serve alla persistenza dell'informazione durante l'esecuzione del workflow; messaggi con identico contenuto informativo vengono rappresentati con un'istruzione di "assign" che permette di associare ad una variabile il contenuto di un'altra.
+
+Motori BPEL
+Sono stati sviluppati vari motori BPEL, tra i quali:
+
+Active Endpoints ActiveWebflow Server un motore BPEL completo basato sull'application server Java EE o come applicazione standalone integrata su di un server web (ad es. Tomcat). ActiveWebflow Designer è un'applicazione di sviluppo visuale basata su Eclipse.
+ActiveBPEL Engine è un completo ambiente runtime per BPEL. Scritto in Java, ActiveBPEL Engine è disponibile secondo la tecnologia open source ed è distribuito con licenza GPL.
+bexee BPEL Execution Engine è un motore BPEL open source, basato su Java EE-based BPEL engine. Il prodotto non è più stato sviluppato dopo la versione corrente 0.1 pertanto è utilizzabile come "proof of concept" o come base per ulteriori progetti.
+BizTalk Server il prodotto Microsoft per la gestione dei messaggi e l'integrazione applicativa è stato reso compatibile con lo standard BPEL dalla versione 2004. Si basa su tecnologia COM+ ma è perfettamente integrabile con la piattaforma.NET.
+BSOA Orchestra della Groupe Bull esegue processi BPEL. Viene eseguito su JOnAS un Java EE application server.
+Collaxa BPEL Orchestration Server è un motore basato su application server Java EE. Dalla versione 2 è incluso un ambiente di sviluppo visuale basato su Eclipse. In seguito all'acquisizione di questo prodotto da Oracle Corporation l'ambiente di sviluppo è ora basato anche sulla JDeveloper IDE di Oracle.
+FiveSight PXE è un motore BPEL modulare particolarmente focalizzato sull'affidabilità e sulla flessibilità.
+IBM WebSphere Business Integration Server Foundation è un completo motore BPEL che gira su piattaforma WebSphere. Include estensioni per il supporto dell'interazione umana e può essere eseguito su di una varietà di piattaforme quali Linux e z/OS. IBM offre anche ambienti di sviluppo basati su Eclipse quali WBI Modeler e WebSphere Studio Application Developer Integration Edition (che fa parte della famiglia Rational Application Developer).
+OpenLink Virtuoso Universal Server OpenLink Software Web site, è un server che supporta BPEL.
+OpenStorm ChoreoServer è un'implementazione di BPEL su piattaforma Microsoft .NET. Il prodotto, lanciato nel 2004, non è più disponibile e la ditta texana OpenStorm Software Inc. non risulta più attiva.
+Oracle BPEL Process Managerè un motore BPEL nativo. Ha un supporto completo alla specifica BPEL, è stato la prima implementazione commerciale di questo standard ed include estensioni per il supporto dell'interazione umana (Human WorkFlow). È una applicazione Java EE e può funzionare sui principali Application Server e sui principali sistemi operativi.
+SeeBeyond eInsight Business Process Manager 5 fornisce un ambiente di modellazione grafica basato su BPMN per la notazione e BPEL4WS (WS-BPEL) per l'esecuzione dei processi [http://www.seebeyond.com/ SeeBeyond Technology Corporation .
+Twister è la prima implementazione open source dello standard WS-BPEL standard(LGPL). Twister supporta i pattern SOA così come l'interazione umana.

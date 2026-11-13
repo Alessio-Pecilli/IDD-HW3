@@ -1,0 +1,6 @@
+Un linguaggio di programmazione a basso livello in informatica, indica un linguaggio di programmazione che coincide con il linguaggio macchina o che differisce poco dal linguaggio macchina, fornendo poca o nessuna astrazione dai dettagli del funzionamento fisico del calcolatore.
+
+Descrizione
+L'espressione si contrappone a "linguaggio di programmazione ad alto livello". Si può dire che i linguaggi di programmazione di basso livello sono orientati "alla macchina" (ovvero il loro scopo è di essere direttamente eseguibili dal processore, o di poter essere tradotti facilmente in programmi eseguibili dal processore), mentre i linguaggi ad alto livello sono orientati "al programmatore" (il loro scopo è quello di essere facilmente utilizzabili dai programmatori umani).
+
+Intesa in senso assoluto, l'espressione "linguaggio di programmazione a basso livello" si riferisce normalmente al linguaggio macchina o all'assembly, che differisce dal linguaggio macchina solo nella sua rappresentazione testuale. In senso relativo, si può dire che un linguaggio è "a più basso livello" di un altro, intendendo che fornisce meccanismi di astrazione meno potenti. In questo senso si può dire per esempio che il linguaggio C è (relativamente) a basso livello, pur essendo caratterizzato da una significativa astrazione rispetto al linguaggio macchina.

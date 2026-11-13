@@ -1,0 +1,23 @@
+Intellipedia è un progetto dell'ente statunitense ODNI (Office of the Director of National Intelligence) che consiste in tre siti web di tipo wiki con informazioni su vari argomenti che funzionano su reti e piattaforme informatiche come JWICS, SIPRNet, e Intelink.
+
+Sono usati da individui, muniti di appropriate autorizzazioni, provenienti dalle 16 organizzazioni della comunità dell'intelligence degli Stati Uniti d'America ed altre organizzazioni legate alla sicurezza nazionale compresi i "Comandi Combattenti" e i dipartimenti federali. Nessuno di questi wiki è pubblico.
+
+Storia
+Intellipedia è un progetto dell'ODNI (Office of the Director of National Intelligence), con sede a Fort George G. Meade, nel Maryland.
+Ad ottobre 2006, conteneva oltre 28000 pagine, sviluppate da 3600 utenti. Comprende informazioni sulle regioni del mondo, sulle persone e sui temi d'interesse per le cennate comunità. Intellipedia usa MediaWiki, lo stesso software usato da Wikipedia, progetto di enciclopedia a contenuto libero.
+
+Le autorità di ODNI affermano che Intellipedia cambierà la cultura della comunità d'intelligence degli USA, ampiamente criticata per non essere stata in grado di "unire i punti" prima degli attacchi dell'11 settembre 2001.
+
+Funzioni
+
+Intellipedia è stata creata per condividere l'informazione su alcuni dei più spinosi problemi con cui deve confrontarsi l'intelligence statunitense, e per fornire una tecnologia all'avanguardia ed incisiva alla sua "forza lavoro".
+
+Permette pure che le informazioni vengano composte e rivedute da un ampio spettro di fonti e di agenzie, per rispondere alle preoccupazioni che l'analisi ante-guerra ed alla gestione dell'analisi di intelligence
+
+Potenziali problemi
+Vi è chi si preoccupa che le singole agenzie di spionaggio possano creare i propri wiki, sottraendo idee e stimoli dal progetto intellipedia. Sean Dennehy, un funzionario della CIA impegnato nell'integrazione del sistema nel tessuto dell'intelligence, ha dichiarato che la diffusione del materiale ad una platea più vasta possibile di analisti è cruciale per la finalità di minimizzare la possibilità di errori.
+
+Prassi della comunità d'intelligence
+Il wiki fornisce una tale flessibilità che diversi uffici della comunità lo usano per mantenere e trasmettere la conoscenza sulle operazioni e sugli eventi di ogni giorno.
+
+Ogni soggetto autorizzato alla lettura può altresì creare il proprio account e modificare le voci di questa particolare enciclopedia.

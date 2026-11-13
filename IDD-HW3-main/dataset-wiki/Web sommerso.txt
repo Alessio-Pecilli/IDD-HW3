@@ -1,0 +1,26 @@
+Il web sommerso (o in inglese deep web, "web profondo") è l'insieme delle risorse informative del World Wide Web non indicizzate dai normali motori di ricerca.
+
+Descrizione
+Per spiegare la mole di dati presente nel deep web si utilizza la metafora dell'iceberg, dove la parte al di sopra dell'acqua corrisponde a tutte le pagine del web indicizzate dai motori di ricerca: il cosiddetto web accessibile; mentre la parte sostanziale dell'iceberg si trova sommersa e corrisponde al web sommerso.
+
+Per aver una idea della sua vastità si ricorda che, secondo una ricerca sulle dimensioni della rete internet condotta nel 2000 da Bright Planet, un'organizzazione degli Stati Uniti d'America, il Web è costituito da oltre 18 milioni di GB e 550 miliardi di documenti, mentre Google ne indicizza solo 2 miliardi, ossia meno dell'uno per cento.
+
+Composizione
+I documenti che fanno parte del Web invisibile possono essere suddivisi nelle seguenti categorie:
+
+contenuti dinamici: pagine web dinamiche, ovvero pagine Web il cui contenuto viene generato sul momento dal server, che possono essere richiamate solo compilando un formulario o a risposta di una particolare richiesta;
+pagine non collegate: pagine Web che non sono collegate a nessun'altra pagina Web. Se l'accesso non è impedito da adeguate impostazioni di sicurezza, il motore indicizza la parent directory del sito, che contiene non solo le pagine visibili, ma tutto ciò che è caricato nel server ospitante;
+pagine ad accesso ristretto: siti che richiedono una registrazione o un Login o comunque limitano l'accesso alle loro pagine impedendo che i motori di ricerca possano accedervi;
+script: pagine che possono essere raggiunte solo attraverso link realizzati in JavaScript o in Flash e che quindi richiedono procedure particolari;
+contenuti non di testo: file multimediali, archivi Usenet, documenti scritti in linguaggio non HTML, in particolare non collegati a tag testuali (tuttavia alcuni motori di ricerca come Google sono in grado di ricercare anche documenti di questo tipo);
+contenuti banditi dai comuni motori di ricerca perché illegali: di questa categoria fanno parte siti pedo-pornografici o snuff, commercio e produzione illegale di droghe e armi, siti sottoposti a censure governative, siti di warez e malware;
+in misura residuale, siti web nuovi o recenti. Pagine istituzionali (aziende, enti, associazioni) non valorizzate e promosse. Indirizzi il cui proprietario fa in modo che non siano indicizzati o lo siano per caso;
+contenuti internet ma non web: mail, transazioni bancarie e simili. Oppure contenuti di blog, forum, scambi FTP, cataloghi di indirizzi non presenti sugli indici di Google e per questo presenti su spazi quali il sito Weitzenegger.de.
+
+Differenza con il dark web
+
+Fanno quindi parte del deep web nuovi siti non ancora indicizzati, pagine web a contenuto dinamico, software web e siti web privati aziendali.
+
+Il dark web è invece un sottoinsieme del deep web e rappresenta i contenuti accessibili pubblicamente ma ospitati in siti web il cui indirizzo IP è nascosto. Solitamente essi sono raggiungibili attraverso software particolari perché giacenti su reti sovrapposte a Internet, chiamate genericamente darknet. Le darknet più comuni sono Tor, I2P e Freenet. L'accesso a queste reti avviene tramite software particolari che fanno da ponte tra Internet e la darknet: uno dei più famosi è Tor che, oltre a fornire accesso all'omonima rete, garantisce l'anonimato all'utente, permettendogli di navigare anonimamente anche sul normale World Wide Web da uno dei nodi della rete Tor.
+
+In alcuni casi certi utenti approfittano dell'anonimato per commettere attività illecite, come la vendita di merce illegale: famoso è il caso di Silk Road, un sito di commercio elettronico sulla rete Tor che effettuava attività criminali, come il traffico di droga o la vendita di qualsiasi tipo di pornografia.

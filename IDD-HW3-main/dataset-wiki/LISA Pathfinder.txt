@@ -1,0 +1,21 @@
+LISA Pathfinder (precedentemente denominata SMART-2) è stata una missione dell'Agenzia Spaziale Europea il cui lancio, previsto inizialmente nel 2011, è avvenuto il 3 dicembre 2015.
+
+La sigla SMART indica Small Missions for Advanced Research in Technology (missioni ridotte per la ricerca tecnologica). L'obiettivo del LISA Pathfinder è verificare le tecnologie che saranno alla base della missione congiunta NASA/ESA LISA.
+
+La missione LISA cercherà di individuare prove sperimentali dell'esistenza di onde gravitazionali e di utilizzare tali onde per lo studio di fenomeni quali buchi neri e sistemi binari. Nell'aprile 2016 l'ESA ha annunciato, dai dati di LISA Pathfinder, che la missione LISA è fattibile.
+
+Missione
+LISA Pathfinder ha posizionato due masse di prova in una caduta libera gravitazionale quasi perfetta, e ha controllato e misurato il loro movimento relativo con una precisione senza precedenti. L'interferometro laser ha misurato la posizione relativa e l'orientamento delle masse con un'accuratezza inferiore a , una tecnologia stimata abbastanza sensibile da rilevare le onde gravitazionali dalla missione successiva, l'antenna spaziale per interferenze laser (LISA).
+
+L'interferometro era un modello in scala di uno dei tre bracci dell'interferometro LISA, ridotto da milioni di chilometri a di lunghezza. La riduzione non ha modificato l'accuratezza della misurazione della posizione relativa, né ha influito sui vari disturbi tecnici prodotti dal veicolo spaziale che circonda l'esperimento, la cui misurazione era l'obiettivo principale di LISA Pathfinder. La sensibilità alle onde gravitazionali, tuttavia, è proporzionale alla lunghezza del braccio e questo era ridotto di diversi miliardi di volte rispetto all'esperimento LISA pianificato.
+
+LISA Pathfinder era una missione guidata dall'ESA. Ha coinvolto compagnie spaziali europee e istituti di ricerca di Francia, Germania, Italia, Paesi Bassi, Spagna, Svizzera, Regno Unito e l'agenzia spaziale americana NASA.
+
+Tecnologia
+LISA Pathfinder è stato assemblato da Airbus Defence and Space a Stevenage (Regno Unito), sotto contratto con l'Agenzia spaziale europea. Portava un "pacchetto tecnologico LISA" europeo che comprendeva sensori inerziali, interferometro e strumentazione associata, nonché due sistemi di controllo a deriva libera: uno europeo, che utilizzava micro-propulsori a gas freddo (simili a quelli usati sul Satellite Gaia) e uno costruito negli Stati Uniti "Disturbance Reduction System" che utilizza i sensori europei e un sistema di propulsione elettrica che utilizza goccioline ionizzate di un colloide accelerato in un campo elettrico. Il sistema di propulsione colloidale (o "propulsore elettrospray") fu costruito da Busek e consegnato al Jet Propulsion Laboratory per l'integrazione con il veicolo spaziale.
+
+Strumentazione
+Il pacchetto tecnologico LISA (LTP) è stato integrato da Airbus Defence e Space Germany, ma gli strumenti e i componenti sono stati forniti da istituzioni di tutta Europa. I requisiti tecnici di riduzione del rumore sull'interferometro sono molto rigorosi, il che significa che la risposta fisica dell'interferometro alle mutevoli condizioni ambientali, come la temperatura, deve essere ridotta al minimo.
+
+Interferenze ambientali
+Nella missione di follow-up, eLISA, i fattori ambientali influenzeranno le misurazioni effettuate dall'interferometro. Queste influenze ambientali includono campi elettromagnetici vaganti e gradienti di temperatura, che potrebbero essere causati dal riscaldamento non uniforme del veicolo spaziale da parte del Sole, o anche dall'attività della strumentazione all'interno del veicolo stesso. Pertanto, LISA Pathfinder è stato progettato per scoprire in che modo tali influenze ambientali cambino il comportamento dei sensori inerziali e degli altri strumenti. LISA Pathfinder ha volato con un ampio pacchetto di strumenti in grado di misurare la temperatura e i campi magnetici sulle masse di prova e sul banco ottico. Il veicolo spaziale era persino equipaggiato per stimolare artificialmente il sistema: trasportava elementi riscaldanti in grado di riscaldare in modo irregolare la struttura del veicolo spaziale, causando la distorsione del banco ottico e consentendo agli scienziati di vedere come cambiano al variare delle temperature.

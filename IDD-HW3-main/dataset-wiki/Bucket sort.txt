@@ -1,0 +1,23 @@
+Il bucket sort è un algoritmo di ordinamento per valori numerici che si assume siano distribuiti uniformemente in un intervallo . La complessità del bucket sort è lineare O(n).
+
+Spiegazione astratta
+
+Se n è il numero di elementi da ordinare, l'intervallo è diviso in n intervalli di uguale lunghezza, detti bucket (cesto). Ciascun valore dell'array è quindi inserito nel bucket a cui appartiene, i valori all'interno di ogni bucket vengono ordinati e l'algoritmo si conclude con la concatenazione dei valori contenuti nei bucket.
+
+Pseudo-codice
+BucketSort(array A, intero N)
+for i ← 1 to length[A] do
+// restituisce un indice di bucket per l'elemento A[i]
+bucket ← f(A[i], N)
+// inserisce l'elemento A[i] nel bucket corrispondente
+aggiungi(A[i], B[bucket])
+for i ← 1 to N do
+// ordina il bucket
+ordina(B[i])
+// restituisce la concatenazione dei bucket
+return concatena(B)
+
+N è il numero di bucket da usare, la funzione f calcola il bucket in cui inserire l'elemento, ordina è un algoritmo di ordinamento e concatena restituisce un array composto dalla concatenazione dei valori dei bucket.
+
+Complessità
+La complessità del bucket sort è O(n) per tutti i cicli, a parte l'ordinamento dei singoli bucket. Date le premesse sull'input, come descritto in Introduction to Algorithms, utilizzando insertion sort l'ordinamento di ogni bucket è dell'ordine di , quindi la complessità media di O(n) per tutto l'algoritmo. La complessità nel caso migliore è lineare, O(n+m) dove m è il massimo valore nell'array.

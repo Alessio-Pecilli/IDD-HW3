@@ -53,11 +53,11 @@ for ax in (a, b):
 fig.tight_layout()
 fig.savefig("relazione/tempi.png", dpi=200)
 
-# 2. MAP / P@10 / Recall per configurazione
+# 2. P@10 / Recall / MAP per configurazione
 ris = open("eval/risultati.md", encoding="utf-8").read()
 righe = tabella(ris, "| Analyzer contenuto")
 nomi = [re.sub(r" \(scelto\)", "", r[0]) for r in righe]
-metriche = {"MAP": 1, "P@10": 2, "R@100": 3, "nDCG@10": 8}
+metriche = {"P@10": 2, "Recall": 4, "MAP": 1}
 fig, ax = plt.subplots(figsize=(7.2, 2.5))
 larg = 0.8 / len(nomi)
 colori = ["#9db4c6", "#5b8db3", ACC]

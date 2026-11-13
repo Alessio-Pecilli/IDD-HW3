@@ -1,0 +1,7 @@
+Alice, o Archivio Libri Italiani su Calcolatore Elettronico, è una base di dati comprendente tutti i titoli pubblicati nell'area linguistica italiana disponibili in commercio e, inoltre, i titoli dei libri esauriti a partire dal 1979. È di proprietà di Messaggerie Italiane, gestita dalla società Informazioni Editoriali, che ha mantenuto un ruolo di leader in Italia nello specifico settore della gestione di database e degli altri di servizi informativi per l'editoria.
+
+Il catalogo è stato disponibile a partire dal 1985 (inizialmente come CD e poi via world wide web); Alice è poi stata affiancata da e-kitāb per quello che riguarda il catalogo degli e-book italiani in commercio, e dal catalogo degli home video.
+
+I dati raccolti sono suddivisi in tre sezioni: libri, editori e distributori, con una banca dati per ciascuno di essi. Sono anche annunciate le novità di prossima uscita. Il catalogo distributori fornisce ai librai l'indicazione che consente loro di rifornirsi dei singoli titoli.
+
+I titoli complessivi al 2012 ammontavano a , suddivisi tra titoli ancora in commercio e titoli esauriti; le case editrici erano .

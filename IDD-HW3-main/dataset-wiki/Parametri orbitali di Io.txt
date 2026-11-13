@@ -1,0 +1,7 @@
+Io percorre un'orbita attorno al pianeta madre Giove ellittica della quale il semiasse maggiore misura in media 421&nbsp;700&nbsp;km (nel punto più vicino risulta di 420&nbsp;000&nbsp;km mentre nel più lontano 423&nbsp;400&nbsp;km).
+
+La circonferenza orbitale è 2&nbsp;649 620&nbsp;km; il periodo per percorrerla è uguale a 1 giorno 18 ore 27 minuti e 33,5 secondi, con una velocità orbitale che varia da 17&nbsp;263 a 17&nbsp;406&nbsp;m/s a seconda della vicinanza del satellite naturale al pianeta, l'angolo di inclinazione fra le due orbite è di 2,21°, e l'eccentricità uguale a 0,0041.
+
+La sua orbita giace fra quella di Tebe ed Europa, è in risonanza di 2:1 con Europa e 4:1 con Ganimede (astronomia). Questa risonanza aiuta a mantenere l'eccentricità orbitale al valore che possiede tuttora.
+
+Come gli altri satelliti galileiani, e come la Luna, Io ruota sincronicamente col proprio periodo orbitale, mantenendo lo stesso emisfero sempre rivolto a Giove.

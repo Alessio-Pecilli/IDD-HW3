@@ -1,0 +1,14 @@
+Quando si utilizza la locuzione trio inconciliabile (o anche terzetto incoerente), in economia, ci si riferisce all'impossibilità che possano coesistere i tre elementi seguenti: perfetta mobilità dei capitali (PMK), regime di cambi fissi e autonomia nella politica monetaria. La locuzione è mutuata dall'espressione quartetto inconciliabile, definita da Tommaso Padoa-Schioppa nel 1982, che includeva anche l'elemento del libero commercio estero.
+
+Casi
+Si elencano ora i tre casi, illustrati con il modello IS-LM.
+Caso 1: Perfetta mobilità dei capitali e cambi fissi
+
+Le tre situazioni possono essere agevolmente descritte. Si ponga il caso che ci siano PMK e regime di cambi fissi. In questo caso, non sarebbe possibile avere autonomia nella politica monetaria, perché qualsiasi modifica del tasso d'interesse interno che modificasse la parità con quello internazionale, provocherebbe un afflusso di capitali in direzione del paese con tasso d'interesse maggiore. Questo afflusso di capitali porterebbe all'apprezzamento della moneta appartenente al paese verso il quale fluiscono i capitali rispetto a quella del paese dal quale questi capitali defluiscono, modificando la parità del tasso di cambio insita in un regime di cambi fissi. La banca centrale del paese che deve mantenere fisso il tasso di cambio dovrebbe intervenire nel mercato dei cambi, aumentando o riducendo le riserve valutarie che detiene. Questo, aumentando o diminuendo la quantità di moneta in circolazione, tenderebbe a far modificare l'offerta di moneta fino al punto in cui determinerà una nuova parità tra tasso d'interesse nazionale ed estero.
+
+Caso 2: Perfetta mobilità dei capitali e autonomia della politica monetaria
+
+Nel caso di cambi flessibili, PMK e autonomia della politica monetaria sarebbero tranquillamente conciliabili, per gli stessi motivi appena descritti. La variazione del tasso d'interesse porterebbe a un movimento di capitali che, a sua volta, provocherebbe una variazione del tasso di cambio. L'assenza di intervento da parte delle autorità monetarie, non obbligate a tenere fisso il tasso di cambio, lascerebbe il tasso di cambio libero di modificarsi nell'una o nell'altra direzione.
+
+Caso 3: Autonomia della politica monetaria e cambi fissi
+Infine, sarebbe possibile far convivere autonomia della politica monetaria e cambi fissi soltanto nel caso in cui non vi fosse PMK. Infatti, la presenza di barriere che limitassero o bloccassero l'ingresso e l'uscita di capitali eviterebbe l'incipiente movimento di capitali causato dalla presenza del differenziale tra tassi d'interesse.

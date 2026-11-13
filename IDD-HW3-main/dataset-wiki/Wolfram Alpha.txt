@@ -1,0 +1,38 @@
+Wolfram Alpha, spesso stilizzato graficamente in Wolfram|Alpha, è un motore computazionale di conoscenza che interpreta le parole chiave inserite dall'utente e propone direttamente una risposta invece che offrire una lista di collegamenti ad altri siti web.
+
+L'autore di questo strumento, attivato il 18 maggio 2009, è il matematico inglese Stephen Wolfram, conosciuto per aver sviluppato Mathematica nel 1988.
+
+Descrizione
+Usando le parole del suo creatore, Wolfram è un "motore computazionale di conoscenza", che, invece di cercare nel web e restituire una lista di collegamenti ipertestuali (come fa un motore di ricerca), "decodifica ed elabora" la richiesta dell'utente, intrecciando i dati a sua disposizione (base di conoscenza), mostrando definizioni o eseguendo calcoli e confronti a seconda dei casi. È un software molto sofisticato, che elabora input espressi sia in linguaggio formale sia in lingua naturale, fornendo una risposta dettagliata alla domanda. Il modo in cui si pone la domanda può dunque influenzare l'efficacia della risposta. Attualmente è incentrato soprattutto sulle conoscenze tecniche (come matematica, fisica, chimica, biologia, astronomia, meteorologia, demografia, eccetera) ed è solo in lingua inglese.
+
+Wolfram|Alpha consiste in oltre 15 milioni di righe di codice simbolico di alto livello Mathematica, 50.000 algoritmi, ed è installato su un cluster di supercomputer e fa uso estensivo di tecnologie di calcolo parallelo e di grid computing.
+
+Esempi di utilizzo
+Matematica
+Essendo Mathematica uno dei pilastri del motore di Wolfram|Alpha, il software è in grado di riconoscere praticamente qualunque espressione o equazione matematica e di risolverla in base alle conoscenze attuali. Per esempio, inserendo un'equazione il software disegna il grafico della curva relativa e fornisce le relative soluzioni, in forma numerica o simbolica a seconda dei casi.
+
+Inserendo invece alcuni elementi di una serie di numeri, il programma ne disegna il grafico, ne calcola somma, media, deviazione standard, e ne deduce una possibile formula analitica minima per l'ipotetica serie infinita di funzioni, esplicitandone anche la possibile continuazione. Il tipo di risposta dipende, comunque, dal numero di elementi forniti (nel caso in cui i numeri siano pochi, ad esempio 3, non vengono considerati come facenti parte di una serie infinita ma come componenti di un vettore) e dalle effettive relazioni esistenti tra di loro. Una delle caratteristiche tipiche di Wolfram|Alpha è che il tipo di formulazione della risposta dipende dal contenuto della domanda stessa.
+
+Biologia
+Inserendo un taxon, si ottiene la sua collocazione tassonomica e viene schematizzato un grafico che esprime il percorso filogenetico relativo, in base alle conoscenze attuali (esempio: "hominidae, felidae").
+
+Bioinformatica
+È possibile inserire nomi di geni, di proteine, o addirittura qualunque sequenza nucleotidica o aminoacidica per ottenere informazioni presenti sui database bioinformatici (esempio: "bcl2").
+
+Chimica
+Il software riconosce le formule brute delle molecole (ad es. "H2SO4" per l'acido solforico) e fornisce varie informazioni chimico-fisiche (e, se disponibili, sulla tossicità, ecc.), oltre alla struttura tridimensionale.
+Si possono ottenere anche molte informazioni sugli elementi chimici digitandone i simboli (esempio: "Cu, Fe, O").
+Un'altra risorsa importante sono i calcolatori. Digitando "Solve + nome dell'equazione in inglese" compare un input box in cui inserire i dati per risolvere l'equazione (esempi: Nernst, gas reali).
+Per maggiori informazioni: Wolfram Demonstration Project - Chemistry
+
+Parole comuni
+Se si inserisce una parola "comune" (cioè che non rappresenti un oggetto fisico come un pianeta, o una molecola), il programma restituisce la sua definizione, la sua mappa dei sinonimi, la pronuncia, ecc. In ogni caso, per ogni parola (dato che la lingua umana è ambigua), è possibile specificare manualmente (come avviene ad esempio nelle pagine di disambiguazione di Wikipedia) a quale contesto ci si vuole riferire tra quelli possibili riconosciuti da Wolfram|Alpha.
+
+Easter eggs
+In Wolfram|Alpha sono presenti numerosi easter egg: ad esempio, se si scrive la frase "answer to life, the universe, and everything" (in italiano la "Risposta alla domanda fondamentale sulla vita, l'universo e tutto quanto"), citazione evidente dal libro Guida galattica per gli autostoppisti di Douglas Adams, il motore risponderà con la ben nota risposta "42".
+
+Limiti
+È possibile fare ricerche solo su dati oggettivi e in qualche modo quantificabili. Non è possibile, ad esempio, chiedere il "perché" o "come si fa" a fare qualcosa, a meno che non si tratti di matematica (equazioni, derivate, integrali, ecc.). Inoltre, il database è ancora limitato; molte richieste non sono infatti processate, oppure il motore tende a dare un'interpretazione di "nicchia".Wolfram|Alpha non esegue ricerche su immagini o video.A differenza di Google, inserendo titolo (o codice identificativo ISBN) e pagina di una pubblicazione, il motore non è in grado di restituire la citazione del testo presente nella pagina indicata.Nei risultati compare il link ai siti originali utilizzati, ma non viene mostrata la fonte specifica di una singola informazione (la richiesta in merito deve essere inoltrata, motivata e accettata dal sito); non sono noti né l'algoritmo né gli esperti di settore che hanno il compito di indicizzare e filtrare i siti dai quali il motore estrae le informazioni.L'output è completamente diverso da quello dei più noti motori di ricerca, non è un elenco di siti, ma una voce sinottica in formato tabellare che contiene tutte le informazioni potenzialmente attinenti alle parole cercate.
+
+Wolfram|Alpha Pro
+L'8 febbraio 2012 è stata messa a disposizione la versione a pagamento, Wolfram Alpha Pro.

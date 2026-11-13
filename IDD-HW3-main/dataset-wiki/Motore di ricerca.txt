@@ -1,0 +1,117 @@
+Nell'ambito delle tecnologie di Internet, un motore di ricerca () è un sistema automatico che analizza un insieme di dati (spesso da esso stesso raccolti) e restituisce un indice dei contenuti disponibili, classificandoli in modo automatico in base a formule statistico-matematiche che ne indichino il grado di rilevanza, data una determinata chiave di ricerca. Uno dei campi in cui i motori di ricerca trovano maggiore utilizzo è quello dell'information retrieval e nel web.
+
+Descrizione
+
+Concettualmente, un motore di ricerca è un sistema molto simile a un'applicazione web ovvero un sistema client-server, attraverso la rete Internet, dove il client è rappresentato dal web browser dell'utente, che su richiesta dello stesso si connette a un server, il quale a sua volta esegue una query di ricerca, tramite opportuni algoritmi di ricerca, su dei database (database distribuiti). Nell'analisi dei risultati forniti in uscita un componente essenziale è il cosiddetto crawler o spider. Un buon motore di ricerca è quello che riesce a trovare il maggior numero di contenuti in linea con la tipologia di richiesta, ordinandoli per importanza e rilevanza secondo la specifica di ricerca.
+
+Fasi operative
+Il lavoro dei motori di ricerca si divide principalmente in tre fasi:
+
+analisi del campo d'azione (tramite l'uso di crawler appositi);
+catalogazione del materiale ottenuto;
+risposta alle richieste dell'utente.
+
+Catalogazione
+Dopo l'analisi delle pagine, a seconda di criteri che variano da motore a motore, alcune di esse vengono inserite nel database e nell'indice del motore di ricerca.
+
+La parte testuale archiviata durante la fase di analisi verrà in seguito analizzata per fornire le risposte alle ricerche degli utenti. Molti motori di ricerca sul web rendono anche disponibile una copia dei dati testuali di ogni pagina archiviata per quando la risorsa originale sia irraggiungibile: questa funzione è detta copia cache.
+
+Risposta
+Rispondere alle richieste degli utenti implica la necessità di elencare i siti in ordine di rilevanza rispetto alla richiesta ricevuta.
+
+Per stabilire la rilevanza di un sito vengono cercati nel database quei documenti che contengono la parola chiave inserita dall'utente, dopodiché ogni motore di ricerca sfrutta propri algoritmi per classificare le pagine, controllando, per esempio, quante volte le parole chiave vengono ripetute, quanti link riceve quel documento, in quali punti della pagina sono poste le parole chiave, quanti siti del database contengono link verso quella pagina, o quante volte un utente ha visitato quel sito dopo una ricerca.
+
+Raffinamento della ricerca
+La possibilità di raffinare la ricerca varia da motore a motore, ma la maggior parte permette di utilizzare operatori booleani: ad esempio è possibile cercare "Ganimede AND satellite NOT coppiere" per cercare informazioni su Ganimede inteso come pianeta e non come figura mitologica.
+
+Su Google e sui motori più moderni è possibile raffinare la ricerca a seconda della lingua del documento, delle parole o frasi presenti o assenti, del formato dei file (Microsoft Word, PDF, PostScript, ecc.), a seconda della data di ultimo aggiornamento, e altro ancora. È anche possibile cercare contenuti presenti in un determinato sito, ad esempio "Ganimede site:nasa.gov" cercherà le informazioni su Ganimede presenti sul sito della NASA.
+
+Su Exalead si trova una parte speciale per raffinare la ricerca più intuitivamente.
+
+Indicizzazione
+
+Per indicizzazione si intende l'inserimento di un sito web nel database di un motore di ricerca. L'indicizzazione di un sito internet, in altre parole, è il modo in cui il sito viene acquisito e interpretato dai motori di ricerca e quindi compare nelle loro pagine di risposta alle interrogazioni degli utenti.
+
+Per indicizzarsi, un sito deve essere scansionato da un crawler. Ciò può avvenire grazie alle scansioni di routine effettuate dai motori di ricerca oppure tramite esplicita richiesta. Per Google, è possibile richiedere una scansione tramite la Search Console collegata al sito in questione.
+
+Posizionamento
+
+Con il termine posizionamento s'intende l'acquisizione di visibilità tra i risultati dei motori di ricerca. Più specificamente, è l'operazione attraverso la quale il sito viene ottimizzato per comparire nei risultati in una posizione il più possibile favorevole e rilevante.
+
+Ottimizzazione
+
+Con il termine ottimizzazione per i motori di ricerca si intendono, nel linguaggio di Internet, tutte quelle attività volte a migliorare la visibilità di un sito web sui motori di ricerca, al fine di migliorare (o mantenere) il posizionamento nelle pagine di risposta alle interrogazioni degli utenti del web. A sua volta, il buon posizionamento di un sito nelle pagine di risposta dei motori di ricerca è funzionale alla visibilità dei prodotti/servizi venduti.
+
+Risultati sponsorizzati
+I motori di ricerca forniscono anche risultati sponsorizzati, ovvero mostrano in maggiore evidenza nelle SERP (Search Engine Result Pages, Pagine dei risultati dei motori di ricerca) siti di aziende che pagano per risultare tra i primi risultati quando si cercano termini (detti parole chiave) che sono in relazione all'ambito di competenza dell'azienda stessa. I risultati sponsorizzati dei motori possono apparire anche sui siti che partecipano al loro programma di affiliazione. In particolar modo, Google permette di far apparire nelle proprie pagine dei risultati (chiaramente distinti dai risultati "naturali") risultati a pagamento comprati con il programma AdWords. In aggiunta a questo offre anche un servizio di sponsorizzazione che si rivolge a tutti i siti che hanno determinati requisiti, chiamato AdSense. Google AdSense (spesso abbreviato con Google AS) usa le capacità del motore di ricerca di interpretare il tema della pagina in cui è posizionato l'apposito codice per fornire annunci a tema. Yahoo! Search ha annunciato l'arrivo di un programma analogo chiamato Panama.
+
+Motori di ricerca più diffusi
+
+I motori di ricerca con maggiore rilevanza internazionale nel 2020 sono:
+Baidu, motore di ricerca cinese che raccoglie un bacino di utenza tanto vasto quanto in crescita, dato il totale strapotere sugli altri motori di ricerca usati in Cina.
+Brave, è il motore di ricerca privato più completo e indipendente.
+Google, oltre a essere di gran lunga il più usato direttamente, è anche quello con il maggior numero di siti che ne utilizzano il database, anche a causa del programma di sponsorizzazione "AdSense per la ricerca" che appartiene al più vasto programma AdSense.
+Bing, motore creato da Microsoft e usato da Microsoft Network, meglio noto come MSN.
+Yandex, motore con il maggior market share in Russia.
+Questi cinque motori di ricerca sono dotati di tecnologia proprietaria.
+
+Altre menzioni importanti sono:
+Qwant, motore di ricerca europeo (Francia) che mira a offrire all'utente una maggiore privacy.
+Mojeek, motore di ricerca europeo alternativo indipendente (Regno Unito), focalizzato sulla privacy e non basato su altri motori di ricerca.
+DuckDuckGo, motore di ricerca rispettoso della privacy.
+Kagi, motore di ricerca a pagamento, senza pubblicità, che evita il conflitto di interessi tipico dei motori finanziati attraverso ricavi pubblicitari. Offre migliore privacy e strumenti di ricerca progettati per gli utenti, non per gli inserzionisti.
+Ecosia, motore di ricerca ecologico tedesco, produce meno anidride carbonica dei server concorrenti; l'80% dei proventi viene utilizzato per piantare alberi in giro per il mondo e diminuire il disboscamento, ed è stato fondato in collaborazione con il WWF.
+Startpage, uno dei pochi motori di ricerca al mondo a garantire la privacy, poiché non conserva né registra gli IP di chi effettua ricerche.
+Yahoo!, ormai totalmente basato su tecnologia Bing.
+Ask.com, precedentemente noto come Ask! Jeeves, spento il primo maggio 2026
+
+Tra questi ultimi gli unici che sono dotati in parte di un indice proprietario sono Qwant e in parte DuckDuckGo.
+
+In seguito agli sviluppi dei large language model, è opportuno menzionare anche il motore di ricerca Perplexity.ai, basato su chatbot NLP.
+
+In Italia
+
+Google è utilizzato anche da Libero, Virgilio e Tiscali. In Italia il divario fra l'utilizzo di Google e degli altri è talmente vasto che, pur essendo i dati variabili, la percentuale delle ricerche effettuate su Google è pari a un multiplo della somma di tutti gli altri motori di ricerca messi assieme.
+Istella Italia è un motore di ricerca sviluppato da Tiscali ma, anche se raggiungibile, non risulta aggiornato dal 2016.
+
+Lista
+
+La maggior parte dei motori di ricerca che opera sul web è gestito da compagnie private che utilizzano algoritmi proprietari e banche dati tenuti segreti. Esistono comunque diversi tentativi di dar vita a motori di ricerca fondati sul software libero, alcuni esempi sono:
+
+Lucene
+Nutch
+YaCy
+OpenIndexer
+
+Altri motori di ricerca attivi al marzo 2020, sono: Metager (per la privacy), Serch Encrypt, SearX,Gibiru, YaCy (decentralizzato), Yippi, Lukol e Boardreader.
+
+Prospettive di sviluppo
+Le più recenti innovazioni nella produzione di algoritmi e di sistemi di Information Retrieval si basano sull'analisi semantica dei termini e sulla conseguente creazione di reti semantiche. La stessa Google ha adottato sistemi per la prevenzione dell'errore e la contestualizzazione dei risultati.
+
+È lecito prevedere che nel giro di alcuni anni i motori di ricerca baseranno le proprie tecnologie sia sull'analisi quantitativa dei contenuti (le parole in sé), sia soprattutto su quella qualitativa (il senso delle parole). I motori di ricerca saranno, ad esempio, in grado di distinguere il senso della parola "pesca" a seconda di quale sia il contesto in cui la parola è contenuta (capire se sia il frutto, la disciplina sportiva, o altro). Per muoversi in questa direzione Google ha acquisito Oingo (un tempo noto come "il motore dei concetti") e la tecnologia dell'azienda che lo creò, la Applied Semantics.
+
+Il web 2.0 e il futuro dei motori di ricerca
+
+La nuova frontiera dei motori di ricerca è il web 2.0. Adottando questa logica molti motori e directory internazionali puntano a una maggiore partecipazione degli utenti nella creazione dei contenuti dei motori di ricerca, in modo da eliminare qualsiasi ricorso a spider o a link sponsorizzati. Con questa logica gli utenti possono segnalare essi stessi i link e decidono se dare o meno popolarità ai siti segnalati.
+
+Il web 2.0 punta anche a una facilità di utilizzo più rapida, veloce e intuitiva grazie all'utilizzo di Metamotori (o motori di ricerca multipli) come:
+Ixquick
+MetaCrawler
+Tinooo
+Searx
+L'integrazione di sistemi di intelligenza artificiale nei processi di metaricerca permette una raffinazione dei risultati basata su standard di qualità digitale (come nel caso del progetto sperimentale Rhesis FM).
+
+Aggiunta di un motore di ricerca
+I comuni browser contengono una lista predefinita di motori di ricerca (i maggiori) nell'impostazione relativa al motore di ricerca preferito (principale). Qualora un certo motore di ricerca non sia presente è sufficiente eseguire la seguente procedura:
+aprire il motore di ricerca voluto, eseguire una qualsiasi ricerca (ad esempio "ciao");
+copiare l'URL restituita e sostituire la parola cercata ("ciao") con la stringa "%s" (senza le virgolette) (la query diventa "www.esempio.com/search?q=%s");
+incollare la query nel campo delle impostazioni del browser per l'aggiunta manuale di motori di ricerca e dare il comando di inserimento;
+se lo si vuole, rendere predefinito il motore di ricerca appena inserito.
+
+Motori di ricerca semiautomatici
+Contrariamente ad alcune aspettative dei primi anni Duemila, i motori di ricerca hanno reso più importante l'attività umana di ricerca e selezione delle fonti più autorevoli.
+
+Le biblioteche svolgono un'attività di supporto e consulenza in tal senso. Esistono progetti aperti e gratuiti, come Eurekoi, nei quali un utente può porre a una rete di bibliotecari esperti un quesito circa una risorsa per un argomento specifico.
+
+Deep Research
+Deep Research (letta. ricerca approfondita) È una funzionalità avanzata gratuita in Google Gemini e a pagamento in ChatGPT, che, a fronte di alcuni minuti di elaborazione, consente di generare file di alcune pagine con relative fonti citate puntualmente nelle note.

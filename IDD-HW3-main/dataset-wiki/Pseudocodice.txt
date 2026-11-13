@@ -1,0 +1,46 @@
+In informatica, nell'ambito della programmazione, per pseudocodice, pseudocodifica, pseudolinguaggio o linguaggio di progettazione si intende un linguaggio il cui scopo è la rappresentazione di algoritmi, in aggiunta o in alternativa al classico diagramma di flusso e non soggetto a molte limitazioni intrinseche di quest'ultimo tipo di rappresentazione. La stesura della pseudocodifica può precedere la codifica del programma scritto in un linguaggio di programmazione essendo spesso un linguaggio a metà tra la logica proposizionale e il linguaggio di programmazione vero e proprio.
+
+Descrizione
+
+Non esiste uno pseudolinguaggio standard e convenzionalmente usato: gli autori di libri o corsi di programmazione definiscono spesso un proprio pseudolinguaggio, utilizzato nelle loro pubblicazioni; inoltre ciascun programmatore può essere portato ad utilizzare una propria variante. Ogni pseudolinguaggio ha un proprio lessico, una propria sintassi e una propria semantica, ma la progettazione di questo tipo di formalismo è volta alla comprensibilità e alla leggibilità del codice; la sintassi sarà quindi meno rigorosa rispetto ad un vero linguaggio e le parole chiave saranno evocative, in modo da rendere più intuitiva la sua interpretazione.
+
+Lo pseudolinguaggio è strettamente dipendente dal paradigma di programmazione scelto per risolvere un problema, mentre dovrebbe essere pressoché indipendente dal linguaggio di programmazione, purché quest'ultimo rispetti naturalmente il paradigma scelto. Tuttavia, ciascun linguaggio di programmazione possiede istruzioni e/o caratteristiche proprie, che potrebbero essere sfruttate per una migliore implementazione dell'algoritmo, ad esempio più efficiente.
+Programmi di esempio
+
+Ciò che segue è un esempio di codifica in pseudocodice dell'algoritmo che verifica se un numero è pari o dispari:
+
+1 INIZIO
+
+2 Scrivi: "Inserisci un numero naturale n"
+3 Leggi n dall'utente
+
+4 Se n%2 è = 0 (se il resto della divisione per 2 è 0):
+4.1 Scrivi: "Il numero è pari"
+
+5 Altrimenti:
+5.1 Scrivi: "Il numero è dispari".
+
+6 FINE
+
+Mentre di seguito è proposta una possibile implementazione dello stesso algoritmo in C++:
+
+Questo è invece uno pseudocodice del blocco decisionale che verifica se un utente è maggiorenne:
+1 Scrivi: "Inserisci la tua età: "
+2 Se l'età è uguale o maggiore di 18:
+3 Scrivi "Sei maggiorenne"
+4 Altrimenti:
+5 Scrivi "Non sei maggiorenne"
+Questa è una possibile traduzione in codice Python:
+
+Programmi per costruire schemi a blocchi
+Per soli diagrammi di flusso si possono utilizzare i seguenti programmi:
+
+Cacoo
+Draw.io
+Flowchart
+Lucidchart
+
+Altrimenti si possono utilizzare questi altri per "provare" uno schema a blocchi:
+
+Algobuild
+Flowgorithm

@@ -1,0 +1,30 @@
+La legis actio per manus iniectionem o manus iniectio rappresenta uno dei cinque modi di agire previsti dall'antico schema procedurale delle legis actiones e veniva utilizzata, secondo quanto dice Gaio nelle sue opere, per la realizzazione di posizioni giuridiche soggettive per le quali una legge vi faceva rinvio, avente quindi carattere esecutivo.
+
+La manus iniectio in particolare aveva come più comune presupposto una condanna al pagamento di una somma di denaro. Nell'ambito di tale procedura il creditore giungeva ad afferrare il debitore, e lo trascinava davanti al pretore, e ripetendo il gesto pronunciava la solenne dichiarazione della manus iniectio.
+
+Esperita tale dichiarazione, il debitore (ora chiamato addictus) era completamente alla mercé del creditore. Questi poteva trattenerlo incatenato presso la propria dimora, venderlo come schiavo, o addirittura ucciderlo.
+
+Tipologie di legis actio per manus iniectionem
+
+La legis actio per manus iniectionem aveva applicazione più comune nel caso di condanna al pagamento di una somma di denaro e si suddivideva in tre tipologie diverse:
+La manus iniectio iudicati traeva la sua origine da una espressa disposizione delle XII tavole, che permetteva al creditore riconosciuto da una sentenza di esperire l'actio dopo trenta giorni dalla sentenza, nel caso in cui il debitore non avesse ancora assolto al debito. A questo profilo si affiancava il confessus, quando cioè il convenuto confessava il proprio debito in iure, parificato, quindi, allo iudicatus.
+La manus iniectio pro iudicato era utilizzata da coloro che, detti sponsor, avevano prestato garanzia di un debito, avendolo quindi pagato e ritrovandosi senza pagamento, da parte del debitore garantito, da oltre sei mesi del relativo importo (actio depensi, introdotta da una lex Publilia probabilmente del IV sec. a.C.).
+La manus iniectio pura poteva essere utilizzata per i crediti direttamente esigibili. La lex furia testamentaria dava la possibilità all'erede di agire contro il legatario che avesse percepito, a titolo di legato, più di mille assi.
+
+Procedimento
+Il procedimento si svolgeva di fronte alle due parti e dinanzi al magistrato giudicante: il ruolo attivo era riconosciuto principalmente al creditore il quale, rivolgendosi al presunto debitore, enunciava certa verba di un formulario predeterminato, andando a elencare la fonte del credito, l'importo e dichiarava di manum inicere, per poi afferrare l'altra parte.
+
+Costui, in sua difesa, poteva chiamare un vindex, ovvero qualcuno che avrebbe contestato il diritto dell'attore di procedere a manus iniectio, attraverso la negazione del debito, aprendo così una legis actio dichiarativa, nella quale il vindex, se soccombente, avrebbe dovuto pagare il doppio dell'importo del debito che aveva tentato di negare (litiscrescenza). Nel caso in cui non vi fosse vindex, la condizione del debitore peggiorava, in quanto poteva essere trascinato dal creditore e tenuto in catene per sessanta giorni.
+
+Il creditore, in questa posizione, aveva l'obbligo di condurlo in tre mercati nundinae consecutivi e proclamare l'importo del debito, affinché qualcuno, se avesse voluto, riscattasse il debitore. Se questo, però, non avveniva, il debitore a questo punto perdeva qualsiasi diritto, potendo non soltanto essere venduto come schiavo fuori Roma, ma anche essere ucciso.
+
+Particolare piuttosto cruento, a norma delle XII Tavole, i creditori potevano reclamare una parte del corpo del debitore, dopo che esso veniva fatto a pezzi.
+Nella manus iniectio pura, però, era riconosciuta la possibilità al debitore di negare il debito, senza la necessità del vindex ed essere sottoposto, quindi, al procedimento che portava, se soccombente, al raddoppio dell'importo (litiscrescenza).
+
+Una lex Vallia, di data incerta, stabilì che in ogni caso al debitore fosse permesso di difendersi in proprio: la necessità del vindex fu conservata solo in caso di manus iniectio iudicati e depensi (in quest'ultimo caso nei confronti dello sponsor garante del debitore).
+
+Successivamente questa legge delle XII tavole (in uso nel periodo repubblicano) venne abolita e sostituita (pare da Giulio Cesare) con una meno cruenta: quella della "pietra dello scandalo". A Roma vicino alla Porta maggiore del Campidoglio c'era una pietra (dove era raffigurato un leone) dove sedevano i falliti (che dovevano lasciare i loro beni ai creditori).
+
+Il rituale prevedeva che i falliti giunti al Campidoglio di fronte alla pietra dicessero: “Cedo Bona” (“Abbandono i miei beni”) rivolto ai creditori e poi urtassero le proprie natiche (denudate) sulla pietra (detta "lapis scandali", cioè "pietra dello scandalo", modo di dire ancora oggi in uso); dopo il "rituale" i creditori non potevano più perseguire i debitori e questi ultimi non erano più "a rischio" di schiavitù od uccisione. Chi, fallito, effettuava il "rituale della pietra" non poteva più testimoniare in giudizio.
+
+La nuova (e meno cruenta) pena rimase in vigore anche in tempi successivi ed in altre città e se ne trovano esempi anche durante il Rinascimento, in cui riti simili (per i debitori o falliti) erano in uso in alcune città (ad esempio Firenze).

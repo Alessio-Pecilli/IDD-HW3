@@ -1,0 +1,6 @@
+Sigle
+Rete neurale ricorrente (recurrent neural network) – classe di rete neurale artificiale in cui le connessioni tra i nodi formano un grafico diretto lungo una sequenza
+
+Codici
+RNN – codice aeroportuale IATA dell'Aeroporto di Bornholm, Rønne, isola di Bornholm, Danimarca
+rnn – codice ISO 639-3 della lingua roon

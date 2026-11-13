@@ -1,0 +1,18 @@
+Il tennesso o tennessio (talvolta indicato con l'anglicismo tennessinio e precedentemente noto col nome sistematico temporaneo ununseptio, o eka-astato) è l'elemento chimico di numero 117 e simbolo Ts. È un elemento chimico sintetico della tavola periodica. L'elemento è stato introdotto nella tavola periodica ufficiale dell'IUPAC il 30 dicembre 2015, insieme agli elementi con numero atomico 113, 115 e 118, andando così a completare il settimo periodo della tavola. Il nome ufficiale (in inglese, tennessine ), proposto dagli scopritori, è stato attribuito ufficialmente il 28 novembre 2016 e fa riferimento allo Stato statunitense del Tennessee.
+
+Il tennesso è stato ottenuto bombardando con calcio-48 del berkelio-249. È un probabile metalloide.
+A seguito della sintesi dell'elemento effettuata dal Gesellschaft für Schwerionenforschung di Darmstadt, il riscontro di due isotopi superpesanti con emivite particolarmente lunghe (circa 1 ora e 11 ore) sembra confermare la presenza dell'isola di stabilità.
+
+Storia
+Il tennesso è stato scoperto nel 2010 da un team di ricercatori, guidato da Jurij Oganesian dell'Istituto unito per la ricerca nucleare di Dubna, Russia. All'epoca, comunque, la IUPAC rifiutò di provvedere un nome ufficiale all'elemento e di aggiungerlo alla tavola periodica in quanto un solo esperimento non è sufficiente a dare per certa la sintesi di un elemento artificiale.
+
+La scoperta è stata confermata il 1º maggio 2014 da un gruppo di ricerca della GSI (Società per la ricerca sugli ioni pesanti) di Darmstadt, Germania, che ha sintetizzato l'elemento utilizzando un team e apparecchiature diverse in un luogo differente da quello del primo esperimento (elementi importanti da specificare ai fini della conferma della scoperta da parte della IUPAC).
+
+Sintesi
+L'elemento è stato sintetizzato bombardando berkelio-249 con proiettili di calcio-48:
+
+Ca + Bk → Ts
+Per realizzare la sintesi il GSI ha atteso che l'Oak Ridge National Laboratory (sito, per l'appunto, in Tennessee) producesse una quantità significativa di berkelio. Dopo due anni l'esperimento ha potuto essere condotto con di berkelio bombardato con proiettili di calcio accelerati ad una velocità pari ad un decimo di quella della luce. L'identificazione delle particelle prodotte è stata effettuata tramite il TASCA (TransActinide Separator and Chemistry Apparatus).
+
+Decadimento
+L'esperimento la GSI ha rilevato due serie di decadimenti formata ciascuna da sette decadimenti α e una fissione spontanea. Tra i prodotti del decadimento si è formato dubnio-270 e laurenzio-266. Questo secondo isotopo, ottenuto per decadimento α del dubnio-270, non era mai stato osservato in precedenza. I due isotopi formati hanno delle emivite che sono le più lunghe che si conoscano tra gli isotopi superpesanti. Il dubnio-270 ha un'emivita di 1,0 ore, mentre il laurenzio-266 ha un'emivita di circa 11 ore. Mentre le emivite degli atomi del tennesso sono corte (millisecondi), la sua esistenza suggerisce l'isola di stabilità perché le emivite sono più lunghe delle previsioni.

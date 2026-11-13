@@ -1,0 +1,16 @@
+L'obiettivo di un algoritmo di link analysis ranking (LAR) consiste nell'inferire l'importanza di una pagina web basandosi sulla struttura topologica del grafo del World Wide Web (WWW).
+Gli algoritmi di link analysis ranking sono molto utilizzati dai motori di ricerca per effettuare l'ordinamento (o ranking) delle pagine web.
+
+Procedimento
+L'algoritmo di link analysis ranking percorre il grafo del web e analizza gli archi uscenti e gli archi entranti delle pagine. Sulla base di queste informazioni, ad ogni pagina del sito viene associato un valore sulla base del quale si effettua l'ordinamento.
+
+Algoritmi
+Il predecessore degli algoritmi di link analysis ranking è InDegree, che calcola la popolarità di una pagina sulla base del numero di pagine che hanno un link ad essa.
+Algoritmi più recenti e maggiormente raffinati sono:
+PageRank
+Kleinberg (in seguito intitolato HITS)
+Salsa
+
+PageRank segue un percorso casuale nel grafo del web dove ogni pagina propaga il proprio peso alle pagine verso cui ha un link determinando un array di pesi nominati in seguito pesi di authority.
+Kleinberg propone uno schema di propagazione dei pesi a due livelli determinando i valori di authority e anche i valori di hub. Una pagina con alto valore di hub sarà una pagina che contiene collegamenti a pagine di qualità (ossia con alto valore di authority) e simmetricamente una pagina con un alto valore di authority sarà una pagina puntata da molti buoni hub.
+Salsa è un ibrido fra i due algoritmi precedenti.

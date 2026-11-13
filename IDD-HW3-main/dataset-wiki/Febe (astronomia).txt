@@ -1,0 +1,31 @@
+Febe (o Phoebe, in greco Φοίβη) è un satellite naturale di Saturno. Fu scoperto da William Henry Pickering il 17 marzo 1899 osservando fotografie scattate il 16 agosto 1898 da DeLisle Stewart, ad Arequipa in Perù. Fu il primo satellite ad essere scoperto fotograficamente. Il nome deriva da Febe, una Titanide della mitologia greca. È anche designato Saturno IX.
+
+Storia delle osservazioni
+Pickering scoprì Febe nel 1899 analizzando lastre prese da DeLisle Stewart l'anno precedente. La scoperta fece sensazione perché, oltre a essere il primo oggetto del sistema solare scoperto tramite l'astrofotografia, avvenne oltre 50 anni dopo l'ultima scoperta di un satellite di Saturno (Iperione nel 1848). Per più di 100 anni Febe fu la luna più esterna di Saturno conosciuta, fino alla scoperta di molte lune più piccole nel 2000 da parte di un gruppo guidato da Brett J. Gladman.
+
+Missioni spaziali
+A differenza delle altre lune di Saturno, Febe non era in una posizione favorevole per le rotte delle sonde Voyager. La Voyager 2 osservò Febe per alcune ore nel settembre 1981. Nelle immagini, scattate da una distanza di 2,2 milioni di chilometri, la dimensione di Febe era di circa 11 pixel e mostrava solamente dei punti luminosi sulla superficie altrimenti scura.
+
+La sonda spaziale Cassini è passata a 2068 chilometri da Febe l'11 giugno 2004, ottenendo molte immagini ad alta risoluzione e mappando l'intera superficie della luna. Il passaggio della sonda nelle vicinanze di Febe era una priorità viste le immagini in bassa qualità delle Voyager, così la traiettoria di Cassini fu programmata in anticipo anche perché a causa della grande distanza da Saturno sarebbe stato possibile un solo sorvolo ravvicinato. La sonda catturò immagini ad alta risoluzione e, complice la veloce rotazione di Febe (9 ore e 17 minuti), riuscì a mappare l'intera superficie e a calcolare la massa della luna con estrema precisione.
+
+Parametri orbitali
+
+Febe orbita attorno a Saturno con moto retrogrado ed è 4 volte più distante da Saturno di Giapeto, il suo vicino più prossimo, avendo un semiasse maggiore di quasi 13 milioni di chilometri. Il suo periodo orbitale è di 550 giorni circa ed è sostanzialmente più grande di ogni altra luna in orbita a distanza simile dal proprio pianeta.
+
+Tutte le lune più interne di Saturno, fino a Giapeto, orbitano molto vicino al piano equatoriale del pianeta. Le lune esterne possono essere suddivise in due gruppi: Il gruppo di Siarnaq (Kiviuq, Ijiraq, Paaliaq, Albiorix, Erriapo, Siarnaq e Tarvos) è inclinato di 33,5-46,5°, mentre il gruppo di Phoebe (Phoebe, Skathi, Narvi, Mundilfari, Suttungr, Thrymr e Ymir) è retrogrado è inclinato di 134,5-175,5°. Entrambi i gruppi sono estremamente eccentrici e nessuna delle lune si prevede sia in rotazione sincrona, come fanno tutte le lune interne di Saturno (a parte Iperione), al contrario Febe ruota su sé stesso piuttosto velocemente, in un periodo calcolato in 9 ore e 16 minuti.
+
+Caratteristiche fisiche
+
+Febe è grosso modo sferico e ha un diametro di 213 chilometri, circa un quindicesimo del diametro della nostra Luna. La sua temperatura di superficie è di ().
+
+La maggior parte delle lune interne di Saturno hanno superfici molto brillanti, l'albedo di Febe è invece molto basso (0,06). La superficie è pesantemente craterizzata, con crateri larghi fino a 80 chilometri; un cratere ha pareti alte 16 chilometri.
+
+I colori scuri di Febe portarono inizialmente gli scienziati a supporre che fosse un asteroide catturato, dato che assomigliava alla classe comune di asteroidi carboniosi e scuri. Questi sono chimicamente molto primitivi e si pensa che siano composti da sostanze condensatesi dalla nebulosa solare con pochi cambiamenti da allora.
+
+Tuttavia, le immagini dalla sonda Cassini-Huygens mostrano che i crateri di Febe presentano una considerevole variazione di luminosità: ciò indica la presenza di grandi quantità di ghiaccio sotto una coltre relativamente sottile di depositi scuri, approssimativamente dai 300 ai 500 metri di spessore. Inoltre, sulla superficie, è stato rilevato il biossido di carbonio, mai rilevato su un asteroide. Si valuta che Febe sia costituito per circa il 50% di roccia, rispetto al 35% circa che caratterizza le lune interne di Saturno. Per queste ragioni gli scienziati sono portati a credere che Febe sia un centauro catturato, oppure uno dei numerosi planetoidi ghiacciati della Fascia di Kuiper che orbitano oltre Nettuno.
+
+Il materiale rimosso dalla superficie di Phoebe da impatti di microscopici meteoriti potrebbe essere responsabile delle superfici scure di Iperione e dell'emisfero scuro di Giapeto. I frammenti degli impatti più grandi potrebbero aver fornito il materiale per altre lune del gruppo di Phoebe, le quali messe assieme misurano meno di 10&nbsp;km di diametro.
+
+Anello di Febe
+
+Nell'ottobre del 2009, grazie al telescopio spaziale Spitzer, è stato scoperto il più grande anello di Saturno mai osservato in precedenza. Questo enorme anello si trova alla periferia del sistema di Saturno, in un'orbita inclinata di 27° rispetto al piano del sistema dei sette anelli principali. Il nuovo anello, che si ritiene sia originato da Febe, è composto di ghiaccio e di polvere allo stato di particelle alla temperatura di . Pur essendo molto esteso questo anello è rilevabile solo nello spettro infrarosso, perché non riflette la luce visibile. La massa dell'anello comincia ad una distanza di circa 6 milioni di chilometri dal pianeta e si estende fino a 11,9 milioni di chilometri. La scoperta potrebbe essere decisiva per risolvere il problema legato alla colorazione del satellite Giapeto: gli astronomi ritengono che le particelle dell'anello, che orbitano intorno a Saturno in modo retrogrado (proprio come Febe), vadano a collidere contro la superficie di Giapeto quando esso, durante il suo moto orbitale, attraversa l'anello.

@@ -1,0 +1,536 @@
+Il Mikoyan-Gurevich MiG-15 (, nome in codice NATO Fagot) era un aereo da caccia monomotore a getto ad ala a freccia progettato dall'OKB 155 diretto da Artëm Ivanovič Mikojan in collaborazione con Michail Iosifovič Gurevič e sviluppato in Unione Sovietica negli anni cinquanta.
+
+Impiegato inizialmente dalla Voenno-vozdušnye sily SSSR (V-VS), l'aeronautica militare dell'Unione Sovietica, trovò successivamente ampio impiego in tutte le forze aeree delle nazioni appartenenti al Patto di Varsavia e in alcune altre appartenenti a Paesi filosovietici.
+
+Storia del progetto
+
+Il MiG-15 rappresentò una tappa fondamentale nell'evoluzione dei velivoli da caccia sovietici, facendo segnare un sensibile passo in avanti rispetto al resto della produzione dell'epoca. Con questo aereo la V-VS fu dotata di una macchina di livello qualitativo paragonabile a quello statunitense, capace di prestazioni migliori rispetto alla maggior parte dei caccia utilizzati dalle forze aeree delle nazioni appartenenti al blocco occidentale fatta eccezione per il North American F-86 Sabre, unico rivale a possedere prestazioni paragonabili.
+
+Il MiG-15 fu il frutto del progressivo ma rapido sviluppo dell'industria aeronautica sovietica nel dopoguerra, capace di avvalersi degli studi e delle ricerche realizzate dagli scienziati tedeschi e di sfruttare le buone relazioni diplomatiche ancora esistenti con il governo britannico al fine di colmare il ritardo tecnologico accumulato durante gli anni di guerra contro la Germania, quando le industrie aeronautiche avevano dovuto lavorare secondo altre priorità, prevalentemente legate ad esigenze di produzione in massa.
+
+Ne risultò un aviogetto caratterizzato dalla semplicità costruttiva e dalla razionalità nella manutenzione, costruito in oltre 13&nbsp;000 esemplari dalle industrie nazionali, ai quali vanno aggiunti quelli realizzati in Cecoslovacchia, Cina e Polonia, che furono impiegati nei reparti di tutte le forze aeree dei paesi aderenti al Patto di Varsavia e di alcune altre nazioni nell'orbita sovietica.
+
+Izdelie 310
+Nel mese di marzo del 1946 il Consiglio dei commissari del popolo dell'Unione Sovietica emanò una direttiva rivolta agli uffici di progettazione aeronautica (OKB) con la quale si chiedeva la realizzazione di un aereo da caccia capace di raggiungere la velocità massima di &nbsp;km/h al livello del mare e &nbsp;km/h a &nbsp;m di quota, altitudine da raggiungere nel tempo di 3 minuti e 20 secondi; l'aereo doveva inoltre possedere l'autonomia di &nbsp;km ed essere in grado di decollare con una corsa di 700&nbsp;m ed atterrare nello spazio di 800&nbsp;m.
+
+Gli OKB coinvolti nell'iniziativa poterono contare sulle risultanze degli studi relativi all'impiego dell'ala a freccia svolti dallo TsAGI anche sulla base delle ricerche condotte in materia dagli scienziati tedeschi, rese disponibili grazie al materiale acquisito durante la seconda guerra mondiale nelle fabbriche ubicate nei territori occupati durante l'avanzata dell'Armata Rossa verso il cuore della Germania e grazie al coinvolgimento degli stessi scienziati tedeschi, analogamente a quanto realizzato nei territori occidentali della Germania da parte degli Stati Uniti d'America e del Regno Unito. In particolare risulta che al progetto realizzato dall'ufficio di progettazione Mikoyan-Gurevich abbia preso parte l'ingegnere Adolph Betz, specializzato in materia di ali a freccia.
+
+Per quanto concerne la propulsione del nuovo aviogetto, all'epoca dell'emissione della richiesta da parte delle autorità statali, le industrie sovietiche non disponevano di un motore a getto in grado di consentire ai futuri velivoli di raggiungere le prestazioni richieste: gli RD-10 e RD-20 erano considerati obsoleti mentre il motore Lyulka TR-1 non erogava la spinta necessaria e, in ogni caso, era ancora allo stadio di prototipo.
+
+Artëm Mikoyan diede però indicazione di realizzare il progetto del nuovo velivolo basandosi sugli ingombri del motore britannico Nene che gli era stato possibile visionare attentamente durante la mostra internazionale e esposizione di volo di Farnborough nel giugno del 1946. Vladimir Yakovlevich Klimov era già stato incaricato dalle autorità statali di realizzare una copia del motore Nene (copia che avrebbe ricevuto la denominazione "VK-1PO"), contando di ottenerne misure e dettagli progettuali utilizzando canali di intelligence.
+
+L’industria aeronautica sovietica poté però avvalersi della tecnologia britannica in modo più semplice: nell'estate del 1946, in occasione di una visita di tecnici sovietici agli impianti della Rolls-Royce organizzata dal governo britannico (cui avevano preso parte gli stessi Mikoyan e Klimov insieme a S. Kishkin), le autorità sovietiche riuscirono ad acquistare trenta turbogetti Derwent e venticinque Nene.
+
+Le fonti disponibili non sono unanimi nell'indicare se oltre ai prodotti finiti i sovietici abbiano acquistato o meno, le rispettive licenze di produzione, accompagnate dalla "solenne promessa" che i motori sarebbero stati destinati all'impiego commerciale; comunque sia, all'atto pratico i motori furono studiati con estrema attenzione presso lo TsIAM e, sottoposti a modifiche che li rendessero prodotti originali (e quindi non più soggetti alle restrizioni d'utilizzo previste dagli impegni presi), messi in produzione rispettivamente con la denominazione RD-500 e RD-45 per l'impiego su larga scala su velivoli di ogni tipo.
+
+Il progetto del velivolo che uscì dai tavoli da disegno dell'OKB 155 ricordava esteticamente quello del Focke-Wulf Ta 183, le cui cianografie erano state recuperate dalle truppe sovietiche nella sede del Ministero dell'Aeronautica tedesco, a Berlino, e sarebbe risultato esteriormente somigliante a quello dello statunitense F-86 Sabre.
+
+Identificato con la denominazione di fabbrica "Aereo S" oppure "Izdelie 310", secondo il numero di progetto assegnato dalle autorità, il nuovo velivolo fu definito nel giro di pochi mesi e venne configurato per l'utilizzo del motore Klimov RD-45 (la versione sovietica del Nene); il primo prototipo ("S-01") staccò le ruote da terra per la prima volta il 30 dicembre del 1947, in considerevole anticipo rispetto ai concorrenti Lavochkin La-168 e Yak-30.
+
+Equipaggiato con la versione RD-45F del nuovo motore a getto, il secondo prototipo ("S-02") fu preso in carico dal NII-VVS e portato in volo il 27 maggio del 1948; i due esemplari furono utilizzati per lo svolgimento di prove comparative con il progetto Lavochkin La-15, effettuate nella seconda metà del 1948. Le autorità giunsero alla conclusione di ordinare la costruzione in serie di entrambi i velivoli ed il progetto dell'OKB 155 fu definitivamente designato MiG-15.
+
+Il terzo, ed ultimo, prototipo ("S-03") fu completato, e portato in volo il 17 giugno 1948, incorporando numerose modifiche dettate dalle prime risultanze di volo: ali, piani di coda e superfici di controllo furono modificati al fine di migliorarne l'efficienza e furono introdotti aerofreni per rendere l'aereo maggiormente manovrabile; quest'ultima modifica rese inoltre necessario l'irrobustimento della fusoliera per far fronte alle maggiori sollecitazioni strutturali generate dalle nuove appendici mobili. Al termine delle prove, svolte ancora una volta presso il NII-VVS, fu certificato che il MiG-15 poteva essere condotto da piloti di "media abilità".
+
+Produzione in serie
+Il primo MiG-15 di serie volò per la prima volta il 30 dicembre 1948, ad un anno esatto dal primo volo del prototipo; caratterizzati dall'ala a freccia di 35° e diedro negativo di 2°, gli aerei della prima serie produttiva furono equipaggiati con il motore RD-45F e vennero identificati con la denominazione "Izdelie SV" (esistono tuttavia indicazioni che la sigla "SV" sia da riferire ad una versione "caccia di scorta ad alta quota").
+
+All'aereo fu inizialmente assegnato il nome in codice NATO di "Falcon" (falcone, in lingua inglese) ma poiché venne considerato eccessivamente lusinghiero, il suo identificativo venne presto mutato in "Fagot" (Fascina); il MiG-15 si presentò agli osservatori occidentali in occasione della parata tenutasi il 1º maggio del 1949 a Mosca quando quarantanove esemplari del nuovo caccia fecero mostra di sé nei cieli della capitale sovietica.
+
+Lo sviluppo progettuale del MiG-15 fu particolarmente influenzato dalla disponibilità del motore Klimov VK-1, derivato direttamente dall'RD-45, per la cui installazione il velivolo subì alcune modifiche del tutto marginali e fu messo in produzione a partire dal 1950 designato "Izdelie SD" dal produttore, MiG-15bis dalla V-VS e "Fagot-B" secondo il codice NATO. L'incremento nella spinta disponibile fu considerevole con ricadute favorevoli sulle già buone caratteristiche di volo dell'aereo, malgrado il contemporaneo aumento del peso.
+
+Sempre nel corso del 1950 dalle catene di montaggio delle aziende statali sovietiche iniziarono ad uscire gli esemplari della variante "UTI" da addestramento, per la cui realizzazione, nella primavera del 1949, le autorità ministeriali sovietiche concessero un solo mese di tempo. Gli esemplari biposto furono identificati nel codice NATO con la designazione di "Midget" (Nano).
+
+La produzione del MiG-15 in Unione Sovietica fu svolta in nove diversi complessi industriali e continuò fino al 1959 quando, con gli ultimi 65 esemplari di UTI-MiG-15, fu raggiunta la cifra complessiva di esemplari (altri autori limitano però i numeri della produzione sovietica al totale di velivoli).
+
+Produzione su licenza
+
+Nel corso del 1950 le autorità sovietiche presero la decisione di consentire la costruzione di armamenti di progettazione nazionale anche presso le industrie dei paesi satellite, dietro il rilascio di un’apposita licenza. Una delle prime esperienze in merito è costituita dalla realizzazione del MiG-15 nelle aziende cecoslovacche, polacche e cinesi.
+
+Cecoslovacchia
+Il primo accordo di produzione del MiG-15 contratto con un paese straniero fu stipulato con la Cecoslovacchia il 17 aprile del 1951. Inizialmente la produzione fu assegnata agli impianti della Letov di Letňany (oggi sobborgo di Praga) e inizialmente consistette nell’assemblaggio di componenti realizzate negli stabilimenti industriali sovietici. Allo stesso tempo la produzione dei motori RD-45 fu presa in carico dalla Motorlet (denominazione assegnata alla Walter dopo la nazionalizzazione); i motori furono denominati "M-05".
+
+Il primo degli esemplari costruiti dalla Letov, denominato S-102, fu portato in volo il 6 novembre dello stesso anno. Dopo il completamento del 160º esemplare la produzione fu trasferita presso la Aero Vodochody ed in questo caso riguardò velivoli realizzati direttamente in loco, il cui primo prodotto ricevette il battesimo dell’aria il 28 ottobre del 1953.
+
+Le industrie cecoslovacche completarono complessivamente la realizzazione di 853 velivoli nella variante S-102 per poi passare, a partire dal 1954, alla produzione dei MiG-15bis. In questo caso il velivolo fu identificato come S-103 mentre il motore VK-1 fu denominato "M-06"; il primo esemplare fu portato in volo il 4 gennaio 1954 e ne furono prodotte 620 unità (non è chiaro se la produzione fu ultimata nel 1956 o si protrasse fino al luglio del 1957).
+
+La Aero Vodochody fu incaricata anche della costruzione degli UTI MiG-15, cui venne assegnata la denominazione CS-102; le fonti non concordano sulla data di inizio della produzione (vengono indicati il mese di luglio 1954 o il 1956, dopo la fine della produzione degli S-102) mentre sono unanimi nell'indicare che ne furono realizzati complessivamente poco più di unità; su uno di questi aerei, per un incidente di volo occorso il 27 marzo 1968, trovarono la morte i piloti Vladimir Serëgin e Jurij Gagarin.
+
+Polonia
+
+Alla metà di maggio del 1951 anche le autorità militari della Polonia stipularono un contratto di produzione su licenza del MiG-15, velivolo con il quale intendevano procedere alla modernizzazione della Lotnictwo ludowego Wojska Polskiego.
+
+La produzione fu avviata negli impianti della PZL-Mielec e, come già nel caso dell’esperienza cecoslovacca, i primi esemplari furono assemblati in loco utilizzando componenti prodotte ancora negli impianti industriali sovietici; equipaggiati, anche in questo caso da motori RD-45F anch’essi prodotti su licenza (in questo caso nell’impianto della WSK di Rzeszów), gli aerei furono denominati Lim-1 (la sigla derivava dal polacco “Licencyjny Myśliwiec”, cioè “caccia su licenza”) ed i motori Lis-1 (“licencyjny silnik”, “motore su licenza”); il primo esemplare fu portato in volo il 17 luglio del 1952 e la produzione terminò il 1º settembre 1954 dopo che dalle catene di montaggio era uscito il 227º esemplare.
+
+Sul finire del 1953 anche gli impianti polacchi passarono alla produzione del MiG-15bis che, nel caso polacco, fu denominato Lim-2 (ed il motore VK-1, Lis-2); ne furono prodotti 500 esemplari che uscirono dagli impianti di Mielec tra il 17 settembre 1954 ed il 24 febbraio del 1955.
+
+Cina
+In concomitanza con le avvisaglie del conflitto coreano, le autorità cinesi mostrarono un considerevole interesse verso il MiG-15 tanto da ospitare un reggimento da caccia della V-VS a Pechino nel febbraio del 1950.
+
+L’iniziale interesse fu presto trasformato in fornitura industriale (i primi aerei furono consegnati nei primi mesi del 1951) e, dal mese di ottobre del 1951, in un contratto di produzione su licenza che comprendeva l’invio di circa 850 tecnici sovietici presso gli impianti industriali di Shenyang.
+
+La produzione in serie riguardò solamente la variante UTI-MiG-15 perché le autorità cinesi preferirono mettere in produzione il MiG-17; gli impianti di Shenyang furono però utilizzati per le riparazioni di velivoli danneggiati nel corso delle operazioni nei cieli coreani.
+
+Occorre precisare che le fonti reperite non concordano circa le denominazioni assegnate dai cinesi al MiG-15: secondo alcuni venne impiegata esclusivamente la designazione Shenyang J-2, per identificare i MiG-15bis, mentre secondo altri i MiG-15 furono denominati Shenyang J-2 ed i MiG-15bis ebbero la sigla J-4. La versione biposto da addestramento viene unanimemente identificata con la sigla JJ-2 mentre per quanto concerne gli esemplari venduti a paesi terzi, i caccia monoposto (prodotti in URSS, quindi venduti dopo l’impiego cinese) furono identificati con la sigla F-2 mentre gli addestratori biposto con la sigla TF-2.
+
+Tecnica
+Descrizione riferita al MiG-15bis ultime serie
+
+Dati tratti da "Yefim Gordon, Mikoyan Gurevich MiG-15 The Soviet Union's Long-lived Korean War Fighter, 2001"
+
+Cellula
+Il MiG-15 era un aereo da combattimento monoreattore, monoposto, subsonico, con presa d'aria frontale, carrello triciclo anteriore retrattile e impennaggi ed ala a freccia, di costruzione interamente metallica.
+
+L'ala, con un angolo di freccia di 35° ad un quarto della corda (37° se riferita al bordo d'attacco) e leggero diedro negativo di 2°, era disposta in posizione mediana e utilizzava profili TsAGI S-10S alla radice e TsAGI SR-3 all'estremità. Lo spessore percentuale dei profili era del 10,3% e si manteneva costante lungo tutta l'apertura.
+
+Strutturalmente l'ala era costituita da due semiali collegate al pianetto centrale, che attraversava la fusoliera, in quattro punti. I carichi aerodinamici per ogni semiala, erano assorbiti da una struttura trilongherone (frontale, principale ed ausiliario posteriore) collegati da venti centine, a formare un unico cassone resistente collegato alla fusoliera in corrispondenza della radice alare.
+
+Il longherone principale aveva pianta ad Y, biforcandosi all'incirca ad un terzo della semiapertura alare. Nei vani triangolari tra i due bracci della Y ed i fianchi della fusoliera, si ritraevano le gambe del carrello posteriore. I bracci posteriori della Y, perpendicolari all'asse del velivolo, si univano in corrispondenza della radice della semiala al longherone posteriore a cui erano articolati gli alettoni, contrappesati e bilanciati aerodinamicamente . Gli alettoni erano dotati di servoattuatori idraulici BU-1.
+
+Gli ipersostentatori di tipo TsAGI (ipersostentatori a scorrimento Fowler, modificati), erano attuati dal sistema idraulico (o pneumatico in emergenza) e potevano estendersi fino ad una angolazione massima di 55°, secondo tre posizioni: completamente retratti, decollo e atterraggio.
+
+Ogni semiala era anche munita di due paretine antiscorrimento lunghe rispettivamente 1&nbsp;590&nbsp;mm e 2&nbsp;590&nbsp;mm estese su tutta la corda alare ed un trim regolabile a terra rivettato sul bordo d'uscita dell'ala; un tubo di Pitot era installato sull'ala destra.
+
+La fusoliera a sezione circolare, del tipo a guscio irrigidito in duralluminio tipo D-16, era costituita da due sezioni principali, anteriore e posteriore, collegate tra loro all'altezza della radice del longherone alare posteriore. Il tronco posteriore poteva essere rimosso per consentire la manutenzione e la rimozione del turboreattore. Leghe d'acciaio del tipo 30KhGSA e 20KhGSA erano utilizzate per la maggior parte delle giunture.
+
+Il tronco anteriore, che si sviluppava tra i diaframmi numero 1 e numero 13, incorporava, gli alloggiamenti per l'avionica, l'armamento, il vano del carrello anteriore, il posto di pilotaggio pressurizzato e il serbatoio numero 1.
+
+La presa d'aria, a sezione circolare, era suddivisa da una paratia verticale che divideva in due le canalizzazioni per l'adduzione dell'aria, di sezione ellittica, che a loro volta si biforcavano all'altezza dell'abitacolo del pilota. Sempre nel tronco anteriore erano disposti gli attacchi per il propulsore.
+
+Il tronco posteriore della fusoliera alloggiava il propulsore, con gli accessori e il condotto di scarico, il secondo serbatoio di carburante, i leveraggi per il controllo dei piani di coda.
+
+Nella sezione posteriore erano incorporati due freni aerodinamici, con un'area totale di 0,50&nbsp;m², poi incrementata nelle ultime serie prodotte a 0,80&nbsp;m². I freni aerodinamici erano attuati idraulicamente e potevano deflettere di 55°.
+
+La deriva, aveva struttura trilongherone e sosteneva rigidamente lo stabilizzatore bilongherone, cui erano articolati i due semiequilibratori muniti di alette correttrici. Entrambi i piani di coda, orizzontali e verticali, utilizzavano profili NACA 0009.
+
+Il timone, in due elementi disposti sopra e sotto l'impennaggio orizzontale, aveva una piccola aletta regolabile a terra. Tutte le superfici mobili dei piani di coda erano munite di contrappesi alle estremità.
+
+Il carrello era studiato per consentire l'impiego del velivolo anche su piste semipreparate, con una soluzione del tipo a gambe di forza a braccio oscillante ed ammortizzatori oleopneumatici. Le ruote principali avevano dimensione di 600x1&nbsp;600&nbsp;mm, mentre la ruota anteriore di 480x200&nbsp;mm.
+
+L'abitacolo, pressurizzato e condizionato, era coperto da tettuccio scorrevole e munito di seggiolino eiettabile ed era protetto anteriormente dal blindovetro del parabrezza corazzato di 64&nbsp;mm di spessore e posteriormente da corazzature in acciaio da 10&nbsp;mm di spessore.
+
+Motori
+L'apparato propulsivo era costituito da un turboreattore Klimov VK-1 o VK-1A senza postcombustione, con compressore centrifugo palettato su ambo le facce, nove camere di combustione e turbina monostadio, direttamente derivato dall'inglese Rolls-Royce Nene. Con un peso a vuoto di 827&nbsp;kg e un numero di giri/minuto massimo di 11&nbsp;500, il VK-1 forniva una spinta massima di 26,47 kN a livello del mare.
+
+Sistemi e impianti
+L'impianto idraulico azionava gli attuatori del carrello, gli ipersostentatori, gli aerofreni e i servo-attuatori degli alettoni. Il fluido idraulico, costituito da una miscela di alcool e glicerina, era contenuto in un serbatoio di 18 litri alla pressione di 13,5 - 14 MPa. I servo-attuatori degli alettoni disponevano di un impianto ausiliario di riserva della capacità di 4,2 litri.
+
+L'impianto pneumatico era costituito da un sistema principale con due contenitori d'aria pressurizzata a 111&nbsp;MPa e da un sistema di riserva da 5&nbsp;MPa, attestati su linee differenti. Il sistema principale azionava l'impianto frenante, la pressurizzazione dell'abitacolo ed il caricamento dei cannoni. Il sistema di emergenza interveniva nel caso di malfunzionamento del sistema idraulico, sugli ipersostentatori e sul sistema frenante.
+
+L'impianto di condizionamento ottimizzava la temperatura nell'abitacolo mantenendo al suo interno una sovrapressione utilizzando aria spillata dal compressore. La pressione all'interno dell'abitacolo era la stessa dell'ambiente esterno fino ad una quota superiore a 2&nbsp;000 metri. Per quote superiori a 8&nbsp;000 metri, nell'interno dell'abitacolo era mantenuta una sovrapressione di 300&nbsp;kPa. A bassa quota l'abitacolo era ventilato tramite un sistema ausiliario.
+
+L'impianto di ossigeno era tarato per funzionare a quote superiori ai 9&nbsp;000 metri. L'ossigeno era immagazzinato in due contenitori cilindrici da 4 e 2 litri.
+
+L'impianto combustibile consisteva in due serbatoi installati in fusoliera con il relativo impianto costituito da valvole, condotti, pompe, filtri, sensori e sistemi di allarme. Il serbatoio principale aveva una capacità di 1&nbsp;250 litri mentre quello situato nella parte posteriore della fusoliera aveva una capacità di 160 litri. Sotto le ali era possibile installare serbatoi ausiliari da 60, 300, 400 o 600 litri di capacità.
+
+La dotazione strumentale standard (indicatore di velocità, altimetro, orizzonte artificiale, girobussola e radiobussola) era completata da un sistema di atterraggio strumentale (ILS) tipo OSP-48, un sistema IFF SRO-1 e radio UHF RSIU-3M.
+
+Il sistema di puntamento del MiG-15 era costituito da un collimatore giroscopico ASP-3N. Per il lancio di bombe o razzi era utilizzato un collimatore ottico PBP-1B. Il labbro situato sopra la presa d'aria alloggiava la cinefotomitragliatrice S-13, capace di 8 fotogrammi al minuto.
+
+Nel diaframma che divideva la presa d'aria era stato inizialmente piazzato il faro d'atterraggio. Nelle versioni successive del velivolo, l'alloggiamento del faro d'atterraggio fu ricavato sotto la semiala sinistra. Gli esemplari prodotti dopo il 1952 disponevano di un paracadute frenante di 15 m2 di diametro.
+
+Armamento
+L'armamento principale era costituito da un cannone automatico Nudelman N-37 calibro 37&nbsp;mm, disposto sotto il fianco destro del muso e da due cannoni Nudelman-Suranov NS-23 calibro 23&nbsp;mm sotto quello sinistro, rispettivamente con 40 e con 80 colpi per arma. Tale armamento era riunito in un vano estraibile per facilitare la manutenzione delle armi ed il rifornimento delle munizioni. L'N-37 aveva una cadenza di tiro di 400 colpi al minuto, mentre per l'N-23 il valore era leggermente più alto (550 colpi al minuto).
+L'armamento di caduta o di lancio disposto su due piloni subalari tipo BD2-40 O BD3-58 poteva essere costituito da bombe o per gli esemplari della VV-S, razzi non guidati ARS-212 disposti su appositi lanciatori.
+
+Sviluppi del progetto-base
+
+Mentre si producevano a pieno ritmo il MiG-15 e il suo sviluppo biposto MiG-15UTI, Mikojan e Gurevič (oltre a migliorare il tipo base, realizzando il MiG-15bis e numerose varianti per impieghi particolari) si dedicarono alla revisione del progetto, realizzando tre prototipi rispondenti ciascuno ad una particolare direttrice di sviluppo.
+
+Il primo di questi velivoli, indicato come SD, puntava a più elevate prestazioni mediante ulteriore alleggerimento strutturale e l'adozione di un nuovo motore, un VK-1 (rielaborazione dello RD-45 dovuta a Vladimir Yakovlevich Klimov) da 2&nbsp;700&nbsp;kg di spinta.
+Il secondo, siglato SP, servì allo studio dell'adattabilità del velivolo a compiti di intercettazione ognitempo ed era munito di un radar Izumrud (smeraldo). Il terzo, SI, fu il risultato della rielaborazione aerodinamica della cellula per eliminare i difetti del MiG-15.
+
+Nel gennaio 1950 lo SI iniziò i voli, affidato al collaudatore Ivan Timofeevič Ivaščenko. Dimostrò subito un comportamento decisamente migliore in regime transonico e alle basse velocità, e portò alla decisione di metterlo in produzione, come Mikoyan-Gurevich MiG-17, per succedere al MiG-15. L'esigenza di non rallentare il ritmo della produzione di quest'ultimo, indusse peraltro a non iniziare la costruzione in serie del MiG-17 prima della fine dell'anno successivo. Cosicché l'onere di trovarsi tra i protagonisti dei primi scontri tra aviogetti, nella guerra di Corea, toccò al MiG-15, con le sue limitazioni.
+
+Il modello iniziale (che venne prodotto anche in Cecoslovacchia ed in Polonia, rispettivamente con le sigle S-102 e Lim-1) cedette il passo in seguito al MiG-15bis, versione di serie del tipo sperimentale SD.
+
+Esso aveva iniziato i voli nell'autunno 1949, col motore VK 1 e numerose modifiche, sia nella dotazione radioelettronica, sia in altri particolari, come gli aerofreni più grandi, gli ipersostentatori perforati e il faro d'atterraggio installato nella semiala sinistra anziché entro la presa d'aria. Queste modifiche erano già presenti su alcuni MiG 15 delle ultime serie, che montavano le versioni A, F e FA del motore RD-45. La dotazione radioelettronica ora comprendeva un apparato IFF, radioaltimetro e radiobussola ARK 5.
+
+Il nuovo modello si distingueva esternamente per la nuova disposizione delle antenne, cui si aggiungevano quelle per il radioaltimetro (RV-2 o RV-10). Erano poste una sotto l'estremità della semiala sinistra e l'altra sotto la radice di quella destra. Sugli esemplari più recenti, i cannoni da 23&nbsp;mm (con 80 colpi ciascuno) passarono dal tipo NR (Nudelman e Rikhter) ai più moderni e leggeri NS (Nudelman e Suranov), coi quali la cadenza di tiro saliva da 550 a 850 colpi al minuto.
+
+Alcuni aerei destinati alla fotoricognizione, con apposito pod ventrale, furono siglati MiG-15bisR, mentre altri vennero adattati al compito di cacciabombardieri, con due lunghi piloni subalari ciascuno con due bombe in tandem. L'aereo fu prodotto anche in Cecoslovacchia (con sigla S-103), dove ne fu elaborata una variante da attacco al suolo (MiG-15B) con 4 piloni per carichi esterni, paracadute freno e attacchi per razzi di decollo, e una da traino bersagli (MiG-15T). Fu prodotto pure in Polonia, con sigla Lim-2.
+
+Dal tipo sperimentale SP che aveva fornito le prime esperienze in fatto di impiego ognitempo venne elaborato il primo intercettore notturno della V-VS, modificando un biposto MiG-15UTI armato con due cannoncini NS-23, che prese la sigla SP-5. Successivamente anche un certo numero di monoposto, risiglati MiG-15P, ricevettero il radar Izumrud.
+
+La versione biposto (armata con un solo NS-23 od una mitragliatrice UBK-E con 150 colpi) fu prodotta in Cecoslovacchia come CS-102 ed in Polonia come SBLim-1. Fu anch'essa sottoposta a modifiche per impieghi particolari, come l'addestramento all'uso del radar Izumrud. In Polonia diversi aerei della prima serie vennero convertiti in SBLim-2 sostituendo impennaggi, parte posteriore di fusoliera e motore con quelli del MiG-15bis.
+
+Impiego operativo
+Gli esordi
+I primi aerei a reazione sovietici (lo Yak-15, lo Yak-17 ed il MiG-9) non avevano soddisfatto appieno le esigenze dell'Aviazione militare sovietica e rimasero a livello di prototipi o furono oggetto di produzione in piccola serie.
+
+Nei primissimi anni del dopoguerra, la spina dorsale dell’aviazione militare sovietica era ancora costituita dalle ultime versioni degli aerei da combattimento della seconda guerra mondiale equipaggiati con motori a pistoni, come l’ultimo modello degli Yak-3 e Yak-9, il La-7 e le sue versioni postbelliche, La-9 e La-11 e pochi Bell P-63 Kingcobra. L’introduzione del MiG-15 nei reparti della VVS fu quindi una vera rivoluzione tecnologica.
+
+Si trattava ora di addestrare il personale navigante e tecnico alla nuova tecnologia dell'aviazione a reazione. Pertanto all’OKB della Mikoyan Gurevich fu chiesto di accelerare lo sviluppo della versione biposto da addestramento, MiG-15 UTI, mentre la V-VS avviò tutta una serie di iniziative volte a diffondere le nuove tecniche di pilotaggio, inviando presso i reparti d’impiego i piloti collaudatori del NII VVS.
+
+Il MiG-15 apparve per la prima volta in pubblico in occasione della parata aerea sull’Aeroporto di Mosca-Tušino nel luglio 1948; il primo reparto operativo della V-VS destinato a ricevere i primi dieci esemplari dell'aereo fu, il 22 febbraio 1949, il 324 Sveerskaya IAD del 29 GvIAP dislocato nella base di Kubinka vicino a Mosca, sotto la guida del colonnello Ivan Nikitovič Kožedub, "asso degli assi" dell'aviazione militare sovietica nella seconda guerra mondiale.
+
+Con l’aumento della produzione, il MiG-15 divenne operativo non solo presso i reparti della VVS ma iniziò ad essere distribuito anche fuori dai confini dell’Unione Sovietica, presso i paesi del Patto di Varsavia: Polonia e Germania dell’Est. In quel periodo fu addirittura creata una pattuglia acrobatica sulla base di Kubinka dotata di cinque MiG-15bis (Fagot B) che ricevette il nome non ufficiale di Krasnaya pyatyorka (I Cinque Rossi).
+
+Repubblica Popolare Cinese
+Il battesimo del fuoco del MiG-15 avvenne in Cina, al comando di piloti sovietici.
+
+Dopo la proclamazione della Repubblica Popolare Cinese nel dicembre del 1949, l'URSS firmò, il 13 febbraio 1950, con la neonata repubblica un patto d'amicizia, alleanza e mutuo soccorso che comprendeva anche una cooperazione militare.
+
+In particolare, l'URSS s'impegnava ad aiutare la Repubblica Popolare Cinese nella creazione di una moderna forza aerea, utilizzando istruttori e personale tecnico della VVS stanziato in territorio cinese. Inoltre, piloti sovietici avrebbero assicurato la difesa delle città e degli insediamenti industriali cinesi, fino a quando l'aviazione cinese non fosse stata in grado di provvedere autonomamente.
+
+Fu data priorità alla difesa di Shanghai, uno dei maggiori centri industriali ed economici, direttamente minacciata dalle incursioni dell'aviazione della Cina nazionalista Zhōnghuá Mínguó Kōngjūn, o Republic of China Air Force (RoCAF), nel corso della cosiddetta guerra civile cinese.
+
+Nella primavera del 1950, tre MiG-15 Fagot A del 29 GvIAP furono dislocati sulla base di Dachang vicino a Shanghai. I velivoli erano dipinti con i colori del Zhongguo Renmin Jiefangjun Kongjun mentre i piloti indossavano le uniformi cinesi in quanto l'Unione Sovietica non era direttamente impegnata nel conflitto. Durante la permanenza dell'unità sovietica in Cina, i piloti del 29 GvIAD si assicurarono due abbattimenti: il primo il 28 aprile 1950 con l'abbattimento da parte del maggiore Keleyinikov di un ricognitore Lockheed P-38 Lightning ed il secondo nella notte del 12 maggio quando il capitano Schinkarenko distrusse un bombardiere Consolidated B-24 Liberator
+
+Guerra di Corea (1950–1953)
+
+Le prime forniture di MiG-15 alle unità sovietiche e cino-coreane impegnate in Corea arrivarono nel novembre del 1950, ritardando la consegna di nuovi esemplari ai reparti delle aeronautiche dei paesi appartenenti al Patto di Varsavia.
+
+Ai piloti di MiG-15 fu affidata la missione di proteggere dalle incursioni dei bombardieri B-29 della Far East Air Force e dei caccia-bombardieri della Fifth Air Force i ponti sul fiume Yalu, l'impianto idroelettrico di Supung e le basi aeree della forza aerea coreana (KPAF) dislocate tra lo Yalu e Pyongyang. Al fine di scongiurare un'escalation del conflitto, ai piloti sovietici e a quelli combattenti sotto l'egida dell'ONU furono imposte limitazioni operative. I piloti statunitensi e delle Nazioni Unite non dovevano oltrepassare il fiume Yalu, mentre ai piloti sovietici fu proibito di oltrepassare un'immaginaria linea tracciata tra Pyongyang e Wŏnsan. L'area compresa tra questa linea e il fiume Yalu fu ben presto nota come Mig Alley (Viale dei MiG).
+
+La partecipazione dei piloti sovietici di MiG-15 alla guerra di Corea può essere suddivisa in tre fasi. La prima, dal novembre 1950 all'aprile 1951, la seconda dall'aprile 1951 al gennaio 1952, la terza e ultima fase dal gennaio 1952 alla fine delle ostilità, il 27 giugno del 1953.
+
+Il primo scontro tra i MiG-15 e i caccia statunitensi nei cieli coreani avvenne il 1º novembre 1950, quando un gruppo di MiG-15 Fagot A del 151 GvIAD e del 72 GvIAP intercettò un flight (sezione) di P-51D nei pressi del fiume Yalu. I piloti sovietici rivendicarono l'abbattimento di un P-51D.
+
+Qualche giorno più tardi, l'8 novembre, si registrò il primo scontro tra velivoli a reazione che vide coinvolti sei MiG-15 e una sezione di Lockeed F-80 Shooting Star in volo di copertura a 9&nbsp;000 m ad una formazione di settanta B-29 della FEAF mandati a distruggere i ponti nei pressi di Sinŭiju.
+
+Durante il combattimento, il Lt. Russel J. Brown sfruttando la maggior velocità in picchiata dell'F-80 riuscì a colpire un MiG-15 che fu visto scendere in picchiata, lasciando dietro di sé un'ampia scia di fumo. Il MiG-15 fu rivendicato come abbattuto, ma negli archivi sovietici non risultano perdite per il giorno dello scontro.
+
+Il 10 novembre, sette MiG-15 Fagot A del 139 GvIAP e sei del 72 GvIAP intercettarono una formazione di venti Vought F4U-4 Corsair e Douglas AD-1 Skyraider dell'U.S. Navy, impegnati in una ennesima azione di bombardamento contro i ponti sullo Yalu. I MiG-15 furono subito ingaggiati dalla scorta assicurata da due sezioni di Grumman F9F-2 Panther. Secondo gli archivi sovietici, i piloti dei MiG si accreditarono l'abbattimento di tre Panther e uno Skyraider. I sovietici però dovettero subire la morte del comandante della prima squadriglia, capitano Mikhail Grachyov, abbattuto dal Panther del VF-111 imbarcato sulla , pilotato dal Lt. William T. Amen.
+
+Nei due giorni seguenti, i MiG-15 rivelarono tutta la loro efficacia come bomber destroyer (distruttori di bombardieri). La prima vittima fu un ricognitore RB-29A inviato a controllare il risultato dei precedenti bombardamenti. Il ricognitore gravemente danneggiato, riuscì a rientrare ma nell'impatto al suolo durante il tentativo di atterraggio di fortuna sulla Johnson AB, in Giappone andò distrutto con la morte dei cinque membri dell'equipaggio. Il giorno successivo, i MiG-15 abbatterono un B-29 Superfortress nel corso del bombardamento della città di Ŭiju, mentre altri cinque rimasero danneggiati nelle settimane successive.
+
+Alla sua apparizione, il MiG-15 aveva dimostrato la sua superiorità nei confronti dei velivoli che in quel momento erano a disposizione delle forze ONU, la cui prima linea era costituita da caccia-bombardieri ad elica risalenti alla seconda guerra mondiale e da caccia a reazione con ala diritta; fu inoltre evidente come l'era dei bombardieri strategici con motori a pistoni era oramai al tramonto, senza la possibilità di reggere il confronto con moderni caccia reazione pesantemente armati.
+
+Alla fine di novembre del 1950, in vista di un maggiore impegno nel conflitto, Stalin ordinò la costituzione di un'apposita unità il 64 IAK costituito da personale proveniente dai reparti della V-VS, della PVO e della Flotta del Pacifico della Aviacija voenno-morskogo flota . Il 64 IAK fu costituito inizialmente dal 303 IAD alla guida del tenente generale Georgy Lobov e dal 324 IAD, la prima unità della V-VS a ricevere i MiG-15. Alla guida di quest'ultima unità di elite, formata dal 176 GvIAP e dal 196 GvIAP, fu posto il colonnello Ivan Nikitovič Kožedub.
+
+Mentre il nuovo reparto iniziava un'intensa attività addestrativa, il 50 IAD sostituì il 151st GvIAD come unità di prima linea.
+
+Furono proprio i MiG-15 del 50 IAD ad impegnare per primi gli North American F-86 Sabre cui gli occidentali avevano affidato le proprie speranze di riacquistare la superiorità aerea sullo Yalu.
+
+Il primo scontro ebbe luogo il 17 dicembre 1950 con l'abbattimento del MiG-15 del maggiore Yakov Yefromeyenko del 50 IAD, rimasto ucciso nel combattimento, ad opera dell'F-86A pilotato dal Lt.Col. Bruce Hinton del 4th FIG 336th FIS. Quattro giorni dopo, il 21 dicembre, il capitano Ivan Yourkevich, appartenente alla stessa unità, divenne il primo pilota di MiG-15 ad abbattere un F-86A.
+
+Le fonti sovietiche e statunitensi divergono ampiamente sugli esiti dello scontro. I sovietici rivendicarono tre Sabre abbattuti con la perdita di due MiG, mentre secondo le fonti statunitensi quel giorno i MiG abbattuti sarebbero stati sei contro la perdita di un solo F-86. Sempre secondo tali fonti, l'abbattimento del primo F-86 Sabre, appartenente al 4 FIG e pilotato dal Lt. Lawrence V. Bach, avvenne il 22 dicembre per opera del capitano Nikolay Yeo Vorob'yov del 177 IAP.
+
+Tra il 4 dicembre 1950 e il febbraio del 1951, il 50 IAD perse un totale di sette MiG-15 e cinque piloti. Da parte sua l'USAF confermò oltre la perdita dell'F-86A, quella di un RB-45C, di un F-80C, di un RF-80A e di un F-84E.
+
+All'inizio di aprile 1951, il 324 IAD di Kozhedub, dalla sua base di Andong, era oramai pienamente operativo, seguito un mese dopo dal 303 IAD di Lobov. Il 151 IAD fu ritirato dalla prima linea, rientrando nella base di Anshan con compiti addestrativi.
+
+Il 3 aprile 1951, nel corso di una delle sue prime uscite, una formazione di MiG-15 del 324 IAD fu attaccata da una formazione di F-86A del 4th FIG, sotto la guida del comandante del 335th FIS Chiefs, Lt. Col. Benjamin H. Emmert. Al termine dello scontro i piloti americani abbatterono un MiG-15, con la perdita del pilota, mentre altri due furono pesantemente danneggiati e costretti ad atterraggi fuori campo. Un Sabre andò perduto per esaurimento del carburante ed il pilota fatto prigioniero.
+
+I piloti sovietici avevano ora di fronte un temibile avversario che richiedeva per poter essere affrontato con successo un aggiornamento delle tecniche d'ingaggio. Kozhedub concentrò quindi l'azione del proprio reparto contro i B-29 della FEAF che continuavano nell'azione di demolizione dei ponti sullo Yalu, la cui integrità era essenziale per le truppe cino-coreane.
+
+La più grande battaglia aerea sui cieli di Sinŭiju avvenne il 12 aprile quando i MiG intercettarono una formazione di trentanove B-29. La scorta ravvicinata era assicurata da cinquantaquattro F-84G del 27th FEW, mentre per la copertura in quota erano presenti ventiquattro Sabre del 334th e del 336th FIS.
+
+Quando le tracce dei bombardieri apparvero sugli schermi radar dei centri di controllo sovietici, il col. Kozhedub ordinò il decollo in successione di tre formazioni di MiG, le prime due, distanziate di cinque minuti, di quattordici aerei, la terza decollata dopo ventitré minuti di dodici velivoli. Le prime due ondate di MiG, saliti rapidamente di quota, impegnarono i bombardieri, picchiando ad alta velocità. Nella mischia che ne seguì, ai piloti del Sabre fu accreditato l'abbattimento di quattro MiG. Le perdite tra i B29 della Far East Air Force furono pesanti. I colpi dei cannoni da 37&nbsp;mm e 23&nbsp;mm furono devastanti per i bombardieri americani, tre dei quali furono abbattuti, un altro si schiantò in fase di atterraggio e altri quattro risultarono danneggiati in misura minore.
+
+Efficace come distruttore di bombardieri, la prima versione del MiG-15 si stava rivelando meno efficace come caccia negli scontri diretti con l'F-86, i cui piloti si aggiudicarono nel periodo, sei abbattimenti con la perdita dei due piloti e altri due feriti seriamente contro la perdita di un solo F-86, peraltro perso non in uno scontro diretto ma per esaurimento del carburante.
+
+Pertanto dalla fine di aprile iniziarono ad affluire ai reparti sovietici impegnati nelle operazioni in Corea, i primi esemplari della nuova versione MiG-15bis, nei quali il motore Klimov RD-45 era stato sostituito dalla sua versione successiva denominata Klimov VK-1. I primi quarantasette MiG-15bis arrivarono alla fine di aprile del 1951. Il mese successivo giunsero altri sedici esemplari prelevati direttamente dalla fabbrica di Novosibirsk. Alla fine del mese di maggio, con l'arrivo in area operazioni dei reparti del 303 IAD del maggiore generale Lobov, erano presenti nell'area dello Yalu centocinquantatré MiG-15bis a fronteggiare i quarantaquattro F-86A di base a Suwon.
+
+Nel corso del mese di giugno, con la richiesta da parte cinese di una maggiore copertura aerea in concomitanza con la nuova offensiva cino-coreana, aumentarono anche le occasioni di scontro con gli F-86 del 4th FIG. Pur riuscendo a mantenere la superiorità aerea sullo Yalu, l'USAF dovette lamentare maggiori perdite. L'accresciuta esperienza ed aggressività dei piloti sovietici e l'adozione di apposite tattiche di copertura da parte dei piloti più anziani fecero supporre ai servizi dintelligence dell'USAF, la presenza in zona operazioni, di esperti istruttori sovietici, veterani della seconda guerra mondiale che in quota proteggevano i piloti cinesi e coreani meno esperti. In questo periodo, le forze comuniste persero sette MiG-15 e quattro piloti, mentre il 4th FIG perse quattro F-86 con tre piloti deceduti.
+
+Con l'arrivo dei monsoni estivi l'attività aerea fu sensibilmente ridotta, anche se si verificarono sporadici combattimenti con l'abbattimento di dieci MiG a fronte della perdita di due F-86
+
+Con la fine della stagione dei monsoni gli scontri ripresero con rinnovato vigore ed i MiG-15 si rivelarono ancora temibili contro le Superfortezze. Il 23 ottobre 1951, nove B-29 del 307th BG furono inviati a bombardare la base aerea di Namsi tra lo Yalu e Pyongyang. Nonostante la scorta diretta di cinquantacinque F-84 del 49th FBW e del 135th FBG e la copertura in quota di trentaquattro Sabre, i B-29 furono intercettati da cinquantotto MiG-15bis del 303 IAD seguiti a breve distanza da altri ventisei MiG del 324 IAD.
+
+Mentre alcuni MiG attaccavano i bombardieri, altri ingaggiavano i Sabre in quota. Alla fine dello scontro, tre B-29 furono abbattuti, altri cinque malamente danneggiati, due dei quali costretti ad un atterraggio di emergenza su Gimpo e dichiarati fuori uso . Dopo le perdite di quella giornata, subito ribattezzata Black Tuesday, il quartier generale del FEAF ordinò la fine dei bombardamenti diurni delle Superfortezze a partire dal 28 ottobre.
+
+I MiG-15 furono attivi anche come intercettori notturni: rivendicarono anche un abbattimento, verso la fine di maggio del 1952, quando il velivolo del maggiore Kalin riuscì ad intercettare e colpire un B-29 illuminato dalla luce delle fotoelettriche. Anche se nessun MiG fu abbattuto in quella giornata, negli scontri successivi le forze comuniste persero otto MiG-15bis, con la morte di tre piloti
+
+Con lo stabilizzarsi del fronte, a partire da gennaio 1952, i piloti sovietici che avevano preso parte ai combattimenti dall'inizio della guerra, iniziarono il rientro in patria. Si trattava di piloti con grande esperienza, spesso veterani di guerra, che furono avvicendati dal personale proveniente da due nuovi reparti, il 97 IAD e il 190 IAD. Si trattava di piloti con minore addestramento sul MIG-15, di cui solo il 20 per cento aveva partecipato alla seconda guerra mondiale mentre nessuno di loro aveva preso parte fino a quel momento alla guerra di Corea.
+
+Con il progressivo ritiro dei piloti sovietici tra il luglio e la fine delle ostilità, la partecipazione dei sovietici alla guerra divenne gradualmente sempre più sporadica e a pilotare i MiG-15 furono principalmente i piloti cinesi della PLAAF e i nordcoreani.
+
+Nonostante il vantaggio numerico, lo scarso addestramento dei piloti cinesi e nordcoreani, la presenza tra i reparti operativi di MiG-15 ancora delle prime versioni, la maggior aggressività dei piloti americani che ora erano autorizzati ad inseguire i MiG in territorio cinese fin sui loro aeroporti oltre lo Yalu e l'introduzione in servizio delle nuove versioni di F-86, si rivelarono fattori determinanti per assicurare alle forze ONU la superiorità aerea nella zona delle operazioni.
+
+I numeri relativi agli abbattimenti complessivamente registrati sono contrastanti, come spesso capita, a seconda della parte in causa che pubblica il dato. I dati di provenienza statunitense, che indicano circa 800 MiG-15 abbattuti a fronte della perdita di circa 80 F-86, sono sovrastimati. La tendenza a sovrastimare le vittorie (e parallelamente a sottostimare le perdite) è dovuta a tutta una serie di fattori, anche di tipo propagandistico e politico. Altri elementi che possono portare ad una sovrastima delle vittorie dei propri piloti, possono essere rappresentati dal diverso modo di valutare l'accreditamento di un abbattimento tra le varie forze aeree; la tensione psicologica che si manifesta durante le fasi del combattimento aereo che porta facilmente ad errori di valutazione e all'impossibilità di verificare se l'aereo colpito sia effettivamente precipitato al suolo oppure sia riuscito a riprendere il volo e tornare alla base, seppur danneggiato; infine la scarsa efficienza delle fotomitragliatrici, soprattutto di quelle in uso sulle prime versioni di MiG-15, non consentiva sempre di verificare le dichiarazioni dei piloti.
+Recenti studi statunitensi sulle perdite di F-86 nella guerra di Corea, hanno determinato in duecentoventiquattro le perdite di F-86 durante il conflitto coreano, con la morte di quarantasette piloti, sessantacinque dispersi e ventisei catturati. Dei duecentoventiquattro F-86 perduti, ne risultano centoquattro abbattuti nel corso di combattimenti aereo. Escludendo da questi i casi di perdita per mancanza di carburante o altre cause, si arriva a novantadue F-86 perduti in combattimento aereo con i MiG-15.
+
+Negli ultimi anni la possibilità da parte degli studiosi di accedere agli archivi sovietici ha permesso studi comparativi con le fonti statunitensi, determinando in trecentodiciannove MiG-15 e centodieci piloti le perdite subite da parte sovietica in duelli aerei durante la guerra di Corea. Da parte cinese risulta confermata la perdita in combattimento aereo con gli F-86 di duecentoventiquattro MiG e di settantasette piloti. Stimando, per mancanza di dati certi, in un centinaio le perdite da parte coreana, si arriva ad un totale di cinquecentosessantasei MiG distrutti dagli F-86. Di questi solo quarantanove erano pilotati dai veterani della V-VS che parteciparono ai combattimenti aerei sopra lo Yalu nel 1951. I restanti cinquecentodiciassette MiG erano pilotati da cinesi, coreani o piloti sovietici non veterani. Accettando le perdite confermate dall'USAF si arriva ad un kill ratio di 5,8 MiG distrutti per ogni F-86 abbattuto.
+
+Restringendo l'analisi all'attività operativa del 64 IAK, tra i piloti che volarono con questo reparto trentanove raggiunsero la qualifica di assi e diciotto divennero Eroe dell'Unione Sovietica. In accordo con le fonti sovietiche, le perdite dei due reparti componenti (324 e 303), ammontarono a cinquantasei MiG (quarantanove a spese di F-86) e trentadue piloti deceduti; nello stesso periodo, le vittorie accreditate furono di trentacinque Sabre. Si arriva ad un kill ratio di 1,4 a 1, sostanzialmente una situazione di parità. Tale rapporto scende ancora ad un valore di 1,2 a 1 se si restringe la valutazione ai combattimenti della versione MiG-15bis.
+
+Guerra fredda
+Negli anni cinquanta i MiG-15 dell'Unione Sovietica e dei paesi firmatari del Patto di Varsavia furono coinvolti in numerosi "incidenti" con velivoli del mondo occidentale, intercettati per violazioni dello spazio aereo sovietico interdetto ai voli civili e militari, in una sorta di "guerra segreta" mai dichiarata.
+
+La maggior parte degli incidenti in cui fu coinvolto il MiG-15 avvenne sopra la Russia orientale, densa di installazioni militari, oppure in prossimità del Mar Baltico, entrambe aree geografiche mantenute sotto particolare osservazione dai ricognitori occidentali.
+
+Il primo di questi incidenti avvenne il 26 dicembre 1950 sui cieli di Tjumen' nella Russia orientale e portò all'abbattimento, ad opera di due MiG-15 Fagot A del 523 IAP, pilotati dal capitano S.A. Bakhayev e del tenente N. Kotov, di un ricognitore RB-29 Superfortress.
+
+Il 1952 vide l'intensificarsi delle missioni di ricognizione oltre la cortina di ferro con più trentaquattro incursioni all'interno dello spazio aereo sovietico. L'11 maggio 1952 due MiG-15 intercettarono un Martin PBM-5 Mariner della U.S. Navy sopra il Mar del Giappone. L'idrovolante nonostante i ripetuti attacchi riportò solo lievi danni.
+
+Il 16 giugno 1952 due MiG-15 appartenenti alla Flotta del Baltico attaccarono due Consolidated PBY Catalina della aeronautica svedese in missione di ricerca e soccorso di un C-47 scomparso il giorno 13. Uno dei due Catalina fu seriamente danneggiato e costretto ad un ammaraggio di fortuna vicino al cargo tedesco Münsterland che provvide a recuperare l'equipaggio.
+
+Il 15 luglio 1952 un Martin RB-26 dell'USAF fu attaccato sopra il Mar Giallo. Sedici giorni dopo, sempre nella stessa zona, MiG-15 della Flotta del Pacifico attaccarono un PBM-5 statunitense.
+
+Il 15 aprile del 1953 due MiG-15 della Flotta del Pacifico intercettarono un Boeing RB50 in missione di ricognizione nei pressi di Petropavlovsk-Kamčatskij, nella penisola della Kamčatka. Dopo il rifiuto dell'equipaggio statunitense di atterrare in territorio sovietico, il ricognitore fu abbattuto in prossimità del villaggio di Zhoopanovo, con la morte di tutti i membri dell'equipaggio, che fu considerato MIA (Missing in Action).
+
+Il 7 novembre 1954 un RB-29 penetrato nello spazio aereo sovietico sopra il Mar del Giappone fu intercettato da due MiG-15 in corrispondenza dell'isola di Tanfil'eva. Dopo aver risposto al fuoco con le armi di bordo, l'RB-29 concluse la missione con un atterraggio di fortuna nell'isola di Hokkaidō.
+
+Il 18 aprile 1955 il MiG-15 pilotato dal capitano Korotkov abbatté un ricognitore RB-47 Stratojet dell'USAF al largo dell'Isola di Bering.
+
+Il 22 giugno del 1955 un Lockheed P2V Neptune fu attaccato e danneggiato da MiG-15 sopra lo Stretto di Bering, costringendo l'equipaggio, seriamente ferito, ad un atterraggio di fortuna sull'Isola di San Lorenzo, nel Mare di Bering.
+
+Un altro episodio che coinvolse velivoli della marina statunitense accadde nel luglio del 1956, quando una formazione di MiG-15 del 7° IAD, unità appartenente alla Flotta del Pacifico, attaccò un Lockheed P2V Neptune in prossimità di Nachodka poco distante da Vladivostok uccidendo un membro dell'equipaggio. Costretti ad un ammaraggio di fortuna nel Mar del Giappone, i membri dell'equipaggio superstiti furono tratti in salvo da unità di soccorso della U.S. Navy.
+
+Episodi analoghi si verificarono anche in Europa. Il 29 aprile 1952 un MiG-15 appartenente al 73 GvIAP di base a Köthen nella Germania dell'Est, attaccò un Douglas DC-4 dell'Air France (codice F-BELI) lungo il corridoio aereo per Berlino. L'aereo atterrò all'aeroporto di Berlino-Tempelhof con ottantanove fori nella parte posteriore della fusoliera e tre feriti. L'avvenimento causò la chiusura temporanea dei voli verso Berlino Ovest.
+
+Il 12 marzo 1953, un Avro 694 Lincoln (RF531 “C”) del Central Gunnery School della RAF in volo di addestramento verso Berlino, fu abbattuto 32&nbsp;km a NE di Lüneburg, in Germania da un MiG-15 sovietico, con la morte dei sette membri dell'equipaggio.
+
+Il 10 marzo 1953, sopra il villaggio di Merklín, si svolse un combattimento aereo tra due MiG-15 cecoslovacchi del 5.SLP (5º reggimento caccia) pilotati da Jaroslav Šrámek e Milan Forst e due F-84E del 53rd Fighter Bomber Squadron decollati dalla base aerea di Bitburg nella Germania occidentale e penetrati per 35&nbsp;km all'interno dello spazio aereo cecoslovacco. Durante l'azione, Šrámek abbatté il velivolo pilotato dal tenente Warren G.Brown che riuscì a eiettarsi prima che l'F-84 si schiantasse al suolo.
+
+Un MiG-15 bulgaro fu protagonista di un tragico incidente nella notte del 27 luglio 1955 quando due caccia della sezione di pronto intervento dell'aeronautica militare bulgara intercettarono un velivolo che si rivelò essere un Lockheed L-049 Constellation, (marche 4X-AKC) operato dalla El Al la compagnia di bandiera israeliana, in volo di linea. Il velivolo, il cui volo (Vienna - Tel Aviv via Istanbul) era stato regolarmente schedulato (Volo El Al 402) ma che forse a causa del maltempo aveva deviato dal corridoio prestabilito, fu abbattuto nei pressi della cittadina di Petrič, in Bulgaria, causando la morte di tutti cinquantotto passeggeri a bordo.
+
+Non mancarono episodi che videro lo svolgersi di brevi scontri tra caccia sovietici e statunitensi, come quello che avvenne il 18 novembre del 1952 al largo di Vladivostok tra quattro MiG-15 del 781 IAP e un egual numero di Grumman F9F Panther del VF-781 The Peacemaker imbarcato sulla portaerei . Nel breve combattimento aereo, due MiG furono abbattuti . Il pilota del terzo MiG-15, maggiore Pakhomkin, anche se mortalmente ferito, riuscì ad effettuare un atterraggio di fortuna sulla costa. Gli abbattimenti furono attribuiti ai tenenti D. Middleton e E.R. Williams. Uno dei Panther rimase danneggiato. L'incidente, avvenuto a sole dal porto russo di Vladivostok fu sempre ufficialmente negato sia da parte statunitense che sovietica e fu rivelato solo nel 1961.
+
+Crisi dello stretto di Taiwan
+Le operazioni più importanti che videro i MiG-15 della PLAAF in azione dopo la guerra di Corea, furono gli scontri conseguenti la cosiddetta "Crisi dello stretto di Formosa" del 1958, in particolare nel corso della contesa per l'isola di Quemoy (Kinmen) e le isole Matsu.
+
+Nel corso del conflitto i MiG-15 abbatterono o danneggiarono quarantadue aerei della RoCAF con la perdita di quindici velivoli da parte della Cina continentale. Nel corso dei combattimenti aerei furono utilizzati per la prima volta dagli F-86F della RoCAF, i missili aria-aria a guida infrarossa Sidewinder. Fu un F-86F della Cina Nazionalista a ottenere in combattimento il primo abbattimento assoluto con il nuovo missile.
+
+In seguito i MiG-15 della PLAAF furono utilizzati per voli di ricognizione su Taiwan oppure come caccia bombardieri, come per esempio durante l'insurrezione tibetana del 1959-1960 o nel corso dell'occupazione delle isole Paracelso nel 1974.
+
+Medio Oriente
+
+I MiG-15 forniti all'aeronautica militare egiziana El Qūwāt El Gawīyä El Maṣrīya furono impegnati per la prima volta in azione durante la crisi di Suez tra il 26 ottobre e il 7 novembre del 1956, nel corso del conflitto conseguente al tentativo anglo-francese, con il supporto israeliano, d'invasione della zona del canale di Suez, conosciuta come operation Musketeer.
+
+All'epoca l'aeronautica militare egiziana disponeva di circa 160 velivoli di vario tipo, principalmente di produzione anglosassone (de Havilland DH.100 Vampire e Gloster Meteor), di cui solo sessantanove operativi. A questi si aggiungevano circa centoventi MiG-15 Fagot B di costruzione cecoslovacca sbarcati nel porto di Alessandria nel 1955. Di questi solo sessanta erano operativi nel marzo del 1956.
+
+Il primo scontro che vide impegnati i MiG-15 egiziani avvenne il 30 ottobre, con l'intercettazione ed il danneggiamento di un English Electric Canberra PR.7 della RAF.
+
+Lo stesso giorno, due MiG-15 assicurarono la copertura a quattro caccia-bombardieri De Havilland Vampire della EAF che bombardavano le posizioni della 202ª divisione Aerotrasportata israeliana, attestata vicino al passo di Mitla, nel Sinai. Nel pomeriggio l'attacco fu ripetuto, stavolta da due caccia-bombardieri Gloster Meteor con la scorta di sei MiG-15. La formazione egiziana fu intercettata da sei Dassault Mystère IV delle forze aeree israeliane (Heyl Ha'Avir, Israeli Air Force, IAF). Nello scontro che ne seguì, gli egiziani persero due MiG, mentre gli israeliani lamentarono la perdita di un Mystere.
+
+Nella notte del primo novembre 1956, Francia e Gran Bretagna lanciarono l'Operazione Moschettiere facendola precedere da un bombardamento ad opera di unità della RAF e della Royal Navy contro le basi dell'aeronautica egiziana nell'area del canale di Suez; in previsione dell'attacco, la maggior parte delle basi erano state liberate e i velivoli dispersi su basi in Siria e in Arabia Saudita.
+
+Nei successivi cinque giorni, con la perdita della superiorità aerea da parte egiziana, i MiG-15 furono impegnati sporadicamente, in azioni d'intercettazione dei bombardieri Canberra della RAF o di supporto a terra.
+
+Con la fine delle operazioni, le perdite per l'aviazione egiziana ammontavano a quattro (otto secondo altre fonti) MiG-15 distrutti in combattimento con l'aviazione israeliana più altri otto distrutti a terra. Da parte egiziana furono accreditati ai MiG l'abbattimento di due caccia israeliani, il danneggiamento di altri due e la distruzione di un ulteriore velivolo al suolo.
+
+Sei anni dopo nel 1962, i MiG-15 egiziani furono impiegati per attacchi al suolo durante la guerra civile dello Yemen del Nord, mentre nel corso della guerra dei sei giorni (5-11 giugno 1967) i MiG-15 furono gli unici caccia bombardieri impiegati dalle aviazioni egiziana e siriana, anche se la maggior parte di essi furono distrutti al suolo dall'aviazione israeliana.
+
+Vietnam
+In Vietnam furono utilizzati MiG-15 e MiG-15UTI per l'addestramento dei piloti. Non ci sono tracce di utilizzi del MiG-15 contro aerei americani nelle fasi iniziali della Guerra del Vietnam.
+
+Altri eventi
+Yuri Gagarin, il primo uomo nello spazio, morì in un incidente il 27 marzo del 1968, a 34 anni, mentre volava, in compagnia del pilota istruttore Vladimir Seryogin, a bordo di un MiG-15UTI schiantatosi al suolo nelle vicinanze della città di Kiržač.
+
+Nella versione ufficiale fu dichiarato che Yuri Gagarin avesse cercato di evitare un oggetto estraneo, forse un pallone sonda, effettuando una manovra sbagliata che l'aveva portato a descrivere una spirale profonda nel cielo fino all'inevitabile impatto al suolo.
+
+Recentemente, il cosmonauta russo Aleksej Archipovič Leonov ha diffuso una diversa versione, rivelando, che in un rapporto dell'epoca, ora declassificato, si fa riferimento al fatto che proprio quel giorno, caratterizzato da tempo pessimo e scarsa visibilità, un caccia Sukhoi Su-15 si trovava in volo supersonico ad una quota non autorizzata, molto vicino al MiG-15 di Gagarin e possa aver causato con la turbolenza creata dal bang supersonico, il capovolgimento e la successiva spirale incontrollata del MiG.
+
+Versioni
+MiG-15
+MiG-15 Izdelie S: denominazione assegnata ai tre prototipi, il primo dei quali (S-01 tipi 14 ) volò per la prima volta il 30 dicembre 1947 e fu il solo ad impiegare il motore ’’Nene I’’; il secondo (S-02) il 27 maggio 1948 ed il terzo (S-03) il 17 giugno 1948 (altri indicano il 17 luglio). Il terzo prototipo era sostanzialmente un esemplare di pre-serie e principalmente incorporava modifiche alle superfici di controllo nelle ali (sia nella forma che nei materiali impiegati). Secondo alcune fonti anche il primo esemplare di serie, portato in volo il 30 dicembre 1948, mantenne la designazione “Izdelie S”.
+MiG-15 Izdelie SV: secondo la maggior parte delle fonti reperite, fu la prima e principale versione di serie del MiG-15, i cui primi esemplari uscirono dalla fabbrica nel giugno del 1949.
+SA-1/SA-2: furono due esemplari modificati per testare il sistema ILS OSP-48 ed erano caratterizzati da una diversa disposizione interna delle apparecchiature avioniche, in particolare l’ADF ARK 5 ed il sistema di ricezione per segnali da radiofaro MRP 48. Soltanto il primo esemplare fu utilizzato per le prove di accettazione da parte delle autorità statali, svolte tra febbraio e marzo del 1950.
+SA-3: si trattò di 15 o 16 esemplari di serie equipaggiati con il sistema OSP-48 ed impiegati operativamente in reparti della V-VS con buoni risultati. In seguito al positivo riscontro ottenuto mediante questi aerei, il sistema OSP 48 fu adottato come standard produttivo su tutti i MiG-15 e gli SA-3 utilizzati per impratichire i piloti all’utilizzo dell’apparecchiatura.
+SA-4: fu sostanzialmente un’evoluzione della variante SA-3, con interventi prevalentemente incentrati sul miglioramento della strumentazione a disposizione del pilota; venne inoltre introdotto un sistema per l’apertura automatica degli aerofreni al raggiungimento della velocità di Mach 0,95. Parte delle modifiche sperimentate furono integrate nelle linee produttive dopo una serie di prove svolte nell’estate del 1950.
+MiG-15 Izdelie SO: denominazione attribuita ad un singolo esemplare di MiG-15 (realizzato nel 1949) dotato di parabrezza antiproiettile di maggior spessore ed equipaggiato con un collimatore giroscopico ASP-3N alloggiato su un dispositivo scorrevole che avrebbe dovuto agevolarne l’utilizzo da parte del pilota e ridurre i rischi di ferite alla testa in caso di atterraggi d’emergenza. Il funzionamento dell’apparecchiatura si dimostrò poco efficace e la sua sperimentazione venne abbandonata nel luglio del 1950.
+MiG-15 Izdelie SU: esemplare di MiG-15 sul quale fu effettuata la sperimentazione di un cannone orientabile; il sistema d’arma sperimentale V-1-25-Sh-3 comprendeva due cannoni Sh-3 ed era dotato di un congegno che ne consentiva lo scorrimento verticale fino a 11 gradi in elevazione e a 7 gradi in abbassamento. Dotato di lastre in acciaio termoresistente sulla parte inferiore del muso e sulle porte del carrello anteriore per impedire il danneggiamento del rivestimento in alluminio causato dalle alte temperature d’esercizio del cannone, il prototipo fu completato alla fine di dicembre del 1950. Per quanto il sistema del cannone mobile avesse dimostrato di poter migliorare il potenziale del velivolo nei combattimenti aerei ravvicinati, il suo arco di movimento fu tuttavia considerato troppo limitato ed il suo funzionamento troppo complesso per poter essere trasferito sulla produzione in serie.
+MiG-15 Izdelie SSh: nel 1950 due esemplari di MiG-15 furono equipaggiati con un nuovo cannone calibro 23&nbsp;mm. Denominato Shpital'nyy Sh-3 il nuovo cannone era installato nella parte sinistra del muso del caccia, in sostituzione dei due Nudelman-Suranov NS-23 (rimaneva invariata la disposizione sul lato destro del Nudelman N-37). Sottoposta a test nel luglio del 1950, la versione del MiG-15 non venne però accettata per la produzione in serie.
+
+MiG-15bis
+MiG-15bis Izdelie SD: nei primi mesi del 1949 la disponibilità dei primi motori VK-1 consentì all’OKB Mikoyan-Gurevich di programmare una radicale revisione del MiG-15, migliorandone considerevolmente le prestazioni. Esteticamente il nuovo modello era sostanzialmente identico alla versione precedente tuttavia incorporava le numerose modifiche già approvate oltre ad impiegare il nuovo motore la cui installazione aveva richiesto alcune revisioni della struttura, stante il maggior ingombro. In totale ne furono realizzati 8&nbsp;354 esemplari, l’ultimo dei quali lasciò l’impianto industriale nº 153 di Novosibirsk nel 1953.
+MiG-15bis Izdelie SYa (oppure SYe): si trattò di due esemplari con i quali fu testato un nuovo tipo di struttura alare mediante la quale si tentò di far fronte alla tendenza allo stallo aerodinamico di una delle ali introducendo una struttura di maggior rigidità e compensatori. Definita “ala di Âcenko” l’ala rinforzata fornì riscontro positivo nelle prove svolte nel mese di novembre del 1950 e fu adottata per la produzione in serie.
+MiG-15bis Izdelie SD-P: con l’obiettivo di ridurre la corsa necessaria in fase di atterraggio alcuni MiG-15bis furono dotati di sistema frenante antislittamento ed equipaggiati con parafreno installato in un vano realizzato nella parte inferiore del cono di coda, la cui apertura era attuata mediante un impianto pneumatico.
+MiG-15bis Izdelie SD-UPB: quando, sul finire degli anni quaranta, l’entrata in servizio dei bombardieri Ilyushin Il-28 e Tupolev Tu-14 fece sorgere la necessità di un caccia di scorta in grado di mantenere velocità di 900&nbsp;km/h e di garantire l’autonomia di almeno km, scartata l’opzione del Lavochkin La-11 poiché carente in termini di velocità, le autorità sovietiche avanzarono una richiesta per un aereo derivato direttamente dal MiG-15. L’OKB-155 utilizzò un aereo di serie che fu modificato con l’installazione di due serbatoi esterni da 600 litri appesi alle ali (la cui struttura fu irrobustita), al quale fu adeguato anche l’impianto per l’ossigeno del pilota (in funzione della durata e della quota operativa prevista per le missioni). In un primo momento i serbatoi si rivelarono inadeguati e palesarono problemi alla struttura, tanto che durante uno dei voli di prova la parte anteriore collassò per effetto della variazione della pressione atmosferica durante la fase discendente del volo. Venne pertanto realizzato un nuovo tipo di serbatoio, invariato nella capacità ma dalla conformazione aerodinamica migliorata. Con i nuovi serbatoi il prototipo fu in grado di raggiungere la velocità di 820&nbsp;km/h, giudicata sufficiente per decretarne la produzione in serie, anche se l’impiego operativo avrebbe dovuto escludere manovre ad alto carico di “G”. Nel mese di agosto del 1951 fu assegnato un ordine per la produzione di 100 aerei, cui fu assegnata la denominazione di MiG-15bis S, talvolta indicato come MiG-15Sbis; di questi velivoli ne furono però completati solamente 49.
+MiG-15bis Izdelie SR: nel mese di aprile del 1950 le autorità sovietiche chiesero la realizzazione di una variante da ricognizione del MiG-15 al fine di dotare la V-VS di un velivolo specificamente destinato a compiti di osservazione tattica, fino ad allora assolti da aerei da caccia, da attacco o bombardieri leggeri adattati in modo estemporaneo. Tratto direttamente dalle catene di montaggio un esemplare di MiG-15bis funse da prototipo: dotato di una fotocamera con focale da 40&nbsp;mm montata nel vano estraibile nel quale erano alloggiati i cannoni, l’aereo fu modificato anche nella conformazione del cupolino vetrato e nel sistema di pressurizzazione dell’abitacolo. In un primo momento le prove di volo non diedero risultati soddisfacenti a causa della ridotta copertura delle immagini acquisite e per l’impossibilità di installare negli spazi previsti una fotocamera grandangolare che consentisse di effettuare voli di ricognizione tattica a quota inferiore a metri. Nel corso del 1951 i problemi furono superati e nuove prove completate nel luglio di quell’anno consentirono di decretare la messa in produzione della nuova variante che (contraddistinta anche dalla numerazione Izdelie 55) divenne nota come MiG-15bis R (talvolta compare anche MiG-15Rbis), della quale risultano costruiti 364 esemplari.
+MiG-15bis Izdelie SD-ET: partendo ancora una volta da un esemplare di MiG-15bis uscito dalla catena di montaggio, vennero introdotte al modello alcune modifiche di dettaglio. Il caccia fu dotato per la prima volta, nel marzo del 1952, di un sistema di accensione autonomo, che non dipendesse cioè da una fonte esterna, mediante l’installazione del medesimo apparato già impiegato sull’IL-28; vennero introdotti dispositivi di controllo del flusso di carburante, furono ridotti i livelli di pressione negli impianti idraulici, furono irrobustite le piastre poste dietro i cannoni NR-23, venne installato un sistema per l’apertura automatica degli aerofreni al raggiungimento di una velocità prestabilita e fu modificato lo schema per lo sgancio dei serbatoi esterni del carburante, consentendo anche al pilota di impostarne l’autodistruzione una volta sganciati; le prove d’accettazione delle modifiche diedero risultati positivi e diversi degli apparati testati entrarono a far parte della dotazione standard del MiG-15bis.
+MiG-15bis Izdelie SL-5: fu un prototipo destinato alla sperimentazione del nuovo motore Klimov VK-5, in grado di sviluppare la spinta di . L’aereo venne modificato nei perni di attacco del propulsore e nella parte posteriore della fusoliera; le prove di volo furono svolte tra il 15 agosto ed il 31 ottobre del 1951 ma non condussero a produzione di serie in quanto lo sviluppo del motore fu abbandonato in favore di nuovi modelli dotati di compressore a flusso assiale.
+MiG-15bis Izdelie Sh: designazione assegnata ad almeno un esemplare (ma vi sono indicazioni relative alla costruzione di un lotto sperimentale di dodici aerei) modificato per compiti di attacco al suolo. Gli aerei differivano dai MiG-15bis di serie per i longheroni alari irrobustiti, destinati a sorreggere tre piloni sotto ogni semiala; questi potevano trasportare bombe o razzi non guidati ed in quest'ultimo caso potevano essere inclinati verso il basso di 15°.
+
+Radar d’intercettazione
+A partire dal mese di dicembre del 1948 le autorità sovietiche disposero lo sviluppo di un sistema radar da impiegare sugli aerei da caccia al fine di contrastare i nuovi bombardieri che all’epoca erano in fase di studio o stavano per entrare in servizio nelle forze aeree dei paesi aderenti alla NATO.
+
+Izdelie SP-1: rappresentò il primo approccio dell’OKB-155 con la tecnologia del radar. Equipaggiato con il sistema “Torij”, apparato con frequenza operativa centimetrica, era un esemplare di MiG-15 delle prime serie (equipaggiato, quindi, con motore RD-45F) dotato di muso ridisegnato per alloggiare l’apparato radar e l’antenna ricevente. L’antenna discoidale era sistemata all’interno di un radome ogivale posizionata sulla sommità della presa d’aria anteriore (con un risultato estetico simile a quello dell'F-86D Sabre). Nonostante la sua mole, questa carenatura riduceva solo marginalmente le dimensioni della presa d’aria mentre richiese lo spostamento della fotomitragliatrice (solitamente piazzata nel labbro superiore della presa d’aria, ora spostata sul lato destro del muso) e l’eliminazione dei cannoni NR-23, riducendo così l’armamento del velivolo al singolo cannone N-37. In un secondo tempo l’aereo venne portato allo standard MiG-15bis e riequipaggiato con il motore VK-1. Diverse prove di volo furono svolte nel periodo che va da aprile 1949 ad agosto del 1950; queste portarono all’emissione di un ordine per la costruzione di un piccolo lotto di velivoli (talvolta denominati MiG-15bis P). In seguito, nel novembre del 1951, una serie di test operativi dimostrò il buon funzionamento del sistema “Torij” ma servì anche a determinare che poteva essere padroneggiato solamente da piloti con elevata esperienza dato che il sistema di tracciamento del bersaglio era completamente manuale. La sperimentazione del radar “Torij” non fu abbandonata e portò allo sviluppo del successivo “Koršun”, ma il lavoro dell’OKB MiG venne concentrato sul radar “Izumrud”, sistema basato sulla presenza di due antenne.
+Izdelie SP-5: all’inizio del 1950 il lavoro dell’OKB-155 si concentrò sulla realizzazione di un secondo prototipo di caccia ognitempo; il principale obiettivo dei tecnici sovietici riguardava la disposizione delle due antenne radar del nuovo apparato Izumrud-1. La soluzione fu trovata alloggiando l’antenna di ricerca nella parte superiore della presa d’aria (che risultò simile a quella dell’F-86A Sabre) mentre l’antenna di tracciamento dei bersagli acquisiti fu collocata nella paratia divisoria all’interno della presa d’aria, carenata da un piccolo radome ogivale sporgente verso l’esterno. Questa soluzione divenne in seguito caratteristica comune di tutti i velivoli realizzati dall’OKB “MiG” equipaggiati con il radar Izmrud. Il prototipo, completato verso la metà dello stesso anno, era caratterizzato dalla presenza di una carenatura ventrale che ospitava gli apparati destinati alla raccolta dei dati; le prove si protrassero per circa un anno, fino al luglio del 1951 e dimostrarono il buon funzionamento dell’apparato radar. I risultati della sperimentazione furono applicati però alla produzione del MiG-17 e del MiG-19.
+
+Addestratore biposto
+Le autorità sovietiche compresero fin dai primi momenti che un velivolo tanto d’avanguardia quanto si prospettava essere il MiG-15 avrebbe creato la necessità di un’apposita versione da addestramento. Per questa ragione già il 6 aprile del 1949 (due mesi prima che i primi aerei di serie uscissero dalle catene di montaggio) fu emessa una direttiva che impegnava l’OKB Mikoyan-Gurevich a realizzare una variante che mantenesse, quanto più possibile, inalterate le performance di volo della versione monoposto.
+
+Identificato come Izdelie 312 dalle autorità e ST dal progettista, il nuovo velivolo fu approntato con rapidità estrema tanto che il prototipo uscì dalla fabbrica prima della fine del seguente mese di maggio. Strutturalmente il prototipo differiva dal caccia MiG-15 esclusivamente per il doppio abitacolo che ospitava nella postazione anteriore l’allievo pilota. La cabina era sormontata da un lungo tettuccio vetrato la cui parte anteriore era incernierata sul lato destro mentre la parte posteriore era scorrevole verso la coda dell’aereo
+
+UTI-MiG-15 Izdelie ST-1: fu la designazione assegnata al prototipo della versione biposto; fu sottoposto alle rituali prove di volo che evidenziarono problemi numerosi, per quanto marginali; le modifiche apportate furono altrettanto numerose e giustificarono il mutamento della designazione in ST-2; in ogni caso l’addestratore ottenne il benestare per la produzione in serie, nel corso del 1950, con la designazione ufficiale di UTI-MiG-15; l’aereo presso la NATO sarebbe stato successivamente indicato, in modo poco elegante, con il nome di "Midget" . La produzione dei velivoli biposto UTI è stata realizzata tra il 1950 ed il 1959, periodo nel quale risulta siano stati prodotti 3&nbsp;433 aerei in quattro diversi impianti produttivi.
+UTI-MiG-15P Izdelie ST-7: si tratta di un prototipo costruito nell'agosto del 1953; in seguito alla positiva sperimentazione del radar Izumrud-1, le autorità sovietiche intendevano realizzare un addestratore destinato alla formazione degli equipaggi degli intercettori dotati del nuovo sistema. L’aereo, un UTI-MiG-15 di serie, fu modificato nella zona della presa d’aria (analogamente a quanto fatto per i MiG-15P), nella parte anteriore della cabina e nella forma del tettuccio; queste ultime dovevano avere forma più allungata per consentire l’installazione dello schermo del radar. L’ST-7 rimase irreparabilmente danneggiato nel corso di un volo di prova il 15 settembre del 1953.
+UTI-MiG-15P Izdelie ST-8: nel corso del 1954 le richieste per un velivolo destinato a sperimentare il radar Izumrud subirono alcune variazioni in particolare destinate ad impiegare la versione Izmurud-3 e a dotare entrambe le postazioni dei piloti dello schermo per il radar. Nel nuovo prototipo (un MiG-15P di serie, denominato ST-8) furono apportate modifiche alla parte anteriore della struttura eliminando uno dei serbatoi di carburante e irrobustendo la gamba anteriore del carrello. L’ST-8 funse sostanzialmente da banco di prova volante per il MiG-17P tanto che ne impiegò anche il sistema di pressurizzazione e di condizionamento dell’abitacolo.
+UTI-MiG-15 Izdelie ST-10: a partire dal 1954 alcuni MiG-15 biposto furono utilizzati per la sperimentazione di seggiolini eiettabili di nuova concezione, studiati per ridurre il rischio di infortuni durante la manovra di eiezione. Complessivamente risultano prodotti tre diversi prototipi che contribuirono alla realizzazione del sistema poi adottato sul MiG-21. Altri esemplari biposto furono appositamente modificati per l'addestramento dei piloti e, condotti da istruttori appositamente formati, portati ai vari reparti per attività di dimostrazione e addestramento alla manovra di emergenza.
+UTI-MiG-15 controllo remoto droni: ancora due UTI-MiG-15 furono utilizzati tra la fine degli anni cinquanta e l’inizio degli anni sessanta per il controllo di bersagli volanti a guida remota; questi droni erano realizzati modificando diversi velivoli obsoleti, tra i quali i biturbogetto Yakovlev Yak-25MSh. I MiG-15 furono trasformati mediante l’installazione delle apparecchiature di radiocomando nell’abitacolo anteriore, a disposizione dell’addetto al controllo per facilitare le operazioni di atterraggio dei droni una volta completata la missione addestrativa.
+
+Progetto Burlaki
+In concomitanza con la realizzazione del bombardiere strategico Tupolev Tu-4, l'aviazione sovietica valutò le possibilità di fornirgli una scorta adeguata, ruolo che non poteva essere affidato al MiG-15 a causa della sua autonomia insufficiente. I sovietici affrontarono il problema ricorrendo alla soluzione del caccia parassita, tema già affrontato una decina d'anni prima con il progetto Zveno.
+
+In questo caso i lavori di progettazione furono affidati all'OKB 115 guidato da Aleksandr Sergeevič Jakovlev e la soluzione proposta prevedeva l'utilizzo di un sistema di traino grazie al quale un MiG-15bis si agganciava in volo al bombardiere mediante un cavo di traino (di lunghezza fino a 100 metri); una volta completata la manovra, il pilota del caccia poteva spegnere il motore e proseguire la missione come se fosse alla guida di un aliante. In caso di contatto con aerei nemici il pilota del caccia doveva riaccendere il motore ed ingaggiare il combattimento per poi riprendere il proprio volo trainato fino al ritorno alla base.
+
+Il sistema, definito Burlaki, fu inizialmente sperimentato utilizzando il primo prototipo del primo Yakovlev Yak-25 agganciato ad un North American B-25 Mitchell modificato; in un secondo momento, a partire dal febbraio del 1951, furono utilizzati un Tu-4 ed un MiG-15bis. I risultati dei voli di prova furono incoraggianti e dimostrarono che le operazioni potevano essere condotte efficacemente ed in sicurezza sia in volo diurno che notturno e che le prestazioni del bombardiere erano condizionate in modo marginale dalla presenza del caccia parassita.
+
+Anche le prove di accettazione, svolte tra il 28 luglio ed il 24 agosto del 1951, fornirono riscontri positivi e dimostrarono che la combinazione tra i due velivoli poteva raggiungere la velocità massima di 490&nbsp;km/h e la massima autonomia operativa di 3&nbsp;920&nbsp;km a 6&nbsp;000&nbsp;m di quota. Tuttavia in quest'occasione emerse un problema considerevole: con il motore spento l'impianto di condizionamento dell'abitacolo del MiG-15 non era in grado di funzionare e trascorrere lunghe ore a quote elevate in una cabina sempre più calda e con in volto la maschera dell'ossigeno richiedeva al pilota una notevole dose di sopportazione.
+
+La relazione finale relativa alle prove mise comunque in luce la ridotta velocità operativa, rispetto allo standard del Tu-4, e le scarse possibilità del caccia di raggiungere autonomamente la base una volta sganciatosi per sostenere un combattimento; si suggeriva pertanto di cambiare radicalmente l'idea alla base del progetto dando indicazioni di utilizzare il cavo di collegamento per effettuare rifornimenti in volo anziché per il traino.
+
+Malgrado queste conclusioni, fu decisa la prosecuzione del programma con la realizzazione di cinque Tu-4 ed altrettanti MiG-15 modificati e dotati dei sistemi di aggancio e di traino. Furono svolte complessivamente 142 operazioni di aggancio, di cui 17 notturne, senza che si riscontrassero problemi. Simulazioni di missioni operative dimostrarono che per consentire ragionevoli possibilità di successo ai caccia di scorta il tempo minimo di reazione era di quattro minuti, garantito solo dalla presenza di un radar di ricerca, con un raggio di scoperta di almeno 60&nbsp; km, installato a bordo del velivolo da bombardamento.
+
+In breve tempo però il progetto Burlaki fu abbandonato, reso obsoleto dalle innovazioni tecnologiche: il Tu-4 lasciò spazio al Tu-16, dotato di maggiore velocità ed equipaggiato con strumenti ECM, mentre nuovi esperimenti aprivano definitivamente la porta alle operazioni di rifornimento in volo da aerei appositamente modificati.
+
+Rifornimento in volo
+In epoca contemporanea al progetto Burlaki le autorità sovietiche, sempre al fine di incrementare l’autonomia operativa dei velivoli in servizio, valutarono anche sistemi di rifornimento in volo, i cui primi esperimenti, svolti utilizzando esemplari di TB-1 e TB-3, risalivano agli anni trenta.
+
+Il MiG-15 entrò tra i velivoli interessati da queste prove quando fu sperimentata una variante del progetto Burlaki che prevedeva l’impiego di un Tu-4 non più in funzione di “trainatore” bensì nel ruolo di aerocisterna dal quale veniva srotolato, anziché un cavo di traino, un tubo di rifornimento destinato ad agganciarsi all’asta disposta sul muso del caccia nella quale era presente una valvola per l’acquisizione del carburante; sperimentato, con risultati alterni, tra il mese di settembre del 1954 ed il marzo del 1955, questo sistema vide all'opera gli stessi aerei che già erano stati utilizzati per il progetto Burlaki.
+
+Un secondo sistema, più semplice nei dettagli e più efficiente (vista la possibilità di rifornire due distinti velivoli), fu sperimentato utilizzando aerei specificamente modificati; a partire dal 1953 furono utilizzati diversi tipi di tubo ma vari inconvenienti, in particolare legati alle turbolenze aerodinamiche che investivano le sonde di rifornimento, fecero fallire i test di volo per l'accettazione in servizio ed il sistema di rifornimento fu accantonato, per rimanere inattuato per impieghi tattici fino ai primi anni ottanta.
+
+Produzione straniera
+Cecoslovacchia
+S-102: denominazione assegnata al MiG-15 (Fagot A).
+S-103: sigla identificativa della versione MiG-15bis (Fagot B).
+MiG-15bisR: denominazione che individuò alcuni esemplari di "S-103" modificati per la ricognizione fotografica, in modo analogo alla corrispondente versione sovietica (di cui mantenevano la sigla identificativa).
+MiG-15SB e MiG-15bisSB: designazione assegnata ai MiG-15 in servizio con l'aviazione cecoslovacca nel 1958, quando furono destinati al ruolo di caccia-bombardieri a seguito dell'entrata in servizio dei MiG-19.
+MiG-15T e MiG-15bisT: sigla assegnata ai MiG-15 cecoslovacchi una volta destinati al ruolo di bersagli trainati.
+MiG-15V: anche in questo caso la sigla identificava velivoli destinati all'impiego come bersagli trainati.
+CS-102: denominazione attribuita ai velivoli biposto da addestramento (Midget) costruiti in Cecoslovacchia.
+UTI-MiG-15P: sigla identificativa di due esemplari biposto destinati alla sperimentazione del radar di intercettazione. Malgrado il buon esito delle prove non vi furono seguiti produttivi.
+
+Cina
+J-2: designazione cinese del MiG-15.
+F-2: denominazione assegnata ai MiG-15 appartenuti all'aviazione cinese e rivenduti a forze armate straniere.
+JJ-2: designazione cinese dell'UTI-MiG-15.
+FT-2: sigla che identificava gli UTI-MiG-15 di origine cinese esportati verso paesi terzi.
+
+Polonia
+Lim-1: denominazione locale del MiG-15 (Fagot A).
+Lim-1,5: fu la designazione "ufficiosamente" attribuita ai Lim-1 aggiornati con i sistemi avionici già impiegati sui Lim-2.
+Lim-2: designazione identificativa dei MiG-15bis (Fagot B) costruiti su licenza in Polonia.
+Lim-2R: versione da ricognizione del Lim-2 con telecamera sulla parte ventrale della fusoliera.
+SB Lim-1: sigla che individuava gli UTI-MiG-15 realizzati in Polonia con motore RD-45.
+SB Lim-2: designazione degli UTI-MiG-15 costruiti in Polonia con motore VK-1.
+SB Lim-1Art e SB Lim-2Art: denominazioni attribuite a varianti da ricognizione e cooperazione con l'artiglieria dotate di equipaggiamento fotografico in uso al secondo membro dell'equipaggio (seduto nella postazione posteriore); in un secondo tempo furono ridesignate SB Lim-1A e SB Lim-2A.
+SB Lim-2M: denominazione attribuita ad alcuni SB Lim-2A reintrodotti al ruolo di addestratori con la rimozione delle apparecchiature fotografiche e il ripristino della seconda postazione per l'allievo pilota.
+
+Utilizzatori
+
+Oltre a restare per molti anni in servizio nell'URSS (anche con la componente aerea della marina, il che diede origine alla errata convinzione che ne esistesse una variante da portaerei), il MiG-15 venne fornito a tutte le aviazioni comuniste e a molte del terzo mondo, anche nella variante biposto. La sola Cina ne ricevette circa mille.
+
+Afghan Republican Air Force
+
+Forca Ajrore
+
+Al-Quwwat al-Jawwiyya al-Jaza'iriyya
+
+Força Aérea Nacional Angolana
+
+Bălgarski Voennovăzdušni sili
+
+Force Aérienne de Burkina Faso
+
+Kangtorp Akas Khemarak Phumin
+
+Češkoslovenske Vojenske Letectvo
+
+Zhongguo Renmin Jiefangjun Kongjun
+Zhongguo Renmin Jiefangjun Haijun
+
+Armée de l'Air du Congo
+
+Chosŏn Inmin Kun Konggun
+
+Defensa Anti-Aérea y Fuerza Aérea Revolucionaria
+
+El Qūwāt El Gawīyä El Maṣrīya
+
+Suomen ilmavoimat
+
+Luftstreitkräfte und Luftverteidigung der Deutschen Demokratischen Republik
+
+Force Aérienne de Guinée
+
+Força Aérea da Guiné-Bissau
+
+Tentara Nasional Indonesia Angkatan Udara
+
+Al-Quwwat al-Jawwiyya al-'Iraqiyya
+
+Jugoslovensko ratno vazduhoplovstvo i protivvazdušna odbrana
+
+Armée de l'Air Khmère
+
+Armée de l'air Malgache
+
+Force aérienne de la République du Mali
+1 MiG-15UTI consegnato negli anni sessanta.
+
+Forces royales air
+
+Força Aérea de Moçambique
+
+Nigerian Air Force
+
+Fi'saia Pakistana
+
+Lotnictwo ludowego Wojska Polskiego
+Marynarka Wojenna
+
+Forţele Aeriene ale Republicii Populare Română, poi
+Forţele Aeriene ale Republicii Socialiste Română
+
+Al-Quwwat al-Jawwiyya al-'Arabiyya al-Suriyya
+
+Somali Air Corps
+
+Sri Lanka Air Force
+
+Al-Quwwat al-Jawwiyya al-Sudaniyya
+
+Jeshi la Anga la Wananchi wa Tanzania
+
+Ugandan Air Force
+
+Magyar Néphadsereg légiereje
+
+Voenno-vozdušnye sily
+Vojska protivovozdušnoj oborony
+
+Không Quân Nhân Dân Việt Nam
+
+Yemen Arab Republic Air Force
+
+South Yemen Air Force
+
+Al-Quwwat al-Jawwiyya al-Yamaniyya
+
+Esemplari attualmente esistenti
+
+Molti sono gli esemplari conservati presso le strutture museali di tutto il mondo, tra questi:
+
+Canada
+Presso il Canada Aviation and Space Museum di Ottawa si trova un velivolo Lim-2 con le insegne dell'Aviazione polacca, marcato 316 in "rosso".
+
+Finlandia
+Un MiG-15UTI con livrea della Suomen ilmavoimat, localmente identificato con la sigla MU-4, è esposto nel Suomen Ilmavoimamuseo di Jyväskylä..
+
+Germania
+Il Luftfahrt-Museum Laatzen-Hannover, ubicato nella cittadina tedesca di Laatzen alle porte di Hannover, espone un MiG-15 (il modello non viene specificato con maggior dettaglio) con livrea sovietica (marche 022, "rosso").
+Presso la sede distaccata del Deutsches Museum a Oberschleißheim è esposto un esemplare definito UTI-MiG-15 (SB Lim-2).
+il Museo automobilistico e tecnologico di Sinsheim conserva nel suo padiglione espositivo un MiG-15bis Nero 12 dipinto con i colori della pattuglia acrobatica della VVS
+
+Grecia
+Un Lim-2, con la livrea dell'aviazione della Corea del Nord, nel “Museo dell'Aeronautica ellenica” situato all'Aeroporto Tatoi, una ventina chilometri a nord di Atene.
+
+Italia
+Un velivolo con seriale 127 e insegne della ex Luftstreitkräfte und Luftverteidigung der Deutschen Demokratischen Republik (aeronautica della Germania Est) è esposto al pubblico presso il Museo dell'aviazione di Rimini.
+
+Israele
+Un MiG-15UTI con la livrea della ex Royal Egyptian Air Force (aeronautica del Regno d'Egitto) è esposto nel museo Heyl ha-Avir (Israeli Air Force Museum, Muzeyon Heyl ha-Avir), presso la base aerea di Hatzerim.
+
+Polonia
+Due velivoli sono in esposizione al Museo dell'aviazione polacca (Muzeum Lotnictwa Polskiego w Krakowie) a Cracovia: entrambi dipinti con le insegne dell'Aviazione polacca, sono rispettivamente un Lim-1 ed un Lim-2
+
+Regno Unito
+Un altro esemplare di Lim-2 con i colori dell'aviazione della Corea del Nord, è esposto nel Fleet Air Arm Museum che si trova nei pressi della base navale RNAS Yeovilton, non distante dalla cittadina di Yeovil, nel Regno Unito.
+Dipinto con le insegne polacche, un MiG-15bis è esposto al Royal Air Force Museum Cosford, nello Shropshire.
+
+Repubblica Ceca
+Un esemplare volante di MiG-15 UTI (S/N 242266) è di proprietà della compagnia Czech Flying Legends che partecipa con questo velivolo a varie manifestazioni aeree. L'esemplare costruito in Cecoslovacchia come CS-102 nel 1955 e poi utilizzato dalle forze aeree polacche fino al 1990, fu acquistato nel 2013 dalla Czech Flying Legends che lo ha revisionato e dipinto con la livrea dell'aeronautica militare della Repubblica Ceca la Vzdušné síly armády České republiky mentre le insegne di reparto, riportate sul muso del velivolo, sono quelle del 30. SBOLP Stíhací Bombardovací Letecký Pluk (unità di caccia bombardieri) con il caratteristico stemma della città di Ostrava
+
+Romania
+Tre esemplari di MiG-15bis con marche 246, 727 e 2713 e due MiG-15UTI con marche 2543 e 2579 sono conservati al Museo dell'aviazione di Bucarest.
+
+Stati Uniti d'America
+Un MiG-15bis con le insegne della V-VS (marche 2057, "rosso") è esposto al National Museum of the United States Air Force di Dayton (Ohio) situato nei pressi della Wright-Patterson Air Force Base, nella sala dedicata alla guerra di Corea.
+
+Presso il "Pacific Aviation Museum Pearl Harbor" di Honolulu è esposto un Lim-2, anche in questo caso dipinto con la livrea della V-VS con marche 1524, "rosso".
+Il National Air and Space Museum di Washington espone uno Shenyang J-2, anche in questo caso rappresentato con contrassegno sovietico, 70109 "rosso" presso lo Steven F. Udvar-Hazy Center di Chantilly, in Virginia.
+Al Pima Air & Space Museum di Tucson sono esposti due diversi velivoli: un MiG-15bis (con insegne della Corea del Nord) ed un UTI-MiG-15 dipinto con i colori dell'Aviazione polacca.

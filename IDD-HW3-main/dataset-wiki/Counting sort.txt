@@ -1,0 +1,47 @@
+Il Counting sort è un algoritmo di ordinamento per valori numerici interi con complessità lineare. L'algoritmo si basa sulla conoscenza a priori dell'intervallo in cui sono compresi i valori da ordinare.
+
+Descrizione intuitiva
+L'algoritmo conta il numero di occorrenze di ciascun valore presente nell'array da ordinare, memorizzando questa informazione in un array temporaneo di dimensione pari all'intervallo di valori. Il numero di ripetizioni dei valori inferiori indica la posizione del valore immediatamente successivo.
+
+Si calcolano i valori massimo, , e minimo, , dell'array e si prepara un array ausiliario di lunghezza , che inizialmente contiene solo zeri. conterrà le frequenze di ciascun elemento in (ad esempio se appare una sola volta all'interno di ).
+
+Una volta costruito , si visita l'array per popolarlo. Ogni volta che si incontra il valore in , si andrà ad aumentare di uno il valore di . Al termine di questo processo, sarà pari al numero di occorrenze dell'elemento nell'array di partenza .
+
+Infine, per ordinare , si scorre dalla prima cella all'ultima, scrivendo in il valore per volte. Va notato che se un elemento non è presente in , allora sarà pari a 0, e dunque quell'elemento non sarà inserito.
+
+sarà ordinato alla fine di questo processo perché si è sfruttata la possibilità di accedere prima casualmente e poi sequenzialmente agli indici di : scansionare un array significa accedere ai suoi indici in ordine, perciò l'ordinamento è garantito da questa proprietà.
+
+Esempio
+Array A: 2 5 2 7 8 8 2 3 6
+
+Prima scansione
+Con una scansione di individuo il valore minimo (2) e il valore massimo (8).
+
+Seconda scansione
+Popolo l'array , che tiene il conto delle frequenze di ciascun elemento nell'intervallo .
+Array C: 3 1 0 1 1 1 2
+Il significato dell'array C è il seguente: l'intero 0 = 2 è presente 3 volte nell'array A, l'intero 1+min(A)=3 è presente 1 volta, l'intero 2+min(A)=4 è presente 0 volte, e così via.
+
+Terza scansione
+Inserisco in A tre volte l'intero 2, 1 volta l'intero 3, 0 volte l'intero 4, 1 volta l'intero 5 e così via.
+Array A: 2 2 2 3 5 6 7 8 8
+L'array A è ora ordinato.
+
+Complessità
+L'algoritmo esegue tre iterazioni, due di lunghezza (pari alla lunghezza dell'array da ordinare) per l'individuazione di e e per il calcolo delle occorrenze dei valori, e una di lunghezza (pari a ) per l'impostazione delle posizioni finali dei valori: la complessità totale è quindi .
+
+Non è basato su confronti e scambi e conviene utilizzarlo quando il valore di è , nel qual caso l'algoritmo è , altrimenti risulterebbero più veloci altri algoritmi.
+
+Pseudocodice
+countingSort(A[])
+//Calcolo degli elementi max e min
+max ← A[0]
+min ← A[0]
+for i ← 1 to length[A] do
+if (A[i] > max) then
+max ← A[i]
+else if(A[i] 0 do //scrive C[i] volte il valore (i + min) nell'array A
+A[k] ← i + min
+k ← k + 1
+C[i] ← C[i] - 1
+end for

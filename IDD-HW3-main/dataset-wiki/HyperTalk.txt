@@ -1,0 +1,82 @@
+HyperTalk è un linguaggio di programmazione creato nel 1987 da Dan Winkler e usato nel software ipermediale HyperCard di Bill Atkinson.
+
+Il linguaggio si rivolgeva soprattutto a principianti: i programmatori HyperTalk venivano chiamati "autori" ed il processo dello scrivere programmi scripting. Gli script HyperTalk sono molto simili alla lingua inglese e usano una struttura simile al Pascal.
+
+Il linguaggio, non sensibile alle maiuscole, agli inizi era interpretato, ma diventò "virtualmente compilato": ogni script viene compilato al primo lancio, dopo di che il codice resta a disposizione.
+Sono previste le strutture di base per il controllo del flusso: repeat for/while/until, if..then..else; è inoltre possibile definire funzioni e subroutine, qui chiamate handler, con passaggio di parametri. I tipi di dati vengono gestiti direttamente dal linguaggio: ogni dato viene sempre convertito in stringa prima della memorizzazione: al momento dell'uso, HyperTalk trasforma il dato nel tipo richiesto dal contesto; il tutto avviene in background al runtime. Non ci sono classi o strutture nel senso tradizionale; il loro posto è preso da stringhe speciali o liste di item, separate da un carattere (definibile, nelle ultime versioni). Queste liste prendono anche il posto dei vettori, non supportati direttamente.
+
+Orientamento agli oggetti
+Ogni script è associato ad un oggetto di HyperCard e salvato assieme all'oggetto nei file (chiamati stack); HyperTalk permette di manipolare tali oggetti e cambiare le loro proprietà (comando set). Ogni oggetto viene identificato usando un linguaggio molto simile a quello naturale e indicando la gerarchia in cui si trova:
+
+get the name of card button 5
+put "questa è una prova" into card field "mioCampo"
+send "mouseUp" to card button "OK" of this card
+
+Tali oggetti (indicati col nome, con il numero d'ordine o con un ID unico) possono appartenere ad una singola scheda o al background, dal quale possono essere visibili su ogni scheda, pur mantenendo valori diversi.
+
+HyperTalk prevede anche il pieno controllo degli strumenti grafici tramite la scelta dell'attrezzo da usare e simulando il movimento del mouse mediante il comando drag:
+
+put "10,10" into start
+put "100,100" into end
+drag from start to end
+
+HyperCard usa i messaggi (cioè gli eventi) per gestire le varie interazioni; per esempio, il messaggio mouseDown è spedito quando l'utente preme il pulsante del mouse mouseUp quando lo rilascia; il bersaglio dell'evento è l'oggetto in cui è avvenuto l'evento, che eventualmente può passarlo più in alto nella gerarchia, dopo averlo o meno processato. Durante i momenti di inattività viene generato il messaggio idle e durante il movimento del mouse vengono spediti ai vari oggetti messaggi mouseEnter e mouseLeave. Anche la pressione di un tasto genera un evento keyDown che contiene il codice del tasto. L'autore di uno stack non deve preoccuparsi di generare un event loop, in quanto questo avviene già all'interno di HyperTalk.
+
+Estensioni di HyperTalk
+Il linguaggio, sufficientemente completo per un uso normale, poteva essere espanso tramite un protocollo tipo plug-in: si tratta dei comandi esterni (XCMD) e delle funzioni esterne (XFCN). Si trattava in pratica di codice nativo allegato agli stack (inserito nelle risorse, tipo di file specifico del Mac OS) con un punto di ingresso ed un valore di ritorno. Queste estensioni sono richiamate dall'interno degli script come una qualunque funzione (handler) e possono generare messaggi. Alcuni XCMD avanzati aggiunsero caratteristiche avanzate, come il pieno supporto del colore (ColorizeHC, HyperTint, AddColor), finestre speciali (ShowDialog, MegaWindows, Listoid, Textoid, Tabloid, Prompt), supporto del drag & drop o molte interfacce hardware (Midi, seriali, ecc.)
+
+Discendenti di HyperTalk
+Molti linguaggi sono nati sulla scia di HyperTalk. Ad esempio:
+
+SuperTalk - il linguaggio di SuperCard (http://www.supercard.us) di Bill Appleton, il primo clone di HyperCard
+PlusTalk - di Spinnaker Plus
+MediaTalk - linguaggio di Oracle Media Objects, il primo clone HyperCard inter-piattaforma e l'unico ad essere veramente modulare
+CompileIt!-Talk - Uno stack HyperCard di Tony Pittman che effettuava la compilazione di codice 68000, con chiamate alle routine del Toolbox
+Double-XX-Talk - un semplice clone di HyperCard fornito in aggiunta a CompileIt!: permetteva la prova di XCMD e XFCN senza HyperCard ed un piccolo interprete HyperTalk
+Transcript (MetaTalk) - linguaggio del clone HyperCard dal mondo Unix Revolution (), prima noto come MetaCard (https://www.metacard.com)
+SenseTalk - linguaggio di HyperSense (https://www.thoughtful.com), originato su NeXT e del sistema di test Eggplant (https://web.archive.org/web/20040401125733/http://www.redstonesoftware.com/usingeggplant.html)
+
+Altri esempi di script, che possiamo considerare cloni di secondo livello:
+
+Lingo - il linguaggio di Macromedia Director
+Applescript - il linguaggio di script inserito nel Mac OS
+SerfTalk - un clone di HyperTalk che supportava molte caratteristiche moderne, scomparso però durante il beta test
+
+Alcuni dei termini usati in HyperCard sono diventati popolari in altri linguaggi (per esempio, i messaggi "onmouseup" di JavaScript).
+
+Questi cloni e dialetti (normalmente chiamati linguaggi xTalk) hanno aggiunto molte caratteristiche indispensabili per un linguaggio moderno, come la gestione delle eccezioni, proprietà definite dal programmatore, timer, multi-threading ed anche nuovi oggetti.
+
+Alcuni esempi di HyperTalk
+
+Script di un pulsante di background che allinea tutti i pulsanti di una scheda ciascuno a 15 pixel dall'altro:
+
+on mouseUp
+put "100,100" into posizione
+repeat with x = 1 to the number of card buttons
+set the location of card button x to posizione
+add 15 to item 1 of posizione
+end repeat
+end mouseUp
+
+Questo script trasferisce il contenuto di un file (fino al carattere ) nel campo di nome "mioCampo":
+
+on mouseDown
+put "myDisk:myFolder:myFile" into filePath
+if there is a file filePath
+open file filePath
+read from file filePath until return
+put it into card field "mioCampo"
+close file filePath
+set the textStyle of character 1 to 10 of card field "mioCampo" to bold
+end if
+end mouseDown
+
+Questa è una funzione che ricerca tutte le occorrenze del pattern nella stringa inStr, e al suo posto vi sostituisce la stringa newStr:
+
+function replaceStr pattern, newStr, inStr
+repeat while pattern is in inStr
+put offset(pattern,inStr) into p
+put newStr into character p to (p + the length of pattern) -1 of inStr
+end repeat
+return inStr
+end replaceStr

@@ -1,0 +1,18 @@
+Il gruppo Inuit è un insieme di satelliti irregolari di Saturno che seguono orbite simili, ad una distanza compresa tra 11 e 18 milioni di km, un'inclinazione tra 40° e 50° e un'eccentricità tra 0,15 e 0,48.
+
+Il diagramma illustra il gruppo Inuit in relazione agli altri satelliti di Saturno. L'eccentricità dell'orbita è rappresentata dai segmenti gialli (estesi dal periasse all'apoasse) e l'inclinazione rappresentata sull'asse Y.
+
+I sei satelliti che fanno parte di questo gruppo sono (in ordine crescente di distanza da Saturno):
+Kiviuq
+Ijiraq
+Paaliaq
+S/2004 S 29
+Siarnaq
+Tarqeq
+
+L'Unione Astronomica Internazionale (IAU) ha scelto per questi satelliti dei nomi tratti dalla mitologia Inuit.
+
+Durante le prime osservazioni questo gruppo è apparso piuttosto omogeneo e tutti i satelliti mostrano un colore rosso chiaro (indice di colore B−V = 0,79 and V−R = 0,51), simile a quello riscontrato nel Gruppo Gallico di satelliti e simili indici infrarossi.
+Osservazioni recenti, tuttavia, hanno svelato che Ijiraq ha un coloro marcatamente più rosso rispetto a Paaliq, Siarnaq e Kiviuq. Inoltre lo spettro di Ijiraq non presenta un debole assorbimento vicino a 0.7 µm. Questa caratteristica è attribuibile ad una possibile presenza d'acqua.
+
+Gli spettri omogenei (con l'eccezione di Ijiraq) sono consistenti con l'ipotesi di una comune origine da un unico corpo che si è successivamente disintegrato, ma la dispersione dei parametri orbitali richiede ulteriori spiegazioni.

@@ -1,0 +1,37 @@
+Il BAL è un linguaggio di programmazione usato nella seconda metà degli anni '70 e nei primi anni '80 dalla Olivetti.
+B.A.L. significa Business All-purpose Language (linguaggio multiuso aziendale), ma esistono anche citazioni Olivetti che lo indicano come Business Assembly Language, probabilmente per il suo successivo utilizzo sui sistemi BCS. L'uso nell'acronimo di parole inglesi e l'esistenza di programmi didattici e giochi BAL con testi in inglese, suggeriscono l'ipotesi che il linguaggio sia stato sviluppato quanto meno con la collaborazione americana, probabilmente durante la partnership con la General Electric.
+
+Storia
+
+Il BAL era usato nella seconda metà degli anni '70 e nei primi anni '80 dalla Olivetti sulle sue macchine elettro-contabili della linea Audit (A5, A6, A7). Il linguaggio stesso venne poi utilizzato per la successiva generazione di computer, linea "BCS" (BCS 2030, BCS 2035, BCS 2099 e parzialmente nel successivo M44), che introducevano nuove periferiche di stampo più moderno (monitor CRT, floppy disk da 1,2Mb, e hard-disk da 5Mb). In tali macchine il sistema operativo (BCOS o BCOS II) era scritto in buona parte in BAL ed interpretato al volo dalla CPU (Z8000A). Per ottemperare alle novità tecnologiche introdotte dalle nuove macchine, il BAL venne integrato con la possibilità di eseguire macrocomandi (ad esempio CALL 'OPEN') i quali comunque non facevano altro che eseguire subroutine preconfezionate scritte in BAL stesso o in Assembler. In tal modo si riusciva abbastanza agilmente ad operare con i dischi e con lo schermo CRT.
+
+Struttura del linguaggio
+
+Il BAL si può considerare un linguaggio di medio livello, in quanto ha caratteristiche di basso livello (ad es. accesso diretto alla memoria) ma comunque richiede minori difficoltà di utilizzo rispetto a un linguaggio assembly.
+
+I comandi BAL (circa 90) sono caratterizzati da nomi mnemonici lunghi da 1 a 4 caratteri. Ogni macchina BAL accettava direttamente gli mnemonici ed i loro operandi nel caso di inserimento, ed automaticamente traduceva ciascuno in 2 byte di codice binario (comprensivi degli operandi). Analogamente ogni listing di codice BAL veniva ritradotto automaticamente in un elenco strutturato di codici mnemonici con i loro operandi.
+
+Esempi di comandi particolarmente evoluti (notare che occupavano solo 2 byte ciascuno) sono:
+MPR 10,3: moltiplicazione di due registri con arrotondamento del risultato
+DIV 1,2: divisione tra due registri e shift del risultato
+MDD 15: automodifica del 2º byte dell'istruzione BAL successiva - questo permetteva un'autoprogrammazione del codice
+PEU 8,2: stampa con editing esteso con inversione del colore nel caso di valore negativo - esempio di output: 123.456,78
+BRA xx: return da subroutine e salto dei successivi xx byte
+LAB xxx: label di destinazione di salti o inizio subroutine
+
+Registri
+I dati numerici venivano gestiti da registri composti ognuno da 8 byte consecutivi nei quali potevano essere memorizzati valori positivi o negativi da 0 a 999.999.999.999.999 (codificati in BCD). Gli mnemonici riferivano i registri senza che il programmatore si dovesse preoccupare della loro localizzazione in memoria (ad es. AR 4,7 sommava al registro 4, il valore contenuto nel registro 7).
+I primi 16 Registri (da 0 a 15) erano indirizzabili direttamente ovvero semplicemente citandone il numero (es. AR 10,4).
+
+Quelli oltre il n° 15, potevano essere citati mediante indirizzamento indiretto. Nello mnemonico si citava cioè il registro (da 0 a 15) entro il quale era salvato il numero del registro destinazione. (Es. per indirizzare il registro N° 100 si salvava il valore "100" entro il registro N° 12). Per riferirsi a tale indirizzamento indiretto bastava premettere un punto ("."). (Nell'esempio AR .12,4).
+Il registro N° 0, detto anche Work Register veniva utilizzato implicitamente da molte istruzioni, e costituiva spesso il deposito del risultato di un'operazione. (Es. MPR 4,2 moltiplica il registro N° 4 per il registro N° 0 e pone il risultato nel registro N° 0).
+
+Altre caratteristiche
+Il risultato dell'esecuzione di alcuni mnemonici modificava il valore del cosiddetto Codice Condizioni (similarmente ad un exit code), i cui 4 possibili stati (0, 1, 2, 3) potevano venire sondati nel successivo corso del programma per determinare scelte (ad esempio lo mnemonico "PI2 '41'" stampa il carattere "A" (ASCII $41) solo se il Codice-Condizioni risulta pari a 2) o salti (ad esempio "BN1 120" salta a LAB 120 solo se il Codice Condizioni è diverso da 1).
+
+La profondità dello stack nel caso di utilizzo di subroutine era di 4 livelli. Lo mnemonico "POP" consentiva di eliminare un livello senza dover rientrare dalla subroutine.
+
+Applicazioni
+Oltre al già citato sistema operativo BCOS, il quale attingeva largamente al linguaggio BAL per le sue funzioni interne, è da citare il pacchetto DMS un vero e proprio dBase ante litteram. Mediante una quindicina di comandi, che altro non erano che routine scritte in BAL, si potevano costruire file batch eseguibili per inserire, modificare, cancellare, elencare, riordinare record di un database, usando maschere predefinite (scritte anch'esse in BAL).
+
+I linguaggi di programmazione dei sistemi operativi BCOS e BCOS II, ovvero BASIC e OCL, prevedevano specifiche chiamate di subroutine speciali (ad esempio CALL "BEEP" o CALL "SYS") le quali erano praticamente tutte scritte in BAL (con la sola eccezione nota di "SORT", scritta in assembler probabilmente per ridurne la lentezza di esecuzione).

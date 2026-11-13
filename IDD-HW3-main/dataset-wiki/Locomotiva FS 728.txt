@@ -1,0 +1,37 @@
+La locomotiva gruppo 728 era una locomotiva a vapore con tender, per servizio merci, alimentata a carbone, di costruzione austroungarica che le Ferrovie dello Stato incorporarono nel proprio parco rotabili dopo il 1925. Il gruppo di 35 locomotive venne venduto alle FS dalla Società italiana per il Mar Nero che le aveva acquistate nuove di fabbrica.
+
+Storia
+
+In seguito alla vittoria ottenuta nella prima guerra mondiale l'Italia ebbe, come altri stati vincitori, un consistente gruppo di locomotive ferroviarie in risarcimento dei danni bellici o come bottino di guerra. Ciò portò all'incorporazione nel parco rotabili delle Ferrovie dello Stato del notevole numero di 915 locomotive di costruzione austro-ungarica; tra esse anche un lotto di 35 locomotive a vapore con tender che avrebbero dovuto essere immatricolate nel gruppo, delle ferrovie imperial regie, kkStB 270, come inizialmente previsto, ma che in seguito a varie vicissitudini assunsero direttamente la classificazione di gruppo 728.001-035. Esse svolsero servizio nelle linee del centro-nord dopo essere state adattate alle specifiche tecniche e normative italiane del parco rotabili delle Ferrovie dello Stato.
+
+Tra il 1945 e il 1948 in seguito alla sconfitta italiana nella seconda guerra mondiale, ebbero lo stesso destino di altre locomotive di guerra; 20 di esse vennero cedute in conto riparazioni belliche, di cui 19 furono incorporate nel gruppo JDZ 25, mentre una, la 728.002 tornò in Austria dove venne reimmatricolata come ÖBB 56.3501 . Le rimanenti rimasero in servizio fino alla fine degli anni cinquanta e successivamente radiate.
+
+La locomotiva 728.022 è stata restaurata e rimessa in funzione nel 2006; la corsa di prova ufficiale è avvenuta il 6 giugno tra Gorizia e Trieste ed è stata esposta al pubblico in occasione dell'inaugurazione di una nuova sala del Museo ferroviario di Trieste Campo Marzio
+
+Caratteristiche
+Le locomotive 728 avevano la configurazione ben collaudata delle vecchie 170 usate soprattutto nel servizio merci; erano alimentate a carbone e il rodiggio era il comune 1-4-0, con asse anteriore Adams, ma con passo rigido di soli 2800&nbsp;mm. Il secondo e quarto asse motori erano in grado di traslare trasversalmente di 42&nbsp;mm e ciò permetteva alla macchina di inscriversi anche su curve strette del raggio di 100 m.
+La velocità raggiunta durante i collaudi era stata di 77&nbsp;km/h e non aveva evidenziato problemi di stabilità ma venne limitata nell'esercizio a quella non elevata di 60&nbsp;km/h (ma sufficiente al servizio previsto) a scopo precauzionale dato che i cuscinetti delle ruote in bronzo lubrificati ad olio potevano essere facilmente soggetti a surriscaldamento.
+La caldaia, tarata a 13 bar, aveva una notevole capacità di produrre vapore ed era provvista di surriscaldatore di vapore Schmidt che ne accentuava l'efficienza. La distribuzione era Walschaerts con distributore cilindrico. L'impianto frenante era a vuoto, del tipo Henry, dato che l'uso iniziale era previsto in Austria e nelle linee dell'impero e dovette subire la modifica per essere adattato alla rete italiana.
+
+Le locomotive immatricolate in Italia come 728 erano tutte di fabbricazione Floridsdorf ed erano dotate di tender a tre assi.
+
+Modifiche tecniche
+Le 35 locomotive, giunte in Italia nuove di fabbrica, in seguito alla vendita alle Ferrovie dello Stato di parte del lotto di locomotive in precedenza acquistato dalla Società italiana per il Mar Nero per altre destinazioni, subirono profonde modifiche tecniche per adeguarle all'uso nelle linee della rete FS che vennero eseguite principalmente nell'Officina Grandi Riparazioni di Verona (OGR Verona).
+
+Fu montato un compressore a vapore a uno stadio per la produzione dell'aria compressa necessaria alla frenatura dei treni dato che le ferrovie italiane (eccetto alcuni casi di ferrovie a scartamento ridotto) usavano il freno Westinghouse ad aria compressa a differenza di quelle austriache che usavano il freno continuo automatico a vuoto Hardy. Venne montato anche un serbatoio di accumulo aria sul lato destro della locomotiva. In un primo tempo venne lasciate ambedue le apparecchiature di produzione, aria e vuoto, dato che sulle linee del nord-est acquisite in seguito alla vittoria del 1918 esistevano ancora molti veicoli ex-austriaci con solo freno a vuoto. In seguito le apparecchiature del vuoto vennero rimosse gradualmente durante le revisioni cicliche delle macchine e il compressore monostadio sostituito da uno più capace ed efficiente a doppio stadio integrato da un ulteriore serbatoio.
+
+Una modifica appariscente fu l'eliminazione del parascintille tipo Rihošek, caratteristico di molte macchine austriache, che venne sostituito da un camino tipo Prussman adatto alla sagoma limite italiana.
+Un'importante modifica riguardò i sistemi di sicurezza della caldaia le cui valvole originali vennero sostituite dalla classica coppia di valvole Coale integrate da una terza valvola a bilancia del tipo unificato FS. Venne sostituito anche il dispositivo acustico originario con il fischio in uso in Italia.
+
+Intorno agli anni trenta un certo numero di unità ebbe un'ulteriore modifica in cabina di guida dove il gruppo di presa vapore originale venne sostituito da quello tipico italiano conosciuto come Gruppo Ansaldo. Nello stesso periodo la Breda fornì alle FS un quantitativo di caldaie di ricambio con forno in rame, come quelli di uso normale nelle locomotive italiane, dato che quello originale della Floridsdorf era in acciaio e creava notevoli difficoltà nelle riparazioni. In seguita al montaggio delle caldaie Breda cambiava anche l'estetica frontale delle locomotive assumendo quella tipica delle macchine italiane che avevano lo sportello frontale della camera a fumo di forma conica al posto di quello classico a sportelli piani dello locomotive austriache.
+
+Vennero infine applicati, sui panconi di testa, anche i grossi fanali a petrolio, tipici del parco macchine italiano, i corrimani richiesti dalle modifiche ai "praticabili" e la colorazione standard delle macchine FS con testate, telaio e raggi delle ruote rossi e il resto della locomotiva nero.
+
+Depositi locomotive di assegnazione
+Le dislocazioni iniziali delle FS 728 furono essenzialmente nei depositi del centro e del nord-est italiano:
+Deposito locomotive di Firenze Campo di Marte: ebbe in tutto 15 unità, le 001, 002, 004, 006, 012, 013, 014, 016, 017, 019, 021, 023, 024, 027 e 028.
+Deposito locomotive di Trieste Campo Marzio: l'assegnazione riguardò 9 unità, la 003, 009, 010, 011, 015, 018, 020, 030 e 032.
+Deposito locomotive di Fiume: vi furono stanziate unità: la 005, 007, 025, 026, 031, 033, 034 e 035.
+Deposito locomotive di Udine: ebbe 3 unità, la 008, 022 e 029.
+
+Nel 1940 per esigenze militari tutte le locomotive di Firenze vennero trasferite al deposito di Trieste. Nel 1941, in seguito all'occupazione della Jugoslavia, venne creato per motivi strategici il nuovo deposito locomotive di Lubiana per tutte le esigenze di trazione connesse ai trasporti militari dell'Asse. La 728.026 rimase gravemente danneggiata durante la guerra e venne demolita per ricavarne pezzi di ricambio. La 728.022, dopo essere stata ceduta alle ferrovie dell'allora Jugoslavia JŽ, fu donata da queste al Museo Ferroviario di Trieste Campo Marzio. Rimessa in condizioni di marcia, è l'unica locomotiva a vapore di costruzione austriaca ancora attiva nel parco rotabili storici di Trenitalia.

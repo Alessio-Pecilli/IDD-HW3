@@ -1,0 +1,59 @@
+Il PALplus, o P+, rappresenta l'eventuale estensione dello standard televisivo PAL (per quanto concerne il segnale di tipo analogico) adattato però alla visione in formato 16:9, senza il sacrificio di alcun pixel o riga di risoluzione dell'immagine.
+(625-PAL:576/50i-25p/16:9)
+
+Storia
+Verso la fine degli anni '80, fu creato uno standard per la trasmissione analogica in alta definizione, chiamato HD-MAC (basato sul già esistente standard satellitare MAC), basato sulla trasmissione di immagini a 1250 linee e un rapporto d'aspetto di 16:9. Come standard di transizione, venne definito il D2-MAC, in 16:9 ma a 625 linee. Nonostante la sigla dello standard possa far pensare a un sistema digitale, in realtà il D2-MAC è un formato ibrido.
+
+Il PALplus vero e proprio venne progettato come sistema economico e compatibile con i ricevitori esistenti per trasmettere contenuti in 16:9.
+
+Funzionalità
+
+Un'immagine codificata in PAL viene solitamente trasmessa tramite uno degli standard a 625 righe orizzontali di cui 576 contengono il video attivo, cioè le linee effettive che compongono l'immagine; in una normale trasmissione in 16:9, il segnale viene trasmesso in modo anamorfico, cioè con il relativo restringimento in verticale del fotogramma. In realtà, gran parte del contenuto in 16:9 viene trasmesso dalle emittenti come 4:3 letterbox, cioè come un segnale 4:3 comprendente il video in formato panoramico e le bande nere sotto e sopra. Questo sistema è ottimo per la visualizzazione su monitor in 4:3, ma riduce le linee del video attivo a 432.
+
+Il sistema PALplus risolve il problema ripristinando le 576 linee orizzontali. Tuttavia, per motivi di compatibilità, la larghezza di banda del segnale trasmesso rimane di 5&nbsp;MHz, il che implica che la risoluzione verticale dell'immagine non è migliore del PAL tradizionale: essendo distribuita su uno schermo più ampio, anzi, risulta del 73% di un segnale 4:3 completo, o del 51% se si ignora il coefficiente di Kell.
+
+La retrocompatibilità con gli standard delle bianco e nero per la TV analogica è la seguente: in caso sia adottato lo standard PALplus, un apparecchio televisivo non dotato di compatibilità con tale standard visualizza le immagini in formato 16:9 (senza aumento della risoluzione orizzontale e con riduzione della risoluzione verticale) e in bianco e nero. Lo standard PALplus è inoltre retrocompatibile con lo standard PAL, in particolare la retrocompatibilità è completa: in caso sia adottato lo standard PALplus, un apparecchio televisivo dotato di compatibilità con lo standard PAL visualizza le immagini a colori.
+
+Estensioni
+Vertical helper
+Il segnale PALplus per la trasmissione è creato come un normale 4:3 letterbox, scalando le 576 linee originali in 432 più le bande, così come sarà visualizzato da un ricevitore PAL tradizionale. Il processo di scalatura avviene con una coppia di filtri corrispondenti, uno passa-alto e uno passa-basso. L'uscita del filtro passa-basso è il segnale che viene trasmesso.
+
+Dal segnale in uscita dal filtro passa-alto viene prelevata una linea ogni quattro, che viene modulata tramite una sottoportante sull'asse U dello spazio colore YUV, sulle 144 linee nere restanti (quelle del letterbox). Questo procedimento avviene per ogni semiquadro o per ogni quadro, a seconda che il materiale di origine sia interlacciato o progressivo.
+
+Il ricevitore PALplus è in grado di demodulare il segnale presente sulle linee nere e da esso recuperare l'insieme completo delle 576 linee originali. Come effetto collaterale, in alcuni casi le linee modulate sulla sottoportante colore sono visibili come strisce gialle e blu sui televisori standard.
+
+Colour-plus (o Clean PAL)
+La sottoportante colore PAL viene modulata tramite correlazione tra due semiquadri, in modo che il ricevitore possa ricavare una separazione Y/C più netta. Si tratta di una tecnica derivata dai videoregistratori professionali, e che incrementa la purezza dei colori sia in PALplus che in PAL tradizionale.
+
+Bit di segnalazione
+Uno speciale segnale chiamato WSS o Widescreen signaling permette al ricevitore di identificare se il segnale è 4:3, 16:9 oppure PALplus, e se il contenuto originale è interlacciato o progressivo.
+Esiste anche un segnale (chiamato Ghost Cancellation) in grado di identificare e rimuovere i segnali riflessi, migliorando così la ricezione. Questi segnali possono essere registrati da un videoregistratore e riprodotti con la registrazione.
+
+Problemi e limiti
+La ricezione e la decodifica dei segnali PALplus richiedono circuiti piuttosto costosi. È necessario anche prevedere una linea di ritardo sul segnale ricevuto perché per la decodifica è necessario disporre di entrambi i semiquadri. Come conseguenza, soltanto pochi televisori con scansione di 100&nbsp;Hz di fascia alta, prodotti verso la fine del secolo scorso, hanno potuto beneficiare di un decoder incorporato per la ricezione in PALplus, limitandone la diffusione.
+
+Inoltre, questo standard è ormai obsoleto, per via dell'abbandono progressivo delle trasmissioni in PAL a favore di quelle in DVB.
+
+Relativamente al caso italiano, sono sorte delle perplessità (menzionate nel numero di settembre 2006 del periodico AF Digitale nella sezione di risposta alle domande poste dai lettori) sulla mancata possibilità di trasmissione in Italia dei Mondiali di calcio Germania 2006 in PALplus. L'emittente pubblica italiana Rai Uno ha trasmesso infatti le partite dei mondiali in formato letterbox, anche se probabilmente ciò è avvenuto proprio a causa della scarsa diffusione nazionale di apparecchi adatti alla ricezione del PALplus. A partire dal 2007 la Rai ha incominciato a trasmettere parte della programmazione nel formato 16:9, ma solo sul digitale terrestre.
+
+Nel mondo
+Belgio
+L'emittente pubblica fiamminga VRT detiene una politica di “produzione propria” di buona parte dei contenuti in PALplus. Ad esempio, le news sono trasmesse proprio in P+. Ad eccezione di fiction e film americani, tutte le fiction e i film di produzione locale sono trasmessi in P+.
+L'emittente VTM, SBS Belgium (con i suoi canali VT4 e VijfTV) pure trasmettono in modo simile format TV in P+, se pure in di meno rispetto all'emittente pubblica. Le emittenti vallone RTBF e RTL-TVi invece, hanno una politica più ristretta al riguardo, preferendo spesso al P+ il vecchio 4:3.
+
+Finlandia
+Qui a giocare la carta del P+ è unicamente MTV3, col suo format Tv “Jyrki”, andato in onda dal 18 agosto 1997 per quattro anni di seguito. L'emittente YLE inoltre dichiarò di volere direttamente passare al digitale, piuttosto che rimanere anche col P+.
+
+Germania
+Soltanto le emittenti pubbliche ARD e ZDF trasmettono regolarmente in P+. Altre emittenti, come Pro7 (ProSieben) e Premiere, usano il formato 16:9 in ambito digitale, sia in PAL che in HDTV.
+
+Paesi Bassi
+La situazione del P+ nei Paesi Bassi si presenta difficile in quanto, le trasmissioni in P+ vengono fatte in modo sporadico, solo in caso di eventi speciali o di emissione di programmi in 16:9 acquisiti da altre emittenti.
+
+Portogallo
+L'emittente privata TVI cominciò già nel 1994, ma solo per pochissimo tempo. Oggi l'emittente pubblica RTP seleziona programmi vari da trasmettere in P+.
+
+Italia e Svizzera
+In Italia le uniche tracce conosciute di trasmissioni in PALplus si ebbero nel 1997 in occasione della trasmissione della Prima della Scala e di due concerti di musica classica di fine anno su Rai 1.
+Per i residenti in Lombardia c'è stata inoltre la possibilità di ricevere contenuti in PALplus dai canali della RTSI, in particolare da TSI 1. L'azienda dal 1º dicembre 2007 ha abbandonato le trasmissioni in PALplus (a seguito dello spegnimento anticipato delle trasmissioni analogiche) ricorrendo al 16:9 anamorfico.
+Analogamente in Sardegna, sempre nel 1997, l’emittente Videolina trasmetteva alcuni programmi di sua produzione in via sperimentale in PALplus con un logo che segnalava l’utilizzo del formato.

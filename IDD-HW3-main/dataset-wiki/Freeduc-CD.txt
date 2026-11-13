@@ -1,0 +1,12 @@
+Freeduc-CD fu una distribuzione derivata da Knoppix dedicata al mondo della scuola.
+
+Caratteristiche
+Conteneva decine di applicativi, selezionati per scopi didattici col contributo dell'UNESCO e del progetto OFSET (Organization for Free Software in Education and Teaching).
+
+Il nome Freeduc-CD deriva dal fatto che fosse utilizzabile tramite live CD, ovvero senza installazione.
+
+Storia
+Versione 1.4.1 del 08/11/2003 è dedicata alla scuola primaria e secondaria.
+Versione 1.5.0 del 04/05/2005 è dedicata alla scuola primaria.
+Versione 1.6.0 del 21/05/2005 è dedicata ai giochi.
+Versione 1.7.0 del 19/07/2007 è dedicata alla fisica e chimica, (solo in francese).

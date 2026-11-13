@@ -1,0 +1,42 @@
+DuckDuckGo (abbreviato in DDG) è un motore di ricerca la cui omonima azienda ha sede a Paoli in Pennsylvania negli Stati Uniti che utilizza le informazioni di crowdsourcing provenienti da altri siti, ad esempio Wikipedia, con lo scopo di aumentare i risultati tradizionali e di migliorare la pertinenza della ricerca. Il fondatore, Gabriel Weinberg, ne riassume - "in a nutshell" - le politiche sulla privacy: "DuckDuckGo non raccoglie né condivide informazioni personali."
+
+Per poter accedere alle funzionalità del sito non è richiesta la registrazione di un profilo utente. Per quanto riguarda i contenuti presenti su YouTube, DuckDuckGo dispone di una visualizzazione in anteprima delle immagini (snapshot) e indirizzo locale del video ricercato.
+
+L'azienda ha 335 dipendenti ad aprile 2026.
+
+Il nome della società (e del motore di ricerca) è una sorta di citazione del gioco per bambini duck, duck, goose.
+
+Storia
+DuckDuckGo fu fondato da Gabriel Weinberg, un imprenditore la cui ultima attività imprenditoriale, The Names Database, fu acquisita da United Online nel 2006 per 10 milioni di $. Weinberg ha una laurea in fisica e un master in tecnologia e politica al MIT. Il progetto era inizialmente autofinanziato e occasionalmente era supportato dalla pubblicità. Il motore di ricerca è scritto in Perl e lavora su nginx e FreeBSD. Weinberg è anche un angel investor.
+
+Nell'agosto 2010 DuckDuckGo ha introdotto un indirizzo nascosto con un nodo di uscita per la ricerca anonima attraverso Tor. Questo consente di restare anonimi smistando il traffico attraverso una serie di relay criptati. Weinberg ha dichiarato: "Credo che questo si addica perfettamente alla nostra politica sulla privacy. Usando Tor e DDG, ora puoi rimanere anonimo in modo end-to-end nelle tue ricerche. E se decidi di usare la nostra homepage criptata, sarai crittografato ugualmente end-to-end."
+
+Nel 2011, DuckDuckGo ha introdotto la ricerca vocale per gli utenti che utilizzano l'estensione "Voice Search" di Google Chrome.
+
+Il 19 maggio 2014 viene resa pubblica la nuova versione del sito, in gran parte ridisegnata e riorganizzata. Sono state introdotte nuove funzioni tra cui la ricerca di immagini e video.
+
+Nel giugno 2014, durante la presentazione di iOS 8, è emerso che i nuovi dispositivi mobili Apple potranno adottare su Safari DuckDuckGo in alternativa a Google. Sempre nello stesso anno, Mozilla annuncia di aver inserito DuckDuckGo di default tra le opzioni di ricerca nel browser Firefox.
+
+Nel marzo 2023 viene lanciato DuckAssist che con OpenAI effettua ricerche anonime e gratuite su Wikipedia e l'Encyclopædia Britannica, partendo da interrogazioni in linguaggio naturale. Il sito riceve feedback in formato testuale ed è la prima di una serie di sviluppi di DuckDuckGo con l'intelligenza artificiale.
+
+Descrizione
+I risultati di DuckDuckGo nascono da una combinazione di varie fonti, incluse DuckDuckBot (il proprio crawler), Yahoo! Search BOSS, Bing e Yandex. Utilizza anche dati da siti di crowdsourcing, da più di 500 fonti tra cui anche Wikipedia, per completare il riquadro Instant Answers, una casella in cima ai risultati che mostra brevemente una risposta diretta o vari termini correlati alla ricerca.
+
+DuckDuckGo si definisce come un motore di ricerca che mette in primo piano la privacy e per farlo non memorizza alcun indirizzo IP, non registra informazioni sull'utente, usa i cookie solo quando strettamente necessario (per le impostazioni), libera l'utente dalla bolla di filtraggio e dal tracciamento. Weinberg dichiara che "DuckDuckGo non raccoglie o condivide informazioni personali. Questa è la nostra politica sulla privacy in poche parole".
+
+Weinberg ha rifinito la qualità dei risultati del suo motore di ricerca eliminando i risultati di quelle aziende che pensa siano produttori spudorati di contenuti, come eHow di Demand Media, dove utenti freelance vengono pagati per pubblicare articoli al giorno, i quali Weinberg ritiene che siano, "... contenuti di bassa qualità progettati specificatamente per migliorare la propria posizione nell'indice di ricerca di Google." DuckDuckGo filtra anche le pagine con una quantità eccessiva di pubblicità.
+
+Una delle caratteristiche peculiari di DuckDuckGo è la possibilità di usare i comandi "!Bang", che consentono all'utente di reindirizzare la propria ricerca su un sito specifico direttamente da DuckDuckGo. Ad esempio la stringa "!w DuckDuckGo" lancia la ricerca della parola chiave "DuckDuckGo " all'interno di MediaWiki, il motore di ricerca predefinito di Wikipedia.
+
+Modello di business
+DuckDuckGo fa ricavi pubblicando annunci della rete Yahoo-Bing e attraverso rapporti di affiliazione con Amazon ed eBay.
+
+Nell'agosto 2022 è stato lanciato un servizio e-mail che permette di filtrare e rispondere allo spam prima di riceverlo al proprio indirizzo di posta elettronica principale.
+
+Traffico
+Nel gennaio 2019 DuckDuckGo ha raggiunto il record di 1 miliardo di ricerche in un mese, che è successivamente diventato 2 miliardi durante agosto 2020. Nel mese di gennaio 2021 il numero di ricerche giornaliere ha superato per la prima volta il valore di 100 milioni, con una media di 95.275.910 ricerche al giorno.
+
+Controversie
+Nel 2020 prima, nel 2022 poi, utenti ed esperti del settore muovono critiche a DuckDuckGo per la scoperta di alcuni trackers in relazione al proprio slogan e alle politiche sulla privacy dichiarate. Weinberg si impegna a porvi rimedio.
+
+Lo stesso Weinberg in un commento su Reddit ha affermato che nonostante il proprio browser e il motore di ricerca offrano un pacchetto di protezioni a tutela della privacy, funzionanti anche nei siti di aziende che risultano partner; sussistono delle limitazioni come obblighi sulle piattaforme, obblighi contrattuali (come nel caso della controversia dei trackers) e limitazioni per la continuità del servizio (ovvero il corretto funzionamento dei siti) che vengono imposti a priori dalle aziende fornitrici di applicazioni e servizi in rete, in collaborazione con DuckDuckGo.

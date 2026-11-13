@@ -1,0 +1,71 @@
+Un linguaggio assembly (detto anche linguaggio assemblativo o linguaggio assemblatore o semplicemente assembly) è un linguaggio di programmazione molto simile ai linguaggi macchina. Si differenzia da questi ultimi principalmente per l'utilizzo di identificatori mnemonici, valori simbolici e altre caratteristiche che lo rendono più agevole da scrivere e leggere per gli esseri umani.
+
+Erroneamente viene spesso chiamato assembler, ma quest'ultimo termine identifica solo l'applicativo che converte i programmi scritti in assembly nell'equivalente in linguaggio macchina.
+
+In generale ogni istruzione in linguaggio assembly corrisponde univocamente a un'istruzione in linguaggio macchina. Difatti quest'ultime sono semplicemente stringhe di bit, lunghe uno o più byte, che in assembly vengono rappresentate sotto forma di testo strutturato facilmente comprensibile agli umani. Per questo motivo è possibile vedere il linguaggio assembly come un'implementazione human-friendly dellinstruction set di un dato processore, a cui sarà necessariamente legato.
+
+Descrizione
+Scopo
+L’assembly ha lo scopo generale di consentire al programmatore di ignorare il formato binario del linguaggio macchina. Ogni codice operativo del linguaggio macchina viene sostituito, nell'assembly, da una sequenza di caratteri che lo rappresenta in forma mnemonica; per esempio, il codice operativo per la somma potrebbe essere trascritto come ADD e quello per il salto come JMP. In secondo luogo, i dati e gli indirizzi di memoria manipolati dal programma possono essere scritti, in assembly, nella base numerica più consona al momento: esadecimale, binaria, decimale, ottale ma anche in forma simbolica, utilizzando stringhe di testo (identificatori). Il programma assembly risulta in questo modo relativamente più leggibile di quello in linguaggio macchina, con il quale mantiene però un totale (o quasi totale) isomorfismo. Il programma scritto in assembly non può essere eseguito direttamente dal processore; esso deve essere tradotto nel linguaggio macchina (binario) corrispondente, usando un programma compilatore detto assembler.
+
+Portabilità
+A causa di questa "vicinanza" all'hardware, non esiste un unico linguaggio assembly. Al contrario, ogni CPU o famiglia di CPU ha un suo proprio assembly, diverso dagli altri. Ad esempio, sono linguaggi assembly ben diversi quelli per i processori Intel x86, per i Motorola 68000 e per i Dec Alpha. Questo significa che conoscere un certo linguaggio assembly significa saper scrivere programmi solo su una determinata CPU o famiglia di CPU. Passare ad altre CPU però è relativamente facile, perché molti meccanismi sono analoghi o del tutto identici, quindi spesso il passaggio si limita all'apprendimento di nuovi codici mnemonici, nuove modalità di indirizzamento ed altre varie peculiarità del nuovo processore.
+
+Molto meno facile è invece portare un programma scritto in assembly su macchine con processori diversi o con architetture diverse: quasi sempre significa dover riscrivere il programma da cima a fondo, perché i linguaggi assembly dipendono completamente dalla piattaforma per cui sono stati scritti. Molti compilatori assembly supportano sistemi di macro che potrebbero essere impiegati per ovviare in parte a questo problema, ma si tratta di una soluzione poco efficace.
+
+Usabilità
+Inoltre l'assembly non offre alcun "controllo sui tipi" (non esiste alcunché di vagamente simile al concetto di "tipo" nella programmazione low-level), ma lascia al programmatore la responsabilità di occuparsi di ogni singolo dettaglio della gestione della macchina e richiede molta disciplina e un esteso lavoro di commento per non scrivere codice che risulti assolutamente illeggibile (ad altri programmatori come anche a se stessi dopo qualche tempo).
+
+Scrivere (buon) codice in assembly è dispendioso in termini di tempo, difficile e quindi molto costoso, soprattutto in prospettiva (future modifiche): per questo, raramente l'assembly è il solo linguaggio usato in un progetto mainstream, a meno che questo non sia di dimensioni e portata limitate. In genere si usa in combinazione con altri linguaggi: la maggior parte del codice viene scritta in un linguaggio ad alto livello, mentre le parti più critiche (per motivi di performance, precisione del timing o affidabilità) si scrivono in assembly.
+
+Tali problematiche sono riscontrabili principalmente su piattaforme come i personal computer attuali, dove la vastità quantitativa e l'enorme gamma qualitativa dell'hardware disponibile crea alle applicazioni low-level un oggettivo problema mai risolto (e presumibilmente non risolvibile) a livello di unificazione e standard. A ciò si aggiunga l'evoluzione costante verso una sempre maggiore stratificazione dei comuni sistemi operativi, caratterizzata da numerosi vincoli e virtualizzazioni delle periferiche fisiche e dei canali di comunicazione, che non rendono agevole lo sviluppo di un software che interagisca direttamente con l'hardware sottostante e ne gestisca direttamente le caratteristiche.
+
+Utilizzi
+Si possono però citare due esempi, peraltro correlati, di totale inversione di questo paradigma generale:
+Ha ampiamente senso creare programmi interamente in assembly destinati ad hardware caratterizzato architetturalmente da documentazione esaustiva, grande predicibilità, stabilità e scarsa variabilità temporale del design: per esempio, si possono citare gli home computer degli anni ottanta, come i Commodore Vic-20 e C64 o il Sinclair ZX Spectrum.
+Ha parimenti senso, ed un forte riscontro nella pratica invalsa negli ultimi trenta anni, operare prevalentemente o esclusivamente in assembly nel vastissimo mercato dei sistemi embedded, per la programmazione di microcontroller e DSP, eventualmente anche sotto forma di core implementati tramite ASIC, CPLD ed FPGA, al fine di massimizzare performance e rispetto dei vincoli temporali, minimizzando nel contempo il footprint. Ciò trova riscontro a tutti i livelli della filiera produttiva, a partire dalla progettazione dei chip e del relativo linguaggio utilizzando ISA di tipo RISC e fortemente ortogonali, la cui ottimizzazione (in spazio o in performance) è altamente semplificata. Questo approccio è fondamentale in quanto consente grandi economie di scala nei progetti tipici del mondo embedded, caratterizzati dalla capacità di assorbire costi iniziali (NRE, non-recurrent engineering costs) anche elevati, purché finalizzati ad una forte compressione del costo unitario del prodotto finale, anche per volumi medio-bassi.
+
+Ecco allora che la possibilità di utilizzare un microcontroller con limitatissime risorse di memoria ROM e RAM scrivendo il firmware integralmente in assembly diventa essenziale al fine di minimizzare i costi, l'ingombro in piastra, la suscettibilità elettromagnetica, aumentando anche l'affidabilità (processori più "datati" hanno un incolmabile vantaggio in termini di milioni di ore di test e funzionamento sul campo, ossia la "merce" di gran lunga più preziosa per i sistemi embedded variamente critici) ed ottimizzando numerosi altri fattori.
+
+Struttura dei programmi
+
+La struttura di un tipico listato Assembly x86 per PC si articola, a grandi linee, nei seguenti termini:
+intestazione, in cui possiamo inserire, tramite dei commenti, il nome e la funzione del programma.
+segmento dati, in cui andiamo a dichiarare formalmente le variabili usate dal programma (in pratica allochiamo delle zone di memoria nel segmento puntando dal DS data segment)
+segmento di stack, in cui definiamo la struttura dello stack associato al programma (parleremo dello stack in seguito)
+segmento di codice, in cui è presente il codice del programma
+chiusura
+Vale la pena di ribadire che tale struttura, nella sua generalità, dipende quasi per intero dalla piattaforma e anche dall'assembler utilizzato e quindi non è in alcun modo universalizzabile. Architetture diverse, dai mainframe ai microcontroller, con relativi assemblatori e cross-assembler, impongono strutture di sorgente a volte nettamente diverse dal semplice esempio illustrato, relativo ai comuni PC. Per un controesempio banale, nelle architetture Harvard usate dalla quasi totalità dei microcontroller e da molte architetture di supercalcolo:
+il segmento di codice non risulta scrivibile durante la normale elaborazione: ne consegue, tra l'altro, l'assoluta impossibilità di creare codice self-morphing (automodificante), ma anche un modo generalmente diverso di referenziare variabili (a rigore, label corrispondenti ad una o più locazioni in memoria dati) e codice nel sorgente;
+i dati a loro volta risiedono in memorie fisicamente separate, talora dotate anche di persistenza tra le sessioni (EPROM, Flash EEPROM, RAM "tamponate" ossia dotate di batteria di backup...), e tutto ciò si riflette in modo esplicito e pervasivo nella sintassi supportata dall'assembler, nelle direttive specifiche e nella struttura effettiva di un sorgente Assembly;
+ultimo, ma non meno importante: registri come DS e SS (stack segment) sono altre peculiarità della piattaforma x86, sovente lo stack di chiamata non è neppure direttamente accessibile nei core MCU più diffusi.
+
+Esempio di codice
+Esempio di programma "Hello world" in assembly Intel x86 con sintassi Intel (sfrutta le chiamate al sistema operativo DOS). Non è compatibile con le versioni Assembly UNIX GNU
+
+Questo invece è l'esempio del programma scritto per sintassi AT&T (per le architetture UNIX GNU)
+
+Caratteristiche generali
+
+Sezioni
+
+Costanti di programma
+
+Istruzioni
+
+Il costrutto di sequenza
+In assembly è possibile definire sequenze di istruzioni attraverso l'uso delle "etichette" (label). Si tratta di semplici stringhe di testo ASCII seguite dai due punti di specificazione, che marcano in modo univoco un determinato punto del listato di istruzioni.
+
+Il costrutto di selezione
+Il costrutto di selezione, detto anche scelta, è uno degli elementi fondamentali del paradigma di programmazione strutturata. È il metodo più semplice per la gestione del flusso di controllo, e permette di scegliere tra due sequenze alternative di istruzioni.
+In assembly questo viene generalmente implementato utilizzando un'istruzione di salto condizionato in capo a due sequenze specificate in successione.
+
+Il costrutto di iterazione
+Il costrutto di iterazione, detto anche ciclo (loop), è uno degli elementi fondamentali del paradigma di programmazione strutturata, e consente di definire la ripetizione ciclica di sequenze di istruzioni. In assembly questo viene generalmente implementato come variante notevole del costrutto di selezione.
+
+Le caratteristiche peculiari del ciclo sono diverse:
+le due etichette sono poste rispettivamente all'inizio e alla fine del blocco, permettendo di scegliere di volta in volta se ripetere la sequenza o meno.
+l'istruzione di salto condizionato verifica ciclicamente l'esistenza di una condizione, in base alla quale viene deciso se interrompere il ciclo o meno;
+L'istruzione finale di salto incondizionato punta alla prima etichetta, realizzando così il comportamento ciclico.
+
+È possibile realizzare una variante del costrutto di iterazione in cui l'istruzione di salto condizionato viene posta per ultima. Notare come in questo caso non sia necessaria un'istruzione di salto incondizionato per realizzare il comportamento ciclico, come pure l'etichetta "end" che viene mantenuta puramente per fini illustrativi. La particolarità di questa variante è che la sequenza interna viene eseguita sempre almeno una volta, a causa del deferimento della verifica della condizione di iterazione.

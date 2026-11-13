@@ -1,0 +1,62 @@
+Nel gioco di ruolo fantasy Dungeons & Dragons esistono numerose forme di magia, fra cui la magia arcana, ovvero la magia che viene manipolata perché appresa in qualche modo o per una dote innata. Chi utilizza la magia arcana viene chiamato genericamente "incantatore arcano" o "arcanista".
+
+La magia arcana, nota in alcune ambientazioni come "l'Arte", è principalmente indirizzata alla destabilizzazione e alla distruzione (la magia divina invece è indirizzata alla guarigione e alla protezione; gli incantesimi arcani sono utili soprattutto durante la battaglia, quelli divini soprattutto dopo).
+
+Fra le classi base del Manuale del Giocatore, quelle che sono in grado di manipolare la magia arcana sono:
+Bardo
+Mago
+Stregone
+Alcune classi di prestigio che utilizzano la magia arcana sono:
+Assassino
+Arcimago
+Arciere arcano
+
+Incantesimi arcani
+Gli incantesimi arcani di livello 0 sono chiamati "trucchetti" per la loro semplicità sia d'effetto che di esecuzione.
+
+Ogni incantesimo arcano è caratterizzato da una o più componenti.
+Componente somatica (S): una complicata sequenza di gesti.
+Componente verbale (V): una complicata sequenza di linguaggio mistico.
+Componente materiale (M): un oggetto o una sostanza che viene consumata completamente durante il lancio dell'incantesimo
+Componente focus (F): un oggetto o una sostanza che non viene consumata durante il lancio dell'incantesimo.
+Costo in punti esperienza (PE): una quantità di punti esperienza da perdere irrimediabilmente.
+
+Le armature possono interferire con la fase di lancio di incantesimi arcani con componente somatica poiché rendono più difficili i rapidi movimenti necessari: più l'armatura è pesante e ingombrante, maggiore è la probabilità che l'incantesimo non riesca, perdendosi irrimediabilmente o provocando effetti indesiderati (ad esempio, per un giaco di maglia, un'armatura leggera, la probabilità è del 20%).
+
+La regola che prevede, per ogni incantesimo, la presenza di più componenti affinché possa essere lanciato è stata introdotta in AD&D Prima Edizione con tre componenti (Verbale, Somatica, Materiale); in AD&D Seconda Edizione è opzionale. In D&D Terza Edizione la componente materiale viene ulteriormente suddivisa (Materiale, Focus, Focus divina) e viene aggiunto il costo in punti esperienza (PE) per un totale di sei componenti, anche se, per ogni incantesimo, il massimo delle componenti è usualmente tre e la componente PE è applicata solo ad incantesimi di alto livello. In Original D&D e in D&D Base tutti gli incantesimi hanno solamente le componenti verbale e somatica da condurre contemporaneamente.
+
+Lancio di un incantesimo arcano
+Quello illustrato di seguito è il procedimento necessario affinché un incantatore arcano possa lanciare un incantesimo, riferito a D&D Terza Edizione. Nelle precedenti edizioni il processo era simile nelle fasi salienti ma in generale meno complesso e meno dettagliato.
+
+Per i maghi l'Intelligenza è una caratteristica importante perché, fra l'altro, determina il livello di incantesimo massimo a cui può accedere. Mentre per stregoni e bardi è il Carisma ad essere la caratteristica chiave nel lancio degli incantesimi.
+
+Maghi
+Il lancio di un incantesimo arcano da parte di un mago è solo il momento finale di un processo che inizia con lo studio del suo libro degli incantesimi. Durante questa prima fase, il mago, studiando intensamente, memorizza l'incantesimo nella sua mente e lo lancia parzialmente; nel momento del bisogno, il mago terminerà il rituale e l'incantesimo preparato manifesterà i suoi effetti.
+
+Preparazione
+Per poter lanciare un incantesimo il mago deve necessariamente, oltre che procurarsi gli eventuali componenti materiali, preparare in anticipo gli incantesimi scelti fra quelli registrati nel suo libro degli incantesimi; per fare questo deve essere riposato (cioè aver fatto almeno 8 ore di riposo) e deve dedicare un po' di tempo (da 15 minuti a un'ora) allo studio del libro in un luogo tranquillo, senza che nulla interrompa la sua concentrazione. Il numero massimo di incantesimi giornalieri memorizzabili (tutti gli incantesimi lanciati nelle ultime 8 ore contano nel limite giornaliero) dipende dal livello del mago e dalla sua Intelligenza. Una volta che la fase di preparazione è terminata, l'incantesimo rimane memorizzato e pronto per essere lanciato nella mente del mago finché questi non decide di lanciarlo completando il rituale magico.
+
+Fase di lancio
+Per completare il lancio di un incantesimo, e quindi provocare gli effetti dello stesso, il mago deve soddisfare tutte le componenti dell'incantesimo. Per fare questo, il mago deve essere concentrato; se qualcosa rompe la sua concentrazione, l'incantesimo è perduto. Una volta lanciato, l'incantesimo si cancella definitivamente dalla mente del mago, che, per poterlo riutilizzare, deve studiare nuovamente il suo libro degli incantesimi.
+
+Ad esempio, per lanciare Luce magica, un tipico incantesimo da mago alle prime armi, dev'essere pronunciata la corretta formula magica ed usata come componente materiale una lucciola o del muschio fosforescente, disponibili anche nel peggior negozio di oggetti magici. Invece, per lanciare Muro di fuoco, un incantesimo decisamente più potente, oltre che pronunciare correttamente le parole magiche ed eseguire contemporaneamente la giusta sequenza di gesti, si deve utilizzare un piccolo pezzo di fosforo, solitamente cosa più complicata da procurarsi. La componente materiale degli incantesimi più potenti a volte richiede delle vere e proprie missioni per poterne entrare in possesso.
+
+Stregoni e Bardi
+Il lancio di un incantesimo arcano da parte di un stregone (o di un bardo) è un'azione puramente istintiva (anche se alcuni stregoni frequentano scuole di magia nel tentativo di migliorare le proprie capacità). Non deve scegliere in anticipo quelli che vuole lanciare; quando lo desidera, senza sapere come e perché, conosce immediatamente la procedura affinché l'incantesimo manifesti i suoi effetti. Questo vantaggio nei confronti dei maghi è compensato dallo svantaggio di avere poca scelta negli incantesimi da selezionare. Gli incantesimi da stregone si selezionano dalla stessa lista di quelli da mago; le componenti necessarie sono dunque le stesse. Gli incantesimi del bardo sono invece raccolti in una lista apposita (comprendono alcuni incantesimi di guarigione, eredità del passato druidico della classe). Lo stregone e il bardo possono però conoscere e lanciare anche incantesimi insoliti appresi nelle loro ricerche.
+
+Preparazione
+Non c'è una vera e propria fase di preparazione (anche se, forse, lo stregone prepara gli incantesimi anticipatamente per essere lanciati in continuazione senza che se ne renda conto). L'incantatore deve però necessariamente procurarsi gli eventuali componenti materiali ed essere riposato (cioè aver fatto almeno 8 ore di riposo). Il numero massimo di incantesimi giornalieri memorizzabili (tutti gli incantesimi lanciati nelle ultime 8 ore contano nel limite giornaliero) dipende dal livello e dal punteggio di Carisma.
+
+Fase di lancio
+Per lanciare un incantesimo, e quindi provocare gli effetti dello stesso, lo stregone deve compiere una precisa sequenza di linguaggio verbale mistico e gesti complicati, anche se non necessariamente entrambi, uniti, eventualmente, ad alcuni oggetti o sostanze. Per un bardo, la componente verbale non è un linguaggio magico ma la musica, il canto o la recitazione. Per fare questo, l'incantatore deve essere concentrato; se qualcosa rompe la sua concentrazione, l'incantesimo è perduto. Una volta lanciato, l'incantesimo si cancella definitivamente dalla sua mente, poiché vi è un limite massimo agli incantesimi che può lanciare giornalmente.
+
+Scuole di magia
+Da non confondere con gli istituti in cui si insegna la magia, le scuole di magia (o di specializzazione) sono raggruppamenti di incantesimi in base ad un tema comune (gli incantesimi non appartenenti a nessuna scuola sono chiamati "universali"), e rappresentano il campo di studio del mago. Un mago può, se lo desidera, specializzarsi in una di esse (la scelta deve essere fatta al momento della creazione del personaggio), diventando così un mago specialista; in particolare, avrà il vantaggio di poter preparare più incantesimi rispetto ad un mago non specializzato, ma gli sarà proibito imparare gli incantesimi di alcune scuole (dette "opposte"). Le scuole di specializzazione sono otto (nove in AD&D Seconda Edizione, dove Divinazione era suddivisa in Minore e Maggiore):
+Abiurazione: incantesimi che proteggono, bloccano o bandiscono. Lo specialista viene chiamato abiuratore.
+Ammaliamento: incantesimi che pervadono la vittima o la assoggettano al volere del mago. Lo specialista viene chiamato ammaliatore.
+Divinazione: incantesimi che rivelano informazioni. Lo specialista viene chiamato divinatore.
+Evocazione: incantesimi che portano al mago creature o materiali. Lo specialista viene chiamato evocatore.
+Illusione: incantesimi che alterano la percezione o creano false immagini. Lo specialista viene chiamato illusionista.
+Invocazione: incantesimi che manipolano l'energia o creano qualcosa dal nulla. Lo specialista viene chiamato invocatore.
+Necromanzia: incantesimi che manipolano la vita e la morte. Lo specialista viene chiamato necromante.
+Trasmutazione: incantesimi che trasformano la vittima. Lo specialista viene chiamato trasmutatore.

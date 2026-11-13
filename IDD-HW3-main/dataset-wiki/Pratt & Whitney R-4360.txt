@@ -1,0 +1,44 @@
+Il Pratt & Whitney R-4360 Wasp Major fu il più grande e potente motore a cilindri radiali per aviazione mai prodotto in serie. Questo motore rappresentò l'apice dello sviluppo della tecnologia dei motori a pistoni, o come vengono chiamati oggi alternativi, prima che l'avvento dei motori Jet e dei motori turboelica ne riducesse drasticamente l'adozione nel mercato aeronautico civile e militare.
+
+Descrizione
+Il motore era composto da 28 cilindri disposti su quattro stelle di sette cilindri ognuna. Ogni stella era leggermente ruotata rispetto alla precedente in modo da permettere il miglior flusso per l'aria di raffreddamento. Visto di lato la disposizione dei cilindri assumeva un aspetto elicoidale. Per questo venne anche soprannominato "Corncob" (pannocchia di granoturco) proprio perché la sistemazione dei cilindri ricordava i semi su una pannocchia. Il motore disponeva di un compressore meccanico a sei velocità. La sua cilindrata era di 71,4 litri (4360 pollici cubici - da cui la designazione della ditta come R-4360). Le eliche venivano fatte girare ad una velocità pari alla metà di quella a cui girava il motore per evitare che le estremità, in movimento, raggiungessero una velocità supersonica che ne peggiorasse le prestazioni.
+
+Le prime versioni del motore sviluppavano 3.000&nbsp;hp (2.240&nbsp;kW) ma, nelle ultime versioni, questa era salita a 4.300&nbsp;hp (3.200&nbsp;kW). Nonostante il peso del motore variasse da 1.600 a 1.800&nbsp;kg (3,482 - 3,870 pounds) il suo rapporto peso/potenza fu tra i più alti mai raggiunti da questo tipo di
+motore.
+
+La produzione del motore avvenne tra il 1944 e 1955 per un totale di 18.697 esemplari.
+
+Versioni
+(lista incompleta)
+R-4360-51VDT:
+R-4360-59B:
+
+Velivoli che lo hanno utilizzato
+Il Wasp Major venne utilizzato sui bombardieri Boeing B-50 Superfortress, uno sviluppo postbellico del Boeing B-29 Superfortress, sul Convair B-36 e su molti altri velivoli da trasporto civili e militari:
+
+SNCASE SE-2010 Armagnac
+
+Aero Spacelines Mini Guppy
+Aero Spacelines Pregnant Guppy
+Boeing 377 Stratocruiser
+Boeing B-50 Superfortress
+Boeing C-97 Stratofreighter
+Boeing XF8B
+Boeing XB-44 Superfortress
+Convair B-36
+Convair XC-99
+Curtiss XBTC-2
+Douglas C-74 Globemaster
+Douglas C-124 Globemaster II
+Douglas TB2D Skypirate
+Fairchild C-120 Packplane
+Goodyear F2G Corsair
+Hughes H-4 Hercules ("Spruce Goose")
+Hughes XF-11
+Lockheed R6V Constitution
+Martin AM Mauler
+Martin P4M Mercator
+Northrop YB-35
+Republic XP-72
+Republic XF-12 Rainbow
+Vultee A-41

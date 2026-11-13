@@ -1,0 +1,50 @@
+Amaltea (Αμάλθεια in greco) è il terzo satellite naturale di Giove in ordine crescente di distanza dal pianeta; è il più massiccio dei satelliti interni, che vengono collettivamente indicati proprio come gruppo di Amaltea. La sua forma è comunque estremamente irregolare. Il nome deriva da quello di Amaltea, la ninfa che secondo la mitologia greca nutrì Zeus con il latte di capra; il satellite è anche noto come Giove V.
+
+Storia
+
+Amaltea fu scoperto il 9 settembre 1892 dall'astronomo statunitense Edward Emerson Barnard, attraverso il telescopio rifrattore da dell'Osservatorio Lick in California. È l'ultimo satellite ad essere individuato direttamente dall'occhio umano (e non attraverso fotografie) ed il primo ad essere scoperto attorno a Giove da quando, nel 1609, Galileo aveva individuato i quattro satelliti medicei.
+
+Il nome di Amaltea fu accettato ufficialmente dall'Unione Astronomica Internazionale nel 1975 sebbene fosse già in uso in precedenza (la sua introduzione risale a Camille Flammarion). Il suo scopritore aveva inutilmente suggerito il nome Columbia, per onorare la ricorrenza del quattrocentesimo anniversario della scoperta dell'America da parte di Cristoforo Colombo.
+
+Parametri orbitali
+
+Amaltea orbita intorno a Giove ad una distanza di (2,54&nbsp; volte il raggio gioviano). L'orbita ha una eccentricità orbitale di 0,003 ed un'inclinazione di 0,37° rispetto all'equatore gioviano. Tali valori non nulli, per quanto piccoli, sono inusuali per un satellite interno e possono essere causati dall'influenza esercitata dal più interno dei satelliti galileiani, Io. Si presume che Amaltea sia passata varie volte attraverso l'orbita di Io che di conseguenza avrebbe eccitato la sua inclinazione e la sua eccentricità.
+
+L'orbita di Amaltea si trova vicino al bordo esterno dell'anello Gossamer interno di Amaltea che è composto da polvere emessa nello spazio dal satellite. Infatti data la bassa densità e la forma irregolare di Amaltea, la velocità di fuga dai punti sia più vicini che più lontani da Giove non è superiore ad ; pertanto la polvere derivante da impatti micrometeoritici può facilmente sfuggire nello spazio ed andare a formare gli anelli Gossamer.
+
+Come tutti i satelliti del proprio gruppo Amaltea presenta un fenomeno di rotazione sincrona rispetto a Giove e quindi rivolge sempre lo stesso emisfero verso il pianeta.
+
+La sonda Galileo ha individuato diversi piccoli satelliti, tutti di dimensioni inferiori al chilometro, posti nella stessa orbita di Amaltea; la loro origine è sconosciuta, ma potrebbe trattarsi di asteroidi catturati dalla gravità gioviana o di materiale espulso da Amaltea in seguito ad impatti meteorici sulla propria superficie. Questi piccoli corpi celesti sembrano formare un anello attorno al pianeta in prossimità dell'orbita di Amaltea, l'anello Gossamer di Amaltea.
+
+Superficie
+Nel sistema solare Amaltea è l'oggetto che è caratterizzato dalla colorazione rossa più intensa, addirittura più evidente rispetto a Marte, probabilmente dovuta all'abbondanza di zolfo proveniente da Io o ad altre sostanze non ghiacciate. Negli scoscendimenti più pronunciati appaiono macchie verdastre, ma la natura di questa colorazione è attualmente sconosciuta.
+
+La sua superficie appare pesantemente craterizzata; risultano particolarmente evidenti i crateri Pan, ampio circa e profondo almeno , e Gea, il cui diametro è pari ad e la cui profondità è all'incirca doppia rispetto a quella di Pan. Le dimensioni di questi crateri sono molto grandi se raffrontate con quelle dell'intero satellite.
+
+Altre formazioni geologiche di rilievo sono Lyctos Facula e Ida Facula, che si innalzano fino a rispetto alla superficie circostante.
+
+Formazioni geologiche superficiali con denominazione ufficiale
+Quattro formazioni geologiche superficiali hanno finora ricevuto una denominazione ufficiale, due crateri e due faculae.
+
+Struttura interna
+
+La forma ad ellissoide irregolare di Amaltea, le cui dimensioni sono approssimabili a , aveva portato a ritenere che si trattasse di un corpo solido relativamente rigido e che il suo interno fosse relativamente povero di ghiaccio o altri materiali friabili che avrebbero dato luogo ad un satellite dall'aspetto sferico per effetto della sua stessa gravità. Tuttavia i calcoli della massa di Amaltea basati sulla misura della deflessione della sua orbita, conseguenti a un sorvolo effettuato dalla sonda Galileo a soli dalla superficie il 5 novembre 2002, hanno portato a calcolare una densità vicina a , corrispondente a quella di un corpo ghiacciato o composto di materiali estremamente porosi, come se si trattasse di un cumulo di macerie. La natura ghiacciata del satellite è stata in seguito confermata da osservazioni condotte tramite il telescopio Subaru.
+
+Si ritiene quindi che Amaltea si sia formato altrove, giacché il materiale che lo compone si sarebbe fuso se il satellite si fosse trovato così vicino a Giove fin dalle prime fasi della formazione del sistema solare quando il pianeta era ancora molto caldo. Probabilmente si tratta di un asteroide formatosi altrove e catturato dal pozzo gravitazionale di Giove in un secondo momento. La NASA non ha tuttavia pubblicato le foto scattate durante il fly-by della sonda Galileo del 5 novembre 2002 e la risoluzione di quelle pubblicate è molto bassa.
+
+Amaltea irradia un po' più calore di quello che riceve dal Sole; questo è probabilmente il risultato dell'effetto combinato del flusso termico proveniente da Giove (), della luce solare riflessa dal pianeta () e del bombardamento di particelle cariche (). Anche il satellite Io mostra un comportamento simile anche se derivante da altri fattori.
+
+Amaltea e Giove
+Nel cielo di Amaltea Giove appare di dimensioni enormi, caratterizzato da un diametro angolare di circa 46°, approssimativamente 92 volte quello della Luna vista da Terra. Inoltre, poiché Amaltea è in rotazione sincrona con il suo pianeta, Giove è visibile da un'unica faccia del satellite. Il Sole viene eclissato dal pianeta per circa un'ora e mezza nel corso di ogni rivoluzione portando la durata della luce del giorno a meno di sei ore. Sebbene la luminosità complessiva di Giove sia pari a 900 volte quella della Luna piena, la sua luce viene sparsa su una superficie 8&nbsp;500 volte più grande rendendo così la luminosità per unità di superficie è inferiore a quella del satellite terrestre.
+
+Dalla sommità delle nubi di Giove, Amaltea dovrebbe avere una magnitudine apparente pari a -4,7, corrispondente a quella di Venere visto dalla Terra, ma le dimensioni del suo disco, pari ad appena 5 arcominuti, la farebbero apparire poco più grande di una stella. Il periodo orbitale del satellite è di poco maggiore rispetto al giorno gioviano medio, per cui un ipotetico osservatore situato sul pianeta lo vedrebbe transitare molto lentamente e osserverebbe un intervallo di 29 ore fra l'apparizione del satellite all'orizzonte e il suo tramonto successivo.
+
+Esplorazione
+Nel 1979-1980 le due sonde Voyager 1 e 2 fornirono le prime immagini ravvicinate di Amaltea con dettagli della superficie. Furono anche in grado di misurare lo spettro infrarosso e visibile, e la temperatura superficiale. Successivamente la sonda Galileo completò la rilevazione fotografica del satellite e con il suo ultimo fly-by del 5 novembre 2002 ad un'altezza di circa , permise una più accurata determinazione della massa prima di andare a concludere la sua missione lanciandosi nell'atmosfera di Giove nel settembre 2003. Nel 2006 l'orbita di Amaltea fu meglio definita dagli strumenti a bordo della sonda New Horizons.
+
+Amaltea nella fantascienza
+Il racconto Jupiter V di Arthur C. Clarke, scritto nel 1951, è ambientato su Amaltea; racconta gli effetti della bassa gravità del satellite su un astronauta che venisse lanciato dalla superficie verso lo spazio.
+Путь на Амальтею (Put' na Amal'teju, in italiano La via verso Amaltea) è il titolo di un romanzo breve di fantascienza di Arkadij e Boris Strugackij pubblicato per la prima volta nel 1960 da Molodaja Gvardija.
+Isaac Asimov, nel racconto Lucky Starr e le lune di Giove (1954), utilizza Amaltea come luogo per un atterraggio di emergenza.
+In una bozza di Odissea nello spazio il monolite gigante era situato sulla superficie di Amaltea, come ha ammesso lo stesso Clarke nel volume The Lost Worlds of 2001 (1972).
+Fuga da Amaltea (2023) è un romanzo di Valentino Poppi ambientato in una miniera scavata sulla superficie di Amaltea.

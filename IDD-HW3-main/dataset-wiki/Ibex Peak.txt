@@ -1,0 +1,49 @@
+Ibex Peak è un chipset Intel presentato tra settembre e ottobre 2009 per supportare processori di fascia media basati sull'architettura Nehalem, e precisamente le CPU Lynnfield, per poi estendere il suo supporto anche a quelle conosciute come Clarkdale dotate del comparto grafico integrato.
+
+È il successore del chipset Eaglelake, presentato a giugno 2008, che è di fatto l'ultimo a supportare i processori basati sull'architettura Intel Core Microarchitecture.
+
+Tylersburg: il capostipite dei chipset per processori Nehalem
+A novembre 2008 Intel presentò il primo chipset a fornire supporto ai primi processori basati sulla nuova architettura Nehalem; si trattava di Tylersburg, che viene commercializzato con il nome di X58 e abbinato ai processori Core i7 Bloomfield. Le caratteristiche di Tylersburg sono molto simili a quelle previste per Ibex Peak che dovrebbe anzi essere una versione ridotta del primo, dato che verrà abbinato a processori di fascia media. Intel non ha dichiarato se Ibex Peak sia semplicemente un nome in codice per indicare una specifica versione del chipset Tylersburg, oppure sia un progetto distinto; in ogni caso alcune peculiarità illustrate più avanti non possono totalmente smentire quest'ultima interpretazione malgrado i nomi commerciali delle due varianti (molto simili) possano trarre facilmente in inganno.
+
+Versioni attese sul mercato
+Intel ha annunciato solo una versione di Ibex Peak e non è dato quindi sapere se si tratterà di un'intera famiglia di chipset come lo sono stati i precedenti Eaglelake e il rispettivo predecessore Bearlake, oppure di un prodotto singolo. Dato però che il modello annunciato riprende la nomenclatura utilizzata anche per i predecessori, è plausibile che Intel possa continuare seguendo la stessa linea, utilizzando quindi una lettera per sintetizzare le caratteristiche base del modello, seguita da 2 cifre che ne indicano la "potenza" e di conseguenza la fascia di mercato.
+
+Questa la versione di chipset Ibex Peak, o serie 5, già annunciata da Intel e attesa sul mercato:
+P55 - soluzione di fascia media per il mercato degli utenti desktop - settembre/ottobre 2009
+
+Caratteristiche tecniche
+A causa delle nuove caratteristiche introdotte dai processori della nuova architettura Nehalem, anche il chipset sarà completamente rinnovato; al pari di Tylersburg, anche Ibex Peak rappresenterà un segno di svolta nella progettazione di chipset da parte di Intel in quanto il controller della memoria RAM non verrà più implementato nel northbridge del chipset come avvenuto per tutte le generazioni precedenti, dato che esso è diventato uno dei "cardini" della nuova architettura Nehalem e verrà integrato quindi direttamente nelle CPU. A differenza di quanto avviene in Tylersburg però, non sarà presente il supporto per il nuovo tipo di bus seriale conosciuto come Intel QuickPath Interconnect (in precedenza conosciuto anche come Common System Interface), non presente nei processori di fascia media ma solo in quelli di fascia alta Bloomfield (abbinati appunto a Tylersburg), e che in tali modelli va a sostituire il tradizionale BUS (diventato di tipo quad pumped a partire dal Pentium 4) come interfaccia di collegamento tra il processore, il chipset e gli altri componenti presenti sulla scheda madre.
+
+Infine, anche il socket cambierà diventando l'LGA 1156 (sebbene inizialmente avrebbe dovuto essere l'LGA 1160 poi abbandonato). A causa di questo stravolgimento nelle funzionalità del chipset, esso sarà compatibile solo con i nuovi processori e non con quelli precedenti, appartenenti all'architettura "Core", come i Core 2 Duo, Core 2 Extreme e Core 2 Quad.
+
+Il controller integrato nel processore fornirà supporto a configurazioni di memoria DDR3-1333 di tipo dual channel.
+
+Una differenza fondamentale tra Ibex Peak e Tylersburg risiederà nel fatto che Ibex Peak sarà realizzato in un unico chip, integrando quindi in un unico componente sia il northbridge sia il southbridge.
+Si tratta di un approccio innovativo per Intel che storicamente ha sempre utilizzato 2 chip separati per gestire l'elettronica dell'intero sistema: il northbridge viene in genere chiamato MCH (Memory Controller Hub), mentre il southbridge è l'ICH (I/O Controller Hub). L'unificazione è stata resa possibile dalla generale semplificazione delle funzionalità comunemente demandate al chipset tra cui la gestione della RAM.
+
+Tra le altre caratteristiche di Ibex Peak, il supporto, in alcune versioni, del sottosistema video (è da ricordare come le versioni di Ibex Peak abbinate al futuro processore Clarkdale saranno sprovviste di tale supporto dato che il comparto grafico verrà integrato direttamente nella CPU, oppure vedranno tale componente semplicemente disabilitato da BIOS), e in generale delle varie periferiche PCI Express collegate al sistema, oltre a 6 porte SATA con il supporto RAID alle modalità "0", "1", "5", "10" e al Intel Matrix, 14 porte USB 2.0; si tratta di funzionalità tipiche di un southbridge e di fatto Ibex Peak ne integrerà uno, probabilmente il nuovo ICH11. È previsto che esso sia in grado di supportare 1 slot PCI Express 2.0 con segnali 16x elettrici oppure 2 slot PCI Express 2.0 con connessioni 8x elettriche, consentendo quindi configurazioni fino a 2 schede video in parallelo.
+
+Lo standard audio integrato dovrebbe rimanere l'ormai collaudato "High Definition Audio", chiamato da Intel con il nome in codice Azalia che è in grado di gestire i formati stereo LPCM, oppure AC3 a 5.1 canali a 96&nbsp;kHz, mentre per quanto riguarda la scheda di rete, ancora una volta sarà integrato un controller Ethernet Gigabit.
+
+Supporto SLI anche con Ibex Peak
+Inizialmente non era stato comunicato nulla riguardo a quale tecnologia "multi GPU" sarebbe stata implementata in Ibex Peak, ma alla luce di quanto fatto da Intel con Tylersburg si sperava che anche nel nuovo prodotto venisse resa disponibile non solo la ormai tradizionale CrossFire di ATI Technologies/AMD, ma anche la tecnologia SLI di nVidia.
+
+A marzo 2009 sono emerse notizie da parte dei produttori di schede madri secondo le quali sarà presente anche il supporto alla tecnologia SLI; non è ancora chiaro come verrà offerto tale supporto, se mediante il chip dedicato nVidia nForce 200 SLI (conosciuto anche attraverso il nome in codice BR-04) già utilizzato nelle scheda madri basate su Tylersburg di fascia più alta, oppure mediante la semplice certificazione da parte di nVidia (una strategia adottata anche nelle sopra citate schede madri di fascia inferiore). Alla luce della fascia di mercato prevista per i prodotti Ibex Peak è altamente probabile che verrà utilizzato questo secondo approccio, mediante il quale quindi nVidia stessa potrà certificare i nuovi prodotti mediante test proprietari che ovviamente avranno comunque ripercussioni sul costo finale delle nuove schede. La certificazione consentirà ai produttori di applicare il marchio "SLI Certified" sui propri prodotti e fornirà loro una chiave di "sblocco" da integrare nel BIOS della scheda che permette l'interazione tra i driver ForceWare e il chipset Ibex Peak.
+
+Memoria flash anche per le schede madri desktop
+Intel ha deciso di offrire (opzionalmente) ai produttori di schede madri la possibilità di implementare una nuova tecnologia chiamata Braidwood, la quale consente di utilizzare una memoria flash installata in uno slot NVRAM per velocizzare le operazioni di I/O grazie ad un collegamento diretto verso il chipset. Si tratta di una tecnologia molto simile, almeno nelle finalità, alla Intel Turbo Memory integrata nelle piattaforme mobile Centrino Duo e Centrino 2, conosciuta in quell'ambito mediante il nome in codice Robson e annunciata ai tempi anche in versione per sistemi desktop sotto il nome in codice di Snowgrass. Non è chiaro se Braidwood sia di fatto il nuovo nome in codice di Snowgrass oppure si tratti di un progetto completamente distinto.
+
+Motherboard completamente ridisegnate
+È relativamente semplice intuire come le nuove caratteristiche introdotte dall'architettura Nehalem non andranno a influenzare solo il progetto dei microprocessori, ma anzi, anche quello delle schede madri (seppure indirettamente). Le varie novità architetturali cui si è accennato sopra, costringeranno i vari produttori a riprogettare da zero le proprie soluzioni per poter ospitare i nuovi processori.
+
+Caratteristiche delle varie versioni di Ibex Peak
+Come accennato prima, Intel ha annunciato una sola variante di Ibex Peak, destinata alla fascia media del mercato desktop.
+
+P55
+Il P55 sarà il successore del precedente modello P45 di Eaglelake come base per i processori della fascia media del mercato desktop e fornirà supporto a tutte le caratteristiche principali del chipset.
+
+Nuove piattaforme
+è previsto che Ibex Peak quando verrà abbinato al processore Lynnfield andrà a costituire la piattaforma Piketon mentre quando verrà abbinato a Havendale sarà alla base della piattaforma Kings Creek.
+
+Il successore
+Intel non ha ancora annunciato alcun successore di Ibex Peak.

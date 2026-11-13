@@ -1,0 +1,29 @@
+Il Sequential Functional Chart (in acronimo SFC, ) è un linguaggio di programmazione grafico per PLC orientato alla descrizione di algoritmi di controllo logico-sequenziale.
+È uno dei linguaggi di programmazione definiti nello standard internazionale IEC 61131-3.
+
+Questo linguaggio si basa su Grafcet che a sua volta eredita le principali caratteristiche dal modello matematico di Rete di Petri. L'SFC è utile anche come strumento di modellazione e analisi dell'evoluzione sequenziale di un sistema di automazione poiché permette di decomporre il ciclo macchina in una serie di azioni di controllo sequenziali.
+
+Elementi base dell'SFC
+Gli elementi grafici di base che compongono l'SFC sono i seguenti:
+
+Fase (o Step): rappresenta un singolo passo della sequenza di operazioni, è convenzionalmente indicata con un quadrato contenente un numero univoco che la identifica. Ad ogni fase possono essere associate delle azioni rappresentate da un rettangolo collegato alla fase contenente l'azione da eseguire. Ad ogni fase è associata una variabile booleana che ne rappresenta lo stato. Ogni fase può trovarsi in due soli stati: fase attiva o fase non attiva. Quando una fase è attiva vengono immediatamente eseguite tutte le azioni ad essa associate (ciascuna secondo le proprie caratteristiche temporali descritte da un qualificatore dell'azione).
+Transizione: riassume le condizioni per il passaggio da una fase ad un'altra, viene convenzionalmente indicata con una barretta orizzontale a cui è associato un identificatore univoco (T1, T2, T3...). Una transizione si dice attiva quando tutte le condizioni ad essa associata sono verificate nello stesso momento. Una transizione si dice superabile quando è attiva e tutte le fasi a monte sono contemporaneamente attive.
+Arco orientato: segmento con snodi ad angolo retto che collega fasi e transizioni.
+
+La regola fondamentale per la costruzione grafica dell'SFC è la seguente: tra due fasi è sempre presente almeno una transizione, tra due transizioni è presente almeno una fase. Due fasi non possono essere collegate direttamente tra loro, così come anche due transizioni non possono essere collegate direttamente tra loro.
+
+Regole di evoluzione
+Le regole per passare da una fase ad un'altra sono le seguenti:
+
+Regola 1: quando una transizione diventa superabile, essa viene immediatamente superata. Il superamento di una transizione avviene con la disattivazione di tutte le fasi che si trovano a monte e l'attivazione di tutte le fasi che si trovano a valle.
+Regola 2: se in un certo momento più transizioni diventano superabile, esse vengono effettivamente superate tutte contemporaneamente.
+
+Azioni e qualificatori
+Ad ogni azione è associato un qualificatore che ne specifica le proprietà, i principali qualificatori sono:
+
+N (non-stored, azione continua);
+L'azione inizia quando la fase è attiva e si disattiva quando la fase è disattivata
+L (time-limited, azione limitata nel tempo);
+P (pulse, azione impulsiva);
+S (stored o set, azione impostata):
+R (reset, azione arrestata).

@@ -1,0 +1,17 @@
+Scopus è un database di riassunti e citazioni per articoli di pubblicazioni riguardanti la ricerca. Il database è stato creato nel 2004 dalla casa editrice Elsevier.
+
+Caratteristiche
+Scopus è aggiornato periodicamente e offre il contenuto di oltre 29100 giornali sottoposti a processo di peer reviewing in ambito scientifico, tecnico, medico e sociale.
+
+In Scopus sono presenti 435 milioni di pagine web a carattere scientifico; 23 milioni di brevetti depositati nei cinque principali uffici brevetti del mondo (US Patent Office, European Patent Office, World Intellectual Property Organization, Japan Patent Office e UK Intellectual Property Office); oltre 80 fonti selezionate da varie istituzioni che comprendono archivi digitali e collezioni relative a specifici argomenti.
+
+Il portale permette la visualizzazione diretta di abstract e degli articoli completi cercati, permette l'impostazione di alerts per rimanere aggiornati circa uno specifico argomento o le pubblicazioni di un dato autore. In aggiunta ai dati bibliografici, Scopus offre anche servizi bibliometrici tra cui il calcolo dell'indice di Hirsch (h index). Tali servizi sono stati tra l'altro utilizzati nella prima valutazione della qualità della ricerca pubblica italiana, riferita al periodo 2004-2010, da parte dell'agenzia ANVUR. L'uso di indicatori di questo tipo nella valutazione universitaria ha suscitato molte polemiche, a causa della copertura non completa delle banche dati e dell'accesso non libero.
+
+Senza una sottoscrizione o d'istituto o personale è consentito reperire solamente informazioni di base relative a ciascun autore. È comunque possibile accedere a questo tipo di servizi di informazione dalle proprie connessioni personali (smartphone, netbook, pc, etc). Su iOS esiste un'applicazione creata appositamente per Scopus.
+
+Unitamente a Google Scholar, l'indicizzazione delle riviste nella base di conoscenza Scopus è spesso utilizzata in ambito accademico per valutare la qualità di una pubblicazione, anche se, secondo uno studio recente, un numero notevole di riviste predatorie (circa un quarto del totale) di dubbio valore scientifico sarebbero comunque indicizzate su Scopus.
+
+Elsevier afferma che all'interno di Scopus sono indicizzate più di 2.300 Open Access (OA). Nel luglio 2018, Elsevier ha sottoscritto un accordo di partenariato con l'organizzazione senza scopo di lucro Impactstory per migliorare la funzionalità di ricerca avanzata degli articoli e delle riviste OA.
+
+Accoglienza
+Uno studio comparativo del 2006 mise a confronto le funzionalità di Scopus e di Web of Science (WoS), concludendo che i due servizi web si completano a vicenda. La copertura temporale di WoS è più estesa poiché include le pubblicazioni scientifiche a partire dal 1945, mentre l'archivio online di Scopus è disponibile solamente dall'anno 1956. Al contrario, Scopus presenta una migliore usabilità anche per gli utenti meno esperti, oltre ad una maggiore varietà interdisciplinare e a un'interfaccia che facilita l'utente nel reperimento di risultati correlati e non strettamente attinenti alla propria disciplina.

@@ -1,0 +1,7 @@
+Un carico nell'ingegneria strutturale è un sistema di forze applicate che possono originare una deformazione e conseguente stato di sollecitazione in una struttura.
+
+Un carico distribuito è una forza applicata su una superficie avente dimensioni finite, come una linea o un'area, e distribuita sulla stessa secondo una definita legge (equazione) che fornisca la pressione per ciascun punto (di dimensioni infinitesime) della superficie.
+Nel caso di un carico distribuito su una trave, si usa considerare quest'elemento come un'asta, per via della lunghezza che prevale sulle dimensioni trasversali. Il carico complessivo è la somma (integrale) di tutte le forze infinitesime moltiplicate per la rispettiva area (infinitesima) di applicazione, il carico locale è invece il valore di pressione definito per ciascun punto dell'area di applicazione: si dice che il carico distribuito è "uniforme" se il suo valore locale o pressione è il medesimo in ogni punto e come tale può essere calcolato dividendo il carico complessivo per la misura dell'area di applicazione.
+
+Si misura in Pascal, pari a N/metro quadro, e nei rispettivi multipli e sottomultipli.
+Nel caso di un carico distribuito su una linea, l'unità di misura diviene N/m.

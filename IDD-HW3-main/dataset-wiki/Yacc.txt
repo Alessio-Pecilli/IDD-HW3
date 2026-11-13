@@ -1,0 +1,14 @@
+YACC (Yet Another Compiler Compiler) è un generatore di parser nel linguaggio di programmazione C originariamente presente in Unix dal .
+
+Caratteristiche
+Yacc genera un parser per una grammatica fornita nella notazione BNF. L'output di Yacc è in linguaggio C.
+
+Storia
+Noto negli anni 1970 come strumento proprietario fornito dai Bell Laboratories per il sistema operativo Unix, la pubblicazione di Yacc come software libero avvenne successivamente nel come strumento fornito in Plan 9.
+
+Analogamente ad altri strumenti disponibili originariamente su Plan 9, Yacc fu soggetto a vari port per altri sistemi unix-like e fu ad esempio disponibile nei sistemi Debian dal 2005 attraverso il pacchetto 9base.
+
+Alternative
+Nel tempo nacquero varie alternative a Yacc. Una delle prime fu quella del progetto GNU sviluppata a partire dal 1984 e nota come GNU Bison. Nel 1990, per mano dell'autore originale di GNU Bison, nacque anche il programma byacc per conto di Berkeley Software Distribution. Sia GNU Bison che byacc furono disponibili in Debian già dal 1997.
+
+Fra vari altri software analoghi a Yacc è da citare JavaCC. Fu sviluppato originariamente per conto di Sun Microsystems per generare compilatori del linguaggio Java. Venne rilasciato intorno al 2003.

@@ -1,0 +1,2 @@
+Il Turbo-Basic XL è una versione avanzata del linguaggio BASIC per gli home computer della Famiglia Atari a 8 bit sviluppato da Frank Ostrowski e pubblicato nel dicembre 1985 nella rivista di computer tedesca Happy computer.
+Il Turbo-Basic XL, compatibile con l'Atari BASIC, è dotato di un maggior numero di comandi. Inoltre la sua caratteristica principale è la velocità di esecuzione del software con esso sviluppato. Era inoltre disponibile un compilatore Turbo-Basic XL che creava direttamente codice binario eseguibile che incrementava ulteriormente la velocità di esecuzione.

@@ -1,0 +1,14 @@
+Un nat (a volte detto anche nit o nepit) è un'unità logaritmica di informazione o entropia, basata su logaritmi naturali e potenze di e, invece che su potenze di 2 e logaritmi in base 2 che definiscono il bit.
+
+Il nat è l'unità naturale per l'entropia dell'informazione. Sistemi fisici di unità naturali che normalizzano la costante di Boltzmann a 1 stanno effettivamente misurando l'entropia termodinamica in nat.
+
+Quando l'entropia di Shannon viene scritta usando un logaritmo naturale,
+
+si sta implicitamente dando un numero misurato in nat.
+
+Un nat corrisponde a circa 1,44 bit , o 0,434 ban .
+
+Origini
+Alan Turing utilizzò il ban naturale.
+
+Boulton e Wallace usarono il termine nit in congiunzione con la lunghezza del messaggio minimo che fu poi cambiata per la comunanza con la lunghezza di descrizione minima al nat per evitare confusione con il nit usato come un'unità di luminanza.

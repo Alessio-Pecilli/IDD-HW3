@@ -1,0 +1,45 @@
+NesC (pronunciato "NES-see") è un linguaggio di programmazione a eventi, basato su componenti, per sistemi dedicati (embedded, "incapsulati"). David Gay, uno dei principali progettisti, lo definisce "dialetto del C".
+NesC è stato progettato da David Gay (Intel Research), Phil Levis (Stanford University), Rob Von Behren (U.C. Berkeley), Matt Welsh (Harvard University), Eric Brewer (U.C. Berkeley) e David Culler (U.C. Berkeley) per sviluppare TinyOS, un sistema operativo guidato dagli eventi (event driven), progettato specificamente per i mote, i nodi delle reti wireless di sensori. Di conseguenza, è usato anche per scrivere i programmi applicativi per i mote che utilizzano TinyOS.
+Il successo di TinyOS e di NesC è dovuto al fatto che siano open-source (sotto i termini della Berkeley Software Distribution License), siano stati sviluppati e resi pubblici tempestivamente, nonché alla posizione di prestigio e rilevanza internazionale di cui gode l'università di Berkeley nel campo dell'I.T.
+
+Introduzione alla programmazione con NesC e TinyOS
+
+I concetti principali che sono dietro NesC sono:
+la separazione dell'implementazione dalla composizione delle componenti;
+la specificazione del comportamento di una componente in termini di un insieme di interfacce;
+la suddivisione delle funzioni delle interfacce in due gruppi: i comandi, funzioni implementate, da usare, e gli eventi, funzioni da implementare, che gestiscono le situazioni che si verificano di volta in volta nel sistema.
+
+Un'applicazione completa, chiamata configurazione, può essere realizzata assemblando diverse componenti (moduli) software.
+Il seguente programma per TinyOS 2, chiamato BlinkCntAppC, ad esempio, assembla la componente BlinkCntC, la componente MainC, un'istanza della componente TimerMilliC e la componente LedsC.
+
+Le interfacce possono essere fornite o usate dalle componenti. Le interfacce fornite rappresentano le funzionalità che una componente fornisce agli utenti; le interfacce usate rappresentano le funzionalità che una componente necessita per effettuare il proprio lavoro.
+
+Nel programma BlinkCntAppC, la componente BlinkCntC usa l'interfaccia Boot fornita da MainC, usa l'interfaccia Timer fornita da un'istanza della componente TimerMilliC e usa l'interfaccia Leds fornita dalla componente LedsC.
+
+I comandi, invocati con la parola riservata call, sono implementati dalla componente che fornisce l'interfaccia, mentre gli eventi, dichiarati con la parola riservata event, vengono implementati dalle componenti che utilizzano l'interfaccia.
+Tornando all'esempio, la componente BlinkCntC usa i comandi startPeriodic dell'interfaccia Timer e set dell'interfaccia Leds mentre implementa gli eventi booted dell'interfaccia Boot e fired dell'interfaccia Timer.
+Le specifiche delle interfacce e delle componenti sono contenute nella documentazione dell'API relativa alla piattaforma adottata.
+
+In TinyOS tutti i comandi sono non bloccanti e il loro completamento è segnalato da un evento.
+Inoltre, una componente non può chiamare un comando finché non fornisce un'implementazione degli eventi associati a quel comando. Tipicamente, l'invocazione di comandi richiama funzioni che sono implementate negli strati software inferiori, cioè quelli che vanno dall'applicazione all'hardware, mentre gli eventi richiamano funzioni implementate negli strati software superiori, che vanno dall'hardware all'applicazione, fatta eccezione per alcuni eventi primitivi che sono collegati direttamente ad interruzioni hardware. In questo senso, si dice che TinyOS sia bidirezionale.
+Le componenti, attraverso l'uso delle interfacce, sono saldamente collegate le une con le altre. Ciò incrementa l'efficienza a tempo d'esecuzione, sostiene un design robusto e snellisce l'analisi dei programmi.
+
+Per compilare i programmi, i file .nc contenenti il codice NesC sorgente, viene utilizzato il potente ed estensibile sistema make dei sistemi Unix like.
+Si supponga di essere nella directory che contiene i file BlinkCntAppC.nc, BlinkCntC.nc e un Makefile con il seguente contenuto:
+
+COMPONENT=BlinkCntAppC
+include $(MAKERULES)
+
+si può compilare l'applicazione per una determinata piattaforma e caricare il programma oggetto sul mote digitando nella shell il comando:
+
+make piattaforma install,id_del_nodo programmatore,porta
+
+Ad esempio, per la piattaforma Mica2, scegliendo 0 come identificatore del nodo, utilizzando il programmatore MIB510 e la porta seriale chiamata, in Windows, COM1 (in Linux prende il nome di /dev/ttyS0) si scrive:
+
+make mica2 install,0 mib510,com1
+
+Al termine del caricamento, il mote si avvierà e in un attimo genererà l'evento Boot.booted che farà partire un timer che scandisce i secondi. Da questo momento in poi, ad ogni secondo, i tre LED del mote visualizzeranno i valori di un contatore binario che conta da 000 (off, off, off) a 111 (on, on, on).
+
+Di seguito viene riportato un esempio che utilizza i task.
+Un nuovo task viene inviato allo scheduler usando la parola riservata post.
+Questo programma modifica ogni secondo lo stato del LED rosso, da acceso a spento o viceversa. Ad ogni cambiamento di stato viene inviato un nuovo task allo scheduler.

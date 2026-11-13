@@ -1,0 +1,3 @@
+Il PLaSM (Programming LAnguage for Symbolic Modelling) è un linguaggio funzionale basato su Scheme usato per definire ed esportare modelli geometrici e animazioni nei formati grafici comuni quali Flash, Shockwave, VRML.
+
+L'interprete (server PLaSM) e l'ambiente di lavoro (il client XPlode), sono multipiattaforma e distribuiti sotto licenza GNU GPL.

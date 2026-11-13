@@ -1,0 +1,32 @@
+Metis, o Metide (Μῆτις in lingua greca) o Giove XVI, è il più interno fra i satelliti naturali di Giove. Appartiene al gruppo di Amaltea, che si compone di quattro piccoli satelliti interni del pianeta.
+
+Scoperta
+La scoperta di Metis risale al 4 marzo 1979 quando fu individuato grazie alle immagini inviate alla Terra dalla sonda spaziale statunitense Voyager 1 e ricevette la designazione provvisoria S/1979 J3.
+Nel 1983 l'IAU gli assegnò la denominazione ufficiale con il nome della titanide Meti, prima moglie di Zeus e madre di Atena secondo la mitologia greca.
+
+Nelle immagini riprese da Voyager 1, Metis appariva soltanto come un piccolo puntino che si stagliava contro lo sfondo formato dalle nubi di Giove; le conoscenze sulla sua superficie erano pertanto moto limitate.
+Ulteriori osservazioni effettuate dalla sonda Galileo tra l'inizio del 1996 e il settembre 2003 permisero una riproduzione della sua intera superficie e fornire alcune indicazioni sulla sua composizione.
+
+È possibile che anche la sonda spaziale Juno, lanciata nel 2016 e dotata della fotocamera JunoCam, possa riprendere qualche nuova immagine di Metis e Adrastea.
+
+Caratteristiche fisiche
+Metis è in rotazione sincrona con Giove e la sua forma è fortemente asimmetrica; il diametro maggiore è quasi il doppio del minore. Assieme a Adrastea sono gli unici due satelliti di Giove che orbitano attorno al pianeta in meno di un giorno gioviano.
+
+La forma di Metis è fortemente irregolare; le sue dimensioni di 60&thinsp;×&thinsp;40&thinsp;×&thinsp;34&nbsp;km lo rendono il secondo più piccolo dei quattro satelliti interni di Giove. Una stima approssimativa della sua superficie dovrebbe essere compresa tra 5.800 e 11.600 km2. La sua composizione e la massa non sono note, ma assumendo una densità di (~0.86&nbsp;g/cm³), simile a quella di Amaltea, ne risulterebbe una massa di ~3.6×1016&nbsp;kg. Questa densità implica che il corpo è composto di ghiaccio d'acqua con una porosità del 10–15%.
+
+La superficie di Metis è fortemente craterizzata e appare di colore scuro tendente al rosso. C'è una notevole asimmetria tra l'emisfero rivolto verso il pianeta e quello opposto; il primo è 1,3 volte più luminoso del secondo. L'asimmetria potrebbe essere collegata alla maggiore velocità e frequenza degli impatti sulla faccia rivolta verso il pianeta, che scavano un materiale più chiaro (probabilmente ghiaccio) dall'interno del satellite.
+
+Parametri orbitali
+Metis è il più interno dei quattro piccoli satelliti interni di Giove. Orbita attorno al pianeta a una distanza media di ~128,000&nbsp;km (1,79 volte il raggio di Giove), all'interno dell'anello principale. L'orbita è caratterizzata da una piccola eccentricità (~0,0002) e una bassa inclinazione (~ 0,06°) relativa al piano equatoriale di Giove.
+
+A causa della risonanza orbitale, Metis è in rotazione sincrona con il suo periodo orbitale (circa 7 ore), e il suo asse maggiore è orientato in direzione di Giove. Metis è il più veloce tra i satelliti di Giove; la sua velocità è stata calcolata in 31,5&nbsp;km/s. Giove eclissa Metis per 68 minuti di ogni giorno del satellite.
+
+Metis è situato all'interno dell'anello principale di Giove e probabilmente costituisce la fonte principale del materiale che lo compone. Analogamente a quanto si verifica per Adrastea, la distanza del satellite dal pianeta è minore del raggio dell'orbita sincrona; l'effetto delle forze mareali sta quindi provocando un graduale ed inesorabile decadimento della sua orbita.
+
+Se la sua densità è simile a quella di Amaltea, l'orbita potrebbe trovarsi in prossimità del limite di Roche, che per Giove si aggira intorno ai 170.000 km. Il fatto che il satellite non è ancora stato disgregato, implica che il limite non è ancora stato raggiunto.
+
+Relazione con gli anelli di Giove
+
+L'orbita di Metis si colloca ~1.000&nbsp;km all'interno dell'anello principale di Giove. Il satellite si muove entro una divisione larga ~500&nbsp;km.
+
+C'è una chiara correlazione tra la divisione nell'anello e il satellite, anche se l'origine non è ancora stata chiarita. Metis è una fonte importante della polvere dell'anello principale. Il materiale consiste principalmente di sostanza estratta dalla superficie dei quattro satelliti del gruppo di Amaltea in seguito a impatti meteoritici. Queste sostanze sono facilmente disperse nello spazio in quanto la superficie dei satelliti si trova al limite della loro sfera di Hill a causa della loro bassa densità.

@@ -1,0 +1,19 @@
+Questo è un elenco cronologico dei linguaggi di programmazione per ordine di apparizione. Di ognuno viene riportato l'eventuale predecessore, l'anno in cui è apparso, il nome del linguaggio stesso, l'autore (se noto) e, in alcuni casi, l'azienda dove è stato sviluppato.
+
+Prima degli anni '50
+
+Anni '50
+
+Anni '60
+
+Anni '70
+
+Anni '80
+
+Anni '90
+
+Anni 2000
+
+Anni 2010
+
+Anni 2020

@@ -1,0 +1,12 @@
+ABC è un linguaggio di programmazione imperativo dalla tipizzazione forte e con supporto per il polimorfismo, sviluppato presso il Centrum voor Wiskunde en Informatica (CWI) da Leo Geurts, Lambert Meertens e Steven Pemberton. È stato concepito come successore di BASIC, Pascal e Awk. Inoltre s'ispira a SETL e ALGOL 68. L'ultima versione del linguaggio (1.05.02) funziona sotto Unix, DOS, Atari e Macintosh.
+
+Esempio
+Segue un esempio di una funzione words che restituisce una collezione di parole presenti all'interno di un documento:
+
+HOW TO RETURN words document:
+PUT {} IN collection
+FOR line IN document:
+FOR word IN split line:
+IF word not.in collection:
+INSERT word IN collection
+RETURN collection

@@ -1,0 +1,5 @@
+Una Base di dati in tempo reale o Database in tempo reale è un sistema progettato per gestire carichi di lavoro che sono in costante cambiamento.
+Differiscono dalle basi di dati tradizionali che contengono dati persistenti, per lo più stabili nel tempo.
+Un esempio in cui i dati cambiano velocemente nel tempo possono essere i mercati azionari e le borse.
+I processi in tempo reale sono intesi come transazioni da elaborare tanto veloce quanto da dare un risultato con cui agire nello stesso tempo.
+Queste basi di dati sono utili anche per operazioni bancarie, registrazioni mediche, in campo giuridico, multimediale, sistemi di prenotazione e analisi di dati scientifici.

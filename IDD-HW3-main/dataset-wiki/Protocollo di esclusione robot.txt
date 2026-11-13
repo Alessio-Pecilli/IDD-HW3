@@ -1,0 +1,128 @@
+Il protocollo di esclusione robot (in inglese Robots Exclusion Standard) indica, nel gergo di internet e più in generale del web, le regole indicate dai gestori di un sito web ai crawler che lo visitano, chiedendo di applicare restrizioni di analisi sulle pagine del sito. Esse sono contenute nel file robots.txt, ideato nel giugno 1994 con il consenso dei membri della robots mailing list (robots-requestnexor.co.uk). In questo momento non esiste un vero e proprio standard per il protocollo robots.
+
+Il ruolo dei crawler
+I web crawler sono dei software automatici programmati per effettuare ricerche ed indicizzazioni periodiche. Nella prima fase di analisi di un sito web dovrebbero controllare l'esistenza del file robots.txt ed applicare eventuali restrizioni richieste dal webmaster del sito. Non tutti i robot però ottemperano alle richieste contenute nel file robots.txt.
+
+Standard
+Quando il proprietario di un sito desidera fornire istruzioni ai robot Web, inserisce un file di testo denominato robots.txt nella radice della gerarchia del sito Web (ad es. https://www.example.com/robots.txt). Questo file di testo contiene le istruzioni in un formato specifico (vedere gli esempi di seguito). I robot che scelgono di seguire le istruzioni provano a recuperare questo file e leggono le istruzioni prima di recuperare qualsiasi altro file dal sito web. Se questo file non esiste, i robot web presumono che il proprietario del sito web non desideri porre alcuna limitazione alla scansione dell'intero sito.
+
+Un file robots.txt su un sito web funzionerà come una richiesta che i robot indicati ignorino i file o le directory specificati durante la scansione di un sito. Ciò potrebbe derivare, ad esempio, da una preferenza per la privacy dai risultati dei motori di ricerca o dalla convinzione che il contenuto delle directory selezionate potrebbe essere fuorviante o irrilevante per la categorizzazione del sito nel suo insieme, o dal desiderio che un'applicazione funzioni solo su determinati dati. I collegamenti alle pagine elencate in robots.txt possono ancora essere visualizzati nei risultati di ricerca se sono collegati a una pagina sottoposta a scansione.
+
+Un file robots.txt copre un'origine. Per i siti web con più sottodomini, ogni sottodominio deve avere il proprio file robots.txt. Se example.com avesse un file robots.txt ma a.example.com no, le regole che si applicherebbero per example.com non si applicherebbero a a.example.com. Inoltre, ogni protocollo e porta necessita del proprio file robots.txt; http://example.com/robots.txt non si applica alle pagine in http://example.com:8080/ o https://example.com/.
+
+Alcuni dei principali motori di ricerca che seguono questo standard includono Ask, AOL, Baidu, DuckDuckGo, Google, Yahoo!, e Yandex. Bing non è completamente compatibile con lo standard in quanto non può ereditare le impostazioni dal carattere jolly (*).
+
+Il gruppo di volontari Archive Team ignora esplicitamente e abitualmente il file robots.txt, considerandolo uno standard obsoleto che ostacola gli sforzi di archiviazione web. Secondo il responsabile del progetto Jason Scott, "deselezionato e lasciato da solo, il file robots.txt non garantisce il mirroring o il riferimento per elementi che potrebbero avere un uso generale e un significato al di fuori del contesto del sito web".
+
+Per alcuni anni Internet Archive non ha eseguito la scansione dei siti con robots.txt, ma nell'aprile 2017 ha annunciato che non avrebbe più rispettato le direttive nei file robots.txt. "Nel tempo abbiamo osservato che i file robots.txt destinati ai crawler dei motori di ricerca non servono necessariamente ai nostri scopi di archiviazione". Ciò era in risposta agli interi domini che venivano taggati con robots.txt quando il loro contenuto è diventato obsoleto.
+
+Sicurezza
+Nonostante l'uso dei termini "allow" e "disallow", il protocollo è puramente consultivo e si basa sulla conformità del web robot. È improbabile che i robot web dannosi rispettino il file robots.txt; alcuni potrebbero persino utilizzare il file robots.txt come guida per trovare link non consentiti e accedervi direttamente. Anche se a volte si afferma che questo sia un rischio per la sicurezza, questo tipo di sicurezza attraverso l'oscurità è scoraggiato dagli organismi di normalizzazione. Il National Institute of Standards and Technology (NIST) negli Stati Uniti si è espresso specificamente contro questa pratica: "La sicurezza del sistema non dovrebbe dipendere dalla segretezza dell'implementazione o dei suoi componenti". Nel contesto dei file robots.txt, la sicurezza attraverso l'oscurità non è consigliata come tecnica di sicurezza.
+
+Alternative
+Molti robot trasmettono anche uno speciale user-agent al server web durante il recupero del contenuto. Un amministratore web potrebbe anche configurare il server in modo che restituisca automaticamente un errore (o trasmetta contenuto alternativo) quando rileva una connessione utilizzando uno dei robot.
+
+Alcuni siti, come Google, ospitano un file humans.txt che mostra informazioni destinate alla lettura da parte degli esseri umani. Alcuni siti come GitHub reindirizzano human.txt a una pagina di informazioni.
+
+In precedenza Google aveva ospitato un file di scherzo su /killer-robots.txt per istruire il Terminator a non uccidere i fondatori dell'azienda Larry Page e Sergey Brin.
+
+Formato del file robots.txt
+Il file utilizza un protocollo molto semplice che permette di definire il robot al quale applicare la regola e le pagine e directory da non indicizzare.
+
+Ogni riga del file contiene un record. Ogni record ha la seguente sintassi:
+
+I campi disponibili sono:
+User-Agent: il valore di questo campo contiene il nome del robot che si deve attenere alle restrizioni. Con il carattere * la regola viene applicata a qualsiasi robot.
+Disallow: il valore di questo campo contiene le pagine del sito che devono essere escluse dai robot durante l'indicizzazione. Si può indicare un URL specifico o una serie di URL appartenenti ad un pattern.
+
+Per ogni User-Agent è possibile specificare una o più restrizioni tramite Disallow.
+
+Esempi
+Ecco alcuni esempi classici dell'utilizzo del file robots.txt.
+
+Per permettere l'accesso a tutto il sito web, non indicare nulla nella direttiva Disallow. Alcuni crawler supportano anche la direttiva Allow.
+
+User-agent: *
+Disallow:
+
+Per bloccare un intero sito, utilizza una barra.
+
+User-agent: *
+Disallow: /
+
+Per bloccare una directory e il relativo contenuto, fai seguire il nome della directory da una barra.
+
+User-agent: *
+Disallow: /private_directory/
+
+Per bloccare una pagina, indica tale pagina.
+
+User-agent: *
+Disallow: /private_file.html
+
+Per segnalare il file sitemap del sito.
+
+Sitemap: http://www.example.com/sitemap.xml
+
+Esiste inoltre la direttiva Crawl-Delay, che permette di limitare la velocità di accesso al server da parte dei crawler che la supportano, indicando il minimo tempo di attesa, in secondi, tra due richieste consecutive.
+
+Se, al posto dell'asterisco, si inserisce una stringa user-agent, nella direttiva User-Agent, le regole verranno limitate al crawler identificato da tale user-agent.
+
+Estensione Standard
+Su Extended Standard for Robot Exclusion sono stati proposti due nuovi parametri: Request-rate e Visit-time:
+
+User-agent: *
+Disallow: /private_directory/ # Blocca la directory /private_directory/
+Request-rate: 1/5 # Visita al massimo una pagina ogni 5 secondi
+Visit-time: 0600-0845 # Visita soltanto tra le 6:00 AM e le 8:45 AM UT (GMT)
+
+Estensioni non Standard
+Direttiva sul ritardo della scansione
+Il valore del ritardo della ricerca per indicizzazione è supportato da alcuni crawler per limitare le loro visite all'host. Poiché questo valore non fa parte dello standard, la sua interpretazione dipende dal crawler che lo legge. Viene utilizzato quando il burst multiplo di visite da parte dei bot sta rallentando l'host. Yandex interpreta il valore come il numero di secondi da attendere tra le visite successive. Bing definisce il ritardo della scansione come la dimensione di una finestra temporale (da 1 a 30 secondi) durante la quale BingBot accederà a un sito web solo una volta. Google fornisce un'interfaccia nella sua console di ricerca per i webmaster, per controllare le visite successive di GoogleBot.
+
+User-agent: bingbot
+Allow : /
+Crawl-delay: 10
+
+Direttiva Allow
+Alcuni dei principali crawler supportano una direttiva Allow, che può contrastare una direttiva Disallow successiva. Ciò è utile quando si dice ai robot di evitare un'intera directory ma si desidera comunque che alcuni documenti HTML in quella directory vengano sottoposti a scansione e indicizzati. Mentre per l'implementazione standard vince sempre il primo pattern robots.txt corrispondente, l'implementazione di Google differisce in quanto Allow, ai pattern con caratteri uguali o superiori nel percorso della direttiva, vince su un pattern Disallow corrispondente. Bing utilizza la direttiva Allow o Disallow, a seconda di quale sia più specifica, in base alla lunghezza, come Google.
+
+Per essere compatibile con tutti i robot, se si desidera consentire singoli file all'interno di una directory altrimenti non consentita, è necessario inserire prima le direttive Allow, seguite da Disallow, ad esempio:
+
+Allow: /directory1/myfile.html
+Disallow: /directory1/
+
+Questo esempio disabiliterà qualsiasi cosa in /directory1/ eccetto /directory1/myfile.html, poiché quest'ultimo corrisponderà per primo. L'ordine è importante solo per i robot che seguono lo standard; nel caso dei bot Google o Bing, l'ordine non è importante.
+
+Sitemap
+Alcuni crawler supportano una direttiva Sitemap, che consente più Sitemap nello stesso robots.txt nella forma Sitemap: full-url
+
+Per esempio:
+
+Sitemap: http://www.example.com/sitemap.xml
+
+Host
+Alcuni crawler (Yandex) supportano una direttiva Host, che consente ai siti web con più mirror di specificare il proprio dominio preferito:
+
+Host: hosting.example.com
+
+Questo non è supportato da tutti i crawler.
+
+Corrispondenza "*" universale
+Lo standard di esclusione dei robot non menziona il carattere "*" nella dichiarazione Disallow:
+
+Meta tag e intestazioni
+Oltre ai file robots.txt a livello di root, le direttive di esclusione dei robot possono essere applicate a un livello più granulare tramite l'uso di meta tag Robots e intestazioni HTTP X-Robots-Tag. Il meta tag robots non può essere utilizzato per file non HTML come immagini, file di testo o documenti PDF. D'altra parte, l'X-Robots-Tag può essere aggiunto a file non HTML utilizzando file.htaccess e httpd.conf.
+
+Un meta tag "noindex"
+
+Un'intestazione di risposta HTTP "noindex"
+
+X-Robots-Tag: noindex
+
+X-Robots-Tag è efficace solo dopo che la pagina è stata richiesta e il server ha risposto, e il meta tag robots è efficace solo dopo che la pagina è stata caricata, mentre robots.txt è efficace prima che la pagina venga richiesta. Pertanto, se una pagina viene esclusa da un file robots.txt, tutti i meta tag robots o le intestazioni X-Robots-Tag vengono effettivamente ignorati perché il robot non li vedrà in primo luogo.
+
+Utilizzo
+Una volta che il file robots.txt è stato creato deve essere inserito nella directory principale del dominio ed avere il nome esatto "robots.txt". Se viene memorizzato in una directory diversa, i robot non lo troveranno in quanto di default effettuano la ricerca nella directory principale del dominio.
+
+Se non si ha accesso alla directory principale di un dominio, è possibile limitare l'accesso utilizzando il meta tag Robots.

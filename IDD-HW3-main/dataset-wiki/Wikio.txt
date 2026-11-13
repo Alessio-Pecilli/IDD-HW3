@@ -1,0 +1,12 @@
+Wikio è stato un motore di ricerca di notizie compilato direttamente dai propri utenti. Monitorava migliaia di fonti d'informazione, estraendo in particolare in tempo reale le notizie di agenzia che classifica tematicamente per poi archiviarle in un database di milioni di documenti. L'archiviazione degli articoli si basava sulla pertinenza delle notizie e della popolarità di queste espressa dai lettori che votano, commentano o che scrivono a loro volta degli articoli.
+
+Storia di Wikio
+Wikio è stato creato, tra gli altri, da Pierre Chappaz, fondatore di Kelkoo, e da Laurent Binard. Del gruppo iniziale dei creatori del servizio faceva parte anche un italiano, Lorenzo Viscanti
+. Il servizio è stato ufficialmente lanciato il 19 giugno 2006 dopo una fase di test che ha visto coinvolti più di beta-testers. La versione online continua a mantenere la dicitura Beta. La sede sociale è in Lussemburgo ed il suo capitale è di 1.666.175 euro.
+
+A differenza dei motori di ricerca di notizie come Google News o Yahoo! Notizie, Wikio cercava le notizie sia nei media classici che nei blog.Chiunque poteva proporre una fonte a Wikio tramite un formulario, o scrivere direttamente un articolo. Wikio permetteva ai propri lettori di votare una notizia, condizionandone così la visibilità, e di commentarle. Quando un lettore cliccava sul titolo di una notizia viene diretto nella pagina che ospita l'articolo originale. Il sistema utilizzava la tecnologia di ricerca semantica multilingue sviluppata dalla società Sinequa..
+Wikio disponeva di una pagina dedicata esclusivamente ai blog, dove le "discussioni" tra blog vengono aggregate. Ha lanciato inoltre un servizio di shopping in cui l'utente può trovare in una sola pagina, tutte le notizie, le prove e le opinioni, i prezzi di un articolo. Il motore era disponibile anche nella versione francese spagnola, inglese o tedesca e inglese.
+
+In tutta Europa circa 60 persone collaboravano al servizio, tra il team che si occupava di contenuti e quello che aveva in carico la tecnologia.
+
+Wikio chiedeva agli utenti che segnalavano una notizia di inserire un link sul proprio sito. Il sito successivamente è stato trasformato in un negozio online. Il dominio è rimasto lo stesso, quindi molti utenti hanno mantenuto nel proprio blog il link a Wikio pensando di riceverne in cambio benefici, continuando a credere che si tratti di un aggregatore di notizie da cui ricevono visite.

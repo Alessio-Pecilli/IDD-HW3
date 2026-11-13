@@ -1,0 +1,19 @@
+Nell'intelligenza artificiale, STRIPS (STanford Research Institute Problem Solver) è un pianificatore automatico sviluppato nel 1971 da Richard Fikes e Nils Nilsson dell'università di Stanford . Il sistema sfrutta la logica delle proposizioni espansa con i predicati ed il meccanismo di ricerca nello spazio degli stati, per ottenere una possibile sequenza di azioni che, se eseguite, provocano il raggiungimento di uno stato finale del mondo a partire da uno iniziale.
+
+Funzionamento
+Ogni stato del sistema manipolato dall'agente intelligente, compreso quello attuale e quello finale che si desidera ottenere, è rappresentato da una stringa di simboli nella logica STRIPS.
+Lo stato del sistema è descritto da una serie di predicati che possono essere veri o falsi, come previsto dalla logica proposizionale, ma è aggiunta la possibilità di definire insiemi di oggetti e funzioni che diano un risultato booleano in base a quali oggetti ricevono in input.
+
+Tale aggiunta comunque non aumenta il potere espressivo della logica, poiché sarebbe bastato esprimere tali funzioni utilizzando gli operatori operatori AND, NOT e OR. Si tratta quindi di un metodo per semplificare la formalizzazione dei problemi.
+
+L'agente intelligente è in grado di compiere un certo numero di operazioni che manipolano lo stato del sistema. Ognuna di queste operazioni ha dei prerequisiti e degli effetti sul sistema, che sono noti a priori e codificati nel linguaggio di STRIPS.
+
+Il risolutore STRIPS esplora lo spazio degli stati possibili, esplorando quali configurazioni si otterrebbero applicando a un certo stato le operazioni possibili per quello stato, applicandole al modello e ripetendo in modo ricorsivo l'operazione per tutti gli stati trovati, finché uno di essi non corrisponde allo stato finale.
+
+In questo modo STRIPS calcola la catena di operazioni da fare per raggiungere lo stato finale da quello iniziale passando eventualmente per degli stati intermedi, altrimenti dimostra che lo stato finale è irraggiungibile. Il calcolo è effettuato con complessità spaziale polinomiale, ma complessità temporale esponenziale. In particolare il problema di decidere se un piano per una istanza proposizionale di STRIPS esiste è PSPACE-completo.
+
+Applicazioni
+STRIPS è efficace in tutti quei casi in cui il problema e l'ambiente siano noti a priori con certezza ma ha alcune limitazioni:
+impossibilità di gestire delle differenze tra modello e ambiente;
+le modifiche al sistema devono sempre e solo avvenire per effetto dell'agente intelligente, quindi è inadatto alla cooperazione o all'interazione in generale;
+aumentando la complessità del modello, introducendo nuove variabili e operazioni, la quantità di tempo di calcolo necessario a pianificare un'operazione cresce esponenzialmente.

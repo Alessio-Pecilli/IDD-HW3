@@ -1,0 +1,13 @@
+Notable Names Database (NNDB), è una banca dati online, implementata dalla Soylent Communications, contenente dettagli biografici al 2017 circa 37.000 personalità.
+
+Il sito on line si descrive come un "aggregatore intelligente" , in pratica è un database che raccoglie informazioni biografiche offrendo nelle pagine collegamenti tra le persone o in via diretta o attraverso le categorie a cui appartengono.
+
+Funzioni
+Di ogni persona (in rari casi animali famosi) si riassumono dati essenziali della loro vita quali il nome, l'eventuale pseudonimo, il luogo di nascita, il luogo di morte, la causa di morte, il luogo di sepoltura, la nazionalità il credo religioso, il sesso, l'etnia, l'orientamento sessuale; vengono poi elencati i loro familiari, gli eventuali coniugi o fidanzati. Alcune persone hanno una breve biografia; inoltre possono esserci richiami alle organizzazioni di cui hanno fanno parte, delle loro malattie, delle loro fobie, delle loro dipendenze, il fare o l'aver fatto uso di droga, l'aver avuto condanne penali o altre notizie. Nel caso di attori, produttori o registi, l'articolo mostra una lista delle loro realizzazioni in ordine cronologico. NNDB ha anche articoli su film o gruppi musicali..
+
+I lettori possono suggerire aggiunte, correzioni, URL, indirizzi email, o immagini da un forum del sito web, che vengono poi controllati dal personale di NNDB.
+
+Una caratteristica del sito che è stata rimossa nel 2014 era il "Livello di fama" assegnato dal sito sulla base della sua percezione, che poteva variare da "Nicchia" a "Icona".
+
+NNDB Mapper
+È anche disponibile la mappa di NNDB, uno strumento visivo per esplorare i collegamenti tra le persone famose: lo strumento richiede Flash 7 e JavaScript. L'interfaccia permette all'utente di cercare come sono collegati i vari individui e le istituzioni.

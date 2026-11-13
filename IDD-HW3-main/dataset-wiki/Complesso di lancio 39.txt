@@ -1,0 +1,209 @@
+Il complesso di lancio 39 è un sito di lancio che fa parte del John F. Kennedy Space Center, situata a Merritt Island, sulla costa orientale della Florida, negli Stati Uniti, ed è costituita da tre piattaforme di partenza (39A, 39B e 39C), un edificio dove sono assemblati i lanciatori (Vehicle Assembly Building), un sistema viario utilizzato dal Mobile Launcher Platform per movimentare i lanciatori tra le varie piazzole e il VAB, l'Orbiter Processing Facility e il centro di controllo per i lanci.
+
+Il complesso, inizialmente costruito per il programma Apollo (1961 - 1972), Skylab (1973), il programma test Apollo-Sojuz (1975) e il programma Space Shuttle (1981-2011), fu in seguito utilizzato per gli Space Shuttle. Al 2019, l'unica piazzola operativa è la 39A, dalla quale decollano i Falcon Heavy e i Falcon 9 di SpaceX. La 39B, inizialmente riadattata nel 2007 per ospitare i lanciatori del programma Constellation, è stata in seguito modificata per il sistema di lancio pesante SLS il cui primo volo era previsto per la fine del 2021. La terza piazzola 39C, più piccola, è stata costruita nel 2015 per vettori orbitali leggeri.
+
+La NASA ha iniziato a modificare il Launch Complex 39B nel 2007 per accogliere l'ormai defunto programma Constellation, e in seguito per il programma Artemis. Un pad da designare 39C, che sarebbe stata una copia dei pad 39A e 39B, era stato originariamente progettato per Apollo ma mai costruito. Una piattaforma più piccola, denominata anche 39C, è stata costruita da gennaio a giugno 2015, per ospitare veicoli di lancio di piccole dimensioni.
+
+I lanci della NASA dai pad 39A e 39B sono stati supervisionati dal NASA Launch Control Center (LCC), situato a 4,8&nbsp;km dalle piattaforme di lancio. LC-39 è uno dei numerosi siti di lancio che condividono i servizi di rilevamento e radar dell'Eastern Test Range.
+
+Struttura
+
+Il John F. Kennedy Space Center è noto sia come base di lancio per i programmi spaziali Apollo, che portarono l'uomo sulla Luna, sia come attrazione turistica, dove i visitatori possono ammirare vari tipi di razzi, vettori spaziali, rampe di lancio e anche zone di assemblaggio dello Shuttle. Inizialmente è stato conosciuto col nome di Cape Canaveral, che è un promontorio in
+Florida che si affaccia sull'Oceano Atlantico. Questo fattore avrebbe salvato l'equipaggio della navetta da uno schianto a terra in caso di errori di partenza poiché sarebbero finiti in mare. Altro motivo fu che essendo il punto degli USA più vicino all'equatore - all'equatore la velocità lineare di qualsiasi pianeta è massima, mentre ai poli è nulla - i razzi avrebbero avuto una maggiore spinta iniziale. Situata sull'isola di Merritt, la base è stata costruita al fine di consentire i lanci mobili, ovvero quelli in cui i veicoli spaziali sono verificati ed assemblati in costruzioni coperte e poi trasportati nel punto di lancio finale.
+
+Durante il periodo Apollo le strutture in servizio erano mobili, poi successivamente durante l'epoca dello Space Shuttle (servizio a spola), sono state installate due torri permanenti.
+Su entrambe le torri erano poste delle antenne parafulmini per proteggere i missili da tali eventi atmosferici. Quella utilizzata durante il Programma Space Shuttle sul Pad 39A viene ancora oggi utilizzata da SpaceX.
+
+La struttura è composta da due complessi di lancio: Pad 39A, e Pad 39B, con un'area di circa ciascuna, una forma ottagonale ed un'altezza sul livello del mare di 15 metri per la costruzione A e 17 metri per quella B.
+
+La base dei pad è rinforzata con colate di cemento e calcestruzzo, e da un deflettore alto 12m, largo 23, e spesso 15, per deviare lateralmente il calore generato dai motori al lancio sotto alla piattaforma e diminuire notevolmente vibrazioni e suono potenzialmente fatali ad equipaggi e persone situate negli edifici di comando a pochi km di distanza. Grazie all’utilizzo aggiuntivo di un potente sistema idraulico capace di disperdere 1.100.000 litri d’acqua nel giro di pochi secondi, è stato possibile ridurre il rumore di un lancio (in questo caso dello Space Shuttle, ma anche SpaceX utilizza un impianto di nuova generazione per la soppressione del suono) a 160&nbsp;dB nella zona della piattaforma di lancio.
+
+Storia
+Northern Merritt Island fu sviluppata per la prima volta intorno al 1890, quando alcuni facoltosi laureati dell'Università di Harvard acquistarono 18.000 acri (73&nbsp;km²) e costruirono una clubhouse di mogano a tre piani, molto vicino al sito del Pad 39A. Durante gli anni '20, Peter E. Studebaker Jr., figlio del magnate automobilistico, costruì un piccolo casinò a De Soto Beach otto miglia (13&nbsp;km) a nord del faro di Canaveral.
+
+Nel 1948 la Marina militare trasferì l'ex stazione aerea navale di Banana River, situata a sud di Cape Canaveral, all'Air Force per testare i razzi V-2 tedeschi catturati. La posizione del sito sulla costa orientale della Florida era ideale per questo scopo, in quanto i lanci sarebbero stati sull'oceano, lontano dalle aree popolate. Questo sito è diventato il Joint Long Range Proving Ground nel 1949 ed è stato ribattezzato Patrick Air Force Base nel 1950. L'Air Force ha annesso parte di Cape Canaveral, a nord, nel 1951, formando lAir Force Missile Test Center, la futura Cape Canaveral Air Force Station (CCAFS). I test e lo sviluppo di missili si sarebbero svolti qui negli anni '50.
+
+Dopo la creazione della NASA nel 1958, le piattaforme di lancio CCAFS furono utilizzate per i lanci civili con e senza equipaggio della NASA, compresi quelli del Progetto Mercury e del Progetto Gemini. Nel 1958 fu adibita per il lancio del primo satellite artificiale americano, l'Explorer 1 il 31 gennaio. Nel 1967 venne ampliata con il Launch Complex 39 ed il relativo John F. Kennedy Space Center.
+
+Apollo e Skylab
+
+Nel 1961 il presidente John Fitzgerald Kennedy propose al Congresso l'obiettivo di inviare l'uomo sulla Luna entro la fine del decennio. L'approvazione del Congresso ha portato al lancio del programma Apollo, che ha richiesto una massiccia espansione delle operazioni della NASA, inclusa un'espansione delle operazioni di lancio dal Capo all'adiacente Merritt Island a nord e ovest. La NASA iniziò l'acquisizione di terreni nel 1962, ampliando la base a 131 miglia quadrate (340&nbsp;km²) mediante acquisto definitivo e negoziando con lo stato della Florida per ulteriori 87 miglia quadrate (230&nbsp;km²). Il 1º luglio 1962 il sito è stato chiamato il Launch Operations Center.
+
+Progettazione iniziale
+A quel tempo, la piattaforma di lancio con il numero più alto al CCAFS era Launch Complex 37. Quando il complesso di lancio lunare fu progettato, fu designato come Launch Complex 39. Era progettato per gestire i lanci del razzo Saturn V, il più grande e potente razzo mai progettato e costruito, che spinse la navicella spaziale Apollo sulla Luna.
+
+I piani iniziali prevedevano quattro pad (cinque sono stati considerati) distanziati uniformemente a metri l'uno dall'altro per evitare danni in caso di esplosione su un pad. Tre erano programmati per la costruzione (A, B e C, a sud-est), e due (D ed E, ovest e nord) sarebbero stati costruiti in un secondo momento. La numerazione dei rilievi a quel tempo era da nord a sud, con il più settentrionale 39A e il più meridionale 39C. Il pad 39A non fu mai costruito e il 39C divenne il 39A nel 1963.
+
+Con la numerazione odierna, il pad 39C sarebbe stato a nord del 39B, e il pad 39D sarebbe stato a ovest del 39C. Il pad 39E sarebbe stato a nord del punto medio tra il pad 39C e il 39D, con il pad 39E che formava la parte superiore di un triangolo ed equidistante dai pad 39C e 39D. Il Crawlerway è stato costruito pensando ai pad aggiuntivi, e per questo motivo si dirige verso il Pad 39B; proseguire dritto da quella svolta avrebbe portato ai pad aggiuntivi mai costruiti.
+
+Integrazione con l'edificio di assemblaggio del veicolo
+
+Mesi prima del lancio, i tre stadi del Saturn V e i componenti della navicella Apollo venivano portati all'interno del Vehicle Assembly Building (VAB) e assemblati verticalmente direttamente sul Mobile Launcher Platform (MLP), in italiano "Piattaforma di Lancio Mobile". Ogni lanciatore mobile consisteva in una piattaforma di lancio a due piani, 49 per 41 metri con quattro bracci di fissaggio e una Launch Umbilical Tower (LUT) di 136 metri, sormontata da una gru utilizzata per sollevare gli elementi del veicolo spaziale in posizione per il montaggio. Il ML e il veicolo senza carburante insieme pesavano tonnellate.
+
+La torre ombelicale conteneva due ascensori e nove bracci oscillanti retrattili estesi e ancorati con bulloni esplosivi al Saturn V, per fornire l'accesso a ciascuno dei tre stadi del razzo e al veicolo spaziale per le persone, i cavi e l'impianto idraulico, mentre il veicolo era sulla rampa di lancio e si è allontanato dal veicolo al momento del lancio. Tecnici, ingegneri e astronauti hanno utilizzato il braccio di accesso del veicolo spaziale più in alto per accedere alla cabina dell'equipaggio. Alla fine del braccio, la stanza bianca forniva un ambiente controllato e protetto per gli astronauti e le loro attrezzature prima di entrare nella navicella.
+
+Trasporto al pad
+
+Quando l'integrazione era completata, il Mobile Launcher Platform veniva spostato in cima al Crawler-transporter (CT) e veniva portato alla rampa di lancio posta a 4,8-6,4&nbsp;km dal Vehicle Assembly Building, ad una velocità di 1 miglio all'ora (1,6&nbsp;km/h). Ogni cingolato pesava tonnellate ed era in grado di mantenere il veicolo spaziale e la sua piattaforma di lancio a livello mentre percorreva la pendenza del 5% verso il pad. Al pad, l'MLP veniva posizionato su sei piedistalli in acciaio, più quattro colonne estensibili aggiuntive.
+
+Struttura del servizio mobile
+Dopo che l'MLP veniva posizionato, il trasportatore cingolato posizionava una struttura di servizio mobile (MSS) alta 125 metri e pesante tonnellate per fornire ulteriore accesso ai tecnici per eseguire un controllo dettagliato del veicolo e per effettuare i collegamenti ombelicali necessari al pad. L'MSS conteneva tre ascensori, due piattaforme semoventi e tre piattaforme fisse. l'MSS veniva spostato indietro di metri in una posizione di parcheggio poco prima del lancio.
+
+Deflettore di fiamma
+Mentre l'MLP era posizionato sui suoi piedistalli di lancio, uno dei due deflettori di fiamma veniva fatto scorrere su binari in posizione sotto di esso. Ogni deflettore misurava 12 metri di altezza per 15 m di larghezza per 23 metri di lunghezza e pesava 635 tonnellate. La sua funzione era quella di deviare la fiamme del motori del veicolo di lancio in una trincea che misura 13 metri di profondità, 18 metri di larghezza e 137 metri di lunghezza. Avere due deflettori consentiva di utilizzarne uno mentre l'altro veniva rinnovato dopo un lancio precedente.
+
+Controllo del lancio e rifornimento
+Il Launch Control Center (LCC) era costituito da quattro piani si trovava a 5,6&nbsp;km dal Pad A, adiacente al Vehicle Assembly Building, per motivi di sicurezza. Il terzo piano era composto da quattro stanze (corrispondenti alle quattro baie nel VAB), ciascuna con 470 set di apparecchiature di controllo e monitoraggio. Il secondo piano conteneva telemetria, monitoraggio, strumentazione e apparecchiature informatiche per l'elaborazione dei dati. L'LCC era collegato alle piattaforme di avvio mobile tramite un collegamento dati ad alta velocità; e durante il lancio un sistema di 62 telecamere a circuito chiuso trasmesse a 100 schermi di monitor nell'LCC.
+
+Grandi serbatoi criogenici situati vicino alle piazzole contenevano l'idrogeno liquido e l'ossigeno liquido (LOX) per il secondo e il terzo stadio del Saturn V. La natura altamente esplosiva di queste sostanze chimiche richiedeva numerose misure di sicurezza presso il complesso di lancio. I pad erano situati a metri di distanza l'uno dall'altro. Prima dell'inizio delle operazioni di rifornimento e durante il varo, il personale non essenziale era escluso dall'area di pericolo.
+
+Sistema di evacuazione di emergenza
+Ogni piazzola aveva un tubo di evacuazione di 61 metri che andava dalla piattaforma del lanciatore mobile a un bunker resistente alle esplosioni 12 metri sottoterra dotato di rifornimenti di sopravvivenza per 20 persone per 24 ore e raggiungibile da un ascensore ad alta velocità.
+
+Un ulteriore sistema di uscita di emergenza è stato installato per consentire la rapida fuga dell'equipaggio o dei tecnici dalla piattaforma in caso di imminente guasto catastrofico del razzo. In caso di emergenza, il complesso di lancio utilizzava un sistema di fuga a scorrimento per una rapida evacuazione, che comprendeva sette cesti sospesi su sette funi che si estendevano dalla struttura di servizio fissa fino a una zona di atterraggio a 370 metri a ovest, dove ogni cesto impattava contro una rete del sistema di frenata che trascinandola avrebbe rallentato e poi fermato i cesti. Ogni cesto poteva contenere fino a 3 persone ciascuno.
+
+Sala connessione terminali pad
+I collegamenti tra il Launch Control Center, la piattaforma mobile di lancio e il veicolo spaziale sono stati effettuati nella Pad Terminal Connection Room (PTCR), composta da una serie di stanze a due piani situate sotto la piattaforma di lancio sul lato ovest della trincea delle fiamme. La "stanza" è stata costruita in cemento armato e protetta da un massimo di 6,1 m di terra di riempimento.
+
+Lancio di Apollo e Skylab
+Il primo lancio dal Launch Complex 39 avvenne nel 1967 con il primo lancio del Saturn V, che trasportava la navicella spaziale Apollo 4 senza equipaggio. Anche il secondo lancio senza equipaggio, Apollo 6, utilizzava il pad 39A. Con l'eccezione dell'Apollo 10, che utilizzava il Pad 39B (a causa dei test "all-up" risultanti in un periodo di consegna di 2 mesi), tutti i lanci dell'Apollo-Saturn V con equipaggio, a partire dall'Apollo 8, utilizzarono il Pad 39A.
+
+Un totale di tredici Saturn V furono lanciati per Apollo e il lancio senza equipaggio della stazione spaziale Skylab nel 1973. I lanciatori mobili furono quindi modificati per i più corti razzi Saturn IB, aggiungendo una piattaforma di estensione "sgabello da latte" al piedistallo di lancio, in modo che lo stadio superiore dell'S-IVB e i bracci oscillanti della navicella Apollo raggiungessero i loro obiettivi.
+
+Tra il 1973 ed il 1975 avvennero le ultime 4 missioni, tutte con razzi Saturn IB, prima dell'inizio dei lavori di ristrutturazione per rendere la struttura compatibile per lo Space Shuttle: 3 missioni con equipaggio per il Programma Skylab, e l'ultima a veder volare una capsula Apollo, per la missione Apollo-Soyuz nel 1975, dal momento che i pad Saturn IB 34 e 37 a Cape Canaveral AFS erano stati dismessi.
+
+Space Shuttle
+
+Preparazione dell'orbiter
+
+La spinta per consentire allo Space Shuttle di raggiungere l'orbita è stata fornita da una combinazione dei Solid Rocket Booster (SRB) e dei motori RS-25. Gli SRB utilizzavano propellente solido, da cui il nome. I motori RS-25 utilizzavano una combinazione di idrogeno liquido e ossigeno liquido (LOX) posti nel serbatoio esterno (ET), poiché l'orbiter non aveva spazio per i serbatoi di carburante interni. Gli SRB arrivavano in segmenti tramite vagone ferroviario dal loro impianto di produzione nello Utah, il serbatoio arrivava dal suo impianto di produzione in Louisiana su chiatta e l'orbiter attendeva in uno dei tre Orbiter Processing Facility (OPF) situati al Kennedy Space Center in Florida, dove veniva revisionato. Una volta che lOrbiter aveva passato la revisione, riceveva una parte del carico utile della missione successiva e venivano caricati i materiali di consumo, al termine di queste operazioni l'orbiter veniva poi pesato al fine di determinare con precisione il suo centro di gravità, dato fondamentale per la corretta gestione dei parametri di volo da parte dei computer di bordo.
+
+La navetta veniva trasferita al Vehicle Assembly Building (VAB), dove veniva messo in posizione verticale e venivano installati i due booster laterali e il serbatoio esterno. Per tali operazioni venivano utilizzati due carriponte di 200 tonnellate cadauno, in grado di alzare la navetta a circa 100 metri. Al termine di tali operazioni, l'intero complesso veniva posizionato sulla Mobile Launcher Platform che veniva utilizzata per spostarlo verso il luogo di lancio e come base per il decollo.
+
+La struttura originale dei pad è stata rimodellata per le esigenze dello Space Shuttle, a partire dal Pad 39A dopo l'ultimo lancio del Saturn V, e, nel 1977, quello del Pad 39B dopo l'Apollo-Soyuz nel 1975. Il primo utilizzo del pad per lo Space Shuttle arrivò nel 1979, quando lEnterprise fu usata per controllare le strutture prima del primo lancio operativo.
+
+Strutture di servizio
+
+Ciascun pad conteneva un sistema a torre di accesso in due pezzi, la struttura di servizio fissa (FSS) e la struttura di servizio rotante (RSS). L'FSS ha consentito l'accesso allo Shuttle tramite un braccio retrattile
+
+Modifiche al braccio oscillante
+
+Il Gaseous Oxygen Vent Arm consisteva in un cappuccio, spesso chiamato "Beanie Cap", che veniva posizionato sopra la parte superiore del cono del serbatoio esterno (ET) durante il rifornimento. Qui veniva utilizzato azoto gassoso riscaldato per rimuovere l'ossigeno gassoso estremamente freddo che normalmente usciva dal serbatoio esterno, impedendo la formazione di ghiaccio che poteva cadere e danneggiare la navetta.
+
+Il braccio di accesso alla linea di sfiato dell'idrogeno accoppiava la piastra di trasporto ombelicale a terra del serbatoio esterno (GUCP) alla linea di sfiato dell'idrogeno della piattaforma di lancio. Il GUCP ha fornito supporto per tubature e cavi, chiamati ombelicali, che trasferivano fluidi, gas e segnali elettrici tra due apparecchiature.
+
+Mentre il serbatoio esterno veniva alimentato, il gas pericoloso veniva scaricato da un serbatoio di idrogeno interno, attraverso il GUCP, e fuori da una linea di sfiato fino a un camino dove veniva bruciato a una distanza di sicurezza. Il GUCP è stato riprogettato dopo che le perdite hanno creato strati di ghiaccio sul serbatoio della missione STS-127 e sono stati rilevati anche durante i tentativi di avvio di STS-119 e STS-133. Il GUCP veniva rilasciato dall'ET al momento del lancio, e veniva abbassato con una cortina di acqua spruzzata su di esso per proteggerlo dalle fiamme dei motori.
+
+Evacuazione di emergenza
+
+In caso di emergenza, il complesso di lancio utilizzava un sistema di fuga a scorrimento per una rapida evacuazione, che comprendeva sette cesti sospesi su sette funi che si estendevano dalla struttura di servizio fissa fino a una zona di atterraggio a 370 metri a ovest, dove ogni cesto impattava contro una rete del sistema di frenata che trascinandola avrebbe rallentato e poi fermato i cesti. Ogni cesto poteva contenere fino a 3 persone ciascuno.
+
+Assistito dai membri del team, l'equipaggio avrebbe lasciato l'orbiter tramite i cesti di emergenza, che scorrendo lungo le funi ad una velocità fino a 55 miglia all'ora (89&nbsp;km/h), li avrebbe condotti in una zona sicura a terra, da lì l'equipaggio si sarebbe rifugiato in un bunker sotterraneo. Un vettore corazzato M113 modificato avrebbe trasportato gli astronauti o i membri del team feriti lontano dal complesso in totale sicurezza.
+
+Dopo la fine dell'era Apollo, i bunker sotto le piattaforme di lancio del Launch Complex 39 del Kennedy Space Center posti uno sotto ciascuno dei pad LC-39A & LC-39B caddero in rovina. L'acqua si accumulava nei bunker e nei tunnel di uscita e diverse specie di fauna selvatica della Florida si stabilirono. Quando le piattaforme di lancio sono state rinnovate per lo Space Shuttle, i bunker sono stati classificati come "abbandonati sul posto" piuttosto che rinnovati con la piattaforma sopra. A partire dal 2012, il bunker del pad B fu chiusa a causa dei rischi derivati dalla vernice al piombo, ma il bunker del pad A rimane accessibile.
+
+Sistema idrico di soppressione del suono
+È stato aggiunto un sistema di soppressione del suono (SSWS) per proteggere lo Space Shuttle e il suo carico utile dagli effetti dell'intensa pressione delle onde sonore generata dai suoi motori. Un serbatoio d'acqua rialzato su una torre di 88 metri vicino a ciascuna piattaforma ha immagazzinato litri di acqua, che veniva rilasciata sulla piattaforma mobile del lanciatore appena prima dell'accensione dei motori. L'acqua attutiva le intense onde sonore prodotte dai motori, e a causa del riscaldamento dell'acqua, durante il lancio veniva prodotta una grande quantità di vapore acqueo.
+
+Lancio dello Space Shuttle
+Dopo il lancio dello Skylab nel 1973, il Pad 39A fu riconfigurato per accogliere lo Space Shuttle. Il primo lancio avvenne il 12 aprile 1981 alle 18:20:57 UTC con il lancio della missione STS-1 condotta dallo Space Shuttle Columbia.
+
+Dopo l'Apollo 10, il Pad 39B fu mantenuto come struttura di lancio di riserva in caso di distruzione del 39A, ma vide un servizio attivo durante tutte e tre le missioni Skylab, il volo di prova Apollo-Soyuz e un volo di emergenza Skylab Rescue che non fu necessario. Dopo il progetto Apollo-Soyuz Test, il pad 39B è stato riconfigurato in modo simile al 39A; ma a causa di ulteriori modifiche fatte nel corso degli anni (principalmente per consentire alla struttura di servire il Centaur come stadio superiore), insieme ai vincoli di bilancio, non fu pronto fino al 1986. La prima missione ad utilizzare il pad fu la STS-51-L, che decollo il 28 gennaio 1986 alle 16:38:00 UTC, che si concluse con il tragico disastro del Challenger. Dopo una pausa durata trentadue mesi, la prima missione dopo l'incidente, STS-26, decollò il 29 settembre 1988 alle 16:37:00. dal pad 39B.
+
+Il Launch Complex 39A oltre a supportare i primi 24 voli dello Space Shuttle, ha supportato gli ultimi 18 voli dello Shuttle, iniziando con la missione STS-117 l'8 giugno 2007 alle 23:38 UTC, e terminando con la missione STS-135 l'8 luglio 2011 alle 16:29 UTC condotta dallo Space Shuttle Atlantis.
+
+Da allora il pad non subì alcuna modifica e fu lasciato esattamente come lo lasciò l'Atlantis immediatamente dopo il decollo, completa di una piattaforma di lancio mobile, fino al aprile del 2014 quando la SpaceX si aggiudicò un contratto di locazione della durata di 20 anni.
+
+Danni subiti al sito
+Durante il lancio del Discovery sulla missione STS-124 decollata il 31 maggio 2008, il pad dell'LC-39A ha subito ingenti danni, in particolare alla trincea di cemento utilizzata per deviare le fiamme dell'SRB. L'indagine successiva ha rilevato che il danno era il risultato della carbonatazione della resina epossidica e della corrosione degli ancoraggi in acciaio che tenevano in posizione i mattoni refrattari nella trincea. Il danno era stato aggravato dal fatto che l'acido cloridrico è un sottoprodotto di scarico dei propulsori a razzo solido.
+
+Incidenti
+
+Il 28 gennaio 1986, 73 secondi dopo il decollo dal Complesso di lancio 39, lo Space Shuttle Challenger ebbe un guasto, dovuto alla rottura di una guarnizione di uno dei booster laterali, causata a sua volta dall'insolito freddo che colpì la Florida in quei giorni, determinando un cedimento strutturale e la successiva distruzione del velivolo, con la conseguente perdita di 7 astronauti. L'incidente venne trasmesso in diretta televisiva mondiale
+
+Dopo il ritiro dello Space Shuttle
+Con l'annullamento del Programma Constellation nel 2010, e il ritiro dello Space Shuttle nel 2011, il futuro dei pad di lancio del Launch Complex 39 era incerto, e rimase in disuso per alcuni anni, nel quale venne radicalmente modificato.
+
+All'inizio del 2011, la NASA ha avviato discussioni informali sull'uso dei pad e delle strutture da parte di società private per effettuare missioni per il mercato spaziale commerciale, culminando in un contratto di locazione di 20 anni con SpaceX per il Launch Complex 39A.
+
+Programma Constellation
+
+L'ultimo lancio dello Space Shuttle dal pad 39B è stato il lancio notturno dell'STS-116 avvenuta 10 dicembre 2006 all'01:47:35 UTC. Per supportare la missione finale dello Shuttle verso il telescopio spaziale Hubble, con la missione STS-125 decollata l'11 maggio 2009 18:01:56 UTC dal pad 39A, lEndeavour fu posizionato sul pad 39B per lanciare la missione di salvataggio STS-400, se si fosse resa necessaria
+
+Dopo il completamento di STS-125, il pad 39B fu convertito per lanciare il singolo volo di prova del programma Constellation Ares IX il 28 ottobre 2009. a seguito di questo volo di prova il programma fu cancellato.
+
+Stato attuale
+
+Launch Complex 39A
+
+SpaceX
+All'inizio del 2013, la NASA annunciò pubblicamente che avrebbe consentito ai fornitori di servizi di lancio commerciale di affittare il Launch Complex 39A, tale annuncio fu seguito nel maggio del 2013 con una richiesta formale per l'uso commerciale del pad.
+
+Furono presentate due offerte per l'uso commerciale del complesso di lancio rispettivamente da SpaceX e Blue Origin, SpaceX presentò un'offerta per l'uso esclusivo del complesso di lancio, Blue Origin invece presentò un'offerta per l'uso non esclusivo condivisa del complesso, in modo che il launch pad avrebbe gestito più veicoli, ed i costi potrebbe essere condiviso sulla lungo termine. Un potenziale utente condiviso nel piano Blue Origin era la United Launch Alliance.
+
+Prima della fine del periodo di offerta, e prima di qualsiasi annuncio pubblico da parte della NASA dei risultati del processo, Blue Origin ha presentato una protesta al General Accounting Office (GAO) degli Stati Uniti "per quello che dice è un piano della NASA per aggiudicare un contratto di locazione commerciale esclusivo a SpaceX per l'uso della rampa di lancio dello Space Shuttle 39A". La NASA aveva pianificato di completare l'aggiudicazione dell'offerta e di trasferire il blocco entro il 1º ottobre 2013, ma la protesta fece ritardare l'aggiudicazione fino a quando il GAO non avesse raggiunto una decisione prevista per metà dicembre. Il 12 dicembre 2013 il GAO ha negato la protesta e si è schierato con la NASA, che ha sostenuto che la sollecitazione non conteneva alcuna preferenza sull'uso della struttura come multiuso o monouso. "Il documento (la sollecitazione) chiede semplicemente agli offerenti di spiegare le ragioni per cui hanno scelto un approccio invece dell'altro e come gestirebbero la struttura".
+
+Il 14 aprile 2014, la SpaceX ha firmato un contratto di locazione di 20 anni per Launch Complex 39A (LC-39A), ed è stato modificato il pad per supportare i lanci del Falcon 9 e del Falcon Heavy. Le modifiche includevano:
+
+la costruzione di una grande struttura di integrazione orizzontale (HIF) simile a quella utilizzata nelle strutture SpaceX affittate presso la Cape Canaveral Air Force Station, e Vandenberg Air Force Base, l'integrazione orizzontale è nettamente diversa dal Vehicle Assembly Building (VAB) presente nel complesso di lancio utilizzato per assemblare i veicoli Apollo e Space Shuttle della NASA.
+Installazione di nuovi sistemi di strumentazione e controllo
+Installazione di nuove tubature per una varietà di liquidi e gas per i lanciatori.
+Costruzione di un nuovo Transporter Erector (TE) che viaggerà su rotaie lungo l'ex percorso cingolato
+
+Nell'agosto 2019 SpaceX ha presentato una valutazione ambientale per il sistema di lancio di navi stellari presso il Kennedy Space Center. Questo documento includeva piani per la costruzione di strutture aggiuntive a LC-39A per supportare i lanci di Starship, tra cui una piattaforma dedicata, serbatoi di metano liquido e una zona di atterraggio. Queste sono separate dalle strutture esistenti che supportano i lanci Falcon 9 e Falcon Heavy.
+
+Launch Complex 39B
+
+Dal volo di prova di Ares IX nel 2009, il Launch Complex 39B è stato riconfigurato per essere utilizzato dal razzo Space Launch System della NASA, un veicolo di lancio derivato dallo Shuttle che sarà utilizzato nel programma Artemis e nelle successive campagne Moon to Mars. Il pad è stato anche affittato dalla NASA alla compagnia aerospaziale Northrup Grumman, per essere utilizzato come sito di lancio per il loro veicolo di lancio OmegA derivato dallo Shuttle, per voli di lancio nello spazio della sicurezza nazionale e lanci commerciali.
+
+Launch Complex 39C
+Launch Complex 39C è una nuova struttura per veicoli di lancio di piccole dimensioni. È stato costruito nel 2015 all'interno del perimetro 39B del Launch Complex. Doveva fungere da sito multifunzionale che consentiva alle aziende di testare i veicoli e le capacità della classe più piccola di razzi, rendendo più conveniente per le aziende più piccole entrare nel mercato dei voli spaziali commerciali. Tuttavia, il suo cliente principale, Rocket Lab, ha scelto di lanciare invece il suo razzo Electron da Wallops Island. Diverse compagnie di veicoli di lancio di piccoli carichi volevano anche lanciare i loro razzi da un sito dedicato a Cape Canaveral invece che da LC-39C.
+
+Costruzione
+La costruzione del pad è iniziata nel gennaio 2015 ed è stata completata nel giugno 2015. Il direttore del Kennedy Space Center Robert D. Cabana e rappresentanti del programma Ground Systems Development and Operations (GSDO) e delle direzioni Center Planning and Development (CPD) e Engineering hanno segnato il completamento del nuovo pad durante una cerimonia del taglio del nastro il 17 luglio 2015. "In qualità di principale spazioporto americano, siamo sempre alla ricerca di modi nuovi e innovativi per soddisfare le esigenze di lancio americane, e un'area che mancava erano i carichi utili di piccole classi " , Ha detto Cabana.
+
+Capacità
+La piattaforma di cemento misura circa 15 metri di larghezza per circa 30 metri di lunghezza e potrebbe supportare il peso combinato di un veicolo di lancio alimentato, con carico utile e supporto di lancio fornito dal cliente fino a circa kg e una struttura a torre ombelicale, linee per fluidi, cavi e bracci ombelicali che pesano fino a circa kg.
+
+Esiste un sistema di manutenzione del propellente universale per fornire ossigeno liquido e capacità di rifornimento di metano liquido per una varietà di razzi di piccola classe.
+
+Con l'aggiunta di Launch Complex 39C, KSC ha offerto le seguenti funzioni di elaborazione e lancio per le aziende che lavorano con veicoli di piccola classe (spinta massima fino a 890&nbsp;kN):
+
+Impianti di lavorazione: ad esempio Edificio di assemblaggio di veicoli
+Trasporto di veicoli / carichi utili (KAMAG, camion con pianale, rimorchiatori, ecc.) Dalla struttura di integrazione al pad
+Sito di lancio
+Sistema di manutenzione del propellente universale (LOX, LCH4)
+Avvia le opzioni del centro di controllo / centro di comando mobile.
+
+New Launch Complex
+Nel 2015 è stata creata una nuova piattaforma accanto al Pad 39B, il Pad 39C, utilizzata per il lancio di payload leggeri in orbita bassa, principalmente CubeSat.
+
+Razzi lanciati dal Complesso di Lancio 39
+
+Ritirati
+
+Saturn IB: 8 lanci (1966-1975, Pad 39A e 39B), ritirato
+Saturn V: 14 lanci (1967-1973, Pad 39A e 39B), ritirato
+Space Shuttle: 135 lanci (1981-2011, Pad 39A e 39B), ritirato
+Ares I: 1 lancio (2009, Pad 39B), ritirato
+Falcon 9 Full Thrust: 12 lanci (2017, Pad 39A) ritirato
+
+Attuali
+Falcon Heavy: 3 lanci (2018- , Pad 39A), operativo
+Falcon 9 Block 5: 2 lanci (2019- , Pad 39A), operativo (unicamente per le missioni con equipaggi per la ISS attraverso la Crew Dragon)
+Space Launch System: 1 lancio (2022- , Pad 39B) operativo
+
+Sviluppo futuro
+Le precedenti raccomandazioni del piano generale del Kennedy Space Center (KSC) - nel 1966, 1972 e 1977 - notavano che un'espansione della capacità di lancio verticale del KSC poteva verificarsi quando esisteva la domanda del mercato. Lo studio di valutazione del sito 2007 ha raccomandato che una rampa di lancio verticale aggiuntiva, denominata Launch Complex 49 (LC-49), e che fosse situata a nord dell'attuale LC-39B.
+
+Come parte del processo di studio sull'impatto ambientale (EIS), questo complesso di lancio proposto è stato consolidato da due piazzole (designate nei piani del 1963 come 39C e 39D) a una che fornirebbe una maggiore separazione dalla LC-39B. L'area è stata ampliata per ospitare una più ampia varietà di azimut di lancio, aiutando a proteggere da potenziali problemi di sorvolo del LC-39B. Questa struttura di lancio LC-49 potrebbe ospitare veicoli di lancio medio-grandi.
+
+Lo studio di valutazione del sito di lancio verticale del 2007 ha concluso che una piattaforma di lancio verticale potrebbe anche essere situata a sud di 39A e a nord della piattaforma LC-41, per ospitare veicoli di lancio di piccole e medie dimensioni. Designata come Launch Complex 48 (LC-48), quest'area è più adatta per ospitare veicoli di lancio di classe medio-piccola, grazie alla sua maggiore vicinanza a LC-39A e LC-41. A causa della natura di queste attività, saranno specificati gli archi quantità-distanza richiesti, le linee limite di impatto del pericolo di lancio, altre battute d'arresto di sicurezza e limiti di esposizione per operazioni sicure. Dettagli delle piattaforme di lancio proposte sono stati pubblicati nel Piano generale del Kennedy Space Center nel 2012.
+
+Il piano generale rileva anche una proposta di nuova piattaforma di lancio verticale a nord-ovest di LC-39B e un'area di lancio orizzontale a nord dell'LC-49 e la conversione dello Shuttle Landing Facility (SLF) e delle sue aree di piazzale in una seconda area di lancio orizzontale.
+
+La Space Florida ha proposto che il Launch Complex 48 sia sviluppato per essere utilizzato dal Boeing Phantom Express e che tre piattaforme di atterraggio siano costruite per sistemi di lancio riutilizzabili, per fornire più opzioni di atterraggio per Falcon 9 e Falcon Heavy di SpaceX, New Glenn di Blue Origin e altri potenziali riutilizzabili veicoli. Le piazzole dovrebbero essere situate a est dell'area di lancio orizzontale ea nord della LC-39B
+
+Nell'agosto 2019, SpaceX ha presentato una valutazione ambientale per il sistema di lancio di navi stellari presso il Kennedy Space Center. Questo documento includeva piani per la costruzione di strutture aggiuntive a LC-39A per supportare i lanci di Starship, tra cui una piattaforma dedicata, serbatoi di metano liquido e una zona di atterraggio. Queste sono separate dalle strutture esistenti che supportano i lanci Falcon 9 e Falcon Heavy.
+
+Galleria d'immagini

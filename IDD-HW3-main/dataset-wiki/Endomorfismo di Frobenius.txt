@@ -1,0 +1,22 @@
+In algebra astratta, lendomorfismo di Frobenius è uno speciale omomorfismo di anelli, definito solo per anelli con caratteristica positiva. Prende il nome da Ferdinand Georg Frobenius. La sua definizione si basa su un teorema che afferma che:
+
+Se è un anello commutativo con caratteristica , con numero primo, allora , per ogni e appartenenti ad .
+
+cioè che l'applicazione
+
+preserva l'operazione di somma. Dopotutto, essa soddisfa anche le proprietà e , dunque si caratterizza come un endomorfismo di in sé ed è pertanto detta endomorfismo di Frobenius.
+
+Dimostrazione del teorema
+Per il teorema binomiale vale che
+
+Ma se , il coefficiente contiene il fattore e dunque in caratteristica è uguale a 0. Pertanto rimangono solo i termini finali dell'espansione, cioè e .
+
+Esempi
+
+Sia un anello con caratteristica 2:
+e
+Essendo un anello con caratteristica 2, per le proprietà dell'aritmetica modulare si ha:
+
+Sia un anello con caratteristica 3:
+e
+Essendo un anello con caratteristica 3, per le proprietà dell'aritmetica modulare si ha:

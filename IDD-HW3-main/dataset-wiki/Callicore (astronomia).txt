@@ -1,0 +1,23 @@
+Callicore, (dal greco Καλλιχόρη) o Giove XLIV, è un satellite naturale del pianeta Giove. È uno dei tanti satelliti irregolari di Giove, che orbitano distanti dal pianeta su orbite molto inclinate ed eccentriche.
+
+Callicore è un oggetto allungato con un diametro di circa 4 km e orbita attorno a Giove in direzione retrograda, a una distanza media di 23 milioni di km. Le proprietà orbitali sono simili a quelle della più grande luna irregolare di Giove, Carme, il che la rende un membro del gruppo di Carme. Si ritiene che i satelliti di questo gruppo siano frammenti di un asteroide o di un oggetto transnettuniano che è stato catturato gravitazionalmente da Giove e distrutto da una collisione avvenuta diversi miliardi di anni fa.
+
+Scoperta
+È stato scoperto nel 2003 da una squadra di astronomi dell'Università delle Hawaii guidata da Scott S. Sheppard, e ha ricevuto la designazione provvisoria .
+
+Denominazione
+Ha ricevuto la denominazione ufficiale nel marzo 2005 in riferimento alla ninfa Callicore, nella mitologia greca a volte considerata una delle muse, figlia di Zeus. Tuttavia è meglio conosciuta come una delle Nisiadi, ninfe nutrici di Dioniso.
+
+Caratteristiche
+Le osservazioni di un'occultazione stellare da parte di Callicore nel 2025 mostrano che l'oggetto ha un diametro compreso tra 3,5 km e 6,1 km. Le dimensioni e la sua bassa luminosità suggeriscono che abbia una superficie scura con un'albedo geometrica di circa .
+
+Callicore è caratterizzato da un movimento retrogrado ed appartiene al gruppo di Carme, composto da satelliti retrogradi ed irregolari che orbitano attorno a Giove ad una distanza compresa fra i 23 e 24 milioni di chilometri, con un'inclinazione orbitale pari a circa 165°. Come altri satelliti del gruppo Carme, è caratterizzato da colori superficiali leggermente rossastri, composizioni superficiali ricche di materia organica e bassi albedo di circa il 4%.}. Il periodo di rotazione di Callicore è sconosciuto perché i suoi cambiamenti di luminosità non sono stati osservati abbastanza a lungo.
+
+Parametri orbitali
+Callicore è un satellite irregolare di Giove con un'orbita molto inclinata ed eccentrica attorno al pianeta. Il periodo orbitale è di 713,6 giorni, a una distanza media di 23 milioni di km, con un'inclinazione di 165° rispetto all'eclittica (164° rispetto al piano equatoriale di Giove), con moto retrogrado e un'eccentricità orbitale di 0,25.
+
+Possibile esplorazione
+Dopo gli studi del 2025 che ne hanno caratterizzato con maggior precisione dimensioni e orbita del satellite, Callicore è diventato un possibile obiettivo della sonda europea Jupiter Icy Moons Explorer (JUICE), che dovrebbe passare a meno di un milione di chilometri durante la sua prima orbita attorno a Giove. Uno studio del 2026 di Arnaud Boutonnet e Amedeo Rocchi ha determinato che la sonda potrebbe avvicinarsi ancora di più a Callicore se spendesse almeno 23 m/s di delta-v (Δv) durante la sua fase di riduzione dell'energia dopo l'inserimento orbitale attorno a Giove.
+Affinché la telecamera a più alta risoluzione di JUICE (JANUS) possa risolvere Callicore oltre un pixel, la sonda deve avvicinarsi a 100.000 km. Una possibile traiettoria potrebbe portare la sonda a soli 700 km da Callicore il 5 ottobre 2031; questo sorvolo avverrebbe vicino all'apogiovio di JUICE (punto più lontano da Giove) e la sonda si avvicinerebbe a Callicore dal suo lato non illuminato: un sorvolo così ravvicinato consentirebbe a JUICE di risolvere la forma e le caratteristiche superficiali di Callicore.
+
+Tuttavia esiste un'incertezza sulla posizione di Callicore di 272 km alla data del previsto sorvolo di JUICE. Prima che si possa prendere una decisione per un sorvolo ravvicinato di Callicore, l'incertezza alla data del sorvolo deve essere ridotta a meno di ±30 km entro il 2028. Sono previste ulteriori osservazioni di Kallichore per determinare con precisione la sua traiettoria orbitale.

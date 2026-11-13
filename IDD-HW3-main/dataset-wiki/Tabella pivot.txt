@@ -1,0 +1,93 @@
+Una tabella pivot è uno strumento analitico e di reporting necessario alla creazione di tabelle riassuntive. Uno dei fini principali di queste tabelle è l'organizzazione di dati, tramite una scelta opportuna dei campi e degli elementi che devono comporla.
+
+Descrizione
+Una tabella pivot è una rielaborazione grafica calcolata a partire da una seconda tabella, detta tabella sorgente della pivot. La tabella sorgente può essere una comune tabella a campi fissi oppure una seconda tabella pivot, che a sua volta dovrà avere un'altra tabella sorgente. La tabella sorgente (statica o pivot che sia) può essere salvata nello stesso foglio di lavoro, in un altro foglio della stessa cartella oppure in una cartella-file esterno. Può anche essere la tabella di un database (Access o Base) che viene collegata o importata copiata nel file Excel della tabella pivot. Le origini dei dati di una tabella pivot possono essere più di una e di entrambi i tipi suddetti: pivot da tabella Excel ed una seconda tabella sorgente in Access. A partire dalla tabella pivot possono essere generati uno o più grafici, e una o più ulteriori tabelle pivot.
+
+Mentre cambiano nel tempo i valori presenti nelle righe della tabella sorgente possono anche essere aggiornati e ricalcolati i valori della tabella pivot, così come dei grafici e altre tabelle pivot ad essa collegati: l'utente può anche scegliere che l'aggiornamento della tabella pivot avvenga in modo automatico ogni volta che apre il file (Excel o Calc), ovvero al verificarsi di un determinato evento.
+Viceversa, la tabella pivot (e i grafici o pivot da questa generati) non possono modificare la tabella sorgente, le sue celle e valori. La tabella sorgente può essere interna o esterna al file in cui si trova la tabella pivot e può presentarsi come tabella di un foglio di calcolo (una sorgente in un foglio Excel).
+
+Una tabella pivot può descrivere un numero anche molto elevato di variabili, dette caratteristiche o dimensioni di analisi: in parole più semplici la tabella sorgente su cui viene calcolata la tabella pivot, può avere un numero alto di righe e di colonne. Per poter generare una tabella pivot, la tabella sorgente deve essere formattata secondo alcune semplici regole: ogni cella della prima riga della tabella pivot deve contenere un nome testuale per la colonna sottostante (detto etichetta di colonna o intestazione di campo), non devono esserci colonne prive della intestazione, non devono esserci righe o colonne con tutte le celle vuote (prive di valori), i valori presenti nelle celle di ciascuna colonna devono essere tra loro omogenei (stesso comune formato di cella tipo: numero, data, valuta, testo) perché poi nel pivot sono oggetto di operazioni matematiche o raggruppamenti di valori che chiaramente non sono possibili fra celle di tipo diverso. La formattazione della tabella sorgente e la creazione/aggiornamento della tabella pivot, se è un'attività svolta di frequente senza importanti variazioni, può essere resa veloce ed automatica registrando una macro.
+
+La tabella pivot è divisa in quattro aree, ciascuna contenente molteplici variabili (intestazioni di una colonna-campo della tabella sorgente): una per le righe del pivot, una per le colonne, una per il contenuto della tabella (area valori o area dati). Le restanti variabili sono visualizzate in un'area esterna alla tabella, detta area filtri, in cui sono presenti uno o più campi della tabella sorgente, ma che potrebbe pure non essere presente e attivata in una determinata tabella pivot. Per i valori di ciascuna variabile di riga, colonna o dell'area filtri è possibile creare dei filtri di visualizzazione che escludono dal calcolo valori singoli o intervalli di valori; ed è possibile raggruppare i valori filtrati evidenziando il relativo subtotale.
+
+I campi riga possono essere ordinati in modo manuale o automatico (crescente o decrescente) rispetto a valori del campo stesso, oppure di un campo dell'area dati. Possono essere rinominate le etichette e singoli valori dei campi riga e colonna, mentre non sono modificabili le celle dell'area dati. Cliccando due volte su una cella dell'area dati, viene aperto un nuovo foglio di calcolo che mostra l'intervallo di celle della tabella sorgente a partire dalle quali è stato calcolato il valore presente nella cella del pivot selezionata.
+
+Le operazioni ammesse sui campi di una tabella pivot sono di tipo matematico-statistico: conta valori, somma, differenza, media, prodotto, varianza, deviazione standard. Oltre a queste funzioni predefinite, l'utente ha l'opzione di inserire un elemento calcolato oppure un campo calcolato che esegue una formula su una selezione di dati, di uno o più campi della tabella pivot: la formula può contenere una funzione composta dalle precedenti (esempio: = massimo(somma(prodotti(..area dati..) + 3). Il foglio di calcolo, in celle esterne alla tabella pivot, può contenere celle con formule che puntano alla tabella pivot ed eseguono elaborazioni sui dati. Le funzioni "database" sono simili alla creazione di una tabella pivot: quando interessano pochi valori di una variabile-filtro ed è quindi inutile ricreare un'altra vista sugli stessi dati, queste funzioni evitano di appesantire il foglio di calcolo con tabelle pivot "secondarie", cioè costruite a partire da una tabella sorgente che è a sua volta un pivot. Ad esempio: DB.SOMMA, DB.MEDIA, INFO.DATI.TAB.PIVOT Restituisce i dati memorizzati in una tabella pivot. Per l'esecuzione di calcoli più complessi o operazioni logiche con altre tabelle, la tabella sorgente e/o pivot possono essere collegati o importati in un file Access, per poi eseguire una query tramite Structured Query Language, programmato manualmente o con editor grafico di query.
+
+Una tabella pivot presenta un tracciato o layout di visualizzazione molto flessibile, che può essere facilmente modificato per avere tutti i tipi di viste sui dati, spostando col mouse l'etichetta di un campo fra righe, colonne, area dati e area filtri. Si può, quindi, trasporre la tabella, invertendo righe con colonne, o avere un'aggregazione diversa dei dati. La tabella pivot consente di creare gruppi e operazioni su questi, agire sulle singole celle per cambiarne il formato di visualizzazione, rinominare ogni variabile e relativi valori. Non è invece modificabile il valore delle celle dell'area dati, per cui non si possono inserire valori e formule nelle celle dell'area dati e nelle intestazioni di riga o colonna. Excel protegge interamente dalla modifica la tabella pivot, mentre Calc permette di spostare il valore di una cella, e di aggiungere o eliminare righe o colonne, fermo restando che non è possibile cambiare il contenuto delle celle dell'area dati.
+
+La relazione fra due oggetti può essere uno-a-uno, uno-a-molti, molti-a-molti: tale cardinalità degli insiemi può essere modellata in uno schema entità-relazione. Le variabili di una tabella pivot hanno una relazione molti-a-molti, vale a dire che sono indipendenti e, se rappresentate in un grafico, ortogonali.
+
+Variabili che presentano un legame uno-a-uno (ad esempio "studente" e "matricola studente") sono in pratica due nomi assegnati alla stessa variabile. Se le variabili hanno un legame uno-a molti (ad esempio "corso di laurea" e "studente"), si ha un'unica variabile raccolta in gruppi (variabile "studente" i cui valori sono raccolti in tanti gruppi quanti sono i valori della variabile "corso di laurea").
+
+La tabella pivot permette di creare gerarchie per le variabili riga, colonna, e dell'area filtri, in un numero di livelli a piacere ovvero limitato dal foglio di calcolo. Su ogni gruppo è possibile eseguire una funzione riassuntiva (quattro operazioni, media o una delle altre funzioni statistiche).
+
+Ad esempio, in una tabella "studente/data", avente filtro "esame" e come contenuto il "voto", si può definire un gruppo "classe" per la variabile (riga o colonna) "studente", e aggiungere una riga (o colonna) per visualizzare la dispersione dei voti della classe, come operazione eseguita sul gruppo creato.
+
+I principali tipi di foglio di calcolo (Excel, LibreOffice Calc e OpenOffice.org Calc) permettono la creazione di tabelle pivot. In Open Office Calc, si parla di DataPilot: a differenza di Excel e di LibreOffice Calc, OpenOffice Calc non permette di collegare le tabelle pivot a dei grafici (Pivot Chart).
+
+Da Excel 2010, tramite le Excel slices è possibile inserire rapidamente filtri nell'area dati della tabella pivot.
+
+Usi
+Le tabelle pivot vengono usate principalmente per raccogliere dati in modo strutturato al fine di evidenziare le relazioni tra gruppi diversi.
+
+Sono particolarmente utili quando è necessario esaminare diverse categorie di dati in configurazioni diverse. Anche per questo vengono apprezzate soprattutto nel caso in cui sia necessario elaborare tabelle di grandi dimensioni.
+Possono essere considerate un “riassunto” di una grande tabella: i dati sono strutturati, aggregati e snelliti.
+
+I dati presentati nella tabella pivot derivano dalla tabella originaria e quindi queste tabelle non sono fatte per modifiche manuali dei loro contenuti: le tabelle pivot sono legate al momento in cui queste sono state generate e perciò una modifica della tabella madre non necessariamente comporta una modifica nei dati della tabella pivot derivata.
+
+Tabelle pivot con funzioni testuali e di data mining
+Per creare una tabella pivot è necessario avere nella tabella di origine almeno un campo di soli dati (nessuna funzione o formula) in formato numerico, sul quale sia possibile definire una funzione matematica (somma, prodotto, massimo, minimo, ecc.).
+
+Le tabelle pivot non consentono di operare sui dati con funzioni testuali o di ricerca; le uniche funzioni Excel disponibili per l'area dati sono parte delle funzioni matematiche. Questo aspetto è molto limitante perché non consente di utilizzare le tabelle pivot per fare estrazioni, come alternativa ad Access o alle funzionalità di data mining che offrono i più diffusi database. Ciò sarebbe utile dove il legame fra la variabile dati e quelle di riga e colonna è molti-a-molti.
+
+Ad esempio, un professore e i nomi dei corsi hanno un legame molti-a-molti, così come alunni con professori e corsi, perché si possono frequentare più corsi di uno stesso professore, o di professori differenti.
+
+La funzione che opera sull'area dati può accettare un numero di argomenti a piacere (etichette di riga e colonna), ha il solito limite di restituire un solo valore, un'unica cella. Tutte le funzioni Excel sono di questo tipo e teoricamente ammissibili in una tabella pivot.
+
+Funzione "concatenate" nelle tabelle pivot
+È eseguibile su un foglio di calcolo qualsiasi funzione operante con stringhe di numeri o testo del tipo &nbsp;:&nbsp;&nbsp;→&nbsp;, quindi con l'unico vincolo che il valore restituito sia un valore e uno solo (la formula funzione occupa una sola cella), viceversa i dati di partenza sono normalmente molteplici, intervallati da un separatore oppure presenti in più di una cella.
+
+Con la semplice funzione testuale "CONCATENA" sarebbe possibile estrarre in un'unica cella i nomi degli studenti che frequentano un determinato corso e professore, con un pivot che punta a una tabella di origine che riporta nelle righe i nomi di chi frequenta, nelle colonne i corsi, e nell'area dati il nome del docente.
+
+Questo tipo di operazione è possibile in MySQL con l'istruzione "CONCATENATE" e in Access tramite una query sulla tabella di origine e una macro che concatena le colonne della tabella pivot.
+
+Ipercubo OLAP e tabella pivot
+
+Un caso particolare di tabella pivot è il cosiddetto ipercubo OLAP. La tabella pivot è in questo caso il report che risulta da una query OLAP su un ipercubo di dati. L'ipercubo è formato da un dato, e da un numero arbitrario di dimensioni di analisi. Ogni dato è identificato da una tupla di valori, uno per ogni dimensione di analisi, o caratteristica di analisi; ogni caratteristica può essere rappresentata con un asse cartesiano. Il numero di caratteristiche di analisi è arbitrario e definisce un ipercubo o politopo.
+
+I dati vengono copiati in un server a parte, diverso da quelli che gestiscono l'operatività. In questo modo gli accessi in lettura per l'analisi dei dati non sovraccaricano i sistemi di base, e i dati sono organizzati in modo tale da consentire aggregazioni rapide, anche complesse, e interrogazioni processate in tempi brevi.
+
+Ad esempio: in un'ipotetica banca dati degli esami universitari, il voto è identificato dall'insieme di caratteristiche di analisi [codice studente, codice professore, codice esame, data], dette anche dimensioni di analisi. Lo stesso esame, infatti, può essere sostenuto in più date, lo stesso professore essere titolare di più di un corso e presenziare a più esami. Quindi ogni dato, ogni voto, sarà memorizzato insieme ad altri quattro numeri: un codice studente, un codice professore, un codice esame, una data. Le dimensioni di analisi definiscono un ipercubo (a 4 dimensioni, 4 assi cartesiani), riempito dai dati, i voti degli esami.
+
+Le caratteristiche di analisi identificano il dato. In pratica: . La tabella pivot opera una restrizione di funzione su questo ipercubo. Esempi di queste restrizioni possono essere: visualizzazione degli esami e dei relativi voti per un certo professore e data (semplice filtro dei dati); media dei voti per un certo professore, esame, data.
+
+Tabelle pivot nei fogli di calcolo
+
+Il primo programma informatico ad introdurre le tabelle pivot è stato Lotus Improv. Molti applicativi ad oggi supportano le tabelle pivot o funzionalità equivalenti.
+
+Ad esempio fornisce la quantità ordinata per commessa e per materiale, come secondo criterio, visualizzando una quantità ordinata totale per commessa, e il particolare per ogni materiale. Excel calcola subtotali per più colonne, ma sempre con la stessa funzione (esempio: quantità ordinata, consegnata e saldi per materiale). Calc opera con funzioni differenti e su più livelli, e può fornire media dei prezzi e quantità ordinata per commessa e materiali.
+
+Excel, di contro, con un semplice trascinamento dell'intestazione (la cella che contiene il nome della riga/colonna/filtro) consente di creare varie reportistiche, visualizzare una caratteristica nelle aree righe, colonne, dati oppure filtri del foglio Excel.
+Dalla versione 2012, contiene la funzione che identifica i gruppi da selezione e mostra la tabella pivot in formato struttura: il programma riconosce i valori ripetuti di un dato campo riga e raggruppa "ad albero" i restanti campi (analogamente per i campi colonna).
+
+Sia Excel che Calc permettono di filtrare singoli campi (per valore del campo stesso, o per valore di altre etichette di riga o colonna).
+
+Excel permette di creare l'oggetto-tabella per poi esportarlo in un diagramma pivot di Microsoft Visio: il diagramma consente una visualizzazione dei dati ad albero su più livelli, con la possibilità di effettuare le stesse operazioni della tabella pivot(somma. minimo, massimo, media, ecc) su uno o più campi di tipo numerico, col dettaglio desiderato.
+
+Le tabelle pivot in Excel utilizzano un proprio linguaggio di programmazione, Data Analysis Expressions. Il DAX è un linguaggio delle espressioni delle formule utilizzato per definire i calcoli in Power Pivot in Excel, nulla ha a che vedere col Visual Basic for applications sempre utilizzabile in Excel per la costruzione di macro. Se numerose funzioni hanno lo stesso nome e sintassi in Excel e DAX, non è possibile combinare all'interno della stessa formula funzioni DAX con altre funzioni specifiche di Excel non implementate dal DAX.
+
+Calcolo dei subtotali
+Se due o più variabili hanno una relazione uno-a-molti, è possibile calcolare dei subtotali.
+
+I fogli di calcolo hanno una funzionalità dedicata al calcolo dei subtotali, su uno o più livelli, operando su una molteplicità di colonne, talora con operazioni differenti.
+
+Un'operazione analoga può essere svolta con una tabella pivot, in modo più oneroso, perché occorre ricreare manualmente i gruppi per ogni variabile.
+
+Riprendendo il solito esempio, la tabella studente/esame/data/voto potrebbe avere una colonna con i nomi degli studenti accanto a una colonna per la variabile "classe". Usando la funzionalità dei subtotali, il calcolo del voto per studente/classe è immediato; con la tabella pivot, bisogna creare manualmente un gruppo di valori della variabile "studente" per ogni classe, dopodiché si può eseguire il calcolo.
+
+Con Office 2003, è possibile eseguire solamente un'operazione per tutti dati, per cui l'operazione che si esegue su un gruppo di studenti potrà essere la media dei voti, se per tutti gli studenti nell'area dati è calcolata la media dei voti; viceversa, non è possibile vedere la media dei voti di uno studente, e per un gruppo di studenti, un'operazione diversa, come il voto massimo. È tuttavia possibile fare più operazioni sull'area dati e, quindi, per gruppi di valori delle variabili di riga e colonna. Per questo tipo di dettaglio, occorre un consolidamento dei dati.
+
+Office 2003 offre una funzione di consolidamento dei dati che permette di effettuare operazioni diverse su gruppi differenti di valori di una variabile riga e colonna: esempio voto massimo di un gruppo A di studenti, e media per un gruppo B, oppure media per tutto l'elenco e in aggiunta voto massimo per il solo gruppo A. Il consolidamento può avvenire nello stesso foglio di lavoro, o in un nuovo foglio, potendo scegliere solamente in questo secondo caso di mantenere un collegamento con i dati originari, che si possono visualizzare nello stesso foglio consolidato espandendo un valore, come per i subtotali. Gli intervalli di consolidamento possono esser multipli: la sorgente dei dati consolidati può interessare più aree dello stesso foglio di lavoro, o di fogli differenti.
+
+Il modulo software "Calc" di Open Office Calc e LibreOffice Calc ha una funzione per il calcolo dei subtotali più flessibile di quella di Excel. La funzionalità può essere utilizzata anche all'interno della tabella pivot, per trovare subtotali di righe e/o colonne. Microsoft Excel consente di calcolare un subtotale ad ogni cambiamento di una colonna al massimo, e al massimo con un tipo di operazione su uno o più campi, "Calc" permette di ottenere parziali fino a 3 livelli, ossia al cambiamento di 3 attributi della tabella, e di svolgere un'operazione differente al limite per ogni combinazione di colonna/livello di calcolo (al massimo tre operazioni diverse per la stessa colonna).

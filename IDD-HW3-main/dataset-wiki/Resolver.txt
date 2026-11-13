@@ -1,0 +1,24 @@
+Il resolver è un tipo di trasduttore di spostamento induttivo, dispositivo elettromeccanico per la misura di spostamenti angolari che consente di rilevare la variazione di flusso di induzione magnetica, concatenato con un solenoide, in funzione della posizione del solenoide stesso. Alimentato in corrente alternata, è un dispositivo analogico, cioè la tensione misurabile in uscita è una corrente alternata. L'analogo digitale prende il nome di encoder.
+
+Descrizione
+Il trasduttore più semplice è composto di due avvolgimenti differenti:
+lo statore (o gli statori), che costituisce la parte fissa;
+il rotore, che costituisce la parte mobile.
+I due avvolgimenti sono disposti intorno ad un nucleo ferroso fatto di lamierini isolati. In base alla posizione reciproca degli avvolgimenti il flusso magnetico su un solenoide risulta essere totalmente o parzialmente concatenato con l'altro solenoide. Ai capi del solenoide secondario si misura quindi una differenza di potenziale variabile con il differente allineamento dei due componenti elettrici.
+
+Un resolver composto da due soli elementi, l'uno fisso e l'altro mobile, hanno come campo di misura 180 gradi.
+
+I trasduttori più comuni presentano due solenoidi statici e due mobili, permettendo un'estensione del campo di misura fino a 360 gradi.
+
+Per avere un campo di misura più ampio, sensibile anche al numero di giri, si collegano due o più resolver tramite organi meccanici.
+
+Applicazioni
+Il resolver, montato all'interno di appropriate strutture meccaniche, e collegato ad adeguate apparecchiature elettroniche, è in grado di misurare:
+spostamenti angolari, quando, il rotore è collegato su un asse, viene usato per rilevare direttamente la posizione angolare di quest'ultimo;
+conversione di coordinate polari/cartesiane, alimentando lo statore con tensioni pari alle coordinate cartesiane e misurando il valore dell'angolo di rotazione ottenuto (da cartesiano a polare), o, viceversa, alimentato con una tensione nota e fornita una rotazione stabilita, misurando le tensioni (da polare a cartesiano);
+
+rilevamento di errori d'angolo, nota una posizione angolare del rotore e usando un solo avvolgimento statore, tramite una coppia di resolver si rileva un errore nell'allineamento.
+
+Questi trasduttori, per la loro vastissima gamma di modelli, sono validamente applicati in tutto il mondo su: controlli di processo industriale, robot industriali, macchine utensili, strumenti di misura, plotters, ecc.
+
+La sua struttura è particolarmente robusta, in maniera tale da garantire una vita media del meccanismo abbastanza lunga ed è poco sensibile ad urti e vibrazioni. Può quindi essere utilizzato in impianti industriali in condizioni di lavoro difficili.

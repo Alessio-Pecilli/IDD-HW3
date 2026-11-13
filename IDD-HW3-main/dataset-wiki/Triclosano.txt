@@ -1,0 +1,44 @@
+Il triclosano è un composto chimico di formula C12H7Cl3O2 che in condizioni standard si presenta come un polvere cristallina biancastra, con un leggero odore aromatico.
+
+Storia
+Il triclosan è stato approvato per la prima volta nel 1997. Dall'autunno 2016, il triclosan è stato bandito negli Stati Uniti dall'agenzia FDA poiché potenzialmente rischioso per la salute, a causa delle possibili interferenze che questa sostanza provoca al sistema endocrino e nell'insorgere di resistenze ad antibiotici.
+
+Caratteristiche strutturali e fisiche
+Il triclosano è un etere aromatico che è un fenolo sostituito in C-5 da un cloro e in C-2 da un gruppo 2,4-diclorofenossi. Si decompone a 290&nbsp;°C. Il compost risulta:
+
+facilmente solubile in soluzioni alcaline e molti solventi organici
+solubile in metanolo, alcol e acetone
+
+Reattività e caratteristiche chimiche
+L'indice di ritenzione di Kovats semi-standard apolare è pari a 2114. Si decolora a contatto con tracce di metalli pesanti. Può essere convertito in dibenzo-p-diossina clorurata in ambienti estremamente alcalini e in presenza di calore.
+
+Spettri analitici
+
+1H NMR
+13C NMR
+GC-MS
+MS-MS
+LC-MS
+ATR-IR
+
+Farmacologia e tossicologia
+
+Farmacocinetica
+Uno studio condotto nel 2000 ha dimostrato che piccole quantità di triclosano possono essere assorbite attraverso la pelle ed entrare nel flusso sanguigno. Il composto viene quindi rapidamente assorbito e distribuito. Le concentrazioni massime vengono raggiunte entro tre ore dall'assunzione orale, ma il metabolismo e l'eliminazione del composto avvengono rapidamente.
+
+Il triclosan è soggetto al metabolismo di fase II attraverso gli enzimi solfotransferasi e glucuronosiltransferasi. L'emivita plasmatica è di 21 ore. Negli esseri umani, i coniugati risultanti vengono escreti principalmente attraverso l'urina.
+
+Farmacodinamica
+Il triclosan è un composto biocida con molteplici bersagli nel citoplasma e nella membrana. A concentrazioni più basse, tuttavia, sembra avere un effetto batteriostatico e agisce principalmente inibendo la sintesi degli acidi grassi. È un inibitore della diidrifolato reduttasi e dell'enoil-(proteina trasportante acili) reduttasi (NAD).
+
+Effetti del composto e usi clinici
+Il triclosan è un farmaco a piccole molecole, con una fase massima di sperimentazione clinica pari a IV, che svolge un ruolo come agente antibatterico, fungicida e antimalarico.
+
+Tossicologia
+Il composto è classificato come un potenziale interferente endocrino. Viene raramente segnalato come allergene da contatto e ancor minori sono le segnalazioni come fotosensibilizzante.
+
+Applicazioni
+È ampiamente utilizzato come conservante e antimicrobico nei prodotti per la cura personale, come saponi, creme per la pelle, dentifrici e deodoranti, oltre che in articoli per la casa come taglieri in plastica, attrezzature sportive, scarpe e per la cura degli animali (es. shampoo per cani). In ambito sanitario viene utilizzato nei detergenti chirurgici e per lavarsi le mani. Viene inoltre utilizzato in agricoltura come microbiocida e pesticida.
+
+Impatto ambientale
+La sostanza è classificata come un inquinante organico persistente.

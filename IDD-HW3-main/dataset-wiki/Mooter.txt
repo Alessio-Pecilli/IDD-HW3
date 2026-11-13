@@ -1,0 +1,5 @@
+Mooter è il primo motore di ricerca che tiene conto della struttura a cluster del World Wide Web. Oltre a raccogliere i risultati dagli altri motori di ricerca, li suddivide in contesti, tra cui è poi possibile scegliere quello che più ci interessa.
+
+Il nome deriva dal verbo inglese to moot, la cui traduzione può essere discutere intorno ad un argomento. È gestito dall'omonima azienda, con sede a Sydney (Australia).
+
+Lanciato dopo lunghe sperimentazioni il 28 gennaio 2005, Mooter ha lo scopo di aiutare l'utente a scegliere tra i contesti, per aiutarlo nella ricerca, piuttosto che ritornare semplicemente migliaia di pagine in un qualche ordine (solitamente di accesso).

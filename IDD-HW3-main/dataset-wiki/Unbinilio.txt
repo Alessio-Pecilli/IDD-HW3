@@ -1,0 +1,29 @@
+Lunbinilio, chiamato anche eka-radio, è un elemento della tavola periodica ancora non scoperto, avente il simbolo (temporaneo) Ubn e numero atomico 120.
+
+Storia
+Nei mesi di marzo e aprile del 2007, la sintesi dell'elemento 120 è stata tentata a Dubna, al Joint Institute for Nuclear Research, bombardando un bersaglio di plutonio-244 con ferro-58. Le analisi iniziali rivelarono che nessun atomo dell'elemento 120 venne prodotto.
+
+Pu + Fe → Ubn* → nessun atomo creato
+
+Il gruppo di ricerca russo ha in programma di migliorare le proprie strutture prima di tentare nuovamente la reazione. Ad aprile e maggio del 2007, il GSI di Darmstadt ha tentato di creare l'unbinilio usando l'uranio-238 e il nichel-64.
+
+U + Ni → Ubn* → nessun atomo creato
+Nel 2009 Liu e Bao hanno pubblicato uno studio teorico della sintesi dell'unbinilio a partire da un bersaglio di californio-252 e proiettili di titanio-50 mostrando come questa sia la reazione più favorita rispetto alle reazioni Cr-54 + Cm-248, Fe-58 + Pu-244 e Ni-64 + U-238. Una reazione molto simile è stata tentata nel 2011 dal GSI
+
+Cf + Ti → Ubn* → nessun atomo creato
+
+Si prevede che l'emivita dell'elemento 120 dovrebbe essere compresa tra 11 e .
+
+Generalità
+Categoria dell'elemento: presumibilmente metalli alcalino terrosi;
+Gruppo 2;
+Periodo 8;
+Elettroni per guscio: 2, 8, 18, 32, 32, 18, 8, 2;
+Numero di ossidazione: presumibilmente 2;
+Fase: sconosciuta.
+
+Forma stabile
+L'elemento è oggetto di interesse perché parte dell'ipotizzata isola di stabilità: l'isotopo 318 sarebbe il più stabile di quelli creati con i metodi attuali. Usando il modello sferico, l'elemento 120 sarebbe l'elemento più pesante nell'isola di stabilità e, insieme al 144, anche il più sferico.
+
+Reattività
+L'unbinilio dovrebbe essere molto reattivo, dato che fa parte dei metalli alcalino terrosi: sarebbe più reattivo di ogni altro elemento più leggero di questo gruppo e reagirebbe violentemente nell'aria, formando l'ossido di unbinilio, e in acqua, formando l’idrossido di unbinilio.

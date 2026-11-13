@@ -1,0 +1,74 @@
+In Informatica il Comb sort è un algoritmo di ordinamento pubblicato per la prima volta da Stephen Lacey e Richard Box sul numero di aprile 1991 della rivista Byte. Il Comb sort rielabora le idee che Wlodzimierz Dobosiewicz applicò nel 1980 per rendere più efficiente lo shell sort utilizzando la funzione del bubble sort. Il Comb sort migliora l'algoritmo bubble sort e compete in velocità con algoritmi storicamente veloci come il Merge sort. L'idea basilare dell'algoritmo è quella di eliminare le cosiddette "tartarughe", ovvero valori piccoli vicini alla fine della lista, essendo provato che in un bubble sort questi valori tendono spessissimo a scendere nella loro posizione in modo tremendamente lento. (i "conigli", ovvero grandi valori all'inizio della lista, non rappresentano un problema nel bubble sort perché generalmente vengono spostati molto velocemente).
+
+Nel bubble sort, quando vengono confrontati due elementi, essi hanno sempre un passo (distanza reciproca) pari ad 1. L'idea alla base del comb sort è che il passo possa essere anche maggiore (anche lo Shell sort è basato su questa idea, ma esso rappresenta una modifica dell'insertion sort piuttosto che del bubble sort).
+
+Il passo, o intervallo del confronto, è impostato inizialmente alla lunghezza dell'array da ordinare divisa per il fattore di riduzione (generalmente 1,3), e la lista viene ordinata con tale intervallo (arrotondato per difetto all'intero, se necessario). Terminato il primo passaggio il passo viene diviso nuovamente per il fattore di riduzione (arrotondato all'intero), e la lista viene ordinata con questo nuovo intervallo. Il processo si ripete finché il passo è pari a 1. A questo punto, il Comb sort continua ad usare un passo di 1 finché non si ha un ordinamento totale. Il passaggio finale dell'algoritmo è quindi equivalente ad un bubble sort, ma in questo modo molte "tartarughe" sono scomparse, ed in tal modo il bubble sort è molto più efficiente.
+
+Fattore di riduzione
+Il fattore di riduzione ha un grande peso sull'efficienza del Comb sort. Ai tempi della sua creazione, gli autori suggerirono di usare il valore di 1,3 in base a delle prove sperimentali basate sulla casualità. Un valore troppo piccolo degrada le prestazioni dell'algoritmo perché si rendono necessari più confronti, mentre con valore troppo alto non si riuscirebbe ad eliminare un numero di "tartarughe" tale da rendere il comb sort un miglioramento sostanziale del bubble sort.
+
+Il valore consigliato come fattore è .
+
+Varianti
+Combsort11
+Con un fattore di 1,3, ci sono solo tre possibili modi di concludere una lista di passi: (9, 6, 4, 3, 2, 1), (10, 7, 5, 3, 2, 1), oppure (11, 8, 6, 4, 3, 2, 1). Soltanto l'ultima sequenza elimina tutte le "tartarughe" prima che il passo divenga 1. Ragion per cui, si hanno miglioramenti significativi in velocità se l'intervallo viene impostato ad 11 ogni qualvolta esso debba diventare 9 o 10. Questa variazione è chiamata Combsort11.
+
+Questo si nota anche perché se si arrivasse ad usare un intervallo pari a 9 o a 10, il passo finale con un intervallo pari ad 1 sarebbe più inefficiente in quanto ripetuto due volte. I dati sono ordinati quando non si effettuano scambi tra valori durante tutta la scansione dell'array con intervallo 1.
+
+Un'altra ottimizzazione è quella di utilizzare una tabella da cui scegliere il passo da usare ad ogni scorrimento dei dati.
+
+Combsort con altri metodi conclusivi
+Come molti altri algoritmi (tipo il quick sort o il merge sort), il Comb sort è più efficiente durante i passaggi iniziali che in quelli finali, quando tende ad assomigliare al bubble sort. Il Comb sort può perciò essere reso più efficiente se il metodo di ordinamento viene cambiato non appena i passi raggiungono dei valori sufficientemente piccoli. Ad esempio, non appena il passo raggiunge o passa sotto il valore di 10, si può terminare l'utilizzo del comb sort e finire l'ordinamento utilizzando uno gnome sort o uno shaker sort o, meglio ancora, un insertion sort, incrementando l'efficienza complessiva dell'ordinamento.
+
+Un altro vantaggio di questo metodo è dato dal non dover tenere traccia degli scambi durante i vari passaggi per verificare se l'ordinamento si deve fermare oppure no.
+
+Pseudocodice
+Implementazione del Comb sort classico:
+
+function combsort(array input)
+gap:= input.size //inizializza la dimensione del passo
+
+loop until gap //aggiorna il valore del passo per il prossimo passaggio
+gap:= int(gap / 1.25)
+
+i:= 0
+swaps:= 0 //vedi bubble sort per una spiegazione
+
+//un singolo "comb" sulla lista dei dati
+loop until i + gap >= input.size //vedi shell sort per un'idea simile
+if input[i] > input[i+gap]
+swap(input[i], input[i+gap])
+swaps:= 1 // È stato eseguito uno scambio, perciò
+// la lista potrebbe non essere ordinata
+end if
+i:= i + 1
+end loop
+
+end loop
+end function
+
+Implementazione del Combsort11:
+function combsort11(array input)
+gap:= input.size //inizializza la dimensione del passo
+
+loop until gap = 1 and swaps = 0
+//aggiorna il valore del passo per il prossimo passaggio
+if gap > 1
+gap:= gap / 1.3
+if gap = 10 or gap = 9
+gap:= 11
+end if
+end if
+
+i:= 0
+swaps:= 0 //vedi bubble sort per una spiegazione
+//un singolo "comb" sulla lista dei dati
+loop until i + gap >= array.size
+if array[i] > array[i+gap]
+swap(array[i], array[i+gap])
+swaps:= swaps + 1
+end if
+i:= i + 1
+end loop
+end loop
+end function

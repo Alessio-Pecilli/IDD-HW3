@@ -1,0 +1,100 @@
+Un linguaggio di programmazione di quarta generazione ( o 4G) è un linguaggio di programmazione caratterizzato da una sintassi semplice e .
+
+Caratteristiche
+Il vantaggio dei linguaggi specializzati è il paradigma ricco di semantica, il quale permette di esprimere facilmente e talvolta elegantemente concetti altrimenti astrusi. Lo svantaggio consiste nella difficoltà di esprimere concetti al di fuori dello specifico campo di applicazione. È da notare che i linguaggi formali 4GL sono comunque turing-completi in quanto riescono a rappresentare la macchina di Turing. Questi linguaggi sono quindi equivalenti (e, in particolare, sono equivalenti al linguaggio formale matematico). I linguaggi 4GL, quindi, non possono abilitare l'espressione di nuovi concetti, ma ne possono agevolare (o complicare) enormemente la stesura.
+
+Esempi potrebbero essere i linguaggi SQL o la sintassi LinQ: sintassi semplice, specializzati nella definizione DDL e/o manipolazione DML di dati relazionali e/o a oggetti, ma inadatti alla specificazione di algoritmi procedurali con campo di applicazione generico.
+
+Alcuni linguaggi 4GL
+Di uso generale
+DataFlex
+Forté 4GL
+PowerBuilder
+SheerPower4GL
+SQLWindows/Team Developer
+WinDev
+Up ! 5GL
+Visual DataFlex
+Discovery Machine Modeler
+Gestione di database
+FOCUS
+Genero
+SB+/SystemBuilder
+Informix-4GL
+NATURAL
+Progress 4GL
+SQL
+RPG-IV
+Generatori di Report
+BuildProfessional
+GEMBase
+IDL-PV/WAVE
+LINC
+Metafont
+NATURAL
+Oracle Reports
+PostScript
+Progress 4GL
+Quest
+Report Builder
+Manipolazione ed analisi di dati
+Ab Initio
+ABAP
+Aubit-4GL
+Audit Command Language
+Clarion Programming Language
+CorVision
+Culprit
+ADS/Online (più elaborazione delle transazioni)
+DASL
+FOCUS
+GraphTalk
+IDL
+IGOR Pro
+Informix-4GL
+LANSA
+LabVIEW
+MAPPER (Unisys/Sperry) ora parte di BIS
+MARK-IV (Sterling/Informatics) ora VISION:BUILDER di CA
+Mathematica
+MATLAB
+NATURAL
+Nomad
+PL/SQL
+Progress 4GL
+PROIV
+R
+Ramis
+S
+SAS
+SPSS
+Stata
+Synon
+XBase++
+linguaggi di Data-stream
+APE
+AVS
+Iris Explorer
+Database GUI
+Genexus
+SB+/SystemBuilder
+Progress Dynamics
+UNIFACE
+Immagini
+FOURGEN CASE Tools for Rapid Application Development by Gillani
+SB+/SystemBuilder
+Oracle Forms
+Progress 4GL ProVision
+Unify Accell
+Per creare GUI
+4th Dimension
+eDeveloper
+MATLAB's GUIDE
+Omnis Studio
+OpenROAD
+Progress 4GL AppBuilder
+Revolution programming language
+Sculptor 4GL
+Web
+ColdFusion
+CSS

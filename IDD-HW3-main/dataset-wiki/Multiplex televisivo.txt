@@ -1,0 +1,9 @@
+Il multiplex televisivo è una tecnica di trasmissione/diffusione del segnale televisivo digitale (satellitare, via cavo o terrestre), tramite il quale più canali televisivi, radiofonici o di dati, vengono diffusi assieme sulla medesima banda di frequenze grazie all'uso combinato di tecniche di compressione dei dati e multiplazione.
+
+È dunque una conseguenza dell'evoluzione tecnologica a partire dalla televisione analogica a quella digitale, grazie alle tecniche di trasmissione digitale e alla loro migliore efficienza spettrale, che consente una migliore gestione/utilizzazione dello spettro radio.
+
+Nel mondo sono implementati diversi standard di multiplex: in Europa vengono usati il DVB-T e DVB-T2 per la televisione digitale terrestre, il DVB-C per la televisione via cavo e il DVB-S e DVB-S2 per quella satellitare, mentre negli Stati Uniti l'ATSC.
+
+Sintonizzazione
+
+In base al tipo di sistema di trasmissione, i servizi individuali vengono numerati con numeri interi o con numeri di canali a due parti consistenti in un numero di un canale maggiore o in un numero di un canale minore.

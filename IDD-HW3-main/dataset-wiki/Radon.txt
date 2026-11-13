@@ -1,0 +1,98 @@
+Il radon o rado (precedentemente chiamato niton o nito) è l'elemento chimico che nella tavola periodica viene rappresentato dal simbolo Rn e numero atomico 86.
+
+Scoperto nel 1899 da Robert B. Owens e Ernest Rutherford, è un gas nobile e radioattivo che si forma dal decadimento α del radio, generato a sua volta dal decadimento α dell'uranio. Polonio e bismuto sono i prodotti, estremamente tossici, del decadimento radioattivo del radon.
+
+Il radon è un gas molto pesante, pericoloso per la salute umana se inalato in quantità significative.
+
+Uno dei principali fattori di rischio del radon è legato al fatto che, accumulandosi all'interno di abitazioni, è la seconda causa di tumore al polmone, specialmente tra i fumatori. Per ciò che riguarda i paesi industrializzati, recenti studi statistici effettuati dall'USEPA (United States Environmental Protection Agency) stimano circa morti all'anno negli USA attribuibili al radon residenziale; simili valori sono stati stimati per studi effettuati nell'Unione europea.
+
+In particolare, studi statistici effettuati nel 2005 hanno stimato per un campione significativo di paesi europei che il 9% delle morti per tumori ai polmoni e il 2% di quelle complessive per tumori sono attribuibili al gas radon residenziale.
+
+Caratteristiche principali
+Il radon è un elemento chimicamente inerte (in quanto gas nobile), naturalmente radioattivo. A temperatura e pressione standard il radon è inodore e incolore. Nonostante sia un gas nobile alcuni esperimenti indicano che il fluoro può reagire col radon e formare il difluoruro di radon. Il radon è solubile in acqua e poiché la sua concentrazione in atmosfera è in genere estremamente bassa, l'acqua naturale di superficie a contatto con l'atmosfera (sorgenti, fiumi, laghi...) lo rilascia in continuazione per volatilizzazione anche se generalmente in quantità molto limitate. D'altra parte, l'acqua profonda delle falde può presentare un'elevata concentrazione di 222Rn rispetto alle acque superficiali. In Italia gli enti preposti alla misura del radon nelle abitazioni e nei luoghi chiusi sono le ARPA, a cui si può fare riferimento per adottare provvedimenti di bonifica nei casi di superamento dei limiti di legge.
+
+Isotopi
+
+L'isotopo più stabile, significativo per la dose assimilata dall'uomo, è il 222Rn, esso ha un tempo di dimezzamento di 3,825 giorni e viene usato, a volte, in radioterapia. Esso deriva, per decadimento α, dalla catena di decadimento dell'uranio-238 e del radio-226.
+
+"Thoron" è il nome che identifica l'isotopo del radon con peso atomico 220. Può risultare anch'esso dannoso per la salute umana in quanto, come il 222Rn è un emettitore α e si presenta in stato di gas. Poiché il tempo di decadimento è di 55,61 secondi si presuppone che la sua presenza nelle abitazioni sia mediamente minore rispetto al 222Rn in quanto il contributo fornito dal suolo (principale sorgente del gas) viene notevolmente ridotto. In presenza però di rocce o materiali da costruzione che contengano elevati quantitativi di torio si possono rilevare significativi accumuli di thoron. Nonostante il thoron, a parità di concentrazione, risulti più radiotossico del 222Rn attualmente in Italia esistono ancora pochi studi adatti a determinarne la concentrazione all'interno delle abitazioni.
+
+Gli altri isotopi, tra cui il 219Rn (isotopo naturale insieme al 222Rn ed al 220Rn e con tempo di decadimento di 3,96 secondi), avendo una vita media estremamente più breve, non sono considerati pericolosi per la salute umana.
+
+Applicazioni
+
+Il radon viene a volte prodotto da alcuni ospedali per uso terapeutico. Viene pompato il suo gas da una sorgente di radio e immagazzinato in piccolissimi tubi chiamati semi o aghi e utilizzato poi per la radioterapia. A causa della sua rapida dispersione in aria, il radon viene utilizzato in ricerche idrologiche che valutano le interazioni tra acqua profonda, ruscelli e fiumi.
+
+Presunto uso come precursore sismico
+Alcune ricerche hanno ipotizzato come poter utilizzare la misurazione dell'incremento di emissione di radon come precursore sismico, in quanto la sua emissione in atmosfera è fortemente influenzata dalla conformazione geologica e in caso di variazioni di pressione o di movimenti delle faglie si è notata una variazione delle emissioni del gas. A oggi però in letteratura scientifica non risultano studi sul radon come precursore sismico che ne dimostrino un livello di affidabilità tale da renderne possibile l'uso nell'ambito della protezione civile.
+
+In Italia l'impiego del radon come precursore sismico è stato al centro di una polemica nell'ambito delle vicende legate al terremoto dell'Aquila del 2009 fra Giampaolo Giuliani, tecnico del laboratorio nazionale di fisica del Gran Sasso, sostenitore di tali tecniche e altri, scettici, tra cui Guido Bertolaso, allora direttore della protezione civile italiana.
+
+La radon terapia
+
+Paradossalmente, nonostante la pericolosità del radon, in Italia si utilizza l'inalazione di radon a scopi terapeutici per le vie respiratorie. Questo avviene in prevalenza nei centri termali che vantano la caratteristica di avere acque radioattive in cui è disciolto radon in varia concentrazione. Sorgenti con queste caratteristiche più o meno spiccate sono, ad esempio, le terme di Lurisia (Piemonte) e le terme di Merano (Alto Adige). Nessuno studio scientifico ha dimostrato l'efficacia di simili terapie, mentre il danno da basse concentrazioni di radon è bene accertato da lavori scientifici da più di vent'anni.
+
+Radon e salute
+
+Poiché il radon è un gas radioattivo, se inalato è un agente cancerogeno la cui esposizione nei luoghi chiusi aumenta il rischio di contrarre un tumore polmonare in quanto emettitore di particelle α. Il radon e i suoi discendenti nella catena di decadimento a loro volta emettono particelle α e un'elevata densità di radiazioni ionizzanti. Il livello di attenzione è, in Italia, 150 Bq/m³, corrispondenti a circa 4 pCi/L.
+
+La principale fonte di questo gas risulta essere il terreno (altre fonti possono essere in misura minore i materiali da costruzione, specialmente se di origine vulcanica come il tufo o i graniti e l'acqua), dal quale fuoriesce e si disperde nell'ambiente, accumulandosi in locali chiusi ove diventa pericoloso. Si stima che sia la seconda causa di tumore al polmone dopo il fumo di sigaretta, e alcuni studi evidenziano sinergie fra le due cause.
+
+Più alta è la concentrazione nell'ambiente più alto è il rischio di contrarre il tumore. Un metodo semplice e immediato per proteggersi dall'accumulo di questo gas è l'aerazione degli ambienti chiusi, soprattutto nei casi in cui questi siano interrati o a contatto diretto col terreno, in quanto il radon ha una grande volatilità e inerzia chimica, per cui difficilmente reagisce con altri elementi e tende a risalire in superficie e a disperdersi. In presenza di elevati valori di concentrazione del gas questa tecnica può tuttavia rivelarsi insufficiente o inefficace nonché dispendiosa in termini di climatizzazione dei locali (salvo l'utilizzo di sistemi di ventilazione con recupero del calore).
+
+Numerosi studi realizzati nei Colli Albani, i Monti Sabatini, i Monti Cimini e i Monti Vulsini hanno dimostrato come sia presente una forte emissione di gas naturali di origine vulcanica, in particolare del radon con valori misurati nelle abitazioni molto al di sopra della soglia massima raccomandata dall'OMS pari a ≤300 Bq/m³.
+
+Nei casi in cui si sappia di essere in una zona a rischio è consigliabile effettuare specifiche misurazioni presso i locali interessati atte a determinare la presenza del problema. Infatti non è sufficiente sapere che edifici vicini al nostro sono contaminati da radon, poiché l'emissione di questo gas dipende da numerosissimi fattori, difficilmente determinabili a priori .
+
+Secondo alcuni il radon sarebbe una possibile ipotesi per spiegare scientificamente la maledizione di Tutankhamon, anche se questa ipotesi risulta essere estremamente improbabile e non avvalorata da alcun riscontro scientifico.
+
+La misurazione
+La concentrazione di gas radon in un determinato volume dello spazio si misura in Bq/m³ (Becquerel/metro cubo) o in pCi/L (picoCurie/litro) laddove:
+
+1 pCi/L=37 Bq/m³.
+
+Per determinare la concentrazione di radon presente in un locale ci si può rivolgere all'Agenzia Regionale per la Protezione dell'Ambiente ARPA della propria regione, all'ENEA oppure ad aziende private che svolgono questo tipo di misure tramite appositi rilevatori. Gli strumenti di misura vanno posizionati preferibilmente nei locali dove si soggiorna più a lungo (tipicamente le camere da letto o il soggiorno). Poiché la concentrazione di radon varia sia in funzione della distanza dal terreno, sia nel corso della giornata e con il variare delle stagioni, si utilizzano generalmente dei cosiddetti rilevatori passivi, come i rilevatori a tracce nucleari, che forniscono dei valori medi in un periodo sufficientemente lungo (da tre a sei mesi). Inoltre, poiché specialmente nel periodo invernale l'abitazione aspira aria – che potrebbe essere ricca di radon – dal sottosuolo per differenza di pressione tra l'interno e l'esterno (effetto camino) e si ha una minore aerazione, è preferibile effettuare le misurazioni in questa stagione.
+
+Nel caso sia necessario una rilevazione in tempi brevi della concentrazione del gas radon, è possibile effettuare delle misurazioni con tecniche attive, tipicamente più costose delle precedenti ma che non necessitano dell'invio dei campioni rilevati presso centri specializzati, ad esempio attraverso rilevatori a camera a ionizzazione o rilevatori a scintillazione.
+
+La bonifica degli edifici inquinati
+Nelle situazioni in cui dopo aver effettuato una misurazione si dovesse rivelare una concentrazione di radon superiore ai livelli di riferimento è opportuno effettuare degli interventi di bonifica. Ci sono interventi di facile realizzazione e poco invasivi per gli edifici e altri via via sempre più pesanti. Alcuni interventi sono volti a limitare o eliminare i punti di infiltrazione, ma di solito si consiglia sempre di accompagnare questi rimedi con metodi di depressurizzazione del suolo per impedire la risalita del gas, in quanto i primi da soli risultano generalmente insufficienti. Uno degli interventi più frequenti è quello di creare un vespaio di ridotte dimensioni e collegarne opportunamente la camera di ventilazione con l'esterno mediante l'utilizzo di tubi. Una corretta quanto continua ventilazione, naturale o forzata, può contrastare gli accumuli del gas che tendono a far aumentare la concentrazione di radon negli ambienti, in particolare a piano interrato. Oggi è possibile effettuare uno screening autonomo dei propri locali attraverso dei dosimetri economici.
+
+Prevenzione
+Per prevenire l'accumulo del radon, in fase di progettazione del basamento dell'edificio si può adottare la tecnica del vespaio, detto anche vuoto sanitario, che implica la creazione di una camera di ventilazione tra il terreno e la soletta strutturale in calcestruzzo: il gas che risale dal terreno entra nel vespaio e grazie alla ventilazione naturale viene disperso all'esterno dell'edificio, evitando così che si accumuli sotto al pavimento in quantità tale da poter penetrare in casa. Esistono inoltre altre tecniche meno efficaci come la realizzazione di pozzetti di raccolta, o strati di ghiaia coperti da un foglio di materiale impermeabile al radon, avendo attenzione a non danneggiarlo in fase di posa, sempre in abbinamento a opportuni sistemi di aerazione.
+
+In ogni caso, al fine di prevenire il rischio di esposizione eccessiva al radon, laddove vi siano concentrazioni di gas radon sospette, è bene prevedere, ove possibile, la collocazione delle camere da letto non a piano terra.
+
+Inalazione e fumo
+Studi epidemiologici indicano che il rischio di cancro ai polmoni aumenta con l'esposizione al radon residenziale, mentre è noto che la prima causa di tumori polmonari è il fumo.
+
+Secondo l'USEPA, il rischio di cancro ai polmoni per i fumatori esposti anche a inalazione di gas radon aumenta significativamente a causa degli effetti sinergici del radon e del fumo. Per questa popolazione, gli studi indicano che circa 62 persone su un totale di moriranno di cancro ai polmoni rispetto alle 7 persone su un totale di per le persone che non hanno mai fumato.
+
+Il radon, come altri fattori di rischio esterni noti o sospetti di causare il cancro ai polmoni, è una minaccia sia per i fumatori sia per gli ex fumatori. Ciò è stato dimostrato da uno studio di pooling europeo.
+
+Normativa italiana
+I valori raccomandati dall'Unione europea sono di /m³ per le nuove abitazioni e 400 Bq/m³ per quelle già esistenti.
+
+In Italia, con il D. Lgs. n. 101/2020 che recepisce le quanto disposto dalla direttiva 2013/59 dell'Euratom, vengono stabiliti quattro livelli di riferimento. Per le abitazioni esistenti 300 Bq/m³, per quelle costruite dopo il 1º gennaio 2025 200 Bq/m³, per i luoghi di lavoro 300 Bq/m³ oppure 6 mSv di dose efficace. Le regioni e le province autonome sono tenute a compiere le analisi del caso e presentare un piano di bonifica entro 24 mesi dall'entrata in vigore di tale decreto. Per le scuole non vi sono indicazioni ma si ritiene, per il momento, di poter assimilare una scuola a un ambiente di lavoro.
+
+Per quanto riguarda le acque potabili provenienti da acquedotti pubblici, viene raccomandato (Raccomandazione 2001/928/Euratom) un limite massimo di concentrazione di 100 Bq/litro e di 1000 Bq/litro per le acque potabili attinte da pozzi artesiani.
+
+Molti paesi hanno adottato valori di riferimento più bassi: Stati Uniti: 4 pCi/L (equivalenti a 148 Bq/m³), Regno Unito: 200 Bq/m³, Germania: 250 Bq/m³. La Svizzera dal 01.01.2018 ha introdotto un valore di riferimento di 300 Bq/m³ (calcolato come media su un anno) per i locali in cui si trattengono regolarmente persone per più ore al giorno (mediamente oltre le 15 ore a settimana).
+
+In ogni caso i valori medi misurati nelle regioni italiane variano da 20 a 120 Bq/m³, mentre il valore medio di concentrazione di gas radon in Italia, nell'unica campagna di misurazione (effettuata tra il 1989 e il 1997) dall'Istituto Superiore di Sanità (ISS), è stato di 77 Bq/m³.
+
+Radon nei luoghi di lavoro
+
+Il Decreto Legislativo 101/2020 prevede specifiche disposizioni per la gestione del rischio radon nei luoghi di lavoro. In particolare, si applica a tutte le attività che si svolgono in ambienti sotterranei, locali seminterrati o al piano terra situati in aree prioritarie, come individuate nel Piano Nazionale d'Azione per il Radon.
+Entro 24 mesi dall'inizio dell'attività lavorativa, l'esercente ha l'obbligo di effettuare una misurazione della concentrazione di radon all'interno dei locali.
+Se i livelli rilevati risultano inferiori al valore di riferimento stabilito, non è necessario adottare alcuna misura correttiva immediata. Tuttavia, va redatto un documento che riporti i risultati della misurazione. Questo documento va conservato per almeno otto anni ed è parte integrante del Documento di Valutazione dei Rischi.
+Le misurazioni devono essere ripetute ogni otto anni, oppure qualora si effettuino lavori strutturali all'edificio.
+
+Nel caso in cui la misurazione iniziale superi il livello di riferimento, il datore di lavoro deve rivolgersi a un esperto in risanamento radon per individuare e mettere in atto gli interventi correttivi necessari.
+Una volta ricevuta la relazione tecnica dai servizi di dosimetria relativa alla misura di concentrazione di radon, il datore di lavoro ha un mese di tempo per trasmetterla agli enti competenti, insieme a una descrizione delle azioni intraprese. Tutte le misure correttive devono essere completate entro due anni dalla prima misurazione.
+
+Al termine dei lavori viene effettuata un'ulteriore misurazione della concentrazione di radon nell'ambiente.
+Se le nuove misurazioni indicano che la concentrazione di radon è tornata sotto il livello di riferimento, i controlli dovranno essere ripetuti ogni quattro anni, con documentazione conservata per otto anni.
+Nel caso in cui, nonostante gli interventi, la concentrazione resti sopra il livello di riferimento è necessaria una stima della dose di esposizione dei lavoratori da parte di un Esperto di Radioprotezione.
+Se la dose stimata supera i 6 millisievert l’anno, devono essere applicate le misure previste dal Titolo XI del decreto 101/20, che comprendono la classificazione dei lavoratori come esposti a radiazioni, la sorveglianza sanitaria obbligatoria e la registrazione dell’esposizione.
+Se invece la dose rimane sotto il valore di 6 millisievert all'anno, l'esposizione sarà comunque monitorata, in attesa che vengano trovate soluzioni correttive più efficaci.

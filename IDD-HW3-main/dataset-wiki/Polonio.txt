@@ -1,0 +1,42 @@
+Il polonio è l'elemento chimico di numero atomico 84 e il suo simbolo è Po.
+
+È un metalloide estremamente radioattivo e raro, chimicamente simile al tellurio e al bismuto e si trova nei minerali di uranio.
+
+Caratteristiche
+Questa sostanza radioattiva si scioglie facilmente in ambiente acido ed è difficilmente solubile in ambiente alcalino. Il suo comportamento chimico è molto simile a quelli di bismuto e tellurio. Il polonio è un metalloide volatile di cui il 50% si vaporizza in aria dopo 45 ore a (). Sono noti trentatré isotopi del Polonio, tutti instabili. È un elemento estremamente tossico e molto radioattivo.
+
+Applicazioni
+Assieme al berillio il polonio può essere usato per creare una sorgente di neutroni. Un esempio di questo utilizzo si ritrova nelle armi nucleari dato che viene utilizzato nella realizzazione di iniziatori neutronici modulari, impiegati soprattutto negli ordigni nucleari di vecchio tipo.
+In passato è stato usato in dispositivi per eliminare la carica elettrostatica nella manifattura di stoffe, ora rimpiazzato da sorgenti di particelle beta più facilmente disponibili e meno pericolose. Le proprietà antistatiche sono dovute alle radiazioni alfa che ionizzano l'aria circostante, che a sua volta neutralizza le cariche elettrostatiche.
+Si usa anche su speciali spazzole che tolgono la polvere accumulata sui negativi fotografici. Il polonio in queste spazzole è sigillato e schermato in modo da minimizzare i rischi da radiazioni.
+
+Il polonio-210
+Questo isotopo del polonio è un emettitore alfa con una emivita di 138,39 giorni. Un milligrammo di questo metalloide emette lo stesso numero di particelle alfa di cinque grammi di radio. Il decadimento di questo elemento rilascia anche una grande quantità di energia: mezzo grammo di polonio-210 termicamente isolato dall'ambiente può raggiungere rapidamente temperature di circa , e sviluppare circa /g in energia termica. Pochi curie (gigabecquerel) di polonio-210 emettono una luminescenza blu dovuta all'eccitazione dell'aria circostante dovuta alla elevata capacità ionizzante delle particelle alfa emesse. Poiché praticamente tutta la radiazione alfa viene facilmente bloccata dai normali contenitori e rilascia la sua energia appena colpisce una superficie, il polonio-210 è stato preso in esame per un possibile uso nel riscaldamento dei veicoli spaziali come sorgente per celle termoelettriche nei satelliti artificiali. Tuttavia, a causa della sua breve emivita (circa 140 giorni), il polonio-210 non poteva alimentare queste celle per tutta la vita utile di un satellite e questa applicazione è stata abbandonata.
+
+Storia
+Si deve la sua scoperta ai coniugi Maria Skłodowska (meglio nota come Marie Curie) e Pierre Curie, e al loro assistente Gustave Bémont, che la resero pubblica il 20 aprile 1902. Chiamato anche "radio F", venne poi battezzato polonio in onore della Polonia, terra natale di Maria Skłodowska, anche con l'intenzione di porre alla pubblica attenzione la lotta per l'indipendenza della Polonia, all'epoca provincia dell'impero russo. Fu in questo senso il primo elemento chimico a legarsi esplicitamente a una controversia geopolitica.
+
+Skłodowska aveva iniziato a misurare la radiazione emessa dall'uranio mediante la piezoelettricità scoperta dal marito Pierre in collaborazione con il fratello Jacques. Gli sposi Curie-Skłodowska, saggiando il contenuto di uranio della pechblenda, notarono che alcuni campioni erano più radioattivi di quanto lo sarebbero stati se costituiti di uranio puro; ciò implicava che nella pechblenda fossero presenti elementi in quantità minime non rilevate dalla normale analisi chimica e che la loro radioattività fosse molto alta. Decisero così di esaminare tonnellate di pechblenda e nel luglio del 1898 riuscirono a isolare una piccola quantità di polvere nera avente attività specifica pari a circa quattrocento volte quella dell'uranio. In questa polvere era contenuto un nuovo elemento dalle caratteristiche simili al tellurio, che fu chiamato polonio. Il resoconto di questo lavoro, unitamente a quello immediatamente successivo che portò alla scoperta dell'ancora più radioattivo radio, divenne la tesi di dottorato di Maria Skłodowska.
+
+Isotopi
+Sono noti trentatré isotopi del polonio, tutti radioattivi, le cui masse atomiche variano da 194 a . Il polonio-210 è l'isotopo più disponibile.
+
+209Po (con un'emivita di 103 anni) e 208Po (2,9 anni) possono essere prodotti tramite bombardamento del piombo o del bismuto con particelle alfa, protoni o deuteroni; tuttavia queste sintesi sono molto costose.
+
+Disponibilità
+Il polonio in natura è un elemento molto raro. Si trova nei minerali dell'uranio in concentrazione di circa 100 microgrammi per tonnellata, ovvero una parte su 1010. La sua abbondanza è circa lo 0,2% di quella del radio.
+
+Nel 1934 un esperimento ha dimostrato la possibilità di produrre il polonio per bombardamento del bismuto con neutroni:
+
+209Bi + n → 210Bi → 210Po + β−
+
+in questo modo il polonio-210 può essere prodotto in un reattore nucleare per la produzione di radioisotopi in quantità dell'ordine dei milligrammi. La stessa reazione invece motiva lo svantaggio nell'impiego del bismuto nel refrigerante di un reattore.
+
+Precauzioni
+Il polonio è un elemento tossico, estremamente radioattivo e pericoloso da manipolare, persino in quantitativi dell'ordine del milligrammo o meno. Le particelle alfa che emette viaggiano per pochi centimetri nell'aria e sono facilmente schermabili, ma in caso di penetrazione nell'organismo, ad esempio per inalazione o ingestione, possono danneggiarne i tessuti.
+
+Il limite massimo tollerabile di radioattività da ingestione del polonio è , una quantità corrispondente a quella prodotta da di polonio. La massima concentrazione ammissibile di composti di polonio nell'aria è circa /m³.
+
+Studi scientifici hanno dimostrato la presenza di Polonio-210 nelle sigarette. Il fumo di 20 sigarette al giorno per 1 anno equivale a sottoporsi a 28 radiografie.
+
+Il polonio-210 è stato la causa della morte dell'ex agente segreto russo Aleksandr Litvinenko, ucciso a Londra nel 2006 da una ingestione di questa sostanza in circostanze mai del tutto chiarite.

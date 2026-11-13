@@ -1,0 +1,83 @@
+In informatica il Job Control Language (JCL) è un linguaggio di scripting utilizzato nei sistemi operativi IBM DOS/VSE, OS/VS1 ed MVS per eseguire (in gergo lanciare) una procedura batch su un sistema generalmente mainframe.
+
+Descrizione
+Il linguaggio utilizza un file EBCDIC (o nei vecchi elaboratori un insieme di schede perforate) formato da una sequenza di tre tipi fondamentali di statement (in gergo schede): JOB, EXEC, DD nella sequenza:
+
+JOB
+EXEC
+DD
+...
+DD
+EXEC
+DD
+...
+DD
+
+Gli statement del JCL
+
+La prima scheda (JOB), unica nel JCL e prima nella sequenza, assegna un nome alla procedura batch. Con tale nome la procedura è riconosciuta dal sistema operativo ed identificata nei messaggi di inizio e fine lavoro che appaiono sulla console.
+
+La seconda (EXEC), una per ciascun programma, identifica tutti i programmi da eseguire per quella specifica procedura nella loro sequenza di lavorazione.
+
+La terza (DD), Data Definition, una per ciascun dataset, definisce i dataset di input e di output utilizzati dal programma.
+
+Gli statement iniziano sempre con una doppia barra a posizione 1 e 2.
+
+Gli statement con un asterisco in terza posizione sono di commento e non vengono interpretati dal sistema operativo.
+
+Gli statement che terminano con una virgola proseguono nella scheda successiva. La continuazione è utilizzata generalmente per le schede DD che devono fornire al sistema operativo numerose informazioni specifiche sui dataset utilizzati: nome del dataset, device di allocazione, formato del record, ecc.
+
+Il JCL termina con uno statement che contiene solo una doppia slash.
+
+Esempio di un semplice JCL
+
+//POPRRIEP JOB
+//****************************************************************************************
+//* XII CENSIMENTO GENERALE DELLA POPOLAZIONE 1981
+//* PROCEDURA POP14 - ELABORAZIONE REGIONALE FASE RIEPILOGO
+//****************************************************************************************
+//POP14RS1 EXEC PGM=SORT,TIME=1440
+//STEPLIB DD DSNAME=SYS1.LINKLIB,DISP=SHR
+//SORTLIB DD DSNAME=SYS1.SORTLIB,DISP=SHR
+//SYSOUT DD SYSOUT=A
+//SORTWK01 DD UNIT=3350,DSN=&&ROMA1,DISP=(NEW,DELETE),
+// SPACE=(CYL,(270)),VOL=SER=WORK2A
+//SORTWK02 DD UNIT=3350,DSN=&&ROMA2,DISP=(NEW,DELETE),
+// SPACE=(CYL,(270)),VOL=SER=WORK2A
+//SORTWK03 DD UNIT=3350,DSN=&&ROMA3,DISP=(NEW,DELETE),
+// SPACE=(CYL,(270)),VOL=SER=WORK2B
+//SORTWK04 DD UNIT=3350,DSN=&&ROMA4,DISP=(NEW,DELETE),
+// SPACE=(CYL,(270)),VOL=SER=WORK2B
+//SORTWK05 DD UNIT=3350,DSN=&&ROMA5,DISP=(NEW,DELETE),
+// SPACE=(CYL,(270)),VOL=SER=WORK2C
+//SORTWK06 DD UNIT=3350,DSN=&&ROMA6,DISP=(NEW,DELETE),
+// SPACE=(CYL,(270)),VOL=SER=WORK2C
+//SORTWK07 DD UNIT=3350,DSN=&&ROMA7,DISP=(NEW,DELETE),
+// SPACE=(CYL,(270)),VOL=SER=WORK2D
+//SORTWK08 DD UNIT=3350,DSN=&&ROMA8,DISP=(NEW,DELETE),
+// SPACE=(CYL,(270)),VOL=SER=WORK2D
+//SORTIN DD UNIT=3350,DISP=(OLD,KEEP),DSN=COPIA99.ROMA,
+// VOL=SER=(RICDK1,RICDK2,RICDK3)
+//SORTOUT DD UNIT=(3350,3),DCB=(RECFM=FB,LRECL=130,BLKSIZE=18980),
+// SPACE=(CYL,(520,180),RLSE),DISP=(NEW,PASS),
+// DSN=POP14RS1.ROMA,VOL=SER=(WORK2E,WORK2F,WORK2G)
+//SYSIN DD *
+SORT FIELDS=(59,4,A),FORMAT=BI
+/*
+//POP14110 EXEC PGM=POP14110
+//STEPLIB DD DSN=PGM.LOAD,DISP=SHR
+//SYSOUT DD SYSOUT=A
+//SYSUDUMP DD SYSOUT=A
+//SYSDBOUT DD SYSOUT=A
+//FILINP DD UNIT=3350,DSN=POP14RS1.ROMA,
+// DISP=(OLD,KEEP,KEEP),VOL=SER=(WORK2E,WORK2F,WORK2G)
+//ORIEP117 DD UNIT=(3400-6,P),DSN=ORIEP117.ROMA,VOL=SER=09995,
+// DCB=(RECFM=FB,LRECL=400,BLKSIZE=8000),DISP=(NEW,KEEP)
+//ORIEP10 DD UNIT=(3400-6,P),DSN=ORIEP10.ROMA,VOL=SER=06583,
+// DCB=(RECFM=FB,LRECL=400,BLKSIZE=8000),DISP=(NEW,KEEP)
+//CHKPOINT DD UNIT=3350,VOL=SER=VS1104,DSN=CHKPOINT.ROMA,
+// DISP=(NEW,KEEP),SPACE=(CYL,(20,4),RLSE)
+//OSTAMPA DD SYSOUT=A,DCB=(RECFM=FA,BLKSIZE=133)
+//
+
+Utility del JCL

@@ -1,0 +1,10 @@
+Il sistema Mizar costituisce l'oggetto principale del progetto Mizar. Consiste di un linguaggio per la scrittura formalizzata di definizione e dimostrazioni matematiche, un programma per computer capace di verificare dimostrazioni scritte in questo linguaggio e una libreria di definizioni e teoremi già dimostrati.
+
+Il progetto Mizar ha preso vita nel 1973. È portato avanti da Andrzej Trybulec (fondatore) e dalle università di Białystok (Polonia), Alberta (Canada) e Shinshu (Giappone). I suoi obiettivi sono simili a quelli del Progetto QED, proposto da Bob Boyer nel 1993.
+
+Il sistema
+La Mizar Mathematical Library (MML) è costruita sul sistema di assiomi Tarski-Grothendieck. A marzo 2008 conteneva circa 8.800 definizioni e 46.000 teoremi. Nuovi articoli sono esaminati dalla Commissione degli Utenti e pubblicati nell'associato Journal of Formalized Mathematics.
+
+Il linguaggio è assai simile al linguaggio matematico convenzionale. È possibile definire e utilizzare costrutti sintattici in luogo dei simboli. Gli articoli sono scritti in ASCII e sono lunghi dalle 1.500 alle 5.000 parole.
+
+Il programma per verificare le dimostrazioni è scritto in Pascal, è disponibile per i più diffusi sistemi operativi e può essere scaricato gratuitamente per scopi non commerciali. Il codice sorgente è accessibile solo agli utenti registrati.

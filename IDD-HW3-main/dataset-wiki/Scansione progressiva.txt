@@ -1,0 +1,31 @@
+La scansione progressiva è un sistema per la visualizzazione, memorizzazione o trasmissione di immagini in cui tutte le linee di ciascun fotogramma vengono visualizzate in sequenza, al contrario di quanto avviene con la scansione interlacciata dove l'immagine è suddivisa in due semiquadri, uno contenente le linee pari e l'altro quelle dispari.
+
+Descrizione
+
+Questo sistema risale agli albori della televisione: noto all'epoca come "scansione sequenziale", era usato nel sistema di scansione meccanica a 240 linee progettato da Baird nel 1936, e anche nelle sue prime trasmissioni sperimentali degli anni venti. Viene oggi utilizzato per molti contenuti ad alta definizione.
+
+La scansione progressiva televisiva è comunque diversa da quella in uso nel cinema, dove la pellicola è impressionata, stampata e proiettata senza linee di scansione: ogni punto fotogramma proiettato appare sullo schermo nello stesso momento.
+
+Questa animazione mostra in forma semplice i due tipi di scansione, esemplificando (in maniera molto accentuata) anche l'effetto di tremolio causato dall'interlacciamento, nella seconda immagine da sinistra. Le immagini progressive utilizzano il doppio di larghezza di banda rispetto a quelle interlacciate. Il video interlacciato in uso nelle applicazioni televisive minimizza questo effetto per via della differenza tra i due semiquadri dovuta al movimento e, come si vede nella terza immagine, con l'applicazione di una leggera diffusione che però riduce la nitidezza complessiva.
+Si osservi in ogni caso che le immagini di esempio sono di limitata definizione e hanno una frequenza molto bassa, il che amplifica molto i difetti dell'interlacciamento.
+
+Uso per archiviazione o trasmissione
+La scansione progressiva è usata per il processo di telecinema di materiale in pellicola e la sua registrazione in DVD, per esempio nei formati progressivi 480p24 o 576p25.
+
+Utilizzo in televisori, monitor e videoproiettori
+
+La scansione progressiva è usata da molti monitor a tubo catodico per computer, da tutti i monitor LCD e da gran parte dei monitor in alta definizione. I monitor a definizione standard, per contro, visualizzano solo segnali interlacciati.
+
+Alcuni televisori e molti videoproiettori hanno anche ingressi progressivi. Prima della diffusione di interfacce ad alta definizione, i modelli più sofisticati disponevano di ingressi per lettori DVD e sorgenti a scansione progressiva, con video a componenti su tre cavi separati, in grado di supportare segnali 576p.
+L'alta definizione permette di supportare modalità 576p e 720p. Monitor in grado di visualizzare segnali 1080p sono disponibili sul mercato dal 2008.
+
+Vantaggi della scansione progressiva
+La risoluzione verticale è maggiore rispetto a un segnale interlacciato, a parità di numero di fotogrammi per secondo.
+La risoluzione verticale percepita è tradizionalmente indicata da un numero detto coefficiente di Kell. Questo valore non è fisso ma dipende dal sistema di visualizzazione utilizzato. Il coefficiente di Kell di una sorgente progressiva, a parità di display, è maggiore rispetto a una sorgente interlacciata. Una comparazione di un video progressivo con uno interlacciato, a parità di linee di scansione, presenta una risoluzione percepita inferiore in corrispondenza di un numero di fotogrammi al secondo minore.
+Assenza di artefatti visivi dovuti all'interlacciamento, soprattutto per soggetti in movimento rapido.
+Assenza di aliasing per ridurre lo sfarfallio.
+Nel caso di film su DVD e di videogiochi, il video viene sfumato durante il processo di masterizzazione per eliminare i difetti della scansione interlacciata. Di conseguenza, la qualità video non migliora con la scansione progressiva. Un'ottima soluzione, implementata raramente, consiste nella possibilità di far effettuare l'antialiasing al sistema di visualizzazione, secondo necessità.
+I risultati di una scalatura del video sono migliori rispetto alle sorgenti interlacciate, per esempio da 576p a 1080p.
+Il processo di scalatura è molto più efficiente se avviene su fotogrammi completi, quindi le sorgenti interlacciate devono essere rimosse dall'interallacciamento prima di essere scalata, e questo può introdurre artefatti.
+I fotogrammi fissi non hanno sfarfallio e sono più facili da acquisire come immagini singole.
+Un punto a sfavore della scansione progressiva è che richiede una larghezza di banda maggiore rispetto a una sorgente interlacciata con la stessa risoluzione e frequenza.

@@ -1,0 +1,5 @@
+M4v è un'estensione che denota file di tipo MPEG-4 Video.
+
+L'estensione ufficialmente deputata dall'ISO/IEC Moving Picture Experts Group (MPEG) a descrivere file di tipo MPEG-4 è .mp4. Dato che un MPEG-4 può essere anche solo audio, è stata introdotta questa estensione supplementare per denotare esplicitamente file multimediali contenenti video; questa introduzione è dovuta a Apple con i suoi iPod e iTunes.
+
+Parallelamente, l'estensione che denota MPEG-4 contenenti solo audio è M4a.

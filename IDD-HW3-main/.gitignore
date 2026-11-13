@@ -1,5 +1,6 @@
 target/
 index/
 .claude/
-dataset-wiki/
+dataset-wiki/.cache.jsonl
+dataset-wiki/.pagine.json
 __pycache__/

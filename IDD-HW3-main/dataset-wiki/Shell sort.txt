@@ -1,0 +1,63 @@
+Lo Shell sort (o Shellsort) è uno dei più vecchi algoritmi di ordinamento. È stato ideato nel 1959 da Donald L. Shell.
+L'algoritmo è veloce, facile da comprendere e da implementare, ma è difficile analizzarne il tempo di esecuzione.
+
+Lo Shell sort viene a volte chiamato "Shell-Metzner sort" in onore di Marlene Metzner che ne scrisse una primissima implementazione in FORTRAN. Venne per la prima volta chiamato Shell-Metzner in un articolo su Creative Computing nel 1976, ma Marlene Metzner disse di non volere che l'algoritmo portasse il suo nome.
+
+Concetto base
+Lo Shell sort è una estensione dell'insertion sort, tenendo presenti due osservazioni:
+L'Insertion sort è efficiente se l'input è già abbastanza ordinato.
+L'Insertion sort è inefficiente, generalmente, in quanto muove i valori di una sola posizione per volta.
+
+Lo Shell sort è simile all'insertion sort, ma funziona spostando i valori di più posizioni per volta man mano che risistema i valori, diminuendo gradualmente la dimensione del passo sino ad arrivare ad uno.
+Alla fine, lo Shell sort esegue un insertion sort, ma per allora i dati saranno già piuttosto ordinati.
+
+Consideriamo un valore piccolo posizionato inizialmente all'estremità errata di un array dati di lunghezza n. Usando l'insertion sort, ci vorranno circa n confronti e scambi per spostare questo valore lungo tutto l'array fino all'altra estremità. Con lo Shell sort, si muoveranno i valori usando passi di grosse dimensioni, cosicché un valore piccolo andrà velocemente nella sua posizione finale con pochi confronti e scambi.
+
+L'idea dietro lo Shell sort può essere illustrata nel seguente modo:
+sistema la sequenza dei dati in un array bidimensionale (con un numero h di colonne)
+ordina i valori presenti all'interno di ciascuna colonna dell'array
+ripeti dal punto 1 con un diverso numero h (minore del precedente) fino a portare h ad 1
+
+L'effetto finale è che la sequenza dei dati viene parzialmente ordinata. La procedura viene eseguita ripetutamente, ogni volta con un array più piccolo, cioè, con un numero di colonne h più basso. Nell'ultima passata, l'array è composto da una singola colonna(h=1) trasformando di fatto quest'ultimo giro in un insertion sort puro e semplice.
+Ad ogni passata i dati diventano sempre più ordinati, finché, durante l'ultima lo diventano del tutto. Comunque, il numero di operazioni di ordinamento necessarie in ciascuna passata è limitato, a causa dell'ordinamento parziale ottenuto nelle passate precedenti.
+
+Esempio
+Poniamo che
+
+3 7 9 0 5 1 6 8 4 2 0 6 1 5 7 3 4 9 8 2
+sia la sequenza da ordinare. Prima, viene organizzata in un array con 7 colonne (sinistra), poi le colonne vengono ordinate (destra):
+
+3 7 9 0 5 1 6 3 3 2 0 5 1 5
+8 4 2 0 6 1 5 -> 7 4 4 0 6 1 6
+7 3 4 9 8 2 8 7 9 9 8 2
+Gli elementi 8 e 9 sono ora arrivati in fondo alla sequenza, ma lì c'è anche un elemento piccolo (2) che non dovrebbe esserci. Nella prossima passata, la sequenza viene organizzata su tre colonne, che vengono nuovamente ordinate:
+
+3 3 2 0 0 1
+0 5 1 1 2 2
+5 7 4 3 3 4
+4 0 6 -> 4 5 6
+1 6 8 5 6 8
+7 9 9 7 7 9
+8 2 8 9
+
+Ora la sequenza è quasi completamente ordinata. Una volta organizzata su una sola colonna durante l'ultima passata, sono solamente un 6, un 8 ed un 9 che devono essere spostati leggermente per arrivare a destinazione.
+
+In realtà, i dati non vengono inseriti in un array bidimensionale, ma vengono tenuti in un array monodimensionale indirizzato opportunamente. Per esempio, i dati alle posizioni 0, 5, 10, 15, etc. formerebbero la prima colonna di un array a cinque colonne. Le "colonne" ottenute con questo indirizzamento vengono ordinate tramite l'Insertion sort, dal momento che questo metodo è piuttosto veloce con sequenze abbastanza ordinate.
+
+Analisi
+La correttezza dell'algoritmo viene dal fatto che durante l'ultima passata (cioè per h = 1) un normale insertion sort viene eseguito sull'intero array.
+Ma, visto che i dati vengono preordinati dalle passate precedenti (h = 3, 7, 31, ...), una manciata di operazioni dell'insertion sort sono sufficienti. Il numero esatto dipende dalla sequenza dei valori h (noti come sequenze h). La sequenza h sopracitata è solo una delle molte possibili.
+
+(Pratt) Con la sequenza h 1, 2, 3, 4, 6, 8, 9, 12, 16, ..., 2p3q, ... Shellsort esegue O(n·log(n)2) passi per ordinare una sequenza di lunghezza n.
+
+(Hibbard) Con la sequenza h 1, 3, 7, 15, 31, 63, 127, ..., 2k - 1, ... Shellsort esegue O(n3/2) passi per ordinare una sequenza di lunghezza n.
+
+(Knuth) Con la sequenza h 1, 4, 13, 40, 121, ..., 3hs-1 + 1 = (3s - 1)/2, ... Shellsort esegue O(n3/2) passi per ordinare una sequenza di lunghezza n.
+
+(sequenza non definita) con la sequenza h 1, 8, 23, ..., 4i+1 + 3*2i +1, ... Shellsort esegue O (n4/3) passi per ordinare una sequenza di lunghezza n.
+
+(Sedgewick) Con la sequenza h 1, 5, 19, 41, 109, 209, ... (descritta qui sotto), Shellsort esegue O(n4/3) passi per ordinare una sequenza di lunghezza n.
+
+(Insertion sort) Il caso peggiore dello Shell sort è l'insertion sort base (usando un passo h = 1), che richiede O(n²) confronti e scambi.
+
+Una sequenza h facilmente computabile per lo Shell sort è la sequenza di Fibonacci (1, 2, 3, 5, 8, 13, 21, ... ) o il suo quadrato (1, 4, 9, 25, 64, ...).

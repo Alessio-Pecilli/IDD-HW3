@@ -1,0 +1,20 @@
+ISI Web of Knowledge (talora accorciato in ISI web) è un portale web attraverso il quale è possibile accedere ai database dellInstitute for Scientific Information (ISI), che raccolgono ed elaborano metadati dalle pubblicazioni scientifiche in tutti i campi della ricerca scientifica.
+
+Web of Science
+
+La base di dati Web of Science fa parte dell'ISI Web of Knowledge. Include i seguenti tre indici utilizzati per il fattore d'impatto:
+
+Science Citation Index
+Social Sciences Citation Index
+Arts and Humanities Citation Index
+Emerging Sources Citation Index
+
+I fattori d'impatto sono pubblicati nel Journal Citation Reports (JCR).
+
+Caratteristiche
+Il Web of Knowledge raccoglie i dati provenienti da circa 23.000 riviste scientifiche, più da altre sorgenti di informazioni quali brevetti, atti di convegni e rapporti tecnici
+
+Dal portale web è possibile effettuare ricerche semplici o complesse riguardo agli autori, agli argomenti, e ai riferimenti bibliografici sui dati disponibili nei database dell'ISI.
+
+Storia
+Ideato negli anni cinquanta da Eugene Garfield, è online dal 2002. Precedentemente di proprietà della Thomson Reuters, è stato venduto nel giugno 2016 ai fondi di investimento Onex (Toronto) e Baring Asia (Hong Kong) per oltre 3 miliardi e mezzo di dollari, insieme a tutto il settore aziendale "Intellectual Property & Science Business".

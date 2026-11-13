@@ -1,0 +1,100 @@
+CSound è un linguaggio di programmazione sviluppato tramite il linguaggio C. Esso permette, attraverso l'utilizzo di una grande varietà di opcode (funzioni), di creare sempre nuovi suoni partendo dal basso, dalle "fondamenta" del suono: le oscillazioni.
+È possibile utilizzare in CSound i seguenti tipi di sintesi audio:
+
+sintesi additiva
+sintesi sottrattiva
+sintesi granulare
+sintesi per formanti
+sintesi FM
+sintesi a modelli fisici
+
+e molti altri tipi di sintesi derivati direttamente o indirettamente da quelle appena citate.
+
+La storia
+
+Il formato .csd
+Un programma sorgente di CSound si presenta sotto forma di un unico file .csd diviso in sezioni da alcuni tag; le due sezioni più importanti sono gli Instruments e la Score; questi due termini, quando non esisteva ancora il formato unificato .csd, davano il nome ai due file sorgenti separati, l'uno con estensione .orc (orchestra = strumenti) e .sco (Score = partitura). Ancora oggi le funzioni del file-orchestra (Instruments) e del file-partitura (Score) sono rimaste invariate: semplicemente, da due file distinti si è passati a due sezioni di un unico file. Il formato unificato è infatti nato soltanto per la praticità di lavorare su un singolo documento.
+
+Un sorgente .csd commentato
+tutto ciò che viene dopo il ";" è un commento e viene quindi ignorato dal compilatore
+
+questo è il tag che identifica un file sorgente di CSound
+
+qui vanno messi gli eventuali flags del compilatore (es. "-W -o fabio.wav" compila un file wave fabio.wav)
+
+qui inizia la sezione per creare gli strumenti
+questo blocco viene chiamato header
+
+sr = 44100; questa è la frequenza di campionamento audio in Hz
+kr = 4410; questa è la frequenza di campionamento dei parametri di controllo in Hz
+ksmps = 10; questo è sr/kr, in questo caso 10
+nchnls = 1; questo è il numero di canali, in questo caso 1, mono
+-----------------------------------------------------------------------------------------------------------------------
+instr 1; qui dichiariamo l'inizio dello strumento 1
+
+var audio opcode oscillatore amp freq funz
+
+a1 oscili 10000, 1000, 1
+
+tutte le variabili audio devono iniziare per "a" (a1, a2, afabio, apippo...)
+alla variabile "a1" abbiamo collegato un oscillatore di ampiezza 10000, frequenza 1000, funzione 1
+
+l'ampiezza va stabilita in valori assoluti (nel caso di file a 16 bit l'ampiezza massima in valori
+assoluti è uguale a , questo perché con valori assoluti intendiamo il massimo valore
+numerico in ampiezza di un singolo campione, o nella regione positiva o in quella negativa
+
+la frequenza va espressa in Hz
+
+il numero di funzione stabilisce in quale "tabella" il compilatore deve disegnare la funzione
+
+out a1; colleghiamo l'uscita dell'oscillatore all'uscita del compilatore
+
+endin; diciamo al compilatore che il nostro strumento è finito
+
+qui chiudiamo la sezione strumenti
+
+qui iniziamo la sezione score
+
+richiama la funz 1 istante di inizio n. di punti per disegnare la f GEN amp delle armoniche
+
+f1 0 4096 10 1 .7 .5
+
+per prima cosa diciamo al compilatore di andare a leggere la funzione f1, che era il nostro oscillatore,
+
+poi dichiariamo l'istante in secondi dal quale la nostra funzione deve iniziare, in questo caso 0
+
+scegliamo il numero di punti, che, nella tabella immaginaria, il compilatore dovrà usare per disegnare la funzione
+N.B. il numero di punti deve essere sempre una potenza di 2 o in casi particolari
+
+adesso decidiamo che tipo di Metodo di Generazione di funzioni deve essere usato, in questo caso abbiamo scelto la GEN 10 che
+disegna sinusoidi
+
+infine scegliamo l'ampiezza della fondamentale e delle successive armoniche
+N.B. l'ampiezza deve essere sempre rapportata all'ampiezza dell'oscillatore, per esempio nel nostro caso, dato che il nostro
+oscillatore ha un'amp. di 10000, la fondamentale risulterà essere 10000*1, la I° armonica 10000*0.7, la II° 10000*0.5
+
+adesso non ci resta che tracciare le note sul "pentagramma"
+i1 0 12
+questo significa che lo strumento 1 (i1) suonerà dall'istante 0 per 12 secondi
+
+chiude la score
+chiude il sorgente
+
+Lo stesso file sorgente senza commenti
+
+sr = 44100
+kr = 4410
+ksmps = 10
+nchnls = 1
+
+instr 1
+
+a1 oscili 10000, 1000, 1
+
+out a1
+
+endin
+
+f1 0 4096 10 1 .7 .5
+
+i1 0 12

@@ -1,0 +1,198 @@
+PubMed è un servizio di ricerca gratuito di letteratura scientifica biomedica dal 1949 ad oggi; la sua prima versione online è del gennaio del 1996.
+
+Riferimenti bibliografici e banche dati accessibili
+
+PubMed, con a gennaio 2020 oltre 30 milioni di riferimenti bibliografici derivati da più di 5.300 periodici biomedici, consente l'accesso a MEDLINE, l'archivio bibliografico on-line del sistema MEDLARS (Medical Literature Analysis and Retrieval System).
+
+Oltre che a MEDLINE, permette l'accesso alle informazioni di altre banche dati tra cui quelle indicizzate dallIndex Medicus, la corrispondente versione a stampa la cui pubblicazione è stata interrotta nel 2004 a causa dell'avvento degli strumenti informatici. Tra gli riferimenti provenienti da altri database bibliografici secondari specializzati, figurano lIndex to Dental Literature, lInternational Nursing Index, lHospital Literature Index e altre fonti d'informazione su specifici settori.
+
+Sviluppato e a cura del National Center for Biotechnology Information (NCBI) presso la National Library of Medicine (NLM) dei National Institutes of Health (NIH) degli Stati Uniti, la banca dati viene comunemente interrogata attraverso Entrez, il motore di ricerca messo a punto dall'NCBI per l'individuazione di informazioni biologiche, chimiche e mediche. La lingua dell'interfaccia è solamente l'inglese. La ricerca può essere fatta per range temporali predefiniti o liberamente scelti.
+
+Alla data del 27 novembre 2010, erano oltre 17 milioni gli articoli reperibili tramite abstract, gli articoli tipo review erano in totale oltre 1,5 milioni mentre gli articoli disponibili in free full text (testo integrale) erano oltre 3,1 milioni.
+
+Opzioni di ricerca
+Tipi di pubblicazioni
+Principali tipologie di pubblicazioni
+Clinical Trial
+Editorial
+Letter
+Meta-Analysis
+Practice Guideline
+Randomized controlled trial
+Review
+
+Altri tipi di pubblicazioni
+
+Addresses
+Autobiography
+Bibliography
+Biography
+Case Reports
+Classical Article
+Clinical Conference
+Clinical Trial, Phase I
+Clinical Trial, Phase II
+Clinical Trial, Phase III
+Clinical Trial, Phase IV
+Comment
+Comparative Study
+Congresses
+Consensus Development Conference
+Consensus Development Conference, NIH
+Controlled Clinical Trial
+Corrected and Republished Article
+Dictionary
+Directory
+Duplicate Publication
+English Abstract
+Evaluation Studies
+Festschrift
+Government Publications
+Guideline
+Historical Article
+In Vitro
+Interactive Tutorial
+Interview
+Introductory Journal Article
+Journal Article
+Lectures
+Legal Cases
+Legislation
+Multicenter Study
+NewsNewspaper Article
+Overall
+Patient Education Handout
+Periodical Index
+Portraits
+Published Erratum
+Research Support, American Recovery and Reinvestment Act
+Research Support, N.I.H., Extramural
+Research Support, N.I.H., Intramural
+Research Support, Non-U.S. Gov't
+Research Support, U.S. Gov't, Non-P.H.S.
+Research Support, U.S. Gov't, P.H.S.
+Retracted Publication
+Retraction of Publication
+Scientific Integrity Review
+Technical ReportTwin Study
+Validation Studies
+Video-Audio Media
+Webcasts
+
+Lingue censite
+Il motore di ricerca permette di selezionare gli studi in base a 7 lingue principali:
+Francese
+Giapponese
+Inglese
+Italiano
+Russo
+Spagnolo
+Tedesco
+
+Il motore di ricerca permette di selezionare gli studi anche in base a lingue minori:
+
+Afrikaans
+Albanese
+Arabo
+Armeno
+Azero
+Bosniaco
+Bulgaro
+Catalano
+Cinese
+Croato
+Ceco
+Danese
+Olandese
+Esperanto
+Estone
+Finnico
+Georgiano
+Greco
+Ebraico moderno
+Hindi
+Ungherese
+Islandese
+Indonesiano
+Kinyarwanda
+Coreano
+Latino
+Lettone
+Lituano
+Macedone
+Malese
+Maori
+Norvegese
+Persiano
+Polacco
+Portoghese
+Romeno
+Sanscrito
+Scozzese gaelico
+Serbo
+Slovacco
+Sloveno
+Svedese
+Thai
+Turco
+Ucraino
+Vietnamita
+
+Classi di età censite
+Il motore di ricerca permette di selezionare gli studi in base a 14 classi di età predefinite:
+
+Tutti i neonati (da 0 a 23 mesi)
+Tutti i minorenni (da 0 a 18 anni)
+Tutti gli adulti (più di 19 anni)
+Neonati (da 0 a 1 mese)
+Infanti (da 1 a 23 mesi)
+Età prescolare (da 2 a 5 anni)
+Bambini (da 6 a 12 anni)
+Adolescenti (da 13 a 18 anni)
+Giovani adulti (da 19 a 24 anni)
+Adulti (da 19 a 44 anni)
+Mezza età (da 45 a 64 anni)
+Mezza età più gli anziani (da 45 anni o più)
+Anziani (più di 65 anni)
+80 ed oltre (da 80 anni o più)
+
+Altri criteri di ricerca
+Gli altri criteri di ricerca di Pubmed sono:
+
+sesso (maschio o femmina)
+opzioni di testo: Abstract, link al testo gratuito della rivista (free full test), link al testo della rivista a pagamento.
+
+È anche possibile fare ricerche per argomenti predefiniti:
+
+AIDS
+Bioethics
+Cancer
+Complementary Medicine
+Core clinical journals
+Dental journals
+Dietary Supplements
+History of Medicine
+MEDLINE
+Nursing journals
+Systematic Reviews
+Toxicology
+Veterinary Science
+
+Operatori booleani
+L'uso degli operatori booleani permette di effettuare ricerche mirate a discriminare più argomenti individuati dalla parole scelte, evitando un eccesso di presentazione di risultati ottenuti. Si usano normalmente 3 operatori booleani:
+AND (intersezione): usato di default tra le parole digitate
+OR (unione)
+NOT (esclusione): da usare con cautela perché può generare falsi negativi.
+
+Tutti gli operatori booleani sono letti in sequenza da sinistra a destra.
+
+L'ordine con cui i processi di PubMed sono eseguiti possono essere specificati meglio usando la parentesi; i termini contenuti sono elaborati per prima. Il risultato ottenuto viene quindi trattato come una singola unità e quindi incorporato nella strategia di ricerca globale.
+
+Esempi di utilizzo degli operatori booleani:
+Skin (pelle) genera 534279 risultati
+
+Skin + genera un menu a tendina che suggerisce parole comunemente associabili a skin, ad esempio: aging, cancer test, wound, ecc.
+
+Skin cancer = skin AND cancer: genera 120434 risultati
+Skin OR cancer: genera 2866232 risultati
+Skin NOT cancer: genera 399643 risultati

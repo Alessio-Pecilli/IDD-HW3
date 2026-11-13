@@ -1,0 +1,5 @@
+In informatica, il campo è una componente di un record. Più precisamente, un record è formato da un insieme eterogeneo di campi, che a loro volta rappresentano un solo elemento o gruppo omogeneo di dati.
+
+Nei supporti elaborativi il dato può essere visto come una sequenza di caratteri alfanumerici, valori numerici o caratteri speciali espressi nella forma originale o codificata.
+
+Generalmente ciascun campo di un record ha un nome: esempi di campo sono la data di pubblicazione di un libro oppure il cognome di uno studente.

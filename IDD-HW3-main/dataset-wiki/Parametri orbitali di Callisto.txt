@@ -1,0 +1,9 @@
+Callisto percorre un'orbita attorno al pianeta madre, Giove, ellittica della quale il semiasse maggiore misura in media 1&nbsp;882 700 km (nel punto più vicino risulta di 1&nbsp;869 000 km mentre nel più lontano 1&nbsp;897 000 km).
+
+La circonferenza orbitale è 11&nbsp;829 000 km; il periodo per percorrerla è uguale a 16 giorni 16 ore 32 minuti, con una velocità orbitale che varia da 8 143 m/s la minima, 8 204 m/s la media e 8 265 la massima, a seconda della vicinanza del satellite naturale al pianeta, l'angolo di inclanazione fra le due orbite è di 2,02°, l'inclinazione rispetto all'equatore di Giove è di 2,21° e l'eccentricità uguale a 0,0074.
+
+È il più esterno dei quattro satelliti galileiani; non partecipa alla risonanza che caratterizza i suoi compagni. Come per le altre lune interne la rotazione di Callisto è sincrona con la sua orbita, così la lunghezza del suo giorno ed il periodo orbitale risulta uguale. A causa delle perturbazioni solari e planetarie la sua eccentricità ed inclinazione variano periodicamente in una scala di tempo secolare.
+
+Siccome è il più lontano dei quattro satelliti naturali riceve 300 volte in meno di flusso di radiazioni di particelle, deviate dalla magnetosfera, rispetto al satellite Europa ed in genere agli altri più interni.
+
+en:Callisto (moon)#Orbit and rotation

@@ -1,0 +1,27 @@
+In informatica, il bytecode è un linguaggio intermedio più astratto tra il linguaggio macchina e il linguaggio di programmazione, usato per descrivere le operazioni che costituiscono un programma. È così chiamato perché spesso ogni codice operativo occupa un solo byte, anche se la lunghezza dell'intera istruzione può variare perché ogni operazione ha un numero specifico di parametri su cui operare. I parametri di queste operazioni possono consistere di registri o indirizzi di memoria, un po' come accade per il linguaggio macchina.
+
+Descrizione
+Un linguaggio intermedio come il bytecode è molto utile a coloro che realizzano linguaggi di programmazione perché riduce la dipendenza dall'hardware e facilita la creazione degli interpreti del linguaggio stesso.
+
+Il bytecode può anche essere usato come rappresentazione intermedia di un programma da far compilare a un tipo speciale di compilatore, chiamato compilatore just-in-time il quale traduce il bytecode in linguaggio macchina immediatamente prima dell'esecuzione del programma stesso, per velocizzarne l'esecuzione.
+
+Un programma in bytecode è eseguito mediante un secondo programma che ne interpreta le istruzioni. Questo interprete è spesso indicato con il termine macchina virtuale, in quanto può essere visto dal programmatore come un computer astratto che realizza al suo interno gran parte delle funzionalità di un computer reale. Questa astrazione consente di scrivere programmi portabili e cioè architettati in modo tale da poter essere eseguiti su diversi tipi di sistemi operativi e di architetture hardware. Questo è un vantaggio che hanno anche i linguaggi interpretati, tuttavia un interprete di bytecode risulta essere molto più veloce di un interprete di un linguaggio di programmazione ad alto livello perché è un linguaggio con poche e semplici istruzioni e più vicino al modo di funzionamento dell'hardware (processore e memoria) del computer.
+
+La prima implementazione di compilatore da codice sorgente a bytecode, nonché di interprete di bytecode, è stato il sistema Smalltalk, sviluppato negli anni 1970 al centro di ricerca di Palo Alto della Xerox.
+
+Il linguaggio più famoso tra quelli che fanno uso del bytecode è Java. Java ha sia una macchina virtuale (Java Virtual Machine) che interpreta il codice bytecode, sia un compilatore just-in-time che traduce il bytecode in linguaggio macchina. La piattaforma .NET, e quindi anche il linguaggio C#, ha a disposizione tecniche simili a quelle del linguaggio Java. Il linguaggio Gambas fa uso di Bytecode.
+
+Oggi, per migliorare la velocità di esecuzione, anche molti linguaggi dinamici, come PHP, Python, Ruby > 1.8 o Tcl fanno uso del bytecode in maniera più o meno esplicita a seconda delle implementazioni. Essi traducono il programma in bytecode e poi lo interpretano tramite una macchina virtuale. I linguaggi Ruby 1.8 o Perl, invece, non usano il bytecode, ma traducono il codice in una struttura sintattica ad albero che ricorda molto la rappresentazione intermedia che si usa nei compilatori; tale struttura viene poi usata dall'interprete per eseguire il programma.
+
+Un tipo particolare di bytecode è costituito dai P-Code, che possono occupare più di un singolo byte e avere istruzioni di varie dimensioni, un po' come le opcode di molte CPU. I p-Code funzionano a un livello di astrazione molto più alto rispetto ai bytecode, essi, ad esempio, possono avere operazioni tipo "stampa questa stringa" o "pulisci lo schermo". Sia il linguaggio BASIC che alcune versioni del Pascal usano i p-Code.
+
+Esempi
+Bytecode di Java, che viene eseguito dalla Java Virtual Machine
+Il Common Intermediate Language della piattaforma .NET, eseguito dal Common Language Runtime (CLR), la macchina virtuale .NET
+CLISP, una implementazione del Common Lisp il cui compilatore produce solo bytecode
+CMUCL, una implementazione del Common Lisp che può produrre sia bytecode che codice macchina
+Il bytecode di molte implementazioni del linguaggio di programmazione Smalltalk
+Il linguaggio Ocaml, opzionalmente il compilatore può produrre una forma di bytecode molto compatta
+La macchina O-code del linguaggio di programmazione BCPL
+La macchina P-Code dell'UCSD Pascal, una implementazione particolare del linguaggio Pascal
+Il linguaggio di programmazione Icon

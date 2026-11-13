@@ -1,0 +1,105 @@
+La pagina dei risultati del motore di ricerca, in sigla SERP, dall'inglese search engine results page, è la schermata dei risultati prodotta dal motore di ricerca in risposta a una richiesta dell'utente.
+
+Tale elenco può essere fornito sia dai motori di ricerca on-line (come Bing, Brave, Google o Yahoo!), sia da quelli offline (nelle biblioteche, negli archivi, e così via).
+
+Nel World Wide Web
+Il termine è in uso soprattutto nel medium Internet, in cui il posizionamento nelle SERP dei principali motori di ricerca sul web è oggetto di notevole competizione a causa della visibilità e il relativo traffico/visite che le prime posizioni garantiscono ad un sito.
+
+La posizione di un URI (o collegamento) nella SERP corrisponde alla rilevanza che il motore di ricerca assegna al documento corrispondente a tale link in relazione all'oggetto della ricerca. I criteri utilizzati dai motori di ricerca per operare tale posizionamento sono complessi e possono dipendere sia da analisi "imparziali" dei contenuti (tramite algoritmi specifici), analisi automatizzate sulla link popularity del sito web sia da eventuali accordi commerciali con i proprietari o editori delle pagine stesse.
+
+Ottimizzazione dei siti web
+Le tecniche messe in atto dai webmaster per migliorare la posizione delle proprie pagine nelle SERP sono indicate con l'espressione ottimizzazione per i motori di ricerca o SEO (search engine optimization), mentre l'operazione in sé è chiamata "posizionamento nei motori di ricerca".
+
+Altra locuzione utilizzata recentemente è search engine marketing (SEM). Essa indica lo svolgimento di pratiche appartenenti al mondo del marketing sul Web anch'esse finalizzate all'ottimizzazione del posizionamento sui motori di ricerca. Un classico esempio di SEM sono le operazioni finalizzate alla creazione di contenuti facilmente condivisibili dai quali creare un reindirizzamento al proprio sito web. In questo senso, il SEM si affianca al SEO per contribuire in maniera sostanziale alla riuscita di un progetto di web marketing svolto durante la creazione di siti web.
+
+Alcune di queste tecniche hanno finalità utili (per esempio una migliore descrizione dell'argomento trattato), altre invece confondono le idee agli utenti del web (per esempio il keyword spamming).
+
+Componenti
+I risultati di ricerca organici, le query e gli annunci pubblicitari sono i tre componenti principali della SERP, tuttavia, quelle dei principali motori di ricerca, come Google, Yahoo!, Bing, Petal, Sogou possono includere molti tipi diversi di risultati avanzati (ricerca organica e sponsorizzati) come rich snippet, immagini, mappe, definizioni, caselle di risposta, video o suggerimenti per ulteriori ricerche. Uno studio recente ha rivelato che il 97% delle query in Google restituisce almeno una funzionalità avanzata.
+
+I principali motori di ricerca differenziano visivamente tipi di contenuto specifici come immagini, notizie e blog. Molti tipi di contenuto hanno template appositi nella prima pagina dei risultati di ricerca.
+
+Query di ricerca
+Conosciuta anche come 'stringa di ricerca', è la parola o l'insieme di parole digitate dall'utente nella barra del motore di ricerca. Gli utenti indicano l'argomento desiderato in base alle parole chiave che inseriscono nella casella.
+
+Nella competizione tra motori di ricerca per attirare l'attenzione di più utenti e inserzionisti, la soddisfazione dei consumatori è stata una forza trainante nell'evoluzione dell'algoritmo di ricerca, applicato per filtrare meglio i risultati per pertinenza.
+
+Le query di ricerca non si basano più sulla semplice ricerca di parole corrispondenti a quelle digitate. L'intento e le aspettative devono essere compresi per determinare se il risultato corretto è una corrispondenza basata su significati più ampi, tratti dal contesto.
+
+E quel contesto è cresciuto dal semplice abbinamento di parole, e poi di frasi, fino all'abbinamento di idee e concetti. I significati di queste idee cambiano nel tempo e nel contesto. La corrispondenza corretta può essere trovata tramite crowdsourcing, in base a cosa stanno attualmente cercando gli altri utenti e su cosa stanno facendo clic, quando si immettono parole chiave correlate a tali ricerche. Il crowdsourcing può essere anche focalizzato sulla propria rete sociale.
+
+Con l'avvento di dispositivi portatili, smartphone, watch e vari sensori, vengono fornite dimensioni sempre più contestuali per consumatori e inserzionisti, per perfezionare e massimizzare la pertinenza utilizzando fattori aggiuntivi che possono essere presi in considerazione come: salute relativa, ricchezza di una persona, ora del giorno, abitudini personali, mobilità, posizione, meteo e servizi e opportunità nelle vicinanze, urbani o suburbani, come eventi, cibo, attività ricreative e negozi. Anche il contesto sociale e le influenze del crowdsourcing possono essere fattori pertinenti.
+
+L'allontanamento dall'input da tastiera e dalla casella di ricerca in favore della ricerca vocale, oltre alla comodità, rende disponibili anche altri fattori con vari gradi di accuratezza e pertinenza, come il carattere, l'intonazione, l'umore, l'accento, l'etnia e persino gli elementi ascoltati nelle vicinanze e l'ambiente di sfondo.
+
+La ricerca sta mutando dalla digitazione esplicita di termini ("punteggi finali partita y") alla vocalizzazione ("ehi, allora chi ha vinto?") fornendo i risultati in base a ciò che l'utente si aspetta.
+
+Risultati organici
+Gli elenchi SERP organici sono gli elenchi naturali generati dai motori di ricerca sulla base di una serie di metriche che determinano la loro rilevanza rispetto al termine cercato. Pagine Web che ottengono buoni punteggi nel test algoritmico di un motore di ricerca, vengono mostrate nell'elenco. Questi algoritmi sono generalmente basati su fattori quali qualità e pertinenza del contenuto, competenza, autorevolezza e affidabilità del sito Web e dell'autore su un determinato argomento, buona esperienza utente e backlink.
+
+Le persone tendono a visualizzare i primi risultati sulla prima pagina. Ogni pagina dei risultati dei motori di ricerca di solito contiene 10 snippet organici (tuttavia alcune pagine potrebbero averne di meno). Secondo uno studio del 2019, le percentuali di clic (CTR) per la prima pagina sono le seguenti:
+
+Posizione 1: 31,7%
+Posizione 2: 24,7%
+Posizione 3: 18,7%
+Posizione 4: 13,6%
+Posizione 5: 9,5%
+Posizione 6: 6,2%
+Posizione 7: 4,2%
+Posizione 8: 3,1%
+Posizione 9: 3%
+Posizione 10: 3,1%
+
+Risultati sponsorizzati
+Diversi motori di ricerca offrono "risultati sponsorizzati" alle aziende, che possono pagare per avere le proprie pagine con prodotti o servizi sopra altri risultati di ricerca. Ciò spesso si concretizza sotto forma di aste tra società, in cui il miglior offerente ottiene il risultato migliore. Un rapporto del 2018 della Commissione europea ha mostrato che i consumatori generalmente evitano questi risultati, poiché ci si aspetta che i risultati ottenuti tramite sponsorizzazione siano meno rilevanti.
+
+Rich snippet
+I rich snippet vengono visualizzati da Google nelle pagine dei risultati di ricerca quando un sito Web ha contenuti in markup dati strutturati. Il markup dei dati strutturati aiuta l'algoritmo di Google a indicizzare e comprendere meglio il contenuto. Google supporta i rich snippet per i seguenti tipi di dati:
+
+Prodotto: informazioni su un prodotto, inclusi prezzo, disponibilità e valutazioni delle recensioni.
+Ricetta: ricette che possono essere visualizzate nelle ricerche web e nell’apposito template.
+Review: una recensione di un ristorante, un film o un negozio.
+Evento: un evento organizzato, come concerti musicali o festival d'arte, a cui le persone possono partecipare in un determinato momento e luogo.
+Applicazione software: informazioni su un'app software, inclusi URL, valutazioni delle recensioni e prezzo.
+Video: un video online, che include una descrizione e una miniatura, e mostra immagini, contenuto e URL in un'unica casella.
+News: un articolo di notizie, che include il titolo, le immagini e le informazioni sull'editore.
+dati scientifici
+Contenuti relativi a lavori
+Pagine "come fare"
+Sitelink Casella di ricerca
+Domande frequenti (FAQ)
+Film
+Formazione e offerte di lavoro
+Breadcrumb
+
+Featured snippet
+Il "featured snippet" è una breve risposta alla domanda di un utente. Questo frammento viene visualizzato in cima all'elenco dei risultati di ricerca.
+
+Knowledge graph
+I motori di ricerca come Google, Bing, Sogou hanno iniziato a espandere i propri dati in forma enciclopedica.
+
+Google, ad esempio, chiama questo tipo di snippet "Google Knowledge Graph": visualizza una finestra secondaria aggiuntiva sul lato destro con informazioni dalle sue fonti.
+
+Google Discover
+Google Discover, precedentemente noto come Google Feed, è un modo per ottenere informazioni e notizie direttamente nella home page, sotto la casella di ricerca.
+
+Creazione dei risultati
+I principali motori di ricerca come Google, Yahoo!, Bing, Petal, Sogou utilizzano principalmente le informazioni contenute all'interno della pagine web e i metadati per generare lo snippet.
+
+In genere, il title tag dell’HTML sarà usato come titolo nello snippet, mentre il contenuto più utile nella pagina formerà la descrizione.
+
+Crawling, accessi automatizzati e SEO
+Le pagine dei risultati sono la principale fonte di dati per l'ottimizzazione per i motori di ricerca, il posizionamento su un sito Web di parole chiave competitive, è diventato un importante campo di attività e di interesse.
+
+I risultati sponsorizzati su Google possono costare una grande quantità di denaro agli inserzionisti. Le parole chiave più costose sono quelle riguardanti i servizi legali, in particolare quelle sugli avvocati per lesioni personali. Queste parole chiave hanno un prezzo nell'ordine delle centinaia di USD, la più costosa è di quasi 1000 USD per ogni clic sponsorizzato.
+
+Il processo di raccolta dei dati dalle pagine dei risultati dei motori di ricerca è solitamente chiamato "scraping dei motori di ricerca" o in una forma generale "crawling web" e genera i dati necessari alle aziende SEO per valutare le classifiche organiche del sito Web. Questi dati possono essere utilizzati per tracciare la posizione dei siti e mostrare l'efficacia della SEO, nonché le parole chiave che potrebbero richiedere maggiori investimenti SEO per posizionarsi più in alto.
+
+I SEO lavorano con diversi tool che effettuano crawling sui motori di ricerca. Le pagine dei risultati dei motori di ricerca sono protette dall'accesso automatizzato da una serie di meccanismi difensivi e termini di servizio, poiché Google ha interessi nel vendere la propria API.
+
+UX e SERP
+Ci sono più di 200 diversi fattori che definiscono il ranking in SERP. L'esperienza utente è uno degli indicatori più importanti per i motori di ricerca. Questi cercano di rendere disponibili i risultati più rilevanti per i propri utenti e controllano costantemente i feedback e comportamenti dell'utenza in merito ai siti Web che si trovano in SERP.
+
+I motori di ricerca possono modificare la posizione di un sito web se il suo CTR è molto basso rispetto ai concorrenti.
+
+Galleria d'immagini

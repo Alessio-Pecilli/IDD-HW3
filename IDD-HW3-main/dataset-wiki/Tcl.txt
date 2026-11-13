@@ -1,0 +1,30 @@
+Tcl (acronimo di Tool Command Language, pronuncia ) è un linguaggio di programmazione creato da John Ousterhout. È un linguaggio di scripting multipiattaforma, considerato di facile apprendimento e utilizzato nel rapid application development.
+
+Caratteristiche
+Le caratteristiche del linguaggio TCL comprendono:
+
+Qualsiasi cosa è un comando, comprese le strutture del linguaggio. Queste ultime utilizzano la notazione polacca detta anche notazione prefissa.
+Qualsiasi cosa può essere ridefinita o sovrascritta dinamicamente.
+Tutti i tipi di dato possono essere manipolati come stringhe, compreso il codice.
+Utilizza regole sintattiche estremamente semplici.
+Possiede un'interfaccia a eventi per i socket e i file.
+Facilmente estendibile tramite un'API che permette di collegare all'interprete oggetti scritti in C, C++, REXX e Java.
+Completo supporto per l'Unicode già dal 1999.
+Indipendente dalla piattaforma. L'interprete è già stato portato su Win32, Unix, Mac, e altri.
+Buona integrazione con il sistema a finestre grazie all'estensione Tk.
+
+Esempi
+Per un Hello world il codice è
+
+Semplicissimo esempio di codice:
+
+Un altro esempio in stile funzionale:
+
+L'elemento e è incluso nella lista list? Se sì ritorna 1, altrimenti 0.
+
+Elementi comuni di due liste, ossia insieme intersezione:
+
+Tk
+L'estensione Tk è un insieme di strumenti per scrivere GUI (un toolkit di widget) implementato dallo stesso autore di Tcl. Può essere usato anche in combinazione ad altri linguaggi come Perl, Python, Ruby, Lisp e altri, ed è stato portato su varie piattaforme quali GNU/Linux, Apple Macintosh, Unix e Windows.
+
+Esempio Tk, un orologio numerico in tre righe:

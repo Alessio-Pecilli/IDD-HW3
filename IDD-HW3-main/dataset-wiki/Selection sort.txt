@@ -1,0 +1,37 @@
+Lordinamento per selezione (selection sort) è un algoritmo di ordinamento che opera in place ed in modo simile all'ordinamento per inserzione. L'algoritmo è di tipo non adattivo, ossia il suo tempo di esecuzione non dipende dall'input ma dalla dimensione dell'array.
+
+Descrizione dell'algoritmo
+L'algoritmo seleziona di volta in volta il numero minore nella sequenza di partenza e lo sposta nella sequenza ordinata; di fatto la sequenza viene suddivisa in due parti: la sottosequenza ordinata, che occupa le prime posizioni dell'array, e la sottosequenza da ordinare, che costituisce la parte restante dell'array.
+
+Analisi delle prestazioni
+Il ciclo interno è un semplice test per confrontare l'elemento corrente con il minimo elemento trovato fino a quel momento (più il codice per incrementare l'indice dell'elemento corrente e per verificare che esso non ecceda i limiti dell'array). Lo spostamento degli elementi è fuori dal ciclo interno: ogni scambio pone un elemento nella sua posizione finale quindi il numero di scambi è pari a (dato che l'ultimo elemento non deve essere scambiato). Il tempo di calcolo è determinato dal numero di confronti.
+
+A livello asintotico viene studiato il tempo di esecuzione dei due cicli for.
+
+, dove c è una costante, dato che l'operazione effettuata può essere rappresentata da una costante.
+
+L'ordinamento per selezione effettua confronti e, nel caso peggiore/migliore/medio, scambi.
+
+La complessità di tale algoritmo è dell'ordine di
+
+Pseudocodice
+Quella che segue è una rappresentazione in pseudocodice del Selection sort:
+
+procedure SelectionSort(a: lista dei numeri da ordinare);
+for i = 0 to n - 1
+posmin ← i
+for j = (i + 1) to n
+if a[j] < a[posmin]
+posmin ← j
+if posmin != i
+tmp ← a[i]
+a[i] ← a[posmin]
+a[posmin] ← tmp
+
+Implementazioni
+Di seguito una possibile implementazione in Java :
+
+Casi limite
+Un inconveniente dell'algoritmo di ordinamento per selezione è che il tempo di esecuzione dipende solo in modo modesto dal grado di ordinamento in cui si trova il file. La ricerca del minimo elemento durante una scansione del file non sembra dare informazioni circa la posizione del prossimo minimo nella scansione successiva. Chi utilizza questo algoritmo potrebbe stupirsi nel verificare che esso impiega più o meno lo stesso tempo sia su file già ordinati che su file con tutte le chiavi uguali, o anche su file ordinati in modo casuale.
+
+Nonostante l'approccio brutale adottato, l'ordinamento per selezione ha un'importante applicazione: poiché ciascun elemento viene spostato al più una volta, questo tipo di ordinamento è il metodo da preferire quando si devono ordinare file costituiti da record estremamente grandi e da chiavi molto piccole. Per queste applicazioni il costo dello spostamento dei dati è prevalente sul costo dei confronti e nessun algoritmo è in grado di ordinare un file con spostamenti di dati sostanzialmente inferiori a quelli dell'ordinamento per selezione.

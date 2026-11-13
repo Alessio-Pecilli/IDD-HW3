@@ -1,0 +1,16 @@
+Veronica (acronimo dell'ingl. Very Easy Rodent-Oriented Netwide Index to Computerized Archives) fu tra i primi motori di ricerca del World Wide Web, basato sul protocollo di rete Gopher; alla lettera significa Semplicissimo indice diffuso, orientato ai roditori, agli archivi informatici, laddove "orientato ai roditori" era riferito alle caratteristiche del protocollo Gopher (che in inglese indica, appunto, il nome di un piccolo roditore della famiglia dei geomidi).
+
+In accordo alle caratteristiche di Gopher, Veronica effettuava ricerche verticali a partire dai titoli delle directory o dei titoli dei singoli documenti, anche se non poteva effettuare ricerche all'interno di questi ultimi.
+
+Funzionava a riga di comando e permetteva già di fare ricerche complesse racchiudendo la ricerca in parentesi e intervallando le parole con gli operatori logici AND, OR e NOT.
+
+Esempi
+Quella che segue è la sintassi per un'ipotetica ricerca su ricette di cucina cinese, escludendone tuttavia i ristoranti:
+
+(cucina AND cinese) AND NOT ristoranti
+
+volendo estendere la ricerca alla cucina indiana la sintassi è:
+
+cucina AND (cinese OR indiana)
+
+La sintassi prevede che gli operatori booleani debbano essere maiuscoli; in caso contrario Veronica li considera oggetti della ricerca.

@@ -1,0 +1,24 @@
+Lintensità di corrente è una grandezza fisica scalare che misura la quantità di carica elettrica che attraversa la sezione di un conduttore entro un'unità di tempo. In elettrotecnica i portatori di carica con i quali si ha a che fare sono quasi sempre elettroni di carica elementare omogenea, così che l'intensità di una corrente elettrica è talora definita semplicemente come quantità di elettroni che passano per una certa sezione di conduttore in un dato periodo di tempo. L'intensità di corrente è solitamente indicata nelle formule dalla lettera maiuscola. La sua unità di misura nel sistema internazionale di unità di misura è l'ampere, indicato con .
+Una corrente di intensità pari a 1 ampere sposta portatori di carica elementare in un secondo tra due capi di un circuito.
+
+Definizione
+Per una corrente elettrica costante l'intensità di corrente è uguale alla quantità di carica elettrica (misurata in coulomb) che transita attraverso la sezione di un conduttore, fratto l'intervallo di tempo necessario per il transito, indicato con e misurato in secondi:
+
+In generale l'intensità di corrente elettrica è definita come:
+
+.
+
+È possibile mettere in relazione l'intensità di corrente elettrica con la velocità di deriva delle cariche prese in considerazione. Si consideri una superficie infinitesima il cui versore normale formi un angolo con il campo elettrico , e che quindi formi lo stesso angolo con la velocità di deriva delle cariche . In un intervallo di tempo lo spazio totale percorso dalle cariche è dato da ; l'intensità di corrente che attraversa è:
+
+,
+
+dove:
+è il numero di cariche elettriche per unità di volume
+è la carica elementare
+
+Dividendo per si ottiene l'intensità di corrente infinitesima .
+Definito il vettore densità di corrente elettrica come , si riscrive ; ora la corrente elettrica può essere calcolata integrando su tutta la superficie ottenendo così:
+
+,
+
+che è anche il flusso attraverso la superficie della densità di corrente misurata in ampere al metro quadrato, e dove è il versore normale alla superficie , il prodotto è il vettore area e il punto denota il prodotto scalare.

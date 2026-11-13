@@ -1,0 +1,9 @@
+Lodometro è un dispositivo o sistema che misura la distanza percorsa da un veicolo. Può determinare tale distanza rilevando la rotazione delle ruote o mediante altri sistemi di misurazione.
+
+Il valore misurato viene visualizzato dal contachilometri, che può indicare la distanza complessiva percorsa dal veicolo oppure quella percorsa in un determinato intervallo mediante un contachilometri parziale azzerabile.
+
+Storia
+I primi dispositivi per misurare la distanza percorsa da un veicolo utilizzavano meccanismi che contavano le rotazioni delle ruote. Gli strumenti per misurare le distanze sul terreno, come la ruota metrica, appartengono invece a una categoria distinta, sebbene basata su un principio analogo.
+
+Al giorno d'oggi
+Negli autoveicoli, motocicli e in molti ciclocomputer, la sigla ODO del contachilometri (da ) indica generalmente la distanza complessiva registrata, mentre TRIP indica la distanza parziale, misurata a partire dall'ultimo azzeramento del relativo contatore.

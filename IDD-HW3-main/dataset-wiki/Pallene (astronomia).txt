@@ -1,0 +1,9 @@
+Pallene (dal greco Παλλήνη) è un satellite naturale minore del pianeta Saturno, la cui orbita è situata fra quelle di Mimante ed Encelado.
+
+Storia
+Pallene è stato scoperto nel 2004 da Sébastien Charnoz del Cassini Imaging Team, il gruppo scientifico responsabile dell'analisi delle immagini scattate dalla sonda Cassini, guidato da Carolyn Porco. Dopo aver ricevuto la designazione provvisoria S/2004 S 2, il satellite fu successivamente battezzato dall'Unione Astronomica Internazionale con il nome di Pallene, una Ninfa della mitologia greca.
+
+Si rilevò inoltre che il satellite coincideva con un oggetto avvistato il 23 agosto 1981 in una singola fotografia scattata dalla sonda spaziale Voyager 2, con una distanza stimata da Saturno di 200 000&nbsp;km; al satellite, di cui non fu possibile stabilire l'orbita esatta, era allora stata attribuita la designazione S/1981 J 14.
+
+Parametri orbitali
+L'orbita di Pallene è visibilmente influenzata da una risonanza orbitale con Encelado, molto più grande, anche se l'effetto è meno intenso rispetto alle perturbazioni di Mimante sulla vicina Metone. Il fenomeno è all'origine delle oscillazioni periodiche nel semiasse maggiore di circa 4&nbsp;km, e della longitudine del nodo ascendente di 0,02° (pari a circa 75&nbsp;km). Anche l'eccentricità orbitale varia fra 0,002 a 0,006, mentre l'inclinazione oscilla fra 0,178° e 0,184°.

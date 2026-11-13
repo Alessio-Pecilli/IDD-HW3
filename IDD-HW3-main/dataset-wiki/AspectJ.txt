@@ -1,0 +1,251 @@
+AspectJ è un'estensione di Java per aggiungere a Java stesso i cosiddetti aspetti. AspectJ rappresenta lo strumento primario, in ambito Java, per avvalersi della programmazione orientata agli aspetti.
+
+Storia
+L'estensione AspectJ venne sviluppata a partire dalla fine degli anni '90 presso il laboratorio Xerox PARC, dietro la guida di Gregor Kiczales, co-autore nel 1996 del primo paper che descrive la programmazione orientata agli aspetti. La prima release pubblica dell'estensione risale al 2001.
+
+Concetti base
+Join point e pointcut
+Un concetto basilare di AspectJ è quello di join point. Un join point può essere intuitivamente definito come un certo istante nell'esecuzione del programma; ogni chiamata a un qualsiasi metodo di un oggetto qualunque potrebbe essere un join point, così come leggere il valore di una variabile, creare un oggetto o modificare il valore di una variabile.
+
+I pointcut invece descrivono le situazioni particolari che si vengono a creare durante l'esecuzione del programma. Un pointcut è cioè una sorta di variabile booleana il cui valore dipende da un certo insieme di join point, che in un dato momento dell'esecuzione del programma possono essere veri o falsi.
+
+È possibile definire un pointcut in maniera estremamente dettagliata; si può ad esempio definire un pointcut che sia valido quando un qualsiasi metodo della classe A viene chiamato, o ancora, definire un pointcut che è valido quando un metodo di un oggetto di classe A chiama il metodo xyz(int a, int b) di un oggetto di classe B, oppure un pointcut che sia valido quando viene eseguito il metodo B.exec(String s) tranne nel caso in cui il suddetto metodo venga chiamato da un membro della classe F. È anche possibile definire un pointcut che sia valido quando uno qualunque di un certo insieme di metodi specificato dal programmatore viene chiamato.
+
+Un pointcut può contenere informazioni sui join point che lo compongono, quali ad esempio gli argomenti del metodo chiamato (se il pointcut contiene un join point definito dalla chiamata di un metodo) o lo specifico oggetto cui era diretta la chiamata (sempre che il pointcut contenga un join point consistente nella chiamata di un metodo di un oggetto). Facendo riferimento alla metafora precedente, i pointcut definiscono quando gli spettatori salgono sul palcoscenico, ossia il momento in cui gli aspetti modificano il normale flusso del programma.
+
+Advice
+Gli advice sono degli insiemi di istruzioni che vengono eseguite quando un certo pointcut diventa valido. È importante notare che un advice può contenere esso stesso la definizione del pointcut che lo attiva. Un advice nella sua esecuzione può accedere ad eventuali informazioni sui join point che lo compongono che il pointcut può fornirgli. Sempre con riferimento alla metafora del teatro, gli advice definiscono cosa fanno gli spettatori sul palcoscenico.
+
+Aspect
+Le unità elementari dell'OOP sono gli oggetti, raggruppati in classi; le unità fondamentali dell'AOP sono gli aspetti.
+
+Un aspetto normalmente contiene uno o più pointcut e uno o più advice, oltre a metodi e attributi, come le normali classi. Un aspetto modella una certa 'problematica trasversale' (cioè comune a più oggetti) del problema da risolvere; per esempio, poniamo di dover effettuare uno stesso controllo sui valori di input su più metodi appartenenti a classi differenti. Supponendo che tali oggetti non siano legati tra loro da relazioni di ereditarietà, nell'OOP si dovrebbe implementare tale controllo in ogni classe; nell'AOP è invece sufficiente implementare un unico aspetto che abbia un pointcut definito come un OR logico tra un insieme di join point che corrispondono all'esecuzione dei metodi che ci interessano, che contenga al suo interno un advice che restituisca un errore se gli argomenti del metodo eccedono i valori prefissati.
+
+AspectJ in dettaglio
+
+Join points
+Un join point può essere, ad esempio, la chiamata di un metodo; in AspectJ, un join point che viene attivato dalla chiamata del metodo void faiqualcosa(int a), si scrive come:
+
+call (void faiqualcosa(int))
+
+o anche come:
+
+execution(void faiqualcosa(int))
+
+La differenza tra un join point di tipo execution e uno di tipo call è molto semplice: un join point di tipo call corrisponde alla chiamata di un metodo da parte di un altro metodo, mentre un join point di tipo execution corrisponde all'esecuzione del corpo del metodo. Normalmente un join point di tipo call è pressoché equivalente a un join point di tipo execution; a volte però non è così. Prendiamo ad esempio il caso della classe contenente il metodo main: in java, per convenzione, ogni programma deve comprendere una classe che implementi un metodo che abbia la seguente firma: public static void main(String[] args). Tale metodo è il primo ad essere eseguito dalla java VM. Un join point definito come call (public static void main(String[] args)) non verrà mai raggiunto durante l'esecuzione di un programma java, a differenza del join point definito da execution (public static void main(String[] args)). Questo accade perché, anche se il metodo main verrà sicuramente eseguito, esso non viene mai chiamato da un altro metodo, in quanto sarà sempre il primo metodo ad essere eseguito.
+Esistono inoltre molti altri modi per individuare dei join point nel flusso del programma:
+
+handler(IOException)
+
+indica l'esecuzione di un qualsiasi blocco catch(IOException e) { .. } che gestisce un'eccezione di tipo IOException.
+
+get ( int A.numero )
+
+set (byte B.valore )
+
+sono dei join point che denotano, rispettivamente, la lettura dell'attributo di tipo intero 'numero di un oggetto appartenente alla classe A e la scrittura di un attributo di tipo byte 'valore' di un oggetto appartenente alla classe B. Un join point di tipo initialization(), invece, corrisponde alla creazione di un oggetto.
+
+initialization(B.new())
+
+corrisponde alla creazione di un oggetto di classe B tramite un costruttore che non accetta parametri, mentre, ad esempio,
+
+initialization(C.new(String,int))
+
+corrisponde alla creazione di un oggetto di classe C tramite un costruttore che ha come parametri una stringa e un intero. Un altro tipo di join point definito da aspectj è il join corrispondente all'esecuzione del corpo di un qualsiasi advice.
+Tale join point si scrive come
+
+adviceexecution()
+
+Ci sono anche altri tipi di join point in aspectj, ma visto che il linguaggio è ancora in evoluzione, qui ci si è limitati a descrivere solo quelli più frequentemente usati, che probabilmente saranno presenti anche nelle future versioni di aspectj, successive alla versione 1.1 cui l'autore fa riferimento.
+In aspectj esistono inoltre delle espressioni che permettono di definire degli insiemi di join point;
+l'espressione
+
+call(void conta(..))
+
+corrisponde alla chiamata di un qualsiasi metodo che abbia nome 'conta' e che non restituisca un valore; definisce cioè un insieme i cui membri sono i join point corrispondenti alla chiamata di metodi void che differiscono tra loro solo per il numero e il tipo degli argomenti.
+L'espressione
+
+call(public * doSomething(..))
+
+definisce invece un insieme di join point corrispondenti alla chiamata dei metodi di nome doSomething che siano stati dichiarati come pubblici, che differiscono tra loro per il numero e il tipo degli argomenti; inoltre, i suddetti metodi sono diversi anche per il tipo di dato che ritornano, che può anche essere nullo (esempio: void doSomething(..) ).
+Un altro esempio di espressione che codifica una proprietà definente un insieme di join point è il seguente:
+
+call(void A.*(..))
+
+Questa espressione indica l'insieme dei join point generati dalla chiamata di un qualsiasi metodo void appartenente alla classe A.
+
+Pointcut
+Un pointcut è un join point, oppure una intersezione o una unione tra join point, o più informalmente, una certa situazione che si viene a creare durante l'esecuzione del programma. Un pointcut nella sua definizione comprende uno o più join point: un semplice esempio di pointcut definito a partire da un unico join point è il seguente:
+
+pointcut pc() : call(void doSomething(int))
+
+I pointcut possono inoltre rendere accessibili al codice presente negli advice che vi fanno riferimento alcuni dati presi dai join point che fanno parte della loro definizione: per esempio,
+
+pointcut pc(int i): call (void doSomething(int)) && args(i)
+
+mette a disposizione dell'advice una variabile int i che sarà inizializzata al valore del parametro intero passato al metodo void doSomething(int n). Vale la pena notare che il pointcut definito qui sopra è formalmente una intersezione, ossia un and logico tra due insiemi di join point definiti dalle due espressioni call (void doSomething(int)) e args( int i): quest'ultima espressione indica tutti i join point che accettano come input un unico parametro di tipo int. Facendo riferimento a pointcut che nelle loro definizioni hanno, tra gli altri, anche dei join point di tipo call, è possibile che essi indichino all'advice l'oggetto che effettua la chiamata e quello che la riceve. Prendiamo ad esempio il pointcut wait, così definito:
+
+pointcut wait(A1 ac, B2 bd) : call(void wait()) && this(ac) && target(bd)
+
+esso corrisponde a un oggetto appartenente alla classe A1 che, nel suo codice, effettui una chiamata di un metodo void wait() di un oggetto appartenente alla classe B2; detto oggetto viene identificato con bd; ac, invece, si riferisce all'oggetto che effettua la chiamata.
+È anche possibile definire un pointcut come un'unione di due join point: tale poincut diventerà 'valido' quando l'esecuzione del programma raggiungerà uno qualsiasi (nella definizione si usa l'OR logico) dei join point specificati. Ad esempio:
+
+pointcut pt() : call(void calcola()) || execution(int moltiplica(int,int))
+
+Tale pointcut coincide sia con la chiamata del metodo void calcola(), sia con l'esecuzione del corpo del metodo int moltiplica(int a, int b)
+
+è anche possibile usare la negazione nella definizione di un pointcut:
+
+pointcut wait2(A1 ac, B2 bd) : call(void wait()) && !this(ac) && target(bd)
+
+questo pointcut verrà attivato da una chiamata del metodo B2.wait(), purché la suddetta chiamata non sia effettuata da parte di un oggetto appartenente alla classe A1.
+
+In generale, un pointcut genera dei join point. Basti pensare che nel corpo di un qualsiasi metodo, si può verificare la creazione di un oggetto, la chiamata di un altro metodo, la gestione di un'eccezione. Idem dicasi per la gestione di un'eccezione, o per la creazione di un oggetto. In aspectj esistono pertanto delle apposite parole chiave per raggruppare i join point in insiemi in base al pointcut che li ha creati.
+Esse sono: cflow e cflowbelow.
+Per mostrare la differenza tra i due, prendiamo ad esempio il seguente frammento di codice:
+
+pointcut ct() : call(void sum()) ;
+pointcut fl() : cflow(ct) ;
+
+il pointcut fl individua l'insieme di join point generati nell'esecuzione del metodo void sum, oltre al join point generato dalla chiamata del metodo sum(). Il pointcut fl, inteso come insieme di join point, contiene cioè al suo interno il poincut ct. Invece, se definiamo il pointcut fl2 come:
+
+pointcut fl2() : cflowbelow(ct) ;
+
+questo pointcut fl2 corrisponderà all'insieme dei join point generati nell'esecuzione di void sum, ma non al join point generato dalla chiamata di void sum. il pointcut fl2 non contiene al suo interno il pointcut ct. cflow e cflowbelow sono due parole chiave usate frequentemente per definire pointcut che sono intersezioni di altri pointcut, ossia pointcut che usano nella loro definizione l'AND logico.
+Ad esempio:
+
+pointcut restart() : cflowbelow(execution(void wait()))) && call(void resume(int)) ;
+
+In questo caso, dall'insieme dei join point generati da void wait() vengono selezionati solo quelli generati da void resume(); in pratica, questo pointcut diventerà valido solo quando void resume() verrà chiamato dall'interno del metodo void wait() oppure verrà chiamato dall'interno di un altro join point che è stato generato, direttamente o indirettamente, dall'esecuzione di void wait(). Altre due parole chiave usate di frequente nella definizione dei pointcut sono within e withincode.
+Con within (nomeClasse) si indica l'insieme dei join point corrispondenti all'esecuzione di codice che sia, a livello di sorgenti, parte della classe nomeClasse. Ad esempio:
+
+pointcut pi() : within(java.sql.*);
+
+denota l'insieme dei join point generati dal codice che è parte del package java.sql; analogamente, wthincode denota l'insieme dei join point generati da codice che è parte di un certo metodo o di un certo costruttore. È quindi possibile definire un altro pointcut pi2 come
+
+pointcut pi2() : withincode(void insert(Object o));
+
+Advice
+Gli advice sono degli insiemi di istruzioni che vengono eseguiti prima, dopo oppure al posto di alcuni pointcut. In questo testo vengono trattati i primi due casi, visto che la semantica del terzo (advice di tipo 'around') è ancora in corso di definizione. Gli advice che vengono eseguiti prima che un pointcut diventi valido sono definiti dalla parola chiave before: prendiamo ad esempio il seguente codice:
+
+pointcut punto1() : execution(void faQualcosa(..)) ;
+before(): punto1() {System.out.println("ciao");
+}
+
+questo frammento di codice fa sì che prima dell'esecuzione di un metodo di tipo void e di nome faiQualcosa sia stampato a video ciao.
+Un advice può anche essere eseguito dopo un certo pointcut:
+
+after(): punto1() {System.out.println("arrivederci");
+}
+
+l'effetto di questo advice è di far stampare come messaggio a video, prima che il metodo termini, la parola arrivederci.
+Un advice può definire esso stesso il pointcut da cui dipende; in altre parole, la seguente sintassi in aspectj è corretta:
+
+after(): execution (void faQualcosa(..)) {System.out.println("arrivederci");
+}
+
+e tale codice è equivalente a quello definito precedentemente.
+Il codice di un advice hanno inoltre accesso alle variabili che il pointcut mette a loro disposizione; con riferimento al pointcut wait definito in precedenza come
+
+pointcut wait(A1 ac, B2 bd) : call(void wait()) && this(ac) && target(bd)
+
+si può scrivere il seguente advice:
+
+before (A1 ac , B2 bd ) : wait(ac,bd) {
+// codice che può accedere
+// agli oggetti ac e bd
+}
+
+Bisogna ricordare che in java un metodo può terminare regolarmente oppure lanciando un'eccezione: aspectj permette di distinguere questi due casi.
+Si veda il seguente codice:
+
+after() returning punto1() : { System.out.println("tutto regolare");
+}
+
+questo advice verrà eseguito solo se l'esecuzione è terminata regolarmente
+
+after() throwing: punto1() {System.out.println("è stata creata un'eccezione");
+}
+
+quest'altro verrà eseguito solo se il metodo faiQualcosa ha lanciato un'eccezione.
+Inoltre un advice del tipo after (..) returning può avere a disposizione il dato che il metodo contenuto nel poincut restituisce, ad esempio è possibile scrivere
+
+after (int a) returning : call(int moltiplica(int,int)) {
+// qui andrebbe il codice da eseguire ..
+// che ha accesso alla variabile int a
+// contenente il valore restituito da int moltiplica
+}
+
+analogamente, nel caso di un advice del tipo after(..) throwing è possibile avere a disposizione nel corpo dell'advice l'eccezione che il metodo ha lanciato. Ad esempio, è possibile scrivere:
+
+after (Exception e ) throwing : call(int moltiplica(int,int)) {
+System.out.println("eccezione : " + e.toString());
+}
+
+Aspetti
+Un aspetto modella una problematica trasversale dell'applicazione. Può contenere al suo interno definizioni di pointcut, advice, attributi e metodi, implementare un'interfaccia od estendere una classe; il viceversa ovviamente non vale.
+Esistono aspetti astratti e aspetti concreti, esattamente così come esistono classi astratte e classi concrete; però, a differenza dell'OOP, nell'AOP un aspetto concreto non può estendere un altro aspetto concreto, ma solo un aspetto astratto.
+Un esempio è il seguente:
+
+alla riga 2 c'è la dichiarazione dell'aspetto. Gli aspetti possono essere privati o pubblici, esattamente come le classi, ma possono anche essere privilegiati ('privileged') oppure no: un normale aspetto rispetta il principio dell'information hiding, mentre uno privilegiato no. In parole povere, solo gli aspetti dichiarati come 'privileged' hanno la visibilità degli attributi e dei metodi privati di una classe, e di conseguenza solo gli aspetti privilegiati possono contenere al loro interno dei pointcut che nella loro definizione facciano riferimento a join point corrispondenti, per esempio, al get o al set di un attributo privato dell'oggetto o all'esecuzione di un metodo privato. L'aspetto in esame alla riga 2 viene dichiarato come un aspetto pubblico privilegiato.
+
+Un aspetto, esattamente come qualsiasi altro oggetto, può avere uno o più costruttori: in questo caso, il costruttore è implementato nelle righe dalla 5 alla 9.
+
+Nella riga 10 e 13 troviamo la definizione di due semplici pointcut, definiti tramite dei join point di tipo execution. Alla riga 16 e alla riga 18 ci sono due advice che vengono eseguiti, rispettivamente, prima e dopo il pointcut definito alla riga 10; nell'aspetto ci sono anche due advice (righe 29 e 31) che vengono eseguiti l'uno prima e l'altro dopo il pointcut definito alla riga 13. Come accade nelle classi, tutti questi advice hanno accesso alle variabili private dell'aspetto (definite nelle righe dalla 2 alla 15).
+
+Si è prima accennato al fatto che gli aspetti hanno un costruttore, come gli oggetti. Tuttavia, a differenza degli oggetti, gli aspetti non vengono istanziati tramite delle apposite istruzioni. Normalmente esiste una istanza per ogni aspetto che viene creata automaticamente all'inizio del programma; tuttavia è possibile associare la creazione di aspetti a determinati eventi che si verificano durante l'esecuzione del programma. In precedenza, si era fornito un esempio di pointcut definito a partire da un join point di tipo call che specificava anche l'oggetto in esecuzione e l'oggetto cui era diretta la chiamata. Tale esempio era:
+
+pointcut wait(A1 ac, B2 bd) : call(void wait()) && this(ac) && target(bd)
+
+è possibile associare a ogni oggetto che genera un pointcut 'valido' un aspetto. Ossia, una istanza dell'aspetto viene creata ogni volta che il flusso del programma raggiunge il pointcut wait e all'oggetto in esecuzione (this, in Java) non è già associata un'istanza dell'aspetto. In AspectJ questo si scrive come:
+
+aspect nomeaspetto perthis(wait(A1 ac, B2 bd)) { }
+
+tale istruzione assicura che, a ogni oggetto ac in esecuzione che generi un pointcut wait, sia associato un aspetto. Per far sì che a ogni oggetto di un certo tipo, poniamo TiPo, sia associato un aspetto, bisognerebbe scrivere:
+
+aspect nomeaspetto perthis(this(TiPo)) { }
+
+dove this(TiPo) rappresenta l'insieme dei join point in cui l'oggetto attualmente in esecuzione è di tipo TiPo.
+
+È anche possibile associare degli aspetti agli oggetti che ricevono la chiamata:
+
+aspect nomeaspetto pertarget(wait(A1 ac, B2 bd)) { }
+
+in questo modo, ogni volta che il pointcut wait diventa valido, verrà associato a bd (l'oggetto target) un aspetto, se non ne ha già uno.
+
+Un'altra possibilità offerta da AspectJ è l'instanziazione di aspetti ogni volta che un certo pointcut diventi valido.
+
+aspect nomeaspetto percflow(call void stampa(String)) { }
+
+creerà un aspetto ogni volta che il metodo stampa verrà chiamato.
+
+Una caratteristica molto utile dell'AspectJ è la possibilità di specificare quali aspetti abbiano la precedenza sugli altri: supponiamo che un certo join point sia parte di due diversi pointcut definiti in due aspetti diversi che si chiamano, rispettivamente, Prestaz e Logging. Ad ognuno di questi due pointcut è associato un advice di tipo before; quale dei due advice sarà eseguito per primo? Per avere una risposta a questa domanda, è necessario scrivere, in uno dei due aspetti, la seguente dichiarazione:
+
+declare precedence : Prestaz, Logging;
+
+se si vuole che l'advice di Prestaz venga eseguito prima di quello dell'aspetto Logging; invece, la dichiarazione
+
+declare precedence : Logging, Prestaz ;
+
+avrà l'effetto opposto.
+
+Inter-Type declarations
+In aspectj un aspetto può alterare la struttura stessa degli oggetti aggiungendo ad essi metodi, attributi e costruttori oltre a quelli che già possiede. Bisogna però fare attenzione a non creare conflitti: i metodi, i costruttori e gli attributi che un aspetto aggiunge ad un oggetto non devono sovrapporsi a metodi, costruttori e attributi che l'oggetto già ha. In parole povere, un aspetto può aggiungere dei metodi, degli attributi o dei costruttori, purché non siano già definiti dall'oggetto stesso.
+
+La sintassi delle inter-type declarations è molto semplice: la dichiarazione
+public int Game.time;
+aggiunge un attributo di tipo intero e di nome 'time' alla classe Game, mentre
+private String Ship.name;
+aggiunge un attributo di tipo stringa name alla classe Ship. È importante notare che questo attributo è stato dichiarato come privato dall'aspetto, e quindi questo attributo sarà visibile solo dai metodi e dagli advice dell'aspetto, ma non dai metodi della classe Ship.
+
+public int Game.score () {
+// codice che ritorna il punteggio del gioco...
+}
+
+Questa istruzione aggiunge alla classe Game un metodo score() pubblico. È anche possibile aggiungere dei costruttori agli oggetti, ad esempio si può scrivere
+
+public Game.new(String s ) {
+// codice del costruttore
+}
+
+per far sì che Game abbia un costruttore che accetta come parametro una stringa.

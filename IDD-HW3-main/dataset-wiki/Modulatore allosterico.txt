@@ -1,0 +1,11 @@
+In biochimica un modulatore allosterico è una molecola che lega un determinato recettore cellulare con una sua propria funzione in una zona di legame diversa da quella del ligando stesso del recettore preso in questione e questo legame col modulatore allosterico determina una modificazione conformazionale della struttura del recettore stesso, provocando una facilitazione o un impedimento all'attivazione del recettore dopo che sia avvenuto il "legame" col ligando specifico.
+
+Modulatore allosterico in farmacologia
+In campo farmacologico un esempio di modulatore allosterico sono le benzodiazepine, farmaci utilizzati per la cura di ansia, insonnia e convulsioni, a seconda del loro dosaggio. Le benzodiazepine come ad esempio il lorazepam sono dei modulatori allosterici positivi per il recettore del GABA (acido gamma-amminobutirrico), ovvero legando il recettore del GABA-A tra la subunità gamma2 e α1 determina una modificazione conformazionale del recettore ionotropico (ovvero collegato a canale ionico, la cui attivazione mediante il legame col suo agonista determina l'apertura del canale del cloro col conseguente ingresso di cloro dentro la cellula nervosa che determina iperpolarizzazione), causando una maggiore frequenza di apertura del canale ionico collegato al recettore e quindi potenziando l'effetto del legame del GABA endogeno che lega il recettore tra la subunità α1 e β2.
+
+Tipi di modulatori allosterici
+Modulatore allosterico positivo
+Effetto di tipo facilitatorio sulla funzione originale e biologica del recettore stesso, potenzia l'effetto che si ha dopo il legame tra l'agonista (ligando) endogeno del recettore.
+Modulatore allosterico negativo
+Effetto di tipo inibitorio sulla funzione biologica del recettore, antagonizza o riduce parzialmente l'effetto che si avrebbe dopo il legame tra ligando e recettore in questione.
+Molti farmaci usati sono dei modulatori allosterici, perché sono più specifici e selettivi, e inoltre riducono al minimo gli effetti collaterali dovuti invece alla somministrazione di un farmaco agonista competitivo o non competitivo che, per la simile affinità dei recettori di una stessa famiglia, determinano numerosi effetti collaterali dose dipendenti.

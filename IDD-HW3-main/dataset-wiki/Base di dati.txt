@@ -1,0 +1,228 @@
+In informatica una base di dati o banca dati () è una collezione organizzata di dati in forma elettronica.
+
+La progettazione delle basi di dati è un'attività complessa, che si basa sull'applicazione di tecniche formali in congiunzione a considerazioni pratiche derivate dalla natura dei dati stessi. In fase di progettazione si affrontano quindi problemi in materia di modellazione, rappresentazione, archiviazione e accesso ai dati, oltre che della loro sicurezza, privatezza e integrità. Senza contare altre questioni di contorno che pertengono più propriamente ai DBMS.
+
+Nel linguaggio comune, la locuzione database tende a essere utilizzata impropriamente con varie sfumature di significato, di ordine più generale rispetto a "collezione astratta di dati":
+database server: ovvero il sistema fisico, comprendente sia le risorse di elaborazione che di memorizzazione necessarie al funzionamento della base di dati;
+database management system: ovvero il sistema software necessario all'interfacciamento con la base di dati.
+
+Storia
+
+I modelli navigazionali
+
+Negli anni sessanta, con la crescita della capacità elaborativa dei calcolatori e la creazione di una serie di banche dati utilizzabili per diverse applicazioni, crebbe l'interesse nel fissare uno standard. Charles W. Bachman, creatore del database navigazionale IDS, fondò il Database Task Group all'interno del gruppo CODASYL: il team di lavoro dedicato alla creazione e standardizzazione del linguaggio di programmazione COBOL. Il lavoro del gruppo venne pubblicato nel 1971 e lo standard risultante prese il nome di "Approccio CODASYL", varie implementazioni commerciali apparvero sul mercato dopo poco tempo.
+
+L'approccio CODASYL era basato sulla navigazione manuale in un insieme di dati disposti sotto forma di rete. Alla prima apertura del programma questo si trovava sul primo dato disponibile contenente, tra le altre cose, un puntatore ai dati successivi. Per trovare un dato il programma attraversava la serie di puntatori fino a trovare il dato corretto. Delle semplici query come "Trova tutte le persone nate in Svezia" richiedevano l'attraversamento dell'intero set di dati. Non esisteva alcuna funzione di ricerca; oggi questo potrebbe sembrare una limitazione, ma all'epoca, essendo i dati archiviati su nastro magnetico, operazioni come quelle evidenziate sopra peggioravano ulteriormente il tempo di ricerca.
+
+Nel 1968 IBM sviluppò un proprio DBMS chiamato IMS. IMS era lo sviluppo di un programma utilizzato nelle missioni Apollo sui calcolatori IBM System/360 e utilizzava un sistema simile all'approccio CODASYL, con l'unica differenza di utilizzare un modello gerarchico anziché a rete.
+
+Ambedue le soluzioni presero poi il nome di "banche dati navigazionali" a causa del metodo di consultazione che era stato previsto. Inoltre Charles Bachman, in occasione della premiazione nel 1973 in cui gli venne conferito il Premio Turing, presentò un lavoro intitolato Il programmatore come navigatore. IMS è abitualmente classificato come una banca dati gerarchica, mentre IDS e IDMS (ambedue banche dati CODASYL), CINCOMs e TOTAL sono classificati come banche dati reticolari.
+
+Il modello relazionale
+
+Edgar F. Codd lavorava nella sede californiana di IBM come ricercatore sull'allora nascente tecnologia dei dischi rigidi quando osservò l'inefficienza dell'approccio CODASYL con la nuova modalità di memorizzazione dei dati, inefficienza principalmente dovuta all'assenza di una funzione di ricerca.
+Nel 1970 cominciò a produrre diversi documenti schematizzanti un nuovo approccio alla costruzione delle basi di dati, culminati nell'articolo "A Relational Model of Data for Large Shared Data Banks" ().
+In questo articolo descrisse un nuovo sistema per archiviare e modificare grandi quantità di dati, basato su collezioni di tuple di dimensione fissata (relazioni) invece che alberi di record.
+
+IBM cominciò a implementare questo modello in alcuni prototipi all'inizio degli anni settanta, a cominciare dal System R. Agli inizi degli anni '80 il sistema aveva ormai dimostrato la sua superiorità rispetto a CODASYL e quindi IBM passò a sviluppare una versione commerciale di System R, che prese il nome di "SQL/DS" prima e "DB2" infine.
+Parallelamente il lavoro di Codd era stato ripreso dal mondo accademico attraverso il progetto INGRES, dal quale nacquero numerosi spin-off commerciali che andarono a concorrere con IBM.
+Nello stesso periodo venne anche standardizzato il linguaggio SQL.
+
+Il movimento NoSQL
+
+Il termine NoSQL fu usato per la prima volta nel 1998 per descrivere una base di dati relazionale open source che non usava un'interfaccia SQL.
+L'autore Carlo Strozzi dichiarò che "come movimento, NoSQL diparte in modo radicale dal modello relazionale, e quindi andrebbe chiamato in modo più appropriato NoREL, o qualcosa di simile".
+
+All'opposto di quanto si potrebbe pensare il movimento NoSQL non è contrario all'utilizzo di database relazionali. Il termine NoSQL infatti è acronimo di Not Only SQL, a significare che esistono diversi casi d'uso per i quali il modello relazionale rappresenta una forzatura, ma tanti altri per i quali tale modello è ancora la soluzione migliore.
+
+Il termine fu riutilizzato nel 2009 da un dipendente di Rackspace, Eric Evans, quando Johan Oskarsson di Last.fm volle organizzare un evento per discutere di basi di dati distribuite open source.
+Il nome era un tentativo di etichettare il crescente numero di database non relazionali e distribuiti che spesso non garantivano le classiche proprietà ACID, a causa di vari compromessi formulati sulla base del teorema CAP.
+
+Caratteristiche
+
+Gestione delle informazioni
+La banca dati deve contenere anche le informazioni sulle loro rappresentazioni e sulle relazioni che li legano. Spesso, ma non necessariamente, una base dati contiene le seguenti informazioni:
+
+Strutture dati che velocizzano le operazioni frequenti, di solito a spese di operazioni meno frequenti.
+Collegamenti con dati esterni, cioè riferimenti a file locali o remoti non facenti parte della banca dati.
+Informazioni di sicurezza che autorizzano solo alcuni profili utente a eseguire alcune operazioni su alcuni tipi di dati.
+Programmi che vengono eseguiti, automaticamente o su richiesta di utenti autorizzati, per eseguire elaborazioni sui dati. Un tipico automatismo consiste nell'eseguire un programma ogni volta che viene modificato un dato di un certo tipo.
+
+In un sistema informatico una banca dati può essere usata direttamente dai programmi applicativi, interfacciandosi con il supporto di memorizzazione agendo direttamente sui file. Questa strategia era adottata universalmente fino agli anni sessanta, ed è tuttora impiegata quando i dati hanno una struttura molto semplice o quando sono elaborati da un solo programma applicativo.
+
+Tuttavia dalla fine degli anni sessanta, per gestire banche dati complesse condivise da più applicazioni, si sono utilizzati appositi sistemi software detti "sistemi per la gestione di basi di dati" (in inglese "database management system" o "DBMS"). Uno dei vantaggi di questi sistemi è la possibilità di non agire direttamente sui dati, ma di vederne una rappresentazione concettuale.
+
+La ricerca nel campo delle banche dati studia le seguenti problematiche:
+Progettazione di banche dati.
+Progettazione e implementazione di DBMS.
+Interpretazione (analisi) di dati contenuti nelle banche dati.
+
+Le banche dati spesso fanno uso di tecnologie derivate da altre branche dell'informatica. È usuale utilizzare tecniche derivate dall'intelligenza artificiale, come ad esempio il data mining, per cercare di estrarre relazioni o più in generale informazioni presenti nelle banche dati, ma non immediatamente visibili.
+
+Struttura e modello logico
+
+Le informazioni contenute in una banca dati sono strutturate e collegate tra loro secondo un particolare modello logico scelto dal progettista, per esempio relazionale, gerarchico, reticolare o a oggetti. Gli utenti si interfacciano con le banche dati attraverso i cosiddetti linguaggi di interrogazione e grazie a particolari applicazioni software dedicati (DBMS).
+
+Di solito le banche dati possono avere varie strutture, in ordine cronologico di comparsa e diffusione:
+
+gerarchico (anni sessanta) rappresentabile tramite un albero, ovvero con strutture simili ai file system gerarchici,
+reticolare (anni sessanta) rappresentabile tramite un grafo,
+relazionale (anni settanta) attualmente il più diffuso, rappresentabile mediante tabelle e relazioni tra esse,
+a oggetti (anni ottanta) estensione alle basi di dati del paradigma "Object Oriented", tipico della programmazione a oggetti,
+Document-oriented (NoSQL),
+Key-Value Store (NoSQL),
+Graph-based (NoSQL),
+Colonnari (NoSQL),
+semantica (inizio anni duemila) rappresentabile con un grafo relazionale.
+
+Il formato XML, oltre che per scambi di dati in rete, si sta diffondendo per la definizione di vere e proprie basi di dati. XML ha una struttura gerarchica, pare quindi un "ritorno alle origini" dei modelli di dati.
+
+Un requisito importante di una buona banca dati consiste nel non duplicare inutilmente le informazioni in essa contenute: questo è reso possibile dai gestori di banche dati relazionali, teorizzati da Edgar F. Codd, che consentono di salvare i dati in tabelle che possono essere collegate.
+
+La funzionalità di una banca dati dipende in modo essenziale dalla sua progettazione: la corretta individuazione degli scopi della banca dati stessa e quindi delle tabelle, da definire attraverso i loro campi e le relazioni che le legano, permette poi una estrazione dei dati più veloce e in generale una gestione più efficiente.
+
+Proprietà ACID
+
+Una qualunque modifica allo stato del database tramite operazioni varie è detta transazione, la quale deve rispettare le cosiddette regole o proprietà ACID. Le operazioni più tipiche in un DB sono quelle riassunte dall'acronimo CRUD.
+
+Efficienza e sicurezza
+
+Sicurezza significa impedire che la base dati venga danneggiata da interventi accidentali o non autorizzati, per esempio un attacco ai database, e mantenerne l'integrità ovvero garantire che le operazioni effettuate sulla base di dati da utenti autorizzati non provochino una perdita consistente di dati, garantendone al contempo l'affidabilità. La protezione da accessi non autorizzati è un tema importante nella gestione delle basi di dati che si rivelano vulnerabili nei seguenti punti:
+
+Sicurezza dei server
+Connessioni tra database
+Controllo sugli accessi al database
+Data warehouse
+Data mining
+
+Classificazione
+
+Secondo il modello dei dati
+
+Base di dati navigazionale
+
+Le basi di dati navigazionali sono orientate alla navigazione manuale in un insieme di dati disposti sotto forma di rete o albero. Alla prima apertura del programma questo si trovava sul primo dato disponibile contenente, tra le altre cose, un puntatore ai dati successivi. Per trovare un dato il programma attraversava la serie di puntatori fino a trovare il dato corretto.
+
+Questi modelli non brillano particolarmente in prestazioni.
+Delle semplici query come "Trova tutte le persone nate in Svezia" richiedono l'attraversamento dell'intero set di dati. Non è prevista alcuna funzione di ricerca; oggi questo potrebbe sembrare una limitazione, ma all'epoca, essendo i dati archiviati su nastro magnetico, operazioni come quelle evidenziate sopra peggioravano ulteriormente il tempo di ricerca.
+
+Alcuni esempi di DBMS basati su modelli navigazionali sono: IDS, IDMS, CINCOM, TOTAL e IMS.
+
+Base di dati relazionale
+
+Uno degli aspetti interessanti introdotti nelle banche dati relazionali sta nel collegamento delle tabelle: nel modello relazionale, per ogni record viene definita una chiave, ovvero un identificatore univoco della tupla. Nella ricostruzione delle relazioni, l'elemento di riferimento, che distingue una riga da un'altra è proprio questa chiave e viene richiamata nella definizione della relazione. La chiave può essere uno dei dati stessi che vengono memorizzati (ad esempio, per la tabella utenti, il "Codice Fiscale" della persona), una loro combinazione (chiave composta), o ancora un campo che viene aggiunto specificatamente per questo scopo. In ogni caso, la chiave primaria deve essere presente in ogni tupla e mai ripetuta più di una volta in ogni relazione.
+
+Base di dati multidimensionali
+Le banche dati multidimensionali sono un paradigma definito ancora una volta da Codd per sopperire alle scarse performance offerte dalle banche dati relazionali nel caso di utilizzo delle banche dati stesse per processi di analisi (on line analitical process, OLAP). Tali sistemi consentono di effettuare analisi su enormi quantità di dati con efficienza, cosa non possibile su banche dati relazionali più adatte a gestire transazioni (on line transaction process, OLTP).
+
+Da fine anni '90 pressoché ogni banca dati relazionale commerciale ha al suo interno un motore multidimensionale per effettuare analisi.
+
+Base di dati NoSQL
+
+NoSQL è un movimento che promuove sistemi software dove la persistenza dei dati è in generale caratterizzata dal fatto di non utilizzare il modello relazionale, di solito usato dalle basi di dati tradizionali (RDBMS). L'espressione "NoSQL" fa riferimento al linguaggio SQL, che è il più comune linguaggio di interrogazione dei dati nelle banche dati relazionali, qui preso a simbolo dell'intero paradigma relazionale.
+
+Base di dati orientata al documento
+
+Una Base di dati orientata al documento è un programma per applicazioni orientate al documento. Questi sistemi potrebbero essere implementati come strato sopra un database relazionale o a oggetti.
+
+Le basi di dati orientate al documento non memorizzano i dati in tabelle con campi uniformi per ogni record come nei database relazionali, ma ogni record è memorizzato come un documento che possiede determinate caratteristiche. Qualsiasi numero di campi con qualsiasi lunghezza può essere aggiunto al documento. I campi possono anche contenere pezzi multipli di dati.
+
+Base di dati a grafo
+
+Una base di dati a grafo usa nodi e archi per rappresentare e archiviare l'informazione.
+La rappresentazione dei dati mediante grafi offre un'alternativa al modello relazionale che fa uso di tabelle, alle basi di dati orientate al documento (che usano documenti), o altri, come i sistemi ad archivi strutturati (structured storage) basati su colonne o su cesti non interpretati di dati.
+
+I database a grafo sono spesso più veloci di quelli relazionali nell'associazione di set di dati, e mappano in maniera più diretta le strutture di applicazioni orientate agli oggetti.
+Scalano più facilmente a grandi quantità di dati e non richiedono le tipiche e onerose operazioni di unione (join).
+Dipendono meno da un rigido schema entità-relazione e sono molto più adeguati per gestire dati mutevoli con schemi evolutivi.
+Al contrario, i database relazionali sono tipicamente più veloci nell'eseguire le stesse operazioni su un grande numero di dati.
+
+Base di dati a oggetti
+
+Evoluzione del precedente modello multidimensionale, questa tipologia di sistemi consente di memorizzare direttamente "oggetti" affini a quelli utilizzati nella programmazione a oggetti.
+Questo permette di aggirare il problema dellObject-relational impedance mismatch.
+
+Questo può avvenire grazie al particolare concetto di proprietà delle banche dati multidimensionali. Nella programmazione a oggetti, ognuno di questi "oggetti" tipicamente ne conterrà altri. Ad esempio, l'oggetto contenente il Signor Rossi, conterrà un riferimento all'oggetto "Indirizzo". Contenendo il supporto per molti linguaggi di programmazione a oggetti, le banche dati che sfruttano la medesima tecnologia stanno avendo un periodo di forte sviluppo di questi tempi.
+
+Base di dati spaziale
+
+Una base di dati spaziale è una base di dati ottimizzata per archiviare e interrogare dati correlati a oggetti nello spazio, tra cui punti, linee e poligoni. Nelle basi di dati spaziali sono integrate quindi delle funzionalità aggiuntive per processare tipi di dati spaziali. L'Open Geospatial Consortium ha creato le specifiche Simple Features che stabiliscono degli standard per l'aggiunta di funzionalità spaziali alle banche dati.
+
+Base di dati multimediale
+
+Una base di dati multimediale è una base di dati che raccoglie oggetti di tipo testo, immagine, oggetti 3D, audio, video e una combinazione di questi e fornisce strumenti per la loro memorizzazione, accesso, ricerca e controllo. Attualmente il DBMS Oracle fornisce funzioni tipiche delle basi di dati multimediali.
+
+Secondo la tipologia di servizio
+
+Base di dati in cloud
+
+Quella dei database in cloud è una tipologia di basi di dati che viene ospitata su una piattaforma di cloud computing. Nelle versioni più evolute la maggior parte del sistema database è gestito dalla piattaforma cloud, lasciando al proprietario solo compiti amministrativi di alto livello. Si parla in questo caso di Database-as-a-Service (DBaaS).
+
+Secondo la modalità di accesso ai dati
+
+Base di dati parallela
+
+Un database parallelo è un tipo di database in cui le prestazioni vengono ottimizzate tramite la parallelizzazione di varie funzionalità, ad esempio il caricamento dei dati, la costruzione degli indici e la gestione delle interrogazioni. Nell'esecuzione parallela, molte operazioni sono eseguite contemporaneamente, al contrario dell'esecuzione seriale, dove le diverse fasi di elaborazione sono sequenziali.
+
+Base di dati distribuita
+
+In informatica un database distribuito è un database che si trova sotto il controllo di un database management system (DBMS) nel quale gli archivi di dati non sono memorizzati sullo stesso computer bensì su più elaboratori o nodi. In altri termini il database in senso fisico può essere dislocato in più computer situati nello stesso luogo, oppure distribuito in una rete di computer connessi tra loro sotto forma appunto di sistema distribuito.
+
+Progettazione
+
+La progettazione di basi di dati è il processo di formulazione di un modello dettagliato del database. Questo modello contiene tutte le scelte progettuali a livello logico e fisico e i parametri fisici di memorizzazione necessari per la generazione del data definition language (DDL) che può essere usato per l'implementazione del database. Un modello dei dati completamente specificato contiene i dettagli specifici per ogni singola entità.
+
+Gestione
+
+Linguaggi di interrogazione
+Nell'ambito dell'utilizzo/amministrazione della base di dati, una qualunque operazione sulla base di dati da parte dell'utente/amministratore su DBMS è ottenibile tramite un opportuno linguaggio attraverso un DBMS manager a interfaccia grafica o a interfaccia a riga di comando. In generale è possibile distinguere più linguaggi per basi di dati, ciascuno con lessico e sintassi che definiscono tutte le istruzioni possibili, a seconda del loro utilizzo o finalità a partire dalla creazione/progettazione, gestione, ristrutturazione, sicurezza, fino all'interrogazione della base di dati stessa:
+
+Data Definition Language (DDL) - consente di definire la struttura o organizzazione logica della base di dati (schema di database) e le autorizzazioni per l'accesso.
+Data Manipulation Language (DML) - permette di inserire, modificare, cancellare i dati (transazione).
+Data Control Language (DCL) - permette di gestire utenti e permessi.
+Device Media Control Language (DMCL) - permette di controllare i supporti (memoria di massa) dove vengono memorizzati i dati.
+Query language (QL) - permette di interrogare il database, cioè estrarre e leggere i dati.
+
+La sintassi di questi linguaggi varia a seconda del particolare DBMS e i vari linguaggi mantengono tra loro un'uniformità concettuale.
+
+Inoltre è possibile suddividere i linguaggi come:
+Linguaggi testuali interattivi, come l'SQL che rappresenta attualmente il linguaggio più utilizzato e di cui sono stati pubblicati diversi standard.
+Linguaggi testuali interattivi immersi in linguaggi di programmazione comuni, quali C, BASIC ecc.
+Linguaggi testuali interattivi immersi in linguaggi di programmazione proprietari.
+Linguaggi grafici e user-friendly, come QBE (Query By Example), che possono essere utilizzati anche dai meno esperti.
+
+Aspetti giuridici e legali
+
+Italia
+In Italia l'art 64-quinquies della legge 22 aprile 1941, n. 633 sul diritto d'autore prevede che:
+
+L'autore di una banca di dati, che ha scelto e organizzato creativamente il materiale all'interno della raccolta, è quindi titolare delle facoltà esclusive di natura patrimoniale e morale riconosciute a tutti gli autori di opere dell'ingegno secondo l'articolo 64-quinquies e seg. della legge 633/1941. I diritti esclusivi di riproduzione, traduzione, adattamento, distribuzione, presentazione e dimostrazione sono detti diritti patrimoniali, cioè hanno un valore economicamente valutabile. In quanto patrimoniali i sopracitati diritti sono trasferibili.
+
+L'autore può quindi effettuare o autorizzare: la riproduzione permanente o temporanea, totale o parziale, la traduzione, le modifiche, gli adattamenti e le diverse disposizioni del materiale, la distribuzione, la presentazione in pubblico e l'utilizzazione economica.
+
+C'è invece la possibilità di una libera utilizzazione quando l'accesso e la consultazione sono svolte per finalità didattiche o di ricerca scientifica, quando l'uso dei dati persegue fini di sicurezza pubblica e quando i dati sono utilizzati per una procedura amministrativa o giurisdizionale. La durata del diritto d'autore è di 70 anni dalla morte dell'autore.
+
+In qualunque caso le banche dati sono tutelate dal diritto d’autore indipendentemente dalla tutela eventualmente accordata alle opere o ai dati da cui esse sono composte, con la precisazione che la tutela della banca dati non si estende alle opere o dati in questione. In sostanza la tutela riguarda la struttura della banca dati, in pratica la sua forma espressiva.
+
+Nel caso in cui la banca di dati sia originale, cioè con dati organizzati secondo criteri originali e non per esempio in ordine alfabetico o cronologico, l'autore gode dei diritti morali e di sfruttamento economico della banca dati stessa. Invece nel caso in cui la banca dati non sia originale la tutela dei diritti non è per l'autore, ma per il costruttore ovvero colui che effettua investimenti per la costituzione della banca dati. Al costitutore della banca di dati sarà riconosciuta, sul solo territorio dell'Unione europea, la titolarità di un diritto sui generis diverso dal diritto d'autore e dai diritti connessi, volto a tutelare il lavoro svolto e gli investimenti effettuati. Infatti il costitutore può vietare le operazioni di estrazione e reimpiego della totalità o di una parte della banca dati. La durata del diritto del costitutore è di 15 anni, rinnovabile in caso di modifiche o integrazioni sostanziali apportate alla raccolta. Il conteggio dei 15 anni comincia dal 1º gennaio dell'anno successivo alla data del completamento della banca dati. Nel caso in cui il database sia accessibile via internet i 15 anni cominciano dal 1º gennaio successivo alla messa a disposizione della banca di dati stessa.
+
+Unione europea
+Il diritto alla protezione è stato riconosciuto in nell'Unione europea grazie all’introduzione della Direttiva 96/9/CE presentata dall’Unione europea, in cui si parla del suddetto diritto nel capitolo III e più precisamente negli articoli che vanno dal 7 fino all'11.
+
+Tramite questo diritto, gli Stati membri conferiscono al costitutore di una banca di dati la possibilità di vietare operazioni di estrazione e/o reimpiego della totalità o di una parte sostanziale del contenuto della stessa, valutata in termini qualitativi o quantitativi, qualora il conseguimento, la verifica e la presentazione di tale contenuto attestino un investimento rilevante.
+
+Gli Stati membri possono inoltre stabilire che l'utente legittimo di una banca di dati messa in qualsiasi modo a disposizione del pubblico possa, senza autorizzazione del costitutore della stessa, estrarre e/o reimpiegare una parte sostanziale del contenuto di tale banca:
+
+a) qualora si tratti di un'estrazione per fini privati del contenuto di una banca di dati non elettronica;
+
+b) qualora si tratti di un'estrazione per finalità didattiche o di ricerca scientifica, purché l'utente legittimo ne citi la fonte e in quanto ciò sia giustificato dagli scopi non commerciali perseguiti;
+
+c) qualora si tratti di estrazione e/o reimpiego per fini di sicurezza pubblica o per una procedura amministrativa o giurisdizionale.
+
+La tutela sui generis è quindi una protezione dell’insieme delle informazioni contenute all’interno di una banca dati, considerando lo sforzo impiegato per la sua realizzazione.
+
+Per tali ragioni la tutela sui generis trova il suo fondamento giuridico nel principio di territorialità, in quanto solo le banche dati create da un cittadino di uno Stato membro dell’Unione europea ne beneficiano.
+
+Il requisito fondamentale richiesto per la concessione della tutela sui generis è un ingente investimento di risorse umane ed economiche, in modo tale da poter differenziare la raccolta con una semplice copia di informazioni, che non richiede un impiego tanto grande. L'investimento che viene preso in considerazione riguarda le attività di raccolta di dati, la verifica delle informazioni e la presentazione dell’insieme dei materiali.
+
+Analizzando il diritto d'autore e il diritto sui generis, in questa prospettiva, è facile capire le differenze. Il primo si limita a proteggere la forma, quindi l’architettura e la sequenza in cui sono disposti i dati, frutto di una elaborazione creativa; il secondo si applica al materiale raccolto, a prescindere dal modo in cui viene organizzato.

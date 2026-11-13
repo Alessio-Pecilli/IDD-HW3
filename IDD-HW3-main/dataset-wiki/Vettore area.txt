@@ -1,0 +1,18 @@
+In geometria, il vettore area (o vettore superficie) per una superficie è il vettore di intensità pari all'area della superficie e direzione perpendicolare al piano della superficie:
+
+dove è il versore normale alla superficie.
+Per una superficie curva il vettore superficie è dato da
+
+dove sono gli elementi di superficie piani, è il versore normale ad ogni elemento di superficie .
+
+La formulazione integrale del vettore superficie è data dall'integrale sugli elementi di superficie
+
+ovvero
+
+Per una superficie curva il vettore superficie ha modulo minore dell'area, e per una superficie chiusa è nullo.
+Il concetto di area vettoriale semplifica il calcolo del flusso attraverso una superficie, che può essere scritto come il prodotto scalare del campo per il vettore superficie.
+
+Proiezione dell'area su piani
+La proiezione dell'area su, ad esempio, il piano x-y, è equivalente alla componente z del vettore area, ed è da
+
+dove è l'angolo tra il piano normale e l'asse z.

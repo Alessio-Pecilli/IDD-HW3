@@ -1,0 +1,18 @@
+In informatica un linguaggio compilato è un linguaggio di programmazione implementato tramite un compilatore, un programma che converte il codice sorgente in codice macchina. Differisce dal linguaggio interpretato, in cui il codice è eseguito direttamente da un programma detto interprete.
+
+Questo nome è vago e tecnicamente errato, perché ogni linguaggio può essere implementato sia con un compilatore, sia con un interprete. Inoltre, esistono e sono sempre più diffuse soluzioni miste, in cui un compilatore converte il codice in una forma intermedia (spesso detta bytecode), che viene interpretata o compilata in codice macchina a tempo di esecuzione da un compilatore just-in-time.
+
+Caratteristiche
+Un programma compilato è generalmente autonomo, nel senso che non richiede che sia stato installato un secondo programma (l'interprete, appunto) per essere eseguito. Tuttavia, può richiedere che siano installati altri programmi e librerie per svolgere i propri compiti.
+Un'altra conseguenza dell'assenza di interprete è il minor "peso" a tempo di esecuzione, in termini di tempo e memoria. Pertanto, un programma compilato risulta mediamente più veloce. Tuttavia, la differenza reale dipende dalle caratteristiche della macchina e dell'interprete utilizzato.
+Al tempo dei primi PC, le CPU erano straordinariamente deboli e lente. Il vantaggio, in termini di velocità di esecuzione del programma, era assolutamente significativo e critico (secondi invece che minuti). Con i PC attuali e in ambiente grafico, la differenza nella velocità di esecuzione che passa fra l'esecuzione di un programma compilato o interpretato rimane proporzionalmente la stessa, ma è praticamente inavvertibile (decimi di secondo invece che centesimi di secondo).
+
+Il codice oggetto è praticamente immodificabile: non è possibile modificarlo per errore, ed è molto difficile modificarlo deliberatamente per ottenere una diversa esecuzione del programma.
+Inoltre, il codice oggetto è incomprensibile all'uomo. Ciò si rivela utile quando il programma è coperto da copyright: un programma compilato può essere copiato illecitamente da chiunque, ma per analizzare le idee che il programma contiene è necessario un lavoro di decompilazione.
+
+In termini di rapidità di debugging e di modifica del programma, la differenza tra compilatore e interprete è notevolissima.
+
+Non è possibile lanciare il programma eseguibile su un computer su cui non è installato un interprete per il linguaggio in uso.
+
+I linguaggi compilati rimangono di scelta in tutti gli ambiti in cui la velocità di esecuzione del software è fondamentale, deve essere monitorata, dove vengono sfruttate a fondo le risorse hardware, o le stesse sono limitate (applicazioni embedded, real time, videogiochi, multimedia).
+In questi casi si rinuncia alla relativa facilità di realizzazione del software con linguaggi interpretati, in cambio di maggior controllo delle risorse offerte dai linguaggi compilati.

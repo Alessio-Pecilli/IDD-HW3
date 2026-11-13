@@ -1,0 +1,389 @@
+Google Search (pronuncia italiana ; in inglese: ) è un motore di ricerca per Internet sviluppato da Google LLC. Oltre a catalogare e indicizzare le risorse del World Wide Web, Google Search si occupa di foto, newsgroup, notizie, mappe (Google Maps), e-mail (Gmail), shopping, traduzioni, video e altri programmi creati da Google.
+
+È il sito web più visitato al mondo: nel solo dominio web italiano, nel 2022, ha totalizzato in media circa 158 milioni di visite e 24,1 milioni di utenti unici al mese. È talmente popolare che svariate lingue hanno sviluppato nuovi verbi denominali a partire dal suo marchio, con il significato di cercare con Google o, più in generale, di cercare sul web, tra i quali l'inglese to google, il tedesco googeln e l'italiano googlare, usato sia transitivamente sia intransitivamente. In determinate date il caratteristico logo cambia, anche in versione interattiva o animata, per celebrare particolari ricorrenze legate al giorno; il logo in questo caso viene chiamato doodle.
+
+Etimologia
+Secondo la versione ufficiale i due fondatori, Larry Page e Sergey Brin, volevano scegliere un nome con cui si potesse rappresentare la capacità che il motore di ricerca avrebbe avuto di trovare e organizzare le innumerevoli informazioni disponibili sul Web, quindi un nome che contenesse al suo interno un'iperbole.
+
+Page e Brin vennero quindi a conoscenza del termine googol, coniato dal nipote del matematico statunitense Edward Kasner per riferirsi al numero 10100, rappresentato da un 1 seguito da 100 zeri; l'uso di tale termine è attestato almeno dal 1937. Ritenendolo un nome perfetto per rappresentare la vastità del web, i due fondatori vollero chiamare il neonato motore di ricerca proprio Googol, ma al momento della registrazione, non sapendo come si scrivesse esattamente il termine, scrissero “Google” (che si pronuncia pressoché allo stesso modo di "Googol"). Una loro collega a Stanford li avvertì dell'errore solo il giorno dopo, ma il dominio era ormai registrato e lo lasciarono con tale nome.
+
+Un'altra fonte collega il nome del motore di ricerca a Barney Google, personaggio di un popolare fumetto statunitense creato da Billy De Beck, che fece la sua prima apparizione nel 1919 e cui venne dedicata una canzone negli anni venti del Novecento (“Barney Google with the Goo-Goo-Googly Eyes”, traducibile con “Barney Google dagli occhi sbarrati”).
+
+Il vocabolo è inoltre associabile a termini della lingua inglese dal suono simile, mediante un doppio gioco di parole:
+
+goggles: occhiali di protezione, perché il motore permette di esplorare la rete “guardandola da vicino”.
+to goggle: “strabuzzare gli occhi”, in senso di sorpresa per quanto si riesce a trovare; nello slang, può significare l'“osservare un problema e studiare una soluzione”.
+
+Storia
+Google ha le sue origini in BackRub, un progetto di ricerca avviato nel 1996 da Larry Page e Sergey Brin quando erano entrambi dottorandi all'Università di Stanford, in California. Il progetto inizialmente coinvolse un "terzo fondatore" non ufficiale, Scott Hassan, il capo programmatore che scrisse gran parte del codice per il motore di ricerca originale di Google ma se ne andò prima che Google fosse ufficialmente fondata come azienda; Hassan ha continuato a perseguire una carriera nella robotica e ha fondato la società Willow Garage nel 2006.
+
+Nella ricerca di un tema di dissertazione, Page aveva considerato, tra le altre cose, l'esplorazione delle proprietà matematiche del World Wide Web, comprendendo la sua struttura di collegamento come un enorme grafo. Il suo supervisore, Terry Winograd, lo incoraggiò a scegliere questa idea (che Page in seguito ricordò come "il miglior consiglio che abbia mai ricevuto") e Page si concentrò sul problema di scoprire quali pagine web collegano a una data pagina, sulla base della considerazione che il numero e la natura di tali collegamenti a ritroso costituivano informazioni preziose su quella pagina (tenendo presente il ruolo delle citazioni nell'editoria accademica). Page ha raccontato le sue idee a Hassan, che ha iniziato a scrivere il codice per implementare le idee di Page.
+
+Al progetto di ricerca, soprannominato BackRub si aggiunse Sergey Brin, sostenuto da una borsa di studio per laureati finanziata dalla National Science Foundation. I due si erano incontrati per la prima volta nell'estate del 1995, quando Page faceva parte di un gruppo di potenziali nuovi studenti a cui Brin si era offerto volontario per fare un giro nel campus e nella vicina San Francisco. Sia Brin che Page stavano lavorando allo Stanford Digital Library Project (SDLP). L'obiettivo dell'SDLP era "sviluppare le tecnologie abilitanti per una biblioteca digitale unica, integrata e universale" ed è stato finanziato attraverso la National Science Foundation, tra le altre agenzie federali.
+
+Nel marzo 1996 Larry Page iniziò a esplorare il World Wide Web con il suo crawler. Il crawler iniziò dalla home page del profilo personale dello stesso Page nel sito web di Stanford; continuò a esplorare il Web seguendo i link da una pagina all'altra. Page e Sergey Brin svilupparono l'algoritmo PageRank per misurare l'importanza di una pagina web in base al numero e alla qualità dei backlink che riceve. Analizzando l'output di BackRub che, per un dato URL, consisteva in un elenco di backlink classificati per importanza, i due si resero conto che un motore di ricerca basato sul PageRank avrebbe prodotto risultati migliori rispetto alle tecniche esistenti (i motori di ricerca esistenti all'epoca classificavano risultati in base a quante volte il termine di ricerca appariva su una pagina: una misura esclusivamente quantitativa). Il punteggio PageRank venne quindi utilizzato per comporre la graduatoria delle pagine web nei risultati di ricerca di Google.
+
+Convinti che le pagine web con il maggior numero di collegamenti esterni da pagine altamente rilevanti dovessero essere le pagine più rilevanti associate alla ricerca, Page e Brin testarono la loro tesi come parte dei loro studi e gettarono le basi per il loro motore di ricerca.
+
+Page e Brin, dopo aver sviluppato la teoria secondo cui un motore di ricerca basato sull'analisi matematica delle relazioni tra i siti web (topologia) avrebbe prodotto risultati migliori rispetto alle tecniche empiriche usate precedentemente, decisero di approfondire la loro teoria all'interno dei loro studi e posero le basi per il loro motore di ricerca:
+nell'agosto 1996 rilasciarono la prima versione di Google (utilizzava quasi la metà dell'intera larghezza di banda della rete informatica dell'ateneo);
+il 15 settembre 1997 registrarono il dominio "google.com";
+il 4 settembre 1998 fondarono la società Google LLC.
+
+Dal 2005 l'anniversario della nascita si festeggia il 27 settembre, in ricordo di quando nel 1998 fu registrato il record di pagine indicizzate.
+
+Il 7 maggio 2010 Google ha subito l'aggiornamento considerato più importante della sua storia, consistente nel rinnovamento dell'aspetto grafico e nell'aggiunta di miglioramenti e nuove funzioni.
+
+Il 9 novembre 2010 Google ha reso disponibile la nuova funzione Instant Previews, che permette di visualizzare l'anteprima di ogni risultato direttamente dalla pagina di ricerca.
+
+Nel 2011, la società ha lanciato Google+, la sua quarta incursione nel social networking, dopo Google Buzz (lanciato nel 2010 e ritirato un anno dopo), Google Friend Connect (lanciato nel 2008 e ritirato dal 1º marzo 2012) e orkut (lanciato nel 2004 e ritirato nel settembre 2014).
+
+Il 1º ottobre 2012 Google ha superato Microsoft nel valore capitale in borsa, registrando, alla chiusura, 249,19 miliardi di dollari americani, rispetto ai 247,44 di Microsoft.
+
+A novembre 2014, Google gestiva oltre 70 uffici in più di 41 paesi.
+
+Il 2 ottobre 2015 Larry Page ha annunciato la costituzione della holding Alphabet Inc., di cui Google rappresenta la sussidiaria principale, usata anche come nuova denominazione di Google presso la borsa di New York. Le azioni di Google vengono convertite alla pari in azioni di Alphabet ma la nuova holding mantiene gli stessi acronimi precedenti (GOOGL e GOOG) per evidenziare la continuità.
+
+Il 25 ottobre 2018, il New York Times ha pubblicato il reportage "How Google Protected Andy Rubin, the 'Father of Android'". La società ha successivamente annunciato che "48 dipendenti sono stati licenziati negli ultimi due anni" per cattiva condotta sessuale. Il 1º novembre 2018, i dipendenti di Google hanno organizzato un walk-out globale per protestare contro la gestione da parte dell'azienda di denunce di molestie sessuali, inclusa l'uscita dal paracadute d'oro dell'ex dirigente Andy Rubin; hanno partecipato più di 20.000 dipendenti e appaltatori. L'amministratore delegato Sundar Pichai sarebbe stato a sostegno delle proteste.
+
+Nel marzo 2023 viene lanciato Bard, il chatbot proprietario di Google alternativo a ChatGPT, inizialmente disponibile soltanto in lingua inglese per gli utenti del Regno Unito e degli Stati Uniti, previa registrazione. Bard si basa su una versione ottimizzata del modello proprietario LaMDA, un modello linguistico di grandi dimensioni (LLM), che ha accesso a 1.560 miliardi di parole Stando alla legge dei grandi numeri, i modelli LLM si perfezionano con il feedback di un elevato numero di utenti.
+Mentre ChatGPT opera su un database proprietario, Bard attinge direttamente dalla rete e dalle sue risorse aggiornate. In vista del lancio della versione beta, Google si avvia a integrare Bard all'interno del proprio motore di ricerca.
+
+Al 2023, i grandi modelli linguistici di Google utilizzano un supercomputer con un'architettura a 4.096 TPU v4 aventi una potenza di calcolo di 275 TeraFLOP ciascuna. PaLM adotta due supercomputer dello stesso tipo per l'addestramento dei suoi 540 miliardi di parametri, addestramento che dura 50 giorni. dal 21 aprile 2023 Bard integra la capacità di generare codice sorgente in 20 diversi linguaggi di programmazione e di eseguire il debug, spiegando in modo didattico le linee di codice agli utenti.
+
+Dopo Bard è stato lanciato l'Universal Speech Model, che permette il riconoscimento vocale automatico di 300 lingue. Il software è utilizzato anche da YouTube per la generazione dei sottotitoli dei video.
+
+Nel maggio 2023 per gli utenti statunitensi e iscritti al programma Search Labs viene implementata la Search Generative Experience, l'intelligenza artificiale generativa di Google con chatbot interattivo.
+
+Nell'agosto 2024 cessa l'indicizzazione degli indirizzi che non sono consultabili da smartphone.
+
+Il 15 aprile 2025, Google ha annunciato la dismissione dei suoi domini nazionali, tra cui Google.it, nell’ambito di una strategia volta a centralizzare l’esperienza di ricerca su Google.com. Questa decisione si basa sull’evoluzione dei sistemi di localizzazione introdotti già nel 2017, che rendono superfluo l’uso di URL specifici per paese. Gli utenti verranno automaticamente reindirizzati a Google.com, ma continueranno a ricevere risultati localizzati.
+
+Nel dicembre 2025, negli Stati Uniti e poi progressivamente in tutto il mondo, è stato aggiunto un bottone nella barra di ricerca che consente di caricare immagini e file per agevolare l'intelligenza artificiale nella tradizionale ricerca per parole chiave.
+
+Descrizione
+Loghi
+
+Servizi di base
+
+I risultati e il loro numero cambiano a seconda della posizione delle parole chiave cercate; ad esempio si ottengono risultati diversi e in numero diverso se si cerca "io sono" oppure "sono io". Per ogni risultato, Google propone un estratto del testo contenente le parole chiave cercate, il link al sito originale, il link a siti contenenti parole chiave simili, e la possibilità di consultare una copia del sito nella web cache di Google, in modalità completa o solo testo, utile per chi ha una connessione Internet lenta, a meno che questa funzionalità non sia stata esclusa, tramite tag HTML nella pagina stessa oppure opzioni dei formati proprietari (Adobe PDF consente ad esempio di escludere la copia del documento nella cache dei motori di ricerca).
+
+Dall'11 novembre 2010 è possibile visualizzare un'anteprima dei siti con il semplice passaggio del mouse sopra il risultato della ricerca.
+
+Funzionamento della ricerca
+
+Il processo di ricerca su Google si svolge in tre fasi. Nella prima fase, quella della scansione, il crawler di Google (Googlebot) scarica le immagini, i video e i contenuti delle pagine trovate su Internet. La seconda fase è quella dell'indicizzazione: i dati estrapolati vengono analizzati e le pagine sono aggiunte all'indice di Google, il suo database. La terza è ultima fase è quella della pubblicazione dei contenuti, che vengono mostrati all'utente in base al termine di ricerca ("query") inserito.
+
+Ricerca con "-", stringa esatta e carattere jolly
+L'operatore "-" esclude i testi che contengono una certa parola chiave, e funziona da filtro: es. "wikipedia -google" ricerca le pagine in cui compare la parola "wikipedia" e allo stesso tempo non compare la parola "google".
+
+Se il testo è racchiuso fra doppie virgolette, Google ricerca le pagine Web che contengono esattamente la sequenza di caratteri digitata, senza altri spazi o caratteri intermedi. Esempio: "enciclopedia wikipedia" fornirà tutte le pagine che contengono di seguito le due parole digitate.
+
+Il carattere jolly è il simbolo di asterisco. Esempio: "enciclopedia * wikipedia" fornirà tutte le pagine che contengono le due parole enciclopedia e wikipedia inframezzate da una ed una sola qualunque altra parola o carattere. Fornirà anche le pagine che contengono, ad esempio, "enciclopedia multilingue wikipedia" o "enciclopedia, wikipedia", ma non le pagine che contengono, sempre ad esempio, "enciclopedia libera e multilingue wikipedia", che presenta più di una parola o singolo carattere fra le parole enciclopedia e wikipedia.
+
+Ricerca interna a un sito
+Per effettuare una ricerca di parole chiave all'interno di un sito occorre digitare l'istruzione:
+
+site:nomesito.it spazio bianco e le parole chiave.
+
+Un altro modo è scrivere nella barra degli indirizzi: www.google.it/custom?domain=www.nomesito.it. Compare una barra di Google con un'opzione selezionabile per la ricerca all'interno del sito richiesto. Altri comandi:
+
+filetype:doc site:it.wikipedia.org, per cercare i documenti .doc nel sito Wikipedia.
+intitle:"Directory of" site:it.wikipedia.org, per cercare una cartella di nome "Directory of" nel sito o una pagina che contiene nel testo le parole "Directory of".
+intitle:"Mario Rossi", per cercare siti indicizzati con un titolo che contiene le parole "Mario Rossi", scritte di seguito.
+
+Ricerca di una definizione
+Per cercare la definizione di un termine o il significato di un acronimo basta digitare nel campo di ricerca di Google "define: termine" dove "termine" indica la parola da cercare. Ad esempio "define: TCP" darà come risultato la definizione della sigla. I risultati di Google-define spesso sono di Wikipedia.
+
+Ricerca dei link a un sito
+Digitando link:it.wikipedia.org (senza spazi e virgolette), si trovano tutti i siti che contengono un link all'indirizzo it.wikipedia.org o ai sottodomini, gli indirizzi come "it.wikipedia.org/Google", che contengono "it.wikipedia.org".
+
+Conversione unità di misura e valute
+Digitando "1€ to USD" Google convertirà il valore di un euro in dollari americani. Funziona con tutte le valute e con le unità di misura di tutto il mondo.
+
+Calcoli matematici e costanti
+Si può ottenere il risultato di un calcolo, anche complicato, digitandolo nel campo di ricerca utilizzando i comuni operatori matematici.
+
+Esempi:
+
+9*2, (5+6)/8, 2^16, sqr 81
+
+Si possono anche introdurre le costanti matematiche e fisiche: c, e, g, G, k, pi, phi
+
+Indicizzare una pagina web
+Occorre scrivere nella barra degli indirizzi https://www.google.it/intl/it/add_url.html, e nella pagina aperta digitare l'URL della pagina web e le parole chiave. Se Google indicizza la pagina, essa comparirà fra i risultati.
+
+AI mode
+Dal maggio 2025 (in Europa dall'8 ottobre 2025) sia la pagina web google.com che l'app Google (o l'equivalente barra di ricerca) è disponibile lAI mode ovvero l'interfaccia di ricerca in modalità conversazionale integrata dentro il motore di ricerca. Questa funzione si basa sul motore Gemini, che è stato sviluppato dalla stessa Google, ma il suo funzionamento è differente.
+La differenza è che l'AI mode è una personalizzazione specifica di Gemini programmata per trovare informazioni tramite Google: mentre l'app stand-alone di Gemini (o il sito gemini.google.com) serve come assistente tuttofare per generare testi, programmare o creare immagini, l'AI Mode è ottimizzato per la ricerca sul web. Non fornisce la mera lista di collegamenti ipertestuali, ma sintetizza i risultati del web in una risposta testuale avanzata (in modo che l'utente possa fare domande di approfondimento) e lasciando visibili le fonti originali.
+
+L'icona dell'AI Mode di Google è rappresentata da un luccichio a quattro punte (lo sparkle cioè la scintilla), che è diventato il simbolo universale per identificare le funzionalità basate sull'intelligenza artificiale generativa.
+
+Risultati di ricerca
+Impaginazione
+Nella parte superiore della pagina di ricerca (definita SERP), viene annotato il conteggio approssimativo dei risultati e il tempo di risposta fino ai centesimi di secondo. Vengono visualizzati i risultati della ricerca con i titoli delle pagine e gli URL, uno snippet di testo in anteprima per ciascun risultato e a volte alcuni dati aggiuntivi come la data di pubblicazione o valutazioni degli utenti. Insieme ai risultati di ricerca web, possono apparire sezioni con immagini, notizie e video.
+
+La lunghezza del testo tagliato in anteprima (spesso ricavato dalla meta description) è stata cambiata in diversi aggiornamenti.
+
+Universal Search
+"Universal Search" è stato lanciato da Google il 16 maggio 2007, per unire i risultati di diversi tipi di ricerca in uno solo. Prima della ricerca universale, una ricerca Google standard consisteva solo in collegamenti a siti Web. Universal Search, invece, incorpora un'ampia varietà di fonti, inclusi siti Web, notizie, immagini, mappe, blog, video e altro, tutti visualizzati nella stessa pagina di risultati. Marissa Mayer, allora vicepresidente dei prodotti di ricerca e dell'esperienza utente, descrisse l'obiettivo di questa funzionalità dichiarando: "stiamo tentando di abbattere i muri che tradizionalmente separavano le nostre varie proprietà di ricerca e di integrare la grande quantità di informazioni disponibili in un semplice insieme di risultati”.
+
+Nel giugno 2017, Google ha ampliato i suoi risultati di ricerca per coprire gli elenchi di lavoro disponibili. I dati vengono aggregati da varie importanti bacheche di lavoro e raccolti analizzando le home page delle varie aziende. Inizialmente disponibile solo in inglese, la funzione mira a semplificare la ricerca di lavori adatti a ciascun utente.
+
+Rich Snippets
+Nel maggio 2009, Google ha annunciato che avrebbe analizzato i microformat dei siti Web per popolare le pagine dei risultati di ricerca con "Rich Snippet". Tali frammenti includono dettagli aggiuntivi sui risultati, come la visualizzazione di recensioni per ristoranti e account di social media per individui.
+
+Nel maggio 2016, Google ha ampliato il formato "Rich Snippet" per offrire "Rich card", che mostrano più informazioni sui risultati, ma le mostrano nella parte superiore della SERP in un formato simile a un carosello scorrevole. Originariamente limitato ai siti Web di film e ricette degli Stati Uniti, la funzione è stata estesa a tutti i paesi del mondo nel 2017.
+
+Ora i gestori e programmatori dei siti possono avere un maggiore controllo sulla pubblicazione dei rich snippet, grazie anche ai vocabolari riguardanti i dati strutturati su cui è basata la loro sintassi.
+
+Knowledge Graph
+Il Knowledge Graph è una funzionalità utilizzata da Google per migliorare i risultati del suo motore di ricerca con informazioni raccolte da una varietà di fonti. Queste informazioni vengono presentate agli utenti in una casella a destra dei risultati di ricerca. Le caselle del Knowledge Graph sono state aggiunte al motore di ricerca di Google nel maggio 2012, a partire dagli Stati Uniti, con espansione internazionale entro la fine dell'anno. Le informazioni coperte dal Knowledge Graph sono cresciute in modo significativo dopo il lancio, triplicando le dimensioni originali in sette mesi, ed essendo in grado di rispondere a "circa un terzo" delle 100 miliardi di ricerche mensili elaborate da Google nel maggio 2016. Le informazioni vengono spesso utilizzate come risposta vocale nell'Assistente Google e nelle ricerche di Google Home. Il Knowledge Graph è stato criticato per aver fornito risposte senza attribuzione della fonte.
+
+La ricerca di Google è stata accusata di utilizzare una cosiddetta ricerca a clic zero per impedire che gran parte del traffico lasci la sua pagina a editori di terze parti. Di conseguenza, il 71% delle ricerche termina sulla pagina di ricerca di Google.
+
+Secondo diverse fonti anche Wikipedia sarebbe stato influenzato negativamente da questo aggiornamento, ma diverse figure di Wikimedia nel 2015 hanno affermato che il calo di visite non sia prettamente imputabile a tale dinamica.
+
+Scheda personale
+A maggio 2017, Google ha abilitato una nuova scheda "Personale", consentendo agli utenti di cercare contenuti nei vari servizi dei propri account Google, inclusi i messaggi di posta elettronica da Gmail e le foto da Google Foto.
+
+Google Discover
+Google Discover, precedentemente noto come Google Feed, è un flusso personalizzato di articoli, video e altri contenuti relativi alle notizie. Il feed contiene un "mix di schede" che mostrano argomenti di interesse in base alle interazioni degli utenti con Google o argomenti che scelgono di seguire direttamente. Le schede includono "collegamenti a notizie, video di YouTube, risultati sportivi, ricette e altri contenuti basati su ciò che [Google] ha reputato più interessante per te in quel particolare momento". Gli utenti possono anche dire a Google che non sono interessati a determinati argomenti per evitare di vedere futuri aggiornamenti.
+
+Google Discover è stato lanciato a dicembre 2016 e ha ricevuto un importante aggiornamento a luglio 2017. Un altro importante aggiornamento è stato pubblicato a settembre 2018, che ha rinominato l'app da Google Feed a Google Discover, ha aggiornato il design e aggiunto altre funzionalità.
+
+È possibile trovare Discover nella homepage dell’app di Chrome e in quella di Google, oppure scorrendo verso sinistra nella schermata iniziale di alcuni dispositivi Android. A partire dal 2019, Google non consente più alle campagne politiche in tutto il mondo di indirizzare la propria pubblicità al pubblico per influenzare le votazioni.
+
+Ricerche in HTTPS
+
+All'indirizzo https://www.google.com è possibile accedere alla versione del motore di ricerca protetto da SSL, protocollo di crittografia che è usato normalmente nelle applicazioni web che manipolano dati sensibili in trasferimento dal computer di chi le usa. La differenza con la versione normale di Google sta nella presenza nell'indirizzo di https a differenza del solito http, che indica appunto la presenza di una connessione protetta da SSL.
+
+Il progetto al momento non contempla l'utilizzo di implementazioni aperte di crittografia con analoghi livelli di sicurezza, come OpenSSL e una generale linea di Google, che di recente ha introdotto con VP8, il formato aperto Ogg come nuova implementazione di YouTube.
+
+Lo scopo del progetto è quello di proteggere le ricerche effettuate sul web dai visitatori del motore, come già fatto precedentemente su Gmail.
+
+Ad oggi, salvo problemi tecnici, tutti i siti Google sono accessibili solo in HTTPS e se si prova ad accedere in HTTP avviene il redirect automatico verso la versione sicura.
+
+I server
+I server di Google sono distribuiti su 10 datacenter, di cui 6 negli Stati Uniti, 2 in Europa e 2 in Asia. Il Web server che viene installato nei server di Google è un applicativo personalizzato che prende il nome di Google Web Server.
+
+Nel 2010 è stato stimato a 900.000 il numero di server utilizzati da Google per elaborare dati, garantire contenuti, organizzare e gestire la propria rete, rispondere alle ricerche e catalogare il web. Ha più di 100.000 indirizzi IP assegnati su diverse reti.
+
+Grazie a questa enorme potenza di calcolo, Google è in grado di effettuare una ricerca su milioni di pagine Web in pochi millisecondi, di indicizzare un elevato numero di contenuti ogni giorno e di fare molti mirror e istanze dello stesso processo informatico su più server. Per quest'ultimo motivo, anche il fatto che Google sia il sito più visitato del Web e la possibilità che arrivino numerose richieste da molti utenti non rallentano l'efficienza delle ricerche.
+
+La catalogazione è fatta dal programma spider Googlebot, che richiede periodicamente nuove copie delle pagine web che conosce. I link in queste pagine vengono esaminati per scoprire nuove pagine e aggiungerle nel database.
+
+Casi di stallo del sistema accaduti nel 2009
+Google possiede la più grande infrastruttura di rete del mondo; di conseguenza, eventi che causano l'inaccessibilità dei servizi sono molto rari. Vista la vastità della rete, è improbabile anche che attacchi DDoS possano avere effetto.
+
+Il 2009 fu tuttavia un anno nero per Google, con diversi problemi indipendenti tra loro:
+
+Il 31 gennaio 2009 Google visse il suo primo grave incidente a livello mondiale. Per circa 40 minuti tutti i siti risultati di qualsiasi ricerca, compreso lo stesso sito Google, presentarono il messaggio Questo sito potrebbe arrecare danni al tuo computer, normalmente mostrato per le pagine che, secondo gli algoritmi del motore di ricerca, potrebbero contenere malware; in caso di impostazioni di sicurezza ordinariamente restrittive sul computer dell'utente, poteva risultare impossibile o macchinoso seguire i link trovati. Dopo l'allarme lanciato da centinaia di blog e siti sul web, Google Inc. intervenne, prima rendendo noto che stava lavorando per riparare alcuni inconvenienti e poi risolvendo i guasti, specificando, qualche ora più tardi, che la causa era stata "un errore umano" di alcuni tecnici, i quali avrebbero accidentalmente inserito il carattere "/", inevitabilmente presente in tutti gli URL, fra gli elementi di riconoscimento dei siti potenzialmente dannosi.
+Il 14 maggio 2009, a causa di un'errata impostazione dei parametri di routing, il 14% degli utenti riscontrò difficoltà o impossibilita nell'accedere ai servizi. A causa dell'inaccessibilità di Google AdSense e altri servizi il 5% dei siti mondiali risultarono irraggiungibili dalle 10:15 alle 12:15, ora italiana.
+Il 25 giugno 2009, data della morte di Michael Jackson, il sito ufficiale del cantautore fu sospeso per circa 30 minuti a causa di una errata interpretazione di Google: il numero di ricerche e di accessi al sito era aumentato in maniera vertiginosa in pochissimo tempo a causa del drammatico evento e Google aveva interpretato ciò come un attacco informatico, autodifendendosi.
+
+Ottimizzazione
+
+Da quando Google è diventato uno dei motori di ricerca più popolari, molti webmaster hanno cominciato a seguire e cercare di spiegare i cambiamenti nel posizionamento (rank) del loro sito.
+
+Una nuova categoria professionale è nata per assistere i webmaster e le aziende nel migliorare la posizione dei loro siti nei risultati delle ricerche su Google, così come su altri motori di ricerca. Questi consulenti si occupano di un'attività chiamata ottimizzazione dei motori di ricerca (acronimo inglese SEO: Search Engine Optimization) che si propone di creare pagine e siti che rispettino le regole (i "gusti") dei motori di ricerca riuscendo a migliorare la propria posizione nei risultati delle ricerche.
+
+Sul web si possono trovare discussioni su forum o siti che fanno riferimento a fenomeni come la Google dance. Si riferisce a un fenomeno, ora non più presente, che si verificava in un periodo di pochi giorni (circa ogni mese) in cui Google aggiornava il suo database e di conseguenza i risultati delle ricerche. Fra una dance e l'altra i risultati rimanevano inalterati. Il termine dance si riferiva al fatto che per alcuni giorni i risultati delle ricerche variavano continuamente prima di assestarsi. Nell'estate del 2003 Google ha cambiato le sue abitudini di catalogazione limitando gli effetti della "danza": ora i risultati delle ricerche variano in modo dinamico e continuativo senza nessuno stravolgimento periodico.
+
+Una delle sfide più importanti di Google è impedire che soggetti spregiudicati riescano a forzare le debolezze dell'algoritmo per sovvertire i risultati delle ricerche a loro vantaggio. Molti consulenti di ottimizzazione scarsamente professionali hanno utilizzato tecniche artificiose e dannose per influire sul posizionamento dei siti di alcuni loro clienti. Google è riuscito a limitare molti di questi tentativi raffinando il proprio algoritmo per individuare i siti che realizzano abusi e limitarne la rilevanza nei risultati (o addirittura rimuovere questi siti dai suoi archivi). Un corretto posizionamento fra i risultati di Google può portare a ritorni economici elevati, soprattutto per i siti di e-commerce. La scelta di un consulente serio è spesso strategica per la sopravvivenza o il successo di un sito. Per questi motivi, Google ha pubblicato un insieme di linee guida per aiutare i proprietari di siti a capire come individuare i consulenti professionali e come evitare truffe e raggiri da parte di operatori scorretti.
+
+Brevetto dell'homepage
+Dal 1º settembre 2009, dopo una richiesta da parte di Google inoltrata nel 2004, è stato accettato dall'United States Patent and Trademark Office un brevetto che mira a difendere il design minimalista della celebre pagina principale di Google. Il fatto in questione è senza precedenti, si tratta infatti del primo caso in assoluto in cui una pagina web o parte di essa viene protetta da un brevetto allo scopo di proteggerne l'unicità.
+
+Google e il risparmio energetico
+Per ciascuna singola istanza di ricerca è stato calcolato, da Google stesso nel 2009, che viene emessa nell'atmosfera terrestre una quantità di CO2 pari a 0,2 grammi e viene impiegata/dissipata una energia equivalente a 1 kilojoule. Quindi l'utilizzo del motore di ricerca da parte di un utente medio per un anno equivale alla stessa CO2 liberata da un singolo carico di bucato.
+
+Intorno al 2001 lo United States Department of Energy spiegò in un articolo come, nei monitor a tubo catodico, fosse possibile risparmiare fino al 20% di energia elettrica utilizzando in prevalenza il nero o comunque colori scuri come sfondo. Citando questo articolo, all'inizio del 2007 il blogger statunitense Mark Ontkush (che nella propria pagina personale si definisce green computing consultant, ossia consulente in informatica ecologica) pubblicò un articolo secondo il quale Google potrebbe far risparmiare al mondo un'enorme quantità di energia adottando uno sfondo nero al posto di quello bianco.
+
+Ispirata dal post di Ontkush, l'azienda australiana Heap Media creò Blackgoogle, un sito web che effettua ricerche appoggiandosi a Google, ma con sfondo nero. In seguito nacquero altri front-end analoghi, tra i quali Gaatle, promosso da Lifegate, The Dark Side of Google, Googlxe con funzionalità Extra, Neroogle e molti altri.
+
+In molti hanno criticato sia l'articolo originale, sia il proliferare di front-end in nero: in particolare, il risparmio energetico effettivo sarebbe infatti inferiore rispetto a quanto dichiarato da Ontkush, inoltre il risparmio sarebbe nullo nei monitor a cristalli liquidi (lo studio del Department of Energy del 2001 si riferiva infatti solo ai tubi catodici), che tendono a essere sempre più diffusi e a soppiantare i tubi catodici. Un test eseguito nel 2008 da Altroconsumo sui monitor LCD non ha rilevato differenze sostanziali tra una pagina bianca e una nera; anzi, in alcuni dei modelli presi in esame una schermata nera avrebbe addirittura comportato un consumo lievemente maggiore.
+
+Critiche e controversie
+
+Google è stato criticato per via dei cookie a lungo termine che posiziona sul computer degli utenti. La maggior parte dei servizi di Google possono essere usati anche con i cookie disabilitati. Comunque, al termine di ciascuna visita al sito vengono scaricati sul computer i cookie base di controllo.
+
+Alcune critiche sono state sollevate da parte del movimento del software libero. Il motore di ricerca avrebbe la possibilità di evitare di offuscare o minificare il codice JavaScript eseguito dal web browser che, insieme alla collezione dei dati di profilazione degli utilizzatori, rendono il motore di ricerca un potente strumento di sorveglianza digitale.
+
+Secondo Nicholas G. Carr, giornalista statunitense, l'uso dei motori di ricerca come Google rende le persone meno motivate a sfruttare appieno la propria intelligenza per via della facilità, ma anche limitatezza, con la quale si soddisfano le proprie esigenze di ricerca a scapito dell'approfondimento delle informazioni in senso globale.
+
+Diverse organizzazioni hanno usato le leggi USA sui diritti d'autore di opere digitali per chiedere a Google di rimuovere link a materiale su altri siti sul quale esse rivendicavano diritti di copyright. Google risponde a queste richieste rimuovendo il link e includendone uno alla richiesta nei risultati della ricerca. Ci sono anche state critiche secondo cui la cache di Google violerebbe il copyright; in ogni caso il caching è una normale parte delle funzioni del web e il protocollo HTTP mette a disposizione meccanismi (che Google rispetta) per disabilitarlo.
+
+Nel 2002 si diffuse la notizia che in Cina l'accesso a Google era stato vietato; il governo cinese ha infatti il controllo della rete e può impedire il collegamento verso alcuni siti. Un sito mirror (in tutti i sensi, compreso il testo da sinistra verso destra; mirror letteralmente significa "specchio") chiamato "elgooG" si rivelò efficace nell'aggirare il divieto. Tempo dopo, il divieto cessò e fu detto che non era stato istituito per impedire le ricerche, ma l'accesso alla cache (che permetteva di aggirare altri divieti imposti dal governo). Esiste anche un mirror dinamico di Google che funziona come proxy server. A Internet Archive, che pure fornisce un servizio di caching, non fu però vietato l'accesso.
+
+Secondo la Guardia di Finanza, tra il 2002 e il 2006 Google Italia non dichiarò reddito imponibile per oltre 240 milioni di euro, pari a 96 milioni di euro di Iva evasa
+Nel 2013 dovette pagare una multa da 7 milioni di euro per violazione della privacy negli USA, in una causa che la vedeva coinvolta dal 2010.
+
+Nel 2017 la compagnia viene condannata dall'antitrust dell'Unione europea a una multa di 2,42 miliardi di euro con l’accusa di avere creato e mantenuto una posizione dominante nel settore delle ricerche per lo shopping online, a danno della libera concorrenza e quindi delle persone. Nel dettaglio l'accusa è quella di mostrare (nelle sue pagine dei risultati) link verso siti per gli acquisti online che pagano per essere messi in evidenza, senza dare spazi ad altri motori di ricerca dedicati esclusivamente allo shopping.
+
+Nel 2016 un ex-allievo di Fogg, Tristan Harris, dopo una carriera da esperto di etica del design in Google, si licenzia dalla multinazionale per denunciare le tecniche persuasive non trasparenti utilizzate dall'industria tecnologica e il loro impatto sulle relazioni umane e sulla qualità della vita dei cittadini.
+
+Censura in Cina
+
+Il servizio Google News in lingua cinese e, in generale, l'algoritmo di ricerca nel web, sarebbero modellati sulla politica di censura del regime al potere in Cina. Alcune notizie pubblicate da siti web censurati dal governo di Pechino non verrebbero pubblicate accedendo al portale da una connessione cinese. In base alla località delle ricerche i risultati restituiti sono differenti, e in particolare sembrano essere tagliate fuori particolari testate. Google attribuisce a «una varietà di motivi» la scelta di negare il link ad alcune testate, e tra tali motivi viene citata la fattiva impraticabilità dell'accesso al sito da talune località.
+
+L'attività di Google in Cina è vincolata da leggi che impongono filtri web per siti che pubblicano contenuti ritenuti illegali dal governo. Inoltre nei normali risultati di ricerca del Google cinese è abilitato il filtro «Safesearch» in modo permanente. Tale filtro ha la funzione di proteggere i minori dal materiale pornografico presente sul web. Se si effettuano però alcune particolari ricerche sul Google cinese, si viene avvertiti che il filtro «SafeSearch è attivo. Viene fatto notare però che le voci in questione sono ad esempio "Dalai Lama", "Falun Gong", assieme alle parole "libertà", "democrazia" e simili.
+
+Dalle pesanti accuse mosse dall'opinione pubblica Google si difende ribadendo che si tratta semplicemente di controllo di pornografia e materiale illegale, nonostante però molto spesso di fatto vengano censurati contenuti diversi da quelli normalmente bloccati dal filtro SafeSearch.
+
+Nel marzo 2010, Google ha deciso di reindirizzare il traffico verso il proprio sito di Hong Kong, eludendo in questo modo la forte censura cinese. Il sito google.com.hk permette di effettuare ricerche non filtrate dal Great Firewall, che però continua a bloccare il traffico verso i siti censurati dal governo cinese.
+
+Ricerche particolari
+
+Così come scrivendo "pi" viene identificato il pi greco, inserendo "answer to life, the universe and everything", la calcolatrice integrata di Google riconoscerà la stringa come una costante matematica e darà come risultato 42; il riferimento è alla serie di romanzi fantascientifici Guida galattica per gli autostoppisti di Douglas Adams. Allo stesso modo, cercando loneliest number si ottiene come risultato "1": in questo caso il riferimento è alla canzone One di Harry Nilsson, famosa per il verso "One is the loneliest number that you'll ever do".
+Il 6 ottobre 2011, in seguito alla morte di Steve Jobs, Google inserisce immediatamente sotto la casella di ricerca il nome e il cognome (seguiti dalla data di nascita e di morte) dell'ex CEO di Apple sotto forma di link tramite il quale è possibile accedere direttamente alla pagina commemorativa del sito della società a lui dedicata. La stessa identica cosa è successa il 5 dicembre 2013, a seguito della morte del politico sudafricano Nelson Mandela.
+Se si digita "do a barrel roll", la pagina di ricerca girerà di 360°.
+Cercando "The last of us" comparirà sullo schermo un tasto che, se premuto, darà inizio a una animazione rappresentante l'espansione di un fungo, proprio come mostrato nella serie televisiva omonima.
+Cercando "nasa dart", avviando la ricerca, la foto dell'asteroide verrà colpita dalla sonda e la schermata sarà ruotata di alcuni gradi.
+
+Parodie e imitazioni
+lmgtfy.com (dove lmgtfy è l'acronimo per let me google that for you, in italiano lascia che lo googli per te) è un sito internet che crea un'interfaccia grafica animata, dove si vede immettere un termine nella barra di ricerca, che verrà poi avviata sul sito Google, questo sito viene usato per incentivare l'uso del motore di ricerca e generalmente viene usato all'interno dei forum.
+elgoog.im (Google mirror) è una parodia di Google dove tutti i risultati della ricerca saranno visualizzati come allo specchio. Vi sono varie modalità tra le quali "underwater", dove i risultati fluttueranno per la schermata come sott'acqua, oppure "gravity", in cui le anteprime dei primi risultati cadranno alla base dello schermo.
+L'azienda americana Join the company aveva creato una parodia del famoso motore di ricerca, unluckytime.com: effettuando una ricerca, si viene automaticamente dirottati a caso tra le pagine dei risultati di Google. Al posto del tasto I'm feeling lucky ("mi sento fortunato") era stato posto il tasto I'm feeling unlucky ("mi sento sfortunato"). Nelle note legali, l'azienda diceva di essere fan di Google e di non poter immaginare un motore di ricerca migliore. Tuttavia era in grado di studiarne uno peggiore.
+
+Lingue
+Google è disponibile in molte lingue del mondo ed è stato adattato (interamente o in parte) alle caratteristiche particolari di molti paesi.
+
+Afrikaans
+Akan
+Albanese
+Amarico
+Arabo
+Armeno
+Azero
+Basco
+Bengalese
+Bielorusso
+Bihar
+Bosniaco
+Bretone
+Bulgaro
+Cambogiano (Khmer)
+Catalano
+Ceco
+Cinese semplificato
+Cinese tradizionale
+Coreano
+Corso
+Creole Haitiana
+Croato
+Curdo
+Danese
+Ebraico
+Esperanto
+Estone
+Faroese
+Filippino
+Finlandese
+Francese
+Frisone occidentale
+Gaelico Scozzese
+Gallese
+Gallico
+Georgiano
+Giapponese
+Giavanese
+Greco
+Guaranì
+Gujarati
+Hausa
+Hawaiano
+Hindī
+Igbo
+Indonesiano
+Inglese (Regno Unito)
+Inglese (Stati Uniti)
+Interlingua
+Irlandese
+Islandese
+Italiano
+Kannaḍa
+Kazako
+Kinyarwanda
+Kirghiso
+Lao
+Latino
+Lettone
+Lingala
+Lituano
+Luganda
+Luo
+Macedone
+Malayalam
+Malese
+Malgascio
+Maltese
+Māori
+Marāṭhi
+Creolo mauriziano
+Mongolo
+Montenegrino
+Nepalese
+Norvegese
+Norvegese (Nynorsk)
+Occitano
+Oriya
+Oromo
+Pashto
+Persiano
+Polacco
+Portoghese (Brasile)
+Portoghese (Portogallo)
+Punjabi
+Quechua
+Romancio
+Rumeno
+Runyakitara
+Russo
+Serbo
+Serbo-Croato
+Sesotho
+Setswana
+Shona
+Shqip
+Sindhi
+Singalese
+Slovacco
+Sloveno
+Somalo
+Spagnolo
+Sundanese
+Svedese
+Swahili
+Tagico
+Tamil
+Tataro
+Tedesco
+Telugu
+Thai
+Tigrino
+Tongano
+Turco
+Turkmeno
+Twi
+Ucraino
+Uiguro
+Ungherese
+Urdu
+Uzbeko
+Vietnamita
+Xhosa
+Yiddish
+Yoruba
+Zulu
+
+L'interfaccia è stata inoltre resa disponibile in alcune lingue di fantasia per fini umoristici:
+
+Elmer Fudd, lingua ispirata alla parlata dell'omonimo personaggio Warner Bros.
+Leet (denominata "Hacker")
+Klingon
+Pig latin
+Bork, bork, bork!
+"Piratese", lingua ispirata alla parlata dei pirati.
+
+Onorificenze

@@ -1,0 +1,22 @@
+AutoLISP è un dialetto semplificato del più famoso linguaggio LISP, acronimo di List Processing, cosa che denota una sua particolare predilezione per il trattamento delle liste. AutoLISP è stato sviluppato per essere utilizzato con le versioni complete di AutoCAD e con i suoi derivati, come AutoDESK Map 3D e Architectural Desktop. Al contrario, nei prodotti della linea LT (AutoCAD LT), non è stato previsto alcun supporto ufficiale per questo linguaggio.
+Nonostante ciò, in commercio esistono alcuni plug-in che consentono l'uso di AutoLISP anche con AutoCAD LT (LT-Extender, LT Toolkit). Dal 2009 l'LT-Extender non è più disponibile, mentre per LT-Toolkit lo sviluppo è terminato nel 2010 ed era comunque incompatibile con i sistemi operativi a 64 bit.
+
+AutoCAD LT versione 2024 è in grado di utilizzare i plug-in Autolisp.
+
+Funzionalità
+AutoLISP è un linguaggio piccolo e dinamico e, al contrario di molti altri, il suo codice può essere eseguito immediatamente, senza la necessità di subire elaborazioni intermedie (es.: la compilazione), ciò è dovuto al fatto di essere un linguaggio interpretato. Al suo interno troviamo le caratteristiche base dell'originale LISP, unite ad una nutrita serie di funzioni specifiche per il trattamento dei dati geometrici e delle entità grafiche del CAD. Le proprietà di tali entità sono viste, da AutoLISP, come liste associative contenenti i "codici di gruppo" definiti da AutoCAD assieme ai rispettivi valori, come ad esempio punti 3D, angoli, colori, layer, tipi di linea, ecc.
+
+Il codice AutoLISP può interagire con l'utente attraverso l'uso di funzioni per la richiesta di punti, gruppi di selezione, numeri e altri tipi di dato, inoltre si può utilizzare un mini linguaggio per la creazione delle interfacce grafiche (GUI), il 'Dialog Control Language' (DCL).
+
+Storia
+AutoLISP è stato derivato da una delle prime versioni di XLISP, quest'ultimo sviluppato da David Betz. Il linguaggio è stato inserito, per la prima volta, in AutoCAD V.2.18 nel gennaio 1986, ed è sempre stato sviluppato e potenziato in tutte le successive release fino alla versione 13 nel febbraio 1995. Da questa data AutoDESK ha trascurato AutoLISP, per privilegiare ambienti di sviluppo più alla moda. Nonostante ciò AutoLISP era, ed è tuttora, il principale linguaggio utilizzato dagli utenti di AutoCAD per personalizzare il programma.
+
+Vital-LISP, rappresenta una notevole evoluzione di AutoLISP includendo un IDE completo, un debugger, un compilatore, ed è stato sviluppato da una società indipendente di nome Basis Software. Vital-LISP estende le funzioni di
+AutoLISP aggiungendo il supporto per l'accesso al modello ad oggetti di AutoCAD in stile VBA, i reactors (gestione degli eventi per gli oggetti AutoCAD), il supporto per l'utilizzo della tecnologia ActiveX e molte altre funzioni generiche.
+
+AutoDESK acquistò Vital-LISP, chiamandolo Visual LISP e commercializzandolo come add-on per AutoCAD 14 nel maggio del 1997. Successivamente è stato incorporato in AutoCAD 2000 nel marzo del 1999, rimpiazzando di fatto il vecchio AutoLISP. Da allora, AutoDESK ha scelto di non introdurre novità rilevanti in Visual LISP concentrando i propri sforzi, prima su VBA e ObjectARX e poi su .NET. Nonostante ciò, Visual LISP non è stato abbandonato tanto che, sia con ObjectARX, sia con il più recente .NET è possibile interagire ed estendere Visual LISP per colmarne alcune sue mancanze, consentendo lo sviluppo di applicazioni più complesse e potenti, ed al tempo
+stesso, riuscendo a mantenere la semplicità propria del linguaggio LISP.
+
+AutoLISP ha una così vasta base di utenti che, anche altri produttori di CAD, hanno deciso di implementarlo all'interno dei propri prodotti. BiltCAD, FelixCAD, IntelliCAD (e tutti i suoi derivati) e altri, hanno scelto di includere un interprete AutoLISP per consentire ai propri utenti di valutare il loro utilizzo in alternativa ad AutoCAD. La maggior parte dei
+software sviluppati per AutoLISP prima di AutoCAD 2000 è utilizzabile con Visual Lisp anche se l'interprete originale è stato completamente sostituito. Attualmente esistono migliaia di utilità e centinaia di applicazioni create utilizzando AutoLISP o Visual LISP, in parte sviluppate da aziende o professionisti, in parte da semplici utenti che, con questo linguaggio,
+semplificano il proprio lavoro quotidiano.

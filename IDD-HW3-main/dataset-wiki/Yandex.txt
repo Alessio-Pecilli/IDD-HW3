@@ -1,0 +1,46 @@
+Yandex () è una società ICT russa che fornisce vari servizi internet, tra cui servizi di informazione, e-commerce, trasporti, mappe, e navigazione web (sotto il nome di Yandex Browser, un browser basato su Chromium). Possiede un motore di ricerca che è il secondo più diffuso in Russia (con il 42,4% del mercato locale, secondo dato aggiornati al 2022), lanciato nel 1997 e classificato come l'ottavo nel mondo. Tra la sua vasta gamma di servizi e prodotti per Internet vi sono anche il sistema di pagamenti elettronici Yandex.Money e un servizio di DNS gratuiti.
+
+Alexa, società di statistiche internet del gruppo Amazon, classifica il sito Yandex.ru al primo posto fra i siti più visitati in Russia.
+
+Il suo nome significa: "Yet Another iNDEXer" (ancora un altro indicizzatore) o indice Языково́й (jazikovoj). La parola russa "Я" ("Ja") corrisponde al pronome personale italiano "Io", facendo diventare così "Яndex", in un gioco di parole bilingue, Index (ossia combinando "I", io in inglese, con "ndex" si ottiene "Index", inglese per indice).
+
+Dal 2011 è quotata alla Borsa di New York e dal 2014 alla Borsa di Mosca.
+
+Storia
+Il 23 settembre 1997 la società, fondata dal miliardario russo Arkadij Volož, da Arkadij Borkovskij e dal programmatore Il'ja Valentinovič Segalovič, esibisce a Mosca il suo primo motore di ricerca www.yandex.ru che è stato in grado di indicizzare 5 000 siti della internet russa (Runet), contenenti ciascuno circa 4GB di testo. Nel 1998 per la prima volta comparve sul sito www.yandex.ru un'inserzione contestuale che diceva “Ваша киска купила бы Cisco” cioè “Il vostro micio comprerebbe Cisco”. La novità consisteva nel poter mettere in evidenza possibili contenuti d'interesse per gli utenti. Negli anni 2000 Yandex aprì al pubblico nuovi servizi come mail, news, servizi di hosting. Nel 2003 Yandex aggiunge il servizio di pagamento su click pubblicitario, nello stesso anno integra nel suo server mail, un antispam proprietario, migliorando quindi il servizio.
+
+Nel 2004 lancia Yandex.Maps: tramite questo servizio Yandex rende possibile la consultazione di mappe online, inizialmente solo con una mappa dell'Europa e tre dettagliate mappe delle città di Mosca, San Pietroburgo e Kiev. Nel 2005 viene aperto il primo ufficio di rappresentanza Yandex fuori dalla Russia in Ucraina a Odessa. Nel 2006 al servizio mappe di Yandex viene aggiunto il controllo del traffico in tempo reale. Il 25 agosto del 2008 Yandex cambia logo. Nonostante la crisi finanziaria del 2008, la pubblicità contestuale su Yandex è cresciuta del 14%, la quota di mercato della pubblicità contestuale era del 78%. Il numero di annunci visualizzati aveva superato i 20.3 milioni al mese alla fine dell'anno.
+
+Nel 2009 Yandex sviluppa un nuovo sistema di raccolta dati, per permettere una maggiore efficienza e velocità nell'effettuare ricerche, il MatrixNet. Il 2011 è stato un anno fortunato per la compagnia, che dopo essere riuscita a piazzare i suoi servizi in Turchia, ha sviluppato una nuova tecnologia chiamata Crypta, capace di distinguere se l'utente in visita fosse un adulto o un ragazzo, offrendo quindi annunci pubblicitari ancora più mirati. Sempre nel 2011 la compagnia rilascia Yandex traduttore, in grado di tradurre inglese, ucraino e russo, successivamente il numero di lingue disponibili è cresciuto. Nel 2012 viene distribuito il browser Yandex, il primo browser sviluppato dalla società. Nel 2013 compare SpeechKit, ovvero la tecnologia di riconoscimento vocale della società, di cui le API sono disponibili al pubblico.
+
+Nell'aprile 2014 è stato distribuito un film intitolato Startup, sulla storia di Yandex. Il 20 aprile 2020, in seguito all'effetto della pandemia globale COVID-19 in Russia, Yandex ha annunciato che renderà gratuito il test di positività per il coronavirus, prima per i residenti di Mosca e dintorni, e successivamente anche per le altre regioni.
+
+I ricavi per il 2024 sono ammontati a 6,5 ​​miliardi di dollari.
+
+Servizi
+
+Yandex.Catalog – Directory dei siti
+Yandex.Direct – Sistema automatico per il posizionamento della pubblicità basato sul testo
+Yandex.Disk – Cloud storage
+Yandex.Fotki – Hosting per le foto
+YandexGPT – chat bot per l'elaborazione di testi
+Yandex.Images – Ricerca di immagini sul web, anche tramite immagine
+Yandex.Mail – Server email senza limiti di storage
+Yandex.Maps – Servizio di mappe
+Yandex.Market – Servizio di comparazione tra siti di marketing, per garantire l'offerta di acquisto migliore
+Yandex.Metrica – Servizio gratuito per analizzare il flusso di visite su un sito
+Yandex.Money – Sistema di pagamento elettronico
+Yandex.Music – Servizio di streaming musicale
+Yandex.News – Sistema automatico di recupero notizie dai media, in tempo reale
+Yandex.Panoramas – Servizio web che permette la vista panoramica delle strade nelle città della Russia, Ucraina, Bielorussia, Kazakistan, e Turchia
+Yandex Search – Motore di ricerca ottimizzato
+Yandex.Slovari – Servizio di ricerca informazioni enciclopediche, basato su documenti digitalizzati di Yandex dictionaries e libri di referenze
+Yandex.Taxi – Servizio per trovare taxi per i cittadini di Mosca
+Yandex.Terra – Sistema geofisico e sismico per visionare rilevamenti in tempo reale
+Yandex.Translate – Traduttore online
+Yandex.Video – Ricerca video
+Yandex.Zakladki&nbsp;– Progetto per archiviare bookmarks personalizzati fuori dal browser (online)
+
+Software
+Yandex.Browser: un browser web basato sul progetto open source Chromium con una tecnologia in grado di avvisare l'utente nel caso si stiano visitando siti pericolosi, e di effettuare la scansione dei file che vengono scaricati, grazie al software antivirus integrato di Kaspersky. In più utilizza la tecnologia del browser Opera per velocizzare la navigazione sul web.
+Yandex Elements: un add-on per browser (Mozilla Firefox, Opera, Microsoft Internet Explorer, Google Chrome) che permette un accesso rapido ai servizi Yandex.

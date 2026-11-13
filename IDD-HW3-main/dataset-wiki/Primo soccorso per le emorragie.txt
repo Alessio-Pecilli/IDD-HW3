@@ -1,0 +1,61 @@
+Il primo soccorso per le emorragie tratta i passi o azioni di primo soccorso da seguire per controllare un'emorragia in pazienti che hanno sofferto una lesione traumatica o che hanno una condizione medico-chirurgica che comporta sanguinamento.
+
+Molte tecniche di controllo dell'emorragia vengono insegnate in tutto il mondo come parte dei protocolli di primo soccorso, anche se alcune tecniche, di apparente semplice esecuzione, come il laccio emostatico (in grado di salvare la persona da una grave emorragia arteriosa), vengono spesso insegnate come interventi terapeutici eseguibili soltanto da personale medico, o in assoluto come un'estrema risorsa, per ridurre i rischi associati a questi interventi, come la potenziale perdita dell'arto interessato, oltre alla iperkaliemia e iper-proteinemia sistemiche che si possono verificare ripristinando la circolazione all'arto ormai morto.
+
+Per potere gestire l'emorragia con efficacia, è importante identificare sia i tipi di ferite che i tipi di sanguinamento ad essi associati.
+Emorragie esterne
+Il sanguinamento esterno viene in genere descritto basandosi sul tipo di flusso sanguigno che fuoriesce dal vaso parzialmente danneggiato o resecato.
+
+Le emorragie esterne possono avere origine:
+
+Emorragia arteriosa: Come suggerisce il nome, si tratta di un flusso di sangue che proviene da un'arteria. In questo tipo di sanguinamento, il sangue tipicamente è di un colore rosso vivo, a causa dell'alto grado di ossigenazione. Il sangue arterioso fuoriesce dalla ferita a fiotti, con un flusso alternante. La quantità di sangue persa può essere abbondante e si possono perdere rapidamente grossi volumi, il paziente percepisce una sensazione di freddo.
+Emorragia venosa: Questo sangue fluisce da una vena o da un plesso venoso danneggiato. Il colore del sangue venoso varia dal rosso oscuro al colore borgogna (dovuto al diverso colore della emoglobina non ossigenata) e di solito fluisce in modo costante. Si richiede comunque un pronto intervento per arrestare l'emorragia, anche se la perdita di sangue non è arteriosa, può comunque essere sostanziosa, e può verificarsi con velocità sorprendente se non si interviene.
+Emorragia capillare: Il sanguinamento dai capillari avviene normalmente nelle ferite superficiali come l'abrasione. Il colore del sangue può variare in quanto nella porzione distale della circolazione il sangue ossigenato e non ossigenato si mescolano, e in genere si limita a gocciolare in piccole quantità, molto inferiori a quelle del flusso venoso o dei fiotti di sangue arterioso.
+
+Gestione delle ferite
+La gestione della lesione dipenderà dal tipo di ferita (incisione, lacerazione, perforazione, ecc.), come anche dalla zona ed estensione corporea interessate e dalla presenza di qualsiasi oggetto estraneo nella ferita. I principi chiavi della gestione del vulnus sono:
+
+Elevazione dell'arto
+Mantenere la lesione sopra il livello del cuore diminuirà la pressione (sia arteriosa che venosa, con il rischio di generare una pressione negativa a livello venoso) nel punto della ferita e così ridurrà il sanguinamento.
+
+Questo si applica agli arti e alla testa, ed è poco pratico (e spesso dannoso e pericoloso per i rischi alla colonna vertebrale) il cercare di muovere il torso per raggiungere questo scopo.
+
+Anche molti protocolli non utilizzano l'elevazione degli arti fratturati, dal momento che questa procedura può peggiorare la lesione.
+
+Pressione diretta
+L'applicazione manuale di pressione sulla ferita costringerà i piccoli vasi a chiudersi, aiutando a interrompere qualsiasi flusso capillare e/o venoso. Idealmente si dovrebbe mettere una barriera, come garza sterile, poco aderente, da inserire tra la mano che applica la pressione e la ferita, per ridurre il rischio di infezione ed aiutare la chiusura della ferita.
+
+Quando si applica la pressione, il tipo e direzione della ferita potrebbe avere un effetto opposto sulle manovre esercitate, ad esempio, un taglio sulla lunghezza assiale del palmo della mano, si potrebbe aprire anche di più serrando la mano in un pugno, mentre un taglio trasversale del palmo della mano potrebbe essere sigillato dal formare un pugno.
+
+Lo stesso paziente può auto-applicarsi pressione direttamente sulla ferita, se il suo livello di coscienza lo permette. La pressione diretta può essere anche applicata tramite oggetti (come legnetti, pezzi di plastica, ecc.) trovati nei dintorni, puliti e foderati con bende o pezzi di vestiti, si applica tra l'oggetto e la ferita un cuscinetto fatto di garza e/o cotone, e così si sigilla la ferita.
+
+Si consiglia alle persone che assistono il paziente di usare sempre guanti protettivi in latex oppure in nitrile per ridurre i rischi di infezione o contaminazione bidirezionale.
+
+Gli oggetti che applicano pressione non dovranno essere rimossi se non in un pronto soccorso da personale medico o paramedico.
+
+Punti di pressione
+In situazioni in cui la pressione diretta ed il sollevamento non sono possibili o si rivelano inefficaci, e c'è rischio di dissanguamento, alcuni protocolli prevedono l'uso di punti di pressione per comprimere le principali arterie che irrorano il punto del sanguinamento.
+
+La compressione si effettua solitamente nei punti dove è possibile reperire un polso, come l'arteria femorale.
+
+Ci sono rischi significativi associati alla compressione, compresa la necrosi della zona a valle della compressione, e la maggior parte dei protocolli indicano un tempo limite (di solito intorno ai 10 minuti).
+
+Laccio emostatico
+Un altro metodo per ottenere la costrizione dell'arteria afferente è utilizzare un laccio emostatico, una banda strettamente legata che circonda un arto per restringere il flusso del sangue.
+
+È possibile ottenere un laccio emostatico improvvisato servendosi di una benda, una cintura, un panno, ecc. Questi lacci, in aggiunta al fatto di creare possibili problemi per la successiva gestione del paziente, in genere falliscono nel raggiungere una forza sufficiente per comprimere adeguatamente le arterie dell'arto. Come risultato, non soltanto non fermano il sanguinamento arterioso, ma potrebbero addirittura aumentare il sanguinamento a causa del diminuito deflusso venoso.
+
+Sostanze emostatiche
+Alcuni protocolli raccomandano l'uso di agenti acceleranti dell'emostasi, sia da applicare esternamente come polveri, gel o garze medicate, sia iniettabili per via endovenosa.
+
+Ciò può essere particolarmente utile quando l'emorragia non tende a fermarsi.
+
+Epistassi
+I sanguinamenti dal naso, coane, setto e turbinati nasali (detti epistassi) sono un caso speciale.
+
+Il punto più appropriato per sanguinamenti non troppo profondi è nella parte carnosa del naso, che dovrebbe indurre una costrizione dei capillari sufficiente a fermare l'emorragia, anche se ovviamente questo non fermerà il sanguinamento da parti profonde delle vie aeree superiori, come il nasofaringe, oppure dal dotto lacrimale.
+
+Emorragie interne
+Le ferite interne sono più difficili da trattare rispetto a quelle esterne, sebbene abbiano spesso una causa esterna.
+
+L'aneurisma aortico è un caso particolare nel quale l'aorta, il maggiore vaso sanguigno dell'organismo, si rompe in corrispondenza di un punto di minor resistenza. Questa è una tra le più gravi emergenze mediche alle quali un paziente può andare incontro. L'unico trattamento possibile è l'intervento chirurgico urgente.

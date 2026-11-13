@@ -1,0 +1,19 @@
+Lazione revocatoria fallimentare è un istituto del diritto processuale civile italiano.
+
+Attraverso questa azione, si fa perdere efficacia giurisdizionale ad un atto compiuto dal debitore - fallito volto a minare la par condicio creditorum. La finalità è, pertanto, quella di ricostituire l'attivo fallimentare per fare in modo che vi possa essere soddisfatto un numero maggiore di creditori.
+
+Legittimazione e competenza
+Legittimato a porre in essere tale azione è il curatore fallimentare, mentre la competenza è del tribunale in cui si è aperta la procedura fallimentare.
+
+Atti revocabili
+L'art. 67 L.F. dispone un elenco di atti che possono essere revocati. Revocazione che non avviene, in tutti i casi, qualora il terzo contraente dimostri di non aver conosciuto lo stato di insolvenza del fallito: nelle ipotesi citate nel primo comma di tale articolo l'onere della prova spetta al contraente degli atti elencati, per quanto riguarda il secondo comma spetta invece al curatore nominato dal Tribunale fallimentare. Ciò avviene perchė nel primo caso abbiamo a che fare con atti anormali, dove la conoscenza del pregiudizio verso i creditori concorsuali ė presunta, mentre gli atti del secondo comma sono di per sé normali, ma diventano anormali qualora vi sia la conoscenza del pregiudizio da parte della controparte del fallito che li mette in atto.
+
+A norma dell'art. 70, 2 comma l.f., il creditore revocato ha diritto ad insinuarsi nel passivo per il suo eventuale credito.
+L'art. 67 l.f. dispone, al comma 1 e 2, una serie di atti revocabili (atti a titolo oneroso, pagamenti, garanzie. Le esenzioni dalla revocatoria fallimentare - sette - sono novellate al terzo comma del suddetto articolo.
+
+Procedura
+
+Da un punto di vista processuale si seguono le medesime regole stabilite per l'azione revocatoria ordinaria.
+
+Riferimenti normativi
+Legge fallimentare

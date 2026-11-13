@@ -1,0 +1,37 @@
+In informatica lo Gnome sort (soprannominato stupid sort) è un algoritmo di ordinamento molto simile all'insertion sort da cui, però, differisce per il fatto che lo spostamento di un elemento nella sua posizione corretta è eseguito mediante una serie di scambi, come nel Bubble sort. Lo Gnome sort è molto semplice e non richiede cicli nidificati. Il tempo di esecuzione è O(n2), ma tende verso O(n) se la lista iniziale è parzialmente ordinata. In pratica l'algoritmo può risultare veloce quanto l'Insertion sort.
+
+Lo Gnome sort trova sempre la prima posizione in cui 2 elementi adiacenti sono in ordine errato e li scambia. L'algoritmo si avvantaggia del fatto che l'esecuzione di uno scambio può disordinare una coppia ordinata di elementi adiacenti solo appena dopo o appena prima i due elementi scambiati. Lo Gnome sort non controlla che gli elementi posti dopo la posizione corrente siano ordinati per cui necessita soltanto di controllare la posizione immediatamente precedente gli elementi scambiati.
+
+Pseudocodice
+Ecco una implementazione in pseudocodice dello Gnome sort:
+
+procedure gnomeSort( a : lista di elementi da ordinare)
+pos ← 0
+while pos = a[pos - 1] ) then
+pos ← pos + 1
+else
+swap ( a[pos], a[pos - 1] )
+pos ← pos - 1
+
+Esempio
+Data una lista non ordinata a composta dagli elementi [5, 3, 2, 4], lo Gnome sort dovrebbe eseguire, durante il ciclo, i seguenti passaggi (la "posizione corrente" è segnata in grassetto):
+
+Ottimizzazioni
+Lo Gnome sort può essere ottimizzato introducendo una variabile in cui memorizzare la posizione corrente prima di iniziare a scorrere all'indietro la lista fino al suo inizio. Essa permetterà allo "gnomo" di ritrovare la sua posizione precedente dopo lo spostamento di un vaso da fiori. Con questa modifica lo Gnome sort diventa una variante dell'Insertion sort.
+
+procedure gnomeSort( A : lista di elementi da ordinare)
+i ← 1
+j ← 2
+while i <= length(a) - 1
+if a[i - 1] <= a[i] then
+i ←j
+j ← j + 1
+else
+swap ( a[i - 1] , a[i] )
+i ← i - 1
+if i = 0
+i ← 1
+
+Il nome
+
+Originariamente proposto con il nome di Stupid Sort da Hamid Sarbazi-Azad fu successivamente ripreso da Dick Grune e presentato con il nome di Gnome sort. Il suo nome deriva dal supposto modo con cui gli gnomi da giardino ordinano una fila di vasi da fiori:

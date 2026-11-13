@@ -1,0 +1,23 @@
+Lalgoritmo di Ada Lovelace (nata Ada Byron) permette di calcolare i numeri di Bernoulli. Questo algoritmo è noto soprattutto per essere stato il primo programma della storia dell'informatica.
+
+La formula utilizzata
+Come si vede dal diagramma in figura e dal testo relativo disponibile in lingua inglese, Ada Lovelace nell'implementare il suo algoritmo si servì della seguente formula:
+
+dove abbiamo sostituito gli indici dispari usati da Ada con i pari secondo la moderna notazione dei Numeri di Bernoulli. Utilizzando il fattoriale decrescente possiamo scrivere in forma compatta:
+
+essendo il
+la precedente equivale a
+
+Le fonti concordano con Ada stessa, sul fatto che questa formula derivi dalla funzione generatrice e anche nel fornire solo un accenno di dimostrazione per giustificarlo:
+
+La funzione generatrice può considerarsi una uguaglianza fra serie formali di potenze o fra funzioni analitiche; in questo caso per la convergenza della serie si chiede che x abbia valore assoluto minore di 2π (il raggio di convergenza della serie stessa).
+
+È sicuramente più semplice mostrare invece che la formula usata dalla Byron non è altro che la consueta formula di ricorrenza:
+
+resa più efficiente per il calcolo automatico.
+Per questo è sufficiente notare che:
+
+e che
+
+Come si può controllare nella nota G in figura questa è la funzione utilizzata da Ada dato che ai suoi tempi, come aveva indicato anche Jacob Bernoulli nel suo "Ars Conjectandi" più di un secolo prima i numeri di Bernoulli cominciavano dopo i primi due attuali che quindi vanno sostituiti con i loro valori numerici per ottenere la formula usata. Nella nota Ada scrive che chiaramente corrispondono ai nostri
+.

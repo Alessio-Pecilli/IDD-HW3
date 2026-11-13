@@ -1,0 +1,16 @@
+LAWL è un linguaggio di programmazione sviluppato dalla Siemens. Il suo acronimo significa: “AnWeisung List” (lista istruzioni). È utilizzato nell'automazione industriale nei PLC s7-200, s7-300, s7-400, e nei PLC compatibili con Siemens, come ad esempio VIPA.
+
+Caratteristiche
+
+Si compone di istruzioni di basso livello che consentono di avere il controllo completo del PLC, ma allo stesso tempo richiedono al programmatore una competenza adeguata, a differenza di altri linguaggi, come il ladder o KOP, più intuitivi e funzionali.
+
+Il linguaggio AWL non fa parte dei linguaggi standard definiti nella norma EC 61131-3, ma si può trovare un suo corrispondente all'interno di tale norma, ovvero il linguaggio IL (instruction list).
+
+Esempio
+Attivazione di un dispositivo (A 2.0) tramite comando fornito dal segnale E0.0; l'attivazione di A 2.0 avviene dopo 1/2 secondo dal momento del cambio di stato di E 0.0 da LOW a HIGH.
+
+Nel dettaglio, i comandi usati sono:
+U per definire l'esistenza dello stato dell'ingresso (nell'esempio E 0.0)
+L definisce un temporizzatore (fissa la prima parte S5T#, poi il valore in diverse unità di misura, nell'esempio in millisecondi ms)
+SE definisce il nome del temporizzatore T1 che viene usato nella riga successiva
+= definisce il risultato della sequenza: dare il segnale all'uscita A 2.0 nel tempo prefissato

@@ -1,0 +1,17 @@
+Una scheda riser è un tipo particolare di scheda elettronica di espansione.
+
+Tecnologia
+
+La schede riser venivano originariamente progettate come un tipo particolare di daughterboard ovverosia di scheda elettronica di espansione con un sistema di aggancio non a standard universale come le normali schede di espansione ma con un sistema proprietario e dedicato a un'altra scheda madre particolare. Ciò avveniva soprattutto nel passato quando gli standard informatici, sui componenti secondari delle architetture, non erano consolidati e i grandi produttori di PC Olivetti, IBM, Compaq, HP, Siemens Nixdorf adottavano architetture parzialmente proprietarie sia per motivi di qualità del prodotto, sia per offrire funzioni particolari, sia per differenziarsi dai produttori di componenti standard, sia per obbligare l'utente ad utilizzare l'assistenza ufficiale.
+
+Funzione
+Le schede riser raccolgono numerosi segnali diversi, in genere attraverso un bus e li trasmettono attraverso il connettore, in genere uno slot, alla scheda principale.
+
+Vengono spesso usate per ridurre l'ampiezza della scheda madre spostando funzioni dalla stessa nella riser oppure per eliminare dalla motherboard alcuni slot che sono inseriti invece nella riser, che, essendo perpendicolare alla scheda madre, permette di inserire le schede aggiuntive (schede video o schede audio) parallelamente a quella.
+
+Riser a standard universale
+Il più semplice esempio di scheda riser a standard universale è quella che "ruota" il connettore PCI di 90°. Altri standard di slot per schede riser sono:
+Audio/Modem Riser o AMR
+Communications and Networking Riser o CMR
+Advanced Communications Riser o ACR
+Mobile Daughter Card (MDC) o Communication Daughter Card (CDC)

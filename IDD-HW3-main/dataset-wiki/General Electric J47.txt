@@ -1,0 +1,42 @@
+Il General Electric J47 era un turbogetto prodotto dall'azienda statunitense General Electric a partire dalla fine degli anni quaranta.
+
+Fu il primo turbogetto con compressore a flusso assiale ad essere certificato negli Stati Uniti per l'uso commerciale.
+
+Storia
+Il J47 (o TG-190 secondo la numerazione interna della GE) fu sviluppato sulla base del motore J35 per realizzare una nuova generazione di motori da destinare a nuovi progetti di velivoli da combattimento tra cui l'F-86 Sabre e fece il primo volo nel maggio del 1948.
+
+Il J47 fu anche montato su prototipi non volanti come l'automobile a getto "Spirit of America" e la locomotiva a reazione "M-497 Black Beetle".
+
+Sviluppo
+La vita operativa del motore tra una revisione (overhaul) e l'altra andò crescendo dalle 15 ore di volo del 1948 alle 1200 del 1956. Fu installato su diversi modelli di aeroplano, e prodotto (fino al 1956) in più di 36000 unità. Il suo impiego in campo militare è durato fino al 1978, quando l'ultimo Boeing KC-97J fu ritirato dal servizio della Air National Guard.
+
+Tecnica
+Il motore era composto di un singolo albero motore, un compressore assiale a dodici stadi, otto camere di combustione ed un singolo stadio di turbina. L'ultima versione era equipaggiata con un sistema antighiaccio che prevedeva il riscaldamento dell'ogiva, aveva le camere di combustione rivestite di un composto ceramico per resistere meglio alle alte temperature ed un nuovo sistema di iniezione di acqua per incrementare la spinta.
+
+Versione a propulsione nucleare
+
+Durante gli anni cinquanta, nell'ambito del programma di ricerca Aircraft Nuclear Propulsion, da questo motore ne venne derivata anche una versione sperimentale chiamata X-39 destinata ad equipaggiare un futuro aereo a propulsione nucleare, il Convair X-6.
+
+L'X-39 consisteva in una coppia di J47 modificati in modo tale che l'aria compressa immessa in camera di combustione ricevesse il calore con un passaggio attraverso il reattore nucleare invece della consueta combustione del carburante. Il programma fu interrotto definitivamente nel 1961.
+
+Versioni
+J47-GE-1 – 21,57&nbsp;kN (4850&nbsp;lbf) di spinta
+J47-GE-17B – 24,13&nbsp;kN (5425&nbsp;lbf)
+J47-GE-19 – 23,13&nbsp;kN (5200&nbsp;lbf)
+J47-GE-23 – 25,80&nbsp;kN (5800&nbsp;lbf), 28,91&nbsp;kN (6500&nbsp;lbf) con iniezione di acqua
+J47-GE-25 – 32&nbsp;kN (7200&nbsp;lbf)
+J47-GE-27 – 23,13&nbsp;kN (5200&nbsp;lbf), 26,55&nbsp;kN (5970&nbsp;lbf) con iniezione di acqua
+J47-GE-33 – 24,68&nbsp;kN (5550&nbsp;lbf)
+
+Velivoli utilizzatori
+
+North American B-45 Tornado
+Boeing B-47 Stratojet
+Convair B-36
+Convair NB-36H
+North American F-86 Sabre
+FJ-2 Fury
+Boeing KB-50J Superfortress
+Boeing KC-97L Stratotanker
+Martin XB-51
+Republic XF-91 Thunderceptor

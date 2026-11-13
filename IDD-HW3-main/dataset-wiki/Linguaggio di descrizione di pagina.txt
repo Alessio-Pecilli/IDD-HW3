@@ -1,0 +1,57 @@
+Un linguaggio di descrizione di pagina è, in informatica, un linguaggio nato per descrivere la composizione, l'impaginazione e il contenuto di una pagina da stampare.
+
+La sua funzione è quella di consentire al computer di trasmettere alla stampante un file con la descrizione della pagina da stampare indipendente dal software o dalla piattaforma utilizzata. La stampante, una volta ricevuto il file, provvede ad elaborarlo e a generare la bitmap che verrà stampata. In sintesi, tale linguaggio descrive l'aspetto di una pagina stampata a un livello più alto della semplice bitmap, restituita in uscita alla stampante.
+
+I linguaggi di descrizione di pagina sono flussi di dati binari o testuali. In teoria, lo stesso flusso di dati può essere renderizzato più volte per generare diverse copie della stessa immagine. Sono distinti dalle API grafiche (come GDI e OpenGL), che possono essere chiamate dai software per generare un output grafico. Sebbene siano spesso dei linguaggi completi e quindi in grado di essere utilizzati per produrre programmi, essi non vengono utilizzati a questo scopo dato che sono spesso interpretati e quindi lenti.
+
+L'adattamento a linguaggio di markup di un linguaggio di descrizione di pagina è il Page description markup language.
+
+I più famosi linguaggi di descrizione di pagina sono:
+DVI (DeVice Independent)
+PCL (Printer Control Language)
+PDF (Portable Document Format)
+PostScript
+
+Alcuni di questi linguaggi sono stati resi standard aperti, mentre altri sono soluzioni proprietarie dei vari produttori di stampanti.
+
+Altri linguaggi
+
+AFP , Advanced Function Presentation ( IBM )
+Canon GARO, linguaggio per arti grafiche con operazioni raster (per stampanti di grande formato), basato su Hewlett-Packard PCL3GUI / RTL e linguaggio di descrizione del lavoro CPCA.
+Linguaggio di definizione della pagina Common Ground
+CPCL, Comtec Printer Control Language (ora Zebra)
+DPL, Datamax Printer Language (ora Honeywell )
+DTPL, Linguaggio stampante di biglietti Datamax
+E411, Emulation 411, per sistemi di biglietteria e strisce di volo (ATC) (IER)
+EPL , Eltron Programming Language (ora Zebra)
+Linguaggio di descrizione della pagina di Envoy ( WordPerfect )
+ESC / P , Epson Standard Code for Printers, linguaggio semplice utilizzato principalmente nelle stampanti a matrice di punti
+ESC / P2, una versione ampliata di ESC / P
+ESC / Page , codice standard Epson per stampante di pagine, un linguaggio di descrizione della pagina (diverso da ESC / P) utilizzato in numerose stampanti laser Epson, in particolare i modelli giapponesi
+ESC / POS , codice standard Epson per stampanti POS
+Stampanti FGL, Friendly Ghost Language (Boca Systems)
+Fingerprint, un linguaggio di programmazione, Direct Protocol è un sottoinsieme di Fingerprint ( Intermec )
+HP-GL e HP-GL / 2, linguaggio geometrico introdotto da Hewlett-Packard per i plotter a penna, ancora oggi in uso per i disegni tecnici
+Interpress ( Xerox )
+IJPDS , flusso di dati della stampante a getto d'inchiostro ( Kodak )
+IPDS , Intelligent Printer Data Stream (IBM)
+IGP / PGL, linguaggio grafico Printronix
+IPL, Intermec Printer Language, un linguaggio di programmazione per stampanti Intermec (ora una consociata di Honeywell )
+KPDL, Kyocera Page Description Language
+LCDS / Metacode, un formato del flusso di stampa utilizzato nelle vecchie stampanti ad alta velocità ( Xerox )
+MODCA , Mixed Object Document Content Architecture (IBM)
+MTPL, Mannesmann Tally Printer Language
+PPDS , flusso di dati della stampante personale
+RPCS , flusso di comando di stampa raffinato ( Ricoh )
+RTL (Raster Transfer Language, noto anche come PCL3GUI). Sottoinsieme di comandi grafici raster di Hewlett-Packard HP-GL / 2, simile a PCL.
+Modalità Star Line, variante di ESC / POS utilizzata dalle stampanti Star Micronics
+SPL , Samsung Printer Language
+SVG, un linguaggio di descrizione grafica basato su XML sviluppato principalmente per il World Wide Web
+Canon SG Raster (Swift Graphics Raster per stampanti di grande formato), basato su Hewlett-Packard PCL3GUI / RTL e IVEC (linguaggio di descrizione del lavoro in formato XML)
+TSPL / TSPL2, Taiwan Semiconductor Printing / Programming Language ( TSMC )
+TTP, linguaggio di stampa di Swecoin per stampanti kiosk (ora Zebra)
+UFR (Ultra Fast Rendering), un linguaggio proprietario (Canon)
+XES, sequenza di escape Xerox
+XPS , XML Paper Specification introdotto in Windows Vista ( Microsoft )
+ZJS, ZjStream Page Description Language (Zenographics)
+ZPL , linguaggio di programmazione Zebra

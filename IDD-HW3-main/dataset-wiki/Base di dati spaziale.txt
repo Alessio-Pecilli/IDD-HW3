@@ -1,0 +1,17 @@
+Una base di dati spaziale (anche nota banca dati spaziale o database spaziale; in sigla: SDB) è una base di dati ottimizzata per archiviare e interrogare dati correlati ad oggetti nello spazio, tra cui, punti, linee e poligoni.
+Nelle basi di dati spaziali sono integrate quindi delle funzionalità aggiuntive per processare tipi di dati spaziali.
+L'Open Geospatial Consortium (Consorzio geospaziale aperto) ha creato le specifiche Simple Features che stabiliscono degli standard per l'aggiunta di funzionalità spaziali alle banche dati.
+
+Basi di dati spaziali
+Tutti i prodotti che seguono le specifiche OpenGIS
+Le banche dati spaziali Open source e le API
+Boeing's Spatial Query Server (Sito ufficiale) che abilita Sybase ASE.
+Smallworld VMDS, GE Smallworld GIS database nativo
+Spatialite estende Sqlite con tipi di dati, funzioni, e utilità spaziali.
+IBM DB2 Spatial Extender può essere usato per abilitare qualsiasi versione di DB2, inclusa quella gratuita DB2 Express-C, con il supporto ai tipi spaziali
+Oracle Spatial
+Microsoft SQL Server dal 2008 supporta i tipi spaziali
+PostgreSQL DBMS (database management system) usa l'estensione spaziale PostGIS per implementare il tipo di dato standardizzato geometry e le sue funzioni corrispondenti.
+MySQL DBMS implementa il tipo di dato geometry con in più altre funzioni spaziali che non sono state implementate secondo le specifiche OpenGIS. Da MySQL 5.0.16, InnoDB, NDB, BDB, e ARCHIVE supportato caratteristiche spaziali.
+Neo4j – Base di dati a grafo capace di costruire indici 1D e 2D come Btree, Quadtree e Hilbert curve direttamente nel grafo.
+AllegroGraph – una base di dati a grafo che fornisce un meccanismo per un'efficiente archiviazione e recupero di coordinate geospaziali a 2 dimensioni con dati Resource Description Framework. Include anche una sintassi estessa per le interrogazioni SPARQL

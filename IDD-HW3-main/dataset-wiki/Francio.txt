@@ -1,0 +1,35 @@
+Il francio è l'elemento chimico di numero atomico 87 e il suo simbolo è Fr.
+
+È un metallo alcalino che può trovarsi nei minerali dell'uranio e del torio. Si stima che il suo punto di fusione sia lievemente superiore alla temperatura ambiente.
+
+Prima della sua scoperta, era indicato come eka-cesio. È estremamente radioattivo; il suo isotopo più stabile, il francio-223 (originariamente chiamato attinio K per la catena di decadimento naturale in cui compare), ha un'emivita di soli 22 minuti. È l'elemento meno elettronegativo ed è il primo elemento naturale più instabile ed il più raro. Gli isotopi del francio decadono rapidamente in astato, radio e radon.
+
+A causa dell'aspetto generale degli altri elementi nella colonna della sua tavola periodica, si presume che il francio apparirebbe come un metallo altamente reattivo, se ne potesse essere raccolto abbastanza per essere visto come un solido o liquido. L'ottenimento di un tale campione è altamente improbabile, poiché il calore estremo di decadimento causato dalla sua breve emivita vaporizzerebbe immediatamente qualsiasi quantità visibile dell'elemento.
+
+Il francio è stato scoperto da Marguerite Perey in Francia (da cui prende il nome l'elemento) nel 1939. È stato l'ultimo elemento scoperto per la prima volta in natura, piuttosto che per sintesi. Fuori dal laboratorio, il francio è estremamente raro, di cui si trovano tracce nei minerali di uranio e torio, dove l'isotopo francio-223 si forma e decade continuamente. Gli altri isotopi (eccetto il francio-221) sono interamente sintetici. La quantità maggiore prodotta in laboratorio era un cluster di oltre atomi.
+
+Caratteristiche
+Il francio è il più pesante dei metalli alcalini; è il prodotto del decadimento alfa dell'attinio e può essere prodotto artificialmente per bombardamento del torio con protoni. È il meno stabile di tutti gli elementi naturali.
+
+Sono noti 41 isotopi del francio, di cui il più stabile, con un'emivita di 22 minuti, è 223Fr, prodotto dal decadimento di 227Ac.
+
+Il francio è l'elemento meno elettronegativo del sistema periodico, esso infatti nella scala di Pauling ha il valore minore di elettronegatività (0,7). L'ipotetico sale FrF (fluoruro di francio) sarebbe il composto ionico più stabile ottenibile.
+
+Applicazioni
+Data la sua rarissima presenza in natura ( nella crosta terrestre) e instabilità, l'elemento non ha campi di utilizzo definiti.
+
+Storia
+Il francio (lekacesio di Mendeleev) fu identificato nel 1939 da Marguerite Perey, assistente di laboratorio dell'Istituto Curie di Parigi, tra i prodotti di disintegrazione del 227Ac. Marguerite osservò un decadimento di particelle alfa, non beta come avevano detto i suoi colleghi statunitensi, che provocava un aumento di radioattività che si bloccò ad un certo momento, dove, per l'appunto si stava formando il Francio. Il nome fu scelto dalla scopritrice in omaggio alla sua nazionalità, sebbene prima fu proposto di chiamarlo "Catmio", poiché si pensava che avrebbe avuto più facilità a diventare un catione.
+
+Disponibilità
+Il francio è presente in piccole tracce nella crosta terrestre sotto forma dell'isotopo 223 detto anche attinio-K in quanto si forma per decadimento alfa del 227Ac. Considerato il suo tempo di dimezzamento di soli 21,8 minuti e che l'emissione α riguarda solo l'1% del decadimento complessivo di 227Ac, si stima che nell'intera Terra ne esistano non più di 25 grammi. Altre stime riportate da Peter Atkins ridurrebbero a soli diciassette atomi la quantità di francio contemporaneamente presente in un dato istante sul nostro pianeta. È l'elemento chimico più instabile tra i primi 103 della tavola periodica.
+
+Proprio a causa della sua rarità le sue proprietà chimiche e fisiche non sono ancora state definite completamente;
+è stato studiato per mezzo di tecniche radiochimiche, le quali hanno evidenziato che il suo ione più stabile è lo ione Fr+.
+
+Gli altri isotopi, che si formano per decadimento dell'isotopo 235U o per bombardamento del torio, hanno emivite ancora più brevi per cui non si trovano in natura.
+
+Francio prodotto artificialmente
+Gli isotopi da 208 a 211 possono essere prodotti tramite reazione nucleare di fusione-evaporazione tra un fascio di 18O e un bersaglio di 197Au; questa tecnica, sviluppata dai ricercatori di Stony Brook, viene applicata presso i Laboratori Nazionali di Legnaro dell'INFN per alimentare una trappola magneto-ottica. Nel luglio 2007 è stato ottenuto un campione di circa 10&nbsp;000 atomi intrappolati dell'isotopo 210, da ricercatori delle Università di Ferrara, Pisa e Siena.
+
+Dal 2012 all'esperimento CRIS (Collinear Resonant Ionization Spectroscopy) del laboratorio ISOLDE del CERN di Ginevra, vengono studiati gli isotopi del francio, in particolare sono stati misurati per la prima volta il momento magnetico e il raggio di carica degli isotopi 202–206,218,219,229,231Fr.

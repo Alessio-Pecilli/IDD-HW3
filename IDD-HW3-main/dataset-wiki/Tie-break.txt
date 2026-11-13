@@ -1,0 +1,41 @@
+Il tie-break o tiebreak (in inglese anche tie-breaker, tiebreaker) è una frazione di spareggio durante un incontro sportivo, prevista tipicamente in quegli sport le cui gare possono prolungarsi indefinitamente per effetto del punteggio in situazioni di risultati sulla parità e sostanzialmente è un game (tennis) o set (pallavolo) con sistema di punteggio ridotto: infatti viene disputato con regole specifiche, che permettono di abbreviare e decidere l'esito finale di una gara tra due giocatori o squadre. Fu introdotto per la prima volta nel tennis, poi anche nella pallavolo.
+
+Tennis
+
+Definizione
+Nel tennis il tie-break è un game speciale di spareggio che premia il giocatore che per primo ottiene la maggior parte dei punti disponibili. Si distinguono:
+
+un tie-break a 9 punti, vinto dal giocatore che per primo se ne aggiudica 5;
+un tie-break a 12 punti, vinto dal giocatore che per primo se ne aggiudica 7, purché con un doppio vantaggio sull'avversario;
+un tie-break a 18 punti o super tie-break, vinto dal giocatore che per primo se ne aggiudica 10, purché con un doppio vantaggio sull'avversario.
+
+In tutti i casi è quindi possibile che il game conti un numero di punti inferiore a quello previsto (il tie-break a 9 può anche terminare 5-0, quello a 12 punti 7-0 e quello a 18 punti 10-0). Negli ultimi due casi, invece, il numero dei punti può anche essere superiore a quello previsto per effetto della condizione del doppio vantaggio (ad esempio il tie-break a 12 punti può terminare 8-6, 9-7, 10-8 e così via).
+
+Il tie-break si gioca normalmente sul punteggio di 6-6. L'ordine delle battute è il seguente: al servizio nel primo punto va il giocatore che era in risposta sul 6-6, dopodiché i giocatori si alternano ogni due punti, in modo da servire ciascuno prima a sinistra e poi a destra. Ogni sei punti giocati si procede al cambio di campo, ma il gioco dev'essere continuo e i giocatori, così come nei cambi di campo dopo il primo game di ogni set, non possono quindi sostare.
+
+È accolto da ITF un metodo alternativo che prevede il tie-break a 12 o a 18 punti in totale sostituzione del set decisivo.
+
+Storia
+Il complesso punteggio tennistico e soprattutto la formula della «partita ai vantaggi», che prevede la necessità di vincere due game più dell'avversario per aggiudicarsi il set, fanno sì che gli incontri non abbiano una durata definita. Quando la situazione è di grande equilibrio, specie se i tennisti sono forti battitori e vincono tutti i propri turni di servizio, il match può durare molte ore, anche tre o più. Il primo tentativo di abbreviare gli incontri professionistici fu sperimentato fin dagli anni '40 e poi introdotto da Jack March con il nome di pro set. Gli incontri (match) si riducevano a una sola partita (set) e vedevano vincitore il giocatore che per primo si fosse aggiudicato otto game. Il pro set consentiva di ridurre la durata dei match a 30-40 minuti, il che attirava anche gli sponsor televisivi.
+
+Si deve invece a Jimmy Van Alen l'introduzione di una serie di proposte per abbreviare gli incontri, studiate nel corso di undici anni dal 1954 al 1965, in seguito alle critiche ricevute per i disagi causati dal prolungarsi di una finale di singolare in un torneo amatoriale di Newport. L'incontro Richardson-Clark, concluso sul punteggio di 6-3 9-7 12-14 6-8 10-8, provocò infatti lo spostamento della finale di doppio su un campo secondario e l'annullamento del garden party previsto a conclusione del torneo. Le proposte presentate nel 1965 furono respinte con sufficienza da USTA.
+
+Un sistema alternativo già sperimentato da Van Alen era all'epoca il set di un unico game con il punteggio del tennistavolo, che premia il giocatore che per primo raggiunge i 21 punti con un margine di due sull'avversario. I World Pro Tennis Championships 1955 e 1956 si erano disputati con questa formula; la finale 1955 tra Gonzales e Segura si era chiusa 21-16 19-21 21-8 20-22 21-19 ed era durata 47 minuti. Di fronte al rifiuto di USTA, Van Alen organizzò a Newport un torneo con le proprie regole, invitando giornalisti e commentatori dei mezzi di comunicazione di massa e assicurandosi i migliori tennisti (Gonzales, Hoad, Laver, Rosewall). Il torneo prevedeva incontri di un unico set a 31 punti. In caso di parità, si sarebbe disputato un tie-break a 9 punti.
+
+Van Alen pubblicizzò le sue innovazioni in tutto il mondo, decantandone i pregi, finché nel 1969 USTA si convinse a sperimentare il tie-break in alcuni tornei.
+
+Impiego nel Grande Slam e in Coppa Davis
+
+Tie-break a 9 punti
+Gli US Open introdussero il tie-break a 9 punti senza vantaggio sul punteggio di 6-6 nel 1970, anche nel set decisivo, ma l'innovazione fu avvertita dai giocatori come una sudden death e non apprezzata. Il torneo di Wimbledon la adottò a sua volta nel 1971, ma sul punteggio di 8-8 e non nel set decisivo.
+
+Tie-break a 12 punti
+Nel 1972 Wimbledon passò subito alla più conservativa versione ITF a 12 punti e doppio vantaggio sull'8-8. Anche gli US Open adottarono il tie-break comune nel 1975. Australian Open e Roland Garros seguirono il torneo londinese rispettivamente nel 1972 e nel 1973, con la sola differenza che fissarono il tie-break sul 6-6. A questa soluzione passò anche Wimbledon nel 1979. Con l'unica eccezione degli US Open, quindi, dal 1979 in tutti i tornei del Grande Slam si giocava il tie-break nei soli set non decisivi, mentre il quinto set manteneva la formula della partita ai vantaggi. La Coppa Davis accolse il tie-break nel 1989 e lo estese al set decisivo nel 2016. Nel 2019, in seguito al lunghissimo quinto set (26-24) della semifinale Anderson-Isner dell'anno precedente, anche Wimbledon estese il tie-break all'ultimo set, ma sul punteggio di 12-12. Le residue differenze tra le formule dei vari tornei del Grande Slam sono state infine superate dall'adozione del super tie-break nell'ultimo set.
+
+Tie-break a 18 punti
+Il super tie-break è entrato in voga nel XXI secolo, in un primo momento come metodo alternativo per sostituire l'ultimo set nelle sole gare di doppio misto di Australian Open (2001), US Open (2003) e Roland Garros (2007). Nel 2019 gli Australian Open lo hanno adottato per primi come tie-break del set decisivo in tutti gli incontri. Nel 2022 la formula è stata estesa a tutti i tornei del Grande Slam, mentre è rimasto in vigore il tie-break comune nei set non decisivi; il super tie-break sostitutivo dell'ultimo set è stato invece adottato per tutti i tornei di doppio misto, doppio junior e doppio in carrozzina di Australian Open, Roland Garros e US Open.
+
+Pallavolo
+Come il tennis, la pallavolo disputa «partite ai vantaggi» e richiede quindi, per la vittoria in un set, che una squadra si aggiudichi due punti più dell'altra. Un tempo tuttavia tutti i set richiedevano la conquista di soli 15 punti ed era in vigore la regola del cambio palla: la squadra al servizio, vincendo lo scambio, conquistava il punto, ma la squadra in risposta – che all'epoca poteva anche murare il servizio – conquistava soltanto la battuta e dunque l'opportunità di aggiudicarsi il punto successivo. Ciò contribuiva molto a prolungare indefinitamente gli incontri.
+
+Il tie-break adottato dalla pallavolo consistette quindi in un primo momento nella semplice abolizione del cambio palla nell'ultimo e decisivo set. L'introduzione nel 1998 del rally point system ha mutato la situazione, abolendo del tutto il cambio palla e portando a 25 i punti da conquistare, sempre con un doppio vantaggio, per vincere i primi quattro set. Il tie-break quindi è rimasto in vigore, ma si differenzia dagli altri set solo per la minor durata.

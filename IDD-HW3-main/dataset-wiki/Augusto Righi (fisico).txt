@@ -1,0 +1,43 @@
+Biografia
+Diplomatosi in ingegneria civile nel 1872 a Bologna, succedette a Pacinotti come insegnante di fisica presso l'Istituto Tecnico di Bologna, dove insegnò dal 1873 al 1880. Dal 1880 al 1885 insegnò all'università di Palermo, dove ebbe come allievo Orso Mario Corbino.
+
+Nel 1885 si trasferì all'Università di Padova e infine nel 1889 si trasferì all'Università di Bologna dove rimase fino alla morte.
+Nel 1893 iniziò il suo lavoro sperimentale più noto, ovvero lo studio delle proprietà elettromagnetiche. In questo periodo Guglielmo Marconi segue le sue lezioni, ottenendo anche il permesso di frequentare il laboratorio e la biblioteca. L'incontro risulterà fondamentale per la nascita delle telegrafia senza fili. Nell'ultima fase della sua carriera si dedicò allo studio delle radiazioni ionomagnetiche.
+
+Tra i fondatori nel 1884 del Circolo Matematico di Palermo, socio corrispondente dal 1887 e socio nazionale dal 1898 dell'Accademia dei Lincei, membro di numerose istituzioni scientifiche italiane e straniere, nel 1905 fu nominato senatore del Regno d'Italia per i suoi meriti scientifici.
+
+Trascorse le sue ferie e momenti di svago nella omonima Villa Righi a Montese dal 1899 al 1920
+
+Ricerche e opere
+La sua opera abbraccia un campo vastissimo (studi sui condensatori, sull'elettroforo di Volta, sui dielettrici e sulle scintille elettriche, sui fenomeni ottici e magneto-ottici, sull'isteresi magnetica - fu il primo a dimostrare l'effetto di isteresi nei materiali ferromagnetici e il suo contributo allo studio degli effetti di Hall e Kerr ne portò alla luce alcuni aspetti fondamentali (che sarebbero stati spiegati solo più tardi), ma la sua fama è soprattutto legata allo studio delle radiazioni elettromagnetiche.
+
+In questo campo Righi riprese le esperienze di Hertz e dimostrò sperimentalmente con un lavoro sistematico, che le onde elettromagnetiche presentano gli stessi fenomeni (riflessione, rifrazione e polarizzazione) delle onde luminose, confermando l'identità di natura dei due tipi di radiazione.
+
+Per le proprie esperienze Righi si servì di un oscillatore da lui stesso ideato e capace di dare onde aventi lunghezza d'onda di 10&nbsp;cm e anche meno. Hertz non era riuscito ad ottenere lunghezze d'onda inferiori ai 66&nbsp;cm, che avrebbero richiesto apparecchiature di dimensioni assai grandi per evitare che i fenomeni di diffrazione mascherassero gli altri fenomeni. Per questo esperimento Righi fece uso di un risonatore costituito da una lastrina di vetro ricoperta da un foglio di materiale conduttore in cui era praticato un sottile taglio fra i lembi del quale scoccavano le piccole scintille.
+
+I risultati di queste magistrali ricerche furono esposti nell'opera L'ottica delle oscillazioni elettriche (1897), e le esperienze eseguite con loscillatore a sfere, furono determinanti per la realizzazione della radio costruita da Guglielmo Marconi. Le ricerche sulle onde elettromagnetiche pongono Righi, assieme a Hertz, Nikola Tesla, Oliver Joseph Lodge, Alexander Stepanovitch Popov, proprio fra i precursori di Guglielmo Marconi.
+
+Ad Augusto Righi si deve anche l'introduzione del termine fotoelettrico per spiegare l'omonimo fenomeno: lo usa per la prima volta in un celebre articolo pubblicato su Il Nuovo Cimento.
+
+Doppio pendolo di Righi
+Questa macchina di bella fattura, ideata da A.Crova e perfezionata da Augusto Righi intorno al 1890, dimostra la composizione di due moti armonici ortogonali, di frequenza uguale o diversa, e l'originarsi delle relative figure di Lissajous. È costituita essenzialmente da due pendoli: una piattaforma libera di oscillare nella direzione ortogonale al piano del montante di legno che la sorregge, e una grande massa cilindrica contenente un piccolo imbuto di vetro, che oscilla in direzione normale alla piattaforma. La massa cilindrica è sospesa a due lamine di metallo di lunghezza variabile mediante una manopola che consente di spostare la posizione dei vincoli e di ottenere così diverse frequenze di oscillazione. L'imbuto è destinato a contenere sabbia che, durante il moto dei pendoli, viene fatta cadere sulla piattaforma sottostante tramite un circuito elettrico che regola la chiusura e l'apertura dell'imbuto. I rapporti di frequenza tra il primo pendolo, di frequenza fissa, e il secondo pendolo di frequenza variabile, espressi sia come numeri sia come rapporti musicali, sono indicati su una scala tracciata sul sostegno centrale del montante. Entrambi i sistemi oscillanti sono alimentati da circuiti comandati da appositi interruttori. La sovrapposizione dei due moti armonici ortogonali viene evidenziata dalla sabbia che cade sulla piattaforma e dipende dalle frequenze relative dei due pendoli.
+
+Riconoscimenti
+Gli è stato dedicato un asteroide, 16766 Righi. Nel 1905 gli venne assegnata la Medaglia Hughes dalla Royal Society per il suo contributo nel campo della fisica.
+
+Molti Comuni italiani, tra cui la sua Bologna, gli hanno dedicato una strada; Roma una piazza nella zona di viale Guglielmo Marconi, ove sono presenti in massima parte toponimi riferiti a personaggi che hanno avuto rilevanza in discipline scientifiche.
+
+Gli sono dedicate numerose scuole italiane: a lui sono intitolati un liceo scientifico bolognese e uno romano e a Cesena. Gli istituti tecnici industriali di Napoli, Chioggia, Cerignola, Corsico, un istituto tecnico e liceo scientifico tecnologico a Taranto e un istituto professionale per l'industria e l'artigianato a Cassino. Gli è stato dedicato anche l'Istituto Tecnico Statale per Geometri di Reggio Calabria, oggi Istituto di Istruzione Superiore.
+
+Opere
+
+Sulla forza elettromotrice del selenio Studi editi dalla Università di Padova a commemorare l'ottavo centenario della origine della Università di Bologna. Vol. III (Padova: Tip. del Seminario, 1888)
+
+Sur le phénomène de Zeeman dans le cas général d'un rayon incliné d'une manière quelconque sur la direction de la force magnétique (Parigi, G. Carré et C. Naud, 1900)
+
+Modern theory of physical phenomena, radio-activity, ions, electrons (London, MacMillan, 1904) (tradotto da Augustus Trownbridge).
+
+Sur quelques expériences connues considérées au point de vue de la théorie des électrons (Parigi, 40, rue des Écoles, 1906)
+La Materia radiante e i raggi magnetici (Bologna, N. Zanichelli, 1910)
+
+I Fenomeni elettro-atomici sotto l'azione del magnetismo (Bologna, N. Zanichelli, 1918)

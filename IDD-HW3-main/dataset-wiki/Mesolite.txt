@@ -1,0 +1,50 @@
+{{Minerale
+|nomeminerale = Mesolite
+|immagine =
+|didascalia =
+|classificazione = 9.GA.05
+|edizionestrunz = 10
+|formula = Na2Ca2(Si9Al6)O30·8H2O
+|gruppo =
+|sistema = ortorombico
+|classe = piramidale
+|parametri = a = 18,4049(8) Å, b = 56,655(6) Å, c = 6,5443(4) Å, V = Å³, Z = 8
+|puntuale = mm2
+|spaziale = Fdd2 (nº 43)
+|valoredensita =
+|densitamisurata = 2,26
+|densitacalcolata = 2,27
+|valoredurezza = 5
+|tiposfaldatura = perfetta secondo {110} e {10}
+|tipofrattura = irregolare
+|coloreminerale = bianco, grigio, giallastro, incolore
+|tipolucentezza = vitrea; serica quando il materiale è fibroso
+|tipoopacita = trasparente, traslucida, opaca
+|coloreriflessi = bianco
+|tipodiffusione = comune
+}}
+
+La mesolite (simbolo IMA: Mes) è un minerale comune del gruppo delle zeoliti e, al suo interno, del sottogruppo della natrolite; essendo una zeolite appartiene alla famiglia dei "tectosilicati" e possiede composizione chimica Na2Ca2(Si9Al6)O30·8H2O
+
+Etimologia e storia
+Il nome del minerale è l'unione delle due parole greche meso (mezzo, metà) e lithos (pietra) per via del fatto che la sua composizione chimica si trova tra quella della natrolite e quella della scolecite.
+
+Classificazione
+Nella classica nona edizione della sistematica dei minerali di Strunz, aggiornata dall'Associazione Mineralogica Internazionale (IMA) fino al 2009, la mesolite è elencata nella classe "9. Silicati (germanati)" e nella sottoclasse "9.G Tettosilicati con H2O zeolitica; famiglia della zeolite"; questa viene ulteriormente suddivisa in base alla struttura del minerale in modo da trovare la mesolite nella sezione "9.GA Zeoliti con unità T5O10 – Zeoliti fibrose" dove insieme a molti minerali, molti dei quali non più riconosciuti dall'IMA, forma il sistema nº 9.GA.05.
+
+Tale classificazione resta invariata anche nell'edizione successiva, proseguita dal database "mindat.org", nella quale la mesolite è nel sistema nº 9.GA.05 insieme a scolecite, paranatrolite, gonnardite e natrolite.
+
+Nella Sistematica dei lapis (Lapis-Systematik) di Stefan Weiß la mesolite si trova nella classe dei "silicati" e nella sottoclasse dei "tectosilicati (con zeoliti)"; qui forma il "gruppo delle zeoliti; zeoliti fibrose" con il numero di sistema VIII/J.21 insieme a natrolite, paranatrolite, gonnardite, scolecite, thomsonite-Ca e thomsonite-Sr.
+
+Anche la classificazione dei minerali secondo Dana, usata principalmente nel mondo anglosassone, la mesolite si trova nella famiglia dei "silicati"; qui è nella classe dei "tectosilicati; gruppo delle zeoliti" e nella sottoclasse delle "zeoliti originali" dove si trova nella sezione della "natrolite e specie correlate" dove forma il sistema nº 77.01.05 insieme a natrolite, paranatrolite, gonnardite, scolecite, edingtonite e cowlesite.
+
+Abito cristallino
+La mesolite cristallizza nel sistema ortorombico nel gruppo spaziale Fdd2 (gruppo nº 43) con le costanti di reticolo a = 18,4049(8) Å, b = 56,655(6) Å e c = 6,5443(4) Å, oltre ad avere 8 unità di formula per cella unitaria.
+
+Origine e giacitura
+La mesolite è stata all'interno delle cavità di rocce vulcaniche, di solito basalto, ma anche andesiti, porfidi e nelle vene idrotermali. La paragenesi è con calcite, natrolite, scolecite e altre zeoliti.
+
+Il minerale è piuttosto comune e sono numerosi i siti di ritrovamento. La sua località tipo probabilmente si trova in Islanda.
+
+Forma in cui si presenta in natura
+La mesolite si presenta in cristalli prismatici di lunghezza fino a 20 cm; comunemente si presenta in ciuffi simili a capelli e in aggregati fibrosi. Il minerale ha opacità da trasparente, a traslucida a opaca con lucentezza vitrea, che diventa serica quando il materiale è fibroso. Il colore è bianco, grigio, giallastro, ma la mesolite può essere anche incolore, mentre il colore del suo striscio è sempre bianco.

@@ -1,0 +1,155 @@
+Game Maker Language (GML) è un linguaggio di scripting sviluppato per la creazione di videogiochi con Game Maker. Il GML possiede una sintassi che ricorda molto quella del C o del JavaScript.
+
+È stato creato da Mark Overmars inizialmente per aiutare a completare il sistema di drag and drop del suo programma. Da quando YoYo Games ha acquistato i diritti sul software, il GML è divenuto il linguaggio di programmazione utilizzabile nello sviluppo di videogiochi con Game Maker. L'implementazione di questo linguaggio nell'IDE ha reso ai programmatori molta più flessibilità e controllo rispetto alla programmazione tramite l'interfaccia Drag'n'Drop disponibile fino ad allora.
+
+I modi in cui è possibile interagire con gli oggetti nel gioco tramite GML possono essere riassunti come segue:
+Attraverso script per la creazione di funzioni personalizzate;
+Interagendo con gli eventi è possibile controllare il comportamento di tali oggetti;
+Nella creazione di una stanza associandovi dello specifico codice;
+Nelle singole istanze di ogni oggetto;
+
+Oggetti
+Se si desidera usare il GML è importante capire come funzionano gli oggetti in questo linguaggio.
+Il programmatore:
+crea degli oggetti (vuoti)
+associa agli oggetti, se vuole, degli sprite (ovvero degli elementi grafici)
+"riempie" gli oggetti inserendo una programmazione (basata sugli eventi)
+
+Esistono tre tipi di programmazione:
+ad icone
+a codice
+ibrido (entrambi i precedenti).
+
+Mediante un editor grafico si inseriscono gli oggetti (ovvero si creano quelle che vengono chiamate "istanza di oggetto") in un'area denominata stanza.
+
+Da notare che molteplici istanze dello stesso oggetto (se l'oggetto è stato programmato in tal senso) agiranno l'una rispetto all'altra in maniera autonoma. Gli oggetti che non avranno istanze (ovvero che non sono inseriti nella stanza) non funzioneranno (la loro programmazione verrà ignorata). le istanze, oltre che mediante editor grafico, possono anche essere create dinamicamente (in qualsiasi momento) da un'altra istanza (non necessariamente dello stesso oggetto) o dal creation code della room stessa durante l'esecuzione del software.
+
+Variabili
+La divisione per tipi di dato è piuttosto semplice, esistono solo 2 tipi di variabili: numeriche e stringhe (le variabili booleane sono considerate come di tipo numerico: tecnicamente non formano un tipo di dati a parte).
+
+Esiste anche una divisione (indifferentemente dal tipo di dati contenuto) in variabili globali, di istanza e temporanee
+globali: a ogni nome univoco ne corrisponde una sola, che è accessibile e modificabile da un codice che può essere posto indistintamente in qualsiasi script o qualunque evento di qualunque oggetto
+di istanza: a ogni nome univoco ne possono corrispondere molteplici: una per oggetto (o più precisamente una per istanza di oggetto)
+temporanee: a ogni nome univoco ne possono corrispondere molteplici: una per script o piece of code (ogni evento può avere uno o più "piece of code") dove è posizionata. Questo tipo di variabili è da considerarsi completamente privato (a differenza di delle variabili di istanza), ovvero uno script o piece of code che generano una variabile temporanea hanno accesso unico a quella variabile (la quale comunque verrà rimossa alla fine del "piece of code" in cui era dichiarata).
+
+In game maker language esistono anche variabili dette built-in (sono più di 150). A differenza delle normali variabili, in cui nome e logica di funzionamento vengono decisi dal programmatore, queste sono variabili prestabilite dal creatore del linguaggio: è necessario leggerne lo specifico utilizzo sul manuale. Alcune di esse (evidenziate nel manuale con un asterisco) sono dette "variabili built-in di sola lettura", da non confondere con le costanti.
+
+Dichiarazione e assegnazione di dato a una variabile
+Come accade in molti linguaggi di scripting, anche in GML è prevista una dichiarazione implicita delle variabili, non sarà quindi necessario indicare tipo e dimensione della variabile a livello di definizione della stessa, quando si ha la necessità di un certo tipo di variabile si dovrà effettuarne direttamente l'inizializzazione. Fanno eccezione le variabili globali e locali, identificate rispettivamente con le parole chiave globalvar e var, la loro dichiarazione rappresenta quindi solo l'intenzione di assegnare uno scope alla variabile senza comunque dover indicarne il tipo e la dimensione.
+
+L'assegnazione di un dato avviene nel seguente modo:
+
+È chiaro che prima di accedere a una variabile bisogna almeno una volta fare un'assegnazione che ne inizializzi il valore.
+
+Da notare che "dato_che_vuoi" oltre che essere un semplice dato, può anche essere espressione che coinvolge sia variabili, sia valori (stringhe, numeri o booleani), sia function o script, il tutto combinato insieme mediante operatori (matematici, di stringa e booleani) a seconda di ciò che si vuole fare. NOTA: l'ordine di computazione della espressione e da sinistra a destra, per cambiare tale ordine si possono usare delle parentesi tonde.
+
+Assegnazione relativa
+Una variabile può anche fare un calcolo su se stessa, a patto di essere già stata inizializzata. Un semplice esempio è dato dal contare: quando un software fa comparire a schermo un conto alla rovescia non fa altro che eseguire (ciclicamente) questo comando:
+
+Oppure, in forma abbreviata:
+
+Assegnazione di un dato alle variabili built-in
+Le assegnazioni alle built-in avvengono come qualunque assegnazione, l'unica differenza (per quanto riguarda le assegnazioni) è che esse hanno già un'inizializzazione.
+
+Eventi
+Il GML è un linguaggio basato sugli eventi: ogni gruppo di istruzioni va posizionato in un evento (la scelta dell'evento dipende da "quando" si vuole che un determinato blocco entri in azione), cioè, in pratica, il programmatore deve specificare quando, ogni sequenza di istruzioni, deve entrare in funzione.
+
+Ecco alcuni eventi a disposizione del programmatore:
+
+create_ev
+
+Il codice in esso contenuto viene eseguito all'avvio del programma.
+
+step_ev
+
+Il codice in esso contenuto viene eseguito continuamente, generalmente 30 volte al secondo.
+NOTA: tale valore può variare a seconda di come il programmatore ha regolato in gioco e a seconda del rapporto velocità computer/pesantezza del programma.
+
+mouse_ev
+
+Il codice viene eseguito da una istanza di oggetto (*) quando si clicca su esso.
+NOTA: * i codici, tranne quello nel creation_event della room, vengono tutti eseguiti dalle istanze di oggetti.
+
+mouse_global_ev
+
+Questo evento si scatena quando il giocatore clicca su un'istanza che contiene tale evento.
+
+draw_ev
+
+Questo evento si scatena (generalmente) 30 volte al secondo, esso, come dice il nome, è strettamente legato alla gestione grafica.
+
+any_key_press_ev
+
+Si scatena quando viene abbassato un tasto qualunque (per scatenarlo continuamente basta continuare a tenere il tasto abbassato).
+
+any_key_pressed_ev
+
+Si scatena quando viene premuto un tasto qualunque (per scatenarlo più volte bisogna premere e rilasciare il tasto).
+
+NOTA: in realtà alcuni eventi (per esempio: any_key_press_ev, any_key_pressed_ev) sono emulabili da un if inserito in uno step_ev. Questo mette in evidenza come in GML gli eventi, in pratica, possono essere paragonati a degli IF eseguiti ciclicamente (tutti in un unico ciclo).
+
+Un esempio di quanto detto sopra:
+
+e equivalente a
+
+Function
+Le function hanno questa sintassi:
+
+Naturalmente "data_out =" ha senso solo in caso la function restituisca un valore significativo, tuttavia la sintassi indicata qui sopra tecnicamente non viene segnalata come errore anche in caso non ci siano valori da restituire.
+Allo stesso modo se una function restituisce un dato significativo la parte "data_out =", sebbene generalmente consigliata, non è obbligatoria.
+
+In GML le function definite (e programmate) dall'utente vengono chiamate anche "script".
+
+If e blocchi di istruzioni
+Sintassi:
+
+I blocchi di istruzioni sono racchiusi tra parentesi graffe Se la condizione che viene dopo la keyword "if" è verificata (con risultato true, quindi) verrà eseguito il primo blocco altrimenti il secondo. La condizione può essere un'espressione booleana più o meno complessa in base a ciò che si vuole ottenere. (Le variabili e espressioni booleane fanno parte della algebra di Boole che trova utilizzo in elettronica e informatica.)
+
+Esempio:
+
+Nel caso qui sopra l'espressione e data un test con il ">" ("se la variabile num ha un valore maggiore di 3 esegui il primo blocco di istruzioni altrimenti esegui il secondo"), invece in altri casi il test può essere generato da una function booleana (ovvero che restituisce valori booleani).
+
+Esempio:
+
+Se si desidera creare espressioni booleane complesse si può combinare più espressioni booleane semplici tra di loro usando gli operatori booleani.
+
+Operatori booleani
+Nelle espressioni booleane è possibile usare degli operatori booleani.
+
+Tutte le espressioni booleane restuituiscono valori booleani (true o false, 1 o 0, si o no, vero o falso) ma, in alcuni casi, possono avere in ingresso anche dati di altro tipo.
+Operatori che prendono in ingresso valori numerici o stringhe
+== (simbolo alternativo: "=") - Doppio uguale. Questo operatore permette di confrontare 2 dati (numeri o stringhe) e restituisce un valore booleano. Più precisamente restituisce true in caso di uguaglianza tra i 2 dati, altrimenti false.
+!= (simbolo alternativo: "<>") - Diverso. Questo operatore permette di confrontare 2 dati (numeri o stringhe). Più precisamente restituisce true in caso di disuguaglianza tra i 2 dati, altrimenti false.
+
+Operatori che prendono in ingresso valori numerici
+> - maggiore. Restituisce true in caso il valore a sinistra sia più alto di quello di destra.
+variabile_che_vuoi
+obj_giocatore
+spr_giocatore
+snd_tuono
+(Notare che il secondo e il terzo senza prefisso sarebbero indistinguibili, nella migliore delle ipotesi il tutto funzionerà lo stesso, ma il rischio che qualcosa non funzioni o che il codice a lungo andare diventi confusionario è alto)
+Seconda convenzione, usata anche nel gioco Spelunky di Derek Yu:
+variabile_che_vuoi
+oGiocatore
+sGiocatore
+soTuono
+
+NOTA
+
+I nomi di questi elementi:
+
+non possono contenere spazi vuoti
+non sono visti come delle stringhe, per questo motivo non vanno tra virgolette
+sono visti dal computer come contenenti degli id numerici (un po' come delle variabili numeriche di sola lettura).
+Esempi
+Variabili
+
+Condizioni
+
+While
+
+For
+
+Librerie
+Game Maker funziona principalmente con delle istruzioni "drag and drop", ovvero istruzioni già pronte che contengono dei valori che possono essere modificati a seconda del risultato che si vuole ottenere. Ciascuna istruzione viene chiamata azione, ed è rappresentata da un'icona, ed è di fatto uno script GML o una funzione che l'utente può usare nel gioco. Queste azioni sono raggruppate in librerie, rappresentate graficamente tramite tabelle, di cui ognuna raggruppa tutte le istruzioni che svolgono operazioni simili tra loro (ad esempio, movimento, disegno sullo schermo, ...). Game Maker contiene un set di librerie predefinite, che contengono la maggior parte delle funzioni usate nel gioco.
+Le librerie possono essere create con l'Extension Maker per le versioni di Game Maker inferiori alla 8.1. In Game Maker: Studio è possibile creare estensioni all'interno del programma stesso, ed in un futuro vicino saranno multi-piattaforma.

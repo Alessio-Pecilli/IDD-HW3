@@ -1,0 +1,5 @@
+Swoogle è un motore di ricerca per documenti sul web semantico, termini e dati contenuti sul web. Swoogle utilizza un sistema composto da svariati crawler per localizzare documenti in Resource Description Framework, e documenti in HTML che contengono parti in RDF. Swoogle "ragiona" su questi documenti e sulle loro parti costituenti, registrando ed indicizzando all'interno del suo database i metadata rilevanti per la ricerca.
+
+Swoogle è utilizzabile mediante un'interfaccia web, ed è accessibile dagli agenti software attraverso servizi forniti in rete. I risultati della ricerca sono ordinati mediante varie tecniche ispirate dall'algoritmo per il PageRank sviluppato da Google, ma adattato alla semantica ed alle strutture d'uso adatte ai documenti web semantici.
+
+Swoogle è stato sviluppato dall'Università del Maryland a Baltimora (UMBC), grazie a finanziamenti dal DARPA e dalla National Sciencen Foundation

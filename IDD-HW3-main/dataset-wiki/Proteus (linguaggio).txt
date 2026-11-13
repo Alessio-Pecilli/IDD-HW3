@@ -1,0 +1,102 @@
+Proteus (PROcessor for TExt Easy to USe - processore di testo facile da usare) è un linguaggio di programmazione procedurale totalmente funzionale creato nel 1998 da Simone Zanella. Proteus incorpora un vasto insieme di funzioni derivate da svariati linguaggi,tra cui C, BASIC, Assembly, Clipper/dBase ed è particolarmente evoluto nella gestione delle stringhe, risultando uno tra i linguaggi più ricchi per la manipolazione del testo. Il linguaggio deve il suo nome ad un dio del mare della mitologia greca (Proteo), celebre per la sua capacità di fornire responsi ed assumere molte forme diverse; uno dei principali campi di applicazione di Proteus è, appunto, la trasformazione e l'elaborazione di dati.
+
+Introduzione
+Proteus fu creato inizialmente come ausilio ai sistemisti, per manipolare testo e file e per realizzare
+script CGI. Dalla iniziale disponibilità multipiattaforma (DOS, Windows, Unix), il linguaggio si è evoluto nel tempo focalizzandosi sull'ambiente Windows, per il quale sono state aggiunte centinaia di funzioni
+specializzate che lo rendono un linguaggio a carattere più generale, comprendendo l'interrogazione di banche dati, i processi di comunicazione via rete e via seriale, la realizzazione di servizi e applicativi a console, l'emulazione di tastiera, l'utilizzo come linguaggio ISAPI (per ISS).
+
+Proteus è stato pensato per essere pratico (facile da usare, efficiente, completo) oltre che consistente e leggibile. I suoi maggiori pregi sono l'immediata comprensibilità dei programmi realizzati, la potenza delle funzioni di trattamento testo e la disponibilità di tutti i principali tipi di strutture dati: vettori, code (semplici e doppie), pile, mappe di bit, insiemi, alberi AVL. Il linguaggio può essere facilmente esteso dall'utente, sia ad alto livello (nuove funzioni scritte in Proteus) che a basso livello (DLL realizzate in C/C++).
+
+Caratteristiche del linguaggio
+Proteus può apparire a prima vista simile al Basic per via di una sintassi molto comprensibile; le somiglianze si limitano tuttavia alla superficie. Proteus è un linguaggio procedurale totalmente funzionale non tipato, con variabili, espressioni, assegnamenti, blocchi delimitati da strutture di controllo, funzioni.
+
+I tipi di dati supportati da Proteus sono solo tre: numeri interi, numeri in virgola mobile e stringhe.
+L'accesso alle strutture dati avanzate (file, vettori, code, pile, alberi AVL, insiemi, ecc.) avviene attraverso handle, ovvero numeri interi restituiti dalle funzioni di creazione degli oggetti. Questo permette di evitare la dichiarazione delle variabili, il cui tipo è determinato dal linguaggio in base alla funzione applicata - Proteus converte automaticamente ogni variabile quando richiesto, mantenendo inoltre le ultime interpretazioni per evitare rallentamenti derivati da conversioni ripetute.
+La natura completamente funzionale del linguaggio permette di evitare del tutto l'uso di parentesi superflue nelle espressioni di calcolo, dal momento che l'ordine di esecuzione è implicitamente determinato.
+Come le shell Unix, Proteus è dotato di molte funzioni di serie per i compiti più comuni come l'ordinamento e l'accesso al sistema operativo, ma integra anche centinaia di funzioni per manipolare stringhe e date, gestire l'interazione con l'utente (funzioni console) ed eseguire operazioni logiche e matematiche.
+
+Proteus ha i vettori associativi (denominati insiemi) come Perl, ai quali affianca gli alberi AVL, uno
+strumento particolarmente utile e potente per eseguire ricerche veloci ed ordinamenti.
+Nel linguaggio sono supportate le espressioni regolari estese (tipo sed) e quelle semplici (mutuate dal Dos, con i soli due caratteri wildcard "?" e "*"), mediante le quali è possibile effettuare con grande semplicità la parsificazione ed il trattamento del testo e dei dati.
+
+Alcune caratteristiche di Proteus, tra cui la sintassi, permettono una sintesi raramente possibile con altri linguaggi; i sorgenti possono dunque essere molto densi di significato, pur restando fondamentalmente comprensibili grazie all'approccio funzionale ed all'uso di parole chiave di media lunghezza.
+
+L'utente, oltre a nuove funzioni scritte in Proteus, può integrare codice in C/C++ realizzando delle DLL sul modello degli esempi forniti; le nuove funzioni sono invocabili esattamente allo stesso modo di una funzione predefinita, passando parametri per valore e/o per riferimento.
+
+Proteus è un linguaggio interpretato, ossia i programmi sono caricati in memoria ed interpretati al momento
+dell'esecuzione; tuttavia, essendo particolarmente esteso il nucleo di funzioni predefinite la velocità di
+esecuzione risulta paragonabile in molti casi a quella dei linguaggi compilati.
+
+Una delle caratteristiche più interessanti di Proteus è la disponibilità dell'interprete,
+oltre che come eseguibile tradizionale, anche come servizio e come linguaggio ISAPI.
+
+La versione servizio di Proteus consente di installare uno script da eseguire automaticamente all'avvio
+del sistema operativo, in modalità non presidiata; il vantaggio consiste nell'evitare del tutto la necessità
+di effettuare l'accesso da parte di un operatore per avviare una procedura - ciò si rivela particolarmente
+utile in applicazioni industriali (raccolta dati, monitoraggio dispositivi) oppure se non si vuole lasciare
+la possibilità all'operatore di fermare o disabilitare un processo possibilmente critico, oppure ancora per
+evitare che l'operatore chiuda inavvertitamente un'applicazione necessaria (ad esempio se Proteus viene
+utilizzato per realizzare l'emulazione di tastiera per i dati in ingresso da un dispositivo).
+
+La versione ISAPI di Proteus può essere utilizzata per creare script eseguiti attraverso Internet Information Services ed è dotata di funzioni specifiche per interagire con il web server.
+
+Per la protezione della proprietà intellettuale Proteus rende disponibili:
+la cifratura dei programmi;
+la possibilità di firmare i programmi con la propria chiave (garantita univoca);
+l'opzione di permettere o inibire il funzionamento dei propri programmi (oppure di loro parti) vincolandoli al codice della chiave di uno o più clienti.
+
+Proteus è apprezzato per la facilità di scrivere programmi semplici, potenti e comprensibili; il vasto nucleo di funzioni predefinite ed i numerosi esempi forniti con il sistema di sviluppo permettono di essere rapidamente produttivi.
+L'ambiente di sviluppo include un editor con evidenziazione sintattica ed una guida in HTML con aiuto sensibile al contesto.
+
+Gli sviluppatori Proteus esperti non hanno comunque bisogno di altri strumenti a parte un editor qualsiasi (tipo Notepad), potendo portare con sé il sistema di sviluppo su un floppy disk.
+Infatti, l'interprete Proteus non necessita (su una normale piattaforma Windows recente) di altre DLL o file di supporto al di fuori di sé stesso e le sue dimensioni sono inferiori a 400 Kb.
+
+Conclusioni e licenze
+
+Riassumendo, le caratteristiche salienti di questo linguaggio sono:
+linguaggio interpretato completamente funzionale;
+supporto multi-lingua: Proteus è disponibile in diverse lingue;
+assenza di tipizzazione: tutte le variabili possono essere impiegate come numeri interi, numeri in virgola mobile o stringhe; le variabili sono interpretate sulla base delle funzioni ad esse applicate e vengono mantenute le interpretazioni già richieste per diminuire, in caso di richieste multiple, il tempo che andrebbe altrimenti perso nella ripetuta conversione da un tipo ad un altro;
+nessuna struttura pre-allocata: tutti i dati su cui Proteus opera sono allocati dinamicamente durante l'esecuzione; nessuna limitazione è imposta su: ricorsione, massima dimensione dati, numero di variabili, ecc.;
+assenza di operatori: Proteus è un linguaggio completamente funzionale - non esistono operatori; ciò elimina ogni ambiguità circa l'ordine di valutazione delle espressioni ed evita l'utilizzo delle parentesi;
+estesa libreria di funzioni predefinite: Proteus non è un toy-language, viene fornito con centinaia di funzioni già pronte per elaborare stringhe, date, numeri, eseguire ordinamenti e ricerche e molto altro;
+supporto per accesso ai dati avanzato (DAO), pipe, socket di Windows,, porte seriali: nella versione Windows, di Proteus è possibile accedere a centinaia di funzioni specifiche per questo sistema operativo;
+sintassi omogenea e comprensibile: i nomi delle funzioni di libreria sono state prese in buona parte dai linguaggi C, Clipper,/Flagship, e Assembly; l'utilizzo di keywords di media lunghezza rende immediatamente comprensibili i programmi Proteus;
+supporto nativo per strutture dati evolute: vettori, code (semplici e doppie), pile, mappe di bit, insiemi, alberi AVL sono già disponibili nativamente nel linguaggio e non richiedono codice aggiuntivo per essere utilizzati;
+versione installabile come servizio di Windows, e DLL ISAPI: Proteus è disponibile come servizio di Windows, oppure DLL ISAPI per l'utilizzo con Microsoft Internet Information Server,;
+possibilità di creare proprie librerie di funzioni: è possibile definire funzioni utente (UDF) in file separati ed includere il codice (anche ricorsivamente e condizionalmente) all'interno di nuovi programmi; le UDF possono essere utilizzate prima o dopo essere state definite; è possibile anche scrivere funzioni esterne in Visual C++ ed invocarle nel proprio programma;
+supporto nativo per file di testo Ms-Dos,/Windows,, Macintosh, e Unix,;
+supporto per tre modelli di date (inglese, americana, giapponese), con controllo di consistenza e una completa libreria di funzioni predefinite per manipolare le date secondo il calendario gregoriano;
+impostazione dell'epoca per interpretazione automatica di date con anno di due sole cifre;
+supporto per ore nel formato 12/24h;
+supporto per espressioni regolari semplici (Dos-like) ed estese (Unix,-like);
+gestione della proprietà intellettuale attraverso firma elettronica e crittografia;
+completa libreria di funzioni console, per la realizzazione di applicativi con interfaccia a carattere.
+
+Proteus è disponibile in due licenze, una dimostrativa (che limita la durata dell'esecuzione dei programmi a tre minuti) ed una a pagamento, protetta da chiave hardware. Attualmente, viene distribuito solo per i sistemi operativi Windows dalla società SZP.
+
+Programmi di esempio
+
+Hello World
+Il seguente esempio stampa il testo "Hello world!".
+
+CONSOLELN "Hello World!"
+
+Estrazione di due campi
+L'esempio seguente legge lo standard input in formato CSV (separatore ";") e ne stampa i due campi iniziali
+separati da "|":
+
+CONSOLELN TOKEN(L, 1, ";") "|" TOKEN(L, 2, ";")
+
+Per comprendere l'esempio, è necessario tenere presente alcune premesse.
+
+I programmi Proteus assumono (se non diversamente specificato) di elaborare un file in ingresso e di restituire un file in uscita; per ogni riga letta, l'identificatore predefinito L diviene il suo contenuto. La funzione TOKEN restituisce l'elemento richiesto di una stringa, in cui il terzo parametro rappresenta il delimitatore. La concatenazione di stringhe si ottiene semplicemente accostandole
+(operatore implicito).
+
+Lo stesso programma può essere riscritto nella seguente forma:
+
+H = TOKNEW(L, ";")
+CONSOLELN TOKGET(H, 1) "|" TOKGET(H, 2)
+TOKFREE(H)
+
+In questo secondo caso notiamo l'utilizzo di una seconda funzione di tokenizzazione, che permette di pre-calcolare le singole parti costituenti la linea, ottenendo maggiore efficienza se è necessario accedere a più elementi.

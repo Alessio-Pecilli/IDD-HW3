@@ -1,0 +1,7 @@
+Sigle
+Tele Gestione Utenza – In origine, negli anni 80, rappresentava l'acronimo riferito al vecchio sistema di gestione utenze di Telecom Italia, già SIP. Rappresenta l'identificativo di una risorsa (originariamente una coppia in rame) di Telecom Italia o un OLO: nel caso di una linea fonia RTG/ISDN, coincide con il numero di telefono normalizzato a 12 cifre (cioè con tanti zeri davanti a quanti necessari). Nel caso di linee solo dati, denominate anche linee tecniche, numero impianto o naked, sono costituiti sempre da prima cifra 1 + un prefisso geografico + numero che però inizia per 129, 138, 137 o 147. Una TGU viene assegnata ad esempio quando Telecom Italia o un altro operatore (OLO) attiva una nuova coppia ADSL associata ad un circuito ISDN (non potendo utilizzare quella del circuito stesso).
+TGU – acronimo di Transglobal Underground
+
+Codici
+TGU – codice aeroportuale IATA dell'Aeroporto Internazionale Toncontín di Tegucigalpa (Honduras)
+tgu – codice ISO 639-3 della lingua taggu

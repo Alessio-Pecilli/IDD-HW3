@@ -1,0 +1,20 @@
+YaCy è un motore di ricerca distribuito, basato sul principio del peer-to-peer. Questo programma, sviluppato in Java, è software libero essendo pubblicato con una licenza GPL 2. Una volta installato il programma il proprio computer diventa un peer YaCy e viene lanciato un programma di indicizzazione. I risultati sono condivisi in una banca dati distribuita (indice).
+
+Una rete YaCy è caratterizzata da un'architettura decentralizzata, secondo la quale tutti i nodi sono equivalenti e non esiste alcun server principale. È possibile configurare il programma affinché funzioni come crawler o come proxy.
+
+L'accesso alle funzioni di ricerca avviene attraverso un server web locale che fornisce una casella di ricerca per inserire i termini da cercare e restituisce i risultati in un formato analogo a quello dei motori di ricerca tradizionali.
+
+Caratteristiche
+
+Data l'architettura distribuita del sistema Yacy ed il fatto che è un progetto pubblicato con una licenza libera il sistema YaCy ha delle caratteristiche che lo differenziano da un motore di ricerca monolitico.
+
+Vantaggi
+Data la mancanza di un server centrale, i risultati non possono essere censurati (come avvenuto in passato nel caso di Google in China o come avviene tuttora nel caso del motore di ricerca cinese Baidu)
+Dato che il motore di ricerca non è posseduto da un'azienda, non esiste un sistema centralizzato di pubblicità.
+YaCy può essere utilizzato per indicizzare il web invisibile, inclusi i network come Tor, I2P o Freenet
+Non esistendo un server centrale ed essendo il codice aperto si può raggiungere un alto livello di privacy.
+Il protocollo YaCy usa delle richieste HTTP, che preservano la trasparenza e la scopribilità delle pagine, mentre aiutano la diagnosi e l'investigazione.
+
+Svantaggi
+Dato che il network YaCy è aperto a tutti, peer malevoli possono teoricamente inserire risultati inaccurati, errati o commercialmente di parte.
+L'uso delle richiesta HTTP, può essere più lento dei protocolli non testuali (solo binari, come TCP e UDP), se non compressa, tuttavia la performance può essere aumentata attraverso l'uso di tool di compressione dei dati come gzip.

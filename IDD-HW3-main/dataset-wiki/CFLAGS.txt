@@ -1,0 +1,110 @@
+CFLAGS e CXXFLAGS sono i nomi di variabili definite nei makefile o come variabili d'ambiente e destinate a contenere i parametri (flags) che regolano il comportamento di un compilatore C o C++ nel processo di produzione di un programma software. Tali parametri servono ad adattare il programma alle esigenze specifiche di un determinato sistema, oppure a ottimizzarlo per renderne più efficiente il funzionamento. Similmente, è possibile impostare la variabile CPPFLAGS contenente i parametri per il preprocessore.
+Per l'ottimizzazione
+
+Nel caso in cui tali variabili vengano utilizzate per definire impostazioni di ottimizzazione, il loro obiettivo è rendere più efficienti i programmi prodotti.
+Nel seguito presentiamo alcune impostazioni valide per il compilatore gcc, default sui sistemi Linux.
+
+Quando si tratta di una variabile d'ambiente, essa viene utilizzata di default per generare tutti i programmi. Pertanto non è consigliato mettere impostazioni sperimentali in questa variabile; le ottimizzazioni troppo spinte possono causare comportamenti inaspettati dei programmi risultanti (crash, o peggio ancora, malfunzionamento). Nel caso invece di una variabile definita nel makefile, è possibile invece adattare il suo contenuto alle esigenze specifiche del software a cui il makefile stesso si riferisce.
+
+Le possibili opzioni di ottimizzazione sono molto numerose, non vengono elencate tutte. Data la complessità dei linguaggi moderni, non è possibile prevedere gli effetti di tutte le possibili combinazioni di algoritmi, funzioni di sistema, ottimizzazioni e casi d'uso (dati in ingresso, loro temporizzazione, ...). La documentazione completa comunque si può trovare sul Manuale Online GNU. Sui sistemi Linux, dove è installata la documentazione in formato Texinfo e il relativo lettore, è disponibile la pagina di documentazione su gcc (info gcc).
+
+Il parametro march
+
+L'opzione -march specifica quale assembler deve essere utilizzato durante la compilazione a seconda dell'architettura su cui si intende eseguire il programma. È possibile specificarne solo una. Ad esempio:
+
+per Athlon-Xp: -march=athlon-xp
+per AMD64: -march=k8
+per Athlon: -march=athlon
+per EM64T: -march=nocona
+per Pentium 4: -march=pentium4
+
+Per altre opzioni -march leggere GNU page.
+
+Il parametro O
+
+Una seconda impostazione è il parametro -O (o maiuscola, non zero), che specifica la classe di ottimizzazione di gcc. Possibili classi sono s (per ottimizzazioni di formato), O (per nessuna ottimizzazione), 1, 2 o 3 per più ottimizzazioni di velocità (ogni classe ha le stesse flag di quella precedente, più alcuni extra).
+Le ottimizzazioni maggiori di 3 sono consentite ma sconsigliate perché potrebbero compromettere la stabilità del programma.
+
+-O0
+
+-O0 indica al compilatore di non effettuare alcuna ottimizzazione (opzione predefinita).
+
+-O1
+
+Con -O1 sono attivate le seguenti opzioni di compilazione:
+
+-fdefer-pop
+-fmerge-constants
+-fthread-jumps
+-floop-optimize
+-fif-conversion
+-fif-conversion2
+-fdelayed-branch
+-fguess-branch-probability
+-fcprop-registers
+
+-O2
+
+Indicando -O2 vengono abilitate queste altre opzioni di compilazione (oltre a quelle di -O1):
+
+-fforce-mem
+-foptimize-sibling-calls
+-fstrength-reduce
+-fcse-follow-jumps
+-fcse-skip-blocks
+-frerun-cse-after-loop
+-frerun-loop-opt
+-fgcse
+-fgcse-lm
+-fgcse-sm
+-fgcse-las
+-fdelete-null-pointer-checks
+-fexpensive-optimizations
+-fregmove
+-fschedule-insns
+-fschedule-insns2
+-fsched-interblock
+-fsched-spec
+-fcaller-saves
+-fpeephole2
+-freorder-blocks
+-freorder-functions
+-fstrict-aliasing
+-funit-at-a-time
+-falign-functions
+-falign-jumps
+-falign-loops
+-falign-labels
+-fcrossjumping
+
+-O3
+
+Specificare -O3 comporta l'attivazione di queste ulteriori ottimizzazioni (oltre a quelle di -O1 e -O2):
+
+-finline-functions
+-fweb
+-frename-registers
+
+Secondo alcuni utenti, -O3 può produrre codice più lento. In particolare, -fweb e -frename-registers sono controproducenti su architetture x86.
+
+-Os
+
+L'attivazione di -Os ottimizza il codice per ridurre le dimensioni finali dell'eseguibile e comprende le seguenti opzioni:
+
+-falign-functions
+-falign-jumps
+-falign-loops
+-falign-labels
+-freorder-blocks
+-fprefetch-loop-arrays
+
+Altre opzioni
+
+Un'altra opzione di ottimizzazione molto usata è -pipe, che comporta l'utilizzo di pipe al posto di file temporanei, per la comunicazione tra i vari processi di compilazione.
+Rende più veloce la compilazione, usando la memoria RAM al posto dell'Hard disk, richiedendo una quantità maggiore di memoria libera.
+
+Ad esempio l'utilizzo di -fomit-frame-pointer, che esclude l'inizializzazione del puntatore al frame per le funzioni che possono farne a meno; può avere serie ripercussioni nel caso sia necessario effettuare il debug dell'applicazione.
+
+Quando si definiscono CFLAGS e CXXFLAGS per generare codice sensibilmente ottimizzato, si attivano solitamente numerose opzioni di ottimizzazione, come nel seguente esempio:
+
+-march=athlon-xp -m3dnow -msse -mfpmath=sse -mmmx -O3 -pipe -fforce-addr -fomit-frame-pointer -funroll-loops -frerun-cse-after-loop -frerun-loop-opt -falign-functions=4 -maccumulate-outgoing-args -ffast-math -fprefetch-loop-arrays

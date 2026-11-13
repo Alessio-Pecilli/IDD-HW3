@@ -1,0 +1,22 @@
+In geometria solida il triacontaedro rombico è uno dei tredici poliedri di Catalan, duale dell'icosidodecaedro.
+
+Le sue 30 facce sono rombi aventi il rapporto tra la diagonale maggiore e la diagonale minore pari alla sezione aurea, .
+
+Area e volume
+L'area A ed il volume V di un triacontaedro rombico i cui spigoli hanno lunghezza a sono le seguenti:
+
+Dualità
+Il poliedro duale del triacontaedro rombico è l'icosidodecaedro, un poliedro archimedeo.
+Simmetrie
+Il gruppo delle simmetrie del triacontaedro rombico ha 120 elementi; il gruppo delle simmetrie che preservano l'orientamento è il gruppo icosaedrale . Sono gli stessi gruppi di simmetria dell'icosaedro, del dodecaedro e dell'icosidodecaedro.
+
+Altri solidi
+I 20 vertici di valenza 3 e le 30 diagonali corte delle facce del triacontaedro rombico sono vertici e spigoli di un dodecaedro.
+
+I 12 vertici di valenza 5 e le 30 diagonali lunghe delle facce del triacontaedro rombico sono vertici e spigoli di un icosaedro.
+
+Il triacontaedro rombico è duale dell'icosidodecaedro. Questo possiede un poliedro isomero, un solido di Johnson denominato ortobirotunda pentagonale. Il poliedro duale di quest'ultimo ha 30 facce come il triacontaedro rombico, ma di queste solo 20 sono rombi: le altre 10 sono trapezi isosceli.
+
+Curiosità
+
+Il triacontaedro rombico è il solido che viene utilizzato per realizzare dadi a 30 facce, che vengono usati come d30 in certi giochi di ruolo e da alcuni professori nelle interrogazioni.

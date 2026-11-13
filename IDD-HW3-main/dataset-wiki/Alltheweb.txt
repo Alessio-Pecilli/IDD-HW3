@@ -1,0 +1,11 @@
+Alltheweb (scritto anche AlltheWeb) è stato un motore di ricerca nato nel 1999 ed attivo tra diverse vicissitudini fino al marzo 2011.
+
+Storia
+Il codice di Alltheweb nasce nel 1994 come tesi di dottorato per un motore di ricerca FTP presentata da Tor Egge presso la Università norvegese di scienza e tecnologia. Attorno a quel progetto iniziale il 16 luglio 1997 nasce la società Fast Search and Transfer che sviluppò un motore di ricerca aziendale denominato FAST di cui nel 1999 Alltheweb diventa una trasposizione sul web.
+
+Negli anni 2000 le tecnologie di ricerca di Alltheweb furono acquistate da Overture Services a sua volta successivamente acquisita da Yahoo!. Con lo sviluppo del crawler Yahoo! Slurp, Alltheweb ha condiviso lo stesso database dei risultati con AltaVista e Yahoo! Search.
+
+Yahoo! ha chiuso definitivamente Alltheweb nel marzo del 2011.
+
+Caratteristiche
+Nelle sue varie fasi di sviluppo Alltheweb ha affiancato la ricerca Web con moduli specifici per la ricerca di immagini, notizie, video e audio. Nel 2003 il suo database conteneva 3,3 miliardi di URI.

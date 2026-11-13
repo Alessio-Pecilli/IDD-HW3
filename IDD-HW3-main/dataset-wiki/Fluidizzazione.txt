@@ -1,0 +1,17 @@
+La fluidizzazione è un'operazione unitaria mediante la quale un letto solido granulare acquista delle proprietà tipiche dei fluidi, ottenuta grazie al passaggio di un fluido (liquido o gas) attraverso il solido granulare ad opportuna velocità. Un letto granulare sottoposto a fluidizzazione prende il nome di letto fluidizzato.
+
+Interpretazione del fenomeno
+
+Quando un flusso di gas o liquido passa attraverso il letto solido, va a riempire lo spazio interparticellare.
+Per velocità del flusso basse non si ha movimento del letto solido, in quanto la "forza di resistenza aerodinamica" che il fluido esercita su ciascuna particella è minore della forza peso di ciascuna particella.
+A velocità del flusso gassoso o liquido più elevate si raggiunge una condizione in cui la forza aerodinamica di resistenza è in grado di contrastare le forze gravitazionali, e per una velocità poco superiore il solido granulare inizia ad espandersi, e la superficie superiore del letto assume un profilo mobile, analogo alla superficie del pelo libero di un liquido. In queste condizioni si parla di letto fluidizzato, al quale corrispondono valori tipici del grado di vuoto attorno a 0,4÷0,45 (nel caso di particelle sferiche).
+
+La condizione di letto fluidizzato continua a realizzarsi aumentando ulteriormente la velocità, fino a quando la velocità del fluido è così elevata da trascinare con sé le particelle solide, e si ha trasporto pneumatico.
+Prima di giungere alla condizione di trasporto pneumatico, il sistema fluido-solido attraversa una serie di diversi regimi di fluidizzazione, che possono variare a seconda del sistema considerato, passando per i quali si ha un progressivo aumento del grado di vuoto del sistema.
+
+Applicazioni
+
+Il primo impiego su scala industriale del letto fluidizzato si ebbe nel 1940 con il cracking catalitico a letto fluido (o FCC), che converte i tagli più pesanti del petrolio in benzina.
+Al 1970 risale la realizzazione di un processo a letto fluido per la produzione di polietilene, e un processo simile è utilizzato per la sintesi del polipropilene. In entrambi i casi il letto fluido garantisce che la temperatura sia mantenuta il più uniforme possibile all'interno del reattore, per cui lo smaltimento del calore di reazione risulta agevolato.
+
+Il letto fluidizzato viene anche utilizzato nella realizzazione di nanotubi in carbonio.

@@ -1,0 +1,34 @@
+Il nome Lingo è stato utilizzato da diversi linguaggi di programmazione non correlati ad Adobe Director (Macromedia Director).
+
+Quello più conosciuto è un linguaggio di scripting sviluppato da John H. Thompson, utilizzato per applicazioni desktop, CD-ROMs e per applicazioni internet che utilizzano Adobe Shockwave.
+
+Sintassi
+Lingo fu creato con una sintassi che mima il linguaggio parlato, così da poter essere più facile per i principianti. È possibile scrivere un comando in questo modo:
+
+if sprite 5 is visible then go to the frame
+
+Va detto che nel "go to" il "to" è opzionale, inoltre a differenza di altri linguaggi di programmazione, il comando "go" fa riferimento ai frames nella linea temporale di Director e non al numero di una linea di codice.
+
+Anche se è ancora possibile utilizzare questo tipo di sintassi, le ultime versioni di Director supportano la sintassi con il punto, così da essere un linguaggio di programmazione più simile agli standard utilizzati come per JavaScript o C++.
+
+Con la nuova sintassi è possibile scrivere lo stesso codice in questo modo:
+
+if sprite(5).visible then _movie.go(_movie.frame)
+
+Questo formato utilizza elementi del Modello a oggetti del Documento, introdotto con la versione Director MX 2004. La stessa sintassi nelle versioni precedenti sarebbe stata:
+
+if sprite(5).visible then go the frame
+
+Utilizzo
+Lingo è incorporato in Adobe Director. Lingo è un linguaggio di programmazione ad oggetti (OOP).
+
+Ci sono 3 tipi di scripts in Lingo:
+behavior
+movie
+parent
+
+Xtras
+Gli Xtra sono dei plugin che è possibile utilizzare per aggiungere nuove funzionalità.
+
+Funzionalità 3D
+In Director 8.5, è stato incluso per la prima volta un engine 3D. In Director 11 è stato introdotto un nuovo Xtra per poter utilizzare l'engine fisico Ageia.

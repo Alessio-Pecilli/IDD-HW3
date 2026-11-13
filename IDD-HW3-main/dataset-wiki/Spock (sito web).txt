@@ -1,0 +1,6 @@
+Spock è un motore di ricerca che indicizza le persone. Il nome Spock è un acronimo per "single point of contact (by) keyword." Fondato nel 2006 da Jay Bhatti e Jaideep Singh, ha "indicizzato oltre 100 milioni di persone per oltre 1,5 miliardi di documenti." Questi dati sono ricavati da fonti disponibili pubblicamente, tra cui LinkedIn, XING, Myspace, Friendster, ecc. La compagnia afferma che "il 30% di tutte le ricerche effettuate su Internet sono relative a persone" Poiché la risoluzione dei nomi è, dal punto di vista algoritmico, il principale ostacolo per un motore di ricerca di questo tipo, Spock ha indetto lo Spock Challenge.
+
+Spock ha reso pubblica la versione beta l'8 agosto 2007.
+
+Finanziamenti
+Nel dicembre 2006, Spock ha ricevuto un finanziamento di 7 milioni di dollari da Clearstone Venture Partners e Opus Capital.

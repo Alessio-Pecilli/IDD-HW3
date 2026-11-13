@@ -1,0 +1,81 @@
+Live Search (formalmente Windows Live Search e in precedenza MSN Search) era il nome di un motore di ricerca per il web, sviluppato da Microsoft per battere la concorrenza di altri avversari come Google e Yahoo!, sostituito poi nel giugno 2009 da Bing.
+
+Storia
+MSN Search
+MSN Search era un servizio di Microsoft che comprendeva un motore di ricerca, un indice e un crawler. Il 12 settembre del 2006, MSN Search venne sostituito da Live Search. Quest'ultimo permette agli utenti di fare ricerche, secondo dei specifici criteri di informazioni, utilizzando la barra di ricerca che include Web, notizie, immagini, musica, desktop, local, e Microsoft Encarta. MSN Search mira a rendere i suoi 2,5 miliardi di richieste da tutto il mondo "più utili nel fornire ai consumatori un migliore accesso alle informazioni e più precise risposte alle loro domande." Il menu di configurazione è disponibile per cambiare il motore di ricerca predifinto su Internet Explorer, ma la selezione è talvolta critica in quanto è limitata, e l'URL personalizzato non possono essere inseriti se non installati come add-on.
+
+MSN Search venne lanciato per la prima volta nell'autunno del 1998 usufruendo dei risultati di ricerca di Inktomi. Verso gli inizi del 1999, MSN Search distribuì una versione che mostrava i risultati procurati da Looksmart con quelli di Inktomi, eccetto in un breve periodo del 1999, quando i risultati venivano forniti da AltaVista. Da quando la Microsoft aggiornò MSN Search per fornire dei risultati forniti dalla Microsoft, l'indice di quali veniva aggiornato settimanalmente o quotidianamente. L'aggiornamento venne inizialmente distribuito come programma in fase di sviluppo nel novembre del 2004 (basato su un lavoro di diversi anni di ricerca), e arrivò alla versione definitiva nel febbraio del 2005. La ricerca delle immagini è finanziata per 1/3 da Picsearch. Il servizio ha iniziato anche a fornire i suoi risultati del motore di ricerca ad altri portali, nel tentativo di avere un'ottima competenza sul mercato.
+
+Live Search
+La prima versione beta pubblica di Live Search è stata distribuita l'8 marzo 2006, e la versione finale l'11 settembre 2006, sostituendo MSN Search.
+
+Il 21 marzo 2007, è stato annunciato che la Microsoft intendeva separare la famiglia di servizi di Live Search da quella di Windows Live. Live Search è stato integrato all'interno di Live Search and Ad Platform diretto da Satya Nadella, parte di Microsoft Platform and Systems division. Come parte di quest cambiamento, Live Search è stato integrato con Microsoft adCenter.
+
+Nel passaggio da MSN Search a Live Search, la Microsoft interruppe l'utilizzo di Picsearch come provider di ricerca per le immagini e iniziò ad eseguire le ricerche delle immagini alimentato dagli algoritmi di ricerca del provider personale.
+
+Prodotti di ricerca
+Oltre alla ricerca di pagine web, Live Search offriva anche i seguenti servizi di ricerca:
+
+Servizi per i webmaster
+Live Search era anche aperto ai webmaster che volevano gestire lo status di web crawling dei propri siti mediante il Live Search Webmaster Center. Inoltre, gli utenti potevano inserire contenuti su Live Search utilizzando uno dei seguenti metodi:
+Live Search Local Listing Center, per aggiungere informazioni su aziende a Live Search Maps e Live Search Local.
+Live Product Upload per aggiungere informazioni sui propri prodotti di e-commerce a Live Product Search.
+Live Search Books Publisher Program, che consentiva agli editori di aggiungere informazioni a Live Search Books.
+Soapbox on MSN Video, che consentiva agli utenti di uploadare video su Live Search Video.
+
+Altri servizi
+Live Search Mobile consentiva di visualizzare i risultati di ricerca su apparecchi mobili. Microsoft inoltre ha sviluppato altri strumenti di ricerca, quali Windows Desktop Search.
+Un altro servizio, ancora attivo, non direttamente collegato alle ricerche web, ma che offre servizi di ricerca, è ad esempio Windows Live Hotmail
+
+Risultati di ricerca
+Live Search non si limitava nel riferire pagine indicizzate ad una corrispettiva query di ricerca.
+Quando si inseriva una query di ricerca utilizzando più parole contemporaneamente, Live Search cercava di trovare tutti i risultati disponibili basandosi su tutte le parole chiave inserite. Tuttavia Live Search disponeva delle opzioni per una ricerca più avanzata tramite i link:
+
+Opzioni di ricerca avanzate
+
+Nelle ricerche su Live search era possibile utilizzare degli operatori per ottimizzare i risultati di ricerca.
+Live Search riconosce l'operatore tramite i seguenti simboli:
+
++ - Trova tutte le pagine contenenti parole precedute dal simbolo +, e permette l'inclusione di termini che di solito vendono ignorati.
+" - Trova le esatte parole citate.
+() : Trova o esclude pagine contenenti un gruppo di parole.
+AND or & : Trova le pagine che contengono tutte le parole o le frasi.
+NOT or -: Esclude le pagine che contengono parole o frasi.
+OR or | : Trova pagine che contengono sia parole che frasi
+
+Parole chiave di ricerca avanzate
+
+Una varietà di operatori per la ricerca avanzata possono essere utilizzati per eseguire ricerche più sofisticate. Queste sono:
+
+filetype: - limita i risultati di ricerca per una particolare estensione di file come .html, .txt, .pdf, .doc, .xls, e .ppt
+contains: - restituisce i link di pagine ad una specificata estensione di file.
+site: - limita i risultati ad uno specificato sito web.
+link: - trova siti web contenenti dei link ad uno specificato sito web o dominio.
+linkdomain: - trova i link all'interno della pagina del dominio specificato.
+linkfromdomain: - trova i siti collegati al dominio specificato
+url: - verifica sei domini o i siti web elencati è nell'indice di Live Search
+ip: - trova siti che sono targati da uno specifico IP.
+language: - trova pagine web di uno specifico idioma.
+loc: or location: - trova le pagine web di uno specifico stato nel mondo o di una regione
+inanchor: or inbody: or intitle: or inurl: - Trova pagine che hanno delle parole specifiche nei metadati
+prefer: - Aggiunge più attenzione nella ricerca di una parola o un altro operatore per favorire la focalizzazione di questi nei risultati di ricerca.
+feed: - Trova RSS o Atom feeds in un sito web riguardo alle parole che si stanno cercando.
+
+Sidebar gadgets
+Live Search Gadget era per la Sidebar di Windows Vista che utilizzava Live Search per recuperare tutti i risultati di ricerca salvati dell'utente e renderli direttamente nel gadget. Il gadget permette agli utenti di configurare fino due configurazioni di ricerca personalizzate. Gli utenti possono anche effettuare una ricerca utilizzando Live Search Macro; da questo gadget è possibile creare le proprie macro o trovarne alcune in Windows Live Gallery.
+
+Live Search Traffic Gadget visualizza in tempi reali le condizioni del traffico, usufruendo del servizio di Live Search Maps. Il gadget fornisce le indicazioni stradali, i collegamenti locali e la vista del traffico a schermo intero. Attualmente sono disponibili solo i dati del traffico di 23 città statunitensi, tra cui Atlanta, Boston, Chicago, Denver, Detroit, Houston, Los Angeles, Milwaukee, New York, Oklahoma City, Philadelphia, Phoenix, Pittsburgh, Portland, Providence, Sacramento, Salt Lake City, San Diego, San Francisco, Seattle, St. Louis, Tampa e Washington DC.
+
+Il 30 ottobre 2007, sia i gadget di Live Search sia Live Search Traffic vennero rimossi da Windows Live Gallery a causa di possibili problemi di sicurezza che avrebbero potuto discriminare la sicurezza. Tuttavia, dal 24 gennaio 2008, i gadget del traffico di Live Search Traffic sono disponibili per il download, in seguito ad una risoluzione dei problemi sfavorevoli alla sicurezza.
+
+Iniziative e promozioni
+Dal 1º maggio 2006, Live Search fornisce i risultati di ricerca per A9, un servizio di Amazon, e il sito di ricerca interattivo di Ms. Dewey.
+
+Il 17 gennaio 2007, la Microsoft che tutte le ricerche fatte da porterebbe a raccogliere fondi per l'UNHCR per i bambini rifugiati, ninemillion.org. L'importo che deve essere donato non è facilmente disponibile sul sito di Microsoft, ma Reuters AlertNet riporta che l'importo che deve essere donato è di 0,01 $ (0,0063 €) per ricerca, con un minimo di (, circa) e un massimo di (, equivalente a 25 milioni di ricerche).
+
+Nell'aprile del 2007, la Microsoft ha lanciato Live Search Club, dove gli utenti possono vincere premi per partecipare a gare di giochi di parola, generate dalle query di Live Search.
+
+Nel febbraio del 2008, Microsoft ha lanciato un servizio simile, chiamato "Big Snap Search".
+
+Chiusura
+Nel giugno 2009 la Microsoft ha deciso di chiudere Windows Live per dare vita ad un nuovo motore di ricerca Bing entrato in servizio. Bing si presenta come un motore più leggero, snello e pratico.

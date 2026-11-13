@@ -1,0 +1,12 @@
+Il Turbo Pascal (successivamente Borland Pascal, poiché prodotto dalla Borland), in informatica, è un compilatore di programmi scritti in linguaggio Pascal. Dotato di un IDE, inizialmente per gli ambienti CP/M e DOS, è stato prodotto tra il 1983 e il 1995.
+
+Storia
+Nato con il solo supporto Pascal, derivava dal compilatore Blue Label Pascal, originariamente scritto per il sistema operativo NasSys, basato sull'impiego di cassette, per il microcomputer Nascom nel 1981 da Anders Hejlsberg. La prima riscrittura fu denominata Compass Pascal, e consisteva in un compilatore per il sistema operativo CP/M e poi in seguito Turbo Pascal compiler per DOS e CP/M. Una versione di Turbo Pascal era disponibile per l'Apple Macintosh dal 1986 ma fu abbandonata intorno al 1992.
+
+Quando la prima versione di Turbo Pascal fu lanciata nel 1983, il tipo di IDE utilizzato era relativamente nuovo e fu molto ben accetto dall'utente: l'editor integrato aveva comandi molto simili al diffusissimo WordStar e il compilatore integrato (il nome "Turbo" alludeva alla sua velocità di compilazione) era di ottima qualità, soprattutto in confronto ai prodotti disponibili. Al suo debutto sul mercato americano, il prezzo di vendita del Turbo Pascal era di 49,99 dollari. Presto la Borland mise in commercio a prezzi contenuti anche librerie e accessori aggiuntivi, in seguito anche con codice sorgente incluso; le principali erano Editor (per la videoscrittura), Database (strutture dati) e Graphix (grafica), della serie Turbo Pascal Toolbox.
+
+In Italia è stato utilizzato in diverse scuole e università per insegnare i fondamenti di programmazione.
+
+La Borland nel corso del tempo ha migliorato non soltanto l'IDE, ma anche il linguaggio di programmazione. Si è evoluto in un compilatore più complesso in grado di compilare una versione ampliata dell'originale Pascal. Alcune delle migliorie più significative sono l'inserimento di nuovi tipi di dato, le unit (moduli che potevano essere compilati separatamente dal programma che li utilizzava) e la programmazione ad oggetti (a partire dalla versione 5.5). L'ultima versione di Turbo Pascal è stata chiamata Borland Pascal 7 e contiene un framework e libreria di oggetti Turbo Vision e compilatori per creare eseguibili in DOS, extended DOS e Windows 3.x.
+
+Nel 1995, Borland ha abbandonato il Turbo Pascal e lo ha sostituito con un ambiente di sviluppo RAD che va sotto il nome di Delphi e fa uso del linguaggio Object Pascal.

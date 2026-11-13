@@ -1,0 +1,320 @@
+Con il termine ottimizzazione per i motori di ricerca (, in acronimo SEO) si intende la scienza informatica e teoria dei grafi che comprende l'analisi degli aggiornamenti e delle fluttuazioni di traffico nei motori di ricerca e tutte quelle attività volte a migliorare la scansione, l'indicizzazione e il posizionamento di un'informazione o contenuto presente in un sito web, da parte dei crawler (detti anche bot) dei motori di ricerca (quali ad es. Google, Yahoo!, Bing, Yandex, Baidu ecc.) al fine di migliorare (o mantenere) il posizionamento nella pagina dei risultati del motore di ricerca (SERP) e fornire all'utente il più accurato risultato di ricerca possibile per uno specifico intento di ricerca.
+
+Dal 2017 in Italia, i professionisti SEO sono accreditati dall'albo ICT redatto della Presidenza dei Consigli dei Ministri e dall'AGID (Profili professionali relativi alla professionalità operanti nel web - UNI 11621-3).
+
+Descrizione generale
+Grazie alle tecniche di ottimizzazione SEO è possibile migliorare il posizionamento (ranking) di un sito web sui motori di ricerca e, conseguentemente, ottenere un aumento del volume di traffico organico. La SEO si concentra inoltre sulla realizzazione di contenuti multimodali che attraverso i vari algoritmi di ricerca, permettono ai motori di ricerca o di risposta di fornire all'utente il risultato più accurato ad una query o ad un prompt (in questo caso si fa riferimento a sistemi con snippet di ricerca ad AI integrata, come Overview AI di Google o SearchGPT di OpenAI).
+
+L'ottimizzazione SEO può essere affiancata o integrata dalla differenziazione nei motori di ricerca, operazione che punta a far aumentare il traffico diretto. I risultati organici più in alto (i più rilevanti e accurati) nella SERP hanno maggiori probabilità di venire visualizzati e quindi di essere eventualmente cliccati in una percentuale maggiore dagli utenti, rispetto a quelli visualizzati nella parte centrale e bassa della pagina.
+
+La maggior parte dei motori di ricerca si basa su una complessa architettura software e hardware, in cui attraverso la combinazione di diversi algoritmi di ricerca e sistemi di validazione (manuale e automatica), viene continuamente renderizzato un ranking di risultati e risposte. Le risposte in prima posizione, negli snippet di ricerca o in specifici blocchi (come Overview AI) sono i risultati più precisi.
+
+Le attività SEO sono molteplici e possono essere suddivise in on page (cioè sulla pagina web) ed off page (attività svolte su elementi esterni al sito) e si basano su una lunga lista di segnali di ranking, chiamati «Fattori SEO».
+
+Tra le attività di SEO si distinguono l'ottimizzazione:
+del server web
+delle meta tag
+dei dati strutturati
+di JavaScript e CSS
+di stringhe di codice e convalida W3C
+della struttura del sito e del menu di navigazione
+dei contenuti testuali e delle immagini presenti nelle pagine
+dei link interni al sito
+dell'usabilità del sito
+dell'accessibilità delle informazioni da parte dei crawler dei motori di ricerca
+del codice sorgente
+dei backlink (link provenienti da siti esterni)
+immagini e video
+
+L'attività di ottimizzazione per i motori di ricerca comprende varie operazioni tecniche che vengono effettuate sia sul codice HTML / CSS / Javascript che sui contenuti delle pagine web del sito, nonché sulla rete ipertestuale complessiva del dominio Web presente negli archivi dei motori di ricerca. La qualità e la quantità dei collegamenti ipertestuali di altri domini Web, che puntano ad un determinato dominio, sono infatti determinanti per il posizionamento del dominio considerato. Indispensabile è quindi anche l'attività esterna al sito, solitamente effettuata con tecniche di link building (diffuso è il guest posting).
+
+L'ottimizzazione per i motori di ricerca (SEO), insieme al Search Engine Advertising (SEA), fa parte di una branca dell'Internet marketing chiamata Search Engine Marketing (SEM). La SEO si differenzia dalla SEA in quanto il suo obiettivo è quello di posizionare le pagine di un sito nelle SERP organiche e non negli spazi allocati per risultati Pay per click (campagne pubblicitarie a pagamento). Inoltre, le attività SEO offrono risultati nel breve, medio e lungo periodo in base alla difficoltà di posizionamento derivante dal numero di competitor; mentre gli effetti del Pay per click sono istantanei. Generalmente, il posizionamento organico ha maggiore rilevanza scientifica e accademica rispetto ai risultati a pagamento (di natura commerciale): sono i rigorosi algoritmi e processi di validazione a decretare quale sia la risposta più corretta e accurata per una determinata query.
+
+La figura professionale specializzata nell'ottimizzazione per i motori di ricerca è il SEO specialist. Il SEO specialist lavora in stretto contatto con le altre figure legate al mondo del web marketing, come ad esempio sviluppatori, grafici, esperti di marketing nelle reti sociali, esperti di paid advertising, professionalità che difficilmente possono essere rivestite da una sola persona.
+
+L'ottimizzazione per Google
+Nei primi anni Duemila il motore di ricerca Google ha introdotto un elemento di novità nell'approccio al problema dell'indicizzazione del web, il PageRank, un algoritmo di valutazione della rilevanza di una pagina basato su concetti matematici. Oggi è considerato uno dei tanti parametri di cui tener conto (anche se non il più importante). Robert Metcalfe (inventore di Ethernet), ha definito tale algoritmo come "l'effetto della rete" (network effect): una rete è tanto più utile quanto più elevato è il numero dei suoi utenti. Google indicizza una pagina basandosi sui suoi contenuti e sui link che puntano ad essa. Non solo: utilizza anche 200 valori segreti (o almeno lo sono la maggior parte di essi), che interagiscono mediante l'algoritmo di Google per definire la qualità e vari altri fattori contenuti nei siti (e nei blog, oltre che nei servizi utili nel web). Nelle varie informazioni che è necessario conoscere per arrivare alle vette dell'ottimizzazione per Google è necessario che il proprio sito possa essere SEO friendly, ovvero facilitato per la lettura dei bot dei motori di ricerca. Ciò avviene prestando particolare cura a molti degli elementi che si trovano in ogni pagina di un sito web, e di ogni documento caricato sul web. Il concetto iniziale di PageRank di Google è stato con il tempo sostituito dal TrustRank, che è un indice più complesso, benché non esista ad oggi un modo per poterlo misurare in correlazione ad un sito web.
+
+Search Everywhere Optimization (SEO o SEvO): ottimizzazione della ricerca ovunque (SEO o SEvO)
+La Search Everywhere Optimization (SEO o SEvO) è una strategia SEO avanzata che supera i tradizionali motori di ricerca come Google, con l'obiettivo di migliorare la visibilità dei contenuti su diverse piattaforme digitali, tra cui i sistemi di intelligenza artificiale, i social media, i canali video e le tecnologie di ricerca vocale. Questo approccio si concentra sulla comprensione dell'intento di ricerca, sulla personalizzazione dei contenuti e sul rafforzamento dell'autorità del marchio su molteplici canali.
+
+L'emergere della Search Everywhere Optimization riflette l'evoluzione del panorama digitale, in cui piattaforme come YouTube, Amazon e gli assistenti vocali sono diventati punti di ricerca essenziali, rendendo necessaria una strategia SEO più integrata e articolata. Inoltre, l'ascesa dei contenuti generati dall'intelligenza artificiale ha sollevato interrogativi sull'autenticità e sull'affidabilità dei risultati di ricerca, evidenziando l'importanza di strategie SEO che pongano al centro voci umane autentiche e contenuti di alta qualità.
+
+Fattori di ottimizzazione
+Fattori a livello di pagina
+Per quanto riguarda le pagine, parte dell'ottimizzazione consiste nel fare in modo che:
+
+il codice delle pagine sia formalmente valido. Può essere utile confrontarsi con le specifiche WCAG per rendere i contenuti meglio "accessibili" anche per i crawler;
+i tag HTML (ad esempio: tag title, meta description, alt tag, headings) siano il più possibile attinenti ai contenuti della pagina (l'ideale è fare uso di chiavi di ricerca LSI, Latent Semantic Indexing); Nel 2009 Google, Bing e Yahoo hanno annunciato di non utilizzare più il meta tag "keyword" per il posizionamento dei siti web.i Tag HTML rendano le immagini posizionate e ricercabili dai crawler dei motori di ricerca. La ricerca per immagini è il secondo tipo di ricerca più effettuato su Google. Per fare in modo che ciò accada l'immagine dovrà avere una url che descrive il contenuto dell'immagine stessa (es: /images/mobile_rosso.jpg) e un Alt tag di descrizione (quello che appare come descrittivo dell'immagine). Altre informazioni possono essere introdotte in Title ed in Caption (una tabella che ha lo scopo di descrivere l'immagine e viene utilizzata dai principali cms). Le principali web app specifiche sulle immagini sono in grado di configurare questi campi utilizzando i relativi campi EXIF;
+i tempi di caricamento di una pagina siano buoni. Siccome i motori di ricerca danno molta importanza a questo aspetto, dev’essere una delle priorità di un buon SEO, il quale avrà cura di apportare una serie di modifiche al codice (riduzione linee di codice. css e. js in particolare), implementerà sistemi di caching e strutturerà una Content Delivery Network (CDN). Infine comprimerà le immagini, che non devono essere a risoluzione troppo alta e molto pesanti come nel caso della stampa. Se, per esigenze particolari, le immagini non possono essere compresse, almeno si dovrebbe permettere all'utente di aprire ogni immagine pesante in una pagina a parte che contiene solo quella, come ad esempio fanno molti siti web che distribuiscono wallpaper;
+i parametri non siano indicizzati, es. un'eventuale applicazione lato server tramite l'inserimento di un'interrogazione (query) nell'URL della pagina, ossia la presenza di coppie parametro=valore dopo un punto di domanda, dopo l'indirizzo della pagina (http://www.sito.it/percorso/pagina?parametro=valore). Alcuni motori di ricerca scaricheranno e indicizzeranno solo la pagina base, senza tener conto della query. Inoltre, se l'interrogazione contiene informazioni specifiche sulla sessione (per esempio Session ID, che cambiano per ogni visitatore) nemmeno Google ottiene un URL univoco per la pagina, e può trarne le più disparate conclusioni negative. Per questo tipo di informazioni è opportuno usare i cookie;
+i redirect non HTTP siano inviati attraverso tag perché non è detto che il motore di ricerca li segua. È anche diffusa l'idea che la loro presenza possa penalizzare il Link Analysis Ranking di una pagina. Attuare invece ogni redirezione con una risposta HTTP di reindirizzamento (codici 3xx); inoltre, ogni redirezione effettuata tramite tag è contraria ai paragrafi 7.4 e 7.5 delle WCAG 1.0;
+i contenuti presentati all'utente e ai crawler non siano differenziati (cloaking) tentando di riconoscerne la stringa di user agent o l'IP del bot che scansiona le nostre pagine. È una pratica potenzialmente dannosa che espone (in casi estremi) al rischio concreto di cancellazione dagli indici dei motori e nella maggior parte degli altri casi ad una mancata valorizzazione delle pagine interne di un sito; qualora questo non fosse possibile per ragioni tecniche (per esempio fornire dei contenuti statici di un sito realizzato interamente in Flash), ma fosse necessario implementare una staticizzazione dei contenuti, è preferibile gestirla client-side, mediante l'uso di cookie di sessione;
+i file robots.txt e sitemap.xml siano implementati correttamente, al fine di indicare ai crawler dei motori di ricerca quali contenuti indicizzare e quali escludere dal processo di indicizzazione;
+Le performance del server che ospita il sito web devono soddisfare le esigenze dei visitatori, in termini di velocità e accessibilità
+I Core Web Vitals, ossia dei parametri centrali individuati da Google per definire, dal punto di vista dell’user experience, la qualità di una pagina web.
+i contenuti non siano duplicati. Matt Cutts (ex-capo del Webspam team di Google) afferma che il 25-30% di tutti i contenuti presenti sul web sono duplicati. Come lui stesso ha dichiarato, l'attività di duplicazione dei contenuti può essere un fattore penalizzante, ma in realtà oggi non esiste nessun algoritmo che genera penalizzazioni per questo genere di attività. L'attività del SEO è quella di prodigarsi per rimuoverli oppure per eliminare gli errori nel codice che li producono (esempio: errori nella paginazione o in variabili dinamiche). Una strategia per evitare i contenuti duplicati nel proprio sito è quella di inserire il tag canonical all'interno della pagina. Esempio:
+HTML
+
+Il codice potrebbe essere utilizzato sulla pagina https://example.com/page.php?parameter=1 in modo da indicare ai motori di ricerca che https://example.com/page.phpè la versione preferita della pagina web.HTTP
+Le pagine del sito web non siano troppo difficili da raggiungere. Se una pagina del sito è accessibile solo dopo molti clic partendo dalla homepage (che è il punto di partenza del sito), i motori di ricerca la considereranno meno importante rispetto ad altre pagine più facili da trovare. Per migliorare questo aspetto, è importante organizzare bene i contenuti del sito. Questo aiuterà sia i motori di ricerca che gli utenti a trovare facilmente le informazioni.
+i contenuti redatti siano di qualità: scrivere un testo scorrevole nella lettura e grammaticalmente corretto, dosando al punto giusto le parole chiave principali, utilizzando anche dei sinonimi. Anche il tempo di lettura trascorso su un contenuto da parte di un utente è un fattore di posizionamento, quindi i contenuti devono essere di qualità e di valore;
+il sito sia configurato per i dispositivi mobili al fine di consentirne una corretta indicizzazione (mobile first index); il sito deve essere responsive, la maggior parte degli utenti utilizza gli smartphone per navigare su internet quindi è di vitale importanza che il sito internet sia responsive, cioè automaticamente adattabile e visualizzabile anche dai piccoli schermi degli smartphone.
+i dati strutturati siano inseriti nel sito (ovvero meta-informazioni inserite nel codice che aiutano i motori di ricerca a comprendere i contenuti delle pagine).
+Uso della keyword cloud (detta anche word cloud).
+
+Dati strutturati
+
+I dati strutturati, sono informazioni supplementari del tuo contenuto, che aiutano i motori di ricerca, in particolare Google, a identificare con maggiore precisione, tutte le caratteristiche da evidenziare.
+
+L'utilizzo dei dati strutturati, in uno o più contenuti, del tuo sito web o portale, aiuta le "parole chiave" di maggior interesse, a posizionarsi più facilmente nella serp di Google, rispetto ai tuoi competitors.
+
+I dati strutturati possono avere i seguenti formati:
+
+Json
+Microdati
+RDFa
+
+Immagini
+
+L'ottimizzazione delle immagini è un altro fattore utile per migliorare il posizionamento di un sito web. Riducendo le dimensioni dei file e utilizzando testo alternativo mirato, si favorisce una migliore indicizzazione da parte dei motori di ricerca, migliorando la visibilità online complessiva del contenuto.
+
+Fattori a livello di contenuto
+Un elemento essenziale affinché un sito possa ottenere un buon posizionamento sui motori di ricerca è il contenuto. Più il contenuto è utile, autorevole e di qualità, più sarà premiato dai motori di ricerca e di conseguenza venire citato e ripreso nelle risposte generate dalle AI.
+
+Nell’agosto 2022, infatti, Google ha rilasciato il Content Helpful Update , un’azione parte di un’iniziativa più ampia che mira a garantire agli utenti il reperimento di contenuti di qualità e utili come esito delle loro ricerche. In particolare, i contenuti devono essere pensati e realizzati per le "persone dalle persone" (una prospettiva singolare se si pensa al contesto attuale delle Intelligenze Artificiali Generative integrate nella ricerca). L’obiettivo di questo update di Google è quello di premiare i contenuti che consentono all’utente un’esperienza positiva .
+
+Ma come vengono valutati i contenuti? In merito a questo, Google ha rilasciato i criteri E-E-A-T utili a valutare la qualità di un contenuto online:
+
+Experience (esperienza): l’autore deve conoscere approfonditamente la materia di cui tratta e averne fatto esperienza in prima persona per poter riportare prospettive autentiche e approfondite.
+
+Expertise (competenza): l’autore deve dimostrare piena competente e padronanza del tema affrontato nel contenuto.
+
+Authoritativeness (autorevolezza): sito e autore devono essere autorevoli, metrica basata sulle citazioni presenti nel web degli stessi e sui link al sito (profilo backlink).
+
+Trustworthiness (affidabilità): le informazioni fornite devono essere complete e attendibili, con fonti verificate e supportate da prove.
+
+Fattori a livello di dominio
+Riguardo al dominio i fattori più rilevanti sono:
+
+Anzianità del dominio stesso;
+Le parole chiave nel dominio di secondo livello;
+I backlink che riceve da altri siti;
+Presenza della navigazione sicura HTTPS (con certificato SSL);
+I domini di primo livello (TLD), che possono migliorare i risultati in una certa regione/paese, come i domini di primo livello nazionale (ccTLD).
+Qualità degli URL. Nel seguente esempio il primo dominio è considerato ottimizzato meglio del secondo:
+
+Fattori social
+Numero di like o follower sui social network (esterni ai motori di ricerca): non è chiaro se questo dato sia o meno un ranking signal. C'è chi avalla la tesi di Matt Cutts, ma il dibattito è aperto.
+
+Fattori video
+I principali fattori di ranking su YouTube sono:
+
+Total watch time (numero totale di minuti visualizzati)
+Audience retention (percentuale di video visualizzata)
+Session Time (il tempo che trascorre l'utente su YouTube dopo aver visualizzato un video)
+CTR (numero di click ricevuti dal video da un utente)
+Engagement (numero di like, commenti, condivisioni)
+Channel authority (l'autorità di un canale)
+Data di creazione (età del canale)
+Numero di iscritti
+Costanza nelle pubblicazioni
+In quanti cercano i video del canale (branded search)
+Numero di link in ingresso (backlink) verso il canale e/o video
+Presenza di keyword all'interno del titolo, della descrizione e del nome del file (a patto di non fare keyword stuffing)
+Hashtag all'interno delle descrizioni
+Trascrizione del video (nella descrizione mettere un link che punta ad esempio a un file PDF o TXT)
+
+Fattori CMS
+Per i CMS (il più usato al mondo è WordPress, ritenuto da alcuni il migliore per la SEO) i principali fattori di SEO sono:
+
+Plugin SEO affidabili
+Permalink con URL che contengono il titolo e/o le parole chiave del contenuto
+Parola chiave principale nel primo paragrafo
+Aggiungere lo stato Nofollow ai link di affiliazione
+Anchor Link nei contenuti più lunghi
+Descrizioni delle "Categorie"
+Uso di Google My Business e Bing Places
+Entrare nel knowledge graph di Google
+Multilinguismo (traduzione delle pagine in più lingue)
+Articoli che mantengono lo stesso valore con il passare del tempo (detti "sempreverdi")
+Content Pruning (rimozione dei contenuti obsoleti che non possono più essere utili agli utenti)
+Applicare il social markup. Esempio:
+
+Applicare lo schema markup. Esempio:
+
+Fattori a livello di interazione dell'utente
+Click-through rate organico (CTR);
+Frequenza di rimbalzo (Bounce Rate), quando cioè gli utenti accedono a una pagina del sito ma poi ne escono immediatamente;
+Dwell Time: è un valore che mette a sistema la durata di sessione, frequenza di rimbalzo e CTR.
+
+Fattori a livello di backlink "follow"
+I backlink sono sempre stati uno degli elementi più rilevanti a livello SEO. Spesso hanno portato ad incidere notevolmente sul posizionamento:
+Numero di backlink "follow": fattore molto determinante, preferibilmente provenienti da siti con indirizzi IP differenti e contestuali (contenuti semanticamente coerenti);
+Anchor text dei backlink: viene utilizzato per determinare la pertinenza del link rispetto all'argomento trattato. Non è un caso, a tale riguardo, che il testo delle ancore spesso coincida con le ricerche che si intende ottimizzare, specie nelle campagne di link building più "spinte" (e, di conseguenza, più rischiose in termini di penalità).
+Numero di backlink provenienti da fonti autorevoli, come testate giornalistiche, siti web famosi, ufficiali, governativi, ecc.
+Qualità dei backlink. Quando un backlink proviene da un sito considerato poco autorevole può avere effetti negativi sull'indicizzazione. Utilizzare gli strumenti di "disavow" per rimuovere gli effetti negativi di questi link.
+Numero di link esterni della pagina di provenienza di un backlink: più la pagina ha collegamenti esterni e meno ognuno di essi è importante poiché la Link Juice si distribuisce sulla totalità dei link esterni.
+In caso di più di un backlink proveniente dallo stesso dominio, il primo indicizzato da Google passerà Link Juice, mentre i successivi in maniera molto ridotta.
+I link "follow" sono così rappresentati in codice HTML:
+
+Si tratta della normale formattazione che crea un link ipertestuale senza specificare l'attributo rel, farlo sarebbe superfluo e scorretto visto che un attributo "follow" (concretamente rel="follow") non esiste, per questo "follow" è sempre virgolettato in questo testo.
+
+Fattori a livello di backlink "nofollow"
+Sull'importanza dell'utilizzo dei backlink nofollow gli specialisti SEO hanno opinioni molto differenti tra loro.
+
+Google afferma che in genere non vengono seguiti. Con l'ultimo aggiornamento di Google Penguin fu evidenziato da molti un potenziale rischio nell'utilizzo dei backlink nofollow. È possibile comunque affermare che i Link nofollow non hanno generalmente alcun impatto sulla SERP e non contano ai fini del PageRank. Tale fatto è solo un singolo aspetto, tuttavia, che non può e non deve considerare l'opportunità di acquisire link anche di tipo nofollow se, ad esempio, provengono da siti molto autorevoli o possono portare molto traffico al sito destinazione.
+
+I link nofollow sono così rappresentati in codice HTML:
+
+Ottimizzazione per file PDF
+L'ottimizzazione dei documenti in formato PDF prevede alcuni interventi al momento della creazione del file.
+
+Gli elementi più importanti da compilare correttamente ai fini del posizionamento sulle SERP di un documento PDF sono:
+il nome del file, se è composto da più chiavi utilizzare il trattino per separarle; ad esempio, se il file PDF parla di animali domestici utilizzeremo il seguente nome file: animali-domestici.pdf
+le proprietà interne al documento: cliccare su "File" – "Proprietà" e compilare necessariamente "Titolo", "Oggetto" (che sarebbe la description), "Autore" (potete mettere il nome del sito) e "Parole chiave".
+Il titolo all'interno del documento: se il documento non dovesse avere un titolo, sarà Google ad attribuirne uno. Meglio, quindi, indicare il titolo che si vuole dare al documento utilizzando per il font: Verdana, Italico e Centrato.
+
+Per quanto riguarda l'inserimento di un link cliccabile all'interno delle pagine, si noti che un file pdf viene letto da Google come una sorta di pagina web a sé stante e risulta, pertanto, un backlink al proprio sito. L'importante è tematizzare il link, cioè inserire l'esatta pagina di riferimento. Per esempio, se abbiamo un PDF che parla di animali domestici su un portale di animali, sarà meglio inserire il link alla pagina che parla esattamente di quelli domestici.
+
+SEO Audit
+La SEO audit è un'analisi approfondita di un sito web: un sito viene integralmente scansionato al fine di avere un quadro il più possibile definito dello stato di salute sia del sito che del progetto soggiacente. Una SEO audit mette in luce le criticità del sito web analizzato catalogandole in base all'impatto che può avere sulla SEO. Serve a stabilire un ordine di priorità per gli interventi da mettere in atto, oltre a verificare nel tempo l'effetto delle ottimizzazioni applicate al sito.
+
+Tecniche penalizzate dai motori di ricerca
+Alcune tecniche volte a migliorare in poco tempo l'indicizzazione del proprio sito per guadagnare posizioni nella SERP sono penalizzate dalla maggior parte dei motori di ricerca. Nel gergo informatico chi usa queste tecniche viene chiamato Black Hat SEO.
+
+Contenuti nascosti all'utente ma indicizzabili dai motori di ricerca
+C'è una differenza tra contenuto nascosto in modo fraudolento e contenuto nascosto ma fruibile all'utente. La differenza è che la pagina web offre un segnale visibile all'utente che ci sono più contenuti e come visualizzarli. Il segnale è solitamente una frase come "Leggi di più" o "Leggi tutto". I modi per nascondere contenuto in modo fraudolento sono:
+Contenuti dello stesso colore dello sfondo (testo e immagini con i tag ALT, TITLE, LONGDESC e CAPTION pieni di parole chiave)
+Immagini GIF, PNG o SVG trasparenti con i tag ALT, TITLE, LONGDESC e CAPTION pieni di parole chiave
+Inserire nel tag NOSCRIPT (usato per avvisare l'utente nel caso il suo browser non supporti determinate tecnologie come AJAX, WebGL o Canvas) un sacco di parole chiave anziché solo la classica scritta "Il tuo browser non supporta WebGL".
+Link vuoti con il TITLE pieno di parole chiave. Oppure link interrotti o che puntano a pagine rimosse volutamente (lo scopo è sfruttare i tag TITLE).
+Tag AREA SHAPE vuoti con i tag ALT pieni di parole chiave
+Contenuti nascosti con il codice CSS e HTML:
+
+Testo criptato. Si nasconde del testo con varie tecniche in un'immagine attraverso la steganografia.
+Contenuti inseriti fuori dalla visuale della pagina oppure sotto altri contenuti attraverso il codice CSS (testo e immagini con i tag ALT, TITLE, LONGDESC e CAPTION pieni di parole chiave)
+
+Video nascosti. Con le tecniche sopra elencate si può inserire un video incorporato da YouTube (o altra piattaforma), metterlo in auto-play e con audio muto in modo che per YouTube risulti visualizzato in modo da far aumentare il ranking del video stesso, anche se di fatto l'utente non sa della sua presenza.
+
+Pagine doorway o gateway
+Non hanno un vero contenuto, ma sono create per essere indicizzate dai motori e “spingere” altre pagine interne al sito stesso o di un altro sito.
+
+Cloaking
+Una pagina creata appositamente per i motori di ricerca diversa da quella che viene vista dagli utenti.
+
+Keyword stuffing
+Ripetere in un testo la keyword da ottimizzare fino all'esasperazione.
+
+Desert scraping
+Tecnica che consiste nel riutilizzare contenuti non più indicizzati dai motori (pagine di domini scaduti o contenuti di siti che sono stati cambiati).
+
+Content Spam
+Utilizzare software automatici di scambio link (link farm) e commentare sui social network, su siti web e blog in modo esasperato inserendo il link del proprio sito web. Oppure inserire molti link del proprio sito all'interno del codice di template e plugin dei CMS open source.
+
+Utilizzo di più tag H1 nella stessa pagina
+È una tattica ampiamente diffusa per influenzare la SEO. Non è vietata ma, come per i link che più sono meno contano, lo stesso vale per gli H1.
+
+Abuso del tag STRONG
+Nello sviluppo di pagine web ci sono due modi di utilizzare il grassetto. Sebbene abbiano il medesimo effetto visivo, il tag "strong" ed il tag "bold" sono interpretati dai motori di ricerca in maniera diversa. Il "bold" ha lo scopo di evidenziare in grassetto le parole, mentre lo "strong" aumenta valore semantico (SEO) delle parole evidenziate.Un'alternativa visiva per creare il grassetto in HTML (senza aggiungere importanza SEO al testo) è utilizzare i CSS:
+Un altro modo per evidenziare le parole in grassetto in HTML e anche nei software di scrittura come Microsoft Word o Apache OpenOffice (in cui si può utilizzare il comando "grassetto" nella barra degli strumenti) consiste nello scaricare dei font con la versione "bold", ad esempio "Helvetica Bold".
+L'uso eccessivo di questo tag può però essere penalizzante a livello di SERP.
+
+Utilizzo di meta tag diversi dal contenuto dell'immagine
+Quando l'utente cerca immagini attraverso servizi come Google Immagini può imbattersi in immagini fuori luogo rispetto alla sua ricerca. Spesso succede perché volutamente i Black Hat Seo inseriscono nei metadati del tag IMAGE (ossia i tag ALT, TITLE, LONGDESC e IMAGE CAPTION) o nel tag VIDEO una descrizione diversa dal contenuto dell'immagine per fare in modo che l'utente visualizzi un prodotto o servizio anche se ha cercato tutt'altro. Un'altra tecnica è scrivere descrizioni nei dati Exif che non corrispondono al contenuto dell'immagine.
+
+Bait and Switch e Clickbait
+Scrivere una pagina per i motori di ricerca con una serie di parole chiave e, dopo aver ottenuto l'indicizzazione da parte dei motori di ricerca, l'autore la modifica con un altro servizio o prodotto. Quando gli utenti accedono al sito vedono una pagina che tratta un argomento completamente diverso rispetto a ciò che appare nella SERP e quindi a ciò che hanno cercato. Oppure visitano il sito e scoprono che i prodotti pubblicizzati non sono disponibili, oppure sono spinti a considerare prodotti simili ma di prezzo più alto.
+
+Article Spinning
+La tecnica consiste nel creare quello che sembra essere un nuovo contenuto: in realità si sono cambiate solo alcune parole e frasi. Inoltre non dovrebbero apparire più copie indicizzate dello stesso contenuto su siti diversi. Se ad esempio un utente ha tre blog non dovrebbe inserire in tutti e tre lo stesso articolo.
+
+Content Scraping e Mirroring
+Rubare contenuti da altri siti web ben indicizzati e pubblicarli sul proprio sito. Se viene copiato un intero sito web, il sito copiato viene chiamato "sito mirror".
+
+Pubblicità invasiva
+
+Pop-up, banner e interstitial che coprono il contenuto della pagina web, disturbano l'utente nella navigazione e lo incitano ad abbandonare la pagina stessa.
+
+Web Rings
+Creare più siti web molto simili e collegati tra loro in una rete circolare per ottenere traffico da siti web correlati.
+
+Shady Redirects (reindirizzamenti ombra)
+L'utente clicca su un link che tratta di un certo argomento ma uno script di codice lo reindirizza su un altro contenuto non pertinente. Succede spesso nei portali di streaming quando si clicca il tasto play.
+
+Parasite Hosting
+È un metodo illegale per: ottenere l'accesso all'amministrazione di un sito web, creare una pagina web su di esso e riempirla di parole chiave e collegamenti che puntano alla propria pagina commerciale e sfruttare l'indicizzazione già avvenuta del dominio principale. Di solito ciò avviene senza la conoscenza e il consenso della persona che possiede il dominio autorevole.
+
+Google Bombing
+È un modo per influenzare il ranking di una pagina web aumentando artificialmente il numero di collegamenti che puntano ad essa e gli anchor text utilizzati. Viene manipolato l'algoritmo di Google "forzando" il ranking di una pagina per una parola chiave completamente diversa da quella originale della pagina. Ciò accade perché è lo stesso testo di ancoraggio utilizzato per le pagine che si collegano a quella in particolare.
+
+Falsificazione dei Rich Snippet
+Lo snippet è ciò che viene visualizzato come risultato della SERP: è composto dal titolo, dalla descrizione e dall'URL del sito. Il Rich Snippet è uno snippet arricchito da stelline (valutazioni/recensioni), prezzi, video e nominativo dell'autore che ha realizzato tale contenuto. Dal momento che ciò è utile alla SEO, si falsificano i Rich Snippet per aumentare scorrettamente l'indicizzazione del proprio sito web.
+
+Query automatizzate
+Si utilizza un software per aumentare il numero di ricerche (queries) di una parola chiave specifica per posizionarsi più in alto nella SERP.
+
+Typosquatting
+Chiamato anche "dirottamento di URL", è una forma di cybersquatting che si basa su errori di battitura/digitazione commessi digitando un URL nel browser. Consiste nello sfruttare tali errori per dirottare l'utente verso un sito differente da quello che voleva raggiungere
+
+Domain Squatting
+Registrare domini simili a un marchio o un'attività commerciale esistente ben indicizzata allo scopo di ottenere vantaggi finanziari.
+
+TrackBack Spam
+Originariamente il TrackBack è utile: serve a facilitare la comunicazione tra i blog inviando un ping da un blogger a tutti coloro che sono collegati a lui. Tuttavia usare all'esasperazione i ping è considerato spam.
+
+Tecniche scorrette utilizzando Adobe Flash
+Negli anni 90 e 2000, quando era in voga l'uso di Adobe Flash per creare siti web, i Black Hat SEO potevano inserire un swf in una pagina HTML fuori tema con il contenuto della pagina per fare in modo che l'utente visualizzasse un prodotto o servizio anche se aveva cercato tutt'altro e i motori di ricerca facevano fatica ad accorgersi di tale pratica scorretta. In generale, Flash stesso era meno indicizzabile di HTML.
+
+Scam website
+Utilizzare domini di attività commerciali chiuse (sfruttando quindi la SEO già presente quando le attività erano in funzione), installare su di essi dei finti e-commerce con l'intento di indurre gli utenti all'acquisto rubando i dati di pagamento delle carte di credito e degli account PayPal. Per la descrizione spesso vengono utilizzate immagini scaricate dal web.
+
+Referrer Spam
+Lo spam referrer è una sorta di spamdexing che si manifesta inquinando un sito con dati statistici falsi. Lo spammer mira a migliorare il posizionamento del proprio sito facendolo visitare da robot che si spacciano per utenti. Risultato: nelle statistiche di strumenti come Google Analytics tale sito risulta molto visitato.
+
+Offuscamento del codice sorgente
+
+Per nascondere contenuto che si vuole mostrare agli utenti ma che non siano scansionate dai motori di ricerca viene utilizzato l'offuscamento del codice sorgente della pagina web. Ad esempio si usa per nascondere i link reciproci richiesti da alcuni siti che creano traffico e quindi posizionamento a una pagina (l'utente che conosce il codice sorgente li vede ma i motori di ricerca no e quindi non interpreta alcun link in uscita). Per farlo si utilizza per esempio un pezzo di codice JavaScript che crea lo stesso output di un pezzo di codice HTML e CSS. Un'altra tecnica di offuscamento del codice è base64 per le immagini. Nel caso di codice SVG o immagine formato ".svg" viene scritto del testo poi convertito in tracciati in modo che i motori di ricerca non possano più leggere esso come testo ma come codici alfanumerici. Oppure si nasconde il contenuto che si vuole comunicare agli utenti ma non ai motori nei commenti HTML (<! - →).
+
+Clickjacking
+Durante una normale navigazione web, l'utente clicca con il puntatore del mouse su di un oggetto (ad esempio un link), ma in realtà il suo clic viene reindirizzato, a sua insaputa, su di un altro oggetto, che può portare alle più svariate conseguenze: dal semplice invio di spam, al download di un file, fino all'ordinare prodotti da siti di e-commerce. Spesso questa tecnica è stata usata attraverso il tag HTML iframe che si usava negli anni 90 per creare i siti web, tecnica ora sconsigliata dal W3C.
+
+Hijacking
+Questa tecnica, più nota come Browser Hijacking (dirottamento del browser), permette ai dirottatori di eseguire sul malcapitato computer una serie di modifiche tali da garantirsi la visita alle loro pagine con l'unico scopo di incrementare in modo artificioso il numero di accessi e di click diretti al loro sito e conseguentemente incrementare i guadagni dovuti alle inserzioni pubblicitarie
+
+Fake news e fake ads
+Google ha introdotto a il Fact-Check (controllo dei contenuti), un'etichetta che può essere applicata in una pagina web citando le fonti delle informazioni; la presenza del Fact Check è evidenziato sotto il singolo risultato di ricerca. Ciò fa capire all'utente che quel risultato di ricerca contiene una notizia falsa in modo che sempre meno utenti lo cliccheranno e perderà page rank sempre più. Google ha inoltre annunciato che bloccherà anche i contenuti pubblicitari fraudolenti, ad esempio annunci e banner che presentano un servizio o prodotto ma cliccando l'utente si trova tutt'altro oppure l'annuncio ma è una truffa (fake ads). Le fake ads più frequenti sono i falsi avvisi di presunti antivirus (o del browser o di app di messaggistica) e vincite di denaro.
+
+Social media Black Hat
+La maggior parte dei professionisti SEO concorda che i social hanno un certo impatto sulla SEO, anche se non sono un fattore di ranking diretto. Pertanto i Black Hat SEO attuano tattiche per aumentare la visibilità di falsi profili con l'acquisto di follower falsi, "Mi piace" e condivisioni truccati, recensioni false.
+
+Single-page application
+Per SPA si intende un'applicazione web o un sito web che può essere usato o consultato su una singola pagina web con l'obiettivo di fornire una esperienza utente più fluida e simile alle applicazioni desktop dei sistemi operativi tradizionali. Questo metodo non è considerato "scorretto" dai motori di ricerca ma da alcuni esperti è considerato penalizzante per alcuni motivi. Ha un solo set di metadati, quindi fornisce solo un tag H1 e un solo tag "description". Non è quindi possibile effettuare il siloing ossia suddividere in sezioni tematiche sulla base delle parole chiave il sito web. La SEO favorisce i siti web con un numero alto di collegamenti, sia interni che esterni. I siti Web a pagina singola hanno una capacità limitata di includere molti collegamenti interni. Inoltre avere molti contenuti su una sola pagina significa che essa può diventare pesante e richiederà più tempo per caricarsi rispetto a un sito Web con più pagine, dato che la SEO favorisce i siti web a caricamento veloce.
+
+Uso di tecniche obsolete per la creazione dei siti web
+Tecnologie deprecate per la realizzazione di siti web come Adobe Flash, HTML4 e versioni precedenti, il tag TABLE e il tag IFRAME per creare l'intero layout del sito sono sconsigliate poiché riducono l'accessibilità e penalizzano la SEO. Anche utilizzare gli stili "inline" HTML per creare la formattazione della pagina al posto dei CSS e tag HTML deprecati come il tag FONT possono portare a penalizzazioni nella SERP.
+
+Link malevoli in entrata e/o in uscita
+A livello di SEO contano molto i link in entrata e in uscita (inbound e outbound). Contano però anche la qualità e l'attendibilità dei link. Se sono penalizzati dai motori di ricerca o comunque segnalati come malevoli può essere penalizzante a livello di SEO per il sito web che punta a loro o riceve collegamenti da loro.
+
+Pubblicazione di contenuti protetti da copyright senza autorizzazione
+I motori di ricerca possono penalizzare i siti web che pubblicano contenuti protetti da copyright senza autorizzazione.
+
+Codice prolisso e contenente errori
+Il codice web deve essere corretto e pulito per avere un buon SEO. Anche il testo non deve contenere errori di sintassi o grammaticali in genere. Con tecniche di conversione che si possono attuare ad esempio con Indesign, Photoshop e Microsoft Word è possibile convertire in HTML un documento idd, psd e doc ma il codice generato contiene molte parti inutili e prolisse. Un altro errore è utilizzare un tag HTML per un contenuto non coerente con il tag stesso. Ad esempio utilizzare il tag DIV per la navigazione del sito web anziché il tag NAV. Un altro errore è utilizzare immagini di sfondo al posto del tag IMG.
+
+Abuso di stop words
+I motori di ricerca tendono ad ignorare le parole estremamente comuni in modo da risparmiare spazio nei loro database e velocizzare sia la scansione che l'indicizzazione. Ad esempio parole come IL, UN, SE, QUANDO, PER CUI, LUI, LORO, ECCO, QUEL...non dovrebbero essere considerate come parole chiave da enfatizzare in un sito web né da utilizzare nella URL. Le stop words non vengono però sempre ignorate: a volte cambiano il significato della query di ricerca, quindi non si dovrebbe abusare di esse nei testi.
+
+Incitamento all'odio
+L’incitamento all'odio causa la rimozione, nel caso delle app, e la de-indicizzazione, nel caso dei siti web. In quest'ultimo caso il sito web non sarà più visibile nella SERP.
+
+Parole chiave troppo comuni
+Utilizzare parole chiave troppo comuni può essere controproducente e, avendo molta concorrenza, può portare la pagina web in fondo alla SERP. La pratica comunque non è vietata a livello di regolamento SEO.
+
+Pagine con strutture non standard
+
+Creare pagine web solamente con tecniche SVG, Canvas, JS e Web 3D con strutture non standard (cioè senza Headings, ALT, Title, links, paragrafi, testo...) può penalizzare il SEO. Tali tecniche infatti andrebbero integrate in pagine HTML standard ma non utilizzate da sole per creare l'intera pagina, a meno che il sito web che ospita la pagina sia già indicizzato molto bene di per sé.
+
+Esempi
+Nel web esistono tecniche differenti per produrre uno stesso risultato a livello visivo. Ma solo certi metodi sono semanticamente corretti per la SEO e per l'accessibilità (ad esempio la lettura della pagina con gli screen readers):

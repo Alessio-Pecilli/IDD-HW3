@@ -1,0 +1,46 @@
+Cost per mille (CPM) è un indicatore comunemente usato nel settore pubblicitario. Radio, televisioni, giornali, pubblicità esterna (o fuori casa, per esempio manifesti, annunci dentro e fuori dai centri commerciali, tematizzazione veicoli, mongolfiere, banner veicolati da aerei ecc) e pubblicità online può essere acquistata sulla base di quanto costa mostrare la pubblicità per 1000 visualizzazioni/letture della stessa.
+
+È utilizzato nel marketing come parametro al fine di calcolare il costo relativo di una campagna pubblicitaria o un messaggio pubblicitario veicolato da un media. Piuttosto di un costo assoluto, il CPM è la stima del costo di 1000 letture del messaggio pubblicitario stesso. Questa tradizionale formula di misurazione del successo pubblicitario è stata utilizzato in seguito con modelli basati sulle prestazioni, come la percentuale di vendita o il costo per azione (o CPA, in breve acquisto, richiesta ecc).
+
+Un esempio di calcolo del CPM:
+
+Il costo totale di gestione dell'inserzione ammonta a €5000
+Il totale dei lettori è di 1000000 persone
+Il CPM è calcolato come €5000/(1000000/1000) = €5
+
+Esempi
+Nella pubblicità online, se un sito web vende un banner per €20 CPM, ciò significa che all'inserzionista (colui che fa pubblicare le inserzioni) 1000 visualizzazioni di tale banner costano esattamente €20.
+Il Super Bowl negli Stati Uniti detiene il più alto costo per spazio/spot pubblicitario, esso realizza annualmente anche il maggior numero di telespettatori. Di conseguenza il suo CPM può essere paragonabile allo spot meno costoso in onda durante la programmazione televisiva ordinaria.
+Nelle campagne di display advertising gli inserzionisti che utilizzano annunci CPM hanno la possibilità di impostare il prezzo addebitale per la pubblicazione di 1000 annunci e di conseguenza pagare per ogni volta che un annuncio viene visualizzato. Se l’obiettivo della campagna è quello di aumentare la brand awareness senza necessariamente aumentare il traffico verso il proprio sito web, Google propone di utilizzare le offerte vCPM, tipologia di offerta manuale consente all’inserzionista di impostare l’importo massimo che si è disposti a pagare per mille impressioni visibili dell’annuncio.
+
+Costo Effettivo per Mille Impressioni (eCPM)
+L'eCPM è utilizzato per misurare l'efficacia di un editore di vendere tutto l'inventario degli annunci. Questo indicatore consente quindi di rapportare le prestazioni di diverse unità di annunci,
+
+eCPM = (Ricavi totali / Impressioni) x 1000
+mmm
+
+Pro e contro
+
+Pro
+
+Più persone vedono un annuncio rispetto ad altre forme di marketing.
+Le impressioni sono generalmente più economiche dei clic (PPC).
+I costi per clic (PPC) potrebbero essere inferiori. Se le impressioni costano il 50% in meno dei clic e ogni persona che vede l'annuncio fa clic su di esso, i clic sarebbero il 50% in meno rispetto a una campagna PPC.
+
+Contro
+
+Non tutte le impressioni portano a clic e conversioni.
+Alto rischio di frode nelle impressioni. Si paga anche per le impressioni fraudolente, a volte difficili da individuare ed evitare.
+Lo stesso annuncio potrebbe essere mostrato alla stessa persona più volte anche se non è interessata e verrà addebitato il costo di ogni impressione anche se l'utente è lo stesso.
+
+Interpretazione del Cost Per Mille
+Un buon CPM non dipende solo dal suo valore numerico, ma dalla capacità di generare risultati in relazione agli obiettivi della campagna. Un pubblico ampio può ridurre il costo per mille impressioni (CPM) grazie alla maggiore portata, ma rischia di compromettere l’efficacia delle conversioni a causa della scarsa precisione del targeting.
+
+Al contrario, un pubblico altamente specifico, definito in base a interessi, comportamenti o dati demografici, comporta un CPM più elevato ma con maggiori probabilità di conversioni significative.
+
+Ad esempio, un brand di scarpe sportive potrebbe:
+
+Optare per un target generico, come tutti gli interessati al fitness, con un CPM basso ma un engagement meno mirato.
+Scegliere un pubblico mirato, come corridori professionisti tra i 25 e i 40 anni, con un CPM più alto ma un tasso di conversione potenzialmente superiore.
+
+La scelta tra target ampio e specifico deve considerare il bilanciamento tra impression e ROI complessivo, valutando l’efficacia del CPM in base agli obiettivi strategici della campagna.

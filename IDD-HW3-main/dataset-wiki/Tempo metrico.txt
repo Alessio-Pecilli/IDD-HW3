@@ -1,0 +1,42 @@
+Il tempo metrico è la misura degli intervalli temporali che utilizza il sistema metrico decimale (detto, più propriamente, Sistema internazionale di unità di misura, SI), il quale definisce il secondo come l'unità fondamentale di misura del tempo, e come unità multiple e sottomultiple quelle formate con i prefissi metrici, come i chilosecondi e i millisecondi. Il tempo metrico non definisce il tempo (cioè l'ora) del giorno, in quanto questo è definito da varie scale temporali, che possono essere basate sulla definizione metrica del secondo. Altre unità di tempo, il minuto, l'ora e il giorno, sono accettate come uso nel sistema metrico moderno, ma non ne fanno parte direttamente.
+
+Storia
+Quando il sistema metrico fu introdotto in Francia nel 1795, esso comprendeva unità di lunghezza, di area, di volume per gli aridi, di capacità per i liquidi, di peso o di massa, e perfino di valuta, ma non di tempo. Il tempo decimale del giorno era stato introdotto in Francia due anni prima, ma fu messo da parte nel momento stesso in cui fu inaugurato il sistema metrico, e non seguiva il modello metrico di un'unità fondamentale e di unità con prefissi. James Clerk Maxwell e Elihu Thomson (attraverso l'Associazione Britannica per l'Avanzamento della Scienza, British Association for the Advancement of Science - BAAS) introdussero il Sistema di unità centimetro grammo secondo (CGS) nel 1874, al fine di derivare le unità metriche elettriche e magnetiche, seguendo la raccomandazione di Carl Friedrich Gauss nel 1832.
+
+Il secondo effemeride (definito come 1/86400 di un giorno solare medio) fu reso una delle unità fondamentali originali del sistema metrico moderno, o Sistema internazionale di unità di misura (SI), alla 10ª Conferenza generale dei pesi e delle misure (CGPM) nel 1954. Il secondo SI fu in seguito ridefinito più precisamente come "la durata di 9 192 631 770 periodi della radiazione corrispondente alla transizione tra due livelli iperfini, da (F=4, MF=0) a (F=3, MF=0), dello stato fondamentale dell'atomo di cesio-133".
+
+Unità alternative
+Sono state avanzate numerose proposte per unità di misura fondamentali alternative del tempo metrico. Il 28 marzo 1794, il presidente della commissione che sviluppò il sistema metrico decimale, Joseph Louis Lagrange, propose in un rapporto alla commissione i nomi déci-jour e centi-jour (decigiorno e centigiorno in italiano). Unità fondamentali equivalenti alle divisioni decimali del giorno, come 1/10, 1/100, 1/1.000 o 1/100.000 di giorno, o altre divisioni, come 1/20 o 1/40 di giorno, sono state altresì proposte, con nomi come tick, meck, chi, chron, moment, ecc., come pure unità multiple e sottomultiple formate con i prefissi metrici. Tali unità alternative non hanno però trovato particolare accettazione, in massima parte per la semplice mancanza di conoscenza e di familiarità.
+
+Un secondo modificato = 1/100.000 di giorno = 0,864&nbsp;s potrebbe essere un'alternativa praticabile. Qualunque ridefinizione del secondo, tuttavia, crea conflitti con tutto quello che è basato sulla sua precisa definizione corrente. Un'altra unità di tempo, più familiare di taluni altri suggerimenti, potrebbe essere 14,4 minuti, cioè un "quarto d'ora" più breve, o un "centigiorno", come proposto da Lagrange. Il centigiorno fu usato in Cina (chiamato ke in cinese) per migliaia di anni.
+
+Nel XIX secolo, M. J. de Rey-Pailhade propose di usare il centigiorno, abbreviato cé, diviso in 10 decicés, 100 centicés, 1.000 millicés e 10.000 dimicés.
+
+Nel 1897, dal Bureau of Longitude francese fu creata la Commission de décimalisation du temps (Commissione per la decimalizzazione del tempo), con il matematico Henri Poincaré come segretario. La commissione propose di fissare l'ora standard come unità fondamentale del tempo metrico, ma la proposta non trovò accettazione e fu alla fine abbandonata.
+
+Significato alternativo
+Il tempo metrico è usato a volte per indicare il tempo decimale. In realtà, si tratta di due concetti diversi: il tempo metrico si riferisce propriamente alla misura degli intervalli di tempo, mentre il tempo decimale si riferisce al tempo del giorno. Il tempo standard del giorno è definito da varie scale temporali, come l'UTC, che sono solitamente basate sull'unità metrica fondamentale del tempo, il secondo. Alcune proposte per unità alternative del tempo metrico sono accompagnate da scale temporali decimali che servono a indicare il tempo del giorno in base a queste unità alternative. Altre proposte chiamate "tempo metrico" si riferiscono solamente al tempo decimale, e perciò non sono veramente metriche.
+
+Il tempo decimale francese è talvolta chiamato "tempo metrico" perché fu introdotto intorno allo stesso periodo del sistema metrico ed entrambi erano decimali, ma non faceva parte del decreto che creò il sistema metrico originale e le sue unità erano denominate ora, minuto e secondo, invece di usare i prefissi metrici. Altri standard del tempo decimale, come lo Swatch Internet Time, non sono considerati tempo metrico.
+
+Nell'informatica
+Nell'informatica il tempo metrico trovò ampia diffusione per la facilità di calcolo. Il tempo Unix fornisce data e ora a partire dal 1º gennaio 1970
+.
+
+Problemi
+Il problema principale del tempo metrico risiede nelle unità. Il Sistema internazionale di unità di misura ha sviluppato soltanto prefissi riguardanti 10 unità in senso esponenziale sia in direzione dei multipli che dei sottomultipli. I primi tre multipli sarebbero praticabili per l'uso all'interno di un sistema di tempo metrico; essi sono rispettivamente 101 (decasecondo = 10 secondi), 102 (ettosecondo = 100 secondi; 1,666 minuti) e 103 (chilosecondi = 1.000 secondi; 16,666 minuti). Tuttavia, il quarto valore nelle unità SI è 106 (megasecondo = 1.000.000 secondi; 16.666,666 minuti; 277,777 ore; 11,574 giorni). Seguito da 109 (gigasecondo = 1.000.000.000 secondi; 16.666.666,666 minuti; 277.777,777 ore; 11.574,074 giorni; 31,689 anni); un'unità relativamente impraticabile con cui misurare il tempo/vita umano. Per far funzionare questo sistema di prefissi con il tempo metrico, dovrebbero essere sviluppati unità e prefissi standard per il 4º e 5º esponente per rendere il tempo metrico praticabile per la vita umana. Queste grandezze sarebbero:
+104 secondi (10.000 secondi; 166,6 minuti; 2,777 ore)
+105 secondi (100.000 secondi; 1.666,6 minuti; 27,77 ore; 1,157 giorni).
+
+Nella cultura di massa
+Il tempo metrico appare occasionalmente nella scrittura di fantascienza. Nel romanzo Quando la luce tornerà di Vernor Vinge, si descrive che la cultura dei viaggiatori spaziali Qeng Ho utilizza unità metriche come il chilosecondo e il megasecondo per tutte le misure degli intervalli temporali.
+
+I romanzi Accelerando e Glasshouse di Charles Stross hanno parecchi usi del tempo metrico, compresi chilosecondi, megasecondi e megaanni. Nel secondo caso, gli umani stanno vivendo in habitat che girano intorno a nane brune, senza nessuna connessione duratura con il Sistema solare che diede origine alla precedente scala temporale. In Glasshouse i personaggi usano chilosecondi, "megs", ecc. per riferirsi a diversi periodi di tempo, qualsiasi uso precedente dei meganni è stato abbandonato.
+
+Risen di Scott Westerfeld usa il tempo metrico per misurare il tempo all'interno di un impero che si estende su molti sistemi solari.
+
+In televisione, l'episodio de I Simpson "Springfield utopia delle utopie" fa dire al direttore Skinner che, grazie al fatto che la città è sotto il controllo del Mensa, i treni della città non solo stanno viaggiando in orario, ma stanno viaggiando in orario metrico, mentre guarda un orologio analogico con i numeri 1–10 (che indica il tempo decimale).
+
+Una scena d'apertura del film del 1927 di Fritz Lang Metropolis mostra un orologio metrico con dieci numeri invece di dodici, che illustra la migliorata efficienza della futura società industriale.
+
+Una canzone tratta dall'album del 2000 Veni Vidi Vicious della band svedese The Hives è intitolato "The Hives - Introduce the Metric System in Time" ("The Hives - Introducete il sistema metrico nel tempo").

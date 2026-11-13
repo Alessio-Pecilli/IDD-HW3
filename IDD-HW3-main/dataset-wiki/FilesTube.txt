@@ -1,0 +1,17 @@
+FilesTube era un motore di ricerca creato nel 2007 specializzato nella ricerca di file in siti come RapidShare o MediaFire, aveva anche delle sezioni video, giochi, testi e software. È di proprietà di Red-Sky, un'azienda in Polonia.
+
+Dal 1º novembre 2014, FilesTube cambia totalmente. Smette di essere un motore di ricerca specializzato nella ricerca in siti di filesharing e diventa un servizio gratuito di streaming "licenziato" di serie, film e documentari indipendenti.
+
+Nome e logo
+Il nome del logo del sito ricordavano molto quelli di YouTube (infatti le differenze principali erano la parola "Files" che sostituiva "You" e il colore blu al posto del rosso). Proprio per questa eccezionale somiglianza, il nuovo logo presenta alcune, seppur leggere, differenze.
+
+Accesso e utilizzo da parte degli utenti
+FilesTube può essere visitato e utilizzato da chiunque, sebbene alcune caratteristiche richiedano la creazione di un account. Quando esso viene creato, il servizio richiede all'utente di fornire un indirizzo di posta elettronica, uno username e una password.
+
+FilesTube inoltre rimuove contenuti illegali dai suoi risultati a richiesta. Al fine di porre rimedio all problema dei download illegali, in Malaysia è stato bloccato l'accesso a FilesTube e altri motori di ricerca di questo tipo.
+
+Acquisizione automatica di informazioni
+Quando si visita FilesTube, sia che si tratti di un utente registrato oppure no, il sito memorizza automaticamente alcuni dati relativi al momento dell'accesso: indirizzo IP, tipo di browser web, pagine web visitate prima dell'FilesTube, , pagine di FilesTube visitate e ora e data dell'accesso.
+
+Queste informazioni vengono utilizzate ai fini l'osservazione e analizzare il modo in cui il sito è stato utilizzato, e quali servizi erano presenti, per migliorare la funzionalità del sito e la facilità d'uso, e per fornire un'esperienza migliore per le necessità dell'utente.
+Questi dati vengono utilizzati anche per verificare che gli utenti dei FilesTube rispondano a criteri necessari per consentire l'analisi delle richieste.

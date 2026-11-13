@@ -1,0 +1,32 @@
+Clipper è un versatile linguaggio di programmazione di alto livello. È stato ed è usato prevalentemente per creare programmi gestionali integrati basati su database relazionali in ambiente DOS, ma la sua potenza e flessibilità (unita alla caratteristica architettura aperta) sono quelle tipiche dei linguaggi general-purpose.
+
+Storia
+Clipper è nato nella prima metà degli anni ottanta come semplice compilatore per il popolare software di gestione di database DBase III. La compilazione del codice dBASE (che nell'ambiente originale DBIII era semplicemente codice interpretato) generava in parte codice macchina nativo ed in parte, per alcune sezioni di codice gestite dinamicamente, P-Code (pseudo codice) destinato ad essere eseguito a run-time da una Macchina virtuale.
+
+Clipper venne creato dalla Nantucket, successivamente ceduta a Computer Associates, sviluppato in linguaggio C.
+
+Come prodotto maturo rimane un fondamentale strumento DOS per molti anni, aggiungendo un potente preprocessore, elementi sintattici del C e del linguaggio Pascal, elementi di OOP (principalmente classi predefinite direttamente istanziabili), ed il caratteristico tipo di dati code-block.
+
+Numerose sono le innovazioni introdotte per la prima volta proprio da Clipper sulle architetture target (PC DOS) verso la fine degli anni ottanta: innovazioni introdotte in parte già con la versione denominata "Summer '87", i cui principali elementi di novità consistono nella introduzione delle UDF (funzioni definibili dall'utente in linguaggio C e Assembly), della multiutenza, di ampie librerie di funzioni, di avanzati generatori di prospetti (report generators).
+
+Ma è soprattutto la versione 5 che segna la svolta definitiva nella maturità del linguaggio, restando in auge come major version per tutti gli anni novanta. L'interfaccia verso i database e gli indici si arricchisce con potenti driver sostituibili modulari (RDD, Replaceable Database Drivers), che consentono:
+l'impiego di indici e strutture di database nettamente più efficienti rispetto ai formati nativi DBF/NTX;
+l'apertura verso altre piattaforme e tipologie di database;
+la possibilità di implementare meccanismi avanzati e robusti di cifratura e decodifica "on-the-fly" degli header e/o dei dati.
+
+Fra gli RDD vale la pena di ricordare Comix (poi integrato in Clipper 5.3) e ADS/AXS in grado di utilizzare un approccio client/server anche in applicazioni DOS.
+
+Queste caratteristiche, unitamente al collaudato sistema di interfaccia Extend che consente di scrivere con semplicità librerie in C ed Assembly supportando lo scambio bidirezionale di parametri e l'invocazione da low level di macroroutine Clipper dinamicamente assegnate tramite i codeblocks, ne fanno un sistema unico, flessibile e straordinariamente potente per la stesura di applicazioni altamente verticalizzate ed anche (se ben congegnate) estremamente prestanti, che includono verticalmente il controllo dell'hardware al più basso livello e giungono fino alla creazione semplificata delle interfacce utente più complesse ed elaborate (con amplissimo supporto anche per modalità grafiche, semigrafiche e standard SAA/CUA).
+
+Unico "svantaggio" di Clipper in ambiente DOS, a fronte di una così ampia potenza, integrabilità e flessibilità, è la ridotta efficienza in termini di spazio su disco ed in memoria degli eseguibili prodotti, che tendono ad assumere dimensioni notevoli per l'epoca: inconveniente peraltro facilmente ovviabile grazie al supporto nativo degli overlay, delle librerie dinamiche condivise PLL (introdotte nei primi anni novanta, anticipando l'avvento delle DLL in ambiente Windows) e di numerosi DOS Extenders.
+
+Tra i linker disponibili, sono certamente da ricordare RTLink (presente dalla versione 5.01 di Clipper in versione ridotta), Exospace (integrato poi nella versione 5.3 di Clipper), Blinker e WarpLink (denominato poi CauseWay con l'integrazione di un Dos Extender 386).
+
+Durante gli anni novanta si sviluppa attorno al linguaggio Clipper un fiorente e remunerativo mercato per librerie ed estensioni di terze parti, generatori di codice, tools di analisi statica e documentazione dei sorgenti, compressori e protettori di eseguibili, tools per reverse engineering, debugger (MrDebugger) e profiler avanzati, utility per manutenzione, backup, controllo di integrità e riparazione dei file di database, ed anche interi ambienti di sviluppo RAD con caratteristiche innovative di grande interesse (dBsee ed altri), poi divenute patrimonio comune nei tool RAD di seconda e terza generazione in ambiente windows.
+
+Da notare anche alcune estensioni in grado di creare programmi Windows, partendo da sorgenti clipper DOS: FiveWin, Clip4Win e DolceVita.
+
+Ancora nel 2006, il linguaggio Clipper era attivamente supportato ed esteso da molte organizzazioni, sia gratuite (GPL based) come Clip, Harbour, xHarbour che commerciali come Xbase++ e FlagShip. Molte delle implementazioni erano ancora altamente portabili (DOS, Windows, Linux (32,64), Unix (32,64), OS/X) e supportavano diverse varianti ed estensioni sintattiche del linguaggio.
+
+Esempio di codice
+Esempio tratto dal volume Clipper di Margaret Zinky

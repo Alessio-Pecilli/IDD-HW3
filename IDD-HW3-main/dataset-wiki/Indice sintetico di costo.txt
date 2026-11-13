@@ -1,0 +1,53 @@
+Lindice sintetico di costo o indicatore sintetico di costo (ISC), detto anche tasso annuo effettivo globale (TAEG), è l'indicatore di tasso di interesse di un'operazione di finanziamento (es. erogazione di credito) come ad esempio prestito, o acquisto rateale di beni o servizi. È espresso in percentuale e indica il costo effettivo del finanziamento ed è stato introdotto dalla direttiva europea 90/88/CEE, e successivamente modificato.
+
+Esso rappresenta il costo effettivo dell'operazione espresso in percentuale che il cliente deve alla società che ha erogato il prestito o il finanziamento. Detto in poche parole il TAEG racchiude contemporaneamente sia il tasso d'interesse in regime di capitalizzazione composta sia le spese accessorie della pratica (spese d'istruttoria, imposte di bollo, ecc.).
+
+Disciplina normativa
+La direttiva 2014/17/UE definisce ipotesi e formula esatta di calcolo del TAEG, vincolanti e uniformi in tutta l'Unione europea.
+
+È stato introdotto nel sistema normativo italiano, per la prima volta, dalla deliberazione del Comitato interministeriale per il credito e il risparmio n. 10688 del 4/03/2003, art. 9 comma 2, che ha demandato a Banca d'Italia di individuare quali siano le operazioni e i servizi a fronte dei quali detto indice, "comprensivo degli interessi e degli oneri che concorrono a determinare il costo effettivo dell'operazione per il cliente", debba essere segnalato, nonché la formula per rilevarlo. Per effetto delle nuove disposizioni di Banca d'Italia sulla trasparenza in adempimento della direttiva europea EU 2008/48/CE, dal 1º giugno 2011 il calcolo del TAEG comprende anche le spese connesse al conto corrente di appoggio se obbligatorio, esemplificato in questo modo:
+
+TAN + spese di istruttoria e documentazione + spese gestione pratica + bolli + imposte + spese conto corrente = TAEG.
+
+Calcolo finanziario
+Il calcolo del TAEG/ISC consiste nel trovare quel tasso di interesse che rende uguali la somma del credito concesso al cliente, con la somma complessiva che il cliente dovrà rimborsare alla scadenza. Lo scopo è infatti dare al cliente un unico indicatore di interesse che comprenda non solo il tasso effettivo di interesse sul prestito, ma anche tutte le spese accessorie.
+
+I parametri che determinano il TAEG o ISC sono fissati per legge. In particolare, oltre alla struttura del rimborso finanziario, rientrano a far parte del calcolo di questo tasso tutte le spese accessorie obbligatorie inerenti all'atto del finanziamento, ovvero:
+spese di istruttoria della pratica;
+commissioni d'incasso;
+assicurazioni obbligatorie;
+bolli statali;
+imposte;
+spese conto corrente di appoggio se obbligatorio.
+
+Non rientrano invece a far parte dei parametri che incidono sul TAEG:
+assicurazioni non obbligatorie.
+
+In regime di interesse composto, l'equazione che definisce il TAEG è definita uguagliando prestiti e rimborsi in e calcolando per (il TAEG sarà l' calcolato dall'equazione finale):
+
+dove è il numero delle rate, gli importi delle rate periodiche, le spese periodiche, è l'espressione della cadenza delle rate normalizzata al periodo in base al quale è espresso l'interesse , rappresenta il valore attuale del prestito e rappresentano le spese iniziali. Cosicché la seconda parte dell'equazione rappresenta la somma effettivamente ricevuta in prestito.
+
+Se, come spesso accade, le quote e sono periodiche e costanti, si può scrivere:
+
+Considerando il caso di rate mensili (se l'interesse è quello annuale, ), si ha
+
+Ricordando che la ridotta -esima di una serie geometrica di ragione è esprimibile come
+
+si può scrivere
+
+Nel caso in cui si abbia un certo periodo di preammortamento quantificabile in mensilità, si ha
+
+e nel caso di rate mensili costanti e con l'interesse annuale si ha
+
+Il TAEG è l' calcolato in base a questa equazione.
+
+Precisazioni
+All'interno del TAEG rientrano le commissioni di massimo scoperto o altre commissioni assimilabili collegate all'erogazione del credito come previsto dalla legge 108/96 (legge antiusura).
+
+La formula dell'ISC (tasso interno di rendimento di una serie di flussi finanziari abbreviato TIR) con preammortamento, viene integrata in questi termini, in quanto comprende anche la componente delle quote di soli interessi:
+
+con una rateizzazione mensile di tutte le scadenze del finanziamento ove i è il tasso semplice su base annua:
+
+Tale formalizzazione non permette molte semplificazioni. Va anche detto che in ogni caso tali formule seppur semplificate debbono essere sempre risolte per interpolazione provando per valori di all'interesse nominale, interesse nominale utilizzato per il calcolo della rata.
+
+Per poter avere un indice di tale natura (TIR Tasso interno di rendimento), che sia raffrontabile, tutte le componenti di costo relative a un finanziamento debbono essere prevedibili e conoscibili a priori. Le commissioni di massimo scoperto, o comunque i costi che risultano connessi in caso di pagamento attraverso lo scoperto di conto corrente non sono componenti né prevedibili né del tutto conoscibili a priori. Tale modalità di pagamento non dovrebbe avvenire in quanto si assume che il cliente metta sempre a disposizione la cifra in conto corrente per il pagamento. Detto questo, va precisato che i tassi di mora dei finanziamenti sotto forma di mutuo (rateizzati) sono anch'essi sottoposti alla legge antiusura e di norma sono ben lontani dai costi degli scoperti di c/c. Pertanto, il pagamento tramite scoperto di conto è decisamente sconsigliato per gli stessi mutuatari, ai quali converrebbe invece chiedere espressamente di lasciare insoluta la rata sino al reperimento dei fondi necessari.

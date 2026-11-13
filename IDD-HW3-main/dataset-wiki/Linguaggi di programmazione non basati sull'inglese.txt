@@ -1,0 +1,64 @@
+I linguaggi di programmazione non basati sull'inglese sono linguaggi di programmazione che, a differenza dei linguaggi più conosciuti, non usano termini presi dal vocabolario della lingua inglese.
+
+Predominanza dei linguaggi di programmazione basati sull'inglese
+
+C'è stata una forte abitudine ad usare nei linguaggi di programmazione la lingua inglese per le parole chiave e le librerie. Secondo il database online dei linguaggi HOPL, su più di 8500 linguaggi di programmazione registrati, circa 2400 sono stati sviluppati negli Stati Uniti, 600 nel Regno Unito, 160 in Canada e 75 in Australia.
+
+Inoltre più di un terzo di tutti i linguaggi di programmazione sono stati sviluppati in un paese anglofono. Ciò non tiene in conto quanto largamente è usata ogni lingua, né situazioni in cui un linguaggio è sviluppato in inglese ma in un paese non anglofono per facilitarne la diffusione internazionale (come nel caso di Python, sviluppato nei Paesi Bassi) o perché è basato su un altro linguaggio di programmazione che usa l'inglese (come nel caso di CAML, sviluppato in Francia ma funzionante con parole chiave inglesi).
+
+Linguaggi di programmazione internazionale
+Lo standard dell'ALGOL 68 è stato pubblicato in numerose lingue e lo standard permette l'internazionalizzazione del linguaggio stesso.
+
+Il 20 dicembre 1968 il "Rapporto finale" (MR 101) fu adottato dal gruppo di lavoro, quindi approvato dall'assemblea generale dell'IFIP dell'UNESCO per la pubblicazione. Traduzioni dello standard sono state fatte in russo, francese, tedesco e bulgaro e in seguito in giapponese. Lo standard fu reso disponibile anche in braille. L'ALGOL 68 divenne lo standard GOST/ГОСТ-27974-88 nell'Unione Sovietica.
+GOST 27974-88 → Linguaggio di programmazione ALGOL 68 - Язык программирования АЛГОЛ 68
+GOST 27975-88 → Linguaggio di programmazione ALGOL 68 esteso - Язык программирования АЛГОЛ 68 расширенный
+
+Le istruzioni dell'ALGOL 68 in inglese case, in, out, esac sono выб, в, пибо, быв nell'alfabeto cirillico.
+
+Linguaggi di programmazione basati su lingue diverse dall'inglese
+Aheui – Un linguaggio di programmazione esoterico simile a Befunge ma in hangŭl.
+AMMORIA – Un linguaggio di programmazione orientato agli oggetti in arabo.
+Analitik – Un linguaggio basato sul russo con espressioni algebriche usate nelle serie di computer Mir prodotte nell'Unione Sovietica.
+ARLOGO – Il primo linguaggio open source arabo, basato sul linguaggio Logo.
+BASIC cinese – Dialetto di BASIC in cinese basato sull'Applesoft BASIC per i cloni taiwanesi di Apple II e il Microprofessor II.
+எழில் (Ezhil) – Un linguaggio di programmazione in tamil sviluppato per scopi educativi.
+Farsi.NET – Un linguaggio di programmazione orientato agli oggetti in persiano per .NET Framework. È simile a C# e Delphi.
+Fjölnir – Un linguaggio imperativo in islandese sviluppato negli anni '80.
+FOCAL – Le parole chiave erano in origine in inglese, ma la DEC ha prodotto delle versioni del linguaggio in diverse lingue europee.
+4th Dimension – Nelle versioni locali il suo linguaggio interno usa parole chiave francesi o tedesche.
+Jeem ج – Un linguaggio in arabo basato sul C++ e con una grafica semplice.
+Glagol – Un linguaggio basato sul russo simile ad Oberon e a Pascal.
+GOTO++ – Un linguaggio di programmazione esoterico basato sul francese e sull'inglese.
+Hindawi – Traduzioni di alcuni linguaggi (C, C++, lex, yacc, Assembly, BASIC, Logo, Ada e altri) nelle principali lingue dell'India (hindī, gujarati, assamese e bengalese).
+Hindī – Un linguaggio di programmazione in hindī per il .NET Framework.
+hForth – Un linguaggio basato sul Forth con delle parole chiave opzionali in coreano.
+HPL – Un linguaggio basato sull'ebraico.
+Lexico – Un linguaggio orientato agli oggetti in spagnolo per l'insegnamento della programmazione .NET.
+Linotte – Un linguaggio basato sul francese.
+Logo – In una delle prime edizioni dell'Apple II era disponibile in francese.
+Loughaty – Un linguaggio in arabo basato su di una sintassi proprietaria.
+Lusus - Un linguaggio di programmazione in latino. È il primo ad essere esclusivamente in Latino.
+LSE – Langage symbolique d'enseignement, un linguaggio pedagogico in francese progettato negli anni '70 allÉcole supérieure d'électricité. È un tipo di BASIC ma con procedure, funzioni e variabili locali come in Pascal.
+Microsoft Word e Microsoft Excel – I loro linguaggi macro sono anche in lingue diverse dall'inglese.
+ML4 – Un linguaggio per la programmazione di database client/server con parole chiave in inglese o tedesco.
+Monicelli – Un linguaggio di programmazione basato sulle Supercazzole.
+Nadesiko – Un linguaggio basato sul giapponese.
+Rapira – Un linguaggio procedurale in russo.
+Robik – Un semplice linguaggio in russo per insegnare le basi della progettazione ai bambini.
+SAKO – Un linguaggio creato negli anni '50 e soprannominato "Fortran polacco".
+Swaram – Un semplice linguaggio procedurale progettato per la programmazione in tamil.
+Superlogo – Un linguaggio in olandese basato sul Logo.
+TI-BASIC – La versione 68000 è localizzata anche in lingue diverse dall'inglese.
+var'aq – Un linguaggio basato sulla lingua artificiale klingon di Star Trek.
+WinDev – Linguaggio di programmazione in francese.
+1C:Enterprise – Linguaggio di programmazione in russo per applicazioni in ambito economico. Si possono usare anche parole chiave in inglese.
+
+Linguaggi di programmazione basati su simboli anziché su parole chiave
+Molti di essi sono linguaggi esoterici.
+APL – Un linguaggio basato sui simboli della matematica.
+Brainfuck – Un linguaggio esoterico minimalista creato con lo scopo di avere un compilatore che occupasse meno di 256 B. Anche il suo predecessore P′′, usato per verificare delle asserzioni riguardo alle strutture dei linguaggi di programmazione, usava dei simboli.
+FALSE – Un linguaggio esoterico minimalista con sintassi formata principalmente da singoli caratteri non alfanumerici.
+Piet – Un linguaggio esoterico basato sull'arte: i programmi assomigliano a file grafici contenenti arte astratta.
+Plankalkül – Uno dei primi linguaggi di programmazione, è stato sviluppato dal pioniere dell'informatica tedesco Konrad Zuse.
+Velato – Un linguaggio i cui comandi sono determinati da una sequenza di note in un file MIDI.
+Whitespace – Un linguaggio basato su spazi bianchi, tabulazioni e ritorni a capo.

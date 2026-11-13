@@ -1,0 +1,66 @@
+I missili AGM-84 Harpoon, RGM-84 Harpoon e UGM-84 Harpoon sono missili antinave sviluppati dagli Stati Uniti in un periodo che inizia negli anni settanta (in piena guerra fredda) e va oltre la fine degli anni novanta. Sono un gruppo di sistemi d'arma interforze: esistono infatti una versione per il lancio da aereo (AGM-84), per il lancio da navi di superficie (RGM-84) e per il lancio da sottomarino (UGM-84).
+
+I missili sono guidati tramite un sistema di navigazione radar e hanno la possibilità di effettuare una traiettoria "pop-up" (volo radente fino al bersaglio, poi il missile si alza, inquadra il bersaglio e piomba su di esso) che, unita a una testata ad alto esplosivo da 225 kg, garantisce una elevata probabilità di impatto e distruzione del bersaglio.
+
+Varianti
+
+L'Harpoon è un missile a volo radente, con attacco in picchiata (poi cambiato in attacco radente) e radar attivo di acquisizione terminale degli obiettivi. Nacque come arma aria-superficie, e come tale è ritornato in auge con la versione SLAM, dalla differente testata di guida. Gli analisti sottolineano che esso era considerato solo come un rimedio al fallimento di un programma missilistico precedente. Dai primi anni settanta ne sono stati prodotti oltre , escludendo gli SLAM, la versione da attacco contro obiettivi terrestri (simile al missile AS-18 sovietico).
+Di seguito le varianti:
+
+AGM-84 Harpoon (AGM-84): missile lanciabile da aereo
+AGM-84A
+AGM-84D (Block 1C)
+AGM-84E (Block 1E):
+AGM-84F
+AGM-84H
+AGM-84H/K (Block 1G-Block 1J)
+AGM-84K
+RGM-84 Harpoon (RGM-84): missile lanciabile da navi
+RGM-84A
+RGM/UGM-84D (Block 1C): una versione con doppia capacità visto che è lanciabile da navi e sottomarini
+RGM-84F (Block 1D)
+RGM-84L (Block II): Sviluppato dal 1996 dalla Danimarca, il primo lancio è avvenuto nel 2001 con gittata massima di 220&nbsp;km. Concepito per operazioni in ambiente litoraneo (ovvero l'insieme di una zona di mare, di costa e di entroterra pari a 50 miglia), presenta capacità migliorate per l'attacco a unità navali ma è in grado di colpire anche obiettivi costieri. L'accoppiamento a un data-link fa sì che il missile corregga il volo perché conosce la posizione del bersaglio. Questo consente di impiegare il radar di bordo per poco tempo e su un'area piccola (riducendo la possibilità di tracciarlo). Il missile è apprezzato perché può attaccare bersaglio sulla costa con precisione, impresa difficilissima a causa della conformazione del litorale. Equipaggiato con il sistema di navigazione INS/GPS che permette di puntare bersagli terrestri, navi in porto (con un CEP di 10/15 metri) e persino navi in alto mare grazie all'uso di un radar a elevata resistenza alle ECM. La guida a INS/GPS trasforma il missile in “passivo”, quindi difficile da rilevare.
+UGM-84 Harpoon (UGM-84): missile lanciabile da sottomarino
+UGM-84A
+UGM/RGM-84D (Block 1C): una versione con doppia capacità visto che è lanciabile da navi e sottomarini
+
+Caratteristiche generali
+Funzione primaria: missile contro navi di superficie, lanciato dall'aria, superficie o sommergibili.
+Produttore: Boeing Integrated Defense Systems
+Unità propulsiva: motore turbojet Teledyne J402 con 660&nbsp;lbf (2,9&nbsp;kN) di impulso, e booster a propellente solido per lanci da sopra e da sotto la superficie dell'acqua.
+Lunghezza:
+Versione aero-lanciata: 3,8 m
+Versione lanciabile dalla superficie e da sottomarini: 4,6 m
+Peso:
+Aero-lanciata: 519&nbsp;kg
+Lanciata da sommergibili o da navi da compartimenti stagni o da lanciatori a canister: 628&nbsp;kg
+Diametro: 340&nbsp;mm
+Apertura alare: 910&nbsp;mm (3&nbsp;ft) con le alette del booster e le ali
+Raggio utile: sopra l'orizzonte
+AGM-84D - 220&nbsp;km (120 miglia nautiche)
+RGM/UGM-84D - 140&nbsp;km (75 miglia nautiche)
+AGM-84E - 93&nbsp;km (50 miglia nautiche)
+AGM-84F - 315&nbsp;km (170 miglia nautiche)
+AGM-84H/K- 280&nbsp;km (150 miglia nautiche)
+Velocità: subsonica alta, attorno a 850&nbsp;km/h, 240&nbsp;m/s
+Guida: missile da crociera, volo appena sopra la superficie, monitorato da altimetro radar, traiettoria terminale contro il bersaglio corretta mediante guida radar-attiva
+Testata esplosiva: 221&nbsp;kg, esplosivo ad alto potenziale in configurazione da penetrazione
+Costo per unità: US$720.000
+Data del primo dispiegamento:
+Lanciato da nave (RGM-84A): 1977
+Aero-lanciato (AGM-84A): 1979
+Lanciato da sommergibile (UGM-84A): 1981
+SLAM (AGM-84E): 1990
+SLAM-ER (AGM-84H): 1998 (consegna); 2000 (inizio delle capacità operative (IOC))
+SLAM-ER ATA (AGM-84K): 2002 (IOC)
+
+Utilizzatori
+
+Alcune batterie missilistiche costiere di Harpoon Block II sono state consegnate agli ucraini durante l'Invasione russa dell'Ucraina del 2022
+
+Royal Netherlands Navy
+Diversi missili sono stati consegnati alle forze ucraine
+
+Diversi missili sono stati consegnati alle forze ucraine
+
+Alcune batterie missilistiche costiere di Harpoon Block II sono state cedute nel 2022 dalle forze armate danesi alle forze armate ucraine per essere dislocati nella zona di Odessa con lo scopo di contrastare la Flotta russa del Mar Nero durante le operazioni di difesa dall'Invasione russa dell'Ucraina. Il 28 maggio 2022, il ministero della Difesa ucraino ha dichiarato di aver iniziato a ricevere tali missili da Danimarca, Regno Unito e Olanda.

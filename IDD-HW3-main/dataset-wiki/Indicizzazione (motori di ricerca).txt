@@ -1,0 +1,161 @@
+Per indicizzazione si intende l'inserimento di un sito web o un blog nel database di un motore di ricerca. L'indicizzazione di un sito internet, in altre parole, è il modo in cui il sito viene acquisito e interpretato dai motori di ricerca e quindi compare nelle loro pagine di risposta alle interrogazioni degli utenti web.
+
+Diversa cosa è il posizionamento, che è invece un'azione volta a determinare che un sito compaia in una specifica posizione nelle pagine di risposta dei motori (cioè nelle prime posizioni).
+
+Operazioni dei motori di ricerca
+Registrazione dei siti
+
+Dal lato dei motori di ricerca, l'indicizzazione dei siti web/blog è la loro prima e fondamentale operazione. In realtà questa fase è preceduta dalla scansione delle pagine web pubbliche, che avviene periodicamente (e in automatico) da parte dei principali motori, a patto che le pagine rispettino determinati requisiti di progettazione web e di qualità. Successivamente potrà avvenire la fase di posizionamento, che è quella di cui si occupano gli esperti di ottimizzazione. L'indicizzazione è solo una delle tre fasi necessarie (scansione per trovare contenuti web, indicizzazione per assimilarli e posizionamento per stabilire come e dove siano ricercabili), tutte e tre ben distinte tra di loro, ed è importante non fare confusione nel considerarle. Ad esempio, l'indicizzazione è solo la parte necessaria perché le pagine del sito siano visibili sui motori, ma non è solitamente sufficiente perché il sito sia reperibile una ricerca arbitraria.
+
+Dopo averli registrati, i motori di ricerca scansionano periodicamente i siti presenti nei propri archivi per verificare eventuali aggiornamenti: tramite particolari programmi chiamati spider (letteralmente "ragni", nel senso che essi attraversano la "ragnatela" di collegamenti con cui si raffigura simbolicamente il web), entrano in un sito e ne incominciano a leggere il markup HTML, alla ricerca di eventuali modifiche del contenuto o della struttura. Quando uno spider trova un link a un'altra pagina del sito o ad un altro sito, analizza anche quest'ultimo di conseguenza.
+
+Quando il motore di ricerca termina la lunga operazione di scansione dei siti già presenti in archivio comincia a scansionare tutti i siti proposti dai webmaster tramite il servizio add url (segnala un sito) che si trova in tutti i motori di ricerca. Questo sistema è oramai obsoleto: è preferibile fare uso di strumenti più moderni per monitorare il proprio sito, come ad esempio la Search Console di Google.
+
+Il sito non viene indicizzato, totalmente o in parte, se nel markup HTML sono presenti istruzioni come , oppure, in caso di foto, ; se invece non è specificato nulla al riguardo, viene indicizzato l'intero contenuto della pagina Web.Ad eccezione dei meta tag ROBOTS, i metadati HTML hanno un'utilità minima per il posizionamento dei siti nei motori di ricerca, che si basano "sul testo contenuto nella pagina stessa, sulla popolarità del sito web e su diversi altri parametri".
+
+Classificazione dei siti
+Dopo aver scansionato la rete e quindi indicizzato (nel senso di raggruppato) una grandissima mole di pagine web, il motore di ricerca passa alla seconda fase: classificarle e posizionarle in base a delle parole chiave che rispecchino il più possibile il sito. In questo modo i motori di ricerca, tramite particolari algoritmi, assicurano ai loro utenti contenuti validi e aggiornati. Ogni motore utilizza algoritmi particolari, come il PageRank di Google, che attribuisce ad una pagina un'importanza che dipende dal numero di collegamenti che puntano a tale pagina dagli altri siti internet.
+
+Ultimamente i motori di ricerca tendono a penalizzare, ma non sempre, l'uso di segnalazioni/indicizzazioni automatiche tramite software.
+
+Indicizzazioni ripetute della stessa pagina vengono considerate spam.
+
+I tempi di indicizzazione di un sito internet possono variare da poche settimane ai tre mesi.
+
+Diritto italiano
+Una sentenza del Tribunale di Roma emessa il 23 marzo 2011, ha condannato un motore di ricerca per aver pubblicato link a siti web peer-to-peer che consentono lo streaming di film coperti da copyright.
+
+Fattori di progettazione dell'indice
+I fattori principali nella progettazione dell'architettura di un motore di ricerca includono:
+
+Unisci fattori
+Come i dati entrano nell'indice o come le parole o le caratteristiche dell'oggetto vengono aggiunte all'indice durante l'attraversamento del corpo del testo e se più indicizzatori possono funzionare in modo asincrono. L'indicizzatore deve prima verificare se sta aggiornando il vecchio contenuto o aggiungendo nuovo contenuto. L'attraversamento è in genere correlato alla politica di raccolta dei dati. L'unione dell'indice del motore di ricerca è simile nel concetto al comando SQL Merge e ad altri algoritmi di unione.
+Tecniche di archiviazione
+Come memorizzare i dati dell'indice, ovvero se le informazioni devono essere compresse o filtrate.
+Dimensione dell'indice
+Quanta memoria del computer è necessaria per supportare l'indice.
+Velocità di ricerca
+La velocità con cui una parola può essere trovata nell'indice invertito. La velocità di trovare una voce in una struttura di dati, rispetto alla rapidità con cui può essere aggiornata o rimossa, è un obiettivo centrale dell'informatica.
+Manutenzione
+Come viene mantenuto l'indice nel tempo.
+Tolleranza ai guasti
+Quanto è importante che il servizio sia affidabile. I problemi includono la gestione del danneggiamento dell'indice, la determinazione se i dati non validi possono essere trattati isolatamente, la gestione di hardware difettoso, partizionamento e schemi come il partizionamento basato su hash o composito, nonché la replica.
+
+Indice delle strutture dati
+Le architetture dei motori di ricerca variano nel modo in cui viene eseguita l'indicizzazione e nei metodi di memorizzazione dell'indice per soddisfare i vari fattori di progettazione.
+
+Albero dei suffissi
+Strutturato in senso figurato come un albero, supporta la ricerca temporale lineare. Costruito memorizzando i suffissi delle parole. L'albero dei suffissi è un tipo di trie. I tentativi supportano l'hashing estendibile, che è importante per l'indicizzazione dei motori di ricerca. Utilizzato per la ricerca di modelli nelle sequenze di DNA e nel raggruppamento. Uno dei principali svantaggi è che la memorizzazione di una parola nell'albero può richiedere spazio oltre a quello necessario per memorizzare la parola stessa. Una rappresentazione alternativa è un array di suffissi, che si ritiene richieda meno memoria virtuale e supporti la compressione dei dati come l'algoritmo BWT.
+
+Indice invertito
+Memorizza un elenco di occorrenze di ciascun criterio di ricerca atomico, tipicamente sotto forma di tabella hash o albero binario.
+
+Indice di citazione
+Memorizza citazioni o collegamenti ipertestuali tra documenti per supportare l'analisi delle citazioni, un argomento di bibliometria.
+Indice n -gram
+Memorizza sequenze di lunghezza dei dati per supportare altri tipi di recupero o estrazione di testo.
+Matrice dei termini del documento
+Utilizzato nell'analisi semantica latente, memorizza le occorrenze di parole nei documenti in una matrice sparsa bidimensionale.
+
+Sfide nel parallelismo
+Una delle principali sfide nella progettazione dei motori di ricerca è la gestione dei processi di elaborazione seriale. Ci sono molte opportunità per condizioni di gara e errori coerenti. Ad esempio, un nuovo documento viene aggiunto al corpus e l'indice deve essere aggiornato, ma contemporaneamente l'indice deve continuare a rispondere alle query di ricerca. Questa è una collisione tra due attività concorrenti. Considera che gli autori sono produttori di informazioni e un web crawler è il consumatore di queste informazioni, afferra il testo e lo memorizza in una cache (o corpus). L'indice forward è il consumatore delle informazioni prodotte dal corpus e l'indice invertito è il consumatore delle informazioni prodotte dall'indice forward. Questo è comunemente indicato come modello produttore-consumatore. L'indicizzatore è il produttore di informazioni ricercabili e gli utenti sono i consumatori che devono cercare. La sfida è amplificata quando si lavora con l'archiviazione distribuita e l'elaborazione distribuita. Nel tentativo di scalare con quantità maggiori di informazioni indicizzate, l'architettura del motore di ricerca può coinvolgere il calcolo distribuito, in cui il motore di ricerca è costituito da diverse macchine che operano all'unisono. Ciò aumenta le possibilità di incoerenza e rende più difficile mantenere un'architettura parallela, distribuita e completamente sincronizzata.
+
+Indici invertiti
+Molti motori di ricerca incorporano un indice invertito durante la valutazione di una query di ricerca per individuare rapidamente i documenti contenenti le parole in una query e quindi classificare questi documenti in base alla pertinenza. Poiché l'indice invertito memorizza un elenco dei documenti contenenti ciascuna parola, il motore di ricerca può utilizzare l'accesso diretto per trovare i documenti associati a ciascuna parola nella query al fine di recuperare rapidamente i documenti corrispondenti. Quanto segue è un'illustrazione semplificata di un indice invertito:
+
+Questo indice può solo determinare se una parola esiste all'interno di un particolare documento, poiché non memorizza informazioni riguardanti la frequenza e la posizione della parola; è quindi considerato un indice booleano. Tale indice determina quali documenti corrispondono a una query ma non classifica i documenti corrispondenti. In alcuni progetti l'indice include informazioni aggiuntive come la frequenza di ogni parola in ogni documento o la posizione di una parola in ogni documento. informazioni sulla posizione consentono all'algoritmo di ricerca di identificare la prossimità delle parole per supportare la ricerca di frasi; la frequenza può essere utilizzata per aiutare a classificare la rilevanza dei documenti per la query. Tali argomenti sono il fulcro della ricerca nel recupero delle informazioni.
+
+L'indice invertito è una matrice sparsa, poiché non tutte le parole sono presenti in ogni documento. Per ridurre i requisiti di memoria di archiviazione del computer, viene archiviata in modo diverso da una matrice bidimensionale. L'indice è simile al termine matrici di documenti utilizzato dall'analisi semantica latente. L'indice invertito può essere considerato una forma di tabella hash. In alcuni casi l'indice è una forma di albero binario, che richiede ulteriore spazio di archiviazione ma può ridurre il tempo di ricerca. Negli indici più grandi l'architettura è tipicamente una tabella hash distribuita.
+
+Unione dell'indice
+L'indice invertito viene riempito tramite un'unione o una ricostruzione. Una ricostruzione è simile a un'unione, ma prima elimina il contenuto dell'indice invertito. L'architettura può essere progettata per supportare l'indicizzazione incrementale, cui un'unione identifica il documento oi documenti da aggiungere o aggiornare e quindi analizza ogni documento in parole. Per la precisione tecnica, un'unione fonde i documenti appena indicizzati, che di solito risiedono nella memoria virtuale, con la cache dell'indice che risiede su uno o più dischi rigidi del computer.
+
+Dopo l'analisi, l'indicizzatore aggiunge il documento di riferimento all'elenco dei documenti per le parole appropriate. In un motore di ricerca più grande, il processo di ricerca di ogni parola nell'indice invertito (al fine di segnalare che si è verificato all'interno di un documento) può richiedere troppo tempo, e quindi questo processo è comunemente suddiviso in due parti, lo sviluppo di un indice forward e un processo che ordina il contenuto dell'indice forward nell'indice invertito. L'indice invertito è così chiamato perché è un'inversione dell'indice forward.
+
+L'indice forward
+L'indice forward memorizza un elenco di parole per ogni documento. Quanto segue è una forma semplificata dell'indice forward:
+
+La logica alla base dello sviluppo di un indice diretto è che quando i documenti vengono analizzati, è meglio memorizzare immediatamente le parole per documento. La delineazione consente l'elaborazione asincrona del sistema, che elude parzialmente il collo di bottiglia dell'aggiornamento dell'indice invertito. L'indice forward è ordinato per trasformarlo in un indice invertito. L'indice forward è essenzialmente un elenco di coppie composto da un documento e una parola, raccolti dal documento. Convertire l'indice forward in un indice invertito è solo una questione di ordinare le coppie in base alle parole. A questo proposito, l'indice invertito è un indice diretto ordinato per parola.
+
+Compressione
+La generazione o il mantenimento di un indice del motore di ricerca su larga scala rappresenta una sfida significativa per l'archiviazione e l'elaborazione. Molti motori di ricerca utilizzano una forma di compressione per ridurre la dimensione degli indici sul disco. Considera il seguente scenario per un motore di ricerca Internet a testo completo.
+
+Sono necessari 8 bit (o 1 byte) per memorizzare un singolo carattere. Alcune codifiche utilizzano 2 byte per carattere
+Il numero medio di caratteri in una data parola su una pagina può essere stimato a 5
+
+Dato questo scenario, un indice non compresso (supponendo un indice semplice e non combinato) per 2 miliardi di pagine web dovrebbe memorizzare 500 miliardi di voci di parole. A 1 byte per carattere o 5 byte per parola, ciò richiederebbe 2500 gigabyte di spazio di archiviazione da solo. Questo requisito di spazio può essere ancora maggiore per un'architettura di archiviazione distribuita a tolleranza di errore. A seconda della tecnica di compressione scelta, l'indice può essere ridotto a una frazione di questa dimensione. Il compromesso è il tempo e la potenza di elaborazione necessari per eseguire la compressione e la decompressione.
+
+In particolare, i progetti di motori di ricerca su larga scala incorporano il costo dello stoccaggio nonché i costi dell'elettricità per alimentare lo stoccaggio. Quindi la compressione è una misura del costo.
+
+Analisi del documento
+L'analisi del documento separa i componenti (parole) di un documento o altra forma di supporto per l'inserimento negli indici in avanti e invertito. Le parole trovate sono chiamate token e quindi, nel contesto dell'indicizzazione dei motori di ricerca e dell'elaborazione del linguaggio naturale, l'analisi è più comunemente definita "tokenizzazione". A volte è anche chiamato parola disambiguazione di confine, il tagging, la segmentazione del testo, l'analisi dei contenuti, analisi del testo, text mining, concordanza generazione, la segmentazione discorso, Lexing, o analisi lessicale. I termini "indicizzazione", "analisi" e "tokenizzazione" sono usati in modo intercambiabile nel gergo aziendale.
+
+Sfide nell'elaborazione del linguaggio naturale
+
+I madrelingua inglesi potrebbero inizialmente considerare la tokenizzazione un compito semplice, ma questo non è il caso della progettazione di un indicizzatore multilingue. In forma digitale, i testi di altre lingue come il cinese, il giapponese o l'arabo rappresentano una sfida maggiore, poiché le parole non sono chiaramente delineate da spazi bianchi. L'obiettivo durante la tokenizzazione è identificare le parole per le quali gli utenti cercheranno. La logica specifica della lingua viene impiegata per identificare correttamente i confini delle parole, che è spesso la logica alla base della progettazione di un parser per ogni lingua supportata (o per gruppi di lingue con indicatori di confine e sintassi simili).
+
+Ambiguità linguistica
+Per aiutare a classificare correttamente documenti corrispondenti, molti motori di ricerca raccolgono informazioni aggiuntive su ogni parola, come la sua lingua o la categoria lessicale (parte del discorso). Queste tecniche dipendono dalla lingua, poiché la sintassi varia tra le lingue. I documenti non identificano sempre chiaramente la lingua del documento o lo rappresentano in modo accurato. Nella tokenizzazione del documento, alcuni motori di ricerca tentano di identificare automaticamente la lingua del documento.
+
+Diversi formati di file
+Per identificare correttamente quali byte di un documento rappresentano i caratteri, il formato del file deve essere gestito correttamente. I motori di ricerca che supportano più formati di file devono essere in grado di aprire e accedere correttamente al documento ed essere in grado di tokenizzare i caratteri del documento.
+
+Conservazione difettosa
+La qualità dei dati in linguaggio naturale potrebbe non essere sempre perfetta. Un numero imprecisato di documenti, in particolare su Internet, non obbedisce strettamente al protocollo file appropriato. I caratteri binari possono essere codificati erroneamente in varie parti di un documento. Senza il riconoscimento di questi caratteri e una gestione appropriata, la qualità dell'indice o le prestazioni dell'indicizzatore potrebbero peggiorare.
+
+Tokenizzazione
+A differenza degli esseri umani alfabetizzati, i computer non comprendono la struttura di un documento in linguaggio naturale e non possono riconoscere automaticamente parole e frasi. Per un computer, un documento è solo una sequenza di byte. I computer non "sanno" che uno spazio separa le parole in un documento. Invece, gli esseri umani devono programmare il computer per identificare ciò che costituisce una parola individuale o distinta indicata come un segno. Un tale programma è comunemente chiamato tokenizer o parser o lexer. Molti motori di ricerca, così come altri software di elaborazione del linguaggio naturale, incorporano programmi specializzati per l'analisi, come YACC o Lex.
+
+Durante la tokenizzazione, il parser identifica sequenze di caratteri che rappresentano parole e altri elementi, come la punteggiatura, che sono rappresentati da codici numerici, alcuni dei quali sono caratteri di controllo non stampabili. Il parser può anche identificare entità come indirizzi e - mail, numeri di telefono e URL. Quando si identifica ogni token, è possibile memorizzare diverse caratteristiche, come il caso del token (superiore, inferiore, misto, corretto), lingua o codifica, categoria lessicale (parte del discorso, come 'nome' o 'verbo'), posizione, frase numero, posizione della frase, lunghezza e numero di riga.
+
+Riconoscimento della lingua
+Se il motore di ricerca supporta più lingue, un passaggio iniziale comune durante la tokenizzazione è identificare la lingua di ciascun documento; molti dei passaggi successivi dipendono dalla lingua (come lo stemming e parte dell'etichettatura vocale). Il riconoscimento della lingua è il processo mediante il quale un programma per computer tenta di identificare o classificare automaticamente la lingua di un documento. Altri nomi per il riconoscimento della lingua includono la classificazione della lingua, l'analisi della lingua, l'identificazione della lingua e l'etichettatura della lingua. Il riconoscimento automatico del linguaggio è oggetto di ricerche in corso sull'elaborazione del linguaggio naturale. Trovare la lingua a cui appartengono le parole può comportare l'uso di una tabella di riconoscimento della lingua.
+
+Analisi del formato
+Se il motore di ricerca supporta più formati di documento, i documenti devono essere preparati per la tokenizzazione. La sfida è che molti formati di documenti contengono informazioni sulla formattazione oltre al contenuto testuale. Ad esempio, i documenti HTML contengono tag HTML, che specificano informazioni di formattazione come l'inizio di una nuova riga, il grassetto e la dimensione o lo stile del carattere. Se il motore di ricerca ignorasse la differenza tra contenuto e "markup", le informazioni estranee verrebbero incluse nell'indice, portando a risultati di ricerca scadenti. L'analisi del formato è l'identificazione e la gestione del contenuto di formattazione incorporato nei documenti che controlla il modo in cui il documento viene visualizzato sullo schermo di un computer o interpretato da un programma software. L'analisi del formato viene anche definita analisi della struttura, analisi del formato, rimozione dei tag, rimozione del formato, normalizzazione del testo, pulizia del testo e preparazione del testo. La sfida dell'analisi del formato è ulteriormente complicata dalla complessità dei vari formati di file. Alcuni formati di file sono proprietari con pochissime informazioni divulgate, mentre altri sono ben documentati. I formati di file comuni e ben documentati supportati da molti motori di ricerca includono:
+
+HTML
+File di testo ASCII (un documento di testo senza una specifica formattazione leggibile dal computer)
+Portable Document Format (PDF) di Adobe
+PostScript (PS)
+LaTeX
+Formati server netnews UseNet
+XML e derivati come RSS
+SGML
+Formati di metadati multimediali come ID3
+Microsoft Word
+Microsoft Excel
+Microsoft Powerpoint
+IBM Lotus Notes
+
+Le opzioni per gestire vari formati includono l'utilizzo di uno strumento di analisi commerciale disponibile pubblicamente offerto dall'organizzazione che ha sviluppato, mantiene o possiede il formato e la scrittura di un parser personalizzato.
+
+Alcuni motori di ricerca supportano l'ispezione dei file archiviati in un formato di file compresso o crittografato. Quando si lavora con un formato compresso, l'indicizzatore decomprime prima il documento; questo passaggio può generare uno o più file, ciascuno dei quali deve essere indicizzato separatamente. I formati di file compressi comunemente supportati includono:
+
+ZIP: file di archivio zip
+RAR - File archivio Roshal
+CAB - File Cabinet di Microsoft Windows
+Gzip - File compresso con gzip
+BZIP - File compresso utilizzando bzip2
+Tape ARchive (TAR), file di archivio Unix, non (esso stesso) compresso
+TAR.Z, TAR.GZ o TAR.BZ2 - File di archivio Unix compressi con Compress, GZIP o BZIP2
+
+L'analisi del formato può comportare metodi di miglioramento della qualità per evitare di includere "cattive informazioni" nell'indice. Il contenuto può manipolare le informazioni di formattazione per includere contenuto aggiuntivo. Esempi di abuso della formattazione dei documenti per spamdexing:
+
+Includere centinaia o migliaia di parole in una sezione che è nascosta alla vista sullo schermo del computer, ma visibile all'indicizzatore, mediante l'uso della formattazione (ad es. Tag "div" nascosto in HTML, che può incorporare l'uso di CSS o JavaScript per fare così).
+Impostare il colore del carattere di primo piano delle parole sullo stesso colore dello sfondo, rendendo le parole nascoste sullo schermo del computer a una persona che visualizza il documento, ma non all'indicizzatore.
+
+Riconoscimento della sezione
+Alcuni motori di ricerca incorporano il riconoscimento delle sezioni, l'identificazione delle parti principali di un documento, prima della tokenizzazione. Non tutti i documenti di un corpus si leggono come un libro ben scritto, suddiviso in capitoli e pagine organizzati. Molti documenti sul web, come newsletter e report aziendali, contengono contenuti errati e sezioni laterali che non contengono materiale primario (quello di cui tratta il documento). Ad esempio, questo articolo mostra un menu laterale con collegamenti ad altre pagine web. Alcuni formati di file, come HTML o PDF, consentono la visualizzazione del contenuto in colonne. Anche se il contenuto viene visualizzato o sottoposto a rendering in diverse aree della visualizzazione, il contenuto di markup non elaborato può memorizzare queste informazioni in sequenza. Le parole che compaiono in sequenza nel contenuto di origine non elaborato vengono indicizzate in sequenza, anche se queste frasi e paragrafi vengono riprodotti in parti diverse dello schermo del computer. Se i motori di ricerca indicizzano questo contenuto come se fosse contenuto normale, la qualità dell'indice e la qualità della ricerca potrebbero essere degradate a causa del contenuto misto e della vicinanza impropria delle parole.
+
+Il contenuto in diverse sezioni viene trattato come correlato nell'indice, quando in realtà non lo è
+Il contenuto della "barra laterale" organizzativa è incluso nell'indice, ma il contenuto della barra laterale non contribuisce al significato del documento e l'indice è riempito con una cattiva rappresentazione dei suoi documenti.
+
+L'analisi della sezione può richiedere al motore di ricerca di implementare la logica di rendering di ciascun documento, essenzialmente una rappresentazione astratta del documento effettivo, e quindi indicizzare la rappresentazione. Ad esempio, alcuni contenuti su Internet vengono visualizzati tramite JavaScript. Se il motore di ricerca non esegue il rendering della pagina e valuta il JavaScript all'interno della pagina, non "vedrebbe" questo contenuto nello stesso modo e indicizzerebbe il documento in modo errato. Dato che alcuni motori di ricerca non si preoccupano dei problemi di rendering, molti progettisti di pagine web evitano di visualizzare i contenuti tramite JavaScript o utilizzano il tag Noscript per assicurarsi che la pagina web sia indicizzata correttamente. Allo stesso tempo, questo fatto può anche essere sfruttato per far sì che l'indicizzatore del motore di ricerca "veda" contenuti diversi da quelli del visualizzatore.
+
+Indicizzazione metatag
+Documenti specifici spesso contengono meta informazioni incorporate come autore, parole chiave, descrizione e lingua. Per le pagine HTML, il meta tag contiene parole chiave incluse anche nell'indice. La precedente tecnologia dei motori di ricerca su Internet indicizzava solo le parole chiave nei meta tag per l'indice forward; l'intero documento non verrà analizzato. A quel tempo l'indicizzazione del testo completo non era così ben consolidata, né l'hardware del computer era in grado di supportare tale tecnologia. Il design del linguaggio di markup HTML inizialmente includeva il supporto per i meta tag allo scopo stesso di essere indicizzati correttamente e facilmente, senza richiedere la tokenizzazione.
+
+Con la crescita di Internet negli anni '90, molte società di mattoni e malta sono diventate "online" e hanno creato siti Web aziendali. Le parole chiave utilizzate per descrivere le pagine Web (molte delle quali erano pagine Web orientate all'azienda simili a brochure di prodotto) sono cambiate da parole chiave descrittive a parole chiave orientate al marketing progettate per aumentare le vendite posizionando la pagina Web in alto nei risultati di ricerca per query di ricerca specifiche. Il fatto che queste parole chiave fossero specificate soggettivamente portava allo spamdexing, che ha spinto molti motori di ricerca ad adottare tecnologie di indicizzazione del testo completo negli anni '90. I progettisti e le aziende dei motori di ricerca potevano inserire solo così tante "parole chiave di marketing" nel contenuto di una pagina web prima di prosciugarlo di tutte le informazioni interessanti e utili. Dato questo conflitto di interessi con l'obiettivo aziendale di progettare siti Web orientati all'utente che fossero "appiccicosi", l'equazione del valore della vita del cliente è stata modificata per incorporare contenuti più utili nel sito Web nella speranza di trattenere il visitatore. In questo senso, l'indicizzazione del testo completo è stata più oggettiva e ha aumentato la qualità dei risultati dei motori di ricerca, poiché rappresentava un ulteriore passo avanti rispetto al controllo soggettivo del posizionamento dei risultati nei motori di ricerca, che a sua volta ha promosso la ricerca di tecnologie di indicizzazione del testo completo.
+
+Nella ricerca desktop, molte soluzioni incorporano meta tag per fornire agli autori un modo per personalizzare ulteriormente il modo in cui il motore di ricerca indicizzerà il contenuto di vari file che non è evidente dal contenuto del file. La ricerca sul desktop è più sotto il controllo dell'utente, mentre i motori di ricerca su Internet devono concentrarsi maggiormente sull'indice di testo completo.

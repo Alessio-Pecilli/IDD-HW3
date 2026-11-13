@@ -1,0 +1,102 @@
+Lo xenon o xeno () è l'elemento chimico che ha come numero atomico 54 e come simbolo Xe. Fa parte del gruppo dei gas nobili (gruppo 18 della tavola periodica degli elementi) dove è collocato al 5° posto, tra il kripton e il radon. Tra i gas nobili è l'ultimo non radioattivo ed è stato il primo di cui si siano mai sintetizzati dei composti.
+
+È un gas incolore, inodore e molto denso, 4,5 volte più pesante dell'aria. Benché non sia un elemento tanto raro nel Sistema Solare, è il più raro dei gas nobili (eccetto il radon radioattivo) nell'atmosfera terrestre, dove è presente in tracce (0,087 ppm).
+
+Scoperta ed etimologia
+Lo xenon fu scoperto dal chimico scozzese William Ramsay e dal chimico inglese Morris Travers nel 1898, dopo la loro scoperta del kripton e del neon. Lo xenon venne trovato nel residuo lasciato dall'evaporazione dell'aria liquida.
+
+Il nome «xenon» (in inglese) venne suggerito da Ramsay derivandolo, come si usava, dal greco antico ξένον (xénon), nome neutro che significa straniero, estraneo, forestiero.
+
+Nel 1902 stimò che la concentrazione di questo gas nell'atmosfera in una parte in 20 milioni.
+
+Caratteristiche
+Lo xenon appartiene al gruppo dei cosiddetti gas nobili ed è normalmente considerato un elemento a valenza zero, che non forma quindi composti in condizioni ordinarie.
+
+Eccitato da una scarica elettrica, lo xenon produce una luce azzurra; questo fenomeno è sfruttato nella produzione di lampade.
+
+A pressioni elevatissime (dell'ordine delle decine di gigapascal) lo xenon esiste allo stato metallico.
+
+Con l'acqua lo xenon può formare dei clatrati, ossia dei sistemi in cui gli atomi di xenon sono fisicamente intrappolati all'interno del reticolo cristallino dell'acqua, benché non siano in alcun modo legati chimicamente ad essa.
+
+Questo gas è famoso e principalmente usato per la realizzazione di lampade e dispositivi luminosi: lampade flash allo xenon per la fotografia, luci stroboscopiche, sorgenti di eccitazione per laser, lampade battericide e per dermatologia, lampade per l'illuminazione automobilistica; ormai tutte le lampade utilizzate per proiezioni cinematografiche utilizzano questo gas.
+
+Le lampade ad arco di xenon ad alta pressione hanno una temperatura di colore simile a quella della luce solare, sono inoltre una fonte di luce ultravioletta a corta lunghezza d'onda e di radiazione nel vicino infrarosso.
+
+Tra gli altri usi dello xenon si annoverano:
+
+l'uso come anestetico generale
+l'uso dei perxenati come agenti ossidanti in chimica analitica
+133Xe è un utile radioisotopo
+la produzione di immagini di tessuti umani, soprattutto delle vie respiratorie, per l'imaging a risonanza magnetica di 129Xe iperpolarizzato
+l'impiego preferenziale nei motori a propulsione ionica, per via della sua facile ionizzabilità, del suo alto peso molecolare e della sua inerzia chimica
+come materiale bersaglio in fase liquida in esperimenti di ricerca diretta di materia oscura (XENON Dark Matter Search Experiment).
+
+Disponibilità
+Lo xenon è un gas presente in tracce nell'atmosfera terrestre, in concentrazione di circa 0,05&nbsp;ppm. Si trova anche nei gas emessi da alcune sorgenti minerali.
+
+133Xe e 135Xe sono sintetizzati per irraggiamento da neutroni nei reattori nucleari raffreddati ad aria.
+
+Industrialmente si ottiene per estrazione dal residuo dell'evaporazione dell'aria liquida.
+
+Composti
+
+Fino al 1962 lo xenon e gli altri gas nobili erano considerati chimicamente inerti ed incapaci di formare qualsivoglia composto chimico. Questa convinzione è stata smentita ed alcuni composti stabili di gas nobili sono stati sintetizzati.
+
+Alcuni dei composti noti dello xenon sono il di-, il tetra- e l'esafluoruro, l'idrato e il deuterato, l'acido perxenico (H4XeO6), l'acido xenico (H2XeO4), il sodio perxenato, il triossido e il tetrossido (questi ultimi due, esplosivi).
+
+Sono noti almeno 80 diversi composti formati da xenon, fluoro e ossigeno; alcuni di essi sono anche intensamente colorati.
+
+Isotopi
+Dell'elemento xenon si conoscono almeno 38 isotopi, con numeri di massa che vanno da A = 110, ad A = 147. Tra questi, quelli naturalmente presenti sulla Terra sono i 9 isotopi che seguono, con le loro abbondanze relative in parentesi: 124Xe (0,095%), 126Xe (0,089%), 128Xe (1,91%), 129Xe (26,4%), 130Xe (4,071%), 131Xe (21,232%), 132Xe (26,909%, il più abbondante), 134Xe (10,436%), 136Xe (8,857%), con N = 82, numero magico di neutroni). Passando dal primo all'ultimo di questi, l'eccesso dei neutroni sui protoni va da 16 a 28.
+
+Isotopi naturali
+I primi due isotopi naturali dello xenon (124 e 126) e gli ultimi due (134 e 136) sono lievissimamente radioattivi.
+
+Il 124Xe è soggetto a doppia emissione di positrone (2β+) accompagnata da doppia cattura elettronica (2ε) e dal modo misto (εβ+), trasformandosi in ogni caso in 124Te (stabile); le energie di decadimento per questi processi sono: Q2β+ = 820,04&nbsp;keV, Qεβ+ = 1&nbsp;842&nbsp;keV e Qεε = 2&nbsp;864&nbsp;keV; l'emivita complessiva è di 1,6×1014&nbsp;anni (circa 10&nbsp;000 volte l'età stimata dell'Universo).
+
+Il 126Xe è dato come stabile ma è soggetto a doppia cattura elettronica (2ε), trasformandosi in 126Te (stabile), rilasciando 896&nbsp;keV di energia.
+
+Il 128Xe è un isotopo stabile.
+
+Il 129Xe (spin 1/2+) è stabile ed è il principale nuclide che rende possibile la risonanza magnetica nucleare per lo xenon (129Xe-RMN): la sua buona abbondanza, la discreta sensitività e il valore di 1/2 dello spin nucleare, che comporta assenza di momento di quadrupolo nucleare, permettono di ottenere spettri con picchi stretti, quindi alta risoluzione, anche per molecole poco simmetriche.
+
+Il 130Xe è un isotopo stabile.
+
+Il 131Xe (spin 3/2+) è stabile ed è l'altro nuclide che permette la RMN per lo xenon; il suo spin > 1/2 comporta momento di quadrupolo, per cui si ottengono spettri abbastanza ben risolti solo per molecole sufficientemente simmetriche.
+
+Il 132Xe è un isotopo stabile.
+
+Il 134Xe è soggetto a doppio decadimento beta (2β−), trasformandosi in 134Ba (stabile), rilasciando 825,38&nbsp;keV di energia, con emivita di 5,8×1022&nbsp;anni.
+
+Il 136Xe, nonostante abbia i neutroni in numero magico, è soggetto a doppio decadimento beta (2β−), trasformandosi in 136Ba (stabile), rilasciando 2&nbsp;461,8&nbsp;keV di energia, con emivita di 2,4×1021&nbsp;anni.
+
+Isotopi artificiali
+Il 122Xe è soggetto a cattura elettronica (ε) con emivita di 20,11&nbsp;ore, emettendo 725&nbsp;keV e trasformandosi in 122I, che poi decade ε a 122Te, stabile.
+
+Il 123Xe è soggetto ad emissione di positrone (β+) con emivita di 2,08&nbsp;ore, emettendo 1&nbsp;672,56&nbsp;keV e trasformandosi in 123I, il quale decade a sua volta β+ a 123Te, che poi decade ε a 123Sb, stabile.
+
+Il 125Xe è soggetto ad emissione di positrone (β+) con emivita di 16,89&nbsp;ore, emettendo 622,17&nbsp;keV e trasformandosi in 125I, che poi decade ε a 125Te, stabile.
+
+Il 127Xe è soggetto a cattura elettronica (ε) con emivita di 36,345&nbsp;giorni, emettendo 662,33&nbsp;keV e trasformandosi in 127I, stabile.
+
+Il 133Xe è soggetto a decadimento beta (β−) con emivita di 5,243&nbsp;giorni, emettendo 427,36&nbsp;keV e trasformandosi in 133Cs, stabile.
+
+Il 135Xe è soggetto a decadimento beta (β−) con emivita di 9,139&nbsp;ore, emettendo 1&nbsp;164,8&nbsp;keV e trasformandosi in 135Cs, che poi decade ancora β− a 135Ba, stabile.
+
+Il 137Xe è soggetto a decadimento beta (β−) con emivita di 3,818&nbsp;minuti, emettendo 4&nbsp;166,25&nbsp;keV e trasformandosi in 137Cs, che poi decade ancora β− a 137Ba, stabile.
+
+Il 138Xe è soggetto a decadimento beta (β−) con emivita di 14,08&nbsp;minuti, emettendo 2&nbsp;736,5&nbsp;keV e trasformandosi in 138Cs, che poi decade ancora β− a 138Ba, stabile.
+
+Applicazioni
+129Xe viene prodotto dal decadimento beta di 129I (emivita di 16 milioni di anni) e dalla cattura elettronica da parte di 129Cs (emivita di 32 ore); 131Xe, 133Xe, 133mXe e 135Xe sono alcuni dei prodotti di fissione di 235U e 239Pu e quindi usati come indicatori di avvenute esplosioni.
+
+Concentrazioni relativamente alte di isotopi radioattivi dello xenon si sprigionano anche dai reattori nucleari, dalle barre di combustibile spezzate e dalla fissione dell'uranio nell'acqua di raffreddamento. Le concentrazioni sono comunque basse se comparate al fondo di radioattività prodotto dal 222Rn.
+
+Essendo lo xenon prodotto dal decadimento di due isotopi genitori, i rapporti tra le quantità dei diversi isotopi di xenon sono molto utili nella datazione di reperti su scale temporali molto lunghe e trovano impiego nello studio delle origini del sistema solare. La datazione basata sul metodo iodio-xenon consente di datare reperti risalenti ad un periodo compreso tra la nucleosintesi primordiale e la condensazione dell'oggetto dalla nebulosa da cui s'è originato il Sole.
+
+L'isotopo Xe-135, con una sezione d'urto per la cattura di neutroni termici di , è il più potente assorbitore di neutroni conosciuto (si veda Veleno neutronico). Questo, unito alla frequenza con cui compare in seguito alle fissioni (soprattutto originato dal decadimento β− dello 135I, a sua volta prodotto diretto di fissione o derivante dal decadimento β− del 135Te), assume una certa importanza in un reattore nucleare, dove la presenza di significative quantità di questo isotopo rende problematica la riattivazione immediata della reazione dopo lo spegnimento del reattore. Occorre attendere un periodo di tempo compreso tra 1-3 giorni prima di riattivare il reattore nucleare, in modo da garantire il decadimento β− dello Xenon-135 in Cesio-135, decadimento caratterizzato da un'emivita di 9,139 ore (si veda Avvelenamento da xeno).
+
+Precauzioni
+Lo xeno non è tossico e può essere maneggiato senza particolari precauzioni (fatte salve, se in bombola, quelle normalmente adottate per il maneggiamento di gas compressi).
+
+I composti dello xeno sono invece tossici per via del loro elevato potere ossidante.

@@ -1,0 +1,33 @@
+Il gruppo di Pasifae è composto dai satelliti naturali di Giove i cui parametri orbitali si avvicinano a quelli del capostipite del gruppo, Pasifae, appunto.
+I semiassi maggiori delle orbite di questi satelliti vanno da 22,8 a 24,1 milioni di km (similmente al gruppo di Carme), le loro inclinazioni orbitali da 144,5° a 158,3°, le loro eccentricità da 0,25 a 0,43; il loro moto è retrogrado.
+
+L'Unione Astronomica Internazionale riserva i nomi terminanti in -e per tutti i satelliti retrogradi di Giove, inclusi i membri di questo gruppo.
+
+Componenti
+I membri del gruppo, in ordine di distanza da Giove, sono:
+
+Euridome
+S/2003 J 23
+Egemone
+Pasifae
+Sponde
+Cillene
+Megaclite
+S/2003 J 4
+Calliroe
+Sinope
+Autonoe
+Aede
+Core
+S/2010 J 1
+S/2011 J 2
+
+Membri principali
+I parametri orbitali per i principali membri del gruppo sono (il segno meno davanti al periodo indica che l'orbita è retrograda):
+
+Origine
+Si ritiene che il gruppo di Pasifae si sia formato quando Giove ha catturato un asteroide che si è successivamente frammentato in seguito a una collisione. L'asteroide progenitore non sembra essere stato fortemente perturbato da questo impatto: si calcola che il corpo celeste originario avesse un diametro di 60&nbsp;km e una massa simile a quella di Pasifae, che ha il 99% della massa originaria dell'asteroide. Tuttavia, se Sinope fa effettivamente parte del gruppo, allora il rapporto di massa di Pasifae diventa dell'87%. Alcuni autori non includono Sinope nel gruppo.
+
+A differenza dei gruppi di Carme e di Ananke, l'ipotesi di un'origine conseguente a un singolo impatto non è accettata da tutti gli studiosi. Nel gruppo di Pasifae i membri hanno semiassi simili, ma le inclinazioni orbitali sono molto disperse. Lo studio di Nesvorny, include solo Megaclite nel gruppo di Pasifae. Tuttavia la risonanza secolare, che è nota sia per Pasifae che Sinope, potrebbe contribuire alla forma dell'orbita e fornire una spiegazione per la dispersione post-collisionale degli elementi orbitali.
+
+Una proposta alternativa ipotizza che Sinope non faccia parte dei residui della collisione originaria e sia stato invece catturato successivamente. La differenza di colore tra questi corpi celesti (grigio per Pasifae, rosso chiaro per Calliroe e Megaclite) suggerisce anche un'origine complessa rispetto a un singolo evento collisionale.

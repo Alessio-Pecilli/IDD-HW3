@@ -1,0 +1,9 @@
+Pan è il satellite naturale più interno del pianeta Saturno; scoperto nel 1990 da Mark Showalter grazie all'analisi di immagini scattate nel precedente decennio nel corso del programma Voyager, deve il suo nome alla divinità Pan, presente nella mitologia greca. Il satellite era precedentemente noto con la designazione provvisoria S/1981 S 13.
+
+Storia
+L'esistenza di un satellite all'interno della divisione di Encke era stata suggerita per la prima volta da Jeffrey Cuzzi e Jeffrey Scargle nel 1985, osservando la presenza di strutture dall'aspetto ondulatorio nell'anello A del pianeta chiaramente riconducibili alla presenza di un corpo perturbante; la sua orbita e la sua massa sono state calcolate in seguito da Showalter e da altri colleghi astronomi. I dati teorici indicavano un semiasse maggiore pari a ed una massa pari a volte quella di Saturno. Pan presenta effettivamente un semiasse maggiore pari a ed una massa equivalente a volte quella di Saturno.
+
+Pan fu individuato entro un margine di 1° dalla posizione prevista, grazie all'analisi di tutte le immagini catturate in precedenza dalla Voyager 2 e all'utilizzo di simulazioni al computer per verificare se in ciascuna di esse sarebbe stato effettivamente possibile individuare la presenza di un satellite naturale. Pan è risultato chiaramente visibile in tutte le immagini dalla risoluzione superiore a ~50&nbsp;km/pixel, ed appare complessivamente in undici fotografie.
+
+Parametri orbitali
+Pan orbita all'interno della divisione di Encke, nell'anello A di Saturno; funge da satellite pastore per l'anello, e la sua presenza mantiene la divisione libera dalle particelle ghiacciate che compongono gli anelli. La sua attrazione gravitazionale forma inoltre strutture dall'aspetto ondulatorio all'interno dell'anello.

@@ -1,0 +1,27 @@
+Un algoritmo di ordinamento ricade nella famiglia degli algoritmi di ordinamento adattivi se la presenza di un certo ordine preesistente nella lista di elementi da ordinare permette all'algoritmo di eseguire l'ordinamento in modo più rapido. Se, cioè, l'algoritmo trae vantaggio dal limitato disordine della lista stessa. Gli algoritmi di ordinamento adattivi sono in genere derivati da altri algoritmi di ordinamento.
+
+Motivazioni
+Gli algoritmi di ordinamento comparativi generalmente hanno tempi computazionali che nella migliore delle ipotesi sono equivalenti a O(n&nbsp;logn). Gli algoritmi adattivi sfruttano invece la presenza di un certo grado di ordine preesistente nella lista per ottenere tempi di calcolo migliori: in genere il tempo impiegato dall'algoritmo per ordinare la lista cresce con la dimensione della lista e con il disordine della stessa. In altre parole, più i dati sono preordinati e più veloce risulta l'ordinamento.
+
+Questi algoritmi sono molto utili perché le liste con già un certo grado di ordine sono molto comuni per cui le prestazioni di algoritmi di ordinamento preesistenti possono essere migliorate tenendo conto della possibilità di trovare un certo ordine nei dati da ordinare.
+
+È da notare come gli algoritmi di ordinamento che presentano buoni tempi computazionali nel trattamento di liste nel disordine più totale, come l'Heap sort o il Merge sort, non considerano la possibilità che i dati siano già parzialmente ordinati, nonostante questa mancanza possa essere facilmente risolta: ad esempio, nel caso del Merge sort basta verificare se sinistra.ultimo_elemento ≤ destra.primo_elemento, nel qual caso l'operazione di fusione può essere sostituita da una semplice concatenazione (una modifica che rientra pienamente nello scopo di rendere un algoritmo adattivo).
+
+Esempi
+Un classico esempio di un algoritmo di ordinamento adattivo è lo Straight Insertion Sort (una variante dell'Insertion sort): questo algoritmo scorre la lista da sinistra a destra, cercando ripetutamente la posizione dell'elemento corrente, ed inserendolo in un'altra lista di elementi ordinati precedentemente.
+
+Lo Straight Insertion Sort può essere rappresentato così in pseudocodice
+
+procedure Straight Insertion Sort (X, n):
+X[0] ← − ∞;
+for j = 2 to n do
+i ← j − 1
+t ← X[j]
+while t < X[i] do
+X[i + 1] ← X[i]
+i ← i + 1
+X[i + 1] ← t
+
+Le prestazioni di questo algoritmo sono legate a quante inversioni (cioè coppie di elementi le cui posizioni sono invertite rispetto all'ordine corretto) sono presenti nella lista da ordinare.
+
+Altri esempi di algoritmi di ordinamento adattivi sono lAdaptive heap sort e lAdaptive merge sort. Anche lo Smoothsort, una variante dell'Heap sort, ed il Timsort, presente nel linguaggio Python, sono considerati algoritmi di ordinamento adattivi.

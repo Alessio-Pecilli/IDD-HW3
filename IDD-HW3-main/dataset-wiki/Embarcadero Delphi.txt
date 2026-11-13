@@ -1,0 +1,245 @@
+Embarcadero Delphi è un linguaggio di programmazione e un ambiente di sviluppo. È molto utilizzato per lo sviluppo di applicazioni desktop e aziendali che utilizzano database, ma essendo uno strumento di sviluppo di carattere generico lo si può utilizzare per qualsiasi tipo di progetto.
+
+Precedentemente conosciuto come Object Pascal (una versione di Pascal orientata agli oggetti), è stato sviluppato inizialmente per Microsoft Windows, ma negli ultimi anni sono state pubblicate versioni per GNU/Linux, PHP (Kylix) e per il framework .NET di Microsoft.
+
+Delphi è stato creato dalla Borland (che per un certo periodo ha cambiato il suo nome in Inprise). Alla fine del 2006 Borland ha creato una divisione, CodeGear, alla quale sono stati trasferiti tutti gli ambienti di sviluppo, incluso Delphi.
+
+Il 7 maggio 2008 la divisione CodeGear è stata acquistata per 23 milioni di dollari dalla società Embarcadero Technologies, che ha sede a Austin in Texas e che attualmente è la proprietaria e la sviluppatrice del framework.
+
+Storia
+Delphi nacque come un progetto di ricerca interno in Borland, poi evoluto in un prodotto commerciale che avrebbe dovuto chiamarsi AppBuilder. La società Novell però commercializzò un pacchetto software chiamato AppBuilder prima dell'uscita del prodotto Borland, che ricorse a un diverso nome per il suo prodotto.
+
+Il nome Delphi venne dato da Danny Thorpe, uno degli sviluppatori di Delphi stesso, in onore dell'oracolo di Delfi: uno dei principali obiettivi di questo nuovo ambiente di sviluppo era il facile interfacciamento con i principali motori database. Il più diffuso e conosciuto motore di database all'epoca era proprio Oracle e da qui nacque il gioco di parole "Se vuoi parlare con l'Oracolo (in inglese Oracle), devi andare a Delphi".
+
+È stato uno dei primissimi strumenti di sviluppo a essere riconosciuto come strumento RAD, Rapid Application Development, quando fu realizzato nel 1995: fu il primo ambiente di sviluppo completamente visuale, ed il suo compilatore era estremamente veloce se paragonato a quelli esistenti all'epoca.
+
+Delphi 2, realizzato l'anno successivo, permetteva lo sviluppo di applicazioni per sistemi Windows a 32bit, capacità che fu introdotta pochi anni dopo anche nell'ambiente di sviluppo per C++ chiamato C++Builder, realizzato sempre dalla Borland.
+
+Il capo architetto del progetto Delphi, e del suo predecessore Turbo Pascal, è stato Anders Hejlsberg fino al momento del suo passaggio a Microsoft nel 1996.
+
+Nel 2001 è stata pubblicata una versione per Linux conosciuta come Kylix (coppa greca da vino). Una nuova versione di questo ambiente è stata pubblicata ogni anno fino a giungere alla versione Delphi Studio nel 2002, il linguaggio utilizzato è ora conosciuto come Delphi invece di Object Pascal ed è stato aggiunto il supporto per Linux (attraverso Kylix) e .NET (con una versione preliminare del compilatore).
+
+Per la piattaforma .NET Borland presentò C#Builder che permetteva l'utilizzo del linguaggio C# e del framework .NET. Il pieno supporto per .NET venne introdotto in seguito con Delphi 8, una versione di Delphi orientata esclusivamente allo sviluppo per piattaforma .NET, tralasciando dunque quello per Win32. Successivamente a Delphi 8 sono stati distribuiti Delphi 2005 (che ha finalmente riunito in un unico ambiente di sviluppo il supporto a Delphi per Win32, Delphi per .NET e C#) e Borland Developer Studio 2006, che ha aggiunto inoltre il supporto a C/C++ integrando C++ Builder, prima disponibile come prodotto separato.
+
+Nel 2006 sono apparse le versioni "Turbo", che a differenza di Borland Developer Studio offrono solo una singola personalità (Delphi, Delphi.NET, C# o C++), sia in una versione gratuita (Turbo Explorer) che però non possono installare componenti di terze parti, sia in una a pagamento (Turbo Professional) senza limitazioni.
+
+La versione 2007 ha aggiunto, funzionalità specifiche per Windows Vista, una nuova versione di dbExpress interamente in Object Pascal, librerie web con supporto per AJAX, e, limitatamente alla versione .NET, i generici. Delphi 2007 è disponibile stand-alone, o come parte di RAD Studio 2007 (che include anche il supporto allo sviluppo in C++).
+
+Dalla versione Delphi 2009 (Rad Studio 2009) si è inserito il pieno supporto ad Unicode. Attualmente, dopo l'uscita dell'ambiente di sviluppo RAD Studio 2010 e Delphi 2010, è stato distribuito il nuovo ambiente di sviluppo, denominato RAD STUDIO XE, con pieno supporto a Delphi e C++, così come il Delphi XE.
+
+Dall'anno 2016 è stata rilasciata una nuova versione di Delphi ogni sei mesi, con supporto a nuove piattaforme e sistemi operativi in media ogni anno.
+
+Caratteristiche
+Delphi genera codice macchina compilato in forma nativa per Microsoft Windows, MacOS, iOS, Android, e Linux a 64bit. Prevede, oltre al compilatore, un editor di codice con funzionalità integrate di refactoring e controllo sintattico evoluto, uno strumento per la realizzazione visuale delle interfacce grafiche, un debugger integrato e il supporto per plugin di terze parti.
+
+Alcune caratteristiche degne di nota del linguaggio Delphi includono:
+
+La manipolazione trasparente degli oggetti tramite riferimenti/puntatori.
+Riutilizzabilità del codice grazie ai componenti, ovvero classi rappresentate e gestite nella IDE come icone inseribili nei progetti.
+Le proprietà come costrutti del linguaggio, che permettono la lettura e la scrittura in modo trasparente attraverso l'accesso alle variabili membro.
+Proprietà di tipo "indice" e le proprietà di default che permettono un accesso alle collezioni di oggetti in modo semplice e trasparente.
+Delegati, ossia puntatori a metodi con controllo del tipo, che vengono usati per collegare gli eventi notificati dai componenti.
+Delegazione dell'implementazione di interfaccia ad una variabile membro o una proprietà della classe.
+Facile implementazione di gestori per i messaggi di Windows tramite legame tra un metodo della classe con il numero o nome del messaggio Windows da gestire.
+Pieno supporto a Unicode.
+
+Molte delle funzionalità precedentemente elencate sono state prima introdotte da Delphi ed in seguito adottate anche in altri linguaggi.
+
+Le componenti principali degli ambienti di lavoro Delphi e Kylix sono il linguaggio, Delphi, la VCL (Visual Component Library) e CLX (Component Library for Cross Platform), e una facile e robusta connettività ai database, combinati con un potente IDE (Integrated Development Environment) e altri strumenti di supporto.
+
+Buone ragioni per usare Delphi:
+Una comunità di sviluppatori molto informativa e di grande aiuto, con eccellente rapporto rumore/informazioni sui newsgroup
+Può compilare in un singolo eseguibile autonomo rispetto a librerie esterne, semplificando la distribuzione e riducendo i problemi di diverse versioni delle DLL
+La VCL e i componenti di altri produttori sono solitamente disponibili con il codice sorgente
+Compilatore di linguaggio macchina potente, veloce e con sistema di ottimizzazione automatico
+Compilazione in codice nativo per diverse piattaforme dallo stesso codice sorgente
+Ambiente RAD (Rapid Application Development) tra i più intuitivi, veloci e comodi da usare
+
+Programma di esempio
+Hello, world!
+Il seguente esempio stampa il testo "Hello world".
+
+questo codice stampa la parola in una finestra di tipo console. Per visualizzare la parola Hello World all'interno di una text box invece occorre utilizzare il seguente codice.
+Presa una text box Edit1:
+
+Visualizza il messaggio in una finestra di dialogo. Compatibile per il Delphi e il Kylix (su linux).
+
+Versioni
+Borland Delphi 1
+Distribuito nel 1995 per Windows 3.1 16 bit, fu il primo esempio di ambiente di sviluppo RAD. Nato come successore del Turbo Pascal e Borland Pascal, si fece subito conoscere per le performance del suo compilatore e per la potenza del suo ambiente di sviluppo integrato (IDE).
+Il linguaggio utilizzato (Delphi) venne anche chiamato Object Pascal.
+
+Borland Delphi 2
+Distribuito nel 1996, permetteva di realizzare applicazioni a 32 bit e veniva venduto insieme a Delphi 1 per lo sviluppo di applicazioni a 16 bit.
+
+Borland Delphi 3
+Distribuito nel 1997, portava con sé ancora Delphi 1 per lo sviluppo di applicazioni a 16 bit.
+
+Borland Delphi 4
+Distribuito nel 1998.
+
+Borland Delphi 5
+Distribuito nel 1999.
+
+Kylix
+Kylix, la versione di Delphi per Linux, venne distribuito nel 2001.
+
+Borland Delphi 6
+Distribuito nel 2002.
+
+Borland Delphi 7
+Distribuito nell'agosto del 2002 è divenuta la versione più utilizzata dalla maggior parte degli utenti. Il successo di questo ambiente di sviluppo era dovuto alla sua stabilità, velocità e bassissime richieste di hardware per poter funzionare correttamente, resta ancora oggi uno dei IDE win32 no unicode più produttivi.
+
+Da questa versione è stata introdotta la possibilità di sviluppare anche applicazioni web.
+
+Dalla versione 7 di delphi esistono delle versioni lite non ufficiali che vengono continuamente aggiornate, ed in pochi megabyte di peso racchiudono tutta la potenza di delphi.
+Le versioni lite sono molte diffuse nei paesi in via di sviluppo ed sono molto apprezzate anche da molti sviluppatori italiani.
+Delle versioni lite esistono tre versioni: Tiny 16 Mb, Mini 23 Mb, Full 76 Mb.
+
+Borland Delphi 8
+Distribuito nel dicembre 2003, è stata l'unica versione di Delphi che permette di compilare codice sorgente Delphi (Object Pascal) tramite il framework .Net di Microsoft.
+È stata la versione meno apprezzata soprattutto per il fatto di non poter scrivere e compilare applicazioni native (*.exe).
+
+Borland Delphi 2005
+Chiamato anche Delphi 9 o Borland Developer Studio 3.0, includeva la possibilità di sviluppare applicazioni win32 native e applicazioni .Net in un unico ambiente di sviluppo.
+
+Borland Delphi 2006
+Alla fine del 2005 è stato distribuito Delphi 2006 che includeva la possibilità di sviluppare applicazioni in C#, Delphi.NET, Delphi Win32 e C++ tramite un unico IDE.
+In febbraio del 2006, Borland annunciò la volontà di vendere il suo IDE e la sua linea di prodotti per database.
+Nel settembre del 2006, uno spin-off di Borland, formato per lo più dagli sviluppatori degli IDE di Borland stessa, pubblicò la versione "Turbo" dell'IDE, rendendo così disponibili i nuovi prodotti Turbo Delphi per Win32, Turbo Delphi per .NET, Turbo C++ e Turbo C#. Per ogni ambiente furono distribuite due versioni: "Explorer" (versione gratuita) e "Professional" (a pagamento ma ad un costo molto ridotto rispetto ai precedenti ambienti di sviluppo). La particolarità era che la versione "Explorer" permetteva anche lo sviluppo di applicazioni commerciali.
+Il 14 novembre del 2006, Borland vendette i suoi IDE a CodeGear.
+
+Codegear Delphi 2007
+Delphi 2007 (Delphi 11), la prima versione realizzata da CodeGear, fu distribuito il 16 marzo del 2007.
+
+CodeGear vendette la linea di IDE appena acquisita a Embarcadero Technologies nel 2008.
+
+Embarcadero Delphi 2009
+Delphi 2009 (Delphi 12, nome in codice Tiburón), aggiunse molte nuove features, tra cui la riscrittura completa della VCL e il pieno supporto a UNICODE.
+
+Embarcadero Delphi 2010
+Delphi 2010 (Delphi 14, nome in codice Weaver; la versione 13 è stata saltata) è stato distribuito il 25 agosto 2009.
+
+Embarcadero Delphi XE
+Delphi XE (Delphi 2011/Delphi 15, nome in codice Fulcrum) è stato distribuito il 30 agosto 2010.
+
+Delphi Starter Edition
+Il 27 gennaio, 2011 Embarcadero ha annunciato la disponibilità di una nuova Starter Edition, che permette ad hobbisti e aziende in startup di ottenere una versione con caratteristiche leggermente ridotte ad un prezzo basso.
+
+Embarcadero Delphi XE2
+Delphi XE2 (Delphi 2012/Delphi 16)
+
+Il 1º settembre 2011 Embarcadero ha distribuito RAD Studio XE2 che comprendeva Delphi XE2 con C + + Builder, Prism XE2 e RadPHP XE2.
+
+Delphi XE2 supporta la piattaforma x64. Delphi XE2 include anche una libreria multipiattaforma chiamato FireMonkey che apre la strada alla portabilità delle applicazioni Delphi verso Mac OS X e iOS.
+
+Embarcadero Delphi XE3
+
+Delphi XE3 (Delphi 2013/Delphi 17)
+
+Il 21 agosto 2012 Embarcadero ha pubblicato RAD Studio XE3.
+Embarcadero Delphi XE4
+
+Delphi XE4 (Delphi 18)
+
+Il aprile 2013 Embarcadero ha pubblicato RAD Studio XE4.
+
+Supporto completo alla piattaforma IOS.
+Embarcadero Delphi XE5
+
+Delphi XE5 (Delphi 19 nome in codice Zephyr)
+
+Il giorno 11 settembre 2013 Embarcadero ha pubblicato RAD Studio XE5.
+
+Con supporto completo alla piattaforma Android.
+Embarcadero Delphi XE6
+
+Delphi XE6 (Delphi 20 nome in codice Proteus)
+
+Dal 15 aprile 2014 Embarcadero ha pubblicato RAD Studio XE6.
+
+Embarcadero Delphi XE7
+
+Delphi XE7
+
+Dal 2 settembre 2014 Embarcadero ha pubblicato RAD Studio XE7.
+
+Embarcadero Delphi XE8
+
+Delphi XE8
+
+Dal 7 aprile 2015 Embarcadero ha pubblicato RAD Studio XE8
+
+Embarcadero Delphi 10 Seattle
+
+Delphi Studio 10 Seattle
+
+Dal 31 agosto 2015 Embarcadero ha pubblicato RAD Studio 10 Seattle
+
+Embarcadero Delphi 10.1 Berlino
+
+Delphi Studio 10.1 Berlino
+
+Il 20 aprile 2016 Embarcadero ha pubblicato RAD Studio 10.1 Berlino
+
+Delphi 10.1.1 Update 1
+
+Settembre 2016, primo aggiornamento
+
+Delphi 10.1.2 Update 2
+
+Dicembre 2016, secondo aggiornamento
+
+Embarcadero Delphi 10.2 Tokyo
+
+Il 22 marzo 2017 Embarcadero rilascia la versione
+
+Delphi 10.2.1 Update 1
+
+Rilascio in agosto 2017, primo aggiornamento
+
+Delphi 10.2.2 Update 2
+
+Rilascio nel dicembre 2017, secondo aggiornamento
+
+Delphi 10.2.3 Update 3
+
+Rilascio nel marzo 2018 del terzo aggiornamento
+
+Embarcadero Delphi 10.2 Tokyo (Community Edition)
+
+Il 18 luglio 2018 Embarcadero rilascia la Community Edition, gratuita per uso personale e per studenti o per aziende con limite di fatturato $5000.
+
+Embarcadero Delphi 10.3 Rio
+
+Rilascio il 21 novembre 2018
+
+Delphi 10.3.1 Update 1
+
+Rilascio in febbraio 2019 del primo aggiornamento
+
+Delphi 10.3.2 Update
+
+Rilascio in luglio 2019 del secondo aggiornamento
+
+Delphi 10.3.3 Update 3
+
+Rilascio in novembre 2019 del terzo aggiornamento
+
+Embarcadero Delphi 10.4 Sydney
+
+Il 26 maggio 2020, Embarcadero rilascia RAD Studio 10.4 Sydney
+
+Delphi 10.4.1 Update 1
+
+Rilascio in settembre 2020 del primo aggiornamento
+
+Embarcadero Delphi 11 Alexandria
+
+Il 9 settembre 2021 Embarcadero rilascia RAD Studio 11 Alexandria
+
+Embarcadero Delphi 11.1 Update
+
+Il 15 marzo 2022 Embarcadero rilascia RAD Studio 11 Alexandria - Release 1 (11.1)
+
+Versioni compilatore

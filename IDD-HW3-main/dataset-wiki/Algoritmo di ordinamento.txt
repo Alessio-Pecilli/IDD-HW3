@@ -1,0 +1,56 @@
+Un algoritmo di ordinamento è un algoritmo che viene utilizzato per posizionare gli elementi di un insieme secondo una sequenza stabilita da una relazione d'ordine, in modo che ogni elemento sia minore o maggiore di quello che lo segue. In assenza di altre specifiche, essa viene sempre considerata totale, cioè tale da rendere sempre possibile il confronto tra due elementi dell'insieme: le relazioni d'ordine parziale danno origine agli algoritmi di ordinamento topologico. A seconda del verso della relazione considerato, un ordinamento può essere ascendente o discendente.
+
+Criteri di partizionamento
+Per analizzare e studiare gli algoritmi di ordinamento sono stati definiti differenti criteri di partizionamento, analizzati qui di seguito.
+
+Ordinamento interno e ordinamento esterno
+Se il file da ordinare, o la struttura dati, può essere contenuto in memoria, il metodo viene detto interno. L'ordinamento di file residenti su disco o su nastro viene chiamato ordinamento esterno: la differenza principale tra i due tipi di ordinamento sta nel fatto che mentre nel primo è possibile accedere direttamente a un record, nel secondo i record devono essere indirizzati in modo sequenziale o al più per grandi blocchi.
+
+Ordinamento per confronti-scambi e digitale
+A seconda del tipo di operazione che viene effettuata, si hanno due differenti tipi di ordinamento: l'ordinamento che effettua confronti e scambi () e l'algoritmo digitale che accede all'informazione tramite un gruppo di bit alla volta.
+
+Ordinamento adattivo
+Solitamente un algoritmo di ordinamento sfrutta operazioni di confronto e scambio. Se tali operazioni vengono svolte in modo indipendente dai dati di input l'algoritmo viene definito non adattivo. Mentre se un metodo di ordinamento esegue diverse sequenze di operazioni in funzione del risultato dei confronti si ha un algoritmo adattivo.
+
+Stabilità di un algoritmo
+Un metodo di ordinamento si dice stabile se preserva l'ordine relativo dei dati con chiavi uguali all'interno del file da ordinare. Ad esempio se si ordina per anno di corso una lista di studenti già ordinata alfabeticamente un metodo stabile produce una lista in cui gli alunni dello stesso anno sono ancora in ordine alfabetico mentre un ordinamento instabile probabilmente produrrà una lista senza più alcuna traccia del precedente ordinamento.
+
+La stabilità può essere forzata aggiungendo prima dell'ordinamento un piccolo indice a ciascuna chiave o allungando in qualche altro modo le chiavi sulle quali operare, in modo da renderle univoche preservando l'informazione sulla posizione relativa degli elementi.
+
+Algoritmi in place
+Un algoritmo si dice algoritmo in place quando non crea una copia dell'input per raggiungere l'obiettivo, l'ordinamento in questo caso. Pertanto un algoritmo in place risparmia memoria rispetto ad un algoritmo non in place. Si noti infatti che, malgrado le considerazioni fatte sulla complessità abbiano senso in generale, hanno una rilevanza decisiva sui grandi numeri. Allo stesso modo della proprietà di essere o meno in place.
+
+Relazioni d'ordine e chiavi
+La relazione d'ordine che intercorre tra gli elementi dell'insieme può essere:
+quella naturale (se esiste) per l'insieme preso in considerazione (ad esempio la relazione di per sottoinsiemi dei numeri naturali)
+una relazione definita dalle necessità dell'applicazione.
+
+È frequente il caso in cui l'algoritmo di ordinamento non opera direttamente sui dati di interesse, ma su un diverso insieme di dati che sono in collegamento biunivoco con quello dei dati di interesse: questo è detto l'insieme delle chiavi. Nel caso frequente in cui i dati sono costituiti da record, le chiavi sono spesso costituite dalla combinazione di uno o più campi del record stesso (questo avviene regolarmente nei database relazionali). L'obiettivo dei metodi di ordinamento consiste nel riorganizzare i record in modo tale che le loro chiavi siano disposte secondo un ordine ben definito (di norma in ordine numerico o alfabetico). Le specifiche caratteristiche delle chiavi e dei record possono variare notevolmente da un'applicazione all'altra. La nozione astratta di ordinamento prescinde da tali caratteristiche.
+
+Complessità degli algoritmi di ordinamento
+La ricerca e l'ottimizzazione di algoritmi di ordinamento è molto importante per alcuni ambiti informatici e per queste classi di algoritmi sono stati dimostrati svariati teoremi che ne definiscono i limiti. Il più importante è il seguente:
+
+Teorema: La complessità temporale di un qualsiasi algoritmo di ordinamento per confronto è pari a , dove N è il numero di elementi da ordinare.
+
+Questo teorema fissa il limite inferiore di complessità per gli algoritmi che si basano sul paragone di coppie di chiavi (per confronto). Nulla è noto su altri algoritmi di ordinamento, nemmeno quali possano essere. Sono stati ipotizzati (ma non prodotti) algoritmi di ordinamento totalmente quantistico, che potrebbero avere un più basso limite inferiore di complessità.
+
+Dimostrazione
+Si vuole dimostrare che in un algoritmo confronti e scambi la complessità è . Data in input una sequenza di n elementi, l'azione dell'algoritmo si può rappresentare come un albero binario, per ogni sequenza di ingresso ci sarà un cammino all'interno dell'albero, questo perché si ha una permutazione delle sequenze, infatti il numero di permutazioni possibili su n elementi sono combinazioni che corrispondono al numero di foglie dell'albero.
+
+Date due permutazioni distinte esse identificano diversi cammini all'interno dell'albero. è il numero di foglie nell'albero di decisione dove n è il numero di elementi da ordinare. Date foglie ed essendo l'albero binario l'altezza dell'albero sarà:
+
+L'altezza dell'albero corrisponde al numero di confronti, elemento indicativo del tempo di esecuzione dell'algoritmo. Nel caso peggiore, ossia quando si arriva al fondo dell'albero, si avrà una complessità pari a .
+
+Per ultimare la dimostrazione si utilizza la formula di Stirling sull'approssimazione di .
+
+numero di confronti
+
+che a livello asintotico corrisponde a .
+
+Albero di copertura
+Ogni operazione dell'algoritmo di ordinamento può essere analizzata tramite un albero binario di copertura. Per ordinare una sequenza di n elementi bisognerà effettuare un numero di operazioni pari all'altezza minima di un albero binario con k foglie:
+
+Elenco degli algoritmi di ordinamento
+Vi sono varie classi di algoritmi di ordinamento, i più noti ed utilizzati sono gli algoritmi di ordinamento per confronto (comparison sort algorithms), ma esistono altre classi caratterizzate da un tempo di esecuzione nel caso peggiore inferiore a O(nlogn).
+
+Nella tabella seguente sono elencati alcuni algoritmi di ordinamento, riportandone la complessità al caso Migliore, Medio e Peggiore, la memoria aggiuntiva richiesta, e la stabilità. Si utilizzano due convenzioni nella tabella: gli algoritmi sono implementati su array di chiavi intere; la complessità computazionale degli algoritmi di ordinamento per confronti è derivante unicamente dal numero di confronti effettuati.

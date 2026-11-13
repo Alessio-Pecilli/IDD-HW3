@@ -1,0 +1,152 @@
+La manutenzione è la scienza che finalizza le attività umane ad un impiego economico e sostenibile delle risorse, nella progettazione e nella gestione dei sistemi antropizzati e nella conservazione dei sistemi naturali.
+
+Introduzione
+La manutenzione ha il compito di adeguare e se possibile migliorare costantemente i sistemi alle esigenze espresse dai loro utilizzatori, ricorrendo dove necessario alla loro riprogettazione o alla loro sostituzione, quando i nuovi sistemi si rendono economicamente più vantaggiosi.
+
+La manutenzione è un'attività che va pianificata e progettata con la redazione di un piano di manutenzione preventiva con l'intento di azzerare gli interventi di manutenzione correttiva dovuta a guasti incidentali e spesso non prevedibili e per questo è indispensabile che il personale addetto abbia le necessarie competenze e che sia formato costantemente a saper coordinare gli interventi da eseguire al fine di garantire la continuità produttiva e i livelli desiderati di disponibilità impiantistica.
+
+Definizioni
+
+In merito alla definizione di manutenzione, molte cose sono cambiate e, particolarmente nel corso degli anni ottanta, sono state formulate nuove teorie, non ancora compiutamente applicate.
+
+In una delibera dell'OCSE del 1963, la manutenzione fu definita con: “S'intende per manutenzione quella funzione aziendale alla quale sono demandati il controllo costante degli impianti e l'insieme dei lavori di riparazione e revisione necessari ad assicurare il funzionamento regolare e il buono stato di conservazione degli impianti produttivi, dei servizi e delle attrezzature di stabilimento.”
+In modo coerente, l'Ingegneria di Manutenzione è l'unità organizzativa responsabile della progettazione, del controllo e del miglioramento continuo del Sistema Manutenzione.
+
+Nel mondo della normazione queste trasformazioni sono passate pressoché inosservate al punto che la definizione più recente formulata dal Comitato Tecnico TC319 (2003) non rappresenta una evoluzione significativa rispetto a quella più antica formulata dall'OCSE (1963). La commissione manutenzione dell'UNI, oltre quindici anni fa, nella UNI 9910 poi UNI 10147, definì la manutenzione come “Combinazione di tutte le azioni tecniche ed amministrative, incluse le azioni di supervisione, volte a mantenere o a riportare una entità in uno stato in cui possa eseguire la funzione richiesta”.
+
+Nel 2003 queste norme furono sostituite dalla UNI EN 13306, che definisce la manutenzione come “combinazione di tutte le azioni tecniche, amministrative e gestionali, previste durante il ciclo di vita di un'entità, destinate a mantenerla o riportarla in uno stato in cui possa eseguire la funzione richiesta”.
+
+Nel 1970 la manutenzione fu recepita come “scienza della conservazione” e venne coniato per l'occasione un nuovo termine: terotecnologia (dal greco τηρέω = conservare, sorvegliare, prendersi cura di; che significa letteralmente “tecnologia della conservazione”). La British Standard Institution (ente normatore inglese fondato nel 1901) nel 1970 associò alla terotecnologia questa definizione: “La terotecnologia è una combinazione di direzione, finanza, ingegneria e altre discipline, applicate ai beni fisici per perseguire un economico costo del ciclo di vita ad esse relativo. Tale obiettivo è ottenuto con il progetto e l'applicazione della disponibilità e della manutenibilità agli impianti, alle macchine, alle attrezzature, ai fabbricati e alle strutture in genere, considerando la loro progettazione, installazione, manutenzione, miglioramento, rimpiazzo con tutti i conseguenti ritorni di informazioni sulla progettazione, le prestazioni e i costi.”
+
+La definizione di terotecnologia è più ampia di quelle associate alla manutenzione fino a questo momento, ma contiene anche dei concetti che non sono propriamente manutentivi e si rivolge principalmente all'ambiente industriale.
+
+Per contro questa definizione non può naturalmente recepire le evoluzioni che sono avvenute nel quarantennio successivo e che hanno coinvolto l'ambiente antropizzato nel suo insieme, con un mutuo scambio di esperienze e di culture fra settori apparentemente molto diversi fra loro.
+
+Evoluzione dei criteri di management
+All'inizio degli anni ottanta, Sejiki Nakajima definì l'insieme delle esperienze condotte presso la Toyota Motors con il termine di Total Productive Maintenance (in Italia detta Manutenzione Produttiva, ma più nota con il suo acronimo TPM).
+
+Questo modello di gestione della manutenzione ha integrato i concetti di ILS (Logistica Integrata, USA), Terotecnologia (Gran Bretagna), e RCM (Reliability Centered Maintenance, USA), nati nel ventennio precedente nell'ambito dell'industria aerospaziale, del nucleare, e nel settore militare (in particolare negli USA: molti di questi criteri sono stati standardizzati in documenti e manuali emessi dal DOD, Dipartimento della Difesa americano), con dei criteri squisitamente organizzativi.
+
+Il TPM coniuga i principi della manutenzione preventiva (che rappresentano una parte importante del TPM e sono il retaggio della cultura precedente), con l'esperienza degli utilizzatori, il lavoro di gruppo e più in generale quell'insieme di principi che sono denominati "Tecniche Produttive Giapponesi". E mette al centro dell'attenzione manutentiva l'utilizzatore.
+
+Con Nakajima e il TPM, si inizia a parlare di automanutenzione o manutenzione autonoma (la manutenzione operata dagli utilizzatori), di miglioramento continuo (Kaizen), e di collaborazione fra piccoli gruppi, coinvolgendo, nella responsabilità manutentiva, sia la manutenzione, sia l'esercizio. Il superamento di questo dualismo (manutenzione-esercizio) permette di raggiungere obiettivi di efficacia e di efficienza impensabili con i modelli precedenti.
+
+La metodologia TPM è stata una delle basi fondamentali che il Prof. Hajime Yamashina ha utilizzato per creare il World Class Manufacturing, noto come W.C.M., strumento ampiamente applicato nell'industria automobilistica e della componentistica italiana ed una delle leve che hanno determinato la svolta del gruppo FIAT avvenuta in questi ultimi anni.
+
+Alla base del W.C.M. sono i cosiddetti Pillar che, nell'ambito manutentivo, sono principalmente:
+PM Professional Maintenence
+AM Autonomus Maintenance
+
+Il percorso di evoluzione di ogni pillar è vincolato a 7 fasi ed a continue verifiche interne ("audit")
+
+Nel flusso della Professional Maintenance le fasi prevedono a grandi linee una prima fase di ripristino del degrado funzionale e la sua stabilizzazione (fasi 1-3), il successivo miglioramento delle performance dei componenti (fasi 4-5), per arrivare ad una manutenzione basata sulle metodologie predittive e ad un sistema di manutenzione completamente monitorato sia in termini di costi che di efficacia (fasi 6-7)
+
+I tipi di manutenzione sono ricondotti a questi acronimi:
+BM Breakdown Maintenance = manutenzione a guasto
+TBM Time Based Maintenance = manutenzione periodica o preventiva
+CBM Condition based Maintenance = manutenzione predittiva
+
+Sostenibilità
+
+La manutenzione persegue obiettivi di fruibilità, conservazione e incremento del valore dei sistemi nel tempo, attraverso l'ingenerizzazione del processo manutentivo con lo sviluppo di sistemi di diagnostica, l'analisi per processi, il miglioramento continuo, la pianificazione della manutenzione, quali fondamenti per un inedito miglioramento prestazionale dei processi di manutenzione, utilizzando una molteplicità di tecniche e di strumenti che appartengono principalmente al dominio dell'ingegneria, delle scienze naturali, della fisica, della chimica, della economia, della sociologia e del management.
+
+La Manutenzione preventiva permette un notevole risparmio di costi rispetto agli interventi a guasto, permette il mantenimento degli standard di produzione sia in termini di tempi che di qualità evitando costi di ripresa o rilavorazione dei prodotti, garantendo la disponibilità degli impianti diminuendo le fermate per guasti imprevisti e i relativi costi di interrotta e mancata produzione. Senza pensare al risparmio sui costi dovuti alla consegna e sostituzione al cliente di materiali difettosi, alle penali per ritardata consegna, ai costi per la perdita di immagine fino ad arrivare ai mancati guadagni per perdita del cliente.
+
+Per permettere tutto ciò è indispensabile avere, a seconda delle esigenze, personale adeguatamente formato:
+
+- lo specialista di manutenzione è in sintesi un ruolo di indirizzo, guida, controllo e miglioramento di tutte le attività inerenti alla manutenzione. Più nello specifico, è in grado di:
+
+1. eseguire o far eseguire i piani di manutenzione secondo le strategie aziendali
+
+2. intervenire tempestivamente in caso di guasto o anomalia, assicurando l'efficacia dell'intervento di ripristino
+
+3. operare o far operare secondo le normative e le procedure relative alla sicurezza, alla salute delle persone e alla tutela dell'ambiente
+
+4. assicurare la disponibilità dei materiali, dei mezzi e delle attrezzature necessarie per l'esecuzione delle attività di manutenzione
+
+5. coordinare e/o soprintendere alle attività operative di manutenzione
+
+6. eseguire o far eseguire le attività operative di manutenzione in qualità
+
+7. utilizzare e far utilizzare i sistemi informativi e gli strumenti tecnologici
+
+- il supervisore dei lavori di manutenzione e/o ingegnere di manutenzione in sintesi svolge un ruolo di indirizzo, guida, controllo e miglioramento di tutte le prestazioni inerenti alla manutenzione. Più nello specifico, è in grado di:
+
+1. garantire l'attuazione delle strategie e delle politiche di manutenzione
+
+2. pianificare le attività di manutenzione di competenza, definendo e organizzando le risorse necessarie
+
+3. organizzare, gestire e sviluppare le risorse di manutenzione: personale, mezzi e attrezzature
+
+4. garantire il rispetto delle normative e delle procedure relative alla sicurezza, alla salute e all'ambiente
+
+5. controllare l'efficienza e l'efficacia tecnica ed economica delle attività di manutenzione
+
+6. partecipare al processo di gestione dei materiali tecnici e gestire le prestazioni di manutenzione
+
+7. operare nel campo dell'ingegneria di manutenzione, progettando, controllando e migliorando le attività di manutenzione
+
+8. utilizzare le conoscenze ingegneristiche e gli strumenti organizzativi per migliorare le attività di manutenzione
+
+- il responsabile del servizio o della funzione manutenzione (ex responsabile degli obbiettivi del sistema di manutenzione) è in sintesi responsabile delle prestazioni di disponibilità degli impianti, della riduzione degli sprechi, della conservazione globale del patrimonio impiantistico, del costo globale di manutenzione. Più nello specifico è in grado di:
+
+1. definire e sviluppare le politiche di manutenzione in coerenza con le strategie aziendali
+
+2. definire i processi e gli strumenti a supporto della manutenzione
+
+3. definire, gestire e sviluppare il modello organizzativo della manutenzione
+
+4. garantire i livelli di disponibilità, affidabilità, sicurezza e qualità richiesti per l'intera vita utile dei beni
+
+5. assicurare la corretta gestione e il miglioramento continuo della manutenzione
+
+6. assicurare e controllare il rispetto del budget e del piano delle attività della manutenzione e lo stato dei beni
+
+7. definire le strategie, le politiche e i criteri per la gestione delle prestazioni e la definizione del fabbisogno dei materiali di manutenzione
+
+Manutenibilità
+La maintenability (Manutenibilità M) di un dispositivo si definisce come la probabilità che il dispositivo sia mantenuto, o riparato, entro un dato periodo di tempo, attraverso procedure e risorse stabilite.
+
+In accordo con la norma UNI 10147 ("Manutenzione, Terminologia"), nel tempo di manutenzione in avaria di un dispositivo, si possono individuare le seguenti componenti:
+tempo di diagnosi dell'avaria: rilevazione dell'avaria, localizzazione dell'avaria, identificazione delle cause
+tempo di preparazione dell'intervento: tempo di concepimento progetto,+ tempo di ritardo amministrativo, + ritardo logistico
+tempo di manutenzione attiva: ritardo tecnico, + tempo di riparazione
+tempo di rimessa in servizio.
+
+Fattori critici del processo manutentivo
+
+In una modellazione del processo manutentivo "a scatola chiusa", si identificano almeno quattro dimensioni di analisi decisionale, da declinarsi ciascuna nella scelta di uno o più possibili metriche di prestazione:
+
+affidabilità (reliability): tempo medio di funzionamento fra due guasti successivi (MTBF), e Tempo medio di funzionamento fra due manutenzioni (MTBM, Mean Time Between Maintenance), in alternativa può essere misurata dal periodo senza manutenzione,
+manutenibilità (maintenability): Tempo medio di riparazione (MTTR, Mean Time To Repair), e Tempo medio di indisponibilità chiamato anche tempo medio totale di fuori servizio (MDT, Mean Down Time).
+disponibilità (availability)
+Alla valutazione periodica di queste due grandezze, si aggiunge la rilevazione e monitoraggio dell'affidabilità e del tasso di guasto del sistema, secondo il ciclo Plan-Do-Check-Act e del miglioramento continuo di processo / di prodotto.
+coefficiente progettuale di sicurezza e trade-off di costo:
+quota di costo diretto: costo totale di manutenzione/quantità prodotta
+grado di terziarizzazione: costo delle prestazioni di terzi / costo totale della manutenzione ordinaria
+grado di "ingegnerizzazione" della manutenzione: costo della manutenzione "a guasto" / costo totale della manutenzione ordinaria.
+
+Il costo globale di manutenzione può essere schematicamente disaggregato nelle seguenti voci di costo:
+costi propri del processo manutentivo:
+costo della manodopera interna, diretta o indiretta
+costo delle prestazioni di terzi (manodopera esterna)
+materiali (rimanenze di magazzini, oppure acquistati)
+costi indotti, determinati da:
+fermo macchina
+fermo operatore (vuoto lavoro)
+costi della non-qualità: costi per scarti o rilavorazioni
+sprechi energetici (illuminazione e riscaldamento/condizionamento, riavvio impianti, altri servizi indiretti di stabilimento non remunerati dall'attività produttiva)
+infortuni, incidenti
+danni ambientali
+costo di mantenimento a scorta (dei semilavorati materiali non prelevati in produzione)
+stato di conservazione degli impianti: riduzione del tasso di produzione e della vita utile, obsolescenza tecnologica e perdita di valore in caso di realizzo di parte del parco macchine utensili.
+
+Manutenzione dei veicoli
+Ispezione - i componenti del veicolo vengono ispezionati visivamente per verificare l'eventuale presenza di usura o di perdite. Consultare il libretto di manutenzione del veicolo. La diagnostica viene eseguita per identificare eventuali componenti elettrici che segnalano un malfunzionamento o una parte che non funziona in condizioni normali.
+Sostituzione - Dato che alcuni lubrificanti si guastano nel tempo a causa del calore e dell'usura, i produttori raccomandano di sostituirli. Per evitare guasti durante l'utilizzo del veicolo, vengono sostituiti anche i componenti prossimi al guasto.
+Regolazioni - con il passare del tempo, i componenti del veicolo si usurano e può essere necessario regolarli. Esempio: cavo del freno di stazionamento.
+I servizi eseguiti vengono solitamente registrati nel libretto di manutenzione o nel libretto di manutenzione digitale al termine di ogni intervento. Il libretto di manutenzione digitale è un registro online della storia di manutenzione di un veicolo. Una storia di manutenzione completa di solito aumenta il valore di rivendita di un veicolo.
+
+Differenza tra un servizio di base e un servizio completo: un servizio di base è più completo di un servizio completo; sebbene copra tutti gli stessi controlli di un servizio completo, un servizio di base sarà più dettagliato e comprenderà un maggior numero di sostituzioni di parti soggette a usura come i filtri antipolline e, se necessario, il cambio del liquido dei freni.
+
+In linea di massima, un'assistenza minore viene eseguita ogni 10000-15.000 chilometri, mentre un'assistenza maggiore viene eseguita ogni 30.000-45.000 chilometri o ogni dodici mesi, a seconda di quale sia la prima volta.

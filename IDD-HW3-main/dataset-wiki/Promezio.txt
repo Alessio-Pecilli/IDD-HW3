@@ -1,0 +1,54 @@
+Il promezio (originariamente prometeo) è l'elemento chimico di numero atomico 61. È un elemento sintetico e il suo simbolo è Pm. Tutti i suoi isotopi sono radioattivi; è uno dei due soli elementi non stabili che nella tavola periodica è seguito da elementi con forme stabili, una caratteristica comune con il tecnezio. Chimicamente, il promezio appartiene alla famiglia dei lantanidi, che forma sali quando combinato con altri elementi. Il promezio mostra solo uno stato di ossidazione stabile di +3; tuttavia, possono esistere alcuni composti +2.
+
+Nel 1902, Bohuslav Brauner suggerì che vi fosse un elemento con proprietà intermedie tra il neodimio (60) e il samario (62); ciò venne confermato nel 1914 da Henry Moseley che, dopo aver misurato i numeri atomici di tutti gli elementi allora conosciuti, trovò non vi fosse un elemento con numero atomico 61. Nel 1926, un italiano insieme ad un gruppo americano, affermò di aver isolato un campione di elementi 61; una "scoperta" che si dimostrò ben presto falsa. Nel 1938, nel corso di un esperimento nucleare condotto presso la Ohio State University, alcuni nuclidi radioattivi sono stati prodotti e da subito fu certo non fossero radioisotopi del neodimio o samario, ma vi era ancora una mancanza di prove chimiche che l'elemento 61 fosse stato prodotto. Il promezio venne poi caratterizzato presso l'Oak Ridge National Laboratory nel 1945 dalla separazione e l'analisi dei prodotti di fissione dell'uranio irradiato in un reattore a grafite. Gli scopritori hanno proposto il nome "prometheum" (l'ortografia è stata successivamente modificata), derivato da Prometeo, il titano della mitologia greca che rubò il fuoco dal monte Olimpo. Tuttavia, un campione del metallo venne prodotto solo nel 1963.
+
+Vi sono due possibili fonti di promezio naturale: i rari decadimenti naturali dell'europio-151 (che produce promezio-147), e dell'uranio (vari isotopi). Le applicazioni pratiche esistono solo per i composti chimici del promezio-147, che vengono utilizzati per la vernice luminosa, per le batterie atomiche e nei dispositivi di misurazione dello spessore, anche se il promezio-145 è l'isotopo più stabile. Poiché il promezio naturale è estremamente scarso, viene in genere sintetizzato bombardando l'uranio-235 (uranio arricchito) con neutroni termici per realizzare la produzione di promezio-147.
+
+Caratteristiche
+Il promezio è un metallo tenero. È un elemento artificiale che emette particelle beta le quali possono essere usate per stimolare l'emissione di raggi X da parte di elementi aventi un elevato numero atomico.
+
+Delle proprietà del promezio metallico si sa poco. Ne esistono due forme allotropiche ed i suoi sali manifestano al buio una luminescenza azzurro-verde per via della loro elevata radioattività.
+
+Applicazioni
+Utilizzato nella ricerca come elemento tracciante, trova applicazione anche nell'industria del fosforo.
+
+Gli usi del promezio comprendono:
+
+fonte di radiazioni beta per misure di spessore;
+fonte luminosa per segnali ad alta affidabilità (in cui si usa il fosforo per assorbire le radiazioni beta e produrre luce);
+in batterie nucleari in cui fotocellule convertono la luce in corrente elettrica: questo tipo di batteria ha una vita utile di circa cinque anni usando 147Pm;
+probabilmente in futuro sarà usato come fonte portatile di raggi X e come fonte ausiliaria di calore o energia per satelliti e sonde spaziali, e per costruire laser per comunicare con sottomarini in immersione.
+
+Storia
+L'esistenza del promezio fu dapprima predetta da Bohuslav Brauner nel 1902; tale predizione venne confermata da Henry Moseley nel 1914. Molti gruppi dichiararono di aver prodotto questo elemento, ad esempio nel 1926 gruppi di ricerca di Firenze e dell'Illinois annunciarono la sua scoperta proponendo come nome florentium e illinium rispettivamente, ma nessuno poté confermare la scoperta per la grande difficoltà di separare questo elemento dalle altre terre rare. La dimostrazione dell'esistenza del promezio fu ottenuta nel 1945 da Jacob Marinsky, Lawrence Glendenin e Charles Coryell durante l'analisi di alcuni sottoprodotti della fissione dell'uranio; tuttavia i tre scienziati erano troppo occupati dalle ricerche belliche alleate durante la seconda guerra mondiale, per cui non annunciarono la loro scoperta fino al 1947. Il nome promezio deriva da Prometeo, uno dei titani della mitologia greca, che rubò il fuoco agli dei e ne fece dono ai mortali.
+
+Nel 1963 sono stati messi a punto dei metodi basati sullo scambio ionico per separare il promezio dal combustibile esaurito dei reattori nucleari; con tali metodi vennero ottenuti circa 10 grammi di promezio.
+
+Disponibilità
+Il promezio non si trova in natura sulla Terra. Le sue righe spettrali sono state però individuate nella luce di alcune stelle.
+
+Produzione
+Non isolato in natura, è stato prodotto artificialmente in reattori nucleari, in quanto prodotto della fissione dell'uranio, del torio e del plutonio.
+
+Viene anche prodotto tramite bombardamento con neutroni di 146Nd che, convertito in 147Nd, si trasforma spontaneamente (con un'emivita di 11 giorni) in 147Pm attraverso un decadimento beta.
+
+Composti
+Le sue proprietà chimiche e metallurgiche sono simili a quelle del neodimio e del samario.
+
+Tra i suoi composti vi sono:
+
+Cloruri: PmCl3
+Bromuri: PmBr3
+Ossidi: Pm2O3
+
+Isotopi
+Gli isotopi del promezio sono tutti radioattivi: il più comune è il 147Pm (vita media 2,6 anni).
+
+Complessivamente, sono stati individuati 36 isotopi del promezio, di cui il più stabile è il 145Pm con emivita di 17,7 anni, 146Pm con emivita 5,53 anni e 147Pm con emivita 2,6234 anni. Tutti gli altri radioisotopi hanno emivita minore di un anno e, anzi, l'emivita della maggior parte di loro non arriva a 30 secondi. Questo elemento ha anche 11 isomeri (o stati meta) di cui i più stabili sono 148Pmm (t½ 41,29 giorni), 152Pmm2 (t½ 13,8 minuti) e 152Pmm (t½ 7,52 minuti).
+
+Gli isotopi di promezio hanno peso atomico che va da 127,9482600 (128Pm) a 162,9535200 (163Pm). La principale modalità di decadimento per gli isotopi più leggeri di 145Pm è la cattura elettronica con conversione in neodimio; per quelli più pesanti è il decadimento beta con conversione in samario.
+
+Precauzioni
+È richiesta grande cura nella manipolazione del promezio e dei suoi composti per via della loro elevata radioattività, che si manifesta anche con l'emissione di raggi X e raggi UV.
+
+Il promezio non ha alcun ruolo biologico.

@@ -1,0 +1,13 @@
+ChemSpider è un database di molecole chimiche di proprietà della Royal Society of Chemistry.
+
+Contenuti e contributi
+Il database contiene più di 26 milioni di molecole provenienti da oltre 400 fonti. ChemSpider può essere aggiornato dai suoi utenti che possono contribuire depositando strutture chimiche, spettrometrie, e curando i contenuti.
+
+Utilizzo
+È possibile effettuare ricerche nel database con diverse modalità:
+La ricerca standard permette di cercare nomi sistematici, nomi registrati per il commercio, sinonimi e numero CAS.
+La ricerca avanzata permette ricerche interattive attraverso strutture chimiche, sottostrutture chimiche, usando anche la formula molecolare, peso molecolare, numero CAS, fornitori, ecc. Questa ricerca può essere utilizzata per ampliare o restringere i risultati già ottenuti.
+Ricerca attraverso le applicazioni gratuite per smartphone e tablet per iPhone/iPod/iPad e Android.
+
+Storia
+ChemSpider è stato acquistato dalla Royal Society of Chemistry nel maggio del 2009. Prima di questa acquisizione ChemSpider era controllato da una società privata, ChemZoo Inc. Il sistema era stato lanciato nel marzo 2007 in formato beta e successivamente reso pubblico nel marzo 2008.

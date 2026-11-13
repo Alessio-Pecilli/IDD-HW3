@@ -1,0 +1,18 @@
+In informatica lOdd-even sort (ordinamento pari-e-dispari) è un semplice algoritmo di ordinamento basato sul bubble sort, con cui condivide alcune caratteristiche. Esso opera comparando tutte le coppie dispari e pari degli elementi presenti in una lista e, se una coppia è nell'ordine sbagliato (il primo elemento è maggiore del secondo), scambia di posto i suoi elementi. Il controllo prosegue con le coppie di elementi adiacenti con posizione pari/dispari. L'algoritmo continua l'ordinamento alternando tra le comparazioni dispari/pari e pari/dispari finché tutta la lista non risulta ordinata.
+
+L'Odd-even sort può essere considerato come una sorta di elaborazione in processi paralleli in cui ognuno dei processi utilizza il bubble sort ma iniziando l'ordinamento da punti diversi della list (gli indici dispari per il primo passaggio).
+
+Pseudocodice
+L'algoritmo risulta solo leggermente più difficile da implementare rispetto al bubble sort. Quella che segue è una implementazione in pseudocodice (si assume l'uso di array con indice di partenza 0):
+
+sorted = false;
+while not sorted
+sorted = true;
+// coppie dispari/pari
+for (x = 1; x list[x+1]
+swap list[x] and list[x+1]
+sorted = false;
+// coppie pari/dispari
+for (x = 0; x list[x+1]
+swap list[x] and list[x+1]
+sorted = false;

@@ -1,0 +1,89 @@
+Il Forth è un linguaggio di programmazione sviluppato da Chuck Moore presso l'US National Radio Astronomy Observatory (NRAO) dall'inizio degli anni sessanta, ma uscì ufficialmente soltanto nel 1969, per essere poi formalizzato nel 1977, e standardizzato nel 1979, nel 1983 dal Forth Standards Team e poi dall'ANSI nel 1994 e aggiornato al Forth Standard 2012 (2012 e 2014) dal Forth 200x Standardization Commitee con richiesta di aggiornamento anche allo standard ANSI.
+
+Il nome deriva dal fatto che Moore pensava fosse un linguaggio di quarta generazione (fourth generation language in inglese), ma il computer sul quale il sistema venne sviluppato ammetteva solo nomi di file lunghi al massimo cinque lettere. Nato per essere un linguaggio del futuro, verrà poi utilizzato in ambiti specifici come il software di controllo.
+
+Il linguaggio Forth è un linguaggio funzionale, orientato ai problemi e alle applicazioni, basato concettualmente sulle astrazioni e le definizioni concettuali, mentre sul piano dell'architettura a basso livello è basato sullo stack, sul dizionario, sull'implementazione di funzionalità vicine al livello macchina, sull'efficienza e l'ottimizzazione.
+
+Esso è al contempo un linguaggio ad alto livello e un linguaggio di basso livello (in seguito nel testo è spiegato il perché di questo paradosso), un sistema operativo, un set di strumenti di sviluppo, una filosofia di approccio ai problemi e al software design. È altresì anche un compilatore (di se stesso) e un interprete, e consente l'inversione comandata delle parti e delle istruzioni da una modalità di conversione all'altra, decidendo di fatto anche punto per punto quali parti compilare e quali interpretare, quali funzionalità gestire a tempo di compilazione e quali a tempo di esecuzione. Non ha stretta necessità di un vero debugger in quanto funge da debugger di se stesso e normalmente (salvo casi rari e particolarmente minificati) incorpora comandi di trapping, tracking, espansione del codice (anche quello già compilato), watchpoint e breakpoint.
+
+Il paradigma di programmazione è funzionale, ed è possibile usarlo in modo funzionale o pseudoprocedurale oppure utilizzarlo in modalità OOP (nelle implementazioni moderne e ANSI). Non tutte le implementazioni sono tuttavia conformi all'OOP, ma va altresì ricordato che il Forth utilizza sempre un sistema di definizione astratto molto potente, che per analogia è più o meno assimilabile al concetto di classi e oggetti di cui è un'alternativa, e relative tecniche di switching dinamico fra strutture o blocchi funzionali allocati che ricorda in parte la dinamica del subclassing.
+
+Utilizzi
+Viene utilizzato in ambiti tecnici specifici, quali robotica, controllo di bordo di navette e sonde spaziali, autogestione di hard disk nella logica di controllo interna, per la gestione e per l'ottimizzazione delle prestazioni, controlli avionici, embedded system, BIOS, interfacce UEFI-equivalenti, sistemi di booting, sistemi di controllo, sistemi di diagnostica, dispositivi di check-up tecnico, sistemi esperti, sistemi di verifica, controller in robotica.
+
+Persiste inoltre anche tra gli appassionati e tra gli accademici, i primi per diletto e lavoro, i secondi per la ricerca in ambito lambda calcolo, conta nel tempo diversi casi di successo distribuiti negli anni. Il libro Thinking Forth ebbe una terza ristampa nel 2004.
+
+È utilizzato ad esempio nel Boeing 777 per i controlli avionici, per la risoluzione di problemi costruttivi, il debugging dell'unità di controllo hardware e su terra per simularne i circuiti di comando, per i sistemi di monitoraggio e di sviluppo CAS/CMS 777, per creare moduli avionici LRU facilmente sostituibili anche dinamicamente in failover e fail safe.
+
+È stato utilizzato per creare videogame, specialmente per arcade del passato, funzione a cui si presta grazie al riutilizzo modulare e alla possibilità di utilizzare efficaci screen editor, alcuni dei quali anche free all'interno delle community delle FIG.
+
+Diverse versioni per embedded, oltre a fork e derivati sono utilizzati per controllo di dispositivi, hard disk, stampanti. Viene anche utilizzato come boot loader, adottati per il personal computer Apple MacIntosh, per i sistemi Alpha, Open Firmware, Open Boot, e nel sistema operativo FreeBSD il cui boot loader utilizza un Forth semplificato e adattato allo scopo, FICL.
+
+Caratteristiche
+
+Linguaggio con possibilità di uso sia immediato che differito
+Il Forth prevede la possibilità sia di essere eseguito in modalità interattiva, rendendo possibile il suo utilizzo come shell in sistemi che non possedevano un vero e proprio sistema operativo, sia la possibilità di compilare sequenze di comandi per una loro successiva esecuzione. Oltre a questo sono presenti una serie di comandi e specificità per il controllo granulare dell'allocazione degli oggetti generici e delle compilazioni di entità atomiche, anche punto-punto nello stesso programma o nello screen (i moduli storici di divisione di un programma Forth).
+
+Come linguaggio di programmazione vero e proprio, il Forth è dotato di un insieme di comandi standard piuttosto potente e di meccanismi che permettono di definire propri comandi, anche usando un mix di comandi standard e linguaggio Assembly. Dato che al livello più alto il codice sorgente di un programma Forth può arrivare ad assomigliare molto al linguaggio naturale (la lingua inglese si presta meglio dell'italiano rispetto alla struttura grammaticale), ed è stato chiamato anche un linguaggio meta-applicativo.
+
+Il classico esempio di stampa di "Ciao mondo", in Forth si può scrivere in due modi, con il comando diretto:oppure definendo una funzione chiamata "Ciao" in questo modo:in seguito digitando CIAO si otterrà la stampa della stringa.
+
+Linguaggio estensibile e modulare
+Tra le caratteristiche di questo linguaggio c'è l'estensibilità, che significa che non c'è differenza tra keyword e routine ed è predisposto per la strutturazione modulare.
+
+Il codice è particolarmente leggibile una volta che ne si conoscono la sintassi e il tipo di costrutto, la lettura appare chiara e scorrevole e lo sviluppo rapido.
+
+Linguaggio sia di alto livello che di basso livello
+Il Forth rientra nella definizione di HLL in quanto è un metalinguaggio che consente l'astrazione delle definizioni, la definizione di un linguaggio vicino a quello umano, e l'uso di grammatiche operative e non-operative (soggetto, verbo o predicato verbale in forma passiva, complemento oggetto) anche in forme complesse (come l'uso del complemento predicativo dell'oggetto). Di fatto il Forth consente di ridefinire se stesso o creare un altro linguaggio per ogni uso specifico o per ogni singolo programma.
+
+Tuttavia i comandi e le istruzioni "assiomatiche" sono molto vicine alla macchina, e la compilazione stessa si basa sull'autoespansione istantanea delle nuove definizioni del dizionario, ovvero, non occorre un processo di compilazione e linking tradizionali alla maniera del C o del C++ perché la compilazione avviene durante la stesura stessa del programma ad ogni invio, salvo diverse istruzioni all'ambiente IDE/CLI. Per questa caratteristica è allo stesso tempo un linguaggio di basso livello (v. oltre).
+
+Stack-based e stack-oriented
+Il Forth è un linguaggio stack-based e stack-oriented, cioè basato sulla pila o catasta, sia come gestione di dati astratti, sia perché verte sulla pila come tecnica architettonica per fruire della cache e delle memorie veloci interne a CPU e coprocessori.
+
+Lo stack è utilizzato nell'architettura interna di altri linguaggi, come per esempio nel Fortran e nel BASIC dove viene impiegato per memorizzare i valori da elaborare, tuttavia in questi linguaggi il programmatore non può accedervi né manipolarlo direttamente. Al contrario, una caratteristica che rende il Forth singolare e molto potente è la filosofia di progettazione che consente di usare lo stack direttamente per la scrittura dei programmi.
+
+Benché si tratti di una coda con metodo di transito LIFO, l'ambiente di lavoro consente meccanismi di impiego per accesso bidirezionale e manipolazioni intermedie.
+
+Ogni implementazione del Forth fruisce di almeno due stack, lo stack dei parametri e lo stack di ritorno, data stack e return stack. Usualmente ne sono presenti almeno tre o più, ai suddetti si aggiunge quasi sempre lo stack in virgola mobile, floating point stack, eventuali stack pivot o per usi supplementari, e gli stack locals. Il Gforth, per esempio, che è un'implementazione di pubblico dominio attivamente sviluppata, utilizza quattro stack, il quarto è il locals, che in sostanza funge da return stack per valori in virgola mobile e aggira alcune limitazioni di gestione del return stack in situazioni particolari.
+
+Quando si parla solo di "stack", senza specificare, per antonomasia e di default lo stack del Forth è lo stack dei parametri.
+
+Relazione con l'Assembly
+Le implementazioni più puriste sono basate sull'Assembly, la velocità di esecuzione è altissima, tanto che in passato era considerato il linguaggio più veloce in esecuzione dopo l'Assembly o al pari dell'Assembly. Attualmente questa caratteristica è dipendente dalla tipologia di implementazione, in quanto le versioni riscritte in C o altri linguaggi per ragioni di portabilità pur avendo spesso un'elevata efficienza possono non raggiungere le performance di linguaggi compilati imperativi e procedurali quale il C.
+
+L'Assembler incorporato
+Molte versioni non minimali incorporano anche un Assembler con relativo sistema di gestione ben integrato con l'ambiente della modalità Forth, tanto da poterli combinare agevolmente assieme senza problemi.
+
+L'autocompilazione e la cross-compilazione
+A causa del fatto che utilizza l'autoespansione delle word verso l'Assembly, questo linguaggio non ha necessità dell'uso di un compilatore, in quanto il Forth è compilatore di se stesso e può combinare in modo granulare elementi compilati e interpretati, consente cross-compilazioni complesse e su cui si ha un forte controllo.
+
+La centralità del dizionario e i vocabolari
+La definizione di nuovi termini parte da un set di sistema o assiomatico al quale via via si aggiungono i nuovi lemmi, le words.
+
+L'engine dell'IDE gestisce nuovi termini e istruzioni nel dizionario (dictionary) di sistema, che può essere modificato, manipolato o "vitaminizzato" con aggiunte, istruzioni e librerie a piacimento.
+
+Un uso operativo può essere quello di controllo operativo di un device in domotica o come sistema embedded. Il classico esempio lanciato da Leo Brodie è quello di un comando per lavatrice elettrica domestica:
+
+WASHER WASH SPIN RINSE SPIN ;
+
+per programmare la funzionalità della macchina con la sequenza del programma di lavaggio.
+
+Invece, un uso non di controllo operativo può essere quello (spesso sfruttato in passato) di traduttore automatico di lingue nei dispositivi palmari per turisti. Per quest'ultimo scopo viene agevolmente impiegata la funzionalità dei vocabolari (vocabulary, vocabularies, wordlist) che consentono traduzioni rapide o il cambio di paradigma o il polimorfismo in maniera paragonabile all'overload degli operatori di altri linguaggi, ma in maniera più estesa e potente. È pertanto possibile, quindi, rendere l'operazione di somma applicabile anche nell'algebra matriciale o nelle composizioni vettoriali, o per esempio due numeri complessi. Una volta creato il set di una o più lingue (vocabolario) basta richiamare la nuova lingua per avere la traduzione automatica, funzionalità usata spesso a scopi tecnico-scientifici. Le word keyword vengono sommarizzate e indicizzate nella memoria dell'apposito summary.
+
+La notazione polacca inversa di Łukasiewicz-Hamblin
+Anche per tale ragione l'usuale operatività fa uso della notazione polacca di Łukasiewicz-Hamblin inversa (RPN), tranne che per alcuni costrutti funzionali (specialmente con l'uso dellexecution token) che usano la notazione polacca di Łukasiewicz semplice (di norma non pilotano direttamente lo stack).
+
+Questo significa che l'operatore è normalmente posposto agli operandi, ma anche che è possibile annidare cospicui livelli di operazioni matematica senza ricorrere alle parentesi, ma anche precalcolare in determinate e ricorrenti situazioni i valori parametrici intermedi delle formule prima di avere tutti i dati, per poi concludere i calcoli alla fine a dati finali ricevuti, con notevole vantaggio di ottimizzazione.
+
+Un esempio molto semplice di un'operazione aritmetica, per esempio la somma 5 + 7, è dato da:
+
+5 7 + .
+
+Il costrutto di definizione CREATE
+Per aumentare le potenzialità, l'espressività e l'uso, il Forth è dotato di meccanismi avanzati di creazione e gestione di definizioni e strutture astratte. Uno dei più importanti è il costrutto CREATE, una definizione che si avvale di due istruzioni speciali, CREATE, che crea una struttura astratta analoga a una classe, in cui vengono racchiuse le definizioni e i dati o una parte dei dati, paragonabile alle proprietà delle classi, e DOES>, che definisce comportamenti e azioni (paragonabile ai metodi delle classi).
+
+Alcune versioni e implementazioni del Forth hanno un ulteriore livello: le defining definition words, che servono a definire strumento per la definizione di nuovi oggetti o entità. In ogni caso non è difficile implemetarne una, come già dimostrava la rivista interna del FIG (Forth Interest Group) a fine anni '70 - inizio anni '80.
+
+L'execution token
+Il Forth consente la metainterpretazione semantica di una word con il token XT, che consente anche la commutazione di dati in codice e ha una funzionalità analoga al puntatore del C, ma con una grande flessibilità su manipolazione della memoria e compilazione, nonché una tecnica vagamente similare al subclassing.

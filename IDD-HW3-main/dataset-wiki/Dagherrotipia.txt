@@ -1,0 +1,42 @@
+La dagherrotipia fu il primo procedimento fotografico per lo sviluppo di immagini (tuttavia non riproducibili). Messo a punto dal francese Louis Jacques Mandé Daguerre (da cui trae il nome) da un'idea di Joseph Nicéphore Niépce e del figlio di questi, Isidore, venne presentato al pubblico il 19 agosto 1839 dallo scienziato François Arago, presso l'Académie des Sciences e l'Académie des Beaux Arts. Niépce aveva già realizzato una proto-fotografia nel 1826 tramite eliografia, la Vista dalla finestra a Le Gras.
+
+Realizzazione
+Il dagherrotipo si ottiene utilizzando una lastra di rame su cui è stato applicato elettroliticamente uno strato d'argento, quest'ultimo sensibilizzato alla luce con vapori di iodio. La lastra deve, quindi, essere esposta entro un'ora e per un periodo variabile tra i 10 e i 15 minuti.
+
+Lo sviluppo avviene mediante vapori di mercurio a circa 60&nbsp;°C, che rendono biancastre le zone precedentemente esposte alla luce. Il fissaggio conclusivo si ottiene con una soluzione di tiosolfato di sodio, che elimina gli ultimi residui di ioduro d'argento.
+
+L'immagine ottenuta, il dagherrotipo, non è riproducibile e deve essere osservata sotto un angolo particolare perché rifletta la luce in modo opportuno. Inoltre, a causa del rapido annerimento dell'argento e della fragilità della lastra, il dagherrotipo veniva racchiuso sotto vetro, all'interno di un cofanetto impreziosito da eleganti intarsi in ottone, pelle e velluto, volti anche a sottolineare il valore dell'oggetto e del soggetto raffigurato.
+
+Per ridurre i tempi di esposizione ed estendere così il campo d'applicazione della dagherrotipia anche al giornalismo, John Frederick Goddard utilizzò i vapori di bromo per aumentare la sensibilità della lastra, risultato che ottenne anche Antoine Claudet ma con i vapori di cloro. Comunque anche l'unione di queste due tecniche e di obiettivi più luminosi non permise un'esposizione inferiore ai dieci secondi.
+L'utilizzo di vapori di mercurio rese la produzione di dagherrotipi un procedimento pericoloso per la salute.
+
+Procedimento originale del 1840
+
+Di seguito, un estratto dal fascicolo Il Daguerrotipo, edizione del 1840 di Enrico Federico Jest, sul procedimento per la realizzazione di un dagherrotipo.
+
+Strumenti
+
+La fotocamera per la dagherrotipia era composta da una scatola di legno, una fessura per la lastra di rame sul retro e frontalmente un obiettivo fisso, in vetro e ottone. Quest'ultimo era inizialmente costruito sullo schema dell'ottico francese Charles Chevalier, possedeva una luminosità compresa tra f/11 e f/16 e la lunghezza focale era di 360mm. Nel 1840 Josef Petzval introdusse un nuovo obiettivo a quattro lenti e di elevata luminosità (f/3.7), che permise l'abbattimento dei tempi di esposizione. A seguito dell'estremo interesse suscitato dalla nuova tecnica, Daguerre, Niépce e A. Giroux fondarono una società per la produzione della strumentazione necessaria ad ottenere i dagherrotipi.
+
+Le immagini si formavano sulla lastra come riflesse, caratteristica che richiese l'adozione di alcuni accorgimenti per la composizione del dagherrotipo, come la sistemazione degli oggetti a destra per farli apparire a sinistra, oppure non includere del testo, per evitarne il capovolgimento. Nel 1840 Alexandre S. Wolcott inserì uno specchio concavo in fondo alla camera oscura, che riflettendo per la seconda volta l'immagine, ne restituisce il corretto posizionamento. Claudet contribuì alla soluzione con un prisma raddrizzatore dopo l'obiettivo.
+
+In Italia il primo esemplare della fotocamera di Daguerre raggiunse il laboratorio ottico di Alessandro Duroni poco dopo la presentazione di Arago. Con il nuovo strumento furono prese alcune vedute della città di Milano.
+
+Storia
+La dagherrotipia ottenne un notevole e rapido successo, permettendo di riprodurre fedelmente l'ambiente circostante. All'inizio erano predominanti i paesaggi e le nature morte, principalmente a causa dei lunghi tempi di esposizione necessari. Con l'affinarsi del procedimento e della realizzazione di obiettivi luminosi crebbero i ritratti e qualche timido tentativo di fotogiornalismo.
+
+In Italia
+Il primo esperimento di dagherrotipia in Italia fu tenuto il 2 settembre 1839 a Firenze con attrezzatura prodotta da Giroux, ma la tecnica ebbe immediata diffusione anche in città di media grandezza: ad esempio, già nel 1846 a Forlì era famoso il dagherrotipista Achille Manuzzi, come risulta da un discorso di Aurelio Saffi.
+
+L'8 ottobre 1839 a Torino, Enrico Federico Jest, insieme con il figlio Carlo Alessandro e con Antonio Rasetti, produsse alcuni dei dagherrotipi utilizzando una macchina autoprodotta, il primo apparecchio fotografico italiano; il primo scatto, oggi conservato presso la Galleria civica d'arte moderna e contemporanea, riprese il tempio della Gran Madre dall'allora Piazza Vittorio Emanuele I. Grazie alla traduzione del manuale di Daguerre ad opera dello stesso Jest, nel 1840, si formano numerosi altri studi per la produzione di strumenti per la dagherrotipia.
+
+Nonostante ciò in Italia la dagherrotipia fu utilizzata in misura minore rispetto alla popolarità di cui il processo godette in America. La produzione risulta quantitativamente inferiore anche rispetto alla Francia ed all’Inghilterra. In Italia il ritratto fotografico si affermò solo a partire dagli anni successivi al 1855, con le lastre al cotone collodio e le stampe carte de visite all’albumina. L'unico dagherrotipo a soggetto animale realizzato in Italia di cui si sia a conoscenza è quello dell'elefante Friz posseduto da Vittorio Emanuele II (Collezione Simeom C4400).
+
+Nel mondo
+In Spagna approdò il 10 novembre 1839, a Barcellona.
+
+In America la dagherrotipia, importata già nel 1839 da Samuel Morse e Francois Gourard, allievo di Daguerre, ottenne un vasto successo. Fu utilizzata per ritrarre i membri del Congresso e i territori di confine con il Canada, per mano di Edward Anthony e cinque dagherrotipi fecero conoscere le cascate del Niagara al mondo. All'Esposizione universale di Londra la qualità dei dagherrotipi americani fecero guadagnare agli Stati Uniti tre medaglie su cinque.
+
+Nel 1850 uscì a New York il primo numero del The Daguerreian journal devoted to the Daguerreian an photographic art, giornale di fotografia.
+
+Dal 1855, con l'introduzione delle nuove tecniche al collodio umido e all'albumina, la dagherrotipia perse interesse, anche se utilizzata sino a fine secolo.

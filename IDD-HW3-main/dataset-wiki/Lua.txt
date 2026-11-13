@@ -1,0 +1,37 @@
+Lua è un linguaggio di programmazione dinamico, riflessivo, imperativo e procedurale, utilizzato come linguaggio di scripting di uso generico.
+
+Storia
+Lua è stato creato nel 1993 da Roberto Ierusalimschy, Luiz Henrique de Figueiredo e Waldemar Celes, membri del Tecgraf/PUC-RIO, il gruppo di Tecnologia em Computação Gráfica presso la Pontifícia Università Cattolica di Rio de Janeiro, in Brasile. Versioni di Lua precedenti alla versione 5.0 furono pubblicate sotto licenza simile alla licenza zlib. Dalla versione 5.0 Lua è stato pubblicato sotto licenza MIT.
+
+In un articolo pubblicato in Dr. Dobb's Journal, i creatori di Lua affermavano che Lisp e Scheme con la loro tipica struttura dati, la lista, hanno avuto la maggiore influenza sulla decisione di adottare la tabella come struttura dati primaria in Lua.
+
+Lua è stato usato in molte applicazioni, commerciali e non.
+
+Caratteristiche del linguaggio
+Le caratteristiche principali di Lua sono le funzioni, viste come "oggetti" di primo livello e quindi assegnabili a variabili, e l'uso di tabelle come strutture dati generiche.
+Queste caratteristiche permettono al linguaggio di implementare caratteristiche viste in linguaggi di programmazione orientata agli oggetti senza che lo stesso lo sia.
+
+Esempi
+Il classico programma "Hello world" può essere scritto come:
+
+Il fattoriale è un esempio di funzione ricorsiva:
+
+Questo esempio mostra come sia possibile, in Lua, ridefinire le funzioni del linguaggio:
+
+Qualunque futura chiamata alla funzione print farà ora riferimento alla nuova funzione, e la vecchia funzione sarà accessibile soltanto dalla nuova versione della stessa.
+
+Questo esempio mostra una caratteristica di Lua: la possibilità di definire dinamicamente tabelle (la struttura dati usata dal linguaggio). In questo caso si tratta di una tabella che associa al valore fibs[n] l'ennesimo numero di Fibonacci.
+
+Impiego
+Lua è usato molto spesso in ambito PSP per la programmazione di Homebrew.
+La piattaforma NUT di Cedac Software consente di realizzare embedded Applications tramite il linguaggio Lua.
+I giochi disponibili su Roblox sono scritti interamente con Lua.
+Alcuni framework per lo sviluppo di videogiochi 2D utilizzano il linguaggio Lua: tra questi Defold, Love2D e Solar2D.
+La scheda di prototipazione Esp8266 è programmabile in Lua, tramite il firmware contenuto nella piattaforma IoT NodeMCU.
+I motori grafici GameGuru e GameGuru Max basano la programmazione e i comportamenti di oggetti e personaggi in linguaggio Lua.
+il motori grafici Visionaire Studio per la programmazione di videogiochi punta e clicca si basa sul linguaggio Lua.
+Il desktop environment per Linux Hyprland basa le proprie configurazioni su Lua
+
+Citazioni
+
+Nel videogioco Fuga da Monkey Island, lo Scumm Bar diventerà un raffinato sushi bar ed il nome verrà cambiato in Lua Bar, a sottolineare l'adozione del nuovo linguaggio di scripting in GrimE, il Lua.

@@ -1,0 +1,5 @@
+Hot Soup Processor (HSP) è un linguaggio di programmazione giapponese, creato nel 1994.
+Sviluppo e diffusione
+In principio si basava sul BASIC, ma da quest'ultimo si è discostato in modo significativo negli anni a seguire. È freeware dal 1996, e in seguito è stato concesso in uso come software open source, nei termini della licenza BSD.
+
+L'HSP è utilizzato nell'insegnamento della programmazione nelle scuole giapponesi, data la notevole semplicità che lo caratterizza.

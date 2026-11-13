@@ -1,0 +1,58 @@
+Un linguaggio di programmazione ad alto livello, in informatica, è un linguaggio di programmazione caratterizzato da una significativa astrazione dai dettagli del funzionamento di un calcolatore e dalle caratteristiche del linguaggio macchina. Il livello di astrazione definisce quanto sia di "alto livello" un linguaggio di programmazione.
+
+Storia
+L'idea di un linguaggio automaticamente "traducibile" in linguaggio macchina, ma più vicino alla logica umana fu introdotta in informatica negli USA a partire dal 1950, soprattutto grazie al lavoro di John Backus (IBM), a cui si deve il primo linguaggio ad alto livello ad avere avuto ampia diffusione, il Fortran. Per questa innovazione Backus ha ricevuto il premio Turing.
+
+Descrizione
+Sono progettati per essere facilmente comprensibili dagli esseri umani, fino a includere alcuni elementi del linguaggio naturale. Per essere eseguiti da un calcolatore, i programmi scritti in linguaggio ad alto livello devono essere tradotti o interpretati da un altro programma.
+
+In generale, la maggior parte dei linguaggi di programmazione ad alto livello moderni conserva alcuni concetti di fondo che è possibile ricondurre ad alcune caratteristiche tipiche del linguaggio macchina. Concetti come quelli di variabile e assegnamento sono una versione astratta dello spostamento di dati fra celle di memoria; e il fatto che il paradigma di programmazione dominante sia quello imperativo si può facilmente giustificare con la considerazione che anche i linguaggi macchina sono imperativi.
+
+Problemi del linguaggio macchina
+I linguaggi macchina sono formati da istruzioni elementari, che vengono codificate in forma numerica e che consentono di effettuare operazioni aritmetiche, conversioni di bit e poco altro. Scrivere programmi in tale linguaggio è quindi estremamente sconveniente: un'operazione basilare può richiedere anche tre o quattro istruzioni; si rende così necessario molto codice anche per i programmi più semplici. Il fatto che tale codice sia solamente numerico comporta inoltre grosse possibilità di errori e difficoltà nell'individuarne. È necessario inoltre avere continuamente a che fare con le caratteristiche fisiche della macchina in cui si programma: bisogna ad esempio specificare manualmente gli indirizzi di memoria in cui salvare le informazioni e i registri del processore in cui mantenere i dati temporanei.
+
+Infine, ogni computer può comprendere solo il proprio linguaggio macchina, poiché esso è diverso da processore a processore. Esiste quindi anche lo svantaggio di dover riscrivere interamente un programma per farlo funzionare su un'altra piattaforma.
+
+Impatto dei linguaggi ad alto livello
+L'idea dei linguaggi ad alto livello è già sottesa ai linguaggi assembly, che tuttavia non sono altro che "traslitterazioni" dei corrispondenti linguaggi macchina, che per esempio fanno corrispondere un codice mnemonico (quindi più leggibile) a ogni codice di istruzione binario. Nei linguaggi di programmazione ad alto livello veri e propri, invece, una singola istruzione consente di effettuare un'operazione semplice, ma completa. Le istruzioni non sono in forma numerica, sono bensì parole (generalmente in lingua inglese), il cui significato corrisponde all'operazione che effettuano. A differenza dei linguaggi assembly, quindi, il processo di traduzione può avere una complessità arbitraria, per cui il linguaggio ad alto livello può essere anche completamente diverso (per sintassi e semantica) dal sottostante linguaggio macchina.
+
+In sostanza, la programmazione ad alto livello ebbe l'effetto di svincolare completamente (o quasi) le caratteristiche dei linguaggi di programmazione da quelle dell'hardware destinato a eseguirli. Fra le conseguenze principali si possono elencare le seguenti:
+
+la progettazione di processori fu completamente liberata da qualsiasi requisito relativo alla leggibilità dei linguaggi macchina, in quanto si poteva ragionevolmente assumere che nessuno (o quasi) avrebbe più scritto o letto direttamente codice in linguaggio macchina o assembly; l'efficienza divenne di fatto l'unica preoccupazione reale dei progettisti hardware;
+i linguaggi di programmazione ad alto livello ebbero un'evoluzione completamente indipendente da quella dell'hardware; lo scopo generale di tale evoluzione fu quello di rendere tali linguaggi sempre più "facili" da utilizzare per il programmatore umano;
+si introdusse il concetto che i linguaggi di programmazione e i programmi potessero essere portabili, ovvero eseguibili su diversi computer (a patto di disporre di compilatori o interpreti per tali computer).
+
+Modelli di esecuzione
+Un linguaggio ad alto livello, per definizione, non è direttamente "eseguibile" da parte del calcolatore. L'esecuzione dei linguaggi ad alto livello si può basare su due principali modelli, compilazione e interpretazione, che ammettono alcune varianti e possono essere combinati fra loro.
+
+Compilazione
+In questo modello viene usato un programma detto compilatore, la cui funzione è quella di tradurre il programma sorgente (ovvero nel linguaggio ad alto livello) in un programma in linguaggio macchina equivalente (ovvero che esibisce lo stesso comportamento). Il risultato della traduzione è quindi un programma scritto nel linguaggio macchina locale, che può essere eseguito direttamente dal calcolatore. A valle della traduzione, sorgente e compilatore non sono più necessari per l'esecuzione del programma. Il costo della traduzione in linguaggio macchina (in termini di tempo e memoria necessari per portarla a termine) viene "pagato" solo durante la fase di compilazione. Il risultato della compilazione è "non portabile", essendo generato in uno specifico linguaggio macchina (e per uno specifico sistema operativo).
+
+Interpretazione
+In questo modello viene usato un programma detto interprete, la cui funzione è quella di interpretare le istruzioni del programma sorgente ed eseguirle. A differenza del compilatore, l'interprete non produce mai un eseguibile. Di conseguenza, interprete e sorgente sono sempre necessari a ogni esecuzione del programma. Questo approccio consente una maggiore portabilità (lo stesso programma può essere eseguito su diversi calcolatori e diversi sistemi operativi, a patto che sia disponibile un interprete) ma ha generalmente prestazioni inferiori (poiché il costo dell'analisi e dell'interpretazione del codice sorgente viene pagato durante l'esecuzione).
+
+Transcompilazione
+In questo modello viene usato un programma detto transcompilatore, la cui funzione è quella di tradurre un programma sorgente scritto in un linguaggio ad alto livello in un programma scritto in un altro linguaggio ad alto livello (ovvero, di livello paragonabile). L'esecuzione avviene poi secondo il modello previsto per il linguaggio "di arrivo" del processo di transcompilazione.
+
+Approcci ibridi
+Molti linguaggi moderni (per esempio Java) adottano un approccio ibrido fra compilazione e interpretazione, in cui il codice sorgente viene "compilato" in un linguaggio intermedio, molto vicino al linguaggio macchina, che viene poi interpretato da un programma che ha un funzionamento molto simile a quello di un processore fisico. Questo approccio si distingue dalla transcompilazione perché il linguaggio di arrivo, pur non essendo linguaggio macchina in senso stretto, non è un linguaggio ad alto livello (e in genere è un linguaggio progettato appositamente e non destinato all'uso diretto da parte di un programmatore).
+
+Livelli di astrazione
+Un linguaggio di programmazione può essere descritto come "più ad alto livello" di un altro se si discosta in modo più radicale dalle caratteristiche tipiche del linguaggio macchina. In questo senso, si possono in linea di principio classificare tutti i linguaggi in funzione del loro livello di astrazione. In gran parte, una tale classificazione rispecchierebbe da vicino l'evoluzione storica dei linguaggi e dei paradigmi di programmazione, con i linguaggi più antichi (FORTRAN, Cobol) evidentemente più vicini al linguaggio macchina rispetto alle ultime generazioni di linguaggi a oggetti come Java o Python.
+
+Questi ultimi linguaggi furono categorizzati negli anni 90 come linguaggi ad altissimo livello, ma la terminologia è caduta in disuso, perché, proprio in virtù dell'evoluzione storica, un linguaggio definito "ad alto livello" alla sua nascita in seguito diventa di "basso livello"; un esempio fra tutti è quello del C.
+
+Fra i linguaggi a più alto livello in assoluto vanno probabilmente citati quelli corrispondenti a paradigmi di programmazione di origine matematica, come i linguaggi funzionali (LISP) e logici (Prolog).
+
+Livello di astrazione ed efficienza
+
+C'è chi dice che, in termini almeno generali, quanto più complessa è la traduzione da un dato linguaggio al linguaggio macchina, tanto più inefficiente tende a essere il linguaggio (in quanto il programmatore perde ogni percezione, anche indiretta, di ciò che accadrà realmente, a livello hardware, quando il programma verrà eseguito; e di conseguenza perde anche ogni possibilità di "ottimizzare" tale esecuzione).
+
+Questa perdita di efficienza del software, tuttavia, si considera generalmente un costo accettabile per ottenere una serie di benefici (per alcuni dei quali si potrebbe usare ancora il termine "efficienza", seppure con connotazione leggermente diversa):
+
+i linguaggi di alto livello forniscono tempi di sviluppo molto contenuti;
+la distanza concettuale fra l'analisi e l'implementazione si riduce, con conseguente riduzione del rischio di non corretta traduzione delle specifiche in codice;
+gli errori logici si individuano più facilmente, essendo espressi nella logica del dominio del problema;
+si evitano per lo più gli errori macchina che sono intercettati e segnalati opportunamente dal linguaggio di alto livello;
+i tempi di esecuzione possono migliorare con l'efficienza degli algoritmi (il rischio, nel caso opposto è quello di eseguire velocemente algoritmi inefficienti);
+i profiler forniscono informazioni dettagliate su quali siano i colli di bottiglia, si valuterà se è necessario tradurne o riscriverne quelle parti in linguaggi di programmazione che ne consentano una esecuzione più rapida, avendo già ottenuto e verificato specifiche chiare e certe.

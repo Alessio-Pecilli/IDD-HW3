@@ -1,0 +1,65 @@
+Lexico è un linguaggio di programmazione didattico basato sulla lingua spagnola (come il Microsoft Small Basic lo è per la lingua inglese) per semplificare l'apprendimento e l'insegnamento della programmazione orientata agli oggetti a studenti madrelingua spagnoli.
+
+La sua forma esteriore è semplice e versatile. Il compilatore, disponibile sul suo sito web, è ridistribuibile e gira su piattaforma .NET di Microsoft. L'interfaccia è semplice ed evita le complicazioni ai principianti.
+
+Consente con sufficiente semplicità di addentrarsi nei concetti di base degli algoritmi affinché le persone possano utilizzare le strutture logiche fondamentali con una sintassi vicina alla propria lingua (le sequenze con {....}, le decisioni con es..? ed i cicli di ripetizione con mientras) e la classica struttura di rappresentazione delle informazioni composte, chiamate di funzioni ed arrangiamento.
+
+Il nucleo centrale e l'orientamento alla programmazione ad oggetti (con un supporto adeguato e semplificato al massimo) consente di agevolare nell'immersione nei concetti.
+
+Gli oggetti possono essere costruiti sulla base di due classi fondamentali, numeri e caratteri, o su classi create dal programmatore stesso, o ancora su una delle 7000 definite nella piattaforma .NET ed altri assembly sotto forma di dll (librerie di collegamento dinamico) create da terze parti; questo permette di sviluppare applicazioni complesse che includono controlli, gestione grafica e degli eventi.
+
+Le classi possono essere definite nel programma o in file esterni e per ereditarietà da una classe base. Quelle che non sono state definite nel assembly principale vengono incorporate con l'istruzione incluya (includere).
+
+La versione 3.0 di Lexico consente la generazione di codice eseguibile per tutta la piattaforma .NET, CF .NET (Compact Framework) il che lo rende utile per la produzione di programmi per Windows Mobile (WM), Windows CE per Pocket PC e smartphone.
+
+Istruzioni
+Per semplicità il linguaggio si basa su appena 8 istruzioni:
+Muestre: visualizza in una finestra alcune informazioni:
+Muestre resultado
+Muestre resultado1, resultado2
+Muestre "Nombre: ", nombre
+Es un: definisce le variabili:
+el objeto precio es una cantidad
+el objeto artículo es un caracter
+los objetos nombre, apellido son caracteres
+los objetos nombre, apellido son caracteres
+el objeto arturito es un robot
+el objeto Lola es una persona
+
+Entre: permette di ricevere dati dall'utente finale e conservarne i valori nelle variabili:
+Entre precio
+Entre nombre, apellido
+
+Copie: permette di valutare un'espressione e portarne il risultato in una o più variabili di tipo oggetto:
+copie 23 en radio
+copie precio*(1+IVA/100) en precioconiva
+copie nombre en ganador
+copie esto en recipiente_uno, recipiente_dos
+
+Es ?: permette l'esecuzione di codice differente in base ad una particolare condizione logica:
+es a<17 ?
+si: muestre "Cumple"
+no: muestre "lo siento pero estás fuera !"
+Se non è necessaria una delle due sequenze è possibile ometterla.
+
+Mientras: Ripete una sequenza di istruzioni mentre la sua valutazione risulta vera:
+mientras x <= 400 haga
+{
+/* Qui andranno le istruzioni da ripetere */
+}
+
+Objeto.mensaje: Invia un messaggio (mensaje) dall'oggetto (Objeto) ad un altro o di eseguire un proprio algoritmo o comportamento:
+pedro.Baile
+robot.SubaElBrazo
+robot.VayaA(40, 200)
+Clase: definisce una nuova classe di oggetti.
+clase Persona
+{
+/* Qui andrà la descrizione di come sarà un oggetto di tipo Persona
+ed i suoi comportamenti */
+}
+
+Svantaggi
+Dal punto di vista didattico, l'inconveniente principale è che questo linguaggio funziona solo su piattaforme Windows .NET, escludendo, di fatto, tutti gli istituti che stanno implementando soluzioni differenti basate per esempio su Linux o altri sistemi operativi.
+
+Non è chiara la licenza né esiste il codice sorgente della piattaforma, inoltre non esiste un documento unificato ed ufficiale della definizione del linguaggio (solo pagine singole che mostrano alcuni aspetti del linguaggio).

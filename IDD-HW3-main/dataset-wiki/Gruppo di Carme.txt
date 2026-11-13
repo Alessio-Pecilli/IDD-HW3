@@ -1,0 +1,43 @@
+Si definisce gruppo di Carme l'insieme dei satelliti naturali di Giove che condividono parametri orbitali simili a quelli di Carme e che si ritiene abbiano avuto una origine comune.
+
+I loro semiassi maggiori vanno da 22,9 a 24,1 milioni di chilometri, le loro inclinazioni orbitali da 164,9° a 165,5°, le loro eccentricità orbitali da 0,23 a 0,27 (con una eccezione). Si tratta inoltre di satelliti in moto retrogrado rispetto a quello dell'orbita del pianeta.
+
+L'Unione Astronomica Internazionale (IAU) riserva i nomi terminanti in -e per tutti i satelliti retrogradi, compresi quelli di questo gruppo. Nella nomenclatura in italiano, questa regola non viene sempre rispettata.
+
+Componenti
+I ventidue membri del gruppo sono (in ordine di distanza da Giove):
+
+S/2011 J 1
+Erse
+Etna (Aitne)
+Cale
+Taigete
+S/2003 J 19
+Caldene
+S/2003 J 10
+Erinome
+Callicore
+S/2017 J 5
+S/2017 J 8
+Calice
+Carme, il più grande, che dà nome al gruppo
+S/2017 J 2
+Pasitea (Pasithee)
+S/2010 J 1
+Eucelade
+Arche
+Isonoe
+S/2003 J 9
+Eirene
+
+S/2003 J 10 si distingue nel gruppo a causa della sua grande eccentricità (0,4295). A parte ciò, questo gruppo è notevolmente omogeneo.
+
+Membri principali
+I parametri orbitali per i principali membri del gruppo sono (il segno meno davanti al periodo indica che l'orbita è retrograda):
+
+Origine
+La bassa dispersione statistica dei parametri orbitali medi dei componenti (la dispersione è inferiore a 700.000&nbsp;km per quanto riguarda i semiassi maggiori e inferiore a 0,7° per l'inclinazione) suggerisce che il gruppo di Carme possa essere stato in origine un singolo corpo celeste che è stato frantumato da un impatto collisionale. La ridotta dispersione può essere spiegata da un basso impulso di velocità (5 < δV < 50&nbsp;m/s), compatibile con una singola collisione e conseguente frammentazione.
+
+Sulla base delle dimensioni dei satelliti esistenti, l'asteroide progenitore dovrebbe aver avuto un diametro di circa 46&nbsp;km. Questo valore corrisponde quasi al diametro di Carme, indicando quindi che il corpo dell'asteroide non fu pesantemente frammentato. Il 99% della massa del gruppo infatti è localizzata in Carme.
+
+Ulteriore supporto all'ipotesi dell'origine da un corpo singolo viene dal colore: ad eccezione di Calice che è significativamente più rosso, tutti gli altri satelliti hanno un colore rossastro con indice di colore B-V= 0.,76 e V-R= 0,47 e spettro infrarosso simile a quello degli asteroidi di tipo D. Questi dati fanno ipotizzare come un progenitore un asteroide della famiglia Hilda o un asteroide troiano.

@@ -1,0 +1,15 @@
+Sandbox è un termine utilizzato in ambito informatico, è un ambiente di prova, spesso slegato dal normale flusso di ambienti predisposti per lo sviluppo e il test delle applicazioni. Il termine è mutuato dalla lingua inglese, nella quale indica il recinto della sabbia destinato ai giochi dei bambini (sabbiera).
+
+Descrizione
+Esso identifica generalmente un ambiente estraneo, diverso da quelli elencati, in cui possono essere fatte sperimentazioni che potrebbero non portare neppure ad aprire una fase di sviluppo, e il cui scopo è quello di investigare sugli effetti di eventuali modifiche o sviluppi che sono ancora nella fase di "studio della fattibilità" o di "analisi costi-benefici".
+
+In ambito informatico, una nuova applicazione o una modifica ad una applicazione esistente viene prima sviluppata nell'ambiente di sviluppo (development environment), poi testata in un ambiente apposito (test environment), infine verificato il corretto funzionamento in un ambiente di qualità (quality environment), in cui siano presenti dati copiati recentemente da un ambiente di produzione (live environment o production environment), per poi essere trasferita (delivery) definitivamente nell'ambiente di produzione. I dati copiati dalla produzione all'ambiente di qualità, se del caso sono trattati al fine di non esporli per esteso in un ambiente che solitamente non ha le adeguate caratteristiche di sicurezza.
+
+Il concetto è stato adottato dal linguaggio Java, dove sta ad indicare l'ambiente controllato messo a disposizione dalla JVM, nel quale vengono eseguite le Java applet. Questo ambiente mette a disposizione della applet solo un sottoinsieme controllato e limitato delle effettive risorse del computer sulla quale la JVM è in esecuzione, impedendo quindi alla applet di eseguire operazioni potenzialmente "pericolose" per l'integrità del sistema. Questo approccio si sta estendendo in certi ambienti anche alle applicazioni non Java, in modo da renderle più sicure. Apple, ad esempio, sta imponendo ai propri sviluppatori, per ragioni di sicurezza, di modificare le proprie applicazioni presenti nel Mac App Store in modo da renderle "sandboxed".
+
+Utilizzo nei videogiochi
+Il termine sandbox in ambito videoludico viene spesso usato anche in videogiochi che utilizzano livelli liberamente esplorabili, senza muri invisibili, completabili in diversi modi. L'uso di questo termine per tali giochi deriva dal fatto che ogni livello è visto come una "scatola di sabbia" dove non essendoci vincoli ogni approccio è possibile.
+
+Ad esempio, esso indica un tipo di gioco che mette numerosi strumenti e possibilità a disposizione dei giocatori, senza imporre un particolare obiettivo da raggiungere o senza una trama da seguire, lasciandolo libero di modificare il mondo di gioco. Il termine comprende anche i giochi a "mondo aperto" (open world) ma solo quelli in cui si possa modificare il mondo che circonda i personaggi.
+
+Titoli Sandbox famosi sono Minecraft e Terraria.

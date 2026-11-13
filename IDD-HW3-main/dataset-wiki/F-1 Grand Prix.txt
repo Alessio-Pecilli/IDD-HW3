@@ -1,0 +1,83 @@
+è un videogioco di guida sviluppato e pubblicato nel 1991 dalla Video System.
+
+Un classico dei videogiochi arcade inerenti alla Formula 1, F-1 Grand Prix è il seguito di Tail to Nose ma anche il gioco che dà il nome della serie stessa di videogiochi di guida, grazie al definitivo miglioramento del gameplay e all'acquisizione, attraverso la collaborazione con Fuji Television, dei diritti sullo sfruttamento dei nomi reali di scuderie, piloti, sponsor e circuiti del Campionato Mondiale di Formula 1 1991.
+
+L'italiana Playmark realizzò un bootleg con il medesimo titolo.
+
+Il gioco ebbe anche una versione per Super Nintendo, distribuita solo in Giappone.
+
+Sistema di gioco
+Il gioco riprende per intero la giocabilità di Tail to Nose con gli opportuni miglioramenti grafici e l'incremento del numero di circuiti, che in F-1 Grand Prix sono un totale di sedici. È stata tolta la differenziazione tra categorie di motori delle scuderie selezionabili, e in basso a destra abbiamo costantemente un tachimetro digitale; è stato rimosso anche il danneggiamento della monoposto, anche per il fatto che una pecca di questa ottima simulazione è la fisica delle collisioni tra i veicoli e l'intelligenza artificiale, dove il giocatore appare sempre in handicap sui contatti contro gli altri veicoli e le auto guidate dalla CPU non si fanno problemi a scontrarsi con il giocatore, cercando sempre di seguire una determinata scia guida del circuito.
+
+Ad inizio gioco il giocatore deve scegliere la modalità di gioco tra "World Grand Prix" e "Free Run": con la prima si partecipa al Campionato Mondiale di Formula Uno che prevede quattro differenti Gran Premi, con la seconda modalità si effettua un'unica gara su un circuito a scelta tra i sedici disponibili; nella modalità "World Grand Prix" il giocatore può scegliere tra quattro differenti gruppi di quattro Gran Premi ciascuno nei quali gareggiare.
+Successivamente il giocatore ha la possibilità di scegliere un pilota tra dodici di sei differenti scuderie, ovvero Ferrari, McLaren, Williams, Benetton, Tyrrell e Larrousse; in gara i piloti saranno un totale di ventisei.
+
+Ogni Gran Premio prevede una prima parte di qualificazione, nella quale si deve ottenere il miglior tempo possibile in un solo giro, con un tempo limite entro il quale terminare il giro stesso; in base al risultato si viene posizionati sulla griglia di partenza del Gran Premio stesso.
+Il Gran Premio può prevedere un numero di giri totale pari a tre o quattro; si ha un tempo limite per terminare ogni giro, e si accede al Gran Premio successivo solamente se si arriva sul podio; se si arriva tra i primi sei si ottiene un punteggio valevole per la classifica del Mondiale, come nella realtà.
+
+Scuderie e piloti
+Selezionabili
+Ferrari
+27 - Alain Prost
+28 - Jean Alesi
+McLaren
+&nbsp;1 - Ayrton Senna
+&nbsp;2 - Gerhard Berger
+Williams
+&nbsp;5 - Nigel Mansell
+&nbsp;6 - Riccardo Patrese
+Benetton
+19 - Roberto Moreno
+20 - Nelson Piquet
+Tyrrell
+&nbsp;3 - Satoru Nakajima
+&nbsp;4 - Stefano Modena
+Larrousse
+29 - Éric Bernard
+30 - Aguri Suzuki
+
+Altri piloti
+&nbsp;7 - Martin Brundle, Brabham
+&nbsp;8 - Mark Blundell, Brabham
+&nbsp;9 - Michele Alboreto, Footwork
+10 - Alex Caffi, Footwork
+11 - Mika Häkkinen, Lotus
+12 - Johnny Herbert, Lotus
+15 - Maurício Gugelmin, Leyton House
+16 - Ivan Capelli, Leyton House
+23 - Pierluigi Martini, Minardi
+24 - Gianni Morbidelli, Minardi
+25 - Thierry Boutsen, Ligier
+26 - Érik Comas, Ligier
+32 - Bertrand Gachot, Jordan
+33 - Andrea De Cesaris, Jordan
+
+Circuiti
+Monza
+Hockenheim
+Montreal
+Silverstone
+
+Imola
+Spa
+Budapest
+Suzuka
+
+Città del Messico
+Barcellona
+Magny-Cours
+Phoenix
+
+Adelaide
+Interlagos
+Estoril
+Montecarlo
+
+Serie
+Tail to Nose (1989)
+F-1 Grand Prix (1991)
+F-1 Grand Prix Part II (1992)
+F-1 Grand Prix Part III (1994)
+SD F-1 Grand Prix (1995)
+F-1 World Grand Prix (1998)
+F-1 World Grand Prix II (2000)

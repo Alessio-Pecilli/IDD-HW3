@@ -1,0 +1,100 @@
+LHigh Level Shader Language o HLSL è un linguaggio sviluppato da Microsoft per la creazione di shader da usare in DirectX, ed è molto simile al linguaggio Cg di NVIDIA.
+
+LHLSL permette di scrivere complessi calcoli grafici che possono essere eseguiti molto velocemente dalla GPU, e rappresenta inoltre il primo passo per una pipeline grafica completamente programmabile. Un linguaggio analogo, il GLSL (OpenGL Shading Language), è presente nelle librerie grafiche OpenGL.
+
+Struttura dell'HLSL
+L'HLSL nasce come risposta all'esigenza di scrivere shader più velocemente che con il linguaggio asm.
+
+Questo ha una sintassi C-Like, con le dovute modifiche e integrazioni.
+
+Uno shader di esempio
+float4x4 matTotal: worldviewprojection;
+float4x4 matWorld: world;
+texture Text;
+sampler TextSampler = sampler_state
+{
+texture = ;
+MIPFILTER = linear;
+MAGFILTER = linear;
+MINFILTER = linear;
+};
+struct VS_OUT
+{
+float4 Pos : POSITION;
+float2 Tex : TEXCOORD0;
+};
+struct VS_IN
+{
+float4 Pos : POSITION;
+float2 Tex : TEXCOORD0;
+};
+VS_OUT vs_main (VS_IN Input)
+{
+VS_OUT Output = (VS_OUT) 0;
+Output.Pos = mul(Input.Pos,matTotal);
+Output.Tex = Input.Tex;
+return Output;
+}
+struct PS_IN
+{
+float2 Tex : TEXCOORD0;
+};
+float4 ps_main(PS_IN Input) : COLOR0
+{
+return tex2D(TextSampler,Input.Tex);
+}
+technique SimpleShader
+{
+pass P0
+{
+VertexShader = compile vs_2_0 vs_main();
+PixelShader = compile ps_2_0 ps_main();
+}
+}
+
+Questo semplice shader non fa altro che posizionare un oggetto e applicargli una texture.
+
+Uno shader in HLSL è formato da technique, che a sua volta è formato da vari pass.
+Nel pass poi si specificano quali funzioni devono essere utilizzate e quale versione dello shader.
+
+Come si utilizza uno shader
+
+Caricamento di uno Shader
+Direct3D9 ha vari modi per creare uno shader.
+Le operazioni da fare, fondamentalmente, sono caricare lo shader, immettergli i valori che chiede (nel caso dello shader sopra, ha bisogno della matrice totale, della texture dell'oggetto da renderizzare e della matrice world.
+
+Nella libreria D3DX vi è la classe ID3DXEffect che gestisce uno shader. Senza questa classe, gli shader dovrebbero essere gestiti dalle classi IDirect3DVertexShader9 e IDirect3DPixelShader9
+
+Per caricare uno shader si può usare la funzione D3DXCreateEffectFromFile che prende tra gli argomenti un char * che indica in nome del file .fx da caricare.
+
+In alternativa è possibile usare D3DXCompileShaderFromFile o D3DXAssembleShaderFromFile, che compila e assembla uno shader da un file, creando una classe Pixel o Vertex Shader.
+
+Immissione dei valori richiesti
+
+Una volta caricato lo shader, si devono immettere i valori che intende.
+Nonostante ID3DXEffect fornisce varie funzioni di tipo set (SetTexture, SetMatrix, SetFloat), di solito si usa la funzione SetValue che prende un puntatore a void, il nome del valore da immettere e la dimensione del valore (che comunque è solo fittizio, viene usato solo per fare un confronto. Il più delle volte può essere inserita la macro D3DX_DEFAULT per evitare il controllo di dimensione e velocizzare il settaggio dei valori.)
+
+Supponiamo che Shader un puntatore a ID3DXEffect e matTotale una matrice totale di proiezione (ossia il prodotto tra matrice world, view e projection)
+
+Shader->SetValue("matTotal",&matTotale,sizeof(D3DXMATRIX);
+Shader->CommitChanges();
+
+Una volta immessi i vari valori, è necessario chiamare la funzione CommitChanges() per aggiornare lo shader.
+
+Utilizzo dello shader nel rendering
+
+Nella funzione del rendering, sarà necessario utilizzare lo shader per poterne vedere i risultati, in questo modo.
+
+Supponiamo che Shader sia il puntatore alla classe Shader, e sia Mesh un puntatore a una generica classe mesh.
+
+Shader->Begin(0,NULL); //Prepara lo shader per il rendering
+Shader->BeginPass(0); //Seleziona il pass da eseguire (P0)
+Shader->SetTexture("text",Mesh->Texture); //Inserisce la texture. Si può usare anche setvalue
+Shader->CommitChanges(); //Aggiorna lo shader con i risultati
+Mesh->DrawSubset(i); //Disegna la mesh
+Shader->EndPass(); //fine del pass
+Shader->End(); //fine dello shader.
+
+Versioni dell'HLSL
+Il linguaggio HLSL si è evoluto nel tempo, arrivando a toccare 4 versioni principali e varie secondarie.
+La differenza tra le versioni è essenzialmente il limite massimo di istruzioni, oltre a una serie di aggiunte importanti.
